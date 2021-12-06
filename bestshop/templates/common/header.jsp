@@ -32,8 +32,8 @@
     <div class="wrap">
     <!-- 헤더 -->
       <header class="header" role="header">
-        <div class="skip-navigation">
-          <a href="#content">본문으로 바로가기</a>
+        <div class="skip-content">
+          <a href="#content" id="skipToContent">본문으로 바로가기</a>
         </div>
         <div class="header-wrap">
           <div class="header-top">
@@ -43,7 +43,7 @@
                 <span>BEST SHOP</span>
               </a>
             </h1>
-            <div class="top-links">
+            <div class="utility">
               <!-- 마이 툴팁 -->
               <div class="my-tooltip">
                 <a href="#"><span class="blind">마이 툴팁</span></a>
@@ -471,8 +471,8 @@
               <!--// 모바일 메뉴 -->
 
             </div>
-            <div class="dimmed"></div>
           </div>
+          <div class="dimmed"></div>
           <!--// 전체 메뉴 -->
         </div>
       </header>

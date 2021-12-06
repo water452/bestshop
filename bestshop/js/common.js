@@ -28,8 +28,8 @@ $(document).ready(function() {
 
   // header GNB 메뉴 호버
   var menu =  $('.header-bottom .menu-wrap .pc-menu > li');
-  var myTooltiop =  $('.header-top .top-links .my-tooltip');
-  var companyMenu =  $('.header-top .top-links .util .about-company');
+  var myTooltiop =  $('.header-top .utility .my-tooltip');
+  var companyMenu =  $('.header-top .utility .util .about-company');
   menu.mouseover(function() {
     $(this).addClass('active').siblings().removeClass('active');
   });

@@ -41,7 +41,7 @@
 }
 
 /* 스킵 네비게이션 */
-.skip-navigation a {overflow:hidden; display:block; position:absolute; top:0; left:0; z-index:99; width:0; height:0; background:#000; font-size:16px; line-height:26px; color:#fff; text-align:center}
+.skip-content a {overflow:hidden; display:block; position:absolute; top:0; left:0; z-index:99; width:0; height:0; background:#000; font-size:16px; line-height:26px; color:#fff; text-align:center}
 
 /* 텍스트 정렬 */
 .tal {text-align:left !important}
@@ -102,8 +102,7 @@ table {border-collapse:collapse}
 
 /* 헤더 */
 .header-wrap {max-width:1760px; margin:0 auto}
-.header-wrap .header-bottom .dimmed {display:none; position:fixed; top:0; left:0; right:0; bottom:0; background-color:rgba(0,0,0,0.56); z-index:101}
-.header-wrap .header-bottom .menu-wrap.active + .dimmed {display:block}
+.header-wrap .dimmed {display:none; position:fixed; top:0; left:0; right:0; bottom:0; background-color:rgba(0,0,0,0.56); z-index:101}
 .header {background-color:#fff}
 .header-top {padding:18px 40px}
 .header-top::after {content:''; display:block; clear:both}
@@ -112,38 +111,38 @@ table {border-collapse:collapse}
 .header-top .logo a img {height:26px}
 .header-top .logo a span {display:inline-bl ock; padding-left:12px; color:#747474; font-size:18px; font-weight:700; line-height:27px}
 
-.header-top .top-links {float:right; display:flex}
-.header-top .top-links .my-tooltip {position:relative}
-.header-top .top-links .mobile-mypage {display:none}
-.header-top .top-links .my-tooltip .my-tooltip-layer {display:none}
-.header-top .top-links .my-tooltip.active .my-tooltip-layer {display:block}
-.header-top .top-links .my-tooltip > a {display:block; width:24px; height:24px; background:url(../images/icons/icon-person.svg) no-repeat center / contain}
-.header-top .top-links .my-tooltip .my-tooltip-layer {position:absolute; display:none; top:20px; left:50%; transform:translateX(-50%); padding-top:12px; z-index:200}
-.header-top .top-links .my-tooltip .my-tooltip-layer .my-tooltip-layer-inner {min-width:138px; padding:4px 0; border-radius:4px; background-color:#fff; box-shadow:0 4px 12px 0 rgba(0, 0, 0, 0.15)}
-.header-top .top-links .my-tooltip .my-tooltip-layer ul li a {display:block; padding:8px; font-size:14px; line-height:24px; text-align:center}
-.header-top .top-links .mobile-mypage > a {display:block; width:24px; height:24px; background:url(../images/icons/icon-person.svg) no-repeat center / contain}
-.header-top .top-links .my-tooltip .my-tooltip-layer ul li a:hover,
-.header-top .top-links .my-tooltip .my-tooltip-layer ul li a:focus,
-.header-top .top-links .my-tooltip .my-tooltip-layer ul li a:active {background-color:#f4f4f4}
-.header-top .top-links .my-tooltip .my-tooltip-layer .my-tooltip-shortcut {border-top:1px solid #ddd}
+.header-top .utility {float:right; display:flex}
+.header-top .utility .my-tooltip {position:relative}
+.header-top .utility .mobile-mypage {display:none}
+.header-top .utility .my-tooltip .my-tooltip-layer {display:none}
+.header-top .utility .my-tooltip.active .my-tooltip-layer {display:block}
+.header-top .utility .my-tooltip > a {display:block; width:24px; height:24px; background:url(../images/icons/icon-person.svg) no-repeat center / contain}
+.header-top .utility .my-tooltip .my-tooltip-layer {position:absolute; display:none; top:20px; left:50%; transform:translateX(-50%); padding-top:12px; z-index:200}
+.header-top .utility .my-tooltip .my-tooltip-layer .my-tooltip-layer-inner {min-width:138px; padding:4px 0; border-radius:4px; background-color:#fff; box-shadow:0 4px 12px 0 rgba(0, 0, 0, 0.15)}
+.header-top .utility .my-tooltip .my-tooltip-layer ul li a {display:block; padding:8px; font-size:14px; line-height:24px; text-align:center}
+.header-top .utility .mobile-mypage > a {display:block; width:24px; height:24px; background:url(../images/icons/icon-person.svg) no-repeat center / contain}
+.header-top .utility .my-tooltip .my-tooltip-layer ul li a:hover,
+.header-top .utility .my-tooltip .my-tooltip-layer ul li a:focus,
+.header-top .utility .my-tooltip .my-tooltip-layer ul li a:active {background-color:#f4f4f4}
+.header-top .utility .my-tooltip .my-tooltip-layer .my-tooltip-shortcut {border-top:1px solid #ddd}
 
-.header-top .top-links .util {position:relative; display:flex; margin-left:24px; padding-left:24px}
-.header-top .top-links .util::before {content:''; display:block; position:absolute; width:1px; height:14px; top:calc(50% - 7px); left:0; border-left:1px solid #ddd}
-.header-top .top-links .util .about-company {position:relative}
-.header-top .top-links .util .about-company > a {display:block; font-size:14px; line-height:24px}
-.header-top .top-links .util .about-company .about-company-layer {display:none}
-.header-top .top-links .util .about-company.active .about-company-layer {display:block}
-.header-top .top-links .util .about-company .about-company-layer {position:absolute; display:none; top:20px; left:50%; transform:translateX(-50%); padding-top:12px; z-index:200}
-.header-top .top-links .util .about-company .about-company-layer ul {min-width:138px; padding:4px 0; border-radius:4px; background-color:#fff; box-shadow:0 4px 12px 0 rgba(0, 0, 0, 0.15)}
-.header-top .top-links .util .about-company .about-company-layer ul li a {display:block; padding:8px; font-size:14px; line-height:24px; text-align:center}
-.header-top .top-links .util .about-company .about-company-layer ul li a:hover,
-.header-top .top-links .util .about-company .about-company-layer ul li a:focus,
-.header-top .top-links .util .about-company .about-company-layer ul li a:active {background-color:#f4f4f4}
-.header-top .top-links .util .outer-link {position:relative; margin-left:24px; padding-left:24px}
-.header-top .top-links .util .outer-link::before {content:''; display:block; position:absolute; width:1px; height:14px; top:calc(50% - 7px); left:0; border-left:1px solid #ddd}
-.header-top .top-links .util .outer-link ul {display:flex}
-.header-top .top-links .util .outer-link ul li + li {margin-left:24px}
-.header-top .top-links .util .outer-link ul li a {display:block; padding-right:18px; background:url(../images/icons/btn-outlink-16.svg) no-repeat right center; font-size:14px; line-height:24px}
+.header-top .utility .util {position:relative; display:flex; margin-left:24px; padding-left:24px}
+.header-top .utility .util::before {content:''; display:block; position:absolute; width:1px; height:14px; top:calc(50% - 7px); left:0; border-left:1px solid #ddd}
+.header-top .utility .util .about-company {position:relative}
+.header-top .utility .util .about-company > a {display:block; font-size:14px; line-height:24px}
+.header-top .utility .util .about-company .about-company-layer {display:none}
+.header-top .utility .util .about-company.active .about-company-layer {display:block}
+.header-top .utility .util .about-company .about-company-layer {position:absolute; display:none; top:20px; left:50%; transform:translateX(-50%); padding-top:12px; z-index:200}
+.header-top .utility .util .about-company .about-company-layer ul {min-width:138px; padding:4px 0; border-radius:4px; background-color:#fff; box-shadow:0 4px 12px 0 rgba(0, 0, 0, 0.15)}
+.header-top .utility .util .about-company .about-company-layer ul li a {display:block; padding:8px; font-size:14px; line-height:24px; text-align:center}
+.header-top .utility .util .about-company .about-company-layer ul li a:hover,
+.header-top .utility .util .about-company .about-company-layer ul li a:focus,
+.header-top .utility .util .about-company .about-company-layer ul li a:active {background-color:#f4f4f4}
+.header-top .utility .util .outer-link {position:relative; margin-left:24px; padding-left:24px}
+.header-top .utility .util .outer-link::before {content:''; display:block; position:absolute; width:1px; height:14px; top:calc(50% - 7px); left:0; border-left:1px solid #ddd}
+.header-top .utility .util .outer-link ul {display:flex}
+.header-top .utility .util .outer-link ul li + li {margin-left:24px}
+.header-top .utility .util .outer-link ul li a {display:block; padding-right:18px; background:url(../images/icons/btn-outlink-16.svg) no-repeat right center; font-size:14px; line-height:24px}
 
 .header-bottom .menu-wrap {display:flex; padding:0 40px}
 .header-bottom .menu-wrap .pc-menu > li {display:inline-block; vertical-align:top}
