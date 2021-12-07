@@ -976,9 +976,9 @@
       "memo": ""
     },
     {
-      "screenid": "BSF-EVE-ALL",
+      "screenid": "BSF-EVE-BSTAB",
       "dep1": "이벤트",
-      "dep2": "전체 이벤트",
+      "dep2": "베스트샵 이벤트",
       "dep3": "",
       "dep4": "",
       "func": "",
@@ -987,7 +987,7 @@
       "targetdate": "",
       "status": "미정",
       "finishdate": "",
-      "filename": "./event/index.jsp",
+      "filename": "./event/BSF-EVE-BSTAB.jsp",
       "memo": ""
     },
     {
