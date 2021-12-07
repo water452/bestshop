@@ -1,33 +1,29 @@
 <%@ page contentType="text/html; charset=utf-8" %>
-  <!doctype html>
-  <html data-countrycode="kr" dir="ltr" lang="ko">
+  <!DOCTYPE html>
+  <html lang="ko">
 
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <title>LG전자 베스트샵</title>
-    <!-- <meta property="fb:app_id" content="562434687259858"> -->
-    <meta name="description" content="LG전자에서 진행되는 이벤트, 기획전, 카드 혜택 그리고 LG전자 멤버십까지 다양한 혜택 정보를 확인하실 수 있습니다.">
-    <meta property="og:locale" content="ko_KR">
-    <meta property="og:site_name" content="LG전자 BEST SHOP">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="LG전자 BEST SHOP">
-    <meta property="og:description" content="">
-    <!-- <meta property="og:url" content="https://www.lge.co.kr/benefits">
-        <meta property="og:image" content="https://www.lge.co.krhttps://www.lge.co.kr/lg5-common/images/common/share/share-default.jpg"> -->
-    <meta name="twitter:card" content="summary">
-    <script type="text/javascript" src="/bestshop/js/libs/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="/bestshop/js/libs/swiper-bundle.min.js"></script>
-    <script type="text/javascript" src="/bestshop/js/common.js"></script>
-    <link rel="stylesheet" href="/bestshop/css/reset.min.css">
-    <link rel="stylesheet" href="/bestshop/css/common.css">
-    <link rel="stylesheet" href="/bestshop/css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="/bestshop/css/base.css">
-    <link rel="stylesheet" href="/bestshop/css/mobile.css">
-    <link rel="stylesheet" href="/bestshop/css/jy.css">
-  </head>
+    <head>
+      <meta charset="utf-8" />
+      <title>LG전자 베스트샵</title>
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta content="IE=edge" http-equiv="X-UA-Compatible">
+      <meta name="description" content="LG전자에서 진행되는 이벤트, 기획전, 카드 혜택 그리고 LG전자 멤버십까지 다양한 혜택 정보를 확인하실 수 있습니다.">
+      <meta name="twitter:card" content="summary">
+      <meta property="og:locale" content="ko_KR">
+      <meta property="og:site_name" content="LG전자 BEST SHOP">
+      <meta property="og:type" content="website">
+      <meta property="og:title" content="LG전자 BEST SHOP">
+      <meta property="og:description" content="">
+      <link rel="stylesheet" href="/bestshop/css/reset.min.css">
+      <link rel="stylesheet" href="/bestshop/css/common.css">
+      <link rel="stylesheet" href="/bestshop/css/swiper-bundle.min.css">
+      <link rel="stylesheet" href="/bestshop/css/base.css">
+      <link rel="stylesheet" href="/bestshop/css/mobile.css">
+      <link rel="stylesheet" href="/bestshop/css/jy.css">
+      <script type="text/javascript" src="/bestshop/js/libs/jquery-3.6.0.min.js"></script>
+      <script type="text/javascript" src="/bestshop/js/libs/swiper-bundle.min.js"></script>
+      <script type="text/javascript" src="/bestshop/js/common.js"></script>
+    </head>
 
   <body>
     <div class="wrap">
