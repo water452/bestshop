@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="/bestshop/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="/bestshop/css/base.css">
     <link rel="stylesheet" href="/bestshop/css/mobile.css">
+    <link rel="stylesheet" href="/bestshop/css/jy.css">
   </head>
 
   <body>
