@@ -5,6 +5,11 @@
   padding: 0;
 }
 
+.cont-wrap {
+  max-width: 1460px;
+  margin: 0 auto;
+}
+
 /*chk-wrap*/
 .chk-wrap {
   position: relative;
@@ -76,13 +81,18 @@
 }
 
 /*tabs*/
-
 .page-tabs {
   position: relative;
   max-width: 1460px;
   margin: 0 auto;
   padding: 32px 40px 0;
   background-color: #fff;
+}
+
+.ui_smooth_scroll .tabs {
+  width: auto !important;
+  max-width:initial;
+  overflow-x:initial;
 }
 
 .tabs-wrap {
@@ -147,7 +157,7 @@
   content: '';
 }
 
-.tabs-wrap.border-type .tabs>li {
+.tabs-wrap.border-type .tabs > li {
   margin-left: 34px;
 }
 
@@ -195,23 +205,6 @@
 }
 
 
-.cont-wrap {
-  max-width: 1460px;
-  margin: 0 auto;
-  padding: 0 40px 120px;
-}
-
-/*event-main // class add*/
-.event-main .tab-contents {
-  max-width: 1460px;
-  margin: 0 auto;
-  padding: 0 40px 120px;
-}
-.event-main .tab-contents .chk-wrap label {
-  font-size: 14px;
-  padding-left: 28px;
-}
-
 /*list-sorting*/
 .list-sorting {
   padding-bottom: 12px;
@@ -242,6 +235,7 @@
 .list-sorting .sort-area .sort-list .sort-select-wrap:first-child {
   margin-left: 0;
 }
+
 
 /*sort-select-wrap*/
 .sort-select-wrap {
@@ -338,6 +332,16 @@
   vertical-align: top;
   font-weight: 400;
   background-color: transparent;
+}
+.btn-link:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 6px;
+  width: 14px;
+  height: 14px;
+  background: url(../images/icons/btn-arr-16-black.svg) center no-repeat;
+  background-size: 14px;
 }
 
 /*flag-wrap*/
@@ -542,6 +546,64 @@
   line-height: 26px;
 }
 
+/*.btn-moreview*/
+.btn-moreview {
+  display: none;
+  padding: 3px 11px;
+  border: 1px solid #222;
+  border-radius: 16px;
+  color: #000;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  text-align: center;
+  vertical-align: top;
+}
+.btn-moreview.block {
+  display: block;
+  width: auto;
+  margin: 32px auto 0;
+}
+.btn-moreview::before {
+  content: ' ';
+  display: inline-block;
+  width: 20px;
+  height: 24px;
+  margin-right: 2px;
+  background: url(../images/icons/btn-more-20.svg) center no-repeat;
+  vertical-align: top;
+}
+
+/*event-list // class add*/
+.event-list .section-wrap {
+  max-width: 1460px;
+  padding: 0 40px 0;
+}
+.event-list .tab-contents {
+  max-width: 1460px;
+  margin: 0 auto;
+  padding: 0 0 120px;
+}
+.event-list .tab-contents .chk-wrap label {
+  font-size: 14px;
+  padding-left: 28px;
+}
+.event-list .box-list.event-type .box-list-inner .lists .list-inner .info .tit {
+  max-height: 30px;
+  -webkit-line-clamp: 1;
+}
+
+.event-list .btn-moreview {
+  width: 177px;
+  height: 46px;
+  border-radius: 23px;
+  font-size: 16px;
+  margin-top: 48px;
+}
+.event-list .btn-moreview:before {
+  height: 27px;
+}
+
 /*mobile*/
 @media screen and (max-width: 767px){
   /*chk-wrap*/
@@ -549,15 +611,50 @@
     font-size: 14px;
     line-height: 22px;
   }
+  .chk-wrap input+label::after {
+    top: -1px;
+  }
+  /*page-header*/
+  .page-header {
+    padding: 4px 16px 32px;
+  }
+  .page-header .title {
+    line-height: 33px;
+  }
+  .page-header .desc .txt {
+    font-size: 14px;
+    line-height: 22px;
+  }
 
-  /*event-main // class add*/
-  .event-main .tab-contents {
-    padding: 0 16px 60px;
+  /*tabs*/
+  .page-tabs {
+    padding: 10px 0 0;
   }
-  .event-main .tab-contents .chk-wrap label {
-    font-size: 13px;
-    padding-left: 24px;
+  .tabs-wrap .tabs {
+    padding: 0 16px;
   }
+  .tabs-wrap .tabs > li {
+    margin-left: 20px;
+  }
+  .tabs-wrap .tabs > li > a {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .tabs-wrap.border-type .tabs > li {
+    margin-left: 20px;
+  }
+  .tabs-wrap.border-type .tabs > li > a {
+    padding-bottom: 10px;
+    border-width: 3px;
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .tabs-wrap.btn-type .tabs > li > a {
+    padding: 8px 0;
+    font-size: 17px;
+    line-height: 24px;
+  }
+  
 
   /*list-sorting*/
   .list-sorting {
@@ -567,12 +664,103 @@
   /*sort-select-wrap*/
   .sort-select-wrap .ui-selectbox-wrap .ui-select-button {
     padding-right: 28px;
-  } 
-
+  }
   .sort-select-wrap .ui-selectbox-wrap .ui-select-button .ui-select-text {
     font-size: 13px;
     line-height: 21px;
   }
+  .sort-select-wrap .ui-selectbox-wrap .ui-selectbox-list ul li a {
+    font-size: 13px;
+    line-height: 21px;
+  }
+
+  /*btn-link*/
+  .btn-link {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .btn-link:after {
+    top: 4px;
+  }
+
+  /*box-list*/
+  .box-list .box-list-inner {
+    margin: -24px 0 0;
+  }
+  .box-list .box-list-inner .lists {
+    display: block;
+    width: 100%;
+    margin-top: 24px;
+    padding: 0;
+  }
+  .box-list .box-list-inner .lists .list-inner .info {
+    padding: 16px 20px 20px;
+  }
+  .box-list .box-list-inner .lists .list-inner .info .tit {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .box-list .box-list-inner .lists .list-inner .info .date {
+    height: 16px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .box-list.event-type .box-list-inner {
+    margin-top: 0;
+  }
+  .box-list.event-type .box-list-inner .lists:nth-child(n) {
+    margin-top: 12px;
+  }
+  .box-list.event-type .box-list-inner .lists:first-child {
+    margin-top: 0;
+  }
+  .box-list.event-type .box-list-inner .lists .list-inner {
+    border-radius: 8px;
+    box-shadow: 2px 4px 16px 0 rgb(0 0 0 / 14%);
+  }
+  .box-list.event-type .box-list-inner .lists .list-inner .info {
+    padding: 16px 16px 24px;
+  }
+  .box-list.event-type .box-list-inner .lists .list-inner .info .date {
+    height: 21px;
+    font-size: 13px;
+    line-height: 21px;
+  }
+  .box-list.event-type .box-list-inner .lists .list-inner .btn-link {
+    right: 16px;
+    bottom: 24px;
+  }
+
+
+  /*no-data*/
+  .no-data {
+    padding: 60px 0;
+  }
+  .no-data p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  /*event-list // class add*/
+  .event-list .section-wrap {
+    padding: 0;
+  }
+  .event-list .tab-contents {
+    padding: 0 16px 60px;
+  }
+  .event-list .tab-contents .chk-wrap label {
+    font-size: 13px;
+    padding-left: 24px;
+  }
+  .event-list .tab-contents .chk-wrap label::after {
+    width: 22px;
+  }
+  .event-list .btn-moreview {
+    font-size: 14px;
+    height: 40px;
+    width: 148.5px;
+  }
 
 }
+
+
 

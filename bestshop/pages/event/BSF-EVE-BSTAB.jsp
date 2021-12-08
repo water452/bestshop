@@ -12,7 +12,7 @@
   </div>
 
   <!-- contents -->
-  <div class="contents event-main">
+  <div class="contents event-list">
 
     <div class="page-tabs">
       <div class="tabs-wrap left border-type">
@@ -27,7 +27,7 @@
 
       <div id="bsTab" class="section-wrap">
 
-        <div class="tabs-wrap left btn-type">
+        <div class="tabs-wrap left btn-type ui_smooth_scroll">
           <ul class="tabs">
             <li class="on"><a href="#">전체<em class="blind">선택됨</em></a></li>
             <li><a href="#">후기참여</a></li>
@@ -45,18 +45,18 @@
             <div class="sort-area left">
               <div class="sort-list">
                 <div class="sort-select-wrap">
-                  <select class="ui_selectbox" id="eventStatus" title="이벤트 상태 선택" style="display: none;">
+                  <select class="ui_selectbox" title="이벤트 상태 선택" style="display: none;">
                     <option>진행중인 이벤트</option>
                     <option>종료된 이벤트</option>
                   </select>
                   <div class="ui-selectbox-wrap">
-                    <div class="ui-selectbox-view" id="cusomtSelectbox_5_button">
+                    <div class="ui-selectbox-view">
                       <a href="#0" class="ui-select-button" title="이벤트 상태 선택 열기">
                         <span class="ui-select-text">진행중인 이벤트</span><span class="blind">선택됨</span><span
                           class="ico"></span>
                       </a>
                     </div>
-                    <div class="ui-selectbox-list" id="cusomtSelectbox_5_menu" style="display: none;">
+                    <div class="ui-selectbox-list" style="display: none;">
                       <div class="ui-select-scrollarea">
                         <ul>
                           <li class="on"><a href="#1" title="이벤트 상태 선택">진행중인 이벤트</a></li>
@@ -70,7 +70,7 @@
                   </div>
                 </div>
                 <div class="sort-select-wrap">
-                  <select class="ui_selectbox" id="eventGubun" title="이벤트 유형 선택" style="display: none;">
+                  <select class="ui_selectbox" title="이벤트 유형 선택" style="display: none;">
                     <option>유형전체</option>
                     <option>구매혜택</option>
                     <option>사은품</option>
@@ -78,12 +78,12 @@
                     <option>체험단 신청</option>
                   </select>
                   <div class="ui-selectbox-wrap">
-                    <div class="ui-selectbox-view" id="cusomtSelectbox_7_button">
+                    <div class="ui-selectbox-view">
                       <a href="#0" class="ui-select-button" title="이벤트 구분 선택 열기">
                         <span class="ui-select-text">유형전체</span><span lass="blind">선택됨</span><span class="ico"></span>
                       </a>
                     </div>
-                    <div class="ui-selectbox-list" id="cusomtSelectbox_7_menu" style="display: none;">
+                    <div class="ui-selectbox-list" style="display: none;">
                       <div class="ui-select-scrollarea">
                         <ul>
                           <li class="on">
@@ -177,6 +177,9 @@
                 </div>
               </li>
             </ul>
+            <button type="button" class="btn-moreview block">
+              <span>이벤트 더보기</span>
+            </button>
           </div>
           <div class="no-data">
             <p>설정하신 필터에 맞는 이벤트가 없습니다.</p>
@@ -208,6 +211,9 @@
   </div>
   <!-- // contents -->
 </div>
+<script>
+  
+</script>
 <!-- // container -->
 
 <jsp:include page="../../templates/common/footer.jsp" />
