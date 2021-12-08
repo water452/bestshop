@@ -76,21 +76,6 @@
       "memo": "1차작업완료"
     },
     {
-      "screenid": "BSF-RES-VISIT",
-      "dep1": "매장 상담 예약(MO)",
-      "dep2": "방문 상담 예약(MO)",
-      "dep3": "",
-      "dep4": "",
-      "func": "",
-      "worker": "안하은",
-      "startdate": "21/11/29",
-      "targetdate": "",
-      "status": "진행중",
-      "finishdate": "21/12/01",
-      "filename": "./templates/counsel/index.jsp",
-      "memo": "보고용 임시작업(MO)"
-    },
-    {
       "screenid": "",
       "dep1": "",
       "dep2": "",
@@ -757,12 +742,12 @@
       "dep3": "작성",
       "dep4": "",
       "func": "",
-      "worker": "TBD",
-      "startdate": "",
+      "worker": "안하은",
+      "startdate": "21/12/08",
       "targetdate": "",
-      "status": "미정",
+      "status": "진행중",
       "finishdate": "",
-      "filename": "./templates/counsel/index.jsp",
+      "filename": "./pages/reservation/BSF-RES-VISIT.jsp",
       "memo": ""
     },
     {
