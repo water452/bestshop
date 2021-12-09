@@ -200,6 +200,26 @@ br.mob-only {
   margin-left: 0;
 }
 
+.box-list .box-list-inner .lists .list-inner .icon-timedeal {
+  position: absolute;
+  z-index: 1;
+  top: 24px;
+  left: 24px;
+  margin: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-image: linear-gradient(315deg,#fb5a72,#fa263e);
+  background-color: #fa263e;
+  background-size: 100%;
+}
+.contents.event-list .box-list .box-list-inner .lists .list-inner .icon-timedeal img {
+  left: 9px;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+}
+
 /*flag-wrap*/
 .flag-wrap {
   font-size: 0;
