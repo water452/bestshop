@@ -1911,7 +1911,7 @@
 
 @media screen and (max-width: 767px) {
   .check-box input + label {
-      font-size: 14px;
+      font-size: 13px;
       line-height: 22px;
   }
 }
