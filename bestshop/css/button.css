@@ -49,6 +49,7 @@
   color: #fff;
 }
 
+
 .btn.gray {
   border-color: #ededed;
   background: #ededed;
@@ -88,6 +89,12 @@
   border-color: #da0f47 !important;
   background: transparent;
   color: #da0f47;
+}
+
+.btn.border.bc-white {
+  border-color: #fff !important;
+  background: transparent;
+  color: #fff;
 }
 
 .btn.border:hover, .btn.border:focus, .btn.border:active {
@@ -326,6 +333,9 @@
 
 .btn-link:hover, .btn-link:focus {
   color: #000;
+  text-decoration: underline;
+  border-color: transparent;
+  box-shadow: none;
 }
 
 .btn-link.white {

@@ -170,25 +170,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /******************* contents **********************/
 /*list-sorting*/
 .list-sorting {
@@ -213,80 +194,6 @@
 }
 .list-sorting .sort-area .sort-list .sort-select-wrap:first-child {
   margin-left: 0;
-}
-
-/*sort-select-wrap*/
-.sort-select-wrap {
-  display: inline-block;
-  position: relative;
-  width: auto;
-}
-.sort-select-wrap select {
-  position: absolute;
-  z-index: 10;
-}
-.sort-select-wrap .ui-selectbox-wrap {
-  display: block;
-  position: relative;
-  text-align: left;
-}
-.sort-select-wrap .ui-selectbox-wrap .ui-select-button {
-  display: block;
-  position: relative;
-  padding: 0 20px 0 0;
-}
-.sort-select-wrap .ui-selectbox-wrap .ui-select-button .ico {
-  position: absolute;
-  top: 50%;
-  right: 0;
-  width: 16px;
-  height: 16px;
-  margin-top: -8px;
-  background: url(../images/icons/btn-down-16-black.svg) no-repeat;
-  transition: all .1s;
-}
-.sort-select-wrap .ui-selectbox-wrap.on .ui-select-button .ico {
-  transform:rotate(180deg);
-}
-.sort-select-wrap .ui-selectbox-wrap .ui-select-button .ui-select-text {
-  display: inline-block;
-  overflow: hidden;
-  max-width: 100%;
-  color: #000;
-  font-size: 14px;
-  line-height: 24px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  word-break: break-all;
-  vertical-align: top;
-}
-.sort-select-wrap .ui-selectbox-wrap .ui-selectbox-list {
-  position: absolute;
-  top: 34px;
-  left: 50%;
-  overflow: hidden;
-  padding: 4px 0;
-  border-radius: 4px;
-  background: #fff;
-  box-shadow: 0 4px 12px 0 rgb(0 0 0 / 15%);
-  transform: translateX(-50%);
-  z-index: 89;
-}
-.sort-select-wrap .ui-selectbox-wrap .ui-selectbox-list ul li a {
-  display: block;
-  overflow: hidden;
-  padding: 8px 27px;
-  border-radius: 4px;
-  color: #000;
-  font-size: 14px;
-  line-height: 24px;
-  white-space: nowrap;
-  word-break: break-all;
-  text-overflow: ellipsis;
-  text-align: center;
-}
-.sort-select-wrap .ui-selectbox-wrap .ui-selectbox-list ul li.on a {
-  background: #f4f4f4;
 }
 
 /*flag-wrap*/
@@ -505,19 +412,23 @@
   align-items: center;
   justify-content: space-between;
 }
-.fixed-banner .inner .btn-close {
-  position: absolute;
-  top: 50%;
-  right: 24px;
-  transform: translateY(-50%);
-  width: 48px;
-  height: 48px;
-  background: url(../images/icons/btn-close-24-white.svg) no-repeat center center/24px 24px;
+.fixed-banner .inner > div {
+  display: flex;
+  align-items: center;
 }
 .fixed-banner .inner p {
+  display: inline-block;
   font-size: 20px;
   font-weight: 500;
   line-height: 29px;
+}
+.fixed-banner .inner .btn {
+  margin-left: 20px;
+}
+.fixed-banner .inner .btn-close {
+  width: 48px;
+  height: 48px;
+  background: url(../images/icons/btn-close-24-white.svg) no-repeat center center/24px 24px;
 }
 
 .icon-timedeal {
@@ -535,6 +446,10 @@
   left: 50%;
   transform: translate(-50%,-50%);
 }
+
+
+
+
 
 /*mobile*/
 /******************* common **********************/
@@ -598,19 +513,6 @@
   /*list-sorting*/
   .list-sorting {
     padding-bottom: 16px;
-  }
-
-  /*sort-select-wrap*/
-  .sort-select-wrap .ui-selectbox-wrap .ui-select-button {
-    padding-right: 28px;
-  }
-  .sort-select-wrap .ui-selectbox-wrap .ui-select-button .ui-select-text {
-    font-size: 13px;
-    line-height: 21px;
-  }
-  .sort-select-wrap .ui-selectbox-wrap .ui-selectbox-list ul li a {
-    font-size: 13px;
-    line-height: 21px;
   }
 
   /*box-list*/
@@ -683,11 +585,13 @@
     height: 40px;
     width: 148.5px;
   }
-  .fixed-banner {    
-    bottom: 70px;
-  }
 
 }
 
 
 
+@media screen and (max-width: 767px){
+  .mdevice:not(.app) .fixed-banner, .MO .fixed-banner {    
+    bottom: 70px;
+  }
+}
