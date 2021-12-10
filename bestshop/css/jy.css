@@ -49,113 +49,6 @@ br.mob-only {
   vertical-align: middle;
 }
 
-/*tabs*/
-.page-tabs {
-  position: relative;
-  max-width: 1460px;
-  margin: 0 auto;
-  padding: 32px 40px 0;
-  background-color: #fff;
-}
-.ui_smooth_scroll .tabs {
-  width: auto !important;
-  max-width:initial;
-  overflow-x:initial;
-}
-.tabs-wrap {
-  position: relative;
-  display: block;
-  text-align: center;
-}
-.tabs-wrap.left {
-  text-align: left;
-}
-.tabs-wrap .tabs {
-  display:inline-block;
-  max-width:100%;
-  position:relative;
-  margin:0 -2px;
-  padding:0 2px;
-  font-size:0;
-  vertical-align:top;
-  white-space:nowrap;
-  overflow-x:auto;
-  overflow-y:hidden;
-  -webkit-overflow-scrolling: touch;
-}
-.tabs-wrap .tabs > li {
-  display:inline-block;
-  margin-left:36px;
-  padding: 2px 0;
-  vertical-align:top;
-}
-.tabs-wrap ul.tabs > li:first-child {
-  margin-left:0;
-}
-.tabs-wrap .tabs > li > a {
-  display:block;
-  position:relative;
-  color:#767676;
-  font-size:28px;
-  line-height:40px;
-  font-weight:700;
-}
-.tabs-wrap .tabs > li.on > a {
-  color: #000;
-}
-.tabs-wrap.border-type {
-  position: relative;
-}
-.tabs-wrap.border-type:before {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  height: 1px;
-  background: #ddd;
-  content: '';
-}
-.tabs-wrap.border-type .tabs > li {
-  margin-left: 34px;
-}
-.tabs-wrap.border-type .tabs > li > a {
-  padding-bottom: 12px;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 28px;
-}
-.tabs-wrap.border-type .tabs > li.on > a:after {
-  position: absolute;
-  left: 0;
-  bottom: -2px;
-  width: 100%;
-  height: 5px;
-  border-radius: 5px 5px 0 0;
-  background-color: #000;
-  content: '';
-}
-.tabs-wrap.btn-type:before {
-  position: absolute;
-  bottom: 1px!important;
-  right: 0;
-  left: 0;
-  height: 1px;
-  background: #ddd;
-  content: '';
-}
-.tabs-wrap.btn-type .tabs > li > a {
-  display: block;
-  padding: 5px 0;
-  background-color: transparent;
-  font-size: 18px;
-  line-height: 28px;
-  line-height: 32px;
-  font-weight: 700;
-}
-.tabs-wrap.btn-type .tabs > li.on > a {
-  color: #000;
-  border-bottom: 2px solid #222;
-}
 
 /*no-data*/
 .no-data {
@@ -172,33 +65,7 @@ br.mob-only {
 }
 
 
-
-
 /******************* contents **********************/
-/*list-sorting*/
-.list-sorting {
-  padding-bottom: 12px;
-}
-.list-sorting:after {
-  content: "";
-  display: block;
-  clear: both;
-}
-.list-sorting .sort-area {
-  float: right;
-}
-.list-sorting .sort-area.left {
-  float: left;
-}
-.list-sorting .sort-area .sort-list {
-  font-size: 0;
-}
-.list-sorting .sort-area .sort-list .sort-select-wrap {
-  margin-left: 24px;
-}
-.list-sorting .sort-area .sort-list .sort-select-wrap:first-child {
-  margin-left: 0;
-}
 
 .box-list .box-list-inner .lists .list-inner .icon-timedeal {
   position: absolute;
@@ -260,13 +127,22 @@ br.mob-only {
 
 /*event-list // class add*/
 .contents.event-list .page-tabs {
+  position: relative;
+  max-width: 1460px;
+  margin: 0 auto;
   padding: 0 40px 0;
+  background-color: #fff;
 }
+.contents.event-list .page-tabs .tabs-wrap {
+  margin-bottom: 0;
+}
+
 .contents.event-list .section-wrap {
+  width: 100%;
   max-width: 1460px;
   padding: 0 40px 0;
 }
-.contents.event-list .section-wrap .tabs-wrap {
+.contents.event-list .tabs-wrap {
   margin-bottom: 50px;
 }
 .contents.event-list .tab-contents {
@@ -274,7 +150,7 @@ br.mob-only {
   margin: 0 auto;
   padding: 0 0 120px;
 }
-.contents.event-list .tab-contents .check-box label {
+.contents.event-list .list-sorting .check-box input + label {
   font-size: 14px;
   padding-left: 28px;
 }
@@ -293,43 +169,8 @@ br.mob-only {
   height: 27px;
 }
 
-/*fixed-banner*/
-.fixed-banner {    
-  position: fixed;
-  z-index: 1000;
-  width: 100%;
-  left: 0;
-  bottom: 0;
-  background-image: linear-gradient(92deg,#9c86e7,#ff537c 97%);
-}
-.fixed-banner .inner {
-  padding: 25px 40px 26px;
-  max-width: 1460px;
-  margin: 0 auto;
-  color:#fff;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.fixed-banner .inner > div {
-  display: flex;
-  align-items: center;
-}
-.fixed-banner .inner p {
-  display: inline-block;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 29px;
-}
-.fixed-banner .inner .btn {
-  margin-left: 20px;
-}
-.fixed-banner .inner .btn-close {
-  width: 48px;
-  height: 48px;
-  background: url(../images/icons/btn-close-24-white.svg) no-repeat center center/24px 24px;
-}
 
+/*icon-timedeal*/
 .icon-timedeal {
   position: relative;
   display: inline-block;
@@ -358,7 +199,10 @@ br.mob-only {
   }
   /*page-header*/
   .page-header {
-    padding: 4px 16px 32px;
+    padding: 60px 16px 32px;
+  }
+  .page-header .desc {
+    margin-top: 12px;
   }
   .page-header .title {
     line-height: 33px;
@@ -368,34 +212,6 @@ br.mob-only {
     line-height: 22px;
   }
 
-  /*tabs*/
-  .page-tabs {
-    padding: 10px 0 0;
-  }
-  .tabs-wrap .tabs {
-    padding: 0 16px;
-  }
-  .tabs-wrap .tabs > li {
-    margin-left: 20px;
-  }
-  .tabs-wrap .tabs > li > a {
-    font-size: 18px;
-    line-height: 26px;
-  }
-  .tabs-wrap.border-type .tabs > li {
-    margin-left: 20px;
-  }
-  .tabs-wrap.border-type .tabs > li > a {
-    padding-bottom: 10px;
-    border-width: 3px;
-    font-size: 17px;
-    line-height: 25px;
-  }
-  .tabs-wrap.btn-type .tabs > li > a {
-    padding: 8px 0;
-    font-size: 17px;
-    line-height: 24px;
-  }
   
   /*no-data*/
   .no-data {
@@ -405,32 +221,29 @@ br.mob-only {
     font-size: 14px;
     line-height: 22px;
   }
-
-
 }
 /*mobile*/
 /******************* contents **********************/
 @media screen and (max-width: 767px){
-  /*list-sorting*/
-  .list-sorting {
-    padding-bottom: 16px;
-  }
   /*event-list // class add*/
+  .contents.event-list .page-tabs {
+    padding: 0;
+  }
   .contents.event-list .section-wrap {
     padding: 0;
   }
-  .contents.event-list .page-tabs {
-    padding: 0;
+  .contents.event-list .tabs-wrap {
+    margin-bottom: 19px;
   }
   .contents.event-list .tab-contents {
     padding: 0 16px 60px;
   }
-  .contents.event-list .tab-contents .check-box label {
-    font-size: 13px;
-    padding-left: 24px;
+  .contents.event-list .list-sorting {
+    padding-bottom: 25px;
   }
-  .contents.event-list .tab-contents .check-box label::after {
-    width: 22px;
+  .contents.event-list .list-sorting .check-box input + label {
+    font-size: 13px;
+    line-height: 22px;
   }
   .contents.event-list .btn-moreview {
     font-size: 14px;
@@ -439,33 +252,4 @@ br.mob-only {
   }
 
 
-  /*fixed-banner*/
-  .fixed-banner .inner {
-    display: block;
-    padding: 17px 16px 28px;
-  }
-  .fixed-banner .inner > div {
-    display: block;
-    text-align: center;
-  }
-  .fixed-banner .inner p {
-   font-size: 16px;
-   line-height: 22px;
-  }
-  .fixed-banner .inner .btn {
-  
-  }
-  .fixed-banner .inner .btn-close {
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
-  .fixed-banner .inner .icon-timedeal {
-    display: block;
-    width: 100%;
-  } 
-
-  .mdevice:not(.app) .fixed-banner, .MO .fixed-banner {    
-    bottom: 70px;
-  }
 }

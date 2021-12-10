@@ -2694,9 +2694,9 @@
 }
 
 @media screen and (max-width: 767px) {
-  .sort-select-wrap .ui-selectbox-wrap .ui-select-button {
+  /* .sort-select-wrap .ui-selectbox-wrap .ui-select-button {
       padding-right: 28px;
-  }
+  } */
 }
 
 .sort-select-wrap .ui-selectbox-wrap .ui-select-button .ui-select-text {
@@ -3048,3 +3048,4 @@
 .err-block {
   display: none;
 }
+
