@@ -486,11 +486,17 @@
         padding: 10px 12px 14px;
     }
     .box-list.event-type .box-list-inner .lists .list-inner .date {
-        height: 21px;
+        font-size: 11px;
+        line-height: 15px;
     }
     .box-list.event-type .box-list-inner .lists .list-inner .btn-link {
         right: 16px;
         bottom: 14px;
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .box-list.event-type .box-list-inner .lists .list-inner .btn-link::after {
+        top: 2px;
     }
 }
 
