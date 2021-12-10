@@ -415,6 +415,12 @@
     line-height: 52px;
     text-align: center;
 }
+@media screen and (max-width: 767px) {
+    .box-list.event-type .box-list-inner .lists .list-inner .thumb .event-end em {
+        font-size: 17px;
+        line-height: 25px;
+    }
+}
 
 .box-list.event-type .box-list-inner .lists .list-inner .thumb .event-end + .flag-wrap .flag {
     border-color: rgba(34, 34, 34, 0.4);
@@ -431,12 +437,18 @@
 
 .box-list.event-type .box-list-inner .lists .list-inner .info .tit {
     height: auto;
-    max-height: 60px;
+    -webkit-line-clamp: 1;
 }
 
 @media screen and (max-width: 767px) {
+    .box-list.event-type .box-list-inner .lists .list-inner .info .flag-wrap {
+        margin-bottom: 4px;
+    }
     .box-list.event-type .box-list-inner .lists .list-inner .info .tit {
-        max-height: 48px;
+        height: 36px;
+        -webkit-line-clamp: 2;
+        font-size: 14px;
+        line-height: 18px;
     }
 }
 
@@ -445,7 +457,7 @@
 }
 
 .box-list.event-type .box-list-inner .lists .list-inner .date {
-    margin-top: 16px;
+    margin-top: 6px;
     padding-right: 100px;
     font-size: 14px;
     line-height: 24px;
@@ -471,14 +483,14 @@
         box-shadow: 2px 4px 16px 0 rgba(0, 0, 0, 0.14);
     }
     .box-list.event-type .box-list-inner .lists .list-inner .info {
-        padding: 16px 16px 24px;
+        padding: 10px 12px 14px;
     }
     .box-list.event-type .box-list-inner .lists .list-inner .date {
         height: 21px;
     }
     .box-list.event-type .box-list-inner .lists .list-inner .btn-link {
         right: 16px;
-        bottom: 24px;
+        bottom: 14px;
     }
 }
 

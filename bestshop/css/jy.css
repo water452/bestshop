@@ -154,10 +154,6 @@ br.mob-only {
   font-size: 14px;
   padding-left: 28px;
 }
-.contents.event-list .box-list.event-type .box-list-inner .lists .list-inner .info .tit {
-  max-height: 30px;
-  -webkit-line-clamp: 1;
-}
 .contents.event-list .btn-moreview {
   width: 133px;
   height: 40px;
@@ -221,10 +217,17 @@ br.mob-only {
     font-size: 14px;
     line-height: 22px;
   }
-}
-/*mobile*/
-/******************* contents **********************/
-@media screen and (max-width: 767px){
+
+  /******************* contents **********************/
+  .flag-wrap.bar-type .flag {
+    height: 15px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .flag-wrap.bar-type .flag:not(:first-child):before {
+    height: 9px;
+  }
+
   /*event-list // class add*/
   .contents.event-list .page-tabs {
     padding: 0;
@@ -245,10 +248,23 @@ br.mob-only {
     font-size: 13px;
     line-height: 22px;
   }
+
   .contents.event-list .btn-moreview {
     font-size: 14px;
     height: 40px;
-    width: 148.5px;
+    width: 148px;
+  }
+
+  .box-list .box-list-inner .lists .list-inner .icon-timedeal {
+    top: 6px;
+    left: 6px;
+    width: 33px;
+    height: 33px;
+  }
+  .contents.event-list .box-list .box-list-inner .lists .list-inner .icon-timedeal img {
+    left: 4px;
+    width: 22px;
+    height: 22px;
   }
 
 
