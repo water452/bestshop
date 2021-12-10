@@ -139,7 +139,7 @@
     <div class="cont-wrap">
       <div class="progress-area">
         <ul>
-          <li class="step01 active">
+          <li class="step01 active"><!-- active 클래스 추가 -->
             <p>상담목적 및 제품선택</p>
           </li>
           <li class="step02">
@@ -152,8 +152,8 @@
       </div>
       <section class="cont-area">
         <!-- step 1 -->
-        <div class="step-area step01 active">
-          <div class="select-area active">
+        <div class="step-area step01 active"><!-- active 클래스 추가 -->
+          <div class="main-area active"><!-- active 클래스 추가 -->
             <form action="#">
               <h4 class="step-tit">상담목적</h4>
               <div class="input-area">
@@ -433,13 +433,13 @@
             </form>
           </div>
 
-          <div class="btn-area active">
+          <div class="btn-area active"><!-- active 클래스 추가 -->
             <button type="button" class="btn btn-next">다음 단계로</button>
           </div>
 
-          <div class="result-area active">
-            <div class="info-step01"> 
-              <ul class="info-txt">
+          <div class="result-area active"><!-- active 클래스 추가 -->
+            <div class="info-step01">
+              <ul class="info-txt-com active"><!-- active 클래스 추가 --> 
                 <li>
                   <span>상담목적 :</span>
                   <strong>혼수</strong>
@@ -459,19 +459,301 @@
         <!-- // step 1 -->
 
         <!-- step 2 -->
-        <div class="step-area step02 active">
-          <div class="select-area active">
+        <div class="step-area step02 active"><!-- active 클래스 추가 -->
+          <div class="main-area active"><!-- active 클래스 추가 -->
             <div class="view-area">
               <h4 class="step-tit">상담하실 매장과 상담일시 선택</h4>
               <div class="sort-area">
-                <button type="button" class="view-list active">리스트보기</button>
+                <button type="button" class="view-list active">리스트보기</button><!-- active 클래스 추가 -->
                 <button type="button" class="view-map">지도보기</button>
               </div>
-              <div class="map-wrap active">
-                지도
+              <!-- 지도보기 영역 -->
+              <div class="map-wrap active"><!-- active 클래스 추가 -->
+                <div class="input-area">
+                  <ul>
+                    <li>
+                      <div class="select-box">
+                        <select title="시/도 선택">
+                          <option value="">선택</option>
+                          <option value="">서울특별시</option>
+                        </select> 
+                      </div>
+                    </li>
+                    <li>
+                      <div class="select-box">
+                        <select title="구 선택">
+                          <option value="">선택</option>
+                          <option value="">강남구</option>
+                        </select> 
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- api 영역 -->
+                <div class="api-area">
+                  <img src="../../images/@img-map.png" alt="지도 임시이미지">
+                </div>
+                <!-- // api 영역 -->
               </div>
-              <div class="list-wrap">
-                리스트
+
+              <!-- 리스트 보기 영역 -->
+              <div class="list-wrap active"><!-- active 클래스 추가 -->
+                <div class="search-wrap">
+                  <form action="#">
+                    <div class="input-area">
+                      <div class="search-box">
+                        <input type="search" placeholder="매장명을 검색해주세요.">
+                        <button type="button" class="btn-search"><span class="blind">검색하기</span></button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class="view-wrap">
+                  <div class="lt">
+                    <ul>
+                      <li>
+                        <button type="button" class="btn-city">전체<span>530</span></button>
+                      </li>
+                      <li>
+                        <button type="button" class="btn-city active">서울특별시<span>7</span></button><!-- active 클래스 추가 -->
+                      </li>
+                      <li>
+                        <button type="button" class="btn-city">부산광역시<span>38</span></button>
+                      </li>
+                      <li>
+                        <button type="button" class="btn-city">대구광역시<span>32</span></button>
+                      </li>
+                      <li>
+                        <button type="button" class="btn-city">인천광역시<span>56</span></button>
+                      </li>
+                      <li>
+                        <button type="button" class="btn-city">광주광역시<span>72</span></button>
+                      </li>
+                      <li>
+                        <button type="button" class="btn-city">대전광역시<span>65</span></button>
+                      </li>
+                      <li>
+                        <button type="button" class="btn-city">울산광역시<span>79</span></button>
+                      </li>
+                      <li>
+                        <button type="button" class="btn-city">세종특별자치시청<span>5</span></button>
+                      </li>
+                      <li>
+                        <button type="button" class="btn-city">부산광역시<span>38</span></button>
+                      </li>
+                      <li>
+                        <button type="button" class="btn-city">대구광역시<span>32</span></button>
+                      </li>
+                      <li>
+                        <button type="button" class="btn-city">인천광역시<span>56</span></button>
+                      </li>
+                      <li>
+                        <button type="button" class="btn-city">광주광역시<span>72</span></button>
+                      </li>
+                      <li>
+                        <button type="button" class="btn-city">대전광역시<span>65</span></button>
+                      </li>
+                      <li>
+                        <button type="button" class="btn-city">울산광역시<span>79</span></button>
+                      </li>
+                      <li>
+                        <button type="button" class="btn-city">세종특별자치시청<span>5</span></button>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="rt">
+                    <ul>
+                      <li>
+                        <div class="shop-box">
+                          <div class="name-area">
+                            <p class="shop-name">강남 본점</p>
+                            <ul class="key-words">
+                              <li>NEW</li>
+                              <li>화상상담</li>
+                              <li>아이폰</li>
+                              <li>LX지인</li>
+                              <li>야간무인</li>
+                            </ul>
+                          </div>
+                          <p class="info-txt">
+                            서울특별시 강남구 도산대로 403 (청담동 86-1)
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="shop-box">
+                          <div class="name-area">
+                            <p class="shop-name">강남 본점</p>
+                            <ul class="key-words">
+                              <li>NEW</li>
+                              <li>화상상담</li>
+                              <li>아이폰</li>
+                              <li>LX지인</li>
+                              <li>야간무인</li>
+                            </ul>
+                          </div>
+                          <p class="info-txt">
+                            서울특별시 강남구 도산대로 403 (청담동 86-1)
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="shop-box">
+                          <div class="name-area">
+                            <p class="shop-name">강남 본점</p>
+                            <ul class="key-words">
+                              <li>NEW</li>
+                              <li>화상상담</li>
+                              <li>아이폰</li>
+                              <li>LX지인</li>
+                              <li>야간무인</li>
+                            </ul>
+                          </div>
+                          <p class="info-txt">
+                            서울특별시 강남구 도산대로 403 (청담동 86-1)
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="shop-box">
+                          <div class="name-area">
+                            <p class="shop-name">강남 본점</p>
+                            <ul class="key-words">
+                              <li>NEW</li>
+                              <li>화상상담</li>
+                              <li>아이폰</li>
+                              <li>LX지인</li>
+                              <li>야간무인</li>
+                            </ul>
+                          </div>
+                          <p class="info-txt">
+                            서울특별시 강남구 도산대로 403 (청담동 86-1)
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="shop-box">
+                          <div class="name-area">
+                            <p class="shop-name">강남 본점</p>
+                            <ul class="key-words">
+                              <li>NEW</li>
+                              <li>화상상담</li>
+                              <li>아이폰</li>
+                              <li>LX지인</li>
+                              <li>야간무인</li>
+                            </ul>
+                          </div>
+                          <p class="info-txt">
+                            서울특별시 강남구 도산대로 403 (청담동 86-1)
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="shop-box">
+                          <div class="name-area">
+                            <p class="shop-name">강남 본점</p>
+                            <ul class="key-words">
+                              <li>NEW</li>
+                              <li>화상상담</li>
+                              <li>아이폰</li>
+                              <li>LX지인</li>
+                              <li>야간무인</li>
+                            </ul>
+                          </div>
+                          <p class="info-txt">
+                            서울특별시 강남구 도산대로 403 (청담동 86-1)
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="shop-box">
+                          <div class="name-area">
+                            <p class="shop-name">강남 본점</p>
+                            <ul class="key-words">
+                              <li>NEW</li>
+                              <li>화상상담</li>
+                              <li>아이폰</li>
+                              <li>LX지인</li>
+                              <li>야간무인</li>
+                            </ul>
+                          </div>
+                          <p class="info-txt">
+                            서울특별시 강남구 도산대로 403 (청담동 86-1)
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="shop-box">
+                          <div class="name-area">
+                            <p class="shop-name">강남 본점</p>
+                            <ul class="key-words">
+                              <li>NEW</li>
+                              <li>화상상담</li>
+                              <li>아이폰</li>
+                              <li>LX지인</li>
+                              <li>야간무인</li>
+                            </ul>
+                          </div>
+                          <p class="info-txt">
+                            서울특별시 강남구 도산대로 403 (청담동 86-1)
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="shop-box">
+                          <div class="name-area">
+                            <p class="shop-name">강남 본점</p>
+                            <ul class="key-words">
+                              <li>NEW</li>
+                              <li>화상상담</li>
+                              <li>아이폰</li>
+                              <li>LX지인</li>
+                              <li>야간무인</li>
+                            </ul>
+                          </div>
+                          <p class="info-txt">
+                            서울특별시 강남구 도산대로 403 (청담동 86-1)
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="shop-box">
+                          <div class="name-area">
+                            <p class="shop-name">강남 본점</p>
+                            <ul class="key-words">
+                              <li>NEW</li>
+                              <li>화상상담</li>
+                              <li>아이폰</li>
+                              <li>LX지인</li>
+                              <li>야간무인</li>
+                            </ul>
+                          </div>
+                          <p class="info-txt">
+                            서울특별시 강남구 도산대로 403 (청담동 86-1)
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="shop-box">
+                          <div class="name-area">
+                            <p class="shop-name">강남 본점</p>
+                            <ul class="key-words">
+                              <li>NEW</li>
+                              <li>화상상담</li>
+                              <li>아이폰</li>
+                              <li>LX지인</li>
+                              <li>야간무인</li>
+                            </ul>
+                          </div>
+                          <p class="info-txt">
+                            서울특별시 강남구 도산대로 403 (청담동 86-1)
+                          </p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -488,7 +770,7 @@
                       <li>야간무인</li>
                     </ul>
                   </div>
-                  <div class="cont-area">
+                  <div class="info-area">
                     <dl>
                       <dt>주소</dt>
                       <dd>서울 특별시 강남구 도산대로 403 (청담동 86-1)<br>LG전자 베스트샵 강남본점</dd>
@@ -500,16 +782,20 @@
                     <dl>
                       <dt>영업시간</dt>
                       <dd>
-                        <span>평 일</span>
-                        <span>10:30 - 20:30</span>
-                      </dd>
-                      <dd>
-                        <span>토요일</span>
-                        <span>10:30 - 20:30</span>
-                      </dd>
-                      <dd>
-                        <span>일요일</span>
-                        <span>11:00 - 20:30</span>
+                        <ul>
+                          <li>
+                            <span>평&nbsp;&nbsp;&nbsp;&nbsp;일</span>
+                            <span>10:30 - 20:30</span>
+                          </li>
+                          <li>
+                            <span>토요일</span>
+                            <span>10:30 - 20:30</span>
+                          </li>
+                          <li>
+                            <span>일요일</span>
+                            <span>11:00 - 20:30</span>
+                          </li>
+                        </ul>
                       </dd>
                     </dl>
                   </div>
@@ -601,18 +887,18 @@
             </div>
           </div>
 
-          <div class="btn-area bg active">
+          <div class="btn-area bg active"><!-- active 클래스 추가 -->
             <div class="result-txt">
-              <p>상담하실 매장과 일시를 선택해주세요.</p>
+              <!-- <p>상담하실 매장과 일시를 선택해주세요.</p> -->
               <p>상담매장: <span>강남본점</span></p>
               <p>방문일시: <span>12.15(수), 17시</span></p>
             </div>
             <button type="button" class="btn btn-next">다음 단계로</button>
           </div>
 
-          <div class="result-area active">
-            <div class="info-step01"> 
-              <ul class="info-txt">
+          <div class="result-area active"><!-- active 클래스 추가 -->
+            <div class="info-step02"> 
+              <ul class="info-txt-com active"><!-- active 클래스 추가 --> 
                 <li>
                   <span>상담 매장 :</span>
                   <strong>강남 본점</strong>
@@ -626,106 +912,130 @@
                   <strong>3개월 내</strong>
                 </li>
               </ul>
+
+              <div class="info-txt-uncom active"><!-- active 클래스 추가 --> 
+                <p class="page-num">STEP02</p>
+                <p class="txt">방문하실 매장과 일시를 선택해주세요.</p>
+              </div>
             </div>
           </div>
         </div>
         <!-- // step 2 -->
 
         <!-- step 3 -->
-        <div class="step-area step03 active">
-          <div class="select-area active">
+        <div class="step-area step03 active"><!-- active 클래스 추가 -->
+          <div class="main-area active"><!-- active 클래스 추가 -->
             <div class="user-info-area">
               <h4 class="step-tit">예약자 정보</h4>
-              <form action="#">
-                <div class="input-area">
-                  <ul class="box-type">
-                    <li>
-                      <div class="text-box">
-                        <label for="user-name">
-                          <span class="name">이름</span>
+              <div class="lt">
+                <form action="#">
+                  <div class="input-area">
+                    <ul class="box-type">
+                      <li>
+                        <div class="tit">
+                          <label for="user-name">
+                            <span class="name">이름</span>
+                          </label>
+                        </div>
+                        <div class="text-box">
                           <input type="text" name="user-name" placeholder="이름 입력">
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="text-box">
-                        <label for="user-number">
-                          <span class="name">휴대폰번호</span>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="tit">
+                          <label for="user-number">
+                            <span class="name">휴대폰번호</span>
+                          </label>
+                        </div>
+                        <div class="text-box">
                           <input type="number" name="user-number" placeholder="휴대폰 번호 입력">
-                        </label>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </form>
-              <div class="agr-wrap">
-                <div class="input-area">
-                  <ul class="acco-type">
-                    <li>
-                      <div class="check-box">
-                        <input type="checkbox" name="agr-all">
-                        <label for="agr-all">
-                          <span class="name">모두 동의</span>
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="check-box">
-                        <input type="checkbox" name="agr-all">
-                        <label for="agr-all">
-                          <span class="name"><strong>(필수)</strong>개인정보 수집 및 이용에 동의합니다.</span>
-                        </label>
-                        <div class="agr-txt-wrap">
-                          약관내용
                         </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="check-box">
-                        <input type="checkbox" name="agr-all">
-                        <label for="agr-all">
-                          <span class="name"><em>(선택)</em>마케팅 정보활용에 동의합니다.</span>
-                        </label>
-                        <div class="agr-txt-wrap">
-                          약관내용
+                      </li>
+                    </ul>
+                  </div>
+                </form>
+              </div>
+              <div class="rt">
+                <div class="agr-wrap">
+                  <div class="input-area">
+                    <ul class="acco-type">
+                      <li>
+                        <div class="check-box">
+                          <input type="checkbox" name="agr-all" id="agr-all">
+                          <label for="agr-all">
+                            <span class="name">모두 동의</span>
+                          </label>
                         </div>
-                      </div>
-                    </li>
-                  </ul>
+                      </li>
+                      <li>
+                        <div class="check-box">
+                          <input type="checkbox" name="agr-required" id="agr-required">
+                          <label for="agr-required">
+                            <span class="name"><em class="red">(필수)</em>개인정보 수집 및 이용에 동의합니다.</span>
+                          </label>
+                          <div class="agr-txt-wrap size-l active"><!-- active 클래스 추가 -->
+                            약관내용
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="check-box">
+                          <input type="checkbox" name="agr-optional" id="agr-optional">
+                          <label for="agr-optional">
+                            <span class="name"><em>(선택)</em>마케팅 정보활용에 동의합니다.</span>
+                          </label>
+                          <div class="agr-txt-wrap active"><!-- active 클래스 추가 -->
+                            약관내용
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
               <div class="bottom-area">
-                <p class="s-tit">필수 위탁 고지</p>
+                <p class="tit">필수 위탁 고지</p>
                 <p class="desc">LG전자는 개인정보 취급업무 중 서비스 제공에 필요한 필수적 업무를 아래와 같이 외부 전문업체에 위탁하여 운영하고 있으며, 해당 업체는 서비스 이행을 위한 목적으로만 사용됩니다.</p>
-                <table>
-                  <caption>필수 위탁 고지 표</caption>
-                  <thead>
-                    <tr>
-                      <th scope="col">위탁업체 (수탁자)</th>
-                      <th scope="col">위탁업무 내용</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>LG CNS / 하이프라자</td>
-                      <td>시스템관리, 홈페이지 운영, 회원정보 관리</td>
-                    </tr>
-                    <tr>
-                      <td>하이텔레서비스</td>
-                      <td>콜센터 상담업무 (고객문의응대)</td>
-                    </tr>
-                    <tr>
-                      <td>스캣 커뮤니케이션, 이지인 커뮤니케이션, 피알원, 서브원</td>
-                      <td>이벤트 당첨자 전화 안내 및 경품, 사은품 발송</td>
-                    </tr>
-                  </tbody>
-                </table>
+                <div class="tb_row tb-row-bl white size-s">
+                  <table>
+                    <caption>필수 위탁 고지 표</caption>
+                    <thead>
+                      <tr>
+                        <th scope="col">위탁업체 (수탁자)</th>
+                        <th scope="col">위탁업무 내용</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>LG CNS / 하이프라자</td>
+                        <td>시스템관리, 홈페이지 운영, 회원정보 관리</td>
+                      </tr>
+                      <tr>
+                        <td>하이텔레서비스</td>
+                        <td>콜센터 상담업무 (고객문의응대)</td>
+                      </tr>
+                      <tr>
+                        <td>스캣 커뮤니케이션, 이지인 커뮤니케이션, 피알원, 서브원</td>
+                        <td>이벤트 당첨자 전화 안내 및 경품, 사은품 발송</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="btn-area active">
+          <div class="btn-area active"><!-- active 클래스 추가 -->
             <button type="button" class="btn btn-submit">상담 예약하기</button>
+          </div>
+
+          <div class="result-area active"><!-- active 클래스 추가 -->
+            <div class="info-step03"> 
+              <div class="info-txt-uncom active"><!-- active 클래스 추가 --> 
+                <p class="page-num">STEP03</p>
+                <p class="txt">예약자 정보를 입력해주세요.</p>
+              </div>
+            </div>
           </div>
         </div>
         <!-- // step 3 -->
