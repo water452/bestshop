@@ -266,7 +266,7 @@
 /* step 3 */
 .res-main .step-area.step03 .user-info-area::after {content:''; display:block; clear:both}
 .res-main .step-area.step03 .user-info-area .lt {float:left; width:40%; max-width:540px}
-.res-main .step-area.step03 .user-info-area .rt {float:right; width:60%; max-width:808px; margin-left:32px}
+.res-main .step-area.step03 .user-info-area .rt {float:right; width:calc(60% - 32px); max-width:808px; margin-left:32px}
 
 .res-main .input-area ul.box-type {flex-direction:column; height:348px; padding:60px; border-radius:8px; background-color:#f4f4f4}
 .res-main .input-area ul.box-type > li + li {margin-top:50px}
