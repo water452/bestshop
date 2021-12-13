@@ -292,13 +292,10 @@ br.mob-only {
 }
 
 
-
-
 .bullet-list {
-  margin-top: 24px;
   color: #000;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 22px;
 }
 .bullet-list .b-tit {
   margin-bottom: 2px;
@@ -312,6 +309,9 @@ br.mob-only {
   margin-top: 2px;
   padding-left: 11px;
   word-break: keep-all;
+}
+.bullet-list .b-tit ~ .b-txt {
+  margin-top: 0;
 }
 .bullet-list .b-txt::before {
   content: ' ';
@@ -673,8 +673,8 @@ br.mob-only {
 }
 
 .ev-detail-bottom .notice-wrap {
-  margin-top: 48px;
-  padding-top: 26px;
+  margin-top: 50px;
+  padding-top: 50px;
   border-top: 1px solid #ddd;
   text-align: left;
 }
@@ -897,6 +897,7 @@ br.mob-only {
 
   .ev-detail-bottom .notice-wrap {
     margin-top: 40px;
+    padding-top: 37px;
   }
   .ev-detail-bottom .notice-wrap .btn-link {
     margin-top: 8px;
@@ -910,4 +911,12 @@ br.mob-only {
       width: calc( 50% - 4px);
   }
 
+  .bullet-list {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .bullet-list .b-txt {
+    margin-top: 7px;
+  }
+  
 }
