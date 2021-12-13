@@ -309,7 +309,9 @@
                           <span class="flag"><span class="blind">이벤트 유형</span>구매혜택</span>
                         </div>
                         <p class="tit"><span class="blind">이벤트 제목</span>스타일러 케어솔루션 고객감사 이벤트</p>
-                        <p class="date"><span class="blind">이벤트 기간</span>2021.12.01~2021.12.31</p>
+                        <div class="flex-box">
+                          <p class="date"><span class="blind">이벤트 기간</span>2021.12.01~2021.12.31</p>
+                        </div>
                       </div>
                     </a>
                   </div>
@@ -327,8 +329,10 @@
                           <span class="flag"><span class="blind">이벤트 유형</span>구매혜택</span>
                         </div>
                         <p class="tit"><span class="blind">이벤트 제목</span>스타일러 케어솔루션 고객감사 이벤트</p>
-                        <p class="date"><span class="blind">이벤트 기간</span>2021.12.01~2021.12.31</p>
-                        <a href="#" class="btn-link"><span>당첨자 발표</span></a>
+                        <div class="flex-box">
+                          <p class="date"><span class="blind">이벤트 기간</span>2021.12.01~2021.12.31</p>
+                          <button class="btn-link"><span>당첨자 발표</span></button>
+                        </div>
                       </div>
                     </a>
                     
