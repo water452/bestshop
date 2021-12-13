@@ -35,31 +35,31 @@
                 <span class="icon-wrap">
                   <i class="icon01"></i>
                 </span>
-                <p class="txt">상담 원하시는 제품 선택</p>
+                <p class="txt">상담 원하시는 <br class="only_mo">제품 선택</p>
               </li>
               <li>
                 <span class="icon-wrap">
                   <i class="icon02"></i>
                 </span>
-                <p class="txt">방문할 매장 및 일자 선택</p>
+                <p class="txt">방문할 매장 및 <br class="only_mo">일자 선택</p>
               </li>
               <li>
                 <span class="icon-wrap">
                   <i class="icon03"></i>
                 </span>
-                <p class="txt">예약 고객님의 정보를 입력</p>
+                <p class="txt">예약 고객님의 <br class="only_mo">정보를 입력</p>
               </li>
               <li>
                 <span class="icon-wrap">
                   <i class="icon04"></i>
                 </span>
-                <p class="txt">전문 매니저의 전화 안내 서비스</p>
+                <p class="txt">전문 매니저의 전화 <br class="only_mo">안내 서비스</p>
               </li>
               <li>
                 <span class="icon-wrap">
                   <i class="icon05"></i>
                 </span>
-                <p class="txt">신청 매장 방문 후 상담진행</p>
+                <p class="txt">신청 매장 방문 후 <br class="only_mo">상담진행</p>
               </li>
             </ul>
           </div>
@@ -105,7 +105,7 @@
               <div class="banner01">
                 <div class="boxs">
                   <a href="#">
-                  <p class="tit">방문 상담 예약 이벤트</p>
+                  <p class="tit">방문 상담 <br class="only_mo">예약 이벤트</p>
                     <div class="desc">
                       <p>상담 예약 기간 : 2021.11.01(월) - 2021.11.30(화)</p>
                       <p>방문 예약 기간 : 2021.11.01(월) - 2021.11.30(화)</p>
@@ -118,7 +118,7 @@
               <div class="banner02">
                 <div class="boxs">
                   <a href="#">
-                  <p class="tit">방문 상담 예약 이벤트</p>
+                  <p class="tit">방문 상담 <br class="only_mo">예약 이벤트</p>
                     <div class="desc">
                       <p>상담 예약 기간 : 2021.11.01(월) - 2021.11.30(화)</p>
                       <p>방문 예약 기간 : 2021.11.01(월) - 2021.11.30(화)</p>
@@ -140,10 +140,10 @@
       <div class="progress-area">
         <ul>
           <li class="step01 active"><!-- active 클래스 추가 -->
-            <p>상담목적 및 제품선택</p>
+            <p>상담목적 및 <br class="only_mo">제품선택</p>
           </li>
           <li class="step02">
-            <p>상담하실 매장과 상담일시 선택</p>
+            <p>상담하실 매장과 <br class="only_mo">상담일시 선택</p>
           </li>
           <li class="step03">
             <p>예약자 정보</p>
@@ -184,9 +184,9 @@
                   </li>
                   <li>
                     <div class="radio-btn btn-type2">
-                      <input type="radio" name="purpose" id="as">
-                      <label for="as">
-                        <i class="icon as"></i><span class="name">고장</span>
+                      <input type="radio" name="purpose" id="broken">
+                      <label for="broken">
+                        <i class="icon broken"></i><span class="name">고장</span>
                       </label>
                     </div>
                   </li>
@@ -445,7 +445,7 @@
                   <strong>혼수</strong>
                 </li>
                 <li>
-                  <span>제품 :</span>
+                  <span>상담제품 :</span>
                   <strong>TV, 냉장고, 식기세척기, 세탁기, 스타일러, 공기청정기, 에어컨</strong>
                 </li>
                 <li>
@@ -453,6 +453,7 @@
                   <strong>3개월 내</strong>
                 </li>
               </ul>
+              <button type="button" class="btn-reset">재선택</button>
             </div>
           </div>
         </div>
@@ -561,6 +562,16 @@
                         <button type="button" class="btn-city">세종특별자치시청<span>5</span></button>
                       </li>
                     </ul>
+                  </div>
+                  <div class="mo-select">
+                    <div class="input-area">
+                      <div class="select-box">
+                        <select title="시/도 선택">
+                          <option value="">선택</option>
+                          <option value="">서울특별시</option>
+                        </select> 
+                      </div>
+                    </div>
                   </div>
                   <div class="rt">
                     <ul>
@@ -912,6 +923,7 @@
                   <strong>3개월 내</strong>
                 </li>
               </ul>
+              <button type="button" class="btn-reset">재선택</button>
 
               <div class="info-txt-uncom active"><!-- active 클래스 추가 --> 
                 <p class="page-num">STEP02</p>

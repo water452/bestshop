@@ -50,12 +50,12 @@
 /* 상단 공통 영역 */
 .res-main .top-wrap .guide-area {background-image:linear-gradient(104deg,#ddd5f9,#ffccd8 100%)}
 .res-main .top-wrap .guide-area .guide-process {padding:30px 0}
-.res-main .top-wrap .guide-area .guide-process .inner {max-width:1460px; margin:0 auto; padding:0 40px}
-.res-main .top-wrap .guide-area .guide-process .desc {margin-top:30px; font-size:24px; font-weight:bold; line-height:36px}
-.res-main .top-wrap .guide-area .guide-process .box-area {display:flex; justify-content:space-between; margin-top:30px; white-space:nowrap; overflow-x:auto}
-.res-main .top-wrap .guide-area .guide-process .box-area li {width:20%; max-width:250px; padding:23px 0 28px; box-sizing:border-box; border:3px solid #ca9bd8; border-radius:16px; background-color:#fff}
-.res-main .top-wrap .guide-area .guide-process .box-area li + li {position:relative}
-.res-main .top-wrap .guide-area .guide-process .box-area li + li::before {content:''; display:block; position:absolute; width:32.5px; height:20px; top:calc(50% - 10px); left:-35.5px; background:url(../images/icons/icon-arr-11-white.svg) no-repeat center}
+.res-main .top-wrap .guide-area .guide-process .inner {max-width:1460px; margin:0 auto}
+.res-main .top-wrap .guide-area .guide-process .desc {margin-top:30px; padding:0 40px; font-size:24px; font-weight:bold; line-height:36px}
+.res-main .top-wrap .guide-area .guide-process .box-area {display:flex; margin-top:30px; padding:0 40px; white-space:nowrap; overflow-x:auto}
+.res-main .top-wrap .guide-area .guide-process .box-area li {min-width:250px; padding:23px 0 28px; box-sizing:border-box; border:3px solid #ca9bd8; border-radius:16px; background-color:#fff}
+.res-main .top-wrap .guide-area .guide-process .box-area li + li {position:relative; margin-left:32px}
+.res-main .top-wrap .guide-area .guide-process .box-area li + li::before {content:''; display:block; position:absolute; width:32.5px; height:20px; top:calc(50% - 10px); left:-34.5px; background:url(../images/icons/icon-arr-11-white.svg) no-repeat center}
 .res-main .top-wrap .guide-area .guide-process .box-area li .icon-wrap {display:block; width:140px; height:140px; margin:0 auto; border-radius:50%; background-color:#fbf5ff}
 .res-main .top-wrap .guide-area .guide-process .box-area li .icon-wrap i[class^="icon"] {display:block; width:100%; height:100%}
 .res-main .top-wrap .guide-area .guide-process .box-area li .icon-wrap .icon01 {background:url(../images/icons/icon-res-guide-01.svg) no-repeat center}
@@ -79,9 +79,9 @@
 
 .res-main .top-wrap .add-area {max-width:1460px; margin:40px auto}
 .res-main .top-wrap .add-area .res-banner-01 {padding:0 40px}
-.res-main .top-wrap .add-area .res-banner-01 .swiper-slide > [class^="banner"] {display:flex; align-items:center; width:100%; height:200px; padding:0 86px; }
-.res-main .top-wrap .add-area .res-banner-01 .swiper-slide > .banner01 {background:url(../images/img-res-banner-01.png) no-repeat center}
-.res-main .top-wrap .add-area .res-banner-01 .swiper-slide > .banner02 {background:url(../images/img-res-banner-01.png) no-repeat center}
+.res-main .top-wrap .add-area .res-banner-01 .swiper-slide > [class^="banner"] {display:flex; align-items:center; width:100%; height:200px; padding:0 86px; border-radius:16px; overflow:hidden}
+.res-main .top-wrap .add-area .res-banner-01 .swiper-slide > .banner01 {background:url(../images/img-res-banner-01.png) no-repeat center / 100%}
+.res-main .top-wrap .add-area .res-banner-01 .swiper-slide > .banner02 {background:url(../images/img-res-banner-01.png) no-repeat center / 100%}
 .res-main .top-wrap .add-area .res-banner-01 .swiper-slide > [class^="banner"] .boxs {width:100%}
 .res-main .top-wrap .add-area .res-banner-01 .swiper-slide > [class^="banner"] .boxs > a {display:block; width:100%}
 .res-main .top-wrap .add-area .res-banner-01 .swiper-slide > [class^="banner"] .boxs .tit {font-size:28px; font-weight:bold; line-height:36px}
@@ -130,8 +130,8 @@
 .res-main .cont-wrap .cont-area .step-area {border-top:1px solid #707070}
 .res-main .cont-wrap .cont-area .step-area .main-area {padding:20px 0}
 .res-main .input-area > ul {display:flex}
-.res-main .input-area ul.icon-type > li {flex:1}
-.res-main .input-area ul.icon-type > li + li {margin-left:15px}
+.res-main .input-area ul.icon-type {justify-content:space-between}
+.res-main .input-area ul.icon-type > li {width:calc(20% - 7.5px)}
 .res-main .input-area ul.icon-type .radio-btn.btn-type2 {width:100%}
 .res-main .input-area ul.icon-type .radio-btn.btn-type2 label {display:flex; justify-content:center; align-items:center; width:100%; height:80px; border-radius:28px; font-size:18px; font-weight:500; line-height:27px}
 .res-main .input-area ul.icon-type .radio-btn.btn-type2 input:checked + label {border:2px solid #da0f47; color:#da0f47}
@@ -139,12 +139,12 @@
 .res-main .input-area ul.icon-type .radio-btn.btn-type2 .icon.wedding {background:url(../images/icons/icon-wedding.svg) no-repeat center}
 .res-main .input-area ul.icon-type .radio-btn.btn-type2 .icon.move {background:url(../images/icons/icon-move.svg) no-repeat center}
 .res-main .input-area ul.icon-type .radio-btn.btn-type2 .icon.interior {background:url(../images/icons/icon-interior.svg) no-repeat center}
-.res-main .input-area ul.icon-type .radio-btn.btn-type2 .icon.as {background:url(../images/icons/icon-as.svg) no-repeat center}
+.res-main .input-area ul.icon-type .radio-btn.btn-type2 .icon.broken {background:url(../images/icons/icon-broken.svg) no-repeat center}
 .res-main .input-area ul.icon-type .radio-btn.btn-type2 .icon.etc {background:url(../images/icons/icon-etc.svg) no-repeat center}
 .res-main .input-area ul.icon-type .radio-btn.btn-type2 input:checked + label .icon.wedding {background:url(../images/icons/icon-wedding_on.svg) no-repeat center}
 .res-main .input-area ul.icon-type .radio-btn.btn-type2 input:checked + label .icon.move {background:url(../images/icons/icon-move_on.svg) no-repeat center}
 .res-main .input-area ul.icon-type .radio-btn.btn-type2 input:checked + label .icon.interior {background:url(../images/icons/icon-interior_on.svg) no-repeat center}
-.res-main .input-area ul.icon-type .radio-btn.btn-type2 input:checked + label .icon.as {background:url(../images/icons/icon-as_on.svg) no-repeat center}
+.res-main .input-area ul.icon-type .radio-btn.btn-type2 input:checked + label .icon.broken {background:url(../images/icons/icon-broken_on.svg) no-repeat center}
 .res-main .input-area ul.icon-type .radio-btn.btn-type2 input:checked + label .icon.etc {background:url(../images/icons/icon-etc_on.svg) no-repeat center}
 
 .res-main .input-area ul.cate-type {display:flex; flex-wrap:wrap; justify-content:space-between; margin-top:-12px}
@@ -157,26 +157,24 @@
 .res-main .input-area ul.cate-type .cate-tit > .icon.house {background:url(../images/icons/icon-washing-machine.svg) no-repeat center}
 .res-main .input-area ul.cate-type .cate-tit > .icon.mobile {background:url(../images/icons/icon-mobile.svg) no-repeat center}
 .res-main .input-area ul.cate-type .cate-tit > .icon.beauty {background:url(../images/icons/icon-medihair.svg) no-repeat center}
-.res-main .input-area ul.cate-type .cate-pdt {display:flex; flex-wrap:wrap; max-width:498px}
+.res-main .input-area ul.cate-type .cate-pdt {display:flex; flex-wrap:wrap; width:calc(100% - 154px); max-width:498px}
 .res-main .input-area ul.cate-type ul.cate-pdt {margin-top:-10px}
 .res-main .input-area ul.cate-type .cate-pdt > li {width:156px; height:48px; margin-top:10px; margin-right:10px}
 .res-main .input-area ul.cate-type .cate-pdt .radio-btn.btn-type2 label {width:100%; height:100%; padding:10px 0; background-color:#fff; border-radius:48px; font-size:16px; font-weight:500; line-height:24px; box-sizing:border-box}
 .res-main .input-area ul.cate-type .cate-pdt .radio-btn.btn-type2 input:checked + label {border:1px solid #da0f47; color:#da0f47}
 
-.res-main .input-area ul.base-type > li {flex:1}
-.res-main .input-area ul.base-type > li + li {margin-left:12px}
+.res-main .input-area ul.base-type {justify-content:space-between}
+.res-main .input-area ul.base-type > li {width:calc(16.6666% - 6px)}
 .res-main .input-area ul.base-type .radio-btn.btn-type2 {width:100%}
 .res-main .input-area ul.base-type .radio-btn.btn-type2 label {display:flex; justify-content:center; align-items:center; width:100%; height:48px; border-radius:28px; font-size:16px; font-weight:500; line-height:24px}
 .res-main .input-area ul.base-type .radio-btn.btn-type2 input:checked + label {border:2px solid #da0f47; color:#da0f47}
 
 .res-main .input-area .text-area textarea {height:140px; padding:26px 24px; border:1px solid #ddd; border-radius:8px; font-size:16px; line-height:24px}
-.res-main .input-area .text-area textarea::placeholder {color:#666; font-size:16px}
+.res-main .input-area .text-area textarea::placeholder {color:#666; font-size:16px; line-height:24px}
 .res-main .input-area .text-area .info-msg {margin-top:10px; margin-left:10px; color:#777; font-size:14px; line-height:22px}
 
-.res-main .cont-wrap .cont-area .step-area .result-area {}
-.res-main .cont-wrap .cont-area .step-area .result-area.active {}
 .res-main .cont-wrap .cont-area .step-area .result-area [class^="info-step"] {margin-top:-1px; border-top:1px solid #ddd; border-bottom:1px solid #ddd}
-.res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com {display:none; padding:22px 0}
+.res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com {display:none; flex-wrap:wrap; padding:22px 0}
 .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com.active {display:flex}
 .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com li {position:relative; font-size:18px; line-height:28px}
 .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com li + li::before {content:'/'; display:inline-block; margin-left:3px; color:#666}
@@ -186,6 +184,7 @@
 .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-uncom.active {display:flex}
 .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-uncom .page-num {color:#666; font-size:20px; font-weight:bold; line-height:30px}
 .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-uncom .txt {margin-left:18px; color:#666; font-size:18px; line-height:30px}
+.res-main .cont-wrap .cont-area .step-area .result-area .btn-reset {display:none}
 
 /* step 2 */
 .res-main .step-area.step02 .view-area {position:relative}
@@ -196,17 +195,18 @@
 .res-main .step-area.step02 .view-area .sort-area button.view-map {background:url(../images/icons/icon-view-map.svg) no-repeat 0 center}
 .res-main .step-area.step02 .view-area .map-wrap {display:none; padding:20px; border:1px solid #000; border-radius:8px}
 .res-main .step-area.step02 .view-area .map-wrap.active {display:block}
-.res-main .input-area .select-box {position:relative}
-.res-main .input-area .select-box::after {content:''; display:block; position:absolute; width:16px; height:16px; top:calc(50% - 8px); right:16px; background:url(../images/icons/icon-arr-down-16.svg) no-repeat center}
-.res-main .input-area .select-box select {position:relative; display:block; padding:10px 15px; border:1px solid #ddd; border-radius:8px; background-color:#fff; font-size:16px; line-height:26px}
+.res-main .step-area.step02 .select-box {position:relative}
+.res-main .step-area.step02 .select-box::after {content:''; display:block; position:absolute; width:16px; height:16px; top:calc(50% - 8px); right:16px; background:url(../images/icons/icon-arr-down-16.svg) no-repeat center}
+.res-main .step-area.step02 .select-box select {position:relative; display:block; padding:10px 15px; border:1px solid #ddd; border-radius:8px; background-color:#fff; font-size:16px; line-height:26px}
 .res-main .step-area.step02 .view-area .map-wrap .select-box select {width:200px}
 .res-main .step-area.step02 .view-area .map-wrap .input-area > ul li + li {margin-left:8px}
 .res-main .step-area.step02 .view-area .map-wrap .api-area {margin-top:14px}
+.res-main .step-area.step02 .view-area .map-wrap .api-area > img {width:100%}
 
-.res-main .step-area.step02 .view-area .list-wrap {display:none; border:1px solid #000; border-radius:8px}
+.res-main .step-area.step02 .view-area .list-wrap {display:none; border:1px solid #000; border-radius:8px; overflow:hidden}
 .res-main .step-area.step02 .view-area .list-wrap.active {display:block}
 .res-main .step-area.step02 .view-area .list-wrap .search-wrap {width:100%; padding:16px; box-shadow:0 3px 6px 0 rgba(0, 0, 0, 0.16)}
-.res-main .step-area.step02 .view-area .list-wrap .search-wrap .search-box {position:relative; width:594px; margin:0 auto}
+.res-main .step-area.step02 .view-area .list-wrap .search-wrap .search-box {position:relative; width:100%; max-width:594px; margin:0 auto}
 .res-main .step-area.step02 .view-area .list-wrap .search-wrap .search-box > input {width:100%; padding:12px 0 10px; font-size:16px; line-height:26px; border-bottom:2px solid #000}
 .res-main .step-area.step02 .view-area .list-wrap .search-wrap .search-box .btn-search {position:absolute; width:24px; height:48px; top:0; right:0; background:url(../images/icons/icon-search.svg) no-repeat center}
 .res-main .step-area.step02 .view-area .list-wrap .view-wrap {display:flex; height:515px}
@@ -216,6 +216,7 @@
 .res-main .step-area.step02 .view-area .list-wrap .view-wrap .lt > ul li .btn-city.active {color:#da0f47}
 .res-main .step-area.step02 .view-area .list-wrap .view-wrap .lt > ul li .btn-city.active::before {content:''; display:block; position:absolute; width:10px; height:16px; top:calc(50% - 8px); left:0; background-color:#da0f47}
 .res-main .step-area.step02 .view-area .list-wrap .view-wrap .lt > ul li .btn-city > span {margin-left:3px}
+.res-main .step-area.step02 .view-area .list-wrap .view-wrap .mo-select {display:none}
 .res-main .step-area.step02 .view-area .list-wrap .view-wrap .rt {width:calc(100% - 220px); height:100%; padding:12px 30px 26px; overflow-y:auto}
 .res-main .step-area.step02 .view-area .list-wrap .view-wrap .rt > ul {display:flex; flex-wrap:wrap}
 .res-main .step-area.step02 .view-area .list-wrap .view-wrap .rt > ul > li {width:calc(50% - 7px); margin-top:14px}
@@ -276,7 +277,6 @@
 .res-main .input-area ul.acco-type {flex-direction:column}
 .res-main .input-area ul.acco-type > li + li {margin-top:8px}
 .res-main .input-area ul.acco-type .check-box {display:block}
-.res-main .input-area ul.acco-type .check-box input {}
 .res-main .input-area ul.acco-type .check-box label {font-size:16px; line-height:26px}
 .res-main .input-area ul.acco-type .check-box label .name > em {margin-right:2px}
 .res-main .input-area ul.acco-type .check-box label .name > em.red {color:#da0f47}
@@ -290,4 +290,106 @@
 .res-main .step-area.step03 .user-info-area .bottom-area .desc {margin-top:6px; font-size:14px; line-height:22px}
 .res-main .step-area.step03 .user-info-area .bottom-area .tb_row {margin-top:14px}
 
+/* mobile */
+@media screen and (max-width:1460px) {
+
+}
+@media screen and (max-width:767px) {
+  .res-main .cont-wrap .cont-area .step-tit ~ .step-tit {margin-top:40px}
+  .res-main .top-wrap .guide-area .guide-process {padding:25px 0 20px}
+  .res-main .top-wrap .guide-area .guide-process .desc {margin-top:0; padding:0 16px; font-size:16px; line-height:24px}
+  .res-main .top-wrap .guide-area .guide-process .box-area {margin-top:16px; padding:0 16px}
+  .res-main .top-wrap .guide-area .guide-process .box-area li {min-width:125px; padding:11px 12px 10px; border-radius:8px; border-width:1.5px}
+  .res-main .top-wrap .guide-area .guide-process .box-area li + li {margin-left:16px}
+  .res-main .top-wrap .guide-area .guide-process .box-area li + li::before {width:16px; left:-18px; background-size:5px}
+  .res-main .top-wrap .guide-area .guide-process .box-area li .icon-wrap {width:80px; height:80px; background-color:none}
+  .res-main .top-wrap .guide-area .guide-process .box-area li .icon-wrap .icon01 {background:url(../images/icons/icon-res-guide-01_mo.svg) no-repeat center / 100%}
+  .res-main .top-wrap .guide-area .guide-process .box-area li .icon-wrap .icon02 {background:url(../images/icons/icon-res-guide-02_mo.svg) no-repeat center / 100%}
+  .res-main .top-wrap .guide-area .guide-process .box-area li .icon-wrap .icon03 {background:url(../images/icons/icon-res-guide-03_mo.svg) no-repeat center / 100%}
+  .res-main .top-wrap .guide-area .guide-process .box-area li .icon-wrap .icon04 {background:url(../images/icons/icon-res-guide-04_mo.svg) no-repeat center / 100%}
+  .res-main .top-wrap .guide-area .guide-process .box-area li .icon-wrap .icon05 {background:url(../images/icons/icon-res-guide-05_mo.svg) no-repeat center / 100%}
+  .res-main .top-wrap .guide-area .guide-process .box-area li .txt {margin-top:10px; font-size:11px; line-height:16px; white-space:initial; word-break:keep-all}
+  .res-main .top-wrap .guide-area .guide-benefits .list-area {flex-direction:column; padding:15px 0 18px}
+  .res-main .top-wrap .guide-area .guide-benefits .list-area .tit {font-size:12px; line-height:19px; text-align:center}
+  .res-main .top-wrap .guide-area .guide-benefits .list-area .cont {width:100%; margin-left:0; margin-top:14px}
+  .res-main .top-wrap .guide-area .guide-benefits .list-area .cont li {flex-direction:column; margin-left:0}
+  .res-main .top-wrap .guide-area .guide-benefits .list-area .cont li i[class^="icon"] {width:40px; height:40px}
+  .res-main .top-wrap .guide-area .guide-benefits .list-area .cont li .icon01 {background:url(../images/icons/icon-res-benefits-01_mo.svg) no-repeat center / 100%}
+  .res-main .top-wrap .guide-area .guide-benefits .list-area .cont li .icon02 {background:url(../images/icons/icon-res-benefits-02_mo.svg) no-repeat center / 100%}
+  .res-main .top-wrap .guide-area .guide-benefits .list-area .cont li .icon03 {background:url(../images/icons/icon-res-benefits-03_mo.svg) no-repeat center / 100%}
+  .res-main .top-wrap .guide-area .guide-benefits .list-area .cont li .txt {margin-left:0; margin-top:2px; font-size:10px; line-height:15px; text-align:center}
+  .res-main .top-wrap .add-area .res-banner-01 {padding:0 16px}
+  .res-main .top-wrap .add-area .res-banner-01 .swiper-slide > [class^="banner"] {height:90px; padding:0 32px; border-radius:8px; background-size:cover!important}
+  .res-main .top-wrap .add-area .res-banner-01 .swiper-slide > [class^="banner"] .boxs .tit {font-size:14px; line-height:19px}
+  .res-main .top-wrap .add-area .res-banner-01 .swiper-slide > [class^="banner"] .boxs .desc {display:none}
+  .res-main .top-wrap .add-area .res-banner-01 .banner-btns [class^="swiper-button"] {width:28px; height:28px}
+  .res-main .top-wrap .add-area .res-banner-01 .banner-btns [class^="swiper-button"]::after {background-size:6px}
+  .res-main .top-wrap .add-area {margin:20px auto}
+  .res-main .cont-wrap .progress-area {margin-top:25px; padding:20px 0 35px}
+  .res-main .cont-wrap .progress-area ul li {padding-top:22px}
+  .res-main .cont-wrap .progress-area ul li.active::before {width:14px; height:14px; border:4px solid #000}
+  .res-main .cont-wrap .progress-area ul li::before {top:3px}
+  .res-main .cont-wrap .progress-area ul li::after {top:7px}
+  .res-main .cont-wrap .progress-area ul li p {font-size:13px; line-height:18px}
+
+  .res-main .cont-wrap .cont-area {padding:0 16px}
+  .res-main .cont-wrap .cont-area .step-tit {font-size:16px; line-height:25px}
+  .res-main .cont-wrap .cont-area .step-tit > span {margin-left:5px; font-size:11px}
+  .res-main .input-area ul.icon-type {flex-wrap:wrap; margin-top:-12px}
+  .res-main .input-area ul.icon-type > li {width:calc(50% - 6px); margin-top:12px}
+  .res-main .input-area ul.icon-type .radio-btn.btn-type2 label {height:49px; border-radius:14px; font-size:13px; line-height:20px}
+  .res-main .input-area ul.icon-type .radio-btn.btn-type2 .icon {width:32px; height:32px; margin-right:6px}
+  .res-main .input-area ul.icon-type .radio-btn.btn-type2 .icon.wedding {background:url(../images/icons/icon-wedding_mo.svg) no-repeat center / contain}
+  .res-main .input-area ul.icon-type .radio-btn.btn-type2 .icon.move {background:url(../images/icons/icon-move_mo.svg) no-repeat center / contain}
+  .res-main .input-area ul.icon-type .radio-btn.btn-type2 .icon.interior {background:url(../images/icons/icon-interior_mo.svg) no-repeat center / contain}
+  .res-main .input-area ul.icon-type .radio-btn.btn-type2 .icon.broken {background:url(../images/icons/icon-broken_mo.svg) no-repeat center / contain}
+  .res-main .input-area ul.icon-type .radio-btn.btn-type2 .icon.etc {background:url(../images/icons/icon-etc_mo.svg) no-repeat center / contain}
+  .res-main .input-area ul.icon-type .radio-btn.btn-type2 input:checked + label .icon.wedding {background:url(../images/icons/icon-wedding_mo_on.svg) no-repeat center / contain}
+  .res-main .input-area ul.icon-type .radio-btn.btn-type2 input:checked + label .icon.move {background:url(../images/icons/icon-move_mo_on.svg) no-repeat center / contain}
+  .res-main .input-area ul.icon-type .radio-btn.btn-type2 input:checked + label .icon.interior {background:url(../images/icons/icon-interior_mo_on.svg) no-repeat center / contain}
+  .res-main .input-area ul.icon-type .radio-btn.btn-type2 input:checked + label .icon.broken {background:url(../images/icons/icon-broken_mo_on.svg) no-repeat center / contain}
+  .res-main .input-area ul.icon-type .radio-btn.btn-type2 input:checked + label .icon.etc {background:url(../images/icons/icon-etc_mo_on.svg) no-repeat center / contain}
+
+  .res-main .input-area ul.cate-type > li {flex-direction:column; align-items:center; width:100%}
+  .res-main .input-area ul.cate-type .cate-tit {font-size:13px; line-height:20px}
+  .res-main .input-area ul.cate-type .cate-tit > .icon {display:none}
+  .res-main .input-area ul.cate-type ul.cate-pdt {width:100%; max-width:315px; margin-top:3px}
+  .res-main .input-area ul.cate-type .cate-pdt > li {width:98px; height:34px; margin-top:7px; margin-right:7px}
+  .res-main .input-area ul.cate-type .cate-pdt .radio-btn.btn-type2 label {padding:0; font-size:13px; line-height:34px}
+  .res-main .input-area ul.base-type {flex-wrap:wrap; margin-top:-7px}
+  .res-main .input-area ul.base-type > li {width:calc(33.3333% - 3.5px); margin-top:7px}
+  .res-main .input-area ul.base-type .radio-btn.btn-type2 label {height:34px; padding:0; font-size:13px; line-height:34px}
+  .res-main .input-area .text-area textarea {padding:13px 16px; font-size:14px; line-height:19px}
+  .res-main .input-area .text-area textarea::placeholder {font-size:14px; line-height:19px}
+  .res-main .input-area .text-area .info-msg {margin-top:8px; margin-left:8px; font-size:10px; line-height:17px}
+
+  .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com {flex-direction:column; padding:11px 0}
+  .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com li {font-size:13px; line-height:21px}
+  .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com li + li {margin-top:5px}
+  .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com li + li::before {display:none}
+  .res-main .cont-wrap .cont-area .step-area .result-area .btn-reset {display:block; margin:0 auto 13px; padding:0 16px 0 39px; border:1px solid #ddd; border-radius:34px; background:url(../images/icons/icon-reset.svg) no-repeat 14px center / 20px; font-size:13px; line-height:34px}
+  .res-main .step-area.step02 .view-area .map-wrap > .input-area > ul {flex-direction:column}
+  .res-main .step-area.step02 .view-area .map-wrap .input-area > ul li + li {margin-left:0; margin-top:6px}
+  .res-main .step-area.step02 .view-area .map-wrap .select-box select {width:100%}
+  .res-main .step-area.step02 .view-area .map-wrap .select-box select {padding:11px 12px; font-size:14px; line-height:22px}
+  .res-main .step-area.step02 .view-area .list-wrap .search-wrap {padding:0 23px 11px}
+  .res-main .step-area.step02 .view-area .list-wrap .search-wrap .search-box > input {font-size:13px; line-height:24px}
+  .res-main .step-area.step02 .view-area .list-wrap .search-wrap .search-box .btn-search {width:16px; background:url(../images/icons/icon-search_mo.svg) no-repeat center / contain}
+  .res-main .step-area.step02 .view-area .list-wrap .view-wrap {flex-direction:column}
+  .res-main .step-area.step02 .view-area .list-wrap .view-wrap .lt {display:none}
+  .res-main .step-area.step02 .view-area .list-wrap .view-wrap .mo-select {display:block; padding:16px 12px 0}
+  .res-main .step-area.step02 .view-area .list-wrap .view-wrap .mo-select .select-box select {width:100%}
+  .res-main .step-area.step02 .view-area .list-wrap .view-wrap .rt {width:100%; padding:8px 12px 12px}
+  .res-main .step-area.step02 .view-area .list-wrap .view-wrap .rt > ul > li {width:100%; margin-top:0}
+  .res-main .step-area.step02 .view-area .list-wrap .view-wrap .rt > ul > li:nth-child(2n) {margin-left:0}
+  .res-main .step-area.step02 .view-area .list-wrap .view-wrap .rt > ul > li + li {margin-top:7px}
+  .res-main .step-area.step02 .bottom-area {flex-direction:column}
+  .res-main .step-area.step02 .bottom-area .shop-info-wrap {width:100%}
+  .res-main .step-area.step02 .bottom-area .date-wrap {width:100%}
+  .res-main .step-area.step02 .bottom-area .date-wrap .calendar {display:none}
+  .res-main .step-area.step02 .bottom-area .date-wrap .time {display:none}
+
+  .res-main .step-area.step03 .user-info-area .lt {float:none; width:100%; max-width:100%}
+  .res-main .step-area.step03 .user-info-area .rt {float:none; width:100%; margin-left:0}
+}
 /* // 방문상담예약 */
