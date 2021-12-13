@@ -458,7 +458,6 @@
 
 .box-list.event-type .box-list-inner .lists .list-inner .date {
     margin-top: 6px;
-    padding-right: 100px;
     font-size: 14px;
     line-height: 24px;
 }
@@ -471,10 +470,9 @@
 }
 
 .box-list.event-type .box-list-inner .lists .list-inner .btn-link {
-    position: absolute;
-    right: 32px;
-    bottom: 32px;
+    z-index: 1;
     font-size: 14px;
+    line-height: 24px;
 }
 
 @media screen and (max-width: 767px) {
@@ -486,13 +484,13 @@
         padding: 10px 12px 14px;
     }
     .box-list.event-type .box-list-inner .lists .list-inner .date {
+        padding-right: 0;
         font-size: 11px;
         line-height: 15px;
     }
     .box-list.event-type .box-list-inner .lists .list-inner .btn-link {
-        right: 16px;
-        bottom: 14px;
-        font-size: 11px;
+        position: relative;
+        font-size: 13px;
         line-height: 15px;
     }
     .box-list.event-type .box-list-inner .lists .list-inner .btn-link::after {

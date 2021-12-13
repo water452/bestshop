@@ -456,7 +456,6 @@ br.mob-only {
 .contents.event-list .section-wrap {
   width: 100%;
   max-width: 1460px;
-  padding: 0 40px 0;
 }
 .contents.event-list .tabs-wrap {
   margin-bottom: 50px;
@@ -478,6 +477,19 @@ br.mob-only {
 }
 .contents.event-list .btn-moreview:before {
   height: 27px;
+}
+.contents.event-list .flex-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.contents.event-list .box-list.event-type .box-list-inner .lists .list-inner .flex-box .date {
+  margin-top: 0px;
+}
+.contents.event-list .box-list.event-type .box-list-inner .lists .list-inner .flex-box .btn-link {
+  min-width: 86px
 }
 
 
@@ -760,6 +772,18 @@ br.mob-only {
     font-size: 14px;
     height: 40px;
     width: 148px;
+  }
+
+  .contents.event-list .flex-box {
+    display: block;
+    margin-top: 0;
+  }
+  .contents.event-list .box-list.event-type .box-list-inner .lists .list-inner .flex-box .date {
+    margin-top: 6px;
+  }
+  .contents.event-list .box-list.event-type .box-list-inner .lists .list-inner .flex-box .btn-link {
+    min-width: auto;
+    margin-top: 9px;
   }
 
   .box-list .box-list-inner .lists .list-inner .icon-timedeal {
