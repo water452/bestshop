@@ -9,7 +9,7 @@
   max-width: 100%;
   padding: 0;
 }
-.container .cont-wrap {
+.contents .cont-wrap {
   max-width: 1460px;
   margin: 0 auto;
   padding: 0 40px 120px;
@@ -450,7 +450,7 @@ br.mob-only {
   background-color: #fff;
 }
 .contents.event-list .page-tabs .tabs-wrap {
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .contents.event-list .section-wrap {
@@ -512,9 +512,12 @@ br.mob-only {
 
 
 /*event-detail*/
+.ev-detail-top {
+  position: relative;
+}
 .ev-detail-top .tit-wrap {
   position: relative;
-  padding: 24px 20px 33px;
+  margin-top: 73px;
   border-bottom: 1px solid #ddd;
 }
 .ev-detail-top .tit-wrap.is-bg {
@@ -523,13 +526,10 @@ br.mob-only {
 .ev-detail-top .tit-wrap.is-bg ~ .info-wrap .info-list {
   margin-top: 0;
 }
-.ev-detail-top .tit-wrap .flag-wrap {
-  padding-bottom: 2px;
-}
 .ev-detail-top .tit-wrap .tit {
   padding-right: 80px;
   font-size: 32px;
-  line-height: 52px;
+  line-height: 47px;
   font-weight: 700;
   white-space: nowrap;
   overflow: hidden;
@@ -537,82 +537,93 @@ br.mob-only {
 }
 .ev-detail-top .tit-wrap .sub-tit {
   display: block;
-  padding-top: 16px;
+  margin-top: 14px;
   font-size: 18px;
-  line-height: 28px;
+  line-height: 26px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 .ev-detail-top .component-wrap {
   position: absolute;
-  top: 24px;
-  right: 20px;
+  top: 0;
+  right: 0;
 }
 .ev-detail-top .component-wrap .tooltip-wrap.share {
-  height: 48px;
+  height: 32px;
   padding: 0;
 }
 .ev-detail-top .component-wrap .tooltip-wrap.share .tooltip-icon {
-  width: 48px;
-  height: 48px;
+  width: 32px;
+  height: 32px;
   border-radius: 100px;
   background-color: rgba(255, 255, 255, 0.5);
   background-image: none;
-  line-height: 48px;
+  line-height: 32px;
   text-align: center;
 }
 .ev-detail-top .component-wrap .tooltip-wrap.share .tooltip-icon:before {
   display: inline-block;
-  width: 48px;
-  height: 48px;
+  width: 32px;
+  height: 32px;
   background: url("../images/icons/icon-share-32.svg") no-repeat center center;
   background-size: 32px;
   content: '';
 }
 .ev-detail-top .component-wrap .tooltip-wrap.share .tooltip-box {
-  top: 56px;
+  top: 50px;
 }
 .ev-detail-top .info-wrap {
   position: relative;
-  padding: 0 20px;
+  margin-top: 20px;
   background-color: #fff;
 }
-.ev-detail-top .info-wrap .info-list {
-  margin-top: -25px;
-  padding: 16px 0 24px;
-  border-top: 1px solid rgba(0, 0, 0, 0.5);
+
+
+.ev-detail-top .info-wrap dl {
+ display: flex;
+ align-items: center;
 }
-.ev-detail-top .info-wrap .info-list dl {
-  display: table;
-  width: 100%;
-  margin-top: 4px;
-  table-layout: fixed;
-}
-.ev-detail-top .info-wrap .info-list dl:first-child {
-  margin-top: 0;
-}
-.ev-detail-top .info-wrap .info-list dl dt, .ev-detail-top .info-wrap .info-list dl dd {
-  display: table-cell;
-  vertical-align: middle;
+
+.ev-detail-top .info-wrap dl dt, .ev-detail-top .info-wrap dl dd {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 26px;
 }
-.ev-detail-top .info-wrap .info-list dl dt {
-  width: 68px;
-  opacity: .7;
+.ev-detail-top .info-wrap dl dt {
+  margin-right: 10px;
+  color: #666;
   vertical-align: top;
 }
+
+.ev-detail-top .info-wrap .schedule {
+ display: flex;
+}
+.ev-detail-top .info-wrap .schedule dl:not(:first-child):before {
+  display: inline-block;
+  width: 1px;
+  height: 10px;
+  margin: 0 12px;
+  background-color: #ddd;
+  vertical-align: -1px;
+  content: '';
+}
+
+.ev-detail-top .info-wrap .target {
+  margin-top: 24px;
+  padding: 24px 0;
+  width: 100%;  
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
 .ev-detail-top .finish-txt {
-  margin: 0 -20px;
-  padding: 17px 20px;
+  padding: 18px 17px;
   background-color: #555;
   text-align: center;
 }
 .ev-detail-top .finish-txt p {
   display: inline-block;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 28px;
   font-weight: 700;
   vertical-align: middle;
   color: #fff;
@@ -622,6 +633,7 @@ br.mob-only {
 }
 .ev-detail-top .finish-txt .btn-link {
   margin-left: 24px;
+  vertical-align: middle;
   color: #fff;
 }
 .ev-detail-top .finish-txt .btn-link:after {
@@ -706,8 +718,8 @@ br.mob-only {
 /*mobile*/
 /******************* common **********************/
 @media screen and (max-width: 767px){
-  .container .cont-wrap {
-    padding: 0 0 60px;
+  .contents .cont-wrap {
+    padding: 0 16px 60px;
   }
   br.mob-only {
     display: block;
@@ -751,14 +763,8 @@ br.mob-only {
   .contents.event-list .page-tabs {
     padding: 0;
   }
-  .contents.event-list .section-wrap {
-    padding: 0;
-  }
   .contents.event-list .tabs-wrap {
-    margin-bottom: 19px;
-  }
-  .contents.event-list .tab-contents {
-    padding: 0 16px 0;
+    margin: 0 -16px 19px;
   }
   .contents.event-list .list-sorting {
     padding-bottom: 25px;
@@ -800,13 +806,17 @@ br.mob-only {
 
   /*event-detail*/
   .ev-detail-top .tit-wrap {
-    padding: 24px 16px 33px;
+    margin-top: 17px;
   }
   .ev-detail-top .tit-wrap .flag-wrap {
     padding-bottom: 1px;
   }
+  .ev-detail-top .tit-wrap .flag-wrap .flag {
+    font-size: 11px;
+  }
   .ev-detail-top .tit-wrap .tit {
     max-height: 66px;
+    margin-top: 14px;
     padding-right: 56px;
     font-size: 24px;
     line-height: 33px;
@@ -818,12 +828,9 @@ br.mob-only {
     white-space: normal;
   }
   .ev-detail-top .tit-wrap .sub-tit {
+    margin-top: 4px;
     font-size: 15px;
     line-height: 23px;
-  }
-  .ev-detail-top .component-wrap {
-    top: 32px;
-    right: 14px;
   }
   .ev-detail-top .component-wrap .tooltip-wrap.share {
       height: 40px;
@@ -841,7 +848,10 @@ br.mob-only {
       top: 40px;
   }
   .ev-detail-top .info-wrap {
-    padding: 0 16px;
+    margin-top: 10px;
+  }
+  .ev-detail-top .info-wrap dl dt {
+    margin-right: 13px;
   }
   .ev-detail-top .info-wrap .info-list {
     padding-top: 24px;
@@ -853,15 +863,29 @@ br.mob-only {
     font-size: 13px;
     line-height: 21px;
   }
+  .ev-detail-top .info-wrap .schedule {
+    display: block;
+  }
+  .ev-detail-top .info-wrap .schedule dl:not(:first-child):before {
+    display: none;
+  }
+  .ev-detail-top .info-wrap .target {
+    margin-top: 16px;
+    padding: 16px 0;
+  }
+
   .ev-detail-top .finish-txt {
-    margin: 0 -16px;
-    padding: 20px 34px;
+    padding: 20px 18px;
   }
   .ev-detail-top .finish-txt p {
     display: block;
+    font-size: 14px;
+    line-height: 20px;
   }
   .ev-detail-top .finish-txt .btn-link {
-    margin: 8px 0 0 0;
+    margin: 5px 0 0 0;
+    font-size: 12px;
+    line-height: 17px;
   }
 
   .ev-detail-con {
@@ -871,9 +895,6 @@ br.mob-only {
     padding: 0;
   }
 
-  .ev-detail-bottom {
-    padding: 0 16px;
-  }
   .ev-detail-bottom .notice-wrap {
     margin-top: 40px;
   }

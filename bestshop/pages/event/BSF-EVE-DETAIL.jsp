@@ -20,10 +20,32 @@
           <span class="sub-tit"><span class="blind">서브 제목</span>LGE.COM 홈페이지가 오픈 되었습니다! 함께
             응원해주세요!</span>
         </div>
-
+        
+        <div class="info-wrap">
+          <div class="schedule">
+            <dl>
+              <dt>이벤트 기간</dt>
+              <dd>2021.10.01 ~ 2021.10.31</dd>
+            </dl>
+            <dl>
+              <dt>당첨자 발표</dt>
+              <dd>2021.10.31</dd>
+            </dl>
+          </div>
+          <div class="target">
+            <dl>
+              <dt>대상고객</dt>
+              <dd>LG전자 통합 회원이라면 누구나</dd>
+            </dl>
+          </div>
+          <div class="finish-txt Y">
+            <p>이벤트가 종료되었습니다.</p>
+            <a href="javascript:;" class="btn-link">당첨자 발표</a>
+          </div>
+        </div>
         <div class="component-wrap">
           <div class="inner">
-            <div class="tooltip-wrap share active">
+            <div class="tooltip-wrap share ">
               <a href="javascript:;" class="tooltip-icon ui_tooltip-target" data-fixed="fixed-right"
                 ui-modules="TooltipTarget"><span class="blind">제품 공유하기</span></a>
               <div class="tooltip-box">
@@ -45,18 +67,6 @@
                 <button type="button" class="btn-close"><span class="blind">닫기</span></button>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="info-wrap">
-          <div class="info-list">
-            <dl>
-              <dt>대상고객</dt>
-              <dd>2021.10.01 ~ 2021.10.31</dd>
-            </dl>
-          </div>
-          <div class="finish-txt Y">
-            <p>이벤트가 종료되었습니다.</p>
-            <a href="javascript:;" class="btn-link">당첨자 발표</a>
           </div>
         </div>
       </div>
