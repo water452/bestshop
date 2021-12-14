@@ -107,36 +107,67 @@
                     </dd>
                   </dl>
                   <div class="forms block-type">
-                    <p class="tit"><label for="longAnswer" class="req">설문방식 주관식 서술형<span class="blind">필수입력</span></label></p>
-                  
-                      <div class="select-list-wrap w-auto">
-                        <ul>
-                          <li class="lists">
-                            <span class="check-box">
-                              <input type="checkbox" id="chk11" name="chk11" value="올레드 TV (OLED77**) 이상">
-                              <label for="chk11">올레드 TV (OLED77**) 이상</label>
-                            </span>
-                          </li>
-                          <li class="lists">
-                            <span class="check-box">
-                              <input type="checkbox" id="chk11" name="chk11" value="올레드 TV (OLED77**) 이상">
-                              <label for="chk11">올레드 TV (OLED77**) 이상</label>
-                            </span>
-                          </li>
-                          <li class="lists">
-                            <span class="check-box">
-                              <input type="checkbox" id="chk11" name="chk11" value="올레드 TV (OLED77**) 이상">
-                              <label for="chk11">올레드 TV (OLED77**) 이상</label>
-                            </span>
-                          </li>
-                          <li class="lists">
-                            <span class="check-box">
-                              <input type="checkbox" id="chk11" name="chk11" value="올레드 TV (OLED77**) 이상">
-                              <label for="chk11">올레드 TV (OLED77**) 이상</label>
-                            </span>
-                          </li>
-                        </ul>
-                      </div>
+                    <p class="tit"><label for="longAnswer" class="req">설문방식 객관식 다중선택형<span class="blind">필수입력</span></label></p>
+                    <div class="select-list-wrap w-auto">
+                      <ul>
+                        <li class="lists">
+                          <span class="check-box">
+                            <input type="checkbox" id="chk01" name="chk1" value="올레드 TV (OLED77**) 이상">
+                            <label for="chk01">올레드 TV (OLED77**) 이상</label>
+                          </span>
+                        </li>
+                        <li class="lists">
+                          <span class="check-box">
+                            <input type="checkbox" id="chk02" name="chk1" value="올레드 TV (OLED77**) 이상">
+                            <label for="chk02">올레드 TV (OLED77**) 이상</label>
+                          </span>
+                        </li>
+                        <li class="lists">
+                          <span class="check-box">
+                            <input type="checkbox" id="chk03" name="chk1" value="올레드 TV (OLED77**) 이상">
+                            <label for="chk03">올레드 TV (OLED77**) 이상</label>
+                          </span>
+                        </li>
+                        <li class="lists">
+                          <span class="check-box">
+                            <input type="checkbox" id="chk04" name="chk1" value="올레드 TV (OLED77**) 이상">
+                            <label for="chk04">올레드 TV (OLED77**) 이상</label>
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="forms block-type">
+                    <p class="tit"><label for="longAnswer" class="req">설문방식 객관식 단일선택형<span class="blind">필수입력</span></label></p>
+                    <div class="select-list-wrap w-auto">
+                      <ul>
+                        <li class="lists">
+                          <span class="radio-btn">
+                            <input type="radio" id="rdo01" name="rdo1" value="올레드 TV (OLED77**) 이상">
+                            <label for="rdo01">올레드 TV (OLED77**) 이상</label>
+                          </span>
+                        </li>
+                        <li class="lists">
+                          <span class="radio-btn">
+                            <input type="radio" id="rdo02" name="rdo1" value="올레드 TV (OLED77**) 이상">
+                            <label for="rdo02">올레드 TV (OLED77**) 이상</label>
+                          </span>
+                        </li>
+                        <li class="lists">
+                          <span class="radio-btn">
+                            <input type="radio" id="rdo03" name="rdo1" value="올레드 TV (OLED77**) 이상">
+                            <label for="rdo03">올레드 TV (OLED77**) 이상</label>
+                          </span>
+                        </li>
+                        <li class="lists">
+                          <span class="radio-btn">
+                            <input type="radio" id="rdo04" name="rdo1" value="올레드 TV (OLED77**) 이상">
+                            <label for="rdo04">올레드 TV (OLED77**) 이상</label>
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
 
                   <dl class="forms">

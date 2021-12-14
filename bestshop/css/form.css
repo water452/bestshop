@@ -258,9 +258,10 @@
 .form-wrap .forms.block-type .tit {
   padding-top: 0;
 }
-
-.form-wrap .forms.block-type .select-list-wrap > ul > li:first-child {
-  padding-left: 0;
+@media screen and (max-width: 767px) {
+  .form-wrap .forms.block-type .select-list-wrap > ul {
+    margin-top: 0;
+  }
 }
 
 .form-wrap .forms .input-wrap,

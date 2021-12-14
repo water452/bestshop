@@ -678,6 +678,9 @@ br.mob-only {
 .ev-detail-con .survey-wrap .form-infos p.req {
   font-size: 16px;
 }
+.ev-detail-con .survey-wrap .select-list-wrap > ul {
+  margin-left: -32px;
+}
 
 .ev-detail-con .btn-group {
   text-align: center;
@@ -912,6 +915,9 @@ br.mob-only {
   }
   .ev-detail-con .ev-cont .conts {
     padding: 0;
+  }
+  .ev-detail-con .survey-wrap .select-list-wrap > ul {
+    margin-left: -16px;
   }
 
   .ev-detail-bottom .notice-wrap {
