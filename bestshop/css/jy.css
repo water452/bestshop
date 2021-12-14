@@ -666,13 +666,11 @@ br.mob-only {
 .ev-detail-con .forms {
   margin-top: 48px;
 }
-.ev-detail-con .survey-wrap {
-  margin-top: 80px;
-}
 .ev-detail-con .survey-wrap .form-wrap .forms .tit {
   text-align: left;
 }
 .ev-detail-con .survey-wrap .input-info .tit-wrap {
+  margin-top: 80px;
   padding-bottom: 20px;
 }
 .ev-detail-con .survey-wrap .input-info .tit-wrap .tit.b-size {
