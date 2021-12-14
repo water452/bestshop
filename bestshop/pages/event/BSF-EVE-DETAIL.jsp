@@ -172,7 +172,7 @@
                   <div class="forms block-type">
                     <p class="tit"><span class="label">설문방식 첨부파일 선택형</span></p>
                     <div class="conts">
-                      <div class="image-file-wrap ui_imageinput" ui-modules="ImageFileInput">
+                      <div class="image-file-wrap ui_smooth_scroll">
                         <div class="file-item">
                           <div class="file-image">
                             <div class="file-preview"></div>

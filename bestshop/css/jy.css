@@ -685,6 +685,21 @@ br.mob-only {
   margin-left: -32px;
 }
 
+.ev-detail-con .survey-wrap .image-file-wrap {
+  margin-bottom: 22px;
+}
+.ev-detail-con .survey-wrap .image-file-wrap.ui_smooth_scroll {
+  white-space:nowrap;
+  overflow-x:auto;
+  overflow-y:hidden;
+  -webkit-overflow-scrolling: touch;
+  margin-right: -16px;
+}
+.ev-detail-con .survey-wrap .image-file-wrap.ui_smooth_scroll .file-item {
+  float:none;
+  display: inline-block;
+}
+
 .ev-detail-con .btn-group {
   margin-top: 80px;
   text-align: center;
@@ -919,6 +934,10 @@ br.mob-only {
   }
   .ev-detail-con .survey-wrap .select-list-wrap > ul {
     margin-left: -16px;
+  }
+
+  .ev-detail-con .survey-wrap .image-file-wrap .file-item:last-child {
+    margin-right: 20px;
   }
 
   .ev-detail-bottom .notice-wrap {
