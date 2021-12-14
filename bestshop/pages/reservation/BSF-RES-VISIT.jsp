@@ -817,7 +817,7 @@
                 <div class="time">
                   <form action="#">
                     <div class="input-area">
-                      <ul class="base-type">
+                      <ul>
                         <li>
                           <div class="radio-btn btn-type2">
                             <input type="radio" id="am11" name="time">

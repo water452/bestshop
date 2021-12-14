@@ -257,11 +257,12 @@
 .res-main .step-area.step02 .bottom-area .shop-info-wrap .box .info-area dl dd > ul li span + span {margin-left:10px}
 .res-main .step-area.step02 .bottom-area .date-wrap {display:flex; width:40%; height:386px; margin-left:16px}
 .res-main .step-area.step02 .bottom-area .date-wrap .calendar {width:414px; height:100%; border:1px solid #ddd; border-radius:8px}
-.res-main .step-area.step02 .bottom-area .date-wrap .time {width:118px; margin-left:12px}
-.res-main .step-area.step02 .date-wrap .input-area > ul {flex-direction:column; margin-top:-10px}
-.res-main .step-area.step02 .date-wrap .input-area > ul li {margin-left:0; margin-top:10px}
-.res-main .step-area.step02 .date-wrap .input-area > .base-type .radio-btn.btn-type2 label {height:34px; padding:0; border-radius:8px; font-size:14px; line-height:34px}
-.res-main .step-area.step02 .date-wrap .input-area > .base-type .radio-btn.btn-type2 input:checked + label {border-width:1px}
+.res-main .step-area.step02 .bottom-area .date-wrap .time {width:118px; height:100%; margin-left:12px}
+.res-main .step-area.step02 .bottom-area .date-wrap .time .input-area > ul {flex-direction:column; flex-wrap:wrap; margin-top:-10px}
+.res-main .step-area.step02 .bottom-area .date-wrap .time .input-area > ul li {height:16.6666%; margin-left:0; margin-top:10px}
+.res-main .step-area.step02 .bottom-area .date-wrap .time .input-area > ul li .radio-btn.btn-type2 {width:100%}
+.res-main .step-area.step02 .bottom-area .date-wrap .time .input-area > ul li .radio-btn.btn-type2 label {width:100%; height:34px; padding:0; border-radius:8px; font-size:14px; line-height:34px}
+.res-main .step-area.step02 .bottom-area .date-wrap .time .input-area > ul li .radio-btn.btn-type2 input:checked + label {border-width:1px}
 
 /* step 3 */
 .res-main .step-area.step03 .user-info-area::after {content:''; display:block; clear:both}
@@ -332,7 +333,6 @@
   .res-main .cont-wrap .progress-area ul li::after {top:7px}
   .res-main .cont-wrap .progress-area ul li p {font-size:13px; line-height:18px}
 
-  .res-main .cont-wrap .cont-area {padding:0 16px}
   .res-main .cont-wrap .cont-area .step-tit {font-size:16px; line-height:25px}
   .res-main .cont-wrap .cont-area .step-tit > span {margin-left:5px; font-size:11px}
   .res-main .input-area ul.icon-type {flex-wrap:wrap; margin-top:-12px}
@@ -377,19 +377,26 @@
   .res-main .step-area.step02 .view-area .list-wrap .search-wrap .search-box .btn-search {width:16px; background:url(../images/icons/icon-search_mo.svg) no-repeat center / contain}
   .res-main .step-area.step02 .view-area .list-wrap .view-wrap {flex-direction:column}
   .res-main .step-area.step02 .view-area .list-wrap .view-wrap .lt {display:none}
-  .res-main .step-area.step02 .view-area .list-wrap .view-wrap .mo-select {display:block; padding:16px 12px 0}
+  .res-main .step-area.step02 .view-area .list-wrap .view-wrap .mo-select {display:block; padding:16px 12px 8px}
   .res-main .step-area.step02 .view-area .list-wrap .view-wrap .mo-select .select-box select {width:100%}
-  .res-main .step-area.step02 .view-area .list-wrap .view-wrap .rt {width:100%; padding:8px 12px 12px}
+  .res-main .step-area.step02 .view-area .list-wrap .view-wrap .rt {width:100%; padding:0 12px 12px}
   .res-main .step-area.step02 .view-area .list-wrap .view-wrap .rt > ul > li {width:100%; margin-top:0}
   .res-main .step-area.step02 .view-area .list-wrap .view-wrap .rt > ul > li:nth-child(2n) {margin-left:0}
   .res-main .step-area.step02 .view-area .list-wrap .view-wrap .rt > ul > li + li {margin-top:7px}
   .res-main .step-area.step02 .bottom-area {flex-direction:column}
   .res-main .step-area.step02 .bottom-area .shop-info-wrap {width:100%}
-  .res-main .step-area.step02 .bottom-area .date-wrap {width:100%}
-  .res-main .step-area.step02 .bottom-area .date-wrap .calendar {display:none}
-  .res-main .step-area.step02 .bottom-area .date-wrap .time {display:none}
+  .res-main .step-area.step02 .bottom-area .date-wrap {flex-direction:column; width:100%; height:auto; margin-left:0; margin-top:12px}
+  .res-main .step-area.step02 .bottom-area .date-wrap .calendar {width:100%; height:303px}
+  .res-main .step-area.step02 .bottom-area .date-wrap .time {width:100%; margin-top:12px; margin-left:0; border:1px solid #ddd; border-radius:8px}
+  .res-main .step-area.step02 .bottom-area .date-wrap .time .input-area > ul {flex-direction:row; justify-content:flex-start; margin-top:-6.5px; margin-right:-6.5px; padding:16px}
+  .res-main .step-area.step02 .bottom-area .date-wrap .time .input-area > ul li {width:calc(20% - 6.5px); min-width:54px; margin-top:6.5px; margin-right:6.5px}
+  .res-main .step-area.step02 .date-wrap .input-area > .base-type .radio-btn.btn-type2 label {border-radius:4px}
 
   .res-main .step-area.step03 .user-info-area .lt {float:none; width:100%; max-width:100%}
   .res-main .step-area.step03 .user-info-area .rt {float:none; width:100%; margin-left:0}
+
+  .res-main .cont-wrap .cont-area .step-area .btn-area.bg {padding:0; background:none!important}
+  .res-main .cont-wrap .cont-area .step-area .btn-area.bg .result-txt {display:none}
+  .res-main .cont-wrap .cont-area .step-area .btn-area.bg .btn {background-color:#fa263e!important; background-image:linear-gradient(280deg, #fb5a72, #fa263e)!important; color:#fff!important}
 }
 /* // 방문상담예약 */
