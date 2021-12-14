@@ -79,6 +79,92 @@
                 <img src="https://www.lge.co.kr/kr/upload/admin/eventMgt/12월_식기세척기_구매사은품증정_이벤트[20211126_184711].jpg" alt="event" class="responsive">
               </div>
             </div>
+            <!-- 설문영역 -->
+            <div class="survey-wrap">
+              <div class="input-info">
+                <div class="tit-wrap">
+                  <p class="tit b-size">이벤트 설문 정보 입력</p>
+                </div>
+                <div class="form-infos">
+                  <p class="req" aria-disabled="true">필수 입력 항목</p>
+                </div>
+                
+                <div class="form-wrap">
+                  <dl class="forms block-type">
+                    <dt class="tit"><label for="shortAnswer" class="req">설문방식 주관식 단답형<span class="blind">필수입력</span></label></dt>
+                    <dd class="conts">
+                      <span class="input-wrap">
+                        <input type="text" id="shortAnswer" placeholder="단답형 입력">
+                      </span>
+                    </dd>
+                  </dl>
+                  <dl class="forms block-type">
+                    <dt class="tit"><label for="longAnswer" class="req">설문방식 주관식 서술형<span class="blind">필수입력</span></label></dt>
+                    <dd class="conts">
+                      <span class="input-wrap">
+                        <textarea id="longAnswer" cols="30" rows="10" placeholder="서술형 입력"></textarea>
+                      </span>
+                    </dd>
+                  </dl>
+                  <div class="forms block-type">
+                    <p class="tit"><label for="longAnswer" class="req">설문방식 주관식 서술형<span class="blind">필수입력</span></label></p>
+                  
+                      <div class="select-list-wrap w-auto">
+                        <ul>
+                          <li class="lists">
+                            <span class="check-box">
+                              <input type="checkbox" id="chk11" name="chk11" value="올레드 TV (OLED77**) 이상">
+                              <label for="chk11">올레드 TV (OLED77**) 이상</label>
+                            </span>
+                          </li>
+                          <li class="lists">
+                            <span class="check-box">
+                              <input type="checkbox" id="chk11" name="chk11" value="올레드 TV (OLED77**) 이상">
+                              <label for="chk11">올레드 TV (OLED77**) 이상</label>
+                            </span>
+                          </li>
+                          <li class="lists">
+                            <span class="check-box">
+                              <input type="checkbox" id="chk11" name="chk11" value="올레드 TV (OLED77**) 이상">
+                              <label for="chk11">올레드 TV (OLED77**) 이상</label>
+                            </span>
+                          </li>
+                          <li class="lists">
+                            <span class="check-box">
+                              <input type="checkbox" id="chk11" name="chk11" value="올레드 TV (OLED77**) 이상">
+                              <label for="chk11">올레드 TV (OLED77**) 이상</label>
+                            </span>
+                          </li>
+                        </ul>
+                      </div>
+                  </div>
+
+                  <dl class="forms">
+                    <dt class="tit"><label for="name" class="req">이름<span class="blind">필수입력</span></label></dt>
+                    <dd class="conts">
+                      <span class="input-wrap block">
+                        <input type="text" id="name" placeholder="이름을 입력해 주세요.">
+                      </span>
+                    </dd>
+                  </dl>
+                  <dl class="forms">
+                    <dt class="tit"><label for="phone" class="req">휴대전화번호<span class="blind">필수입력</span></label></dt>
+                    <dd class="conts">
+                      <span class="input-wrap block">
+                        <input type="number" id="phone" maxlength="11" placeholder="‘-’없이 번호만 입력해 주세요.">
+                      </span>
+                      <ul class="bullet-list">
+                        <li class="b-txt">이름과 휴대전화번호 입력하신 후, 확인 버튼을 클릭해주세요.</li>
+                      </ul>
+                    </dd>
+                  </dl>
+                </div>
+                <div class="btn-group">
+                  <button type="button" class="btn pink" id="uiSubmit"><span>확인</span></button>
+                </div>
+              </div>
+            </div>
+            <!-- // 설문영역 -->
           </div>
         </div>
       </div>
