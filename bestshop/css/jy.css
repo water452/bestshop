@@ -641,30 +641,46 @@ br.mob-only {
 }
 
 
-.ev-detail-con {
-  text-align: center;
-}
-
 .ev-detail-con .ev-cont {
   position: relative;
 }
 
-.ev-detail-con .ev-cont .conts {
+.ev-detail-con .ev-cont > .conts {
   display: block;
   padding-bottom: 80px;
 }
 
-.ev-detail-con .ev-cont .conts img {
+.ev-detail-con .ev-cont > .conts img {
   max-width: 100%;
 }
 
-.ev-detail-con .ev-cont .conts:only-child {
+.ev-detail-con .ev-cont > .conts:only-child {
   padding: 0;
 }
 
-.ev-detail-con .ev-cont .conts .img_view {
+.ev-detail-con .ev-cont > .conts .img_view {
   position: relative;
+  text-align: center;
 }
+
+.ev-detail-con .survey-wrap .form-wrap .forms .tit {
+  text-align: left;
+}
+.ev-detail-con .survey-wrap .input-info .tit-wrap {
+  padding-bottom: 20px;
+}
+.ev-detail-con .survey-wrap .input-info .tit-wrap .tit.b-size {
+  font-size: 24px;
+}
+.ev-detail-con .survey-wrap .form-infos p.req {
+  font-size: 16px;
+}
+
+.ev-detail-con .btn-group {
+  text-align: center;
+}
+
+
 
 
 .ev-detail-bottom .etc-btn-wrap {

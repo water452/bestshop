@@ -259,6 +259,10 @@
   padding-top: 0;
 }
 
+.form-wrap .forms.block-type .select-list-wrap > ul > li:first-child {
+  padding-left: 0;
+}
+
 .form-wrap .forms .input-wrap,
 .form-wrap .forms .select-wrap,
 .form-wrap .forms .text-form,
