@@ -663,15 +663,8 @@ br.mob-only {
   text-align: center;
 }
 
-.ev-detail-con .forms {
-  margin-top: 48px;
-}
 .ev-detail-con .survey-wrap .form-wrap .forms .tit {
   text-align: left;
-}
-.ev-detail-con .survey-wrap .input-info .tit-wrap {
-  margin-top: 80px;
-  padding-bottom: 20px;
 }
 .ev-detail-con .survey-wrap .input-info .tit-wrap .tit.b-size {
   font-size: 24px;
@@ -696,6 +689,12 @@ br.mob-only {
 .ev-detail-con .survey-wrap .image-file-wrap.ui_smooth_scroll .file-item {
   float:none;
   display: inline-block;
+}
+.ev-detail-con .survey-wrap .agree-wrap {
+  margin-top: 12px;
+}
+.ev-detail-con .survey-wrap .agree-all-chk .desc {
+  margin: 5px 0 0 30px;
 }
 
 .ev-detail-con .btn-group {
