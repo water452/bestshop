@@ -169,7 +169,82 @@
                       </ul>
                     </div>
                   </div>
-
+                  <div class="forms block-type">
+                    <p class="tit"><span class="label">설문방식 첨부파일 선택형</span></p>
+                    <div class="conts">
+                      <div class="image-file-wrap ui_imageinput" ui-modules="ImageFileInput">
+                        <div class="file-item">
+                          <div class="file-image">
+                            <div class="file-preview"></div>
+                            <div class="file-btns">
+                              <input type="file" name="imageFile1" id="imageFile1" accept="image/*">
+                              <label for="imageFile1" class="btn-upload"><span class="blind">업로드</span></label>
+                              <button type="button" class="btn-del"><span class="blind">삭제</span></button>
+                            </div>
+                          </div>
+                          <div class="file-name">
+                             <input type="text" class="name" placeholder="파일선택" disabled>
+                          </div>
+                        </div>
+                        <div class="file-item">
+                          <div class="file-image">
+                            <div class="file-preview"></div>
+                            <div class="file-btns">
+                              <input type="file" name="imageFile2" id="imageFile2" accept="image/*">
+                              <label for="imageFile2" class="btn-upload"><span class="blind">업로드</span></label>
+                              <button type="button" class="btn-del"><span class="blind">삭제</span></button>
+                            </div>
+                          </div>
+                          <div class="file-name">
+                            <input type="text" class="name" placeholder="파일선택" disabled>
+                          </div>
+                        </div>
+                        <div class="file-item">
+                          <div class="file-image">
+                            <div class="file-preview"></div>
+                            <div class="file-btns">
+                              <input type="file" name="imageFile3" id="imageFile3" accept="image/*">
+                              <label for="imageFile3" class="btn-upload"><span class="blind">업로드</span></label>
+                              <button type="button" class="btn-del"><span class="blind">삭제</span></button>
+                            </div>
+                          </div>
+                          <div class="file-name">
+                             <input type="text" class="name" placeholder="파일선택" disabled>
+                          </div>
+                        </div>
+                        <div class="file-item">
+                          <div class="file-image">
+                            <div class="file-preview"></div>
+                            <div class="file-btns">
+                              <input type="file" name="imageFile4" id="imageFile4" accept="image/*">
+                              <label for="imageFile4" class="btn-upload"><span class="blind">업로드</span></label>
+                              <button type="button" class="btn-del"><span class="blind">삭제</span></button>
+                            </div>
+                          </div>
+                          <div class="file-name">
+                            <input type="text" class="name" placeholder="파일선택" disabled>
+                          </div>
+                        </div>
+                        <div class="file-item">
+                          <div class="file-image">
+                            <div class="file-preview"></div>
+                            <div class="file-btns">
+                              <input type="file" name="imageFile5" id="imageFile5" accept="image/*">
+                              <label for="imageFile5" class="btn-upload"><span class="blind">업로드</span></label>
+                              <button type="button" class="btn-del"><span class="blind">삭제</span></button>
+                            </div>
+                          </div>
+                          <div class="file-name">
+                             <input type="text" class="name" placeholder="파일선택" disabled>
+                          </div>
+                        </div>
+                      </div>
+                      <ul class="bullet-list">
+                        <li class="b-txt">첨부파일은 최대 5개까지 가능하며, 전체 용량은 000MB 이하까지 업로드 가능합니다.</li>
+                       <li class="b-txt">이미지명은 특수기호( ? ! , . &amp; ^ ~ )를 제외해주세요. (첨부 가능 확장자 jpg, jpeg, png, gif)</li>
+                      </ul>
+                    </div>
+                  </div>
                   <dl class="forms">
                     <dt class="tit"><label for="name" class="req">이름<span class="blind">필수입력</span></label></dt>
                     <dd class="conts">
@@ -213,7 +288,7 @@
           </dl>
         </div>
         <div class="btn-wrap">
-          <a href="/benefits/event" class="btn"><span>목록</span></a>
+          <a href="#" class="btn"><span>목록</span></a>
 
         </div>
       </div>
@@ -222,5 +297,41 @@
   </div>
   <!-- // contents -->
 </div>
+<script>
+  var $inputFile = $('.survey-wrap').find('input[type="file"]');
+  var $btnDel =  $('.survey-wrap').find('.btn-del');
+
+  $inputFile.change(function(e) {
+    var index = $inputFile.index(this);
+    var $input = $(e.currentTarget);
+
+    if ($input[0].files.length > 0) {
+      var file = e.currentTarget.files[0];
+      _setPreview($(this), file);
+      $input[0].value = '';
+    }
+  });
+  function _setPreview($input, file) {
+    var $fileBox = $input.closest('.file-item'),
+        reader = new FileReader();
+    
+    reader.readAsDataURL(file);
+    reader.onload = function(e){
+      $fileBox.addClass('on');
+      $fileBox.find('.file-preview').html('<img src="'+e.target.result+'" alt="첨부파일 썸네일">')
+      $fileBox.find('.name').val(file.name);
+    }
+  }
+  $btnDel.on('click', function() {
+    var index = $btnDel.index(this);
+    var $input = $inputFile.eq(index);
+    var $box = $input.closest('.file-item');
+    $input[0].value = '';
+    $box.removeClass('on');
+    $box.find('.file-preview').html('');
+    $box.find('.name').val('');    
+  });   
+
+</script>
 <!-- // container -->
 <jsp:include page="../../templates/common/footer.jsp" />

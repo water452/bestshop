@@ -686,11 +686,9 @@ br.mob-only {
 }
 
 .ev-detail-con .btn-group {
+  margin-top: 80px;
   text-align: center;
 }
-
-
-
 
 .ev-detail-bottom .etc-btn-wrap {
   margin-top: 32px;
