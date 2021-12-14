@@ -892,3 +892,7 @@
 .white table thead th {background-color:#fff; border-bottom:1px solid #ddd; color:#000; font-weight:normal}
 .size-s table thead th {padding:9px 0; font-size:14px; line-height:22px}
 .size-s table tbody td {padding:9px 0; font-size:14px; line-height:22px}
+@media screen and (max-width: 767px) {
+  .size-s table thead th {padding:4px 7px; font-size:10px; line-height:16px}
+  .size-s table tbody td {padding:4px 7px; font-size:10px; line-height:16px}
+}

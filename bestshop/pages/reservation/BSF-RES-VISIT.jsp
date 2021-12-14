@@ -2,6 +2,7 @@
 <jsp:include page="../../templates/common/header.jsp" />
 <script>
   $(document).ready(function(){
+    // 배너
     var resbanner01 = new Swiper(".res-banner-01", {
       spaceBetween: 40,
       loop: true,
@@ -9,10 +10,59 @@
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
-      // autoplay: {
-      //   delay: 3000,
-      // },
     });
+
+    // 방문 예약 혜택 보기(mo)
+    var benefitBtn = $('.res-main .top-wrap .guide-area .guide-benefits .list-area .view-more');
+    var benefitArea = $('.res-main .top-wrap .guide-area .guide-benefits .list-area');
+
+    benefitBtn.on('click',function(){
+      if($(this).hasClass('active')) {
+        $(this).removeClass('active');
+        benefitArea.removeClass('active');
+      } else {
+        $(this).addClass('active');
+        benefitArea.addClass('active');
+      }
+    });
+
+    // step 2 지도/리스트 보기 버튼
+    var mapBtn = $('.res-main .step-area.step02 .view-area .sort-area button.view-map');
+    var listBtn = $('.res-main .step-area.step02 .view-area .sort-area button.view-list');
+    var mapWrap = $('.res-main .step-area.step02 .view-area .map-wrap');
+    var listWrap = $('.res-main .step-area.step02 .view-area .list-wrap');
+    
+    listBtn.on('click',function(){
+      if($(this).hasClass('active')) {
+        $(this).removeClass('active');
+        mapBtn.addClass('active');
+        mapWrap.removeClass('active');
+        listWrap.addClass('active');
+      }
+    });
+    mapBtn.on('click',function(){
+      if($(this).hasClass('active')) {
+        $(this).removeClass('active');
+        listBtn.addClass('active');
+        listWrap.removeClass('active');
+        mapWrap.addClass('active');
+      }
+    });
+
+  // step 2 약관 더보기 버튼
+    var agrBtn = $('.res-main .step-area.step03 .user-info-area .input-area ul.acco-type .check-box .agr-more');
+    var agrTxt = $('.res-main .step-area.step03 .user-info-area .input-area ul.acco-type .check-box .agr-txt-wrap');
+
+    agrBtn.on('click',function(){
+      if($(this).hasClass('active')) {
+        $(this).removeClass('active');
+        $(this).siblings(agrTxt).removeClass('active');
+      } else {
+        $(this).addClass('active');
+        $(this).siblings(agrTxt).addClass('active');
+      }
+    });
+
   });
 </script>
 <!-- container -->
@@ -66,11 +116,12 @@
         </div>
         <div class="guide-benefits">
           <div class="inner">
-            <div class="list-area">
+            <div class="list-area active"><!-- active 클래스 추가 -->
               <p class="tit">
                 <span class="only_pc">방문 예약 혜택 안내</span>
                 <span class="only_mo">방문 예약 혜택 보기</span>
               </p>
+              <button type="button" class="view-more active"><span class="blind">방문 예약 혜택 보기</span></button><!-- active 클래스 추가 -->
               <ul class="cont">
                 <li>
                   <i class="icon01"></i>
@@ -499,7 +550,7 @@
               </div>
 
               <!-- 리스트 보기 영역 -->
-              <div class="list-wrap active"><!-- active 클래스 추가 -->
+              <div class="list-wrap"><!-- active 클래스 추가 -->
                 <div class="search-wrap">
                   <form action="#">
                     <div class="input-area">
@@ -813,86 +864,98 @@
                 </div>
               </div>
               <div class="date-wrap">
-                <div class="calendar"></div>
-                <div class="time">
-                  <form action="#">
-                    <div class="input-area">
-                      <ul>
-                        <li>
-                          <div class="radio-btn btn-type2">
-                            <input type="radio" id="am11" name="time">
-                            <label for="am11">
-                              <span class="name">11시</span>
-                            </label>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="radio-btn btn-type2">
-                            <input type="radio" id="pm12" name="time">
-                            <label for="pm12">
-                              <span class="name">12시</span>
-                            </label>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="radio-btn btn-type2">
-                            <input type="radio" id="pm13" name="time">
-                            <label for="pm13">
-                              <span class="name">13시</span>
-                            </label>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="radio-btn btn-type2">
-                            <input type="radio" id="pm14" name="time">
-                            <label for="pm14">
-                              <span class="name">14시</span>
-                            </label>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="radio-btn btn-type2">
-                            <input type="radio" id="pm15" name="time">
-                            <label for="pm15">
-                              <span class="name">15시</span>
-                            </label>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="radio-btn btn-type2">
-                            <input type="radio" id="pm16" name="time">
-                            <label for="pm16">
-                              <span class="name">16시</span>
-                            </label>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="radio-btn btn-type2">
-                            <input type="radio" id="pm17" name="time">
-                            <label for="pm17">
-                              <span class="name">17시</span>
-                            </label>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="radio-btn btn-type2">
-                            <input type="radio" id="pm18" name="time">
-                            <label for="pm18">
-                              <span class="name">18시</span>
-                            </label>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="radio-btn btn-type2">
-                            <input type="radio" id="pm19" name="time">
-                            <label for="pm19">
-                              <span class="name">19시</span>
-                            </label>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                  </form>
+                <div class="calendar active">
+                  <div class="mo-top">
+                    <p class="mo-tit">예약일 선택</p><!-- active 클래스 추가(mo) -->
+                  </div>
+                  <div class="cal-cont">
+
+                  </div>
+                </div>
+                <div class="time active"><!-- active 클래스 추가(mo) -->
+                  <div class="mo-top">
+                    <p class="mo-tit">예약시간 선택</p>
+                  </div>
+                  <div class="time-cont">
+                    <form action="#">
+                      <div class="input-area">
+                        <ul>
+                          <li>
+                            <div class="radio-btn btn-type2">
+                              <input type="radio" id="am11" name="time">
+                              <label for="am11">
+                                <span class="name">11시</span>
+                              </label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radio-btn btn-type2">
+                              <input type="radio" id="pm12" name="time">
+                              <label for="pm12">
+                                <span class="name">12시</span>
+                              </label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radio-btn btn-type2">
+                              <input type="radio" id="pm13" name="time">
+                              <label for="pm13">
+                                <span class="name">13시</span>
+                              </label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radio-btn btn-type2">
+                              <input type="radio" id="pm14" name="time">
+                              <label for="pm14">
+                                <span class="name">14시</span>
+                              </label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radio-btn btn-type2">
+                              <input type="radio" id="pm15" name="time">
+                              <label for="pm15">
+                                <span class="name">15시</span>
+                              </label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radio-btn btn-type2">
+                              <input type="radio" id="pm16" name="time">
+                              <label for="pm16">
+                                <span class="name">16시</span>
+                              </label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radio-btn btn-type2">
+                              <input type="radio" id="pm17" name="time">
+                              <label for="pm17">
+                                <span class="name">17시</span>
+                              </label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radio-btn btn-type2">
+                              <input type="radio" id="pm18" name="time">
+                              <label for="pm18">
+                                <span class="name">18시</span>
+                              </label>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="radio-btn btn-type2">
+                              <input type="radio" id="pm19" name="time">
+                              <label for="pm19">
+                                <span class="name">19시</span>
+                              </label>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </form>
+                  </div>
                 </div>
               </div>
             </div>
@@ -985,8 +1048,34 @@
                           <label for="agr-required">
                             <span class="name"><em class="red">(필수)</em>개인정보 수집 및 이용에 동의합니다.</span>
                           </label>
+                          <button type="button" class="agr-more active"><span class="blind">약관 내용 보기</span></button><!-- active 클래스 추가 -->
                           <div class="agr-txt-wrap size-l active"><!-- active 클래스 추가 -->
-                            약관내용
+                            <div class="inner">
+                              <ul>
+                                <li>
+                                  <span>1. 수집하는 개인정보의 항목</span>
+                                  <p>1) 필수사항 : 이름, 휴대폰번호, 매장 방문 가능일, 구매 희망 제품, 방문 예정 매장, 구매 희망 시기</p>
+                                </li>
+                                <li>
+                                  <span>2. 개인정보 이용목적</span>
+                                  <p>
+                                    - BEST SHOP 미리미리 페스티벌 경품 응모<br>
+                                    - 매장 상담 예약 확인 TM
+                                  </p>
+                                </li>
+                                <li>
+                                  <span>1. 수집하는 개인정보의 항목</span>
+                                  <p>1) 필수사항 : 이름, 휴대폰번호, 매장 방문 가능일, 구매 희망 제품, 방문 예정 매장, 구매 희망 시기</p>
+                                </li>
+                                <li>
+                                  <span>2. 개인정보 이용목적</span>
+                                  <p>
+                                    - BEST SHOP 미리미리 페스티벌 경품 응모<br>
+                                    - 매장 상담 예약 확인 TM
+                                  </p>
+                                </li>
+                              </ul>
+                            </div>
                           </div>
                         </div>
                       </li>
@@ -996,8 +1085,20 @@
                           <label for="agr-optional">
                             <span class="name"><em>(선택)</em>마케팅 정보활용에 동의합니다.</span>
                           </label>
+                          <button type="button" class="agr-more active"><span class="blind">약관 내용 보기</span></button><!-- active 클래스 추가 -->
                           <div class="agr-txt-wrap active"><!-- active 클래스 추가 -->
-                            약관내용
+                            <div class="inner">
+                              <ul>
+                                <li>
+                                  <span>1. 마케팅 정보활용 동의</span>
+                                  <p>1) 필수 : 이름, 휴대번호, 매장방문일, 구매 희망 제품, 방문 예정 매장, 구매 희망 시기</p>
+                                </li>
+                                <li>
+                                  <span>2. 개인정보 이용목적</span>
+                                  <p>- 신제품 / 할인 행사 등 고객 맞춤 판촉 관련 TM 및 SMS 발송</p>
+                                </li>
+                              </ul>
+                            </div>
                           </div>
                         </div>
                       </li>
@@ -1011,6 +1112,10 @@
                 <div class="tb_row tb-row-bl white size-s">
                   <table>
                     <caption>필수 위탁 고지 표</caption>
+                    <colgroup>
+                      <col style="width:50%">
+                      <col style="width:50%">
+                    </colgroup>
                     <thead>
                       <tr>
                         <th scope="col">위탁업체 (수탁자)</th>
