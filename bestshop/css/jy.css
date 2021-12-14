@@ -666,6 +666,9 @@ br.mob-only {
 .ev-detail-con .forms {
   margin-top: 48px;
 }
+.ev-detail-con .survey-wrap {
+  margin-top: 80px;
+}
 .ev-detail-con .survey-wrap .form-wrap .forms .tit {
   text-align: left;
 }

@@ -107,7 +107,7 @@
                     </dd>
                   </dl>
                   <div class="forms block-type">
-                    <p class="tit"><label for="longAnswer" class="req">설문방식 객관식 다중선택형<span class="blind">필수입력</span></label></p>
+                    <p class="tit"><span class="label req">설문방식 객관식 다중선택형 <span class="blind">필수입력</span></span></p>
                     <div class="select-list-wrap w-auto">
                       <ul>
                         <li class="lists">
@@ -139,7 +139,7 @@
                   </div>
 
                   <div class="forms block-type">
-                    <p class="tit"><label for="longAnswer" class="req">설문방식 객관식 단일선택형<span class="blind">필수입력</span></label></p>
+                    <p class="tit"><span class="label req">설문방식 객관식 단일선택형 <span class="blind">필수입력</span></span></p>
                     <div class="select-list-wrap w-auto">
                       <ul>
                         <li class="lists">
