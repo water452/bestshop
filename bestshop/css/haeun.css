@@ -338,6 +338,7 @@
 
 /* 하단바 */
 .fixed-bar-wrap {display:none}
+.bottom-fixed-wrap .dimmed {display:none}
 
 /* mobile */
 @media screen and (max-width:1460px) {
