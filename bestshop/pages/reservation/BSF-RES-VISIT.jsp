@@ -253,20 +253,21 @@
               </div>
 
               <h4 class="step-tit">제품선택<span>(다중선택)</span></h4>
-              <div class="input-area">
+              <!-- 제품선택 카테고리형 -->
+              <!-- <div class="input-area">
                 <ul class="cate-type">
                   <li>
                     <p class="cate-tit"><i class="icon tv-audio"></i>TV/오디오</p>
-                    <ul class="cate-pdt">
+                    <ul class="cate-items">
                       <li class="radio-btn btn-type2">
                         <input type="radio" name="tv-audio" id="tv">
                         <label for="tv">
                           <span class="name">TV</span>
                         </label>
-                      </dliiv>
+                      </li>
                       <li class="radio-btn btn-type2">
-                        <input type="radio" name="tv-audio" id="beam">
-                        <label for="beam">
+                        <input type="radio" name="tv-audio" id="projector">
+                        <label for="projector">
                           <span class="name">프로젝터</span>
                         </label>
                       </li>
@@ -280,7 +281,7 @@
                   </li>
                   <li>
                     <p class="cate-tit"><i class="icon pc"></i>PC</p>
-                    <ul class="cate-pdt">
+                    <ul class="cate-items">
                       <li class="radio-btn btn-type2">
                         <input type="radio" name="pc" id="laptop">
                         <label for="laptop">
@@ -303,7 +304,7 @@
                   </li>
                   <li>
                     <p class="cate-tit"><i class="icon kitchens"></i>주방가전</p>
-                    <ul class="cate-pdt">
+                    <ul class="cate-items">
                       <li class="radio-btn btn-type2">
                         <input type="radio" name="kitchens" id="fridge">
                         <label for="fridge">
@@ -323,8 +324,8 @@
                         </label>
                       </li>
                       <li class="radio-btn btn-type2">
-                        <input type="radio" name="kitchens" id="lange">
-                        <label for="lange">
+                        <input type="radio" name="kitchens" id="range">
+                        <label for="range">
                           <span class="name">전기레인지</span>
                         </label>
                       </li>
@@ -338,7 +339,7 @@
                   </li>
                   <li>
                     <p class="cate-tit"><i class="icon house"></i>생활가전</p>
-                    <ul class="cate-pdt">
+                    <ul class="cate-items">
                       <li class="radio-btn btn-type2">
                         <input type="radio" name="house" id="washing">
                         <label for="washing">
@@ -379,7 +380,7 @@
                   </li>
                   <li>
                     <p class="cate-tit"><i class="icon mobile"></i>모바일</p>
-                    <ul class="cate-pdt">
+                    <ul class="cate-items">
                       <li class="radio-btn btn-type2">
                         <input type="radio" name="mobile" id="iphone">
                         <label for="iphone">
@@ -402,7 +403,7 @@
                   </li>
                   <li>
                     <p class="cate-tit"><i class="icon beauty"></i>뷰티</p>
-                    <ul class="cate-pdt">
+                    <ul class="cate-items">
                       <li class="radio-btn btn-type2">
                         <input type="radio" name="beauty" id="pra-l">
                         <label for="pra-l">
@@ -418,7 +419,135 @@
                     </ul>
                   </li>
                 </ul>
+              </div> -->
+              <!-- // 제품선택 카테고리형 -->
+
+              <!-- 제품선택 제품군형 -->
+              <div class="input-area">
+                <ul class="pdt-type">
+                  <li>
+                    <div class="radio-btn btn-type2">
+                      <input type="radio" name="tv" id="tv">
+                      <label for="tv">
+                        <i class="icon tv"></i><span class="name">TV</span>
+                      </label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="radio-btn btn-type2">
+                      <input type="radio" name="soundbar" id="soundbar">
+                      <label for="soundbar">
+                        <i class="icon soundbar"></i><span class="name">사운드바</span>
+                      </label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="radio-btn btn-type2">
+                      <input type="radio" name="laptop" id="laptop">
+                      <label for="laptop">
+                        <i class="icon laptop"></i><span class="name">노트북</span>
+                      </label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="radio-btn btn-type2">
+                      <input type="radio" name="desktop" id="desktop">
+                      <label for="desktop">
+                        <i class="icon desktop"></i><span class="name">데스크탑</span>
+                      </label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="radio-btn btn-type2">
+                      <input type="radio" name="fridge" id="fridge">
+                      <label for="fridge">
+                        <i class="icon fridge"></i><span class="name">냉장고</span>
+                      </label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="radio-btn btn-type2">
+                      <input type="radio" name="washing" id="washing">
+                      <label for="washing">
+                        <i class="icon washing"></i><span class="name">세탁기/건조기</span>
+                      </label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="radio-btn btn-type2">
+                      <input type="radio" name="air-con" id="air-con">
+                      <label for="air-con">
+                        <i class="icon air-con"></i><span class="name">에어컨</span>
+                      </label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="radio-btn btn-type2">
+                      <input type="radio" name="pra-l" id="pra-l">
+                      <label for="pra-l">
+                        <i class="icon pra-l"></i><span class="name">프라엘</span>
+                      </label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="radio-btn btn-type2">
+                      <input type="radio" name="vaccum" id="vaccum">
+                      <label for="vaccum">
+                        <i class="icon vaccum"></i><span class="name">청소기</span>
+                      </label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="radio-btn btn-type2">
+                      <input type="radio" name="styler" id="styler">
+                      <label for="styler">
+                        <i class="icon styler"></i><span class="name">스타일러</span>
+                      </label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="radio-btn btn-type2">
+                      <input type="radio" name="air-clean" id="air-clean">
+                      <label for="air-clean">
+                        <i class="icon air-clean"></i><span class="name">공기청정기</span>
+                      </label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="radio-btn btn-type2">
+                      <input type="radio" name="range" id="range">
+                      <label for="range">
+                        <i class="icon range"></i><span class="name">전기레인지</span>
+                      </label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="radio-btn btn-type2">
+                      <input type="radio" name="ipad" id="ipad">
+                      <label for="ipad">
+                        <i class="icon ipad"></i><span class="name">아이패드</span>
+                      </label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="radio-btn btn-type2">
+                      <input type="radio" name="projector" id="projector">
+                      <label for="projector">
+                        <i class="icon projector"></i><span class="name">프로젝터</span>
+                      </label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="radio-btn btn-type2">
+                      <input type="radio" name="medihair" id="medihair">
+                      <label for="medihair">
+                        <i class="icon medihair"></i><span class="name">메디헤어</span>
+                      </label>
+                    </div>
+                  </li>
+                </ul>
               </div>
+              <!-- // 제품선택 제품군형 -->
 
               <h4 class="step-tit">구매 희망 시기</span></h4>
               <div class="input-area">
