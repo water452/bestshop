@@ -336,6 +336,9 @@
 .res-main .step-area.step03 .user-info-area .bottom-area .desc {margin-top:6px; font-size:14px; line-height:22px}
 .res-main .step-area.step03 .user-info-area .bottom-area .tb_row {margin-top:14px}
 
+/* 하단바 */
+.fixed-bar-wrap {display:none}
+
 /* mobile */
 @media screen and (max-width:1460px) {
 
@@ -538,5 +541,21 @@
   .res-main .cont-wrap .cont-area .step-area .btn-area .btn {min-width:118px; padding:10px 25px; font-size:13px; line-height:21px}
   .res-main .cont-wrap .cont-area .step-area .btn-area.bg.active > .btn {margin-top:10px}
   .res-main .cont-wrap .cont-area .step-area.step03 .btn-area {display:none}
+
+  /* 하단바 */
+  .bottom-fixed-wrap {display:block; position:fixed; bottom:69px; left:0; right:0; z-index:1000}
+  .bottom-fixed-wrap .dimmed {display:none}
+  .bottom-fixed-wrap.active .dimmed {display:block}
+  .bottom-fixed-wrap .bar-wrap {position:relative; border-radius:16px 16px 0 0; box-shadow:0 -3px 6px 0 rgba(0, 0, 0, 0.16); background-color:#fff; z-index:1001}
+  .bottom-fixed-wrap .bar-wrap .head-area {position:relative; padding:11px 44px 11px 16px}
+  .bottom-fixed-wrap .bar-wrap .head-area .head-txt {font-size:11px; font-weight:bold; line-height:18px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden}
+  .bottom-fixed-wrap .bar-wrap .head-area button.view-more {position:absolute; display:block; width:20px; height:20px; top:calc(50% - 10px); right:14px; background:url(../images/icons/icon-arr-40-bk.svg) no-repeat center / contain; transform:rotate(180deg)}
+  .bottom-fixed-wrap.active .bar-wrap .head-area button.view-more {transform:rotate(0)}
+  .bottom-fixed-wrap .bar-wrap .body-area {display:none; padding:12px 16px; border-top:1px solid #ddd}
+  .bottom-fixed-wrap .bar-wrap .body-area .my-result {font-size:13px; line-height:20px}
+  .bottom-fixed-wrap .bar-wrap .body-area .my-result > ul > li {display:flex}
+  .bottom-fixed-wrap .bar-wrap .body-area .my-result > ul > li span {display:block; min-width:58px}
+  .bottom-fixed-wrap .bar-wrap .foot-area .btn-area {padding:12px 16px; background-color:#f6f6f6}
+  .bottom-fixed-wrap .bar-wrap .foot-area .btn-area button {display:block; width:100%; max-width:328px; margin:0 auto; height:43px; padding:10px 25px; font-size:13px; line-height:20px}
 }
 /* // 방문상담예약 */

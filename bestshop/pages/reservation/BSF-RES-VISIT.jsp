@@ -63,6 +63,17 @@
       }
     });
 
+    // 하단바 영역
+    $('.bottom-fixed-wrap').on('click',function(){
+      if($(this).hasClass('active')) {
+        $(this).removeClass('active');
+        $('.bottom-fixed-wrap .bar-wrap .body-area').slideUp();
+      } else {
+        $(this).addClass('active');
+        $('.bottom-fixed-wrap .bar-wrap .body-area').slideDown();
+      }
+    })
+
   });
 </script>
 <!-- container -->
@@ -1103,11 +1114,11 @@
             <div class="info-step02"> 
               <ul class="info-txt-com active"><!-- active 클래스 추가 --> 
                 <li>
-                  <span>상담 매장 :</span>
+                  <span>상담매장 :</span>
                   <strong>강남 본점</strong>
                 </li>
                 <li>
-                  <span>예약 일시 :</span>
+                  <span>예약일시 :</span>
                   <strong>12.15(수), 17시</strong>
                 </li>
                 <li>
@@ -1287,6 +1298,45 @@
         <!-- // step 3 -->
       </section>
     </div>
+
+    <!-- 하단바 -->
+    <div class="bottom-fixed-wrap"><!-- active 클래스 추가 -->
+      <div class="dimmed"></div>
+      <div class="bar-wrap">
+        <div class="head-area">
+            <p class="head-txt">혼수, TV 외 3개, 1개월 내, 강남본점, 12. 15(수), 17시, 김베샵, 01012558484</p>
+            <button type="button" class="view-more"><span class="blind">펼쳐보기</span></button>
+        </div>
+        <div class="body-area">
+          <div class="my-result">
+            <ul>
+              <li>
+                <span>상담목적</span>
+                <strong>혼수</strong>
+              </li>
+              <li>
+                <span>상담제품</span>
+                <strong>TV, 냉장고, 식기세척기, 세탁기, 스타일러, 공기청정기, 에어컨</strong>
+              </li>
+              <li>
+                <span>상담매장</span>
+                <strong>강남본점, 12. 15(수), 17시</strong>
+              </li>
+              <li>
+                <span>예약정보</span>
+                <strong>김베샵, 01012558484</strong>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="foot-area">
+          <div class="btn-area active"><!-- active 클래스 추가 -->
+            <button type="button" class="btn btn-submit">상담 예약하기</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- // 하단바 -->
   </div>
   <!-- // contents -->
 </div>
