@@ -12,19 +12,18 @@
   </div>
 
   <!-- contents -->
-  <div class="contents event-list">
-
-    <div class="page-tabs">
-      <div class="tabs-wrap left border-type" role="tablist">
-        <ul class="tabs">
-          <li class="on" role="presentation"><a href="#bsTab" id="tab1" role="tab" aria-selected="true" aria-controls="bsTab">베스트샵 이벤트<em class="blind">선택됨</em></a></li>
-          <li role="presentation"><a href="#cateTab" id="tab2" role="tab" aria-selected="flase" aria-controls="cateTab">제품별 이벤트</a></li>
-        </ul>
-      </div>
-    </div>
-
+  <div class="contents">
     <div class="cont-wrap">
 
+      <div class="page-tabs">
+        <div class="tabs-wrap left border-type" role="tablist">
+          <ul class="tabs">
+            <li class="on" role="presentation"><a href="#bsTab" id="tab1" role="tab" aria-selected="true" aria-controls="bsTab">베스트샵 이벤트<em class="blind">선택됨</em></a></li>
+            <li role="presentation"><a href="#cateTab" id="tab2" role="tab" aria-selected="flase" aria-controls="cateTab">제품별 이벤트</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- section-wrap 01 -->
       <div class="section-wrap active" id="bsTab" role="tabpanel" aria-hidden="false" aria-labelledby="tab1">
 
         <div class="tabs-wrap left btn-type" role="tablist"><!--  ui_smooth_scroll -->
@@ -40,7 +39,6 @@
         </div>
 
         <div class="tab-contents">
-
           <div class="list-sorting">
             <div class="sort-area left">
               <div class="sort-list">
@@ -121,84 +119,101 @@
             </div>
           </div>
 
-          <div class="box-list event-type">
-            <ul class="box-list-inner">
-              <li class="lists">
-                <div class="list-inner">
-                  <a href="#" target="_self">
-                    <span class="thumb">
-                      <span class="icon-timedeal"><img src="../../images/icons/icon-timedeal.svg" alt="타임딜"></span>
-                      <img src="../../images/@box-list-thumb-01.jpg" alt="스타일러 케어솔루션 고객감사 이벤트" aria-hidden="true">
-                    </span>
-                    <div class="info">
-                      <div class="flag-wrap bar-type">
-                        <span class="flag"><span class="blind">이벤트 구분</span>매장</span>
-                        <span class="flag"><span class="blind">이벤트 유형</span>구매혜택</span>
-                      </div>
-                      <p class="tit"><span class="blind">이벤트 제목</span>스타일러 케어솔루션 고객감사 이벤트</p>
-                      <div class="flex-box">
-                        <p class="date"><span class="blind">이벤트 기간</span>2021.12.01~2021.12.31</p>
-                        <button class="btn-link"><span>당첨자 발표</span></button>
-                      </div>
+          <div class="event-list">
+            <ul>
+              <li class="end-event">
+                <a href="#">
+                  <span class="thumb">
+                    <span class="end-msg"><em>종료된 이벤트</em></span>
+                    <span class="icon-timedeal"><img src="../../images/icons/icon-timedeal.svg" alt="타임딜"></span>
+                    <img src="../../images/@box-list-thumb-01.jpg" alt="스타일러 이미지">
+                  </span>
+                  <div class="info">
+                    <div class="flag-wrap">
+                      <span class="flag"><span class="blind">이벤트 구분</span>매장</span>
+                      <span class="flag"><span class="blind">이벤트 유형</span>구매혜택</span>
                     </div>
-                  </a>
-                </div>
+                    <p class="tit"><span class="blind">이벤트 제목</span>스타일러 케어솔루션 고객감사 이벤트</p>
+                    <p class="date"><span class="blind">이벤트 기간</span>2021.12.01~2021.12.31</p>
+                  </div>
+                </a>
+                <a href="#" class="btn-link"><span>당첨자 발표</span></a>
               </li>
-              <li class="lists">
-                <div class="list-inner">
-                  <a href="#" target="_self">
-                    <span class="thumb">
-                      <img src="../../images/@box-list-thumb-01.jpg" alt="스타일러 케어솔루션 고객감사 이벤트" aria-hidden="true">
-                      <span class="event-end"><em>종료된 이벤트</em></span>
-                    </span>
-                    <div class="info">
-                      <div class="flag-wrap bar-type">
-                        <span class="flag"><span class="blind">이벤트 구분</span>매장</span>
-                        <span class="flag"><span class="blind">이벤트 유형</span>구매혜택</span>
-                      </div>
-                      <p class="tit"><span class="blind">이벤트 제목</span>스타일러 케어솔루션 고객감사 이벤트</p>
-                      <div class="flex-box">
-                        <p class="date"><span class="blind">이벤트 기간</span>2021.12.01~2021.12.31</p>
-                        <button class="btn-link"><span>당첨자 발표</span></button>
-                      </div>
+              <li class="end-event">
+                <a href="#">
+                  <span class="thumb">
+                    <span class="end-msg"><em>종료된 이벤트</em></span>
+                    <img src="../../images/@box-list-thumb-01.jpg" alt="스타일러 이미지">
+                  </span>
+                  <div class="info">
+                    <div class="flag-wrap">
+                      <span class="flag"><span class="blind">이벤트 구분</span>매장</span>
+                      <span class="flag"><span class="blind">이벤트 유형</span>구매혜택</span>
                     </div>
-                  </a>
-                  
-                </div>
+                    <p class="tit"><span class="blind">이벤트 제목</span>스타일러 케어솔루션 고객감사 이벤트</p>
+                    <p class="date"><span class="blind">이벤트 기간</span>2021.12.01~2021.12.31</p>
+                  </div>
+                </a>
+                <a href="#" class="btn-link"><span>당첨자 발표</span></a>
               </li>
-              <li class="lists">
-                <div class="list-inner">
-                  <a href="#" target="_self">
-                    <span class="thumb">
-                      <img src="../../images/@box-list-thumb-01.jpg" alt="스타일러 케어솔루션 고객감사 이벤트" aria-hidden="true">
-                    </span>
-                    <div class="info">
-                      <div class="flag-wrap bar-type">
-                        <span class="flag"><span class="blind">이벤트 구분</span>매장</span>
-                        <span class="flag"><span class="blind">이벤트 유형</span>구매혜택</span>
-                      </div>
-                      <p class="tit"><span class="blind">이벤트 제목</span>스타일러 케어솔루션 고객감사 이벤트</p>
-                      <div class="flex-box">
-                        <p class="date"><span class="blind">이벤트 기간</span>2021.12.01~2021.12.31</p>
-                      </div>
+              <li>
+                <a href="#">
+                  <span class="thumb">
+                    <span class="icon-timedeal"><img src="../../images/icons/icon-timedeal.svg" alt="타임딜"></span>
+                    <img src="../../images/@box-list-thumb-01.jpg" alt="스타일러 이미지">
+                  </span>
+                  <div class="info">
+                    <div class="flag-wrap">
+                      <span class="flag"><span class="blind">이벤트 구분</span>매장</span>
+                      <span class="flag"><span class="blind">이벤트 유형</span>구매혜택</span>
                     </div>
-                  </a>
-                </div>
+                    <p class="tit"><span class="blind">이벤트 제목</span>스타일러 케어솔루션 고객감사 이벤트</p>
+                    <p class="date"><span class="blind">이벤트 기간</span>2021.12.01~2021.12.31</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="thumb">
+                    <img src="../../images/@box-list-thumb-01.jpg" alt="스타일러 이미지">
+                  </span>
+                  <div class="info">
+                    <div class="flag-wrap">
+                      <span class="flag"><span class="blind">이벤트 구분</span>매장</span>
+                      <span class="flag"><span class="blind">이벤트 유형</span>구매혜택</span>
+                    </div>
+                    <p class="tit"><span class="blind">이벤트 제목</span>스타일러 케어솔루션 고객감사 이벤트</p>
+                    <p class="date"><span class="blind">이벤트 기간</span>2021.12.01~2021.12.31</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="thumb">
+                    <img src="../../images/@box-list-thumb-01.jpg" alt="스타일러 이미지">
+                  </span>
+                  <div class="info">
+                    <div class="flag-wrap">
+                      <span class="flag"><span class="blind">이벤트 구분</span>매장</span>
+                      <span class="flag"><span class="blind">이벤트 유형</span>구매혜택</span>
+                    </div>
+                    <p class="tit"><span class="blind">이벤트 제목</span>스타일러 케어솔루션 고객감사 이벤트</p>
+                    <p class="date"><span class="blind">이벤트 기간</span>2021.12.01~2021.12.31</p>
+                  </div>
+                </a>
               </li>
             </ul>
-            <button type="button" class="btn-moreview block">
-              <span>이벤트 더보기</span>
-            </button>
           </div>
+
           <div class="no-data">
             <p>설정하신 필터에 맞는 이벤트가 없습니다.</p>
           </div>
         </div>
 
-
-
       </div>
+      <!-- //section-wrap 01 -->
 
+      <!-- section-wrap 02 -->
       <div class="section-wrap" id="cateTab" role="tabpanel" aria-hidden="true" aria-labelledby="tab2">
 
           <div class="tabs-wrap left btn-type" role="tablist">
@@ -214,7 +229,6 @@
           </div>
 
           <div class="tab-contents">
-
             <div class="list-sorting">
               <div class="sort-area left">
                 <div class="sort-list">
@@ -295,64 +309,99 @@
               </div>
             </div>
   
-            <div class="box-list event-type">
-              <ul class="box-list-inner">
-                <li class="lists">
-                  <div class="list-inner">
-                    <a href="#" target="_self">
-                      <span class="thumb">
-                        <img src="../../images/@box-list-thumb-01.jpg" alt="스타일러 케어솔루션 고객감사 이벤트" aria-hidden="true">
-                      </span>
-                      <div class="info">
-                        <div class="flag-wrap bar-type">
-                          <span class="flag"><span class="blind">이벤트 구분</span>매장</span>
-                          <span class="flag"><span class="blind">이벤트 유형</span>구매혜택</span>
-                        </div>
-                        <p class="tit"><span class="blind">이벤트 제목</span>스타일러 케어솔루션 고객감사 이벤트</p>
-                        <div class="flex-box">
-                          <p class="date"><span class="blind">이벤트 기간</span>2021.12.01~2021.12.31</p>
-                        </div>
+            <div class="event-list">
+              <ul>
+                <li class="end-event">
+                  <a href="#">
+                    <span class="thumb">
+                      <span class="end-msg"><em>종료된 이벤트</em></span>
+                      <img src="../../images/@box-list-thumb-01.jpg" alt="스타일러 이미지">
+                    </span>
+                    <div class="info">
+                      <div class="flag-wrap">
+                        <span class="flag"><span class="blind">이벤트 구분</span>매장</span>
+                        <span class="flag"><span class="blind">이벤트 유형</span>구매혜택</span>
                       </div>
-                    </a>
-                  </div>
+                      <p class="tit"><span class="blind">이벤트 제목</span>스타일러 케어솔루션 고객감사 이벤트</p>
+                      <p class="date"><span class="blind">이벤트 기간</span>2021.12.01~2021.12.31</p>
+                    </div>
+                  </a>
+                  <a href="#" class="btn-link"><span>당첨자 발표</span></a>
                 </li>
-                <li class="lists">
-                  <div class="list-inner">
-                    <a href="#" target="_self">
-                      <span class="thumb">
-                        <img src="../../images/@box-list-thumb-01.jpg" alt="스타일러 케어솔루션 고객감사 이벤트" aria-hidden="true">
-                        <span class="event-end"><em>종료된 이벤트</em></span>
-                      </span>
-                      <div class="info">
-                        <div class="flag-wrap bar-type">
-                          <span class="flag"><span class="blind">이벤트 구분</span>매장</span>
-                          <span class="flag"><span class="blind">이벤트 유형</span>구매혜택</span>
-                        </div>
-                        <p class="tit"><span class="blind">이벤트 제목</span>스타일러 케어솔루션 고객감사 이벤트</p>
-                        <div class="flex-box">
-                          <p class="date"><span class="blind">이벤트 기간</span>2021.12.01~2021.12.31</p>
-                          <button class="btn-link"><span>당첨자 발표</span></button>
-                        </div>
+                <li class="end-event">
+                  <a href="#">
+                    <span class="thumb">
+                      <span class="end-msg"><em>종료된 이벤트</em></span>
+                      <img src="../../images/@box-list-thumb-01.jpg" alt="스타일러 이미지">
+                    </span>
+                    <div class="info">
+                      <div class="flag-wrap">
+                        <span class="flag"><span class="blind">이벤트 구분</span>매장</span>
+                        <span class="flag"><span class="blind">이벤트 유형</span>구매혜택</span>
                       </div>
-                    </a>
-                    
-                  </div>
+                      <p class="tit"><span class="blind">이벤트 제목</span>스타일러 케어솔루션 고객감사 이벤트</p>
+                      <p class="date"><span class="blind">이벤트 기간</span>2021.12.01~2021.12.31</p>
+                    </div>
+                  </a>
+                  <a href="#" class="btn-link"><span>당첨자 발표</span></a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="thumb">
+                      <img src="../../images/@box-list-thumb-01.jpg" alt="스타일러 이미지">
+                    </span>
+                    <div class="info">
+                      <div class="flag-wrap">
+                        <span class="flag"><span class="blind">이벤트 구분</span>매장</span>
+                        <span class="flag"><span class="blind">이벤트 유형</span>구매혜택</span>
+                      </div>
+                      <p class="tit"><span class="blind">이벤트 제목</span>스타일러 케어솔루션 고객감사 이벤트</p>
+                      <p class="date"><span class="blind">이벤트 기간</span>2021.12.01~2021.12.31</p>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="thumb">
+                      <img src="../../images/@box-list-thumb-01.jpg" alt="스타일러 이미지">
+                    </span>
+                    <div class="info">
+                      <div class="flag-wrap">
+                        <span class="flag"><span class="blind">이벤트 구분</span>매장</span>
+                        <span class="flag"><span class="blind">이벤트 유형</span>구매혜택</span>
+                      </div>
+                      <p class="tit"><span class="blind">이벤트 제목</span>스타일러 케어솔루션 고객감사 이벤트</p>
+                      <p class="date"><span class="blind">이벤트 기간</span>2021.12.01~2021.12.31</p>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="thumb">
+                      <img src="../../images/@box-list-thumb-01.jpg" alt="스타일러 이미지">
+                    </span>
+                    <div class="info">
+                      <div class="flag-wrap">
+                        <span class="flag"><span class="blind">이벤트 구분</span>매장</span>
+                        <span class="flag"><span class="blind">이벤트 유형</span>구매혜택</span>
+                      </div>
+                      <p class="tit"><span class="blind">이벤트 제목</span>스타일러 케어솔루션 고객감사 이벤트</p>
+                      <p class="date"><span class="blind">이벤트 기간</span>2021.12.01~2021.12.31</p>
+                    </div>
+                  </a>
                 </li>
               </ul>
-              <button type="button" class="btn-moreview block">
-                <span>이벤트 더보기</span>
-              </button>
             </div>
+
             <div class="no-data">
               <p>설정하신 필터에 맞는 이벤트가 없습니다.</p>
             </div>
           </div>
           
-
-        </div>
+      </div>
+      <!-- //section-wrap 02 -->
 
     </div>
-
   </div>
   <!-- // contents -->
 </div>
