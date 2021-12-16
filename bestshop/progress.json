@@ -976,6 +976,21 @@
       "memo": ""
     },
     {
+      "screenid": "BSF-EVE-WINNER-P",
+      "dep1": "이벤트",
+      "dep2": "베스트샵 이벤트",
+      "dep3": "당첨자발표",
+      "dep4": "",
+      "func": "",
+      "worker": "TBD",
+      "startdate": "",
+      "targetdate": "",
+      "status": "미정",
+      "finishdate": "",
+      "filename": "./pages/event/BSF-EVE-WINNER-P.jsp",
+      "memo": ""
+    },
+    {
       "screenid": "BSF-EVE-DETAIL",
       "dep1": "",
       "dep2": "",

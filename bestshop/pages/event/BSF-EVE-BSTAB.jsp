@@ -137,7 +137,7 @@
                     <p class="date"><span class="blind">이벤트 기간</span>2021.12.01~2021.12.31</p>
                   </div>
                 </a>
-                <a href="#" class="btn-link"><span>당첨자 발표</span></a>
+                <a href="#" onclick="window.open('../event/BSF-EVE-WINNER-P.jsp','new','scrollbars=yes,resizable=no');return false"class="btn-link"><span>당첨자 발표</span></a>
               </li>
               <li class="end-event">
                 <a href="#">

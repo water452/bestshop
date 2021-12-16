@@ -241,7 +241,7 @@ br.mob-only { display: none; }
 
   .ev-detail-con .tit-box {margin: 55px 0 35px;}
   .ev-detail-con .tit-box .tit {font-size: 20px; line-height: 33px;}
-  .ev-detail-con .tit-box .req {margin-top: 10px;}
+  .ev-detail-con .tit-box .req {margin-top: 10px; font-size: 13px;}
   .ev-detail-con .form {margin-top: 20px;}
   .ev-detail-con .form .tit {padding: 0 0 10px 0;}
   .ev-detail-con .select-list-wrap > ul { margin-left: -16px;}
