@@ -12,7 +12,7 @@
   .cont-wrap .tabs-wrap {margin: 0 -16px;}
 }
 /*page-header*/
-.page-header { max-width: 1460px; padding: 16px 40px 64px; text-align: center; } 
+.page-header { max-width: 1460px; margin: 0 auto; padding: 16px 40px 64px; text-align: center; } 
 .page-header .title { font-weight: bold; font-size: 24px; line-height: 34px; color: #000; } 
 .page-header .desc { margin-top: 8px; } 
 .page-header .desc .txt { display: inline-block; font-size: 16px; line-height: 26px; vertical-align: middle; } 
