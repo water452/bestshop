@@ -168,6 +168,7 @@
 .res-main .input-area ul.pdt-type {display:flex; flex-wrap:wrap; margin:-16px -8px 0}
 .res-main .input-area ul.pdt-type > li {width:16.6666%; min-width:175px; max-width:233px; margin-top:16px; padding:0 8px}
 .res-main .input-area ul.pdt-type > li .check-box {width:100%}
+.res-main .input-area ul.pdt-type > li .check-box input:checked + label {border-color:#da0f47; color:#da0f47}
 .res-main .input-area ul.pdt-type > li .check-box input + label::after {display:none}
 .res-main .input-area ul.pdt-type > li .check-box label {display:flex; justify-content:center; align-items:center; width:100%; height:54px; padding:0; background-color:#fff; border-radius:48px; border:1px solid #ddd; font-size:16px; font-weight:500; line-height:24px; box-sizing:border-box}
 .res-main .input-area ul.pdt-type > li .check-box label .icon {display:block; width:48px; height:48px; margin-right:6px}
