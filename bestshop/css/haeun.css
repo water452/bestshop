@@ -157,48 +157,50 @@
 .res-main .input-area ul.cate-type .cate-tit > .icon.kitchens {background:url(../images/icons/icon-refrigerator.svg) no-repeat center}
 .res-main .input-area ul.cate-type .cate-tit > .icon.house {background:url(../images/icons/icon-washing-machine.svg) no-repeat center}
 .res-main .input-area ul.cate-type .cate-tit > .icon.mobile {background:url(../images/icons/icon-mobile.svg) no-repeat center}
-.res-main .input-area ul.cate-type .cate-tit > .icon.beauty {background:url(../images/icons/icon-icon-pra_l.svg) no-repeat center}
+.res-main .input-area ul.cate-type .cate-tit > .icon.beauty {background:url(../images/icons/icon-pra_l.svg) no-repeat center}
 .res-main .input-area ul.cate-type .cate-items {display:flex; flex-wrap:wrap; width:calc(100% - 135px); max-width:498px}
 .res-main .input-area ul.cate-type ul.cate-items {margin-top:-10px}
 .res-main .input-area ul.cate-type .cate-items > li {width:calc(33.3333% - 10px); max-width:156px; min-width:112px; height:48px; margin-top:10px; margin-right:10px}
-.res-main .input-area ul.cate-type .cate-items .radio-btn.btn-type2 label {width:100%; height:100%; padding:10px 0; background-color:#fff; border-radius:48px; font-size:16px; font-weight:500; line-height:24px; box-sizing:border-box}
-.res-main .input-area ul.cate-type .cate-items .radio-btn.btn-type2 input:checked + label {border:1px solid #da0f47; color:#da0f47}
+.res-main .input-area ul.cate-type .cate-items .check-box label {width:100%; height:100%; padding:10px 0; background-color:#fff; border-radius:48px; border:1px solid #ddd; background-color:#fff; font-size:16px; font-weight:500; line-height:24px; box-sizing:border-box; text-align:center}
+.res-main .input-area ul.cate-type .cate-items .check-box input:checked + label {border:1px solid #da0f47; color:#da0f47}
+.res-main .input-area ul.cate-type .cate-items .check-box input + label::after {display:none}
 
 .res-main .input-area ul.pdt-type {display:flex; flex-wrap:wrap; margin:-16px -8px 0}
 .res-main .input-area ul.pdt-type > li {width:16.6666%; min-width:175px; max-width:233px; margin-top:16px; padding:0 8px}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 {width:100%}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 label {display:flex; justify-content:center; align-items:center; width:100%; height:54px; padding:0; background-color:#fff; border-radius:48px; font-size:16px; font-weight:500; line-height:24px; box-sizing:border-box}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 label .icon {display:block; width:48px; height:48px; margin-right:6px}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 label .icon.tv {background:url(../images/icons/icon-tv.svg) no-repeat center}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 label .icon.soundbar {background:url(../images/icons/icon-soundbar.svg) no-repeat center}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 label .icon.laptop {background:url(../images/icons/icon-laptop.svg) no-repeat center}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 label .icon.desktop {background:url(../images/icons/icon-desktop.svg) no-repeat center}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 label .icon.fridge {background:url(../images/icons/icon-refrigerator.svg) no-repeat center}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 label .icon.washing {background:url(../images/icons/icon-washing-machine.svg) no-repeat center}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 label .icon.air-con {background:url(../images/icons/icon-air-conditioner.svg) no-repeat center}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 label .icon.pra-l {background:url(../images/icons/icon-pra_l.svg) no-repeat center}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 label .icon.vaccum {background:url(../images/icons/icon-vacuum.svg) no-repeat center}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 label .icon.styler {background:url(../images/icons/icon-styler.svg) no-repeat center}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 label .icon.air-clean {background:url(../images/icons/icon-air-cleaner.svg) no-repeat center}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 label .icon.range {background:url(../images/icons/icon-electricrange.svg) no-repeat center}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 label .icon.ipad {background:url(../images/icons/icon-ipad.svg) no-repeat center}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 label .icon.projector {background:url(../images/icons/icon-projector.svg) no-repeat center}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 label .icon.medihair {background:url(../images/icons/icon-medihair.svg) no-repeat center}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 input:checked + label .icon.tv {background:url(../images/icons/icon-tv_on.svg) no-repeat center}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 input:checked + label .icon.soundbar {background:url(../images/icons/icon-soundbar_on.svg) no-repeat center}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 input:checked + label .icon.laptop {background:url(../images/icons/icon-laptop_on.svg) no-repeat center}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 input:checked + label .icon.desktop {background:url(../images/icons/icon-desktop_on.svg) no-repeat center}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 input:checked + label .icon.fridge {background:url(../images/icons/icon-refrigerator_on.svg) no-repeat center}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 input:checked + label .icon.washing {background:url(../images/icons/icon-washing-machine_on.svg) no-repeat center}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 input:checked + label .icon.air-con {background:url(../images/icons/icon-air-conditioner_on.svg) no-repeat center}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 input:checked + label .icon.pra-l {background:url(../images/icons/icon-pra_l_on.svg) no-repeat center}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 input:checked + label .icon.vaccum {background:url(../images/icons/icon-vacuum_on.svg) no-repeat center}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 input:checked + label .icon.styler {background:url(../images/icons/icon-styler_on.svg) no-repeat center}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 input:checked + label .icon.air-clean {background:url(../images/icons/icon-air-cleaner_on.svg) no-repeat center}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 input:checked + label .icon.range {background:url(../images/icons/icon-electricrange_on.svg) no-repeat center}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 input:checked + label .icon.ipad {background:url(../images/icons/icon-ipad_on.svg) no-repeat center}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 input:checked + label .icon.projector {background:url(../images/icons/icon-projector_on.svg) no-repeat center}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 input:checked + label .icon.medihair {background:url(../images/icons/icon-medihair_on.svg) no-repeat center}
+.res-main .input-area ul.pdt-type > li .check-box {width:100%}
+.res-main .input-area ul.pdt-type > li .check-box input + label::after {display:none}
+.res-main .input-area ul.pdt-type > li .check-box label {display:flex; justify-content:center; align-items:center; width:100%; height:54px; padding:0; background-color:#fff; border-radius:48px; border:1px solid #ddd; font-size:16px; font-weight:500; line-height:24px; box-sizing:border-box}
+.res-main .input-area ul.pdt-type > li .check-box label .icon {display:block; width:48px; height:48px; margin-right:6px}
+.res-main .input-area ul.pdt-type > li .check-box label .icon.tv {background:url(../images/icons/icon-tv.svg) no-repeat center}
+.res-main .input-area ul.pdt-type > li .check-box label .icon.soundbar {background:url(../images/icons/icon-soundbar.svg) no-repeat center}
+.res-main .input-area ul.pdt-type > li .check-box label .icon.laptop {background:url(../images/icons/icon-laptop.svg) no-repeat center}
+.res-main .input-area ul.pdt-type > li .check-box label .icon.desktop {background:url(../images/icons/icon-desktop.svg) no-repeat center}
+.res-main .input-area ul.pdt-type > li .check-box label .icon.fridge {background:url(../images/icons/icon-refrigerator.svg) no-repeat center}
+.res-main .input-area ul.pdt-type > li .check-box label .icon.washing {background:url(../images/icons/icon-washing-machine.svg) no-repeat center}
+.res-main .input-area ul.pdt-type > li .check-box label .icon.air-con {background:url(../images/icons/icon-air-conditioner.svg) no-repeat center}
+.res-main .input-area ul.pdt-type > li .check-box label .icon.pra-l {background:url(../images/icons/icon-pra_l.svg) no-repeat center}
+.res-main .input-area ul.pdt-type > li .check-box label .icon.vaccum {background:url(../images/icons/icon-vacuum.svg) no-repeat center}
+.res-main .input-area ul.pdt-type > li .check-box label .icon.styler {background:url(../images/icons/icon-styler.svg) no-repeat center}
+.res-main .input-area ul.pdt-type > li .check-box label .icon.air-clean {background:url(../images/icons/icon-air-cleaner.svg) no-repeat center}
+.res-main .input-area ul.pdt-type > li .check-box label .icon.range {background:url(../images/icons/icon-electricrange.svg) no-repeat center}
+.res-main .input-area ul.pdt-type > li .check-box label .icon.ipad {background:url(../images/icons/icon-ipad.svg) no-repeat center}
+.res-main .input-area ul.pdt-type > li .check-box label .icon.projector {background:url(../images/icons/icon-projector.svg) no-repeat center}
+.res-main .input-area ul.pdt-type > li .check-box label .icon.medihair {background:url(../images/icons/icon-medihair.svg) no-repeat center}
+.res-main .input-area ul.pdt-type > li .check-box input:checked + label .icon.tv {background:url(../images/icons/icon-tv_on.svg) no-repeat center}
+.res-main .input-area ul.pdt-type > li .check-box input:checked + label .icon.soundbar {background:url(../images/icons/icon-soundbar_on.svg) no-repeat center}
+.res-main .input-area ul.pdt-type > li .check-box input:checked + label .icon.laptop {background:url(../images/icons/icon-laptop_on.svg) no-repeat center}
+.res-main .input-area ul.pdt-type > li .check-box input:checked + label .icon.desktop {background:url(../images/icons/icon-desktop_on.svg) no-repeat center}
+.res-main .input-area ul.pdt-type > li .check-box input:checked + label .icon.fridge {background:url(../images/icons/icon-refrigerator_on.svg) no-repeat center}
+.res-main .input-area ul.pdt-type > li .check-box input:checked + label .icon.washing {background:url(../images/icons/icon-washing-machine_on.svg) no-repeat center}
+.res-main .input-area ul.pdt-type > li .check-box input:checked + label .icon.air-con {background:url(../images/icons/icon-air-conditioner_on.svg) no-repeat center}
+.res-main .input-area ul.pdt-type > li .check-box input:checked + label .icon.pra-l {background:url(../images/icons/icon-pra_l_on.svg) no-repeat center}
+.res-main .input-area ul.pdt-type > li .check-box input:checked + label .icon.vaccum {background:url(../images/icons/icon-vacuum_on.svg) no-repeat center}
+.res-main .input-area ul.pdt-type > li .check-box input:checked + label .icon.styler {background:url(../images/icons/icon-styler_on.svg) no-repeat center}
+.res-main .input-area ul.pdt-type > li .check-box input:checked + label .icon.air-clean {background:url(../images/icons/icon-air-cleaner_on.svg) no-repeat center}
+.res-main .input-area ul.pdt-type > li .check-box input:checked + label .icon.range {background:url(../images/icons/icon-electricrange_on.svg) no-repeat center}
+.res-main .input-area ul.pdt-type > li .check-box input:checked + label .icon.ipad {background:url(../images/icons/icon-ipad_on.svg) no-repeat center}
+.res-main .input-area ul.pdt-type > li .check-box input:checked + label .icon.projector {background:url(../images/icons/icon-projector_on.svg) no-repeat center}
+.res-main .input-area ul.pdt-type > li .check-box input:checked + label .icon.medihair {background:url(../images/icons/icon-medihair_on.svg) no-repeat center}
 
 .res-main .input-area ul.base-type {justify-content:space-between}
 .res-main .input-area ul.base-type > li {width:calc(16.6666% - 6px)}
@@ -417,42 +419,42 @@
   .res-main .input-area ul.cate-type .cate-tit > .icon {display:none}
   .res-main .input-area ul.cate-type ul.cate-items {width:100%; max-width:315px; margin-top:3px; margin-right:-7px}
   .res-main .input-area ul.cate-type .cate-items > li {width:98px; min-width:98px; height:34px; margin-top:7px; margin-right:7px}
-  .res-main .input-area ul.cate-type .cate-items .radio-btn.btn-type2 label {padding:0; font-size:13px; line-height:34px}
+  .res-main .input-area ul.cate-type .cate-items .check-box label {padding:0; font-size:13px; line-height:34px}
 
   .res-main .input-area ul.pdt-type {margin:-12px -6px 0}
   .res-main .input-area ul.pdt-type > li {width:50%; max-width:50%; margin-top:12px; padding:0 6px}
-  .res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 label {height:38px; font-size:13px; line-height:20px}
-  .res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 label .icon {width:24px; height:24px}
-  .res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 label .icon.tv {background:url(../images/icons/icon-tv_mo.svg) no-repeat center / contain}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 label .icon.soundbar {background:url(../images/icons/icon-soundbar_mo.svg) no-repeat center / contain}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 label .icon.laptop {background:url(../images/icons/icon-laptop_mo.svg) no-repeat center / contain}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 label .icon.desktop {background:url(../images/icons/icon-desktop_mo.svg) no-repeat center / contain}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 label .icon.fridge {background:url(../images/icons/icon-refrigerator_mo.svg) no-repeat center / contain}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 label .icon.washing {background:url(../images/icons/icon-washing-machine_mo.svg) no-repeat center / contain}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 label .icon.air-con {background:url(../images/icons/icon-air-conditioner_mo.svg) no-repeat center / contain}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 label .icon.pra-l {background:url(../images/icons/icon-pra_l_mo.svg) no-repeat center / contain}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 label .icon.vaccum {background:url(../images/icons/icon-vacuum_mo.svg) no-repeat center / contain}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 label .icon.styler {background:url(../images/icons/icon-styler_mo.svg) no-repeat center / contain}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 label .icon.air-clean {background:url(../images/icons/icon-air-cleaner_mo.svg) no-repeat center / contain}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 label .icon.range {background:url(../images/icons/icon-electricrange_mo.svg) no-repeat center / contain}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 label .icon.ipad {background:url(../images/icons/icon-ipad_mo.svg) no-repeat center / contain}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 label .icon.projector {background:url(../images/icons/icon-projector_mo.svg) no-repeat center / contain}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 label .icon.medihair {background:url(../images/icons/icon-medihair_mo.svg) no-repeat center / contain}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 input:checked + label .icon.tv {background:url(../images/icons/icon-tv_mo_on.svg) no-repeat center / contain}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 input:checked + label .icon.soundbar {background:url(../images/icons/icon-soundbar_mo_on.svg) no-repeat center / contain}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 input:checked + label .icon.laptop {background:url(../images/icons/icon-laptop_mo_on.svg) no-repeat center / contain}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 input:checked + label .icon.desktop {background:url(../images/icons/icon-desktop_mo_on.svg) no-repeat center / contain}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 input:checked + label .icon.fridge {background:url(../images/icons/icon-refrigerator_mo_on.svg) no-repeat center / contain}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 input:checked + label .icon.washing {background:url(../images/icons/icon-washing-machine_mo_on.svg) no-repeat center / contain}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 input:checked + label .icon.air-con {background:url(../images/icons/icon-air-conditioner_mo_on.svg) no-repeat center / contain}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 input:checked + label .icon.pra-l {background:url(../images/icons/icon-pra_l_mo_on.svg) no-repeat center / contain}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 input:checked + label .icon.vaccum {background:url(../images/icons/icon-vacuum_mo_on.svg) no-repeat center / contain}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 input:checked + label .icon.styler {background:url(../images/icons/icon-styler_mo_on.svg) no-repeat center / contain}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 input:checked + label .icon.air-clean {background:url(../images/icons/icon-air-cleaner_mo_on.svg) no-repeat center / contain}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 input:checked + label .icon.range {background:url(../images/icons/icon-electricrange_mo_on.svg) no-repeat center / contain}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 input:checked + label .icon.ipad {background:url(../images/icons/icon-ipad_mo_on.svg) no-repeat center / contain}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 input:checked + label .icon.projector {background:url(../images/icons/icon-projector_mo_on.svg) no-repeat center / contain}
-.res-main .input-area ul.pdt-type > li .radio-btn.btn-type2 input:checked + label .icon.medihair {background:url(../images/icons/icon-medihair_mo_on.svg) no-repeat center / contain}
+  .res-main .input-area ul.pdt-type > li .check-box label {height:38px; font-size:13px; line-height:20px}
+  .res-main .input-area ul.pdt-type > li .check-box label .icon {width:24px; height:24px}
+  .res-main .input-area ul.pdt-type > li .check-box label .icon.tv {background:url(../images/icons/icon-tv_mo.svg) no-repeat center / contain}
+  .res-main .input-area ul.pdt-type > li .check-box label .icon.soundbar {background:url(../images/icons/icon-soundbar_mo.svg) no-repeat center / contain}
+  .res-main .input-area ul.pdt-type > li .check-box label .icon.laptop {background:url(../images/icons/icon-laptop_mo.svg) no-repeat center / contain}
+  .res-main .input-area ul.pdt-type > li .check-box label .icon.desktop {background:url(../images/icons/icon-desktop_mo.svg) no-repeat center / contain}
+  .res-main .input-area ul.pdt-type > li .check-box label .icon.fridge {background:url(../images/icons/icon-refrigerator_mo.svg) no-repeat center / contain}
+  .res-main .input-area ul.pdt-type > li .check-box label .icon.washing {background:url(../images/icons/icon-washing-machine_mo.svg) no-repeat center / contain}
+  .res-main .input-area ul.pdt-type > li .check-box label .icon.air-con {background:url(../images/icons/icon-air-conditioner_mo.svg) no-repeat center / contain}
+  .res-main .input-area ul.pdt-type > li .check-box label .icon.pra-l {background:url(../images/icons/icon-pra_l_mo.svg) no-repeat center / contain}
+  .res-main .input-area ul.pdt-type > li .check-box label .icon.vaccum {background:url(../images/icons/icon-vacuum_mo.svg) no-repeat center / contain}
+  .res-main .input-area ul.pdt-type > li .check-box label .icon.styler {background:url(../images/icons/icon-styler_mo.svg) no-repeat center / contain}
+  .res-main .input-area ul.pdt-type > li .check-box label .icon.air-clean {background:url(../images/icons/icon-air-cleaner_mo.svg) no-repeat center / contain}
+  .res-main .input-area ul.pdt-type > li .check-box label .icon.range {background:url(../images/icons/icon-electricrange_mo.svg) no-repeat center / contain}
+  .res-main .input-area ul.pdt-type > li .check-box label .icon.ipad {background:url(../images/icons/icon-ipad_mo.svg) no-repeat center / contain}
+  .res-main .input-area ul.pdt-type > li .check-box label .icon.projector {background:url(../images/icons/icon-projector_mo.svg) no-repeat center / contain}
+  .res-main .input-area ul.pdt-type > li .check-box label .icon.medihair {background:url(../images/icons/icon-medihair_mo.svg) no-repeat center / contain}
+  .res-main .input-area ul.pdt-type > li .check-box input:checked + label .icon.tv {background:url(../images/icons/icon-tv_mo_on.svg) no-repeat center / contain}
+  .res-main .input-area ul.pdt-type > li .check-box input:checked + label .icon.soundbar {background:url(../images/icons/icon-soundbar_mo_on.svg) no-repeat center / contain}
+  .res-main .input-area ul.pdt-type > li .check-box input:checked + label .icon.laptop {background:url(../images/icons/icon-laptop_mo_on.svg) no-repeat center / contain}
+  .res-main .input-area ul.pdt-type > li .check-box input:checked + label .icon.desktop {background:url(../images/icons/icon-desktop_mo_on.svg) no-repeat center / contain}
+  .res-main .input-area ul.pdt-type > li .check-box input:checked + label .icon.fridge {background:url(../images/icons/icon-refrigerator_mo_on.svg) no-repeat center / contain}
+  .res-main .input-area ul.pdt-type > li .check-box input:checked + label .icon.washing {background:url(../images/icons/icon-washing-machine_mo_on.svg) no-repeat center / contain}
+  .res-main .input-area ul.pdt-type > li .check-box input:checked + label .icon.air-con {background:url(../images/icons/icon-air-conditioner_mo_on.svg) no-repeat center / contain}
+  .res-main .input-area ul.pdt-type > li .check-box input:checked + label .icon.pra-l {background:url(../images/icons/icon-pra_l_mo_on.svg) no-repeat center / contain}
+  .res-main .input-area ul.pdt-type > li .check-box input:checked + label .icon.vaccum {background:url(../images/icons/icon-vacuum_mo_on.svg) no-repeat center / contain}
+  .res-main .input-area ul.pdt-type > li .check-box input:checked + label .icon.styler {background:url(../images/icons/icon-styler_mo_on.svg) no-repeat center / contain}
+  .res-main .input-area ul.pdt-type > li .check-box input:checked + label .icon.air-clean {background:url(../images/icons/icon-air-cleaner_mo_on.svg) no-repeat center / contain}
+  .res-main .input-area ul.pdt-type > li .check-box input:checked + label .icon.range {background:url(../images/icons/icon-electricrange_mo_on.svg) no-repeat center / contain}
+  .res-main .input-area ul.pdt-type > li .check-box input:checked + label .icon.ipad {background:url(../images/icons/icon-ipad_mo_on.svg) no-repeat center / contain}
+  .res-main .input-area ul.pdt-type > li .check-box input:checked + label .icon.projector {background:url(../images/icons/icon-projector_mo_on.svg) no-repeat center / contain}
+  .res-main .input-area ul.pdt-type > li .check-box input:checked + label .icon.medihair {background:url(../images/icons/icon-medihair_mo_on.svg) no-repeat center / contain}
 
   .res-main .input-area ul.base-type {flex-wrap:wrap; margin-top:-7px}
   .res-main .input-area ul.base-type > li {width:calc(33.3333% - 3.5px); margin-top:7px}
