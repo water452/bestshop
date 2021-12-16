@@ -977,8 +977,8 @@
     },
     {
       "screenid": "BSF-EVE-WINNER-P",
-      "dep1": "이벤트",
-      "dep2": "베스트샵 이벤트",
+      "dep1": "",
+      "dep2": "",
       "dep3": "당첨자발표",
       "dep4": "",
       "func": "",
