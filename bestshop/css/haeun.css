@@ -337,7 +337,7 @@
 .res-main .step-area.step03 .user-info-area .bottom-area .tb_row {margin-top:14px}
 
 /* 하단바 */
-.fixed-bar-wrap {display:none}
+.bottom-fixed-wrap {display:none}
 .bottom-fixed-wrap .dimmed {display:none}
 
 /* mobile */
