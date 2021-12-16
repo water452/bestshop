@@ -5,15 +5,13 @@
 .tb-scroll table { white-space: nowrap; } 
 .tb_row table { width: 100%; border-collapse: collapse; } 
 .tb_row table thead th { padding: 16px 24px; border-top: 1px solid #666; background-color: #f4f4f4; color: #666; font-weight: 500; font-size: 16px; line-height: 26px; text-align: center; } 
-
-@media screen and (max-width: 767px){
- .tb_row table thead th { font-size: 14px; line-height: 22px; } 
- }
 .tb_row table td { padding: 16px 24px; border-bottom: 1px solid #ddd; color: #000; font-size: 16px; line-height: 26px; text-align: center; } 
 
 @media screen and (max-width: 767px){
- .tb_row table td { font-size: 14px; line-height: 22px; } 
+ .tb_row table thead th {padding: 11px 10px; font-size: 14px; line-height: 22px; } 
+ .tb_row table td {padding: 11px 10px; font-size: 13px; line-height: 20px; } 
  }
+ 
 .tb_row table td.lower { color: #808080; } 
 .tb_row table td.point { color: #ec455a; } 
 .tb_row table td .bold { font-weight: 700; } 
@@ -39,8 +37,6 @@
  }
 
 @media screen and (max-width: 767px){
- .tb_row table thead th { padding: 15px 10px; } 
- .tb_row table td { padding: 20px 10px; } 
  .tb_row .btm_info { margin-top: 20px; font-size: 14px; line-height: 18px; } 
  }
 

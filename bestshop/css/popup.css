@@ -65,7 +65,7 @@
 .win-popup-wrap .inner-contents .search-result h1 {color: #da0f47;font-size: 30px;margin-bottom: 40px;background-color: #fff; } 
 .win-popup-wrap .inner-contents .search-result .no-result-msg {font-size: 20px; } 
 .win-popup-wrap .inner-contents .table-cont h2.event-title {font-size: 24px;margin-bottom: 15px; } 
-.win-popup-wrap .inner-contents .table-cont ~ .table-cont {margin-top: 48px !important; } 
+.win-popup-wrap .inner-contents .table-cont ~ .table-cont {margin-top: 48px; } 
 .win-popup-wrap .inner-contents .table-cont .tb-tit {margin-bottom: 16px; font-size: 14px; line-height: 22px; font-weight: bold;}
 .win-popup-wrap .inner-contents .table-cont .tb_row table tr {display: table-row !important; } 
 .win-popup-wrap .inner-contents .table-cont .tb_row table tr th,

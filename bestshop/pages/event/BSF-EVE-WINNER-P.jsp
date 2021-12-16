@@ -2,6 +2,8 @@
 
 <!DOCTYPE html>
 <html lang="ko" class="mdevice">
+  <!-- popup header include 필요-->
+  <!-- <jsp:include page="../../templates/common/header.jsp" /> -->
 <head>
   <meta charset="utf-8" />
   <title>LG전자 베스트샵</title>

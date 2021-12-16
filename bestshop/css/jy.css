@@ -180,6 +180,12 @@
   .event-popup .ev-detail-top {margin: 0 0 30px;}
   .event-popup .ev-detail-top .tit-wrap {margin-top: 0;}
   .event-popup .ev-detail-top .tit-wrap .date {margin-top: 4px;}
-  .event-popup .inner-contents .search-result h1 {font-size: 24px;}
+  .event-popup .inner-contents {padding-top: 30px;}
+  .event-popup .inner-contents .search-result {padding-bottom: 35px; margin-bottom: 35px;}
+  .event-popup .inner-contents .search-result h1 {font-size: 24px; margin-bottom: 30px;}
+  .event-popup .inner-contents .search-result .no-result-msg {font-size: 14px;}
+  .event-popup .inner-contents .table-cont .tb-tit { margin-bottom: 13px }
+  .event-popup .inner-contents .table-cont ~ .table-cont {margin-top: 35px; } 
 }
+
 
