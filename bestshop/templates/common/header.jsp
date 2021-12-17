@@ -30,7 +30,7 @@
     <body>
       <div class="wrap">
         <!-- s: HEADER -->
-        <header class="header" role="header">
+        <header class="header">
 
           <!-- s: 바로가기 -->
           <div class="skip-content">
@@ -38,7 +38,8 @@
           </div>
           <!-- e: 바로가기 -->
 
-          <div class="header-wrap">
+          <!-- s: pc head wrap -->
+          <div class="header-wrap pc">
             <h1 class="logo">
               <a href="/bestshop"><img src="/bestshop/images/icons/logo-lge.svg" alt="LG전자"><span>BEST SHOP</span></a>
             </h1>
@@ -94,7 +95,7 @@
             </div>
             <!-- e: utility -->
 
-            <!-- 전체 메뉴 -->
+            <!-- s: mega gnb -->
             <div class="header-bottom">
               <h2 class="blind">웹사이트 전체메뉴</h2>
               <div class="menu-wrap">
@@ -155,12 +156,12 @@
                     </div><!-- //.menu-category-layer -->
                   </li>
                   <li>
-                    <a class="depth1-tit" href="/bestshop/templates/counsel/index.jsp">매장 상담 예약</a>
+                    <a class="depth1-tit" href="/bestshop/pages/reservation/BSF-RES-VISIT.jsp">매장 상담 예약</a>
                     <div class="menu-category-layer">
                       <div class="menu-category-inner">
                         <h4>매장 상담 예약</h4>
                         <ul class="cate-menu">
-                          <li><a href="/bestshop/templates/counsel/index.jsp">방문 상담 예약</a></li>
+                          <li><a href="/bestshop/pages/reservation/BSF-RES-VISIT.jsp">방문 상담 예약</a></li>
                           <li><a href="javascript:void(0);">화상 상담 예약</a></li>
                           <li><a href="javascript:void(0);">상담 예약 조회</a></li>
                         </ul>
@@ -250,8 +251,34 @@
                 </ul>
               </div>
             </div>
-            <!--// 전체 메뉴 -->
+            <!-- e: mega gnb -->
           </div>
+          <!-- e: pc head wrap -->
+
+          <!-- s: mobile head wrap -->
+          <div class="header-wrap mobile">
+            <h1 class="logo">
+              <a href="/bestshop"><img src="/bestshop/images/icons/logo-lge.svg" alt="LG전자"><span>BEST SHOP</span></a>
+            </h1>
+
+            <!-- s: mega gnb -->
+            <div class="header-bottom">
+              <div class="menu-wrap">
+                <ul>
+                  <li><a class="depth1-tit" href="javascript:void(0);">홈</a></li>
+                  <li><a class="depth1-tit" href="javascript:void(0);">매장안내</a></li>
+                  <li><a class="depth1-tit" href="javascript:void(0);">매장상담예약</a></li>
+                  <li><a class="depth1-tit" href="javascript:void(0);">이벤트</a></li>
+                  <li><a class="depth1-tit" href="javascript:void(0);">혜택안내</a></li>
+                  <li><a class="depth1-tit" href="javascript:void(0);">케어솔루션</a></li>
+                  <li><a class="depth1-tit" href="javascript:void(0);">제품정보</a></li>
+                  <li><a class="depth1-tit" href="javascript:void(0);">고객지원</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- e: mega gnb -->
+          </div>
+          <!-- e: mobile head wrap -->
 
           <!-- Floating Menu -->
           <div class=""></div>
