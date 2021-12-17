@@ -1,4 +1,6 @@
 @charset "UTF-8";
+.only_pc {display:block}
+.only_mo {display:none}
 
 /* 사이트맵 */
 .sitemap .inner {padding-bottom:104px}
@@ -354,6 +356,9 @@
   .res-main .input-area ul.pdt-type > li {width:25%}
 }
 @media screen and (max-width:767px) {
+  .only_pc {display:none}
+  .only_mo {display:block}
+
   .res-main .cont-wrap .cont-area .step-tit ~ .step-tit {margin-top:40px}
   .res-main .top-wrap .guide-area .guide-process {padding:25px 0 20px}
   .res-main .top-wrap .guide-area .guide-process .desc {margin-top:0; padding:0 16px; font-size:16px; line-height:24px}
