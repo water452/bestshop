@@ -240,7 +240,7 @@
 .res-main .step-area.step02 .select-box select {position:relative; display:block; padding:10px 15px; border:1px solid #ddd; border-radius:8px; background-color:#fff; font-size:16px; line-height:26px}
 .res-main .step-area.step02 .view-area .map-wrap .select-box select {width:200px}
 .res-main .step-area.step02 .view-area .map-wrap .input-area > ul li + li {margin-left:8px}
-.res-main .step-area.step02 .view-area .map-wrap .api-area {margin-top:14px}
+.res-main .step-area.step02 .view-area .map-wrap .api-area {margin-top:14px; border-radius:8px; overflow:hidden}
 .res-main .step-area.step02 .view-area .map-wrap .api-area > img {width:100%}
 
 .res-main .step-area.step02 .view-area .list-wrap {display:none; border:1px solid #000; border-radius:8px; overflow:hidden}
@@ -402,7 +402,8 @@
   .res-main .cont-wrap .cont-area .step-tit > span {margin-left:5px; font-size:11px}
   .res-main .input-area ul.icon-type {flex-wrap:wrap; margin-top:-12px}
   .res-main .input-area ul.icon-type > li {width:calc(50% - 6px); margin-top:12px}
-  .res-main .input-area ul.icon-type .radio-btn.btn-type2 label {height:49px; border-radius:14px; font-size:13px; line-height:20px}
+  .res-main .input-area ul.icon-type .radio-btn.btn-type2 label {height:49px; border:1.5px solid #ddd; border-radius:14px; font-size:13px; line-height:20px}
+  .res-main .input-area ul.icon-type .radio-btn.btn-type2 input:checked + label {border:1.5px solid #da0f47}
   .res-main .input-area ul.icon-type .radio-btn.btn-type2 .icon {width:32px; height:32px; margin-right:6px}
   .res-main .input-area ul.icon-type .radio-btn.btn-type2 .icon.wedding {background:url(../images/icons/icon-wedding_mo.svg) no-repeat center / contain}
   .res-main .input-area ul.icon-type .radio-btn.btn-type2 .icon.move {background:url(../images/icons/icon-move_mo.svg) no-repeat center / contain}
@@ -424,7 +425,8 @@
 
   .res-main .input-area ul.pdt-type {margin:-12px -6px 0}
   .res-main .input-area ul.pdt-type > li {width:50%; max-width:50%; margin-top:12px; padding:0 6px}
-  .res-main .input-area ul.pdt-type > li .check-box label {height:38px; font-size:13px; line-height:20px}
+  .res-main .input-area ul.pdt-type > li .check-box label {height:38px; border:1.5px solid #ddd; font-size:13px; line-height:20px}
+  .res-main .input-area ul.pdt-type > li .check-box input:checked + label {border:1.5px solid #da0f47}
   .res-main .input-area ul.pdt-type > li .check-box label .icon {width:24px; height:24px}
   .res-main .input-area ul.pdt-type > li .check-box label .icon.tv {background:url(../images/icons/icon-tv_mo.svg) no-repeat center / contain}
   .res-main .input-area ul.pdt-type > li .check-box label .icon.soundbar {background:url(../images/icons/icon-soundbar_mo.svg) no-repeat center / contain}
@@ -459,7 +461,8 @@
 
   .res-main .input-area ul.base-type {flex-wrap:wrap; margin-top:-7px}
   .res-main .input-area ul.base-type > li {width:calc(33.3333% - 3.5px); margin-top:7px}
-  .res-main .input-area ul.base-type .radio-btn.btn-type2 label {height:34px; padding:0; font-size:13px; line-height:34px}
+  .res-main .input-area ul.base-type .radio-btn.btn-type2 label {height:34px; padding:0; border:1px solid #ddd; font-size:13px; line-height:34px}
+  .res-main .input-area ul.base-type .radio-btn.btn-type2 input:checked + label {border:1px solid #da0f47}
   .res-main .input-area .text-area textarea {padding:13px 16px; font-size:14px; line-height:19px}
   .res-main .input-area .text-area textarea::placeholder {font-size:14px; line-height:19px}
   .res-main .input-area .text-area .info-msg {margin-top:8px; margin-left:8px; font-size:10px; line-height:17px}
@@ -474,6 +477,8 @@
   .res-main .step-area.step02 .view-area .sort-area button {display:block; font-size:12px; line-height:24px; background-size:15px!important; background-position:4.5px center!important}
   .res-main .step-area.step02 .view-area .sort-area button + button {position:relative; margin-left:15px}
   .res-main .step-area.step02 .view-area .sort-area button + button::before {content:''; display:block; position:absolute; width:1px; height:14px; top:calc(50% - 7px); left:-4px; background-color:#ddd}
+  .res-main .step-area.step02 .view-area .map-wrap {padding:12px}
+  .res-main .step-area.step02 .view-area .map-wrap .api-area {margin-top:8px}
   .res-main .step-area.step02 .view-area .map-wrap > .input-area > ul {flex-direction:column}
   .res-main .step-area.step02 .view-area .map-wrap .input-area > ul li + li {margin-left:0; margin-top:6px}
   .res-main .step-area.step02 .view-area .map-wrap .select-box select {width:100%}

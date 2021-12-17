@@ -50,30 +50,34 @@
     });
 
     // step 2 예약일 선택 / 예약시간 선택
-    var calendar = $('.res-main .step-area.step02 .bottom-area .date-wrap .calendar');
-    var time = $('.res-main .step-area.step02 .bottom-area .date-wrap .time');
-    calendar.children('.cal-cont').show();
-    time.children('.time-cont').show();
+    var calendar = $('.res-main .step-area.step02 .bottom-area .date-wrap .calendar .mo-top');
+    var time = $('.res-main .step-area.step02 .bottom-area .date-wrap .time .mo-top');
+    calendar.next('.cal-cont').show();
+    time.next('.time-cont').show();
 
     function dateSelect(){
       if($(window).width() < 768) {
         calendar.on('click',function(){
-          if($(this).hasClass('active')) {
-            $(this).removeClass('active').children('.cal-cont').slideUp();
+          if($(this).parent().hasClass('active')) {
+            $(this).parent().removeClass('active');
+            $(this).next('.cal-cont').slideUp();
           } else {
-            $(this).addClass('active').children('.cal-cont').slideDown();
+            $(this).parent().addClass('active');
+            $(this).next('.cal-cont').slideDown();
           }
         });
         time.on('click',function(){
-          if($(this).hasClass('active')) {
-            $(this).removeClass('active').children('.time-cont').slideUp();
+          if($(this).parent().hasClass('active')) {
+            $(this).parent().removeClass('active');
+            $(this).next('.time-cont').slideUp();
           } else {
-            $(this).addClass('active').children('.time-cont').slideDown();
+            $(this).parent().addClass('active');
+            $(this).next('.time-cont').slideDown();
           }
         });
       } else {
-        calendar.children('.cal-cont').show();
-        time.children('.time-cont').show();
+        calendar.next('.cal-cont').show();
+        time.next('.time-cont').show();
       }
     }
     dateSelect();
