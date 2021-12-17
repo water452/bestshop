@@ -304,7 +304,7 @@
 .res-main .step-area.step02 .bottom-area .date-wrap .time .input-area > ul {flex-direction:column; flex-wrap:wrap; margin-top:-10px}
 .res-main .step-area.step02 .bottom-area .date-wrap .time .input-area > ul li {height:16.6666%; margin-left:0; margin-top:10px}
 .res-main .step-area.step02 .bottom-area .date-wrap .time .input-area > ul li .radio-btn.btn-type2 {width:100%}
-.res-main .step-area.step02 .bottom-area .date-wrap .time .input-area > ul li .radio-btn.btn-type2 label {width:100%; height:34px; padding:0; border-radius:8px; font-size:14px; line-height:34px}
+.res-main .step-area.step02 .bottom-area .date-wrap .time .input-area > ul li .radio-btn.btn-type2 label {width:100%; max-height:34px; padding:5px 0; border-radius:8px; font-size:14px; line-height:22px}
 .res-main .step-area.step02 .bottom-area .date-wrap .time .input-area > ul li .radio-btn.btn-type2 input:checked + label {border-width:1px}
 
 /* step 3 */
@@ -510,15 +510,14 @@
   .res-main .step-area.step02 .bottom-area .date-wrap .calendar {position:relative; width:100%}
   .res-main .step-area.step02 .bottom-area .date-wrap .calendar::after {content:''; display:block; position:absolute; width:16px; height:16px; top:15px; right:16px; background:url(../images/icons/icon-arr-down-16.svg) no-repeat center}
   .res-main .step-area.step02 .bottom-area .date-wrap .calendar.active::after {transform:rotate(180deg)}
-  .res-main .step-area.step02 .bottom-area .date-wrap .calendar .cal-cont {display:none}
-  .res-main .step-area.step02 .bottom-area .date-wrap .calendar.active .cal-cont {display:block; height:257px}
+  .res-main .step-area.step02 .bottom-area .date-wrap .calendar .cal-cont {display:none; height:257px}
   .res-main .step-area.step02 .bottom-area .date-wrap .time {position:relative; width:100%; margin-top:12px; margin-left:0; border:1px solid #ddd; border-radius:8px}
   .res-main .step-area.step02 .bottom-area .date-wrap .time::after {content:''; display:block; position:absolute; width:16px; height:16px; top:15px; right:16px; background:url(../images/icons/icon-arr-down-16.svg) no-repeat center}
   .res-main .step-area.step02 .bottom-area .date-wrap .time.active::after {transform:rotate(180deg)}
   .res-main .step-area.step02 .bottom-area .date-wrap .time .time-cont {display:none}
-  .res-main .step-area.step02 .bottom-area .date-wrap .time.active .time-cont {display:block}
   .res-main .step-area.step02 .bottom-area .date-wrap .time .input-area > ul {flex-direction:row; justify-content:flex-start; margin-top:-6.5px; margin-right:-6.5px; padding:4px 16px 16px}
   .res-main .step-area.step02 .bottom-area .date-wrap .time .input-area > ul li {width:calc(20% - 6.5px); min-width:54px; margin-top:6.5px; margin-right:6.5px}
+  .res-main .step-area.step02 .bottom-area .date-wrap .time .input-area > ul li .radio-btn.btn-type2 label {font-size:11px}
   .res-main .step-area.step02 .date-wrap .input-area > .base-type .radio-btn.btn-type2 label {border-radius:4px}
 
   .res-main .step-area.step03 .user-info-area .lt {float:none; width:100%; max-width:100%}

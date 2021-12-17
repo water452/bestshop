@@ -49,7 +49,36 @@
       }
     });
 
-  // step 2 약관 더보기 버튼
+    // step 2 예약일 선택 / 예약시간 선택
+    var calendar = $('.res-main .step-area.step02 .bottom-area .date-wrap .calendar');
+    var time = $('.res-main .step-area.step02 .bottom-area .date-wrap .time');
+    calendar.children('.cal-cont').show();
+    time.children('.time-cont').show();
+
+    function dateSelect(){
+      if($(window).width() < 768) {
+        calendar.on('click',function(){
+          if($(this).hasClass('active')) {
+            $(this).removeClass('active').children('.cal-cont').slideUp();
+          } else {
+            $(this).addClass('active').children('.cal-cont').slideDown();
+          }
+        });
+        time.on('click',function(){
+          if($(this).hasClass('active')) {
+            $(this).removeClass('active').children('.time-cont').slideUp();
+          } else {
+            $(this).addClass('active').children('.time-cont').slideDown();
+          }
+        });
+      } else {
+        calendar.children('.cal-cont').show();
+        time.children('.time-cont').show();
+      }
+    }
+    dateSelect();
+
+    // step 2 약관 더보기 버튼
     var agrBtn = $('.res-main .step-area.step03 .user-info-area .input-area ul.acco-type .check-box .agr-more');
     var agrTxt = $('.res-main .step-area.step03 .user-info-area .input-area ul.acco-type .check-box .agr-txt-wrap');
 
@@ -62,6 +91,17 @@
         $(this).siblings(agrTxt).addClass('active');
       }
     });
+
+    // step 2 약관 모두 동의
+    $("#agr-all").click(function(){
+      if($("#agr-all").prop("checked")){
+        $("input[name=agr-required]").prop("checked",true);
+        $("input[name=agr-optional]").prop("checked",true);
+      } else{
+        $("input[name=agr-required]").prop("checked",false);
+        $("input[name=agr-optional]").prop("checked",false);
+      }
+    })
 
     // 하단바 영역
     $('.bottom-fixed-wrap').on('click',function(){
@@ -1004,9 +1044,9 @@
                 </div>
               </div>
               <div class="date-wrap">
-                <div class="calendar active">
+                <div class="calendar active"><!-- active 클래스 추가(mo) -->
                   <div class="mo-top">
-                    <p class="mo-tit">예약일 선택</p><!-- active 클래스 추가(mo) -->
+                    <p class="mo-tit">예약일 선택</p>
                   </div>
                   <div class="cal-cont">
 
