@@ -318,6 +318,8 @@ select.family-site{display:none;}
 .floating-block .floating-custom-wrap .main-btn:hover,
 .floating-block .floating-custom-wrap .main-btn:focus{background-image:none;}
 .floating-block .floating-custom-wrap .main-btn:before{display:block;content:'';position:absolute;top:calc(50% - 20px);left:calc(50% - 20px);width:40px;height:40px;background:url('../images/icons/icon-more-plus-x.png') no-repeat 50% 50%;background-size:contain;transform:rotate(45deg);}
+.floating-block .service-list a{position:relative;width:100%;text-align:center;padding:14px 68px 14px 28px;background:#fff;border:1px solid #fff;border-radius:28px;box-shadow:0 4px 11px 0 rgba(0,0,0,0.15);}
+.floating-block .service-list a img{display:block;position:absolute;top:0;right:0;}
 
 @media screen and (min-width:768px){
 	footer .foot-cont .pc-dropdown-wrap .link-wrap .link-section .depth2{display:block !important;}
