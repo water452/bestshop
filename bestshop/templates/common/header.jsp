@@ -281,6 +281,16 @@
           <!-- e: mobile head wrap -->
 
           <!-- Floating Menu -->
-          <div class=""></div>
+          <div class="floating-block">
+            <a href="javascript:void(0);" class="top-btn">TOP</a>
+            <div class="floating-custom-wrap">
+              <a href="javascript:void(0);" class="main-btn"><span class="blind">서비스 메뉴 열기</span></a>
+              <ul class="service-list">
+                <li><a href="javascript:void(0);">매장 상담 예약 <img src="/bestshop/images/icons/icon-resv.svg"></a></li>
+                <li><a href="javascript:void(0);">매장 찾기 <img src="/bestshop/images/icons/icon-resv.svg"></a></li>
+                <li><a href="javascript:void(0);">베스트샵 이벤트 <img src="/bestshop/images/icons/icon-resv.svg"></a></li>
+              </ul>
+            </div>
+          </div>
         </header>
         <!-- e: HEADER -->

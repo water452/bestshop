@@ -309,10 +309,19 @@ footer .foot-cont .foot-bottom .bottom-body .foot-last .ismsp dl dd{margin-left:
 .swiper-slide .mobile-status-bar{display:none}
 select.family-site{display:none;}
 
+/* floating menu */
+.floating-block{position:fixed;bottom:48px;right:48px;}
+.floating-block .top-btn{display:none;}
+.floating-block .floating-custom-wrap{position:absolute;bottom:0;right:0;width:210px;background:rgba(0,0,0,0.5)}
+.floating-block .floating-custom-wrap a{display:block;}
+.floating-block .floating-custom-wrap .main-btn{position:absolute;bottom:0;right:0;width:56px;height:56px;background-color:#fa263e;background-image:linear-gradient(315deg,#fb5a72,#fa263e);border-radius:100%;}
+.floating-block .floating-custom-wrap .main-btn:hover,
+.floating-block .floating-custom-wrap .main-btn:focus{background-image:none;}
+.floating-block .floating-custom-wrap .main-btn:before{display:block;content:'';position:absolute;top:calc(50% - 20px);left:calc(50% - 20px);width:40px;height:40px;background:url('../images/icons/icon-more-plus-x.png') no-repeat 50% 50%;background-size:contain;transform:rotate(45deg);}
+
 @media screen and (min-width:768px){
 	footer .foot-cont .pc-dropdown-wrap .link-wrap .link-section .depth2{display:block !important;}
 }
-
 @media screen and (max-width:1200px){
 	.header-bottom .menu-wrap > ul > li .menu-category-layer .menu-category-inner .bnr-box .bnr-block{font-size:13px;}
 }
