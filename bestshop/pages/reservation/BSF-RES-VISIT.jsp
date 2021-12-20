@@ -60,19 +60,19 @@
         calendar.on('click',function(){
           if($(this).parent().hasClass('active')) {
             $(this).parent().removeClass('active');
-            $(this).next('.cal-cont').slideUp();
+            $(this).next('.cal-cont').stop().slideUp();
           } else {
             $(this).parent().addClass('active');
-            $(this).next('.cal-cont').slideDown();
+            $(this).next('.cal-cont').stop().slideDown();
           }
         });
         time.on('click',function(){
           if($(this).parent().hasClass('active')) {
             $(this).parent().removeClass('active');
-            $(this).next('.time-cont').slideUp();
+            $(this).next('.time-cont').stop().slideUp();
           } else {
             $(this).parent().addClass('active');
-            $(this).next('.time-cont').slideDown();
+            $(this).next('.time-cont').stop().slideDown();
           }
         });
       } else {
@@ -108,13 +108,17 @@
     })
 
     // 하단바 영역
-    $('.bottom-fixed-wrap').on('click',function(){
-      if($(this).hasClass('active')) {
-        $(this).removeClass('active');
-        $('.bottom-fixed-wrap .bar-wrap .body-area').slideUp();
+    $('.bottom-fixed-wrap .bar-wrap .head-area').on('click',function(){
+      if($(this).parent().parent().hasClass('active')) {
+        $(this).parent().parent().removeClass('active');
+        $(this).next('.body-area').stop().slideUp();
+        $('.bottom-fixed-wrap .dimmed').fadeOut();
+        $('html').removeClass('scroll-fixed');
       } else {
-        $(this).addClass('active');
-        $('.bottom-fixed-wrap .bar-wrap .body-area').slideDown();
+        $(this).parent().parent().addClass('active');
+        $(this).next('.body-area').stop().slideDown();
+        $('.bottom-fixed-wrap .dimmed').fadeIn();
+        $('html').addClass('scroll-fixed');
       }
     })
 
@@ -209,27 +213,17 @@
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="banner01">
-                <div class="boxs">
-                  <a href="#">
-                  <p class="tit">방문 상담 <br class="only_mo">예약 이벤트</p>
-                    <div class="desc">
-                      <p>상담 예약 기간 : 2021.11.01(월) - 2021.11.30(화)</p>
-                      <p>방문 예약 기간 : 2021.11.01(월) - 2021.11.30(화)</p>
-                    </div>
-                  </a>
+                <div class="box">
+                  <img class="only_pc" src="../../images/img-res-banner-01.png" alt="">
+                  <img class="only_mo" src="../../images/img-res-banner-01_mo.png" alt="">
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="banner02">
-                <div class="boxs">
-                  <a href="#">
-                  <p class="tit">방문 상담 <br class="only_mo">예약 이벤트</p>
-                    <div class="desc">
-                      <p>상담 예약 기간 : 2021.11.01(월) - 2021.11.30(화)</p>
-                      <p>방문 예약 기간 : 2021.11.01(월) - 2021.11.30(화)</p>
-                    </div>
-                  </a>
+                <div class="box">
+                  <img class="only_pc" src="../../images/img-res-banner-01.png" alt="">
+                  <img class="only_mo" src="../../images/img-res-banner-01_mo.png" alt="">
                 </div>
               </div>
             </div>
