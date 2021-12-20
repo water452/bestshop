@@ -51,21 +51,26 @@
 /* 방문상담예약 */
 /* 상단 공통 영역 */
 .res-main .top-wrap .guide-area {background-image:linear-gradient(104deg,#ddd5f9,#ffccd8 100%)}
-.res-main .top-wrap .guide-area .guide-process {padding:30px 0}
+.res-main .top-wrap .guide-area .guide-process {padding:30px 0 0}
 .res-main .top-wrap .guide-area .guide-process .inner {max-width:1460px; margin:0 auto}
 .res-main .top-wrap .guide-area .guide-process .desc {margin-top:30px; padding:0 40px; font-size:24px; font-weight:bold; line-height:36px}
-.res-main .top-wrap .guide-area .guide-process .box-area {display:flex; margin-top:30px; padding:0 40px; white-space:nowrap; overflow-x:auto}
-.res-main .top-wrap .guide-area .guide-process .box-area li {min-width:250px; padding:23px 0 28px; box-sizing:border-box; border:3px solid #ca9bd8; border-radius:16px; background-color:#fff}
-.res-main .top-wrap .guide-area .guide-process .box-area li + li {position:relative; margin-left:32px}
-.res-main .top-wrap .guide-area .guide-process .box-area li + li::before {content:''; display:block; position:absolute; width:32.5px; height:20px; top:calc(50% - 10px); left:-34.5px; background:url(../images/icons/icon-arr-11-white.svg) no-repeat center}
-.res-main .top-wrap .guide-area .guide-process .box-area li .icon-wrap {display:block; width:140px; height:140px; margin:0 auto; border-radius:50%; background-color:#fbf5ff}
-.res-main .top-wrap .guide-area .guide-process .box-area li .icon-wrap i[class^="icon"] {display:block; width:100%; height:100%}
-.res-main .top-wrap .guide-area .guide-process .box-area li .icon-wrap .icon01 {background:url(../images/icons/icon-res-guide-01.svg) no-repeat center}
-.res-main .top-wrap .guide-area .guide-process .box-area li .icon-wrap .icon02 {background:url(../images/icons/icon-res-guide-02.svg) no-repeat center}
-.res-main .top-wrap .guide-area .guide-process .box-area li .icon-wrap .icon03 {background:url(../images/icons/icon-res-guide-03.svg) no-repeat center}
-.res-main .top-wrap .guide-area .guide-process .box-area li .icon-wrap .icon04 {background:url(../images/icons/icon-res-guide-04.svg) no-repeat center}
-.res-main .top-wrap .guide-area .guide-process .box-area li .icon-wrap .icon05 {background:url(../images/icons/icon-res-guide-05.svg) no-repeat center}
-.res-main .top-wrap .guide-area .guide-process .box-area li .txt {margin-top:19px; font-size:16px; line-height:24px; text-align:center}
+.res-main .top-wrap .guide-area .guide-process .guide-banner-01 {margin-top:30px; padding:0 40px 30px}
+.res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide {width:auto; min-width:250px}
+.res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide + .swiper-slide {margin-left:32px}
+.res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide .box {position:relative; width:100%; padding:23px 0 28px; box-sizing:border-box; border:3px solid #ca9bd8; border-radius:16px; background-color:#fff}
+.res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide .box::before {content:''; display:block; position:absolute; width:32.5px; height:20px; top:calc(50% - 10px); left:-34.5px; background:url(../images/icons/icon-arr-11-white.svg) no-repeat center}
+.res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide:first-child .box::before {display:none}
+.res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide .box .icon-wrap {display:block; width:140px; height:140px; margin:0 auto; border-radius:50%; background-color:#fbf5ff}
+.res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide .box .icon-wrap i[class^="icon"] {display:block; width:100%; height:100%}
+.res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide .box .icon-wrap .icon01 {background:url(../images/icons/icon-res-guide-01.svg) no-repeat center}
+.res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide .box .icon-wrap .icon02 {background:url(../images/icons/icon-res-guide-02.svg) no-repeat center}
+.res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide .box .icon-wrap .icon03 {background:url(../images/icons/icon-res-guide-03.svg) no-repeat center}
+.res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide .box .icon-wrap .icon04 {background:url(../images/icons/icon-res-guide-04.svg) no-repeat center}
+.res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide .box .icon-wrap .icon05 {background:url(../images/icons/icon-res-guide-05.svg) no-repeat center}
+.res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide .box .txt {margin-top:19px; font-size:16px; line-height:24px; text-align:center}
+.res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-scrollbar {width:calc(100% - 80px); left:40px; bottom:11px; height:8px; background-color:rgba(255,255,255,0.3)}
+.res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-scrollbar .swiper-scrollbar-drag {background-color:rgba(255,255,255,0.6)}
+
 .res-main .top-wrap .guide-area .guide-benefits {background-color:rgba(255,255,255,0.3)}
 .res-main .top-wrap .guide-area .guide-benefits .inner {max-width:1460px; margin:0 auto; padding: 0 40px}
 .res-main .top-wrap .guide-area .guide-benefits .list-area {display:flex; justify-content:space-between; align-items:center; padding:20px 0}
@@ -164,7 +169,7 @@
 .res-main .input-area ul.cate-type .cate-items .check-box input + label::after {display:none}
 
 .res-main .input-area ul.pdt-type {display:flex; flex-wrap:wrap; margin:-16px -8px 0}
-.res-main .input-area ul.pdt-type > li {width:16.6666%; min-width:175px; max-width:233px; margin-top:16px; padding:0 8px}
+.res-main .input-area ul.pdt-type > li {width:calc(100% / 6); min-width:175px; max-width:233px; margin-top:16px; padding:0 8px}
 .res-main .input-area ul.pdt-type > li .check-box {width:100%}
 .res-main .input-area ul.pdt-type > li .check-box input:checked + label {border-color:#da0f47; color:#da0f47}
 .res-main .input-area ul.pdt-type > li .check-box input + label::after {display:none}
@@ -201,8 +206,8 @@
 .res-main .input-area ul.pdt-type > li .check-box input:checked + label .icon.projector {background:url(../images/icons/icon-projector_on.svg) no-repeat center}
 .res-main .input-area ul.pdt-type > li .check-box input:checked + label .icon.medihair {background:url(../images/icons/icon-medihair_on.svg) no-repeat center}
 
-.res-main .input-area ul.base-type {justify-content:space-between}
-.res-main .input-area ul.base-type > li {width:calc(16.6666% - 6px)}
+.res-main .input-area ul.base-type {justify-content:space-between; margin:0 -8px}
+.res-main .input-area ul.base-type > li {width:calc(100% / 6); padding:0 8px}
 .res-main .input-area ul.base-type .radio-btn.btn-type2 {width:100%}
 .res-main .input-area ul.base-type .radio-btn.btn-type2 label {display:flex; justify-content:center; align-items:center; width:100%; height:48px; border-radius:28px; font-size:16px; font-weight:500; line-height:24px}
 .res-main .input-area ul.base-type .radio-btn.btn-type2 input:checked + label {border:2px solid #da0f47; color:#da0f47}
@@ -356,19 +361,22 @@
   .only_mo {display:block!important}
 
   .res-main .cont-wrap .cont-area .step-tit ~ .step-tit {margin-top:40px}
-  .res-main .top-wrap .guide-area .guide-process {padding:25px 0 20px}
+  .res-main .top-wrap .guide-area .guide-process {padding:25px 0 0}
   .res-main .top-wrap .guide-area .guide-process .desc {margin-top:0; padding:0 16px; font-size:16px; line-height:24px}
-  .res-main .top-wrap .guide-area .guide-process .box-area {margin-top:16px; padding:0 16px}
-  .res-main .top-wrap .guide-area .guide-process .box-area li {min-width:125px; padding:11px 12px 10px; border-radius:8px; border-width:1.5px}
-  .res-main .top-wrap .guide-area .guide-process .box-area li + li {margin-left:16px}
-  .res-main .top-wrap .guide-area .guide-process .box-area li + li::before {width:16px; left:-18px; background-size:5px}
-  .res-main .top-wrap .guide-area .guide-process .box-area li .icon-wrap {width:80px; height:80px; background-color:none}
-  .res-main .top-wrap .guide-area .guide-process .box-area li .icon-wrap .icon01 {background:url(../images/icons/icon-res-guide-01_mo.svg) no-repeat center / 100%}
-  .res-main .top-wrap .guide-area .guide-process .box-area li .icon-wrap .icon02 {background:url(../images/icons/icon-res-guide-02_mo.svg) no-repeat center / 100%}
-  .res-main .top-wrap .guide-area .guide-process .box-area li .icon-wrap .icon03 {background:url(../images/icons/icon-res-guide-03_mo.svg) no-repeat center / 100%}
-  .res-main .top-wrap .guide-area .guide-process .box-area li .icon-wrap .icon04 {background:url(../images/icons/icon-res-guide-04_mo.svg) no-repeat center / 100%}
-  .res-main .top-wrap .guide-area .guide-process .box-area li .icon-wrap .icon05 {background:url(../images/icons/icon-res-guide-05_mo.svg) no-repeat center / 100%}
-  .res-main .top-wrap .guide-area .guide-process .box-area li .txt {margin-top:10px; font-size:11px; line-height:16px; white-space:initial; word-break:keep-all}
+  .res-main .top-wrap .guide-area .guide-process .guide-banner-01 {margin-top:16px; padding:0 16px 20px}
+  .res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide {width:calc(20% - 12.8px); min-width:125px}
+  .res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide .box {padding:11px 12px 10px; border-radius:8px; border-width:1.5px}
+  .res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide + .swiper-slide {margin-left:16px}
+  .res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide .box::before {width:16px; left:-18px; background-size:5px}
+  .res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide .box .icon-wrap {width:80px; height:80px; background-color:none}
+  .res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide .box .icon-wrap .icon01 {background:url(../images/icons/icon-res-guide-01_mo.svg) no-repeat center / 100%}
+  .res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide .box .icon-wrap .icon02 {background:url(../images/icons/icon-res-guide-02_mo.svg) no-repeat center / 100%}
+  .res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide .box .icon-wrap .icon03 {background:url(../images/icons/icon-res-guide-03_mo.svg) no-repeat center / 100%}
+  .res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide .box .icon-wrap .icon04 {background:url(../images/icons/icon-res-guide-04_mo.svg) no-repeat center / 100%}
+  .res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide .box .icon-wrap .icon05 {background:url(../images/icons/icon-res-guide-05_mo.svg) no-repeat center / 100%}
+  .res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide .box .txt {margin-top:10px; font-size:11px; line-height:16px; white-space:initial; word-break:keep-all}
+  .res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-scrollbar {width:calc(100% - 32px); left:16px; bottom:9px; height:2px}
+
   .res-main .top-wrap .guide-area .guide-benefits .inner {padding:0 16px}
   .res-main .top-wrap .guide-area .guide-benefits .list-area {position:relative; display:block; padding:0}
   .res-main .top-wrap .guide-area .guide-benefits .list-area .tit {padding:15px 0 11px; font-size:12px; line-height:19px; text-align:center}
@@ -460,8 +468,8 @@
   .res-main .input-area ul.pdt-type > li .check-box input:checked + label .icon.projector {background:url(../images/icons/icon-projector_mo_on.svg) no-repeat center / contain}
   .res-main .input-area ul.pdt-type > li .check-box input:checked + label .icon.medihair {background:url(../images/icons/icon-medihair_mo_on.svg) no-repeat center / contain}
 
-  .res-main .input-area ul.base-type {flex-wrap:wrap; margin-top:-7px}
-  .res-main .input-area ul.base-type > li {width:calc(33.3333% - 3.5px); margin-top:7px}
+  .res-main .input-area ul.base-type {flex-wrap:wrap; margin:-7px -3.5px 0}
+  .res-main .input-area ul.base-type > li {width:calc(100% / 3); margin-top:7px; padding:0 3.5px}
   .res-main .input-area ul.base-type .radio-btn.btn-type2 label {height:34px; padding:0; border:1px solid #ddd; font-size:13px; line-height:34px}
   .res-main .input-area ul.base-type .radio-btn.btn-type2 input:checked + label {border:1px solid #da0f47}
   .res-main .input-area .text-area textarea {padding:13px 16px; font-size:14px; line-height:19px}
@@ -554,7 +562,6 @@
   /* 하단바 */
   .bottom-fixed-wrap {display:block; position:fixed; bottom:69px; left:0; right:0; z-index:1000}
   .bottom-fixed-wrap .dimmed {display:none}
-  /* .bottom-fixed-wrap.active .dimmed {display:block} */
   .bottom-fixed-wrap .bar-wrap {position:relative; border-radius:16px 16px 0 0; box-shadow:0 -3px 6px 0 rgba(0, 0, 0, 0.16); background-color:#fff; z-index:1001}
   .bottom-fixed-wrap .bar-wrap .head-area {position:relative; padding:11px 44px 11px 16px}
   .bottom-fixed-wrap .bar-wrap .head-area .head-txt {font-size:11px; font-weight:bold; line-height:18px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden}
