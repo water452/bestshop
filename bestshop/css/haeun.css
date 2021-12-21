@@ -119,7 +119,7 @@
 .res-main .cont-wrap .cont-area .step-area .btn-area {display:none; margin-top:20px; margin-bottom:50px; text-align:center}
 .res-main .cont-wrap .cont-area .step-area .btn-area.active {display:block}
 .res-main .cont-wrap .cont-area .step-area .btn-area .btn {min-width:158px}
-.res-main .cont-wrap .cont-area .step-area .btn-area .btn-submit {width:220px}
+.res-main .cont-wrap .cont-area .step-area .btn-area .btn-res {width:220px}
 .res-main .cont-wrap .cont-area .step-area .btn-area.bg {margin-top:0; padding:30px 0; background-color:#f6f6f6; border-radius:8px}
 .res-main .cont-wrap .cont-area .step-area .btn-area.bg.active {background-image:linear-gradient(98deg, #9a7fed 1%, #ff6489 100%, #ff6489 100%)}
 .res-main .cont-wrap .cont-area .step-area .btn-area.bg .result-txt {font-size:20px; line-height:32px}
@@ -318,9 +318,9 @@
 .res-main .step-area.step03 .user-info-area .input-area ul.box-type {flex-direction:column; height:348px; padding:60px; border-radius:8px; background-color:#f4f4f4}
 .res-main .step-area.step03 .user-info-area .input-area ul.box-type > li + li {margin-top:50px}
 .res-main .step-area.step03 .user-info-area .input-area ul.box-type .tit {margin-bottom:8px; font-size:16px; font-weight:500; line-height:26px}
-.res-main .step-area.step03 .user-info-area .input-area ul.box-type .text-box input {width:100%; height:48px; padding:10px 15px; border:1px solid #ddd; border-radius:8px; font-size:16px; line-height:26px}
-.res-main .step-area.step03 .user-info-area .input-area ul.box-type .text-box input[type="number"]::-webkit-outer-spin-button,
-.res-main .step-area.step03 .user-info-area .input-area ul.box-type .text-box input[type="number"]::-webkit-inner-spin-button {-webkit-appearance:none; margin:0}
+.res-main .step-area.step03 .user-info-area .input-area ul.box-type .txt-box input {width:100%; height:48px; padding:10px 15px; border:1px solid #ddd; border-radius:8px; font-size:16px; line-height:26px}
+.res-main input[type="number"]::-webkit-outer-spin-button,
+.res-main input[type="number"]::-webkit-inner-spin-button {-webkit-appearance:none; margin:0}
 .res-main .step-area.step03 .user-info-area .input-area ul.acco-type {flex-direction:column}
 .res-main .step-area.step03 .user-info-area .input-area ul.acco-type > li + li {margin-top:8px}
 .res-main .step-area.step03 .user-info-area .input-area ul.acco-type .check-box {position:relative; display:block}
@@ -343,8 +343,8 @@
 .res-main .step-area.step03 .user-info-area .bottom-area .tb_row {margin-top:14px}
 
 /* 하단바 */
-.bottom-fixed-wrap {display:none}
-.bottom-fixed-wrap .dimmed {display:none}
+.res-main .bottom-fixed-wrap {display:none}
+.res-main .bottom-fixed-wrap .dimmed {display:none}
 
 /* mobile */
 @media screen and (max-width:1460px) {
@@ -539,7 +539,7 @@
   .res-main .step-area.step03 .user-info-area .input-area ul.box-type {height:248px; padding:25px}
   .res-main .step-area.step03 .user-info-area .input-area ul.box-type > li + li {margin-top:30px}
   .res-main .step-area.step03 .user-info-area .input-area ul.box-type .tit {font-size:14px; line-height:22px}
-  .res-main .step-area.step03 .user-info-area .input-area ul.box-type .text-box input {height:auto; padding:11px 12px; font-size:14px; line-height:22px}
+  .res-main .step-area.step03 .user-info-area .input-area ul.box-type .txt-box input {height:auto; padding:11px 12px; font-size:14px; line-height:22px}
   .res-main .step-area.step03 .user-info-area .input-area ul.acco-type {padding-bottom:4px; border:1px solid #ddd; border-radius:8px}
   .res-main .step-area.step03 .user-info-area .input-area ul.acco-type > li {padding:12px 16px}
   .res-main .step-area.step03 .user-info-area .input-area ul.acco-type > li + li {margin-top:0; border-top:1px solid #ddd}
@@ -560,25 +560,97 @@
   .res-main .cont-wrap .cont-area .step-area.step03 .btn-area {display:none}
 
   /* 하단바 */
-  .bottom-fixed-wrap {display:block; position:fixed; bottom:69px; left:0; right:0; z-index:1000}
-  .bottom-fixed-wrap .dimmed {display:none}
-  .bottom-fixed-wrap .bar-wrap {position:relative; border-radius:16px 16px 0 0; box-shadow:0 -3px 6px 0 rgba(0, 0, 0, 0.16); background-color:#fff; z-index:1001}
-  .bottom-fixed-wrap .bar-wrap .head-area {position:relative; padding:11px 44px 11px 16px}
-  .bottom-fixed-wrap .bar-wrap .head-area .head-txt {font-size:11px; font-weight:bold; line-height:18px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden}
-  .bottom-fixed-wrap .bar-wrap .head-area button.view-more {position:absolute; display:block; width:20px; height:20px; top:calc(50% - 10px); right:14px; background:url(../images/icons/icon-arr-40-bk.svg) no-repeat center / contain; transform:rotate(180deg)}
-  .bottom-fixed-wrap.active .bar-wrap .head-area button.view-more {transform:rotate(0)}
-  .bottom-fixed-wrap .bar-wrap .body-area {display:none; padding:12px 16px; border-top:1px solid #ddd}
-  .bottom-fixed-wrap .bar-wrap .body-area .my-result {font-size:13px; line-height:20px}
-  .bottom-fixed-wrap .bar-wrap .body-area .my-result > ul > li {display:flex}
-  .bottom-fixed-wrap .bar-wrap .body-area .my-result > ul > li span {display:block; min-width:58px}
-  .bottom-fixed-wrap .bar-wrap .foot-area .btn-area {padding:12px 16px; background-color:#f6f6f6}
-  .bottom-fixed-wrap .bar-wrap .foot-area .btn-area button {display:block; width:100%; max-width:328px; margin:0 auto; height:43px; padding:10px 25px; font-size:13px; line-height:20px}
+  .res-main .bottom-fixed-wrap {display:block; position:fixed; bottom:69px; left:0; right:0; z-index:1000}
+  .res-main .bottom-fixed-wrap .dimmed {display:none}
+  .res-main .bottom-fixed-wrap .bar-wrap {position:relative; border-radius:16px 16px 0 0; box-shadow:0 -3px 6px 0 rgba(0, 0, 0, 0.16); background-color:#fff; z-index:1001}
+  .res-main .bottom-fixed-wrap .bar-wrap .head-area {position:relative; padding:11px 44px 11px 16px}
+  .res-main .bottom-fixed-wrap .bar-wrap .head-area .head-txt {font-size:11px; font-weight:bold; line-height:18px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden}
+  .res-main .bottom-fixed-wrap .bar-wrap .head-area button.view-more {position:absolute; display:block; width:20px; height:20px; top:calc(50% - 10px); right:14px; background:url(../images/icons/icon-arr-40-bk.svg) no-repeat center / contain; transform:rotate(180deg)}
+  .res-main .bottom-fixed-wrap.active .bar-wrap .head-area button.view-more {transform:rotate(0)}
+  .res-main .bottom-fixed-wrap .bar-wrap .body-area {display:none; padding:12px 16px; border-top:1px solid #ddd}
+  .res-main .bottom-fixed-wrap .bar-wrap .body-area .my-result {font-size:13px; line-height:20px}
+  .res-main .bottom-fixed-wrap .bar-wrap .body-area .my-result > ul > li {display:flex}
+  .res-main .bottom-fixed-wrap .bar-wrap .body-area .my-result > ul > li span {display:block; min-width:58px}
+  .res-main .bottom-fixed-wrap .bar-wrap .foot-area .btn-area {padding:12px 16px; background-color:#f6f6f6}
+  .res-main .bottom-fixed-wrap .bar-wrap .foot-area .btn-area button {display:block; width:100%; max-width:328px; margin:0 auto; height:43px; padding:10px 25px; font-size:13px; line-height:20px}
 }
 /* // 방문상담예약 */
 
+/* 휴대폰 인증 팝업 */
+.res-visit input[type="number"]::-webkit-outer-spin-button,
+.res-visit input[type="number"]::-webkit-inner-spin-button {-webkit-appearance:none; margin:0}
+
+.res-visit.popup-area {display:none; position:fixed; top:0; left:0; right:0; bottom:0; z-index:1005}
+.res-visit.popup-area.active {display:block}
+.res-visit.popup-area.active .dimmed {display:block}
+.res-visit.popup-area .dimmed {display:none}
+.res-visit.popup-area .popup-wrap {position:absolute; width:100%; max-width:912px; top:50%; left:50%; transform:translate(-50%,-50%); padding:34px 40px 50px; border-radius:8px; background-color:#fff; z-index:1006}
+.res-visit.popup-area .popup-wrap .head-area {position:relative; padding-bottom:15px; border-bottom:2px solid #000}
+.res-visit.popup-area .popup-wrap .head-area .head-txt {font-size:20px; font-weight:500; line-height:30px}
+.res-visit.popup-area .popup-wrap .head-area .btn-close {position:absolute; width:24px; height:24px; top:3px; right:0; background:url(../images/icons/btn-close-24-black.svg) no-repeat center / contain}
+.res-visit.popup-area .popup-wrap .body-area {padding:10px 0}
+.res-visit.popup-area .popup-wrap .body-area .phone-check-wrap {padding-bottom:44px}
+.res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .note {display:flex; font-size:14px; line-height:20px}
+.res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .note > sup {margin-right:3px}
+.res-visit.popup-area .popup-wrap .body-area .phone-check-wrap sup {color:#e81953; font-size:14px; line-height:20px}
+.res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .input-area {max-width:630px; margin-top:50px}
+.res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .input-area .name-box {display:flex}
+.res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .input-area .num-box {display:flex; margin-top:32px}
+.res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .input-area .tit {width:180px}
+.res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .input-area .tit label {font-size:16px; font-weight:bold; line-height:24px}
+.res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .input-area .tit label .name {display:flex}
+.res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .input-area .tit label .name sup {margin-left:4px; font-size:16px; font-weight:bold; line-height:24px}
+.res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .input-area .txt-box {width:calc(100% - 180px)}
+.res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .input-area .txt-box input {width:100%; height:48px; padding:10px 15px; background-color:#ededed; border-radius:8px; font-size:16px; line-height:26px}
+.res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .input-area .num-box .txt-box > ul > li {display:flex}
+.res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .input-area .num-box .txt-box > ul > li + li {margin-top:12px}
+.res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .input-area .num-box .txt-box > ul > li:first-child input {width:calc(100% - 104px)}
+.res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .input-area .num-box .txt-box .btn-send {width:104px; margin-left:8px; padding:12px 10px; border:1px solid #000; border-radius:8px; background-color:#fff; font-size:14px; font-weight:bold; line-height:20px; white-space:nowrap}
+.res-visit.popup-area .popup-wrap .body-area .caution-box {padding-top:20px; border-top:2px solid #ddd}
+
+.res-visit.popup-area .popup-wrap .foot-area {margin-top:30px}
+.res-visit.popup-area .popup-wrap .foot-area .btn-area {text-align:center}
+.res-visit.popup-area .popup-wrap .foot-area .btn-area .btn-cancle {background:#ededed; border:1px solid #ededed; color:#777}
+.res-visit.popup-area .popup-wrap .foot-area .btn-area button + button {margin-left:7px}
+
+.res-visit.popup-area ul.bull > li {position:relative; padding-left:8px; font-size:14px; line-height:26px; word-break:keep-all}
+.res-visit.popup-area ul.bull > li::before {content:''; display:block; position:absolute; width:2px; height:2px; top:12px; left:0; border-radius:50%; background-color:#000}
+/* mobile */
+@media screen and (max-width:767px) {
+  .res-visit.popup-area {z-index:9005}
+  .res-visit.popup-area .popup-wrap {left:0; right:0; top:0; bottom:0; transform:translate(0); padding:0 16px; border-radius:0}
+  .res-visit.popup-area .popup-wrap .head-area {padding:25px 0 9px}
+  .res-visit.popup-area .popup-wrap .head-area .head-txt {font-size:16px; line-height:26px}
+  .res-visit.popup-area .popup-wrap .head-area .btn-close {width:20px; height:20px; top:28px}
+  .res-visit.popup-area .popup-wrap .body-area {padding:13px 0}
+  .res-visit.popup-area .popup-wrap .body-area .phone-check-wrap {padding-bottom:40px}
+  .res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .note {font-size:13px}
+  .res-visit.popup-area .popup-wrap .body-area .phone-check-wrap sup {font-size:13px}
+  .res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .input-area {max-width:100%}
+  .res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .input-area .name-box {flex-direction:column}
+  .res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .input-area .tit {width:auto}
+  .res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .input-area .tit label {font-size:14px; line-height:20px}
+  .res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .input-area .tit label .name sup {font-size:14px; line-height:20px}
+  .res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .input-area .num-box {flex-direction:column}
+  .res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .input-area .txt-box {width:100%; margin-top:13px}
+  .res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .input-area .txt-box input {height:auto; padding:11px 12px; font-size:14px; line-height:22px}
+  .res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .input-area .num-box .txt-box > ul > li + li {margin-top:7px}
+  .res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .input-area .num-box .txt-box > ul > li:first-child input {width:calc(100% - 99px)}
+  .res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .input-area .num-box .txt-box .btn-send {width:99px; font-size:13px}
+  .res-visit.popup-area .popup-wrap .body-area .caution-box {padding-top:25px; border-top:1px solid #ddd}
+
+  .res-visit.popup-area .popup-wrap .foot-area {position:absolute; left:0; right:0; bottom:0}
+  .res-visit.popup-area .popup-wrap .foot-area .btn-area {display:flex}
+  .res-visit.popup-area .popup-wrap .foot-area .btn-area button {display:block; width:50%; margin:0!important; border-radius:0; font-size:14px}
+
+  .res-visit.popup-area ul.bull > li {padding-left:12px; font-size:13px; line-height:20px}
+  .res-visit.popup-area ul.bull > li::before {width:3px; height:3px; top:8.5px}
+}
+/* // 휴대폰 인증 팝업 */
+
 /* 방문상담예약 완료페이지 */
 .res-done .cont-wrap {max-width:100%; padding:0}
-.res-done .done-msg-area {text-align:center}
+.res-done .done-msg-area {padding:0 40px; text-align:center}
 .res-done .done-msg-area .done-msg-big > strong {display:block; font-size:36px; font-weight:500; line-height:48px}
 .res-done .done-msg-area .done-msg-big > span {display:block; font-size:36px; font-weight:500; line-height:48px}
 .res-done .done-msg-area .done-msg-small {margin-top:27px}
@@ -593,6 +665,7 @@
 .res-done .btn-area .btn + .btn {margin-left:13px}
 /* mobile */
 @media screen and (max-width:767px) {
+  .res-done .done-msg-area {padding:0 16px}
   .res-done .done-msg-area .done-msg-big > strong {font-size:18px; font-weight:bold; line-height:27px}
   .res-done .done-msg-area .done-msg-big > span {margin-top:4px; font-size:11px; line-height:19px}
   .res-done .done-msg-area .done-msg-small {margin-top:16px}

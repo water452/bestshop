@@ -1,140 +1,5 @@
 <%@ page contentType="text/html; charset=utf-8" %>
 <jsp:include page="../../templates/common/header.jsp" />
-<script>
-  $(document).ready(function(){
-
-    // 상단 예약진행 가이드 영역
-    var resbanner01 = new Swiper(".guide-banner-01", {
-      slidesPerView: 'auto',
-      scrollbar: {
-        el: ".swiper-scrollbar",
-        draggable: true,
-        // hide: true,
-      },
-    })
-
-    // 배너
-    var resbanner01 = new Swiper(".res-banner-01", {
-      spaceBetween: 40,
-      loop: true,
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-
-    // 방문 예약 혜택 보기(mo)
-    var benefitBtn = $('.res-main .top-wrap .guide-area .guide-benefits .list-area .view-more');
-    var benefitArea = $('.res-main .top-wrap .guide-area .guide-benefits .list-area');
-
-    benefitBtn.on('click',function(){
-      if($(this).hasClass('active')) {
-        $(this).removeClass('active');
-        benefitArea.removeClass('active');
-      } else {
-        $(this).addClass('active');
-        benefitArea.addClass('active');
-      }
-    });
-
-    // step 2 지도/리스트 보기 버튼
-    var mapBtn = $('.res-main .step-area.step02 .view-area .sort-area button.view-map');
-    var listBtn = $('.res-main .step-area.step02 .view-area .sort-area button.view-list');
-    var mapWrap = $('.res-main .step-area.step02 .view-area .map-wrap');
-    var listWrap = $('.res-main .step-area.step02 .view-area .list-wrap');
-    
-    listBtn.on('click',function(){
-      if($(this).hasClass('active')) {
-        $(this).removeClass('active');
-        mapBtn.addClass('active');
-        mapWrap.removeClass('active');
-        listWrap.addClass('active');
-      }
-    });
-    mapBtn.on('click',function(){
-      if($(this).hasClass('active')) {
-        $(this).removeClass('active');
-        listBtn.addClass('active');
-        listWrap.removeClass('active');
-        mapWrap.addClass('active');
-      }
-    });
-
-    // step 2 예약일 선택 / 예약시간 선택
-    var calendar = $('.res-main .step-area.step02 .bottom-area .date-wrap .calendar .mo-top');
-    var time = $('.res-main .step-area.step02 .bottom-area .date-wrap .time .mo-top');
-    calendar.next('.cal-cont').show();
-    time.next('.time-cont').show();
-
-    function dateSelect(){
-      if($(window).width() < 768) {
-        calendar.on('click',function(){
-          if($(this).parent().hasClass('active')) {
-            $(this).parent().removeClass('active');
-            $(this).next('.cal-cont').stop().slideUp();
-          } else {
-            $(this).parent().addClass('active');
-            $(this).next('.cal-cont').stop().slideDown();
-          }
-        });
-        time.on('click',function(){
-          if($(this).parent().hasClass('active')) {
-            $(this).parent().removeClass('active');
-            $(this).next('.time-cont').stop().slideUp();
-          } else {
-            $(this).parent().addClass('active');
-            $(this).next('.time-cont').stop().slideDown();
-          }
-        });
-      } else {
-        calendar.next('.cal-cont').show();
-        time.next('.time-cont').show();
-      }
-    }
-    dateSelect();
-
-    // step 2 약관 더보기 버튼
-    var agrBtn = $('.res-main .step-area.step03 .user-info-area .input-area ul.acco-type .check-box .agr-more');
-    var agrTxt = $('.res-main .step-area.step03 .user-info-area .input-area ul.acco-type .check-box .agr-txt-wrap');
-
-    agrBtn.on('click',function(){
-      if($(this).hasClass('active')) {
-        $(this).removeClass('active');
-        $(this).siblings(agrTxt).removeClass('active');
-      } else {
-        $(this).addClass('active');
-        $(this).siblings(agrTxt).addClass('active');
-      }
-    });
-
-    // step 2 약관 모두 동의
-    $("#agr-all").click(function(){
-      if($("#agr-all").prop("checked")){
-        $("input[name=agr-required]").prop("checked",true);
-        $("input[name=agr-optional]").prop("checked",true);
-      } else{
-        $("input[name=agr-required]").prop("checked",false);
-        $("input[name=agr-optional]").prop("checked",false);
-      }
-    })
-
-    // 하단바 영역
-    $('.bottom-fixed-wrap .bar-wrap .head-area').on('click',function(){
-      if($(this).parent().parent().hasClass('active')) {
-        $(this).parent().parent().removeClass('active');
-        $(this).next('.body-area').stop().slideUp();
-        $('.bottom-fixed-wrap .dimmed').fadeOut();
-        $('html').removeClass('scroll-fixed');
-      } else {
-        $(this).parent().parent().addClass('active');
-        $(this).next('.body-area').stop().slideDown();
-        $('.bottom-fixed-wrap .dimmed').fadeIn();
-        $('html').addClass('scroll-fixed');
-      }
-    })
-
-  });
-</script>
 <!-- container -->
 <div class="container" id="content">
 
@@ -327,7 +192,7 @@
 
               <h4 class="step-tit">제품선택<span>(다중선택)</span></h4>
               <!-- 제품선택 카테고리형 -->
-              <!-- <div class="input-area">
+              <div class="input-area">
                 <ul class="cate-type">
                   <li>
                     <p class="cate-tit"><i class="icon tv-audio"></i>TV/오디오</p>
@@ -492,11 +357,11 @@
                     </ul>
                   </li>
                 </ul>
-              </div> -->
+              </div>
               <!-- // 제품선택 카테고리형 -->
 
               <!-- 제품선택 제품군형 -->
-              <div class="input-area">
+              <!-- <div class="input-area">
                 <ul class="pdt-type">
                   <li>
                     <div class="check-box">
@@ -619,7 +484,7 @@
                     </div>
                   </li>
                 </ul>
-              </div>
+              </div> -->
               <!-- // 제품선택 제품군형 -->
 
               <h4 class="step-tit">구매 희망 시기</span></h4>
@@ -1214,7 +1079,7 @@
                             <span class="name">이름</span>
                           </label>
                         </div>
-                        <div class="text-box">
+                        <div class="txt-box">
                           <input type="text" name="user-name" placeholder="이름 입력">
                         </div>
                       </li>
@@ -1224,7 +1089,7 @@
                             <span class="name">휴대폰번호</span>
                           </label>
                         </div>
-                        <div class="text-box">
+                        <div class="txt-box">
                           <input type="number" name="user-number" placeholder="휴대폰 번호 입력">
                         </div>
                       </li>
@@ -1345,7 +1210,7 @@
           </div>
 
           <div class="btn-area active"><!-- active 클래스 추가 -->
-            <button type="button" class="btn btn-submit">상담 예약하기</button>
+            <button type="button" class="btn btn-res">상담 예약하기</button>
           </div>
 
           <div class="result-area active"><!-- active 클래스 추가 -->
@@ -1393,7 +1258,7 @@
         </div>
         <div class="foot-area">
           <div class="btn-area active"><!-- active 클래스 추가 -->
-            <button type="button" class="btn btn-submit">상담 예약하기</button>
+            <button type="button" class="btn btn-res">상담 예약하기</button>
           </div>
         </div>
       </div>
@@ -1404,4 +1269,228 @@
 </div>
 <!-- // container -->
 
+<!-- 휴대폰 인증 팝업 -->
+<div class="popup-area res-visit"><!-- active 클래스 추가 -->
+  <div class="dimmed"></div>
+  <div class="popup-wrap">
+    <div class="head-area">
+      <p class="head-txt">휴대전화 인증</p>
+      <button type="button" class="btn-close"><span class="blind">닫기</span></button>
+    </div>
+    <div class="body-area">
+      <div class="phone-check-wrap">
+        <p class="note"><sup>*</sup>필수 입력 사항</p>
+        <form action="#">
+          <div class="input-area">
+            <div class="name-box">
+              <div class="tit">
+                <label for="user-name02">
+                  <span class="name">이름<sup>*</sup></span>
+                </label>
+              </div>
+              <div class="txt-box">
+                <input type="text" name="user-name02" placeholder="이름 입력">
+              </div>
+            </div>
+            <div class="num-box">
+              <div class="tit">
+                <label for="user-number02">
+                  <span class="name">휴대 전화<sup>*</sup></span>
+                </label>
+              </div>
+              <div class="txt-box">
+                <ul>
+                  <li>
+                    <input type="number" name="user-number02" placeholder="휴대전화 번호 입력">
+                    <button type="button" class="btn-send">인증번호 발송</button>
+                  </li>
+                  <li>
+                    <input type="number" placeholder="인증번호를 입력해주세요">
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="caution-box">
+        <ul class="bull">
+          <li>휴대전화 인증을 한 정보(이름, 휴대전화)로 접수됩니다.</li>
+          <li>인증번호가 수신되지 않은 경우 1544-7777이 스팸처리 되지 않았는지 확인해주시기 바랍니다.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-area">
+      <div class="btn-area active"><!-- active 클래스 추가 -->
+        <button type="button" class="btn btn-cancle">취소</button>
+        <button type="button" class="btn btn-confirm">확인</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- // 휴대폰 인증 팝업 -->
+<script>
+  $(document).ready(function(){
+
+    // 상단 예약진행 가이드 영역
+    var resbanner01 = new Swiper(".guide-banner-01", {
+      slidesPerView: 'auto',
+      scrollbar: {
+        el: ".swiper-scrollbar",
+        draggable: true,
+        // hide: true,
+      },
+    })
+
+    // 배너
+    var resbanner01 = new Swiper(".res-banner-01", {
+      spaceBetween: 40,
+      loop: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+
+    // 방문 예약 혜택 보기(mo)
+    var benefitBtn = $('.res-main .top-wrap .guide-area .guide-benefits .list-area .view-more');
+    var benefitArea = $('.res-main .top-wrap .guide-area .guide-benefits .list-area');
+
+    benefitBtn.on('click',function(){
+      if($(this).hasClass('active')) {
+        $(this).removeClass('active');
+        benefitArea.removeClass('active');
+      } else {
+        $(this).addClass('active');
+        benefitArea.addClass('active');
+      }
+    });
+
+    // step 2 지도/리스트 보기 버튼
+    var mapBtn = $('.res-main .step-area.step02 .view-area .sort-area button.view-map');
+    var listBtn = $('.res-main .step-area.step02 .view-area .sort-area button.view-list');
+    var mapWrap = $('.res-main .step-area.step02 .view-area .map-wrap');
+    var listWrap = $('.res-main .step-area.step02 .view-area .list-wrap');
+    
+    listBtn.on('click',function(){
+      if($(this).hasClass('active')) {
+        $(this).removeClass('active');
+        mapBtn.addClass('active');
+        mapWrap.removeClass('active');
+        listWrap.addClass('active');
+      }
+    });
+    mapBtn.on('click',function(){
+      if($(this).hasClass('active')) {
+        $(this).removeClass('active');
+        listBtn.addClass('active');
+        listWrap.removeClass('active');
+        mapWrap.addClass('active');
+      }
+    });
+
+    // step 2 예약일 선택 / 예약시간 선택
+    var calendar = $('.res-main .step-area.step02 .bottom-area .date-wrap .calendar .mo-top');
+    var time = $('.res-main .step-area.step02 .bottom-area .date-wrap .time .mo-top');
+    calendar.next('.cal-cont').show();
+    time.next('.time-cont').show();
+
+    function dateSelect(){
+      if($(window).width() < 768) {
+        calendar.on('click',function(){
+          if($(this).parent().hasClass('active')) {
+            $(this).parent().removeClass('active');
+            $(this).next('.cal-cont').stop().slideUp();
+          } else {
+            $(this).parent().addClass('active');
+            $(this).next('.cal-cont').stop().slideDown();
+          }
+        });
+        time.on('click',function(){
+          if($(this).parent().hasClass('active')) {
+            $(this).parent().removeClass('active');
+            $(this).next('.time-cont').stop().slideUp();
+          } else {
+            $(this).parent().addClass('active');
+            $(this).next('.time-cont').stop().slideDown();
+          }
+        });
+      } else {
+        calendar.next('.cal-cont').show();
+        time.next('.time-cont').show();
+      }
+    }
+    dateSelect();
+
+    // step 2 약관 더보기 버튼
+    var agrBtn = $('.res-main .step-area.step03 .user-info-area .input-area ul.acco-type .check-box .agr-more');
+    var agrTxt = $('.res-main .step-area.step03 .user-info-area .input-area ul.acco-type .check-box .agr-txt-wrap');
+
+    agrBtn.on('click',function(){
+      if($(this).hasClass('active')) {
+        $(this).removeClass('active');
+        $(this).siblings(agrTxt).removeClass('active');
+      } else {
+        $(this).addClass('active');
+        $(this).siblings(agrTxt).addClass('active');
+      }
+    });
+
+    // step 2 약관 모두 동의
+    $("#agr-all").click(function(){
+      if($("#agr-all").prop("checked")){
+        $("input[name=agr-required]").prop("checked",true);
+        $("input[name=agr-optional]").prop("checked",true);
+      } else{
+        $("input[name=agr-required]").prop("checked",false);
+        $("input[name=agr-optional]").prop("checked",false);
+      }
+    })
+
+    // 하단바 영역
+    $('.bottom-fixed-wrap .bar-wrap .head-area').on('click',function(){
+      if($(this).parent().parent().hasClass('active')) {
+        $(this).parent().parent().removeClass('active');
+        $(this).next('.body-area').stop().slideUp();
+        $('.bottom-fixed-wrap .dimmed').fadeOut();
+        $('html').removeClass('scroll-fixed');
+      } else {
+        $(this).parent().parent().addClass('active');
+        $(this).next('.body-area').stop().slideDown();
+        $('.bottom-fixed-wrap .dimmed').fadeIn();
+        $('html').addClass('scroll-fixed');
+      }
+    })
+
+    // 휴대폰 인증 팝업
+    $('.res-main .btn-area .btn-res').on('click',function(){
+      $('.res-visit.popup-area').fadeIn().addClass('active');
+      $('.res-visit.popup-area .dimmed').fadeIn();
+      $('html').addClass('scroll-fixed');
+    })
+    $('.res-visit.popup-area .popup-wrap .head-area .btn-close').on('click',function(){
+      if($('.res-visit.popup-area').hasClass('active')) {
+        $('.res-visit.popup-area').fadeOut().removeClass('active');
+        $('.res-visit.popup-area .dimmed').fadeOut();
+        $('html').removeClass('scroll-fixed');
+      } else {
+        $('.res-visit.popup-area').fadeIn().addClass('active');
+        $('.res-visit.popup-area .dimmed').fadeIn();
+        $('html').addClass('scroll-fixed');
+      }
+    })
+    $('.res-visit.popup-area .popup-wrap .foot-area .btn-cancle').on('click',function(){
+      if($('.res-visit.popup-area').hasClass('active')) {
+        $('.res-visit.popup-area').fadeOut().removeClass('active');
+        $('.res-visit.popup-area .dimmed').fadeOut();
+        $('html').removeClass('scroll-fixed');
+      } else {
+        $('.res-visit.popup-area').fadeIn().addClass('active');
+        $('.res-visit.popup-area .dimmed').fadeIn();
+        $('html').addClass('scroll-fixed');
+      }
+    })
+
+  });
+</script>
 <jsp:include page="../../templates/common/footer.jsp" />
