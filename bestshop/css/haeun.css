@@ -55,7 +55,7 @@
 .res-main .top-wrap .guide-area .guide-process .inner {max-width:1460px; margin:0 auto}
 .res-main .top-wrap .guide-area .guide-process .desc {margin-top:30px; padding:0 40px; font-size:24px; font-weight:bold; line-height:36px}
 .res-main .top-wrap .guide-area .guide-process .guide-banner-01 {margin-top:30px; padding:0 40px 30px}
-.res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide {width:auto; min-width:250px}
+.res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide {width:auto; min-width:320px}
 .res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide + .swiper-slide {margin-left:32px}
 .res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide .box {position:relative; width:100%; padding:23px 0 28px; box-sizing:border-box; border:3px solid #ca9bd8; border-radius:16px; background-color:#fff}
 .res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide .box::before {content:''; display:block; position:absolute; width:32.5px; height:20px; top:calc(50% - 10px); left:-34.5px; background:url(../images/icons/icon-arr-11-white.svg) no-repeat center}
@@ -66,24 +66,21 @@
 .res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide .box .icon-wrap .icon02 {background:url(../images/icons/icon-res-guide-02.svg) no-repeat center}
 .res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide .box .icon-wrap .icon03 {background:url(../images/icons/icon-res-guide-03.svg) no-repeat center}
 .res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide .box .icon-wrap .icon04 {background:url(../images/icons/icon-res-guide-04.svg) no-repeat center}
-.res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide .box .icon-wrap .icon05 {background:url(../images/icons/icon-res-guide-05.svg) no-repeat center}
 .res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide .box .txt {margin-top:19px; font-size:16px; line-height:24px; text-align:center}
 .res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-scrollbar {width:calc(100% - 80px); left:40px; bottom:11px; height:8px; background-color:rgba(255,255,255,0.3)}
 .res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-scrollbar .swiper-scrollbar-drag {background-color:rgba(255,255,255,0.6)}
 
 .res-main .top-wrap .guide-area .guide-benefits {background-color:rgba(255,255,255,0.3)}
 .res-main .top-wrap .guide-area .guide-benefits .inner {max-width:1460px; margin:0 auto; padding: 0 40px}
-.res-main .top-wrap .guide-area .guide-benefits .list-area {display:flex; justify-content:space-between; align-items:center; padding:20px 0}
-.res-main .top-wrap .guide-area .guide-benefits .list-area .tit {font-size:16px; font-weight:bold; line-height:24px}
-.res-main .top-wrap .guide-area .guide-benefits .list-area button.view-more {display:none}
-.res-main .top-wrap .guide-area .guide-benefits .list-area .cont {display:flex; width:100%; max-width:1095px; margin-left:33px}
-.res-main .top-wrap .guide-area .guide-benefits .list-area .cont li {display:flex; align-items:center; width:calc(100% / 3); max-width:336px; margin-left:29px}
-.res-main .top-wrap .guide-area .guide-benefits .list-area .cont li i[class^="icon"] {display:block; width:64px; height:64px}
-.res-main .top-wrap .guide-area .guide-benefits .list-area .cont li .icon01 {background:url(../images/icons/icon-res-benefits-01.svg) no-repeat center}
-.res-main .top-wrap .guide-area .guide-benefits .list-area .cont li .icon02 {background:url(../images/icons/icon-res-benefits-02.svg) no-repeat center}
-.res-main .top-wrap .guide-area .guide-benefits .list-area .cont li .icon03 {background:url(../images/icons/icon-res-benefits-03.svg) no-repeat center}
-.res-main .top-wrap .guide-area .guide-benefits .list-area .cont li .txt {margin-left:12px; font-size:16px; line-height:24px}
-.res-main .top-wrap .guide-area .guide-benefits .list-area .cont li .txt strong {display:block; font-weight:bold}
+.res-main .top-wrap .guide-area .guide-benefits .list-area {display:flex; justify-content:space-between; align-items:center; max-width:1170px; margin:0 auto; padding:20px 0}
+.res-main .top-wrap .guide-area .guide-benefits .list-area li + li {margin-left:29px}
+.res-main .top-wrap .guide-area .guide-benefits .list-area li {display:flex; align-items:center; width:calc(100% / 3); max-width:336px}
+.res-main .top-wrap .guide-area .guide-benefits .list-area li i[class^="icon"] {display:block; width:64px; height:64px}
+.res-main .top-wrap .guide-area .guide-benefits .list-area li .icon01 {background:url(../images/icons/icon-res-benefits-01.svg) no-repeat center}
+.res-main .top-wrap .guide-area .guide-benefits .list-area li .icon02 {background:url(../images/icons/icon-res-benefits-02.svg) no-repeat center}
+.res-main .top-wrap .guide-area .guide-benefits .list-area li .icon03 {background:url(../images/icons/icon-res-benefits-03.svg) no-repeat center}
+.res-main .top-wrap .guide-area .guide-benefits .list-area li .txt {margin-left:12px; font-size:16px; line-height:24px}
+.res-main .top-wrap .guide-area .guide-benefits .list-area li .txt strong {display:block; font-weight:bold}
 
 .res-main .top-wrap .add-area {max-width:1460px; margin:40px auto}
 .res-main .top-wrap .add-area .res-banner-01 {padding:0 40px}
@@ -97,19 +94,11 @@
 .res-main .top-wrap .add-area .res-banner-01 .banner-btns .swiper-button-next {right:20px}
 .res-main .top-wrap .add-area .res-banner-01 .banner-btns .swiper-button-next::after {transform:rotate(180deg)}
 
-.res-main .cont-wrap .progress-area {margin:40px auto 0; padding:40px}
-.res-main .cont-wrap .progress-area ul {display:flex; justify-content:center}
-.res-main .cont-wrap .progress-area ul li {position:relative; width:calc(100% / 3); max-width:290px; padding-top:28px}
-.res-main .cont-wrap .progress-area ul li::before {content:''; display:block; position:absolute; width:8px; height:8px; top:6px; left:calc(50% - 4px); border-radius:50%; background-color:#aaa}
-.res-main .cont-wrap .progress-area ul li.active::before {width:20px; height:20px; top:0; left:calc(50% - 10px); border:6px solid #000; background-color:#fff}
-.res-main .cont-wrap .progress-area ul li::after {content:''; display:block; position:absolute; width:100%; height:1px; top:10px; left:-50%; border-top:1px dashed #aaa; z-index:-1}
-.res-main .cont-wrap .progress-area ul li:first-child:after {display:none}
-.res-main .cont-wrap .progress-area ul li.active::after {border-color:#000}
-.res-main .cont-wrap .progress-area ul li p {color:#999; font-size:14px; font-weight:500; line-height:20px; text-align:center}
-.res-main .cont-wrap .progress-area ul li.active p {color:#000}
-
 /* 컨텐츠 영역 */
 /* step 1 */
+.res-main .cont-wrap .cont-area {padding-top:8px}
+.res-main .cont-wrap .cont-area .step-top-note {display:flex; justify-content:flex-end; margin-bottom:12px; font-size:14px; line-height:20px}
+.res-main .cont-wrap .cont-area .step-top-note sup {margin-right:3px; color:#da0f47; font-size:14px; line-height:20px}
 .res-main .cont-wrap .cont-area .step-area {display:none}
 .res-main .cont-wrap .cont-area .step-area.active {display:block}
 .res-main .cont-wrap .cont-area .step-area .main-area {display:none}
@@ -216,7 +205,7 @@
 .res-main .input-area .text-area textarea::placeholder {color:#666; font-size:16px; line-height:24px}
 .res-main .input-area .text-area .info-msg {margin-top:10px; margin-left:10px; color:#777; font-size:14px; line-height:22px}
 
-.res-main .cont-wrap .cont-area .step-area .result-area [class^="info-step"] {margin-top:-1px; border-top:1px solid #ddd; border-bottom:1px solid #ddd}
+.res-main .cont-wrap .cont-area .step-area .result-area [class^="info-step"] {position:relative; margin-top:-1px; border-top:1px solid #ddd; border-bottom:1px solid #ddd}
 .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com {display:none; flex-wrap:wrap; padding:22px 0}
 .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com.active {display:flex}
 .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com li {position:relative; font-size:18px; line-height:28px}
@@ -227,7 +216,7 @@
 .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-uncom.active {display:flex}
 .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-uncom .page-num {color:#666; font-size:20px; font-weight:bold; line-height:30px}
 .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-uncom .txt {margin-left:18px; color:#666; font-size:18px; line-height:30px}
-.res-main .cont-wrap .cont-area .step-area .result-area .btn-reset {display:none}
+.res-main .cont-wrap .cont-area .step-area .result-area .btn-reselect {position:absolute; display:block; right:0; top:calc(50% - 18px); padding:0 16px 0 39px; border:1px solid #ddd; border-radius:34px; background:#fff url(../images/icons/icon-reset.svg) no-repeat 14px center / 20px; font-size:13px; line-height:34px}
 
 /* step 2 */
 .res-main .step-area.step02 .view-area {position:relative}
@@ -360,11 +349,13 @@
   .only_pc {display:none!important}
   .only_mo {display:block!important}
 
+  .res-main .cont-wrap .cont-area {padding-top:4px}
+  .res-main .cont-wrap .cont-area .step-top-note {margin-bottom:5px; font-size:10px; line-height:15px}
   .res-main .cont-wrap .cont-area .step-tit ~ .step-tit {margin-top:40px}
   .res-main .top-wrap .guide-area .guide-process {padding:25px 0 0}
   .res-main .top-wrap .guide-area .guide-process .desc {margin-top:0; padding:0 16px; font-size:16px; line-height:24px}
   .res-main .top-wrap .guide-area .guide-process .guide-banner-01 {margin-top:16px; padding:0 16px 20px}
-  .res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide {width:calc(20% - 12.8px); min-width:125px}
+  .res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide {width:calc(25% - 12.375px); min-width:125px}
   .res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide .box {padding:11px 12px 10px; border-radius:8px; border-width:1.5px}
   .res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide + .swiper-slide {margin-left:16px}
   .res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide .box::before {width:16px; left:-18px; background-size:5px}
@@ -373,23 +364,19 @@
   .res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide .box .icon-wrap .icon02 {background:url(../images/icons/icon-res-guide-02_mo.svg) no-repeat center / 100%}
   .res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide .box .icon-wrap .icon03 {background:url(../images/icons/icon-res-guide-03_mo.svg) no-repeat center / 100%}
   .res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide .box .icon-wrap .icon04 {background:url(../images/icons/icon-res-guide-04_mo.svg) no-repeat center / 100%}
-  .res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide .box .icon-wrap .icon05 {background:url(../images/icons/icon-res-guide-05_mo.svg) no-repeat center / 100%}
   .res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-slide .box .txt {margin-top:10px; font-size:11px; line-height:16px; white-space:initial; word-break:keep-all}
   .res-main .top-wrap .guide-area .guide-process .guide-banner-01 .swiper-scrollbar {width:calc(100% - 32px); left:16px; bottom:9px; height:2px}
 
   .res-main .top-wrap .guide-area .guide-benefits .inner {padding:0 16px}
-  .res-main .top-wrap .guide-area .guide-benefits .list-area {position:relative; display:block; padding:0}
-  .res-main .top-wrap .guide-area .guide-benefits .list-area .tit {padding:15px 0 11px; font-size:12px; line-height:19px; text-align:center}
-  .res-main .top-wrap .guide-area .guide-benefits .list-area button.view-more {display:block; position:absolute; width:30px; height:30px; top:9px; right:0; background:url(../images/icons/btn-plus-48.svg) no-repeat center / contain}
-  .res-main .top-wrap .guide-area .guide-benefits .list-area.active button.view-more {background:url(../images/icons/btn-minus-48.svg) no-repeat center / contain}
-  .res-main .top-wrap .guide-area .guide-benefits .list-area .cont {display:none}
-  .res-main .top-wrap .guide-area .guide-benefits .list-area.active .cont {display:flex; width:100%; margin-left:0; padding:5px 0 16px}
-  .res-main .top-wrap .guide-area .guide-benefits .list-area .cont li {flex-direction:column; margin-left:0}
-  .res-main .top-wrap .guide-area .guide-benefits .list-area .cont li i[class^="icon"] {width:40px; height:40px}
-  .res-main .top-wrap .guide-area .guide-benefits .list-area .cont li .icon01 {background:url(../images/icons/icon-res-benefits-01_mo.svg) no-repeat center / 100%}
-  .res-main .top-wrap .guide-area .guide-benefits .list-area .cont li .icon02 {background:url(../images/icons/icon-res-benefits-02_mo.svg) no-repeat center / 100%}
-  .res-main .top-wrap .guide-area .guide-benefits .list-area .cont li .icon03 {background:url(../images/icons/icon-res-benefits-03_mo.svg) no-repeat center / 100%}
-  .res-main .top-wrap .guide-area .guide-benefits .list-area .cont li .txt {margin-left:0; margin-top:2px; font-size:10px; line-height:15px; text-align:center}
+  .res-main .top-wrap .guide-area .guide-benefits .list-area {padding:16px 0 20px}
+  .res-main .top-wrap .guide-area .guide-benefits .list-area li {flex-direction:column}
+  .res-main .top-wrap .guide-area .guide-benefits .list-area li + li {margin-left:0}
+  .res-main .top-wrap .guide-area .guide-benefits .list-area li i[class^="icon"] {width:40px; height:40px}
+  .res-main .top-wrap .guide-area .guide-benefits .list-area li .icon01 {background:url(../images/icons/icon-res-benefits-01_mo.svg) no-repeat center / 100%}
+  .res-main .top-wrap .guide-area .guide-benefits .list-area li .icon02 {background:url(../images/icons/icon-res-benefits-02_mo.svg) no-repeat center / 100%}
+  .res-main .top-wrap .guide-area .guide-benefits .list-area li .icon03 {background:url(../images/icons/icon-res-benefits-03_mo.svg) no-repeat center / 100%}
+  .res-main .top-wrap .guide-area .guide-benefits .list-area li .txt {margin-left:0; margin-top:4px; font-size:10px; line-height:15px; text-align:center}
+  .res-main .top-wrap .add-area {margin:20px auto}
   .res-main .top-wrap .add-area .res-banner-01 {padding:0 16px}
   .res-main .top-wrap .add-area .res-banner-01 .swiper-slide > [class^="banner"] {height:90px}
   .res-main .top-wrap .add-area .res-banner-01 .swiper-slide > [class^="banner"] .box {border-radius:8px}
@@ -399,13 +386,6 @@
   .res-main .top-wrap .add-area .res-banner-01 .banner-btns .swiper-button-next {right:4px}
   .res-main .top-wrap .add-area .res-banner-01 .banner-btns [class^="swiper-button"] {width:28px; height:28px}
   .res-main .top-wrap .add-area .res-banner-01 .banner-btns [class^="swiper-button"]::after {background-size:6px}
-  .res-main .top-wrap .add-area {margin:20px auto}
-  .res-main .cont-wrap .progress-area {margin-top:25px; padding:20px 0 35px}
-  .res-main .cont-wrap .progress-area ul li {padding-top:22px}
-  .res-main .cont-wrap .progress-area ul li.active::before {width:14px; height:14px; border:4px solid #000}
-  .res-main .cont-wrap .progress-area ul li::before {top:3px}
-  .res-main .cont-wrap .progress-area ul li::after {top:7px}
-  .res-main .cont-wrap .progress-area ul li p {font-size:13px; line-height:18px}
 
   .res-main .cont-wrap .cont-area .step-tit {font-size:16px; line-height:25px}
   .res-main .cont-wrap .cont-area .step-tit > span {margin-left:5px; font-size:11px}
@@ -481,7 +461,7 @@
   .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com li > span {margin-right:3px; white-space:nowrap}
   .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com li + li {margin-top:5px}
   .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com li + li::before {display:none}
-  .res-main .cont-wrap .cont-area .step-area .result-area .btn-reset {display:block; margin:0 auto 13px; padding:0 16px 0 39px; border:1px solid #ddd; border-radius:34px; background:url(../images/icons/icon-reset.svg) no-repeat 14px center / 20px; font-size:13px; line-height:34px}
+  .res-main .cont-wrap .cont-area .step-area .result-area .btn-reselect {position:static; margin:0 auto 13px}
   .res-main .step-area.step02 .view-area .sort-area {position:static; display:flex; margin-bottom:8px}
   .res-main .step-area.step02 .view-area .sort-area button {display:block; font-size:12px; line-height:24px; background-size:15px!important; background-position:4.5px center!important}
   .res-main .step-area.step02 .view-area .sort-area button + button {position:relative; margin-left:15px}

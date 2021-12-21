@@ -22,7 +22,7 @@
                     <span class="icon-wrap">
                       <i class="icon01"></i>
                     </span>
-                    <p class="txt">상담 원하시는 <br class="only_mo">제품 선택</p>
+                    <p class="txt">상품선택 및 <br class="only_mo">매장/일자 선택</p>
                   </div>
                 </div>
                 <div class="swiper-slide">
@@ -30,7 +30,7 @@
                     <span class="icon-wrap">
                       <i class="icon02"></i>
                     </span>
-                    <p class="txt">방문할 매장 및 <br class="only_mo">일자 선택</p>
+                    <p class="txt">예약 고객님의 <br class="only_mo">정보를 입력</p>
                   </div>
                 </div>
                 <div class="swiper-slide">
@@ -38,21 +38,13 @@
                     <span class="icon-wrap">
                       <i class="icon03"></i>
                     </span>
-                    <p class="txt">예약 고객님의 <br class="only_mo">정보를 입력</p>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="box">
-                    <span class="icon-wrap">
-                      <i class="icon04"></i>
-                    </span>
                     <p class="txt">전문 매니저의 전화 <br class="only_mo">안내 서비스</p>
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="box">
                     <span class="icon-wrap">
-                      <i class="icon05"></i>
+                      <i class="icon04"></i>
                     </span>
                     <p class="txt">신청 매장 방문 후 <br class="only_mo">상담진행</p>
                   </div>
@@ -64,36 +56,29 @@
         </div>
         <div class="guide-benefits">
           <div class="inner">
-            <div class="list-area active"><!-- active 클래스 추가 -->
-              <p class="tit">
-                <span class="only_pc">방문 예약 혜택 안내</span>
-                <span class="only_mo">방문 예약 혜택 보기</span>
-              </p>
-              <button type="button" class="view-more active"><span class="blind">방문 예약 혜택 보기</span></button><!-- active 클래스 추가 -->
-              <ul class="cont">
-                <li>
-                  <i class="icon01"></i>
-                  <p class="txt">
-                    <span>라이프 스타일에 맞는</span>
-                    <strong>생활 맞춤 컨설팅</strong>
-                  </p>
-                </li>
-                <li>
-                  <i class="icon02"></i>
-                  <p class="txt">
-                    <span>고객 맞춤형</span>
-                    <strong>특별 혜택가 안내</strong>
-                  </p>
-                </li>
-                <li>
-                  <i class="icon03"></i>
-                  <p class="txt">
-                    <span>사은품, 멤버십 포인트 등</span>
-                    <strong>푸짐한 사은 혜택 안내</strong>
-                  </p>
-                </li>
-              </ul>
-            </div>
+            <ul class="list-area">
+              <li>
+                <i class="icon01"></i>
+                <p class="txt">
+                  <span>라이프 스타일에 맞는</span>
+                  <strong>생활 맞춤 컨설팅</strong>
+                </p>
+              </li>
+              <li>
+                <i class="icon02"></i>
+                <p class="txt">
+                  <span>고객 맞춤형</span>
+                  <strong>특별 혜택가 안내</strong>
+                </p>
+              </li>
+              <li>
+                <i class="icon03"></i>
+                <p class="txt">
+                  <span>사은품, 멤버십 포인트 등</span>
+                  <strong>푸짐한 사은 혜택 안내</strong>
+                </p>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -126,20 +111,8 @@
     </div>
 
     <div class="cont-wrap">
-      <div class="progress-area">
-        <ul>
-          <li class="step01 active"><!-- active 클래스 추가 -->
-            <p>상담목적 및 <br class="only_mo">제품선택</p>
-          </li>
-          <li class="step02">
-            <p>상담하실 매장과 <br class="only_mo">상담일시 선택</p>
-          </li>
-          <li class="step03">
-            <p>예약자 정보</p>
-          </li>
-        </ul>
-      </div>
       <section class="cont-area">
+        <p class="step-top-note"><sup>*</sup>필수입력항목</p>
         <!-- step 1 -->
         <div class="step-area step01 active"><!-- active 클래스 추가 -->
           <div class="main-area active"><!-- active 클래스 추가 -->
@@ -571,7 +544,7 @@
                   <strong>3개월 내</strong>
                 </li>
               </ul>
-              <button type="button" class="btn-reset">재선택</button>
+              <button type="button" class="btn-reselect">재선택</button>
             </div>
           </div>
         </div>
@@ -1053,7 +1026,7 @@
                   <strong>3개월 내</strong>
                 </li>
               </ul>
-              <button type="button" class="btn-reset">재선택</button>
+              <button type="button" class="btn-reselect">재선택</button>
 
               <div class="info-txt-uncom active"><!-- active 클래스 추가 --> 
                 <p class="page-num">STEP02</p>
@@ -1329,6 +1302,7 @@
   </div>
 </div>
 <!-- // 휴대폰 인증 팝업 -->
+
 <script>
   $(document).ready(function(){
 
@@ -1350,20 +1324,6 @@
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
-    });
-
-    // 방문 예약 혜택 보기(mo)
-    var benefitBtn = $('.res-main .top-wrap .guide-area .guide-benefits .list-area .view-more');
-    var benefitArea = $('.res-main .top-wrap .guide-area .guide-benefits .list-area');
-
-    benefitBtn.on('click',function(){
-      if($(this).hasClass('active')) {
-        $(this).removeClass('active');
-        benefitArea.removeClass('active');
-      } else {
-        $(this).addClass('active');
-        benefitArea.addClass('active');
-      }
     });
 
     // step 2 지도/리스트 보기 버튼
