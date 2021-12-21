@@ -77,7 +77,7 @@
 .res-main .top-wrap .guide-area .guide-benefits .list-area .tit {font-size:16px; font-weight:bold; line-height:24px}
 .res-main .top-wrap .guide-area .guide-benefits .list-area button.view-more {display:none}
 .res-main .top-wrap .guide-area .guide-benefits .list-area .cont {display:flex; width:100%; max-width:1095px; margin-left:33px}
-.res-main .top-wrap .guide-area .guide-benefits .list-area .cont li {display:flex; align-items:center; width:33.3333%; max-width:336px; margin-left:29px}
+.res-main .top-wrap .guide-area .guide-benefits .list-area .cont li {display:flex; align-items:center; width:calc(100% / 3); max-width:336px; margin-left:29px}
 .res-main .top-wrap .guide-area .guide-benefits .list-area .cont li i[class^="icon"] {display:block; width:64px; height:64px}
 .res-main .top-wrap .guide-area .guide-benefits .list-area .cont li .icon01 {background:url(../images/icons/icon-res-benefits-01.svg) no-repeat center}
 .res-main .top-wrap .guide-area .guide-benefits .list-area .cont li .icon02 {background:url(../images/icons/icon-res-benefits-02.svg) no-repeat center}
@@ -163,7 +163,7 @@
 .res-main .input-area ul.cate-type .cate-tit > .icon.beauty {background:url(../images/icons/icon-pra_l.svg) no-repeat center}
 .res-main .input-area ul.cate-type .cate-items {display:flex; flex-wrap:wrap; width:calc(100% - 135px); max-width:498px}
 .res-main .input-area ul.cate-type ul.cate-items {margin-top:-10px}
-.res-main .input-area ul.cate-type .cate-items > li {width:calc(33.3333% - 10px); max-width:156px; min-width:112px; height:48px; margin-top:10px; margin-right:10px}
+.res-main .input-area ul.cate-type .cate-items > li {width:calc(100% / 3); max-width:156px; min-width:112px; height:48px; margin-top:10px; margin-right:10px}
 .res-main .input-area ul.cate-type .cate-items .check-box label {width:100%; height:100%; padding:10px 0; background-color:#fff; border-radius:48px; border:1px solid #ddd; background-color:#fff; font-size:16px; font-weight:500; line-height:24px; box-sizing:border-box; text-align:center}
 .res-main .input-area ul.cate-type .cate-items .check-box input:checked + label {border:1px solid #da0f47; color:#da0f47}
 .res-main .input-area ul.cate-type .cate-items .check-box input + label::after {display:none}
@@ -305,7 +305,7 @@
 .res-main .step-area.step02 .bottom-area .date-wrap .calendar .cal-cont {height:100%}
 .res-main .step-area.step02 .bottom-area .date-wrap .time {width:118px; height:100%; margin-left:12px}
 .res-main .step-area.step02 .bottom-area .date-wrap .time .input-area > ul {flex-direction:column; flex-wrap:wrap; margin-top:-10px}
-.res-main .step-area.step02 .bottom-area .date-wrap .time .input-area > ul li {height:16.6666%; margin-left:0; margin-top:10px}
+.res-main .step-area.step02 .bottom-area .date-wrap .time .input-area > ul li {height:calc(100% / 6); margin-left:0; margin-top:10px}
 .res-main .step-area.step02 .bottom-area .date-wrap .time .input-area > ul li .radio-btn.btn-type2 {width:100%}
 .res-main .step-area.step02 .bottom-area .date-wrap .time .input-area > ul li .radio-btn.btn-type2 label {width:100%; max-height:34px; padding:5px 0; border-radius:8px; font-size:14px; line-height:22px}
 .res-main .step-area.step02 .bottom-area .date-wrap .time .input-area > ul li .radio-btn.btn-type2 input:checked + label {border-width:1px}
@@ -425,10 +425,10 @@
   .res-main .input-area ul.icon-type .radio-btn.btn-type2 input:checked + label .icon.broken {background:url(../images/icons/icon-broken_mo_on.svg) no-repeat center / contain}
   .res-main .input-area ul.icon-type .radio-btn.btn-type2 input:checked + label .icon.etc {background:url(../images/icons/icon-etc_mo_on.svg) no-repeat center / contain}
 
-  .res-main .input-area ul.cate-type > li {flex-direction:column; align-items:center; width:100%; padding:16px 10px}
+  .res-main .input-area ul.cate-type > li {flex-direction:column; align-items:center; width:100%; padding:16px 0}
   .res-main .input-area ul.cate-type .cate-tit {font-size:13px; line-height:20px}
   .res-main .input-area ul.cate-type .cate-tit > .icon {display:none}
-  .res-main .input-area ul.cate-type ul.cate-items {width:100%; max-width:315px; margin-top:3px; margin-right:-7px}
+  .res-main .input-area ul.cate-type ul.cate-items {width:100%; max-width:328px; margin-top:3px; padding:0 3px 0 10px}
   .res-main .input-area ul.cate-type .cate-items > li {width:98px; min-width:98px; height:34px; margin-top:7px; margin-right:7px}
   .res-main .input-area ul.cate-type .cate-items .check-box label {padding:0; font-size:13px; line-height:34px}
 
@@ -493,7 +493,7 @@
   .res-main .step-area.step02 .view-area .map-wrap .select-box select {width:100%}
   .res-main .step-area.step02 .view-area .map-wrap .select-box select {padding:11px 12px; font-size:14px; line-height:22px}
   .res-main .step-area.step02 .view-area .list-wrap .search-wrap {padding:0 23px 11px}
-  .res-main .step-area.step02 .view-area .list-wrap .search-wrap .search-box > input {font-size:13px; line-height:24px}
+  .res-main .step-area.step02 .view-area .list-wrap .search-wrap .search-box > input {background-color:#fff; font-size:13px; line-height:24px}
   .res-main .step-area.step02 .view-area .list-wrap .search-wrap .search-box .btn-search {width:16px; background:url(../images/icons/icon-search_mo.svg) no-repeat center / contain}
   .res-main .step-area.step02 .view-area .list-wrap .view-wrap {flex-direction:column}
   .res-main .step-area.step02 .view-area .list-wrap .view-wrap .lt {display:none}
@@ -575,3 +575,35 @@
   .bottom-fixed-wrap .bar-wrap .foot-area .btn-area button {display:block; width:100%; max-width:328px; margin:0 auto; height:43px; padding:10px 25px; font-size:13px; line-height:20px}
 }
 /* // 방문상담예약 */
+
+/* 방문상담예약 완료페이지 */
+.res-done .cont-wrap {max-width:100%; padding:0}
+.res-done .done-msg-area {text-align:center}
+.res-done .done-msg-area .done-msg-big > strong {display:block; font-size:36px; font-weight:500; line-height:48px}
+.res-done .done-msg-area .done-msg-big > span {display:block; font-size:36px; font-weight:500; line-height:48px}
+.res-done .done-msg-area .done-msg-small {margin-top:27px}
+.res-done .done-msg-area .done-msg-small ul li {font-size:16px; line-height:24px}
+.res-done .res-info-area {width:100%; margin-top:54px; padding:32px; background-image: linear-gradient(96deg, #9a7fed 0%, #ff6489 100%, #ff6489 100%); text-align:center}
+.res-done .res-info-area .info-box {display:inline-block; text-align:left}
+.res-done .res-info-area .info-box ul li {display:flex; color:#fff; font-size:20px; line-height:34px}
+.res-done .res-info-area .info-box ul li > span {display:block; min-width:209px}
+.res-done .res-info-area .info-box ul li > strong {display:block; font-weight:500}
+.res-done .btn-area {margin-top:64px; text-align:center}
+.res-done .btn-area .btn {padding:9px 15px; font-size:14px; line-height:20px}
+.res-done .btn-area .btn + .btn {margin-left:13px}
+/* mobile */
+@media screen and (max-width:767px) {
+  .res-done .done-msg-area .done-msg-big > strong {font-size:18px; font-weight:bold; line-height:27px}
+  .res-done .done-msg-area .done-msg-big > span {margin-top:4px; font-size:11px; line-height:19px}
+  .res-done .done-msg-area .done-msg-small {margin-top:16px}
+  .res-done .done-msg-area .done-msg-small ul li {font-size:10px; line-height:18px}
+  .res-done .done-msg-area .done-msg-small ul li + li {margin-top:4px}
+  .res-done .res-info-area {margin-top:39px; padding:30px 30px 43px}
+  .res-done .res-info-area .info-box ul li {font-size:14px; line-height:22px}
+  .res-done .res-info-area .info-box ul li + li {margin-top:2px}
+  .res-done .res-info-area .info-box ul li > span {min-width:109px}
+  .res-done .btn-area {margin-top:30px; padding:0 16px}
+  .res-done .btn-area .btn {width:calc(50% -  5px); max-width:160px; padding:10.5px 15px; font-size:13px}
+  .res-done .btn-area .btn + .btn {margin-left:5px}
+}
+/* // 방문상담예약 완료페이지 */
