@@ -587,7 +587,6 @@
 .res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .input-area .txt-box input {width:100%; height:48px; padding:10px 15px; background-color:#ededed; border-radius:8px; font-size:16px; line-height:26px}
 .res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .input-area .num-box .txt-box > ul > li {display:flex}
 .res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .input-area .num-box .txt-box > ul > li + li {margin-top:12px}
-.res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .input-area .num-box .txt-box > ul > li:first-child input {width:calc(100% - 104px)}
 .res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .input-area .num-box .txt-box .btn-send {width:104px; margin-left:8px; padding:12px 10px; border:1px solid #000; border-radius:8px; background-color:#fff; font-size:14px; font-weight:bold; line-height:20px; white-space:nowrap}
 .res-visit.popup-area .popup-wrap .body-area .caution-box {padding-top:20px; border-top:2px solid #ddd}
 
@@ -618,7 +617,6 @@
   .res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .input-area .txt-box {width:100%; margin-top:13px}
   .res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .input-area .txt-box input {height:auto; padding:11px 12px; font-size:14px; line-height:22px}
   .res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .input-area .num-box .txt-box > ul > li + li {margin-top:7px}
-  .res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .input-area .num-box .txt-box > ul > li:first-child input {width:calc(100% - 99px)}
   .res-visit.popup-area .popup-wrap .body-area .phone-check-wrap .input-area .num-box .txt-box .btn-send {width:99px; font-size:13px}
   .res-visit.popup-area .popup-wrap .body-area .caution-box {padding-top:25px; border-top:1px solid #ddd}
 
