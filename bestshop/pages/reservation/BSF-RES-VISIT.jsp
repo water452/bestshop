@@ -530,20 +530,17 @@
 
           <div class="result-area active"><!-- active 클래스 추가 -->
             <div class="info-step01">
-              <ul class="info-txt-com active"><!-- active 클래스 추가 --> 
-                <li>
-                  <span>상담목적 :</span>
-                  <strong>혼수</strong>
-                </li>
-                <li>
-                  <span>상담제품 :</span>
-                  <strong>TV, 냉장고, 식기세척기, 세탁기, 스타일러, 공기청정기, 에어컨</strong>
-                </li>
-                <li>
-                  <span>구매시기 :</span>
-                  <strong>3개월 내</strong>
-                </li>
-              </ul>
+              <div class="info-txt-com active"><!-- active 클래스 추가 -->
+                <span class="tit_mo">상담목적 및 제품선택</span>
+                <span class="tit_pc">상담목적 :</span>
+                <span class="txt">혼수</span>
+
+                <span class="tit_pc">상담제품 :</span>
+                <span class="txt">TV, 냉장고, 식기세척기, 세탁기, 스타일러, 공기청정기, 에어컨</span>
+
+                <span class="tit_pc">구매시기 :</span>
+                <span class="txt">3개월 내</span>
+              </div>
               <button type="button" class="btn-reselect">재선택</button>
             </div>
           </div>
@@ -1012,20 +1009,14 @@
 
           <div class="result-area active"><!-- active 클래스 추가 -->
             <div class="info-step02"> 
-              <ul class="info-txt-com active"><!-- active 클래스 추가 --> 
-                <li>
-                  <span>상담매장 :</span>
-                  <strong>강남 본점</strong>
-                </li>
-                <li>
-                  <span>예약일시 :</span>
-                  <strong>12.15(수), 17시</strong>
-                </li>
-                <li>
-                  <span>구매시기 :</span>
-                  <strong>3개월 내</strong>
-                </li>
-              </ul>
+              <div class="info-txt-com active"><!-- active 클래스 추가 -->
+                <p class="tit_mo">상담매장 및 예약일시</p>
+                <p class="tit_pc">상담매장 :</p>
+                <p class="txt">강남 본점</p>
+
+                <p class="tit_pc">예약 일시 :</p>
+                <p class="txt">21년12월15일, 17시</p>
+              </div>
               <button type="button" class="btn-reselect">재선택</button>
 
               <div class="info-txt-uncom active"><!-- active 클래스 추가 --> 
@@ -1305,7 +1296,6 @@
 
 <script>
   $(document).ready(function(){
-
     // 상단 예약진행 가이드 영역
     var resbanner01 = new Swiper(".guide-banner-01", {
       slidesPerView: 'auto',

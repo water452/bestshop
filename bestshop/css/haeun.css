@@ -99,8 +99,8 @@
 .res-main .cont-wrap .cont-area {padding-top:8px}
 .res-main .cont-wrap .cont-area .step-top-note {display:flex; justify-content:flex-end; margin-bottom:12px; font-size:14px; line-height:20px}
 .res-main .cont-wrap .cont-area .step-top-note sup {margin-right:3px; color:#da0f47; font-size:14px; line-height:20px}
-.res-main .cont-wrap .cont-area .step-area {display:none}
-.res-main .cont-wrap .cont-area .step-area.active {display:block}
+/* .res-main .cont-wrap .cont-area .step-area {display:none}
+.res-main .cont-wrap .cont-area .step-area.active {display:block} */
 .res-main .cont-wrap .cont-area .step-area .main-area {display:none}
 .res-main .cont-wrap .cont-area .step-area .main-area.active {display:block}
 .res-main .cont-wrap .cont-area .step-area .result-area {display:none}
@@ -206,17 +206,18 @@
 .res-main .input-area .text-area .info-msg {margin-top:10px; margin-left:10px; color:#777; font-size:14px; line-height:22px}
 
 .res-main .cont-wrap .cont-area .step-area .result-area [class^="info-step"] {position:relative; margin-top:-1px; border-top:1px solid #ddd; border-bottom:1px solid #ddd}
-.res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com {display:none; flex-wrap:wrap; padding:22px 0}
-.res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com.active {display:flex}
-.res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com li {position:relative; font-size:18px; line-height:28px}
-.res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com li + li::before {content:'/'; display:inline-block; margin-left:3px; color:#666}
-.res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com li span {display:inline-block; color:#666}
-.res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com li strong {display:inline-block; color:#da0f47; font-weight:bold}
+.res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com {display:none}
+.res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com.active {display:block; padding:22px 110px 22px 0; color:#da0f47; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;}
+.res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com .tit_pc {color:#666; font-size:18px; line-height:28px}
+.res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com .tit_mo {display:none}
+.res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com .txt::after {content:'/'; display:inline-block; margin-left:3px; color:#666}
+.res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com .txt:last-of-type:after {display:none}
+.res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com .txt {color:#da0f47; font-size:18px; font-weight:bold; line-height:28px}
 .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-uncom {display:none; padding:22px 0}
 .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-uncom.active {display:flex}
 .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-uncom .page-num {color:#666; font-size:20px; font-weight:bold; line-height:30px}
 .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-uncom .txt {margin-left:18px; color:#666; font-size:18px; line-height:30px}
-.res-main .cont-wrap .cont-area .step-area .result-area .btn-reselect {position:absolute; display:block; right:0; top:calc(50% - 18px); padding:0 16px 0 39px; border:1px solid #ddd; border-radius:34px; background:#fff url(../images/icons/icon-reset.svg) no-repeat 14px center / 20px; font-size:13px; line-height:34px}
+.res-main .cont-wrap .cont-area .step-area .result-area .btn-reselect {position:absolute; display:block; right:0; top:calc(50% - 18px); width:102px; padding:0 17px 0 43px; border:1px solid #ddd; border-radius:34px; background:#fff url(../images/icons/icon-reset.svg) no-repeat 18px center / 20px; font-size:14px; line-height:36px}
 
 /* step 2 */
 .res-main .step-area.step02 .view-area {position:relative}
@@ -456,12 +457,12 @@
   .res-main .input-area .text-area textarea::placeholder {font-size:14px; line-height:19px}
   .res-main .input-area .text-area .info-msg {margin-top:8px; margin-left:8px; font-size:10px; line-height:17px}
 
-  .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com {flex-direction:column; padding:11px 0}
-  .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com li {display:flex; font-size:13px; line-height:21px}
-  .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com li > span {margin-right:3px; white-space:nowrap}
-  .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com li + li {margin-top:5px}
-  .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com li + li::before {display:none}
-  .res-main .cont-wrap .cont-area .step-area .result-area .btn-reselect {position:static; margin:0 auto 13px}
+  .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com {padding:11px 100px 11px 0!important}
+  .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com .tit_pc {display:none}
+  .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com .tit_mo {display:block; color:#666; font-size:13px; line-height:21px}
+  .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com .txt {display:inline; font-size:13px; font-weight:500; line-height:21px}
+  .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com .txt::after {content:','; color:#da0f47}
+  .res-main .cont-wrap .cont-area .step-area .result-area .btn-reselect {width:91px; top:calc(50%  - 17px); padding:0 15px 0 38px; background-size:20px 20px!important; background-position:14px center; font-size:13px; line-height:32px}
   .res-main .step-area.step02 .view-area .sort-area {position:static; display:flex; margin-bottom:8px}
   .res-main .step-area.step02 .view-area .sort-area button {display:block; font-size:12px; line-height:24px; background-size:15px!important; background-position:4.5px center!important}
   .res-main .step-area.step02 .view-area .sort-area button + button {position:relative; margin-left:15px}
