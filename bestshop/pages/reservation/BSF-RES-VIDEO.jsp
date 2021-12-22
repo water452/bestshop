@@ -4,7 +4,7 @@
 <div class="container" id="content">
 
   <div class="page-header">
-    <h1 class="title">방문 상담 예약</h1>
+    <h1 class="title">화상 상담 예약</h1>
   </div>
 
   <!-- contents -->
@@ -14,15 +14,15 @@
       <div class="guide-area">
         <div class="guide-process">
           <div class="inner">
-            <p class="desc">고객님, 매장 상담 예약은 이렇게 진행됩니다.</p>
-            <div class="swiper guide-banner-visit">
+            <p class="desc">고객님, 화상 상담 예약은 이렇게 진행됩니다.</p>
+            <div class="swiper guide-banner-video">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <div class="box">
                     <span class="icon-wrap">
                       <i class="icon01"></i>
                     </span>
-                    <p class="txt">상품선택 및 <br class="only_mo">매장/일자 선택</p>
+                    <p class="txt">화상 상담 <br class="only_mo">예약</p>
                   </div>
                 </div>
                 <div class="swiper-slide">
@@ -30,7 +30,7 @@
                     <span class="icon-wrap">
                       <i class="icon02"></i>
                     </span>
-                    <p class="txt">예약 고객님의 <br class="only_mo">정보를 입력</p>
+                    <p class="txt">상담사와 <br class="only_mo">통화</p>
                   </div>
                 </div>
                 <div class="swiper-slide">
@@ -38,7 +38,7 @@
                     <span class="icon-wrap">
                       <i class="icon03"></i>
                     </span>
-                    <p class="txt">전문 매니저의 전화 <br class="only_mo">안내 서비스</p>
+                    <p class="txt">화상 상담 <br class="only_mo">URL 접속</p>
                   </div>
                 </div>
                 <div class="swiper-slide">
@@ -46,7 +46,7 @@
                     <span class="icon-wrap">
                       <i class="icon04"></i>
                     </span>
-                    <p class="txt">신청 매장 방문 후 <br class="only_mo">상담진행</p>
+                    <p class="txt">화상 상담 <br class="only_mo">진행 및 완료</p>
                   </div>
                 </div>
               </div>
@@ -54,30 +54,12 @@
             </div>
           </div>
         </div>
-        <div class="guide-benefits">
+        <div class="guide-info-list">
           <div class="inner">
-            <ul class="list-area">
-              <li>
-                <i class="icon01"></i>
-                <p class="txt">
-                  <span>라이프 스타일에 맞는</span>
-                  <strong>생활 맞춤 컨설팅</strong>
-                </p>
-              </li>
-              <li>
-                <i class="icon02"></i>
-                <p class="txt">
-                  <span>고객 맞춤형</span>
-                  <strong>특별 혜택가 안내</strong>
-                </p>
-              </li>
-              <li>
-                <i class="icon03"></i>
-                <p class="txt">
-                  <span>사은품, 멤버십 포인트 등</span>
-                  <strong>푸짐한 사은 혜택 안내</strong>
-                </p>
-              </li>
+            <ul class="bull">
+              <li>예약한 시간에 상담사가 전화로 연락드리고, 영상상담을 접속할 수 있는 사이트 URL을 문자로 송부 드립니다.</li>
+              <li>카메라 접속 등의 동의가 필요하며 일부 Web 브라우저의 버전이 낮을 경우 서비스에 제한이 있을 수 있습니다.</li>
+              <li class="red">고객님의 화면은 매니저에게 노출되지 않습니다.</li>
             </ul>
           </div>
         </div>
@@ -88,16 +70,16 @@
             <div class="swiper-slide">
               <div class="banner01">
                 <div class="box">
-                  <img class="only_pc" src="../../images/img-res-visit-banner-01.png" alt="">
-                  <img class="only_mo" src="../../images/img-res-visit-banner-01_mo.png" alt="">
+                  <img class="only_pc" src="../../images/img-res-video-banner-01.png" alt="">
+                  <img class="only_mo" src="../../images/img-res-video-banner-01_mo.png" alt="">
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="banner02">
                 <div class="box">
-                  <img class="only_pc" src="../../images/img-res-visit-banner-01.png" alt="">
-                  <img class="only_mo" src="../../images/img-res-visit-banner-01_mo.png" alt="">
+                  <img class="only_pc" src="../../images/img-res-video-banner-01.png" alt="">
+                  <img class="only_mo" src="../../images/img-res-video-banner-01_mo.png" alt="">
                 </div>
               </div>
             </div>
@@ -551,7 +533,10 @@
         <div class="step-area step02 active"><!-- active 클래스 추가 -->
           <div class="main-area active"><!-- active 클래스 추가 -->
             <div class="view-area">
-              <h4 class="step-tit">상담하실 매장과 상담일시 선택<sup>*</sup></h4>
+              <div class="tit-area">
+                <h4 class="step-tit">상담하실 매장과 상담일시 선택<sup>*</sup></h4>
+                <em>*화상 상담이 가능한 매장만 조회됩니다.</em>
+              </div>
               <div class="sort-area">
                 <button type="button" class="view-list active">리스트보기</button><!-- active 클래스 추가 -->
                 <button type="button" class="view-map">지도보기</button>
@@ -1297,7 +1282,7 @@
 <script>
   $(document).ready(function(){
     // 상단 예약진행 가이드 영역
-    var resbanner01 = new Swiper(".guide-banner-visit", {
+    var resbanner01 = new Swiper(".guide-banner-video", {
       slidesPerView: 'auto',
       scrollbar: {
         el: ".swiper-scrollbar",
