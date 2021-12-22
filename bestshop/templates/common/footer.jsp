@@ -30,8 +30,8 @@
                   <div class="depth1"><a href="javascript:void(0);">매장 상담 예약</a></div>
                   <div class="depth2">
                     <ul>
-                      <li><a href="javascript:void(0);">방문 상담 예약</a></li>
-                      <li><a href="javascript:void(0);">화상 상담 예약</a></li>
+                      <li><a href="/bestshop/pages/reservation/BSF-RES-VISIT.jsp">방문 상담 예약</a></li>
+                      <li><a href="/bestshop/pages/reservation/BSF-RES-VIDEO.jsp">화상 상담 예약</a></li>
                       <li><a href="javascript:void(0);">상담 예약 조회</a></li>
                     </ul>
                   </div>
@@ -40,7 +40,7 @@
                   <div class="depth1"><a href="javascript:void(0);">이벤트</a></div>
                   <div class="depth2">
                     <ul>
-                      <li><a href="javascript:void(0);">베스트샵 이벤트</a></li>
+                      <li><a href="/bestshop/pages/event/BSF-EVE-BSTAB.jsp">베스트샵 이벤트</a></li>
                       <li><a href="javascript:void(0);">매장 상담 예약 이벤트</a></li>
                       <li><a href="javascript:void(0);">혼수 이벤트</a></li>
                       <li class="depth3">

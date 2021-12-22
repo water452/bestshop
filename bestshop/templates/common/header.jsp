@@ -156,25 +156,25 @@
                     </div><!-- //.menu-category-layer -->
                   </li>
                   <li>
-                    <a class="depth1-tit" href="/bestshop/pages/reservation/BSF-RES-VISIT.jsp">매장 상담 예약</a>
+                    <a class="depth1-tit" href="javascript:void(0);">매장 상담 예약</a>
                     <div class="menu-category-layer">
                       <div class="menu-category-inner">
                         <h4>매장 상담 예약</h4>
                         <ul class="cate-menu">
                           <li><a href="/bestshop/pages/reservation/BSF-RES-VISIT.jsp">방문 상담 예약</a></li>
-                          <li><a href="javascript:void(0);">화상 상담 예약</a></li>
+                          <li><a href="/bestshop/pages/reservation/BSF-RES-VIDEO.jsp">화상 상담 예약</a></li>
                           <li><a href="javascript:void(0);">상담 예약 조회</a></li>
                         </ul>
                       </div>
                     </div><!-- //.menu-category-layer -->
                   </li>
                   <li>
-                    <a class="depth1-tit" href="javascript:void(0);">이벤트</a>
+                    <a class="depth1-tit" href="/bestshop/pages/event/BSF-EVE-BSTAB.jsp">이벤트</a>
                     <div class="menu-category-layer">
                       <div class="menu-category-inner">
                         <h4>이벤트</h4>
                         <ul class="cate-menu">
-                          <li><a href="javascript:void(0);">베스트샵 이벤트</a></li>
+                          <li><a href="/bestshop/pages/event/BSF-EVE-BSTAB.jsp">베스트샵 이벤트</a></li>
                           <li>
                             <a href="javascript:void(0);">아파트 입주 이벤트</a>
                             <ul>
@@ -267,10 +267,10 @@
             <div class="header-bottom">
               <div class="menu-wrap">
                 <ul>
-                  <li><a class="depth1-tit" href="javascript:void(0);">홈</a></li>
+                  <li><a class="depth1-tit" href="/bestshop">홈</a></li>
                   <li><a class="depth1-tit" href="javascript:void(0);">매장안내</a></li>
-                  <li><a class="depth1-tit" href="javascript:void(0);">매장상담예약</a></li>
-                  <li><a class="depth1-tit" href="javascript:void(0);">이벤트</a></li>
+                  <li><a class="depth1-tit" href="/bestshop/pages/reservation/BSF-RES-VISIT.jsp">매장상담예약</a></li>
+                  <li><a class="depth1-tit" href="/bestshop/pages/event/BSF-EVE-BSTAB.jsp">이벤트</a></li>
                   <li><a class="depth1-tit" href="javascript:void(0);">혜택안내</a></li>
                   <li><a class="depth1-tit" href="javascript:void(0);">케어솔루션</a></li>
                   <li><a class="depth1-tit" href="javascript:void(0);">제품정보</a></li>
@@ -322,8 +322,8 @@
                   <div class="depth1"><a href="javascript:void(0);">매장 상담 예약</a></div>
                   <div class="depth2">
                     <ul>
-                      <li><a href="javascript:void(0);">방문 상담 예약</a></li>
-                      <li><a href="javascript:void(0);">화상 상담 예약</a></li>
+                      <li><a href="/bestshop/pages/reservation/BSF-RES-VISIT.jsp">방문 상담 예약</a></li>
+                      <li><a href="/bestshop/pages/reservation/BSF-RES-VIDEO.jsp">화상 상담 예약</a></li>
                       <li><a href="javascript:void(0);">상담 예약 조회</a></li>
                     </ul>
                   </div>
@@ -332,7 +332,7 @@
                   <div class="depth1"><a href="javascript:void(0);">이벤트</a></div>
                   <div class="depth2">
                     <ul>
-                      <li><a href="javascript:void(0);">베스트샵 이벤트</a></li>
+                      <li><a href="/bestshop/pages/event/BSF-EVE-BSTAB.jsp">베스트샵 이벤트</a></li>
                       <li><a href="javascript:void(0);">매장 상담 예약 이벤트</a></li>
                       <li><a href="javascript:void(0);">혼수 이벤트</a></li>
                       <li class="depth3">
