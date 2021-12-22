@@ -117,7 +117,7 @@
         <div class="step-area step01 active"><!-- active 클래스 추가 -->
           <div class="main-area active"><!-- active 클래스 추가 -->
             <form action="#">
-              <h4 class="step-tit">상담목적</h4>
+              <h4 class="step-tit">상담목적<sup>*</sup></h4>
               <div class="input-area">
                 <ul class="icon-type">
                   <li>
@@ -163,7 +163,7 @@
                 </ul>
               </div>
 
-              <h4 class="step-tit">제품선택<span>(다중선택)</span></h4>
+              <h4 class="step-tit">제품선택<sup>*</sup><span>(다중선택)</span></h4>
               <!-- 제품선택 카테고리형 -->
               <div class="input-area">
                 <ul class="cate-type">
@@ -460,7 +460,7 @@
               </div> -->
               <!-- // 제품선택 제품군형 -->
 
-              <h4 class="step-tit">구매 희망 시기</span></h4>
+              <h4 class="step-tit">구매 희망 시기<sup>*</sup></h4>
               <div class="input-area">
                 <ul class="base-type">
                   <li>
@@ -531,14 +531,14 @@
           <div class="result-area active"><!-- active 클래스 추가 -->
             <div class="info-step01">
               <div class="info-txt-com active"><!-- active 클래스 추가 -->
-                <span class="tit_mo">상담목적 및 제품선택</span>
-                <span class="tit_pc">상담목적 :</span>
+                <span class="mo-tit">상담목적 및 제품선택</span>
+                <span class="pc-tit">상담목적 :</span>
                 <span class="txt">혼수</span>
 
-                <span class="tit_pc">상담제품 :</span>
+                <span class="pc-tit">상담제품 :</span>
                 <span class="txt">TV, 냉장고, 식기세척기, 세탁기, 스타일러, 공기청정기, 에어컨</span>
 
-                <span class="tit_pc">구매시기 :</span>
+                <span class="pc-tit">구매시기 :</span>
                 <span class="txt">3개월 내</span>
               </div>
               <button type="button" class="btn-reselect">재선택</button>
@@ -551,7 +551,7 @@
         <div class="step-area step02 active"><!-- active 클래스 추가 -->
           <div class="main-area active"><!-- active 클래스 추가 -->
             <div class="view-area">
-              <h4 class="step-tit">상담하실 매장과 상담일시 선택</h4>
+              <h4 class="step-tit">상담하실 매장과 상담일시 선택<sup>*</sup></h4>
               <div class="sort-area">
                 <button type="button" class="view-list active">리스트보기</button><!-- active 클래스 추가 -->
                 <button type="button" class="view-map">지도보기</button>
@@ -1010,11 +1010,11 @@
           <div class="result-area active"><!-- active 클래스 추가 -->
             <div class="info-step02"> 
               <div class="info-txt-com active"><!-- active 클래스 추가 -->
-                <span class="tit_mo">상담매장 및 예약일시</span>
-                <span class="tit_pc">상담매장 :</span>
+                <span class="mo-tit">상담매장 및 예약일시</span>
+                <span class="pc-tit">상담매장 :</span>
                 <span class="txt">강남 본점</span>
 
-                <span class="tit_pc">예약 일시 :</span>
+                <span class="pc-tit">예약 일시 :</span>
                 <span class="txt">21년12월15일, 17시</span>
               </div>
               <button type="button" class="btn-reselect">재선택</button>
@@ -1032,7 +1032,7 @@
         <div class="step-area step03 active"><!-- active 클래스 추가 -->
           <div class="main-area active"><!-- active 클래스 추가 -->
             <div class="user-info-area">
-              <h4 class="step-tit">예약자 정보</h4>
+              <h4 class="step-tit">예약자 정보<sup>*</sup></h4>
               <div class="lt">
                 <form action="#">
                   <div class="input-area">

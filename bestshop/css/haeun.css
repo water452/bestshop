@@ -119,6 +119,7 @@
 .res-main .cont-wrap .cont-area .step-tit {display:flex; align-items:center; margin-bottom:16px; font-size:20px; font-weight:bold; line-height:32px}
 .res-main .cont-wrap .cont-area .step-tit > span {display:block; margin-left:3px; font-size:16px; font-weight:500}
 .res-main .cont-wrap .cont-area .step-tit ~ .step-tit {margin-top:50px}
+.res-main .cont-wrap .cont-area .step-tit > sup {color:#da0f47; font-size:20px; font-weight:bold; line-height:32px}
 
 .res-main .cont-wrap .cont-area .step-area {border-top:1px solid #707070}
 .res-main .cont-wrap .cont-area .step-area .main-area {padding:20px 0}
@@ -208,8 +209,8 @@
 .res-main .cont-wrap .cont-area .step-area .result-area [class^="info-step"] {position:relative; margin-top:-1px; border-top:1px solid #ddd; border-bottom:1px solid #ddd}
 .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com {display:none}
 .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com.active {display:block; padding:22px 110px 22px 0; color:#da0f47; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;}
-.res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com .tit_pc {color:#666; font-size:18px; line-height:28px}
-.res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com .tit_mo {display:none}
+.res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com .pc-tit {color:#666; font-size:18px; line-height:28px}
+.res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com .mo-tit {display:none}
 .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com .txt::after {content:'/'; display:inline-block; margin-left:3px; color:#666}
 .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com .txt:last-of-type:after {display:none}
 .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com .txt {color:#da0f47; font-size:18px; font-weight:bold; line-height:28px}
@@ -390,6 +391,7 @@
 
   .res-main .cont-wrap .cont-area .step-tit {font-size:16px; line-height:25px}
   .res-main .cont-wrap .cont-area .step-tit > span {margin-left:5px; font-size:11px}
+  .res-main .cont-wrap .cont-area .step-tit > sup {font-size:16px; line-height:25px}
   .res-main .input-area ul.icon-type {flex-wrap:wrap; margin-top:-12px}
   .res-main .input-area ul.icon-type > li {width:calc(50% - 6px); margin-top:12px}
   .res-main .input-area ul.icon-type .radio-btn.btn-type2 label {height:49px; border:1.5px solid #ddd; border-radius:14px; font-size:13px; line-height:20px}
@@ -458,8 +460,8 @@
   .res-main .input-area .text-area .info-msg {margin-top:8px; margin-left:8px; font-size:10px; line-height:17px}
 
   .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com {padding:11px 100px 11px 0!important}
-  .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com .tit_pc {display:none}
-  .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com .tit_mo {display:block; color:#666; font-size:13px; line-height:21px}
+  .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com .pc-tit {display:none}
+  .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com .mo-tit {display:block; color:#666; font-size:13px; line-height:21px}
   .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com .txt {display:inline; font-size:13px; font-weight:500; line-height:21px}
   .res-main .cont-wrap .cont-area .step-area .result-area .info-txt-com .txt::after {content:','; color:#da0f47}
   .res-main .cont-wrap .cont-area .step-area .result-area .btn-reselect {width:91px; top:calc(50%  - 17px); padding:0 15px 0 38px; background-size:20px 20px!important; background-position:14px center; font-size:13px; line-height:32px}
