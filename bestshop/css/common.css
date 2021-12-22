@@ -329,6 +329,7 @@ select.family-site{display:none;}
 .floating-block.active .floating-custom-wrap{bottom:72px;}
 
 @media screen and (min-width:768px){
+	.header{border-bottom:1px solid #ddd;}
 	footer .foot-cont .pc-dropdown-wrap .link-wrap .link-section .depth2{display:block !important;}
 }
 @media screen and (max-width:1200px){
