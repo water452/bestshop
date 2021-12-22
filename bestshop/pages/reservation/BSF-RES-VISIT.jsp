@@ -1010,12 +1010,12 @@
           <div class="result-area active"><!-- active 클래스 추가 -->
             <div class="info-step02"> 
               <div class="info-txt-com active"><!-- active 클래스 추가 -->
-                <p class="tit_mo">상담매장 및 예약일시</p>
-                <p class="tit_pc">상담매장 :</p>
-                <p class="txt">강남 본점</p>
+                <span class="tit_mo">상담매장 및 예약일시</span>
+                <span class="tit_pc">상담매장 :</span>
+                <span class="txt">강남 본점</span>
 
-                <p class="tit_pc">예약 일시 :</p>
-                <p class="txt">21년12월15일, 17시</p>
+                <span class="tit_pc">예약 일시 :</span>
+                <span class="txt">21년12월15일, 17시</span>
               </div>
               <button type="button" class="btn-reselect">재선택</button>
 
