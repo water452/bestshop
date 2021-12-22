@@ -66,13 +66,34 @@ function myTooltip(){
   });
 }
 
-// FOOTER GNB
-function footerGnb(){
-  $('footer .depth1 a').click(function(){
+//  floating menu
+function floatingMenu(){
+  $('.floating-custom-wrap .main-btn').on('click', function(){
+    $(this).toggleClass('active').siblings('.service-list').toggle();
+  });
+}
+
+// Mobile Mega GNB
+function mobileMega(){
+  $('.link-wrap .depth1 a').click(function(){
+    $('.depth1').removeClass('active');
+    $('.depth3 ul, .depth2').stop().slideUp(200);
     $(this).closest('.depth1').toggleClass('active').siblings('.depth2').stop().slideToggle(200);
   });
-  $('footer .depth3-tit').click(function(){
+  $('.link-wrap .depth3-tit').click(function(){
     $(this).toggleClass('active').siblings('ul').stop().slideToggle(200);
+  });
+}
+
+// Mobile Menu Toggle
+function mobileMenutoggle(){
+  $('.close-gnb button').click(function(){
+    $('body, html').removeClass('scroll-fixed');
+    $('.mega-gnb-mobile').removeClass('active');
+  });
+  $('li.nav-anchor > a').click(function(){
+    $('body, html').toggleClass('scroll-fixed');
+    $('.mega-gnb-mobile').toggleClass('active');
   });
 }
 
@@ -93,6 +114,7 @@ function footMenu(){
 
 $(document).ready(function() {
   clickLayer();
+  floatingMenu();
   footMenu();
 
   if(_thsW > 767){
@@ -100,7 +122,8 @@ $(document).ready(function() {
     myTooltip();
     focusGnb();
   } else { // mobile size
-    footerGnb();
+    mobileMega();
+    mobileMenutoggle()
   }
 
   //mega-gnb > banner
@@ -115,10 +138,30 @@ $(document).ready(function() {
       el: ".swiper-pager",
     }
   });
+  var swiper = new Swiper(".megaMobileBnr", {
+    slidesPerView: 1.5,
+    spaceBetween: 12
+  });
 });
 
 $(window).resize(function(){
   var _thsW = $(window).width();
 
   console.log(_thsW);
+});
+
+$(window).scroll(function () {
+  var _winTop = $(window).scrollTop();
+
+  if(_winTop > 200){
+    $('.floating-block').addClass('active');
+  } else if(_winTop <= 200){
+    $('.floating-block').removeClass('active');
+  }
+
+  if(_winTop > 48){
+    $('.header-wrap').addClass('fixed');
+  } else {
+    $('.header-wrap').removeClass('fixed');
+  }
 });
