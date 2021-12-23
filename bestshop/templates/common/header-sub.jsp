@@ -263,23 +263,6 @@
 
             <p class="my-tooltip"><a href="javascript:void(0);"><span class="blind">마이 툴팁</span></a></p>
 
-            <!-- s: mega gnb -->
-            <div class="header-bottom">
-              <div class="menu-wrap">
-                <ul>
-                  <li><a class="depth1-tit" href="/bestshop">홈</a></li>
-                  <li><a class="depth1-tit" href="javascript:void(0);">매장안내</a></li>
-                  <li><a class="depth1-tit" href="/bestshop/pages/reservation/BSF-RES-VISIT.jsp">매장상담예약</a></li>
-                  <li><a class="depth1-tit" href="/bestshop/pages/event/BSF-EVE-BSTAB.jsp">이벤트</a></li>
-                  <li><a class="depth1-tit" href="javascript:void(0);">혜택안내</a></li>
-                  <li><a class="depth1-tit" href="javascript:void(0);">케어솔루션</a></li>
-                  <li><a class="depth1-tit" href="javascript:void(0);">제품정보</a></li>
-                  <li><a class="depth1-tit" href="javascript:void(0);">고객지원</a></li>
-                </ul>
-              </div>
-            </div>
-            <!-- e: mega gnb -->
-
             <div class="mega-gnb-mobile">
               <p class="close-gnb"><button type="button"><span class="blind">메뉴닫기</span></button></p>
               <div class="mgb-top">
@@ -440,10 +423,17 @@
         <!-- e: HEADER -->
 
         <!-- s: breadcrumb -->
-        <div class="breadcrumb-bar">
-          <a href="/bestshop">홈</a>
-          <span>이벤트</span>
-          <span>아파트 입주 이벤트</span>
-          <span>혜택안내</span>
+        <div class="breadcrumb-wrap">
+          <div class="breadcrumb-bar">
+            <a href="/bestshop">홈</a>
+            <span>이벤트</span>
+            <span>아파트 입주 이벤트</span>
+            <span>혜택안내</span>
+          </div>
+          <a href="javascript:history.back();" class="btn-history-back">이전</a>
         </div>
         <!-- e: breadcrumb -->
+
+        <style type="text/css">
+            .header-wrap{box-shadow:none;}
+        </style>
