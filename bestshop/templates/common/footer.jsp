@@ -158,7 +158,7 @@
               </div>
               <div class="bottom-body">
                 <ul class="bottom-link">
-                  <li><a href="javascript:void(0);">사이트맵</a></li>
+                  <li><a href="/bestshop/pages/common/sitemap.jsp">사이트맵</a></li>
                   <li><a href="https://member.lge.co.kr/auth/uniPerson.do" target="_blank" style="font-weight: bold;">개인정보처리방침</a></li>
                   <li><a href="https://member.lge.co.kr/auth/useClause.do" target="_blank">이용약관</a></li>
                   <li><a href="https://member.lge.co.kr/auth/deviceClause.do" target="_blank" style="font-weight: bold;">영상정보처리기기운영관리방침</a></li>
