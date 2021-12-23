@@ -263,7 +263,7 @@
 
             <p class="my-tooltip"><a href="javascript:void(0);"><span class="blind">마이 툴팁</span></a></p>
 
-            <!-- s: mega gnb -->
+            <!-- s: mega gnb
             <div class="header-bottom">
               <div class="menu-wrap">
                 <ul>
@@ -278,148 +278,164 @@
                 </ul>
               </div>
             </div>
-            <!-- e: mega gnb -->
+            e: mega gnb -->
 
             <div class="mega-gnb-mobile">
-              <p class="close-gnb"><button type="button"><span class="blind">메뉴닫기</span></button></p>
-              <div class="mgb-top">
-                <a href="javascript:void(0);" class="link-arrow">로그인해주세요</a>
-                <a href="javascript:void(0);" class="link-mypage"><span class="blind">마이 페이지</span></a>
-              </div>
-
-              <div class="bnr-wrap">
-                <div class="bnr-block megaMobileBnr">
-                  <ul class="swiper-wrapper">
-                    <li class="swiper-slide">
-                      <a href="javascript:void(0);"><img src="/bestshop/images/@img-banner-sample-01.jpg" alt="멤버십 혜택"></a>
-                      <div class="bnr-desc">멤버십 혜택</div>
-                    </li>
-                    <li class="swiper-slide">
-                      <a href="javascript:void(0);"><img src="/bestshop/images/@img-banner-sample-02.jpg" alt="멤버십 혜택"></a>
-                      <div class="bnr-desc">멤버십 혜택</div>
-                    </li>
-                    <li class="swiper-slide">
-                      <a href="javascript:void(0);"><img src="/bestshop/images/@img-banner-sample-03.jpg" alt="멤버십 혜택"></a>
-                      <div class="bnr-desc">멤버십 혜택</div>
-                    </li>
-                  </ul>
+              <div class="mega-gnb-mobile-block">
+                <p class="close-gnb"><button type="button"><span class="blind">메뉴닫기</span></button></p>
+                <div class="mgb-top">
+                  <a href="javascript:void(0);" class="link-arrow">로그인해주세요</a>
+                  <a href="javascript:void(0);" class="link-mypage"><span class="blind">마이 페이지</span></a>
                 </div>
-              </div><!-- //.bnr-wrap -->
 
-              <ul class="link-wrap">
-                <li class="link-section">
-                  <div class="depth1"><a href="javascript:void(0);">매장안내</a></div>
-                  <div class="depth2">
-                    <ul>
-                      <li><a href="javascript:void(0);">매장 찾기</a></li>
-                      <li><a href="javascript:void(0);">신규 오픈 매장</a></li>
-                      <li><a href="javascript:void(0);">아이폰 판매 매장</a></li>
-                      <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">야간 무인 매장</a></li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="link-section">
-                  <div class="depth1"><a href="javascript:void(0);">매장 상담 예약</a></div>
-                  <div class="depth2">
-                    <ul>
-                      <li><a href="/bestshop/pages/reservation/BSF-RES-VISIT.jsp">방문 상담 예약</a></li>
-                      <li><a href="/bestshop/pages/reservation/BSF-RES-VIDEO.jsp">화상 상담 예약</a></li>
-                      <li><a href="javascript:void(0);">상담 예약 조회</a></li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="link-section">
-                  <div class="depth1"><a href="javascript:void(0);">이벤트</a></div>
-                  <div class="depth2">
-                    <ul>
-                      <li><a href="/bestshop/pages/event/BSF-EVE-BSTAB.jsp">베스트샵 이벤트</a></li>
-                      <li><a href="javascript:void(0);">매장 상담 예약 이벤트</a></li>
-                      <li><a href="javascript:void(0);">혼수 이벤트</a></li>
-                      <li class="depth3">
-                        <a href="javascript:void(0);" class="depth3-tit">아파트 입주 이벤트</a>
-                        <ul>
-                          <li><a href="javascript:void(0);">혜택안내</a></li>
-                          <li><a href="javascript:void(0);">행사 리스트</a></li>
-                          <li><a href="javascript:void(0);">박람회 일정</a></li>
-                        </ul>
+                <div class="bnr-wrap">
+                  <div class="bnr-block megaMobileBnr">
+                    <ul class="swiper-wrapper">
+                      <li class="swiper-slide">
+                        <a href="javascript:void(0);"><img src="/bestshop/images/@img-banner-sample-01.jpg" alt="멤버십 혜택"></a>
+                        <div class="bnr-desc">멤버십 혜택</div>
                       </li>
-                      <li><a href="javascript:void(0);">홍보 영상</a></li>
+                      <li class="swiper-slide">
+                        <a href="javascript:void(0);"><img src="/bestshop/images/@img-banner-sample-02.jpg" alt="멤버십 혜택"></a>
+                        <div class="bnr-desc">멤버십 혜택</div>
+                      </li>
+                      <li class="swiper-slide">
+                        <a href="javascript:void(0);"><img src="/bestshop/images/@img-banner-sample-03.jpg" alt="멤버십 혜택"></a>
+                        <div class="bnr-desc">멤버십 혜택</div>
+                      </li>
                     </ul>
                   </div>
-                </li>
-                <li class="link-section">
-                  <div class="depth1"><a href="javascript:void(0);">혜택 안내</a></div>
-                  <div class="depth2">
-                    <ul>
-                      <li><a href="javascript:void(0);">이달의 혜택</a></li>
-                      <li><a href="javascript:void(0);">카드 혜택</a></li>
-                      <li><a href="javascript:void(0);">멤버십 혜택</a></li>
-                      <li><a href="javascript:void(0);">LG SIGNATURE 구매혜택</a></li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="link-section">
-                  <div class="depth1"><a href="javascript:void(0);">케어솔루션</a></div>
-                  <div class="depth2">
-                    <ul>
-                      <li><a href="javascript:void(0);">케어십 상담 예약</a></li>
-                      <li><a href="javascript:void(0);">케어십 상담 예약 조회</a></li>
-                      <li><a href="javascript:void(0);">소모품 구매 예약</a></li>
-                      <li><a href="javascript:void(0);">소모품 예약 조회</a></li>
-                      <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">케어솔루션 계약 현황</a></li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="link-section">
-                  <div class="depth1"><a href="javascript:void(0);">제품정보</a></div>
-                  <div class="depth2">
-                    <ul>
-                      <li><a href="javascript:void(0);">내게 맞는 제품 찾기</a></li>
-                      <li><a href="javascript:void(0);">제품 카탈로그</a></li>
-                      <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">제품 사용 설명서</a></li>
-                      <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">제품 뉴스</a></li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="link-section">
-                  <div class="depth1"><a href="javascript:void(0);">고객지원</a></div>
-                  <div class="depth2">
-                    <ul>
-                      <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">제품 문제 해결</a></li>
-                      <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">서비스 센터 찾기</a></li>
-                      <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">센터 방문 예약</a></li>
-                      <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">출장 서비스 예약</a></li>
-                      <li><a href="javascript:void(0);">공지사항</a></li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="link-section">
-                  <div class="depth1"><a href="javascript:void(0);">마이페이지</a></div>
-                  <div class="depth2">
-                    <ul>
-                      <li><a href="javascript:void(0);">구매 내역 조회</a></li>
-                      <li><a href="javascript:void(0);">제품 배송 조회</a></li>
-                      <li><a href="javascript:void(0);">상담 예약 조회</a></li>
-                      <li><a href="javascript:void(0);">포인트 조회</a></li>
-                      <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">케어솔루션 계약현황</a></li>
-                      <li><a href="javascript:void(0);">무상 서비스 제품 조회</a></li>
-                      <li><a href="javascript:void(0);">보유 쿠폰 조회</a></li>
-                      <li><a href="javascript:void(0);">멤버십 가입 정보</a></li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="link-section">
-                  <div class="depth1"><a href="javascript:void(0);">회사소개</a></div>
-                  <div class="depth2">
-                    <ul>
-                      <li><a href="https://www.lge.co.kr/company/sustainable/ceoMessage">CEO 인사말</a></li>
-                      <li><a href="https://www.lge.co.kr/company/info/history">연혁</a></li>
-                      <li><a href="https://www.lge.co.kr/company/info/philosophy">경영이념</a></li>
-                    </ul>
-                  </div>
-                </li>
-              </ul>
-            </div>
+                </div><!-- //.bnr-wrap -->
+
+                <ul class="link-wrap">
+                  <li class="link-section">
+                    <div class="depth1"><a href="javascript:void(0);">매장안내</a></div>
+                    <div class="depth2">
+                      <ul>
+                        <li><a href="javascript:void(0);">매장 찾기</a></li>
+                        <li><a href="javascript:void(0);">신규 오픈 매장</a></li>
+                        <li><a href="javascript:void(0);">아이폰 판매 매장</a></li>
+                        <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">야간 무인 매장</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="link-section">
+                    <div class="depth1"><a href="javascript:void(0);">매장 상담 예약</a></div>
+                    <div class="depth2">
+                      <ul>
+                        <li><a href="/bestshop/pages/reservation/BSF-RES-VISIT.jsp">방문 상담 예약</a></li>
+                        <li><a href="/bestshop/pages/reservation/BSF-RES-VIDEO.jsp">화상 상담 예약</a></li>
+                        <li><a href="javascript:void(0);">상담 예약 조회</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="link-section">
+                    <div class="depth1"><a href="javascript:void(0);">이벤트</a></div>
+                    <div class="depth2">
+                      <ul>
+                        <li><a href="/bestshop/pages/event/BSF-EVE-BSTAB.jsp">베스트샵 이벤트</a></li>
+                        <li><a href="javascript:void(0);">매장 상담 예약 이벤트</a></li>
+                        <li><a href="javascript:void(0);">혼수 이벤트</a></li>
+                        <li class="depth3">
+                          <a href="javascript:void(0);" class="depth3-tit">아파트 입주 이벤트</a>
+                          <ul>
+                            <li><a href="javascript:void(0);">혜택안내</a></li>
+                            <li><a href="javascript:void(0);">행사 리스트</a></li>
+                            <li><a href="javascript:void(0);">박람회 일정</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="javascript:void(0);">홍보 영상</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="link-section">
+                    <div class="depth1"><a href="javascript:void(0);">혜택 안내</a></div>
+                    <div class="depth2">
+                      <ul>
+                        <li><a href="javascript:void(0);">이달의 혜택</a></li>
+                        <li><a href="javascript:void(0);">카드 혜택</a></li>
+                        <li><a href="javascript:void(0);">멤버십 혜택</a></li>
+                        <li><a href="javascript:void(0);">LG SIGNATURE 구매혜택</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="link-section">
+                    <div class="depth1"><a href="javascript:void(0);">케어솔루션</a></div>
+                    <div class="depth2">
+                      <ul>
+                        <li><a href="javascript:void(0);">케어십 상담 예약</a></li>
+                        <li><a href="javascript:void(0);">케어십 상담 예약 조회</a></li>
+                        <li><a href="javascript:void(0);">소모품 구매 예약</a></li>
+                        <li><a href="javascript:void(0);">소모품 예약 조회</a></li>
+                        <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">케어솔루션 계약 현황</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="link-section">
+                    <div class="depth1"><a href="javascript:void(0);">제품정보</a></div>
+                    <div class="depth2">
+                      <ul>
+                        <li><a href="javascript:void(0);">내게 맞는 제품 찾기</a></li>
+                        <li><a href="javascript:void(0);">제품 카탈로그</a></li>
+                        <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">제품 사용 설명서</a></li>
+                        <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">제품 뉴스</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="link-section">
+                    <div class="depth1"><a href="javascript:void(0);">고객지원</a></div>
+                    <div class="depth2">
+                      <ul>
+                        <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">제품 문제 해결</a></li>
+                        <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">서비스 센터 찾기</a></li>
+                        <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">센터 방문 예약</a></li>
+                        <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">출장 서비스 예약</a></li>
+                        <li><a href="javascript:void(0);">공지사항</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="link-section">
+                    <div class="depth1"><a href="javascript:void(0);">마이페이지</a></div>
+                    <div class="depth2">
+                      <ul>
+                        <li><a href="javascript:void(0);">구매 내역 조회</a></li>
+                        <li><a href="javascript:void(0);">제품 배송 조회</a></li>
+                        <li><a href="javascript:void(0);">상담 예약 조회</a></li>
+                        <li><a href="javascript:void(0);">포인트 조회</a></li>
+                        <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">케어솔루션 계약현황</a></li>
+                        <li><a href="javascript:void(0);">무상 서비스 제품 조회</a></li>
+                        <li><a href="javascript:void(0);">보유 쿠폰 조회</a></li>
+                        <li><a href="javascript:void(0);">멤버십 가입 정보</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="link-section">
+                    <div class="depth1"><a href="javascript:void(0);">회사소개</a></div>
+                    <div class="depth2">
+                      <ul>
+                        <li><a href="https://www.lge.co.kr/company/sustainable/ceoMessage">CEO 인사말</a></li>
+                        <li><a href="https://www.lge.co.kr/company/info/history">연혁</a></li>
+                        <li><a href="https://www.lge.co.kr/company/info/philosophy">경영이념</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul><!-- //.link-wrap -->
+
+                <div class="direct-link">
+                  <ul>
+                    <li><a href="javascript:void(0);">케어십 상담 예약</a></li>
+                    <li><a href="javascript:void(0);">이달의 혜택</a></li>
+                    <li><a href="javascript:void(0);">소모품 구매 예약</a></li>
+                    <li><a href="javascript:void(0);">카드 혜택</a></li>
+                    <li><a href="javascript:void(0);">상담 예약 조회</a></li>
+                    <li><a href="javascript:void(0);">내게 맞는 제품 찾기</a></li>
+                    <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">비즈니스</a></li>
+                    <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">LG전자 대표 사이트</a></li>
+                  </ul>
+                </div><!-- //.direct-link -->
+
+              </div><!-- //.mega-gnb-mobile-block -->
+            </div><!-- //.mega-gnb-mobile -->
           </div>
           <!-- e: mobile head wrap -->
 
@@ -438,3 +454,15 @@
           <!-- e :Floating Menu -->
         </header>
         <!-- e: HEADER -->
+
+        <!-- s: breadcrumb -->
+        <div class="breadcrumb-wrap">
+          <div class="breadcrumb-bar">
+            <a href="/bestshop">홈</a>
+            <span>이벤트</span>
+            <span>아파트 입주 이벤트</span>
+            <span>혜택안내</span>
+          </div>
+          <a href="javascript:history.back();" class="btn-history-back">이전</a>
+        </div>
+        <!-- e: breadcrumb -->

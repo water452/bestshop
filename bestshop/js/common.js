@@ -126,9 +126,6 @@ $(document).ready(function() {
     mobileMenutoggle()
   }
 
-  // if inner layer
-  $('.bottom-fixed-wrap').parents('.wrap').addClass('innerLayer');
-
   //mega-gnb > banner
   var swiper = new Swiper(".megaBnr", {
     slidesPerView: 1,
@@ -145,12 +142,16 @@ $(document).ready(function() {
     slidesPerView: 1.5,
     spaceBetween: 12
   });
+
+  // page custom
+  // page custom > if inner layer
+  $('.bottom-fixed-wrap').parents('.wrap').addClass('innerLayer');
+  // page custom > if not main breadcrumb show
+  $('#content').not('.main').parents('body').find('.breadcrumb-wrap').addClass('active');
 });
 
 $(window).resize(function(){
   var _thsW = $(window).width();
-
-  console.log(_thsW);
 });
 
 $(window).scroll(function () {
