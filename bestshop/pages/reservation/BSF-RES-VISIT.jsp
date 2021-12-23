@@ -1,5 +1,5 @@
 <%@ page contentType="text/html; charset=utf-8" %>
-<jsp:include page="../../templates/common/header-sub.jsp" />
+<jsp:include page="../../templates/common/header.jsp" />
 <!-- container -->
 <div class="container" id="content">
 

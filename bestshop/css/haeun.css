@@ -1,4 +1,7 @@
 @charset "UTF-8";
+
+@import url(../css/notice.css);
+
 .only_pc {display:block!important}
 .only_mo {display:none!important}
 

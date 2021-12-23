@@ -1,10 +1,5 @@
 <%@ page contentType="text/html; charset=utf-8" %>
 <jsp:include page="../../templates/common/header.jsp" />
-<script>
-  $(document).ready(function(){
-
-  });
-</script>
 <!-- container -->
 <div class="container" id="content">
 
