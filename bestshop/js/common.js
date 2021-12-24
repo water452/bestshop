@@ -148,6 +148,27 @@ $(document).ready(function() {
   $('.bottom-fixed-wrap').parents('.wrap').addClass('innerLayer');
   // page custom > if not main breadcrumb show
   $('#content').not('.main').parents('body').find('.breadcrumb-wrap').addClass('active');
+
+  // calendar
+  $(function(){
+    $("#calendar").datepicker({
+      closeText:'닫기',
+      currentText:'오늘',
+      prevText:'이전 달',
+      nextText:'다음 달',
+      monthNames:['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+      monthNamesShort:['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+      dayNames:['일', '월', '화', '수', '목', '금', '토'],
+      dayNamesShort:['일', '월', '화', '수', '목', '금', '토'],
+      dayNamesMin:['일', '월', '화', '수', '목', '금', '토'],
+      weekHeader:'주',
+      yearSuffix:'.',
+      showMonthAfterYear:true,
+      showOtherMonths:true
+    });
+    $('.ui-widget-header a').attr('href','javascript:void(0);');
+  });
+
 });
 
 $(window).resize(function(){
