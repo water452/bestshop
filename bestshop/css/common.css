@@ -39,6 +39,18 @@
 	font-weight:700;
 	font-style:normal;
 }
+@font-face{
+	font-family:'Noto Sans'; /* Light */
+	font-display:swap;
+	src:url('../fonts/NotoSans-Light.eot');
+	src:local('☺'),
+        url('../fonts/NotoSans-Light.eot#iefix') format('embedded-opentype'),
+        url('../fonts/NotoSans-Light.woff2') format('woff2'),
+        url('../fonts/NotoSans-Light.woff') format('woff'),
+        url('../fonts/NotoSans-Light.otf') format('opentype');
+	font-weight:300;
+	font-style:normal;
+}
 
 /* button */
 button,

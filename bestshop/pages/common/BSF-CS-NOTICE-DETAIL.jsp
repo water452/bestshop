@@ -19,9 +19,9 @@
             </ul>
           </div>
           <div class="board-view-sub">
-            <div class="tooltip-wrap share">
-              <a href="#" class="tooltip-icon ui_tooltip-target" ui-modules="TooltipTarget"><span class="blind">현재 페이지 공유하기</span></a>
-              <div class="tooltip-box fixed-right">
+            <div class="tooltip-wrap share layer-click">
+              <a href="javascript:void(0);" class="tooltip-icon ui_tooltip-target "><span class="blind">현재 페이지 공유하기</span></a>
+              <div class="tooltip-box fixed-right layer-detail">
                 <span class="title">공유하기</span>
                 <div class="sns-wrap">
                   <ul class="sns-list">

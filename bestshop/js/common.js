@@ -2,9 +2,18 @@ var _thsW = $(window).width();
 
 // click layers
 function clickLayer(){
-  $('.layer-click > a').on('click', function(e){
-    if(e.type == 'mouseenter'){}
+  $('.layer-click > a').on('click', function(){
     $(this).toggleClass('active').closest('.layer-click').find('.layer-detail').toggle();
+  });
+  $('.btn-close').on('click', function(){
+    $(this).closest('.layer-click').children('a').removeClass('active').closest('.layer-click').find('.layer-detail').hide();
+  })
+}
+
+// sub click layers
+function clickLayer2(){
+  $('.ui-selectbox-wrap .ui-select-button').on('focus', function(){
+    $(this).toggleClass('active').closest('.ui-selectbox-view').siblings('.ui-selectbox-list').toggle();
   });
 }
 
@@ -114,6 +123,7 @@ function footMenu(){
 
 $(document).ready(function() {
   clickLayer();
+  clickLayer2()
   floatingMenu();
   footMenu();
 

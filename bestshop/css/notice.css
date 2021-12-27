@@ -123,8 +123,9 @@
   height: 16px;
   margin-top: -8px;
   background: url(../images/icons/btn-down-16-black.svg) no-repeat;
-  transition: all .1s;
+  transition: all .2s;
 }
+.sort-select-wrap .ui-selectbox-wrap .ui-select-button.active .ico{transform:rotate(180deg);}
 .sort-select-wrap .ui-selectbox-wrap .ui-selectbox-list {
   position: absolute;
   top: 34px;

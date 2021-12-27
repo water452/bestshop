@@ -39,7 +39,7 @@
               </select>
               <div class="ui-selectbox-wrap">
                 <div class="ui-selectbox-view">
-                  <a href="#" class="ui-select-button">
+                  <a href="javascirpt:void(0);" class="ui-select-button">
                     <span class="ui-select-text">전체</span>
                     <span class="blind">선택됨</span>
                     <span class="ico"></span>
@@ -68,7 +68,7 @@
               </select>
               <div class="ui-selectbox-wrap">
                 <div class="ui-selectbox-view">
-                  <a href="#" class="ui-select-button">
+                  <a href="javascirpt:void(0);" class="ui-select-button">
                     <span class="ui-select-text">최신순</span>
                     <span class="blind">선택됨</span>
                     <span class="ico"></span>

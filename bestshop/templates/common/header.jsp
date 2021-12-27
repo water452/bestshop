@@ -23,6 +23,7 @@
       <link rel="stylesheet" href="/bestshop/css/mobile.css">
       <link rel="stylesheet" href="/bestshop/css/jy.css">
       <link rel="stylesheet" href="/bestshop/css/haeun.css">
+      <link rel="stylesheet" href="/bestshop/css/main.css">
       <script type="text/javascript" src="/bestshop/js/libs/jquery-3.6.0.min.js"></script>
       <script type="text/javascript" src="/bestshop/js/libs/jquery-ui.min.js"></script>
       <script type="text/javascript" src="/bestshop/js/libs/swiper-bundle.min.js"></script>
@@ -242,7 +243,7 @@
                         <h4>고객지원</h4>
                         <ul class="cate-menu">
                           <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">제품 문제 해결</a></li>
-                          <li><a href="javascript:void(0);">공지사항</a></li>
+                          <li><a href="/bestshop/pages/common/BSF-CS-NOTICE-LIST.jsp">공지사항</a></li>
                           <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">서비스 센터 찾기</a></li>
                           <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">센터 방문 예약</a></li>
                           <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">출장 서비스 예약</a></li>
@@ -392,7 +393,7 @@
                         <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">서비스 센터 찾기</a></li>
                         <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">센터 방문 예약</a></li>
                         <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">출장 서비스 예약</a></li>
-                        <li><a href="javascript:void(0);">공지사항</a></li>
+                        <li><a href="/bestshop/pages/common/BSF-CS-NOTICE-LIST.jsp">공지사항</a></li>
                       </ul>
                     </div>
                   </li>
