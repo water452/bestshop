@@ -439,7 +439,7 @@
                     </div>
                   </li>
                 </ul>
-              </div>
+              </div> -->
               <!-- // 제품선택 제품군형 -->
 
               <h4 class="step-tit">구매 희망 시기<sup>*</sup></h4>
@@ -541,304 +541,307 @@
                 <button type="button" class="view-list active">리스트보기</button><!-- active 클래스 추가 -->
                 <button type="button" class="view-map">지도보기</button>
               </div>
-              <!-- 지도보기 영역 -->
-              <div class="map-wrap active"><!-- active 클래스 추가 -->
-                <div class="input-area">
-                  <ul>
-                    <li>
-                      <div class="select-box">
-                        <select title="시/도 선택">
-                          <option value="">선택</option>
-                          <option value="">서울특별시</option>
-                        </select> 
-                      </div>
-                    </li>
-                    <li>
-                      <div class="select-box">
-                        <select title="구 선택">
-                          <option value="">선택</option>
-                          <option value="">강남구</option>
-                        </select> 
-                      </div>
-                    </li>
-                  </ul>
-                </div>
 
-                <!-- api 영역 -->
-                <div class="api-area">
-                  <img src="../../images/@img-map.png" alt="지도 임시이미지">
-                </div>
-                <!-- // api 영역 -->
-              </div>
-
-              <!-- 리스트 보기 영역 -->
-              <div class="list-wrap"><!-- active 클래스 추가 -->
-                <div class="search-wrap">
-                  <form action="#">
-                    <div class="input-area">
-                      <div class="search-box">
-                        <input type="search" placeholder="매장명을 검색해주세요.">
-                        <button type="button" class="btn-search"><span class="blind">검색하기</span></button>
+              <div class="sort-block">
+                <!-- 리스트 보기 영역 -->
+                <div class="list-wrap"><!-- active 클래스 추가 -->
+                  <div class="search-wrap">
+                    <form action="#">
+                      <div class="input-area">
+                        <div class="search-box">
+                          <input type="search" placeholder="매장명을 검색해주세요.">
+                          <button type="button" class="btn-search"><span class="blind">검색하기</span></button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="view-wrap">
+                    <div class="lt">
+                      <ul>
+                        <li>
+                          <button type="button" class="btn-city">전체<span>530</span></button>
+                        </li>
+                        <li>
+                          <button type="button" class="btn-city active">서울특별시<span>7</span></button><!-- active 클래스 추가 -->
+                        </li>
+                        <li>
+                          <button type="button" class="btn-city">부산광역시<span>38</span></button>
+                        </li>
+                        <li>
+                          <button type="button" class="btn-city">대구광역시<span>32</span></button>
+                        </li>
+                        <li>
+                          <button type="button" class="btn-city">인천광역시<span>56</span></button>
+                        </li>
+                        <li>
+                          <button type="button" class="btn-city">광주광역시<span>72</span></button>
+                        </li>
+                        <li>
+                          <button type="button" class="btn-city">대전광역시<span>65</span></button>
+                        </li>
+                        <li>
+                          <button type="button" class="btn-city">울산광역시<span>79</span></button>
+                        </li>
+                        <li>
+                          <button type="button" class="btn-city">세종특별자치시청<span>5</span></button>
+                        </li>
+                        <li>
+                          <button type="button" class="btn-city">부산광역시<span>38</span></button>
+                        </li>
+                        <li>
+                          <button type="button" class="btn-city">대구광역시<span>32</span></button>
+                        </li>
+                        <li>
+                          <button type="button" class="btn-city">인천광역시<span>56</span></button>
+                        </li>
+                        <li>
+                          <button type="button" class="btn-city">광주광역시<span>72</span></button>
+                        </li>
+                        <li>
+                          <button type="button" class="btn-city">대전광역시<span>65</span></button>
+                        </li>
+                        <li>
+                          <button type="button" class="btn-city">울산광역시<span>79</span></button>
+                        </li>
+                        <li>
+                          <button type="button" class="btn-city">세종특별자치시청<span>5</span></button>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="mo-select">
+                      <div class="input-area">
+                        <div class="select-box">
+                          <select title="시/도 선택">
+                            <option value="">선택</option>
+                            <option value="">서울특별시</option>
+                          </select> 
+                        </div>
                       </div>
                     </div>
-                  </form>
-                </div>
-                <div class="view-wrap">
-                  <div class="lt">
-                    <ul>
-                      <li>
-                        <button type="button" class="btn-city">전체<span>530</span></button>
-                      </li>
-                      <li>
-                        <button type="button" class="btn-city active">서울특별시<span>7</span></button><!-- active 클래스 추가 -->
-                      </li>
-                      <li>
-                        <button type="button" class="btn-city">부산광역시<span>38</span></button>
-                      </li>
-                      <li>
-                        <button type="button" class="btn-city">대구광역시<span>32</span></button>
-                      </li>
-                      <li>
-                        <button type="button" class="btn-city">인천광역시<span>56</span></button>
-                      </li>
-                      <li>
-                        <button type="button" class="btn-city">광주광역시<span>72</span></button>
-                      </li>
-                      <li>
-                        <button type="button" class="btn-city">대전광역시<span>65</span></button>
-                      </li>
-                      <li>
-                        <button type="button" class="btn-city">울산광역시<span>79</span></button>
-                      </li>
-                      <li>
-                        <button type="button" class="btn-city">세종특별자치시청<span>5</span></button>
-                      </li>
-                      <li>
-                        <button type="button" class="btn-city">부산광역시<span>38</span></button>
-                      </li>
-                      <li>
-                        <button type="button" class="btn-city">대구광역시<span>32</span></button>
-                      </li>
-                      <li>
-                        <button type="button" class="btn-city">인천광역시<span>56</span></button>
-                      </li>
-                      <li>
-                        <button type="button" class="btn-city">광주광역시<span>72</span></button>
-                      </li>
-                      <li>
-                        <button type="button" class="btn-city">대전광역시<span>65</span></button>
-                      </li>
-                      <li>
-                        <button type="button" class="btn-city">울산광역시<span>79</span></button>
-                      </li>
-                      <li>
-                        <button type="button" class="btn-city">세종특별자치시청<span>5</span></button>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="mo-select">
-                    <div class="input-area">
-                      <div class="select-box">
-                        <select title="시/도 선택">
-                          <option value="">선택</option>
-                          <option value="">서울특별시</option>
-                        </select> 
-                      </div>
+                    <div class="rt">
+                      <ul>
+                        <li>
+                          <div class="shop-box">
+                            <div class="name-area">
+                              <p class="shop-name">강남 본점</p>
+                              <ul class="key-words">
+                                <li>NEW</li>
+                                <li>화상상담</li>
+                                <li>아이폰</li>
+                                <li>LX지인</li>
+                                <li>야간무인</li>
+                              </ul>
+                            </div>
+                            <p class="info-txt">
+                              서울특별시 강남구 도산대로 403 (청담동 86-1)
+                            </p>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="shop-box">
+                            <div class="name-area">
+                              <p class="shop-name">강남 본점</p>
+                              <ul class="key-words">
+                                <li>NEW</li>
+                                <li>화상상담</li>
+                                <li>아이폰</li>
+                                <li>LX지인</li>
+                                <li>야간무인</li>
+                              </ul>
+                            </div>
+                            <p class="info-txt">
+                              서울특별시 강남구 도산대로 403 (청담동 86-1)
+                            </p>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="shop-box">
+                            <div class="name-area">
+                              <p class="shop-name">강남 본점</p>
+                              <ul class="key-words">
+                                <li>NEW</li>
+                                <li>화상상담</li>
+                                <li>아이폰</li>
+                                <li>LX지인</li>
+                                <li>야간무인</li>
+                              </ul>
+                            </div>
+                            <p class="info-txt">
+                              서울특별시 강남구 도산대로 403 (청담동 86-1)
+                            </p>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="shop-box">
+                            <div class="name-area">
+                              <p class="shop-name">강남 본점</p>
+                              <ul class="key-words">
+                                <li>NEW</li>
+                                <li>화상상담</li>
+                                <li>아이폰</li>
+                                <li>LX지인</li>
+                                <li>야간무인</li>
+                              </ul>
+                            </div>
+                            <p class="info-txt">
+                              서울특별시 강남구 도산대로 403 (청담동 86-1)
+                            </p>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="shop-box">
+                            <div class="name-area">
+                              <p class="shop-name">강남 본점</p>
+                              <ul class="key-words">
+                                <li>NEW</li>
+                                <li>화상상담</li>
+                                <li>아이폰</li>
+                                <li>LX지인</li>
+                                <li>야간무인</li>
+                              </ul>
+                            </div>
+                            <p class="info-txt">
+                              서울특별시 강남구 도산대로 403 (청담동 86-1)
+                            </p>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="shop-box">
+                            <div class="name-area">
+                              <p class="shop-name">강남 본점</p>
+                              <ul class="key-words">
+                                <li>NEW</li>
+                                <li>화상상담</li>
+                                <li>아이폰</li>
+                                <li>LX지인</li>
+                                <li>야간무인</li>
+                              </ul>
+                            </div>
+                            <p class="info-txt">
+                              서울특별시 강남구 도산대로 403 (청담동 86-1)
+                            </p>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="shop-box">
+                            <div class="name-area">
+                              <p class="shop-name">강남 본점</p>
+                              <ul class="key-words">
+                                <li>NEW</li>
+                                <li>화상상담</li>
+                                <li>아이폰</li>
+                                <li>LX지인</li>
+                                <li>야간무인</li>
+                              </ul>
+                            </div>
+                            <p class="info-txt">
+                              서울특별시 강남구 도산대로 403 (청담동 86-1)
+                            </p>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="shop-box">
+                            <div class="name-area">
+                              <p class="shop-name">강남 본점</p>
+                              <ul class="key-words">
+                                <li>NEW</li>
+                                <li>화상상담</li>
+                                <li>아이폰</li>
+                                <li>LX지인</li>
+                                <li>야간무인</li>
+                              </ul>
+                            </div>
+                            <p class="info-txt">
+                              서울특별시 강남구 도산대로 403 (청담동 86-1)
+                            </p>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="shop-box">
+                            <div class="name-area">
+                              <p class="shop-name">강남 본점</p>
+                              <ul class="key-words">
+                                <li>NEW</li>
+                                <li>화상상담</li>
+                                <li>아이폰</li>
+                                <li>LX지인</li>
+                                <li>야간무인</li>
+                              </ul>
+                            </div>
+                            <p class="info-txt">
+                              서울특별시 강남구 도산대로 403 (청담동 86-1)
+                            </p>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="shop-box">
+                            <div class="name-area">
+                              <p class="shop-name">강남 본점</p>
+                              <ul class="key-words">
+                                <li>NEW</li>
+                                <li>화상상담</li>
+                                <li>아이폰</li>
+                                <li>LX지인</li>
+                                <li>야간무인</li>
+                              </ul>
+                            </div>
+                            <p class="info-txt">
+                              서울특별시 강남구 도산대로 403 (청담동 86-1)
+                            </p>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="shop-box">
+                            <div class="name-area">
+                              <p class="shop-name">강남 본점</p>
+                              <ul class="key-words">
+                                <li>NEW</li>
+                                <li>화상상담</li>
+                                <li>아이폰</li>
+                                <li>LX지인</li>
+                                <li>야간무인</li>
+                              </ul>
+                            </div>
+                            <p class="info-txt">
+                              서울특별시 강남구 도산대로 403 (청담동 86-1)
+                            </p>
+                          </div>
+                        </li>
+                      </ul>
                     </div>
                   </div>
-                  <div class="rt">
+                </div><!-- //.list-wrap -->
+
+                <!-- 지도보기 영역 -->
+                <div class="map-wrap active"><!-- active 클래스 추가 -->
+                  <div class="input-area">
                     <ul>
                       <li>
-                        <div class="shop-box">
-                          <div class="name-area">
-                            <p class="shop-name">강남 본점</p>
-                            <ul class="key-words">
-                              <li>NEW</li>
-                              <li>화상상담</li>
-                              <li>아이폰</li>
-                              <li>LX지인</li>
-                              <li>야간무인</li>
-                            </ul>
-                          </div>
-                          <p class="info-txt">
-                            서울특별시 강남구 도산대로 403 (청담동 86-1)
-                          </p>
+                        <div class="select-box">
+                          <select title="시/도 선택">
+                            <option value="">선택</option>
+                            <option value="">서울특별시</option>
+                          </select> 
                         </div>
                       </li>
                       <li>
-                        <div class="shop-box">
-                          <div class="name-area">
-                            <p class="shop-name">강남 본점</p>
-                            <ul class="key-words">
-                              <li>NEW</li>
-                              <li>화상상담</li>
-                              <li>아이폰</li>
-                              <li>LX지인</li>
-                              <li>야간무인</li>
-                            </ul>
-                          </div>
-                          <p class="info-txt">
-                            서울특별시 강남구 도산대로 403 (청담동 86-1)
-                          </p>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="shop-box">
-                          <div class="name-area">
-                            <p class="shop-name">강남 본점</p>
-                            <ul class="key-words">
-                              <li>NEW</li>
-                              <li>화상상담</li>
-                              <li>아이폰</li>
-                              <li>LX지인</li>
-                              <li>야간무인</li>
-                            </ul>
-                          </div>
-                          <p class="info-txt">
-                            서울특별시 강남구 도산대로 403 (청담동 86-1)
-                          </p>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="shop-box">
-                          <div class="name-area">
-                            <p class="shop-name">강남 본점</p>
-                            <ul class="key-words">
-                              <li>NEW</li>
-                              <li>화상상담</li>
-                              <li>아이폰</li>
-                              <li>LX지인</li>
-                              <li>야간무인</li>
-                            </ul>
-                          </div>
-                          <p class="info-txt">
-                            서울특별시 강남구 도산대로 403 (청담동 86-1)
-                          </p>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="shop-box">
-                          <div class="name-area">
-                            <p class="shop-name">강남 본점</p>
-                            <ul class="key-words">
-                              <li>NEW</li>
-                              <li>화상상담</li>
-                              <li>아이폰</li>
-                              <li>LX지인</li>
-                              <li>야간무인</li>
-                            </ul>
-                          </div>
-                          <p class="info-txt">
-                            서울특별시 강남구 도산대로 403 (청담동 86-1)
-                          </p>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="shop-box">
-                          <div class="name-area">
-                            <p class="shop-name">강남 본점</p>
-                            <ul class="key-words">
-                              <li>NEW</li>
-                              <li>화상상담</li>
-                              <li>아이폰</li>
-                              <li>LX지인</li>
-                              <li>야간무인</li>
-                            </ul>
-                          </div>
-                          <p class="info-txt">
-                            서울특별시 강남구 도산대로 403 (청담동 86-1)
-                          </p>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="shop-box">
-                          <div class="name-area">
-                            <p class="shop-name">강남 본점</p>
-                            <ul class="key-words">
-                              <li>NEW</li>
-                              <li>화상상담</li>
-                              <li>아이폰</li>
-                              <li>LX지인</li>
-                              <li>야간무인</li>
-                            </ul>
-                          </div>
-                          <p class="info-txt">
-                            서울특별시 강남구 도산대로 403 (청담동 86-1)
-                          </p>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="shop-box">
-                          <div class="name-area">
-                            <p class="shop-name">강남 본점</p>
-                            <ul class="key-words">
-                              <li>NEW</li>
-                              <li>화상상담</li>
-                              <li>아이폰</li>
-                              <li>LX지인</li>
-                              <li>야간무인</li>
-                            </ul>
-                          </div>
-                          <p class="info-txt">
-                            서울특별시 강남구 도산대로 403 (청담동 86-1)
-                          </p>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="shop-box">
-                          <div class="name-area">
-                            <p class="shop-name">강남 본점</p>
-                            <ul class="key-words">
-                              <li>NEW</li>
-                              <li>화상상담</li>
-                              <li>아이폰</li>
-                              <li>LX지인</li>
-                              <li>야간무인</li>
-                            </ul>
-                          </div>
-                          <p class="info-txt">
-                            서울특별시 강남구 도산대로 403 (청담동 86-1)
-                          </p>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="shop-box">
-                          <div class="name-area">
-                            <p class="shop-name">강남 본점</p>
-                            <ul class="key-words">
-                              <li>NEW</li>
-                              <li>화상상담</li>
-                              <li>아이폰</li>
-                              <li>LX지인</li>
-                              <li>야간무인</li>
-                            </ul>
-                          </div>
-                          <p class="info-txt">
-                            서울특별시 강남구 도산대로 403 (청담동 86-1)
-                          </p>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="shop-box">
-                          <div class="name-area">
-                            <p class="shop-name">강남 본점</p>
-                            <ul class="key-words">
-                              <li>NEW</li>
-                              <li>화상상담</li>
-                              <li>아이폰</li>
-                              <li>LX지인</li>
-                              <li>야간무인</li>
-                            </ul>
-                          </div>
-                          <p class="info-txt">
-                            서울특별시 강남구 도산대로 403 (청담동 86-1)
-                          </p>
+                        <div class="select-box">
+                          <select title="구 선택">
+                            <option value="">선택</option>
+                            <option value="">강남구</option>
+                          </select> 
                         </div>
                       </li>
                     </ul>
                   </div>
-                </div>
-              </div>
+
+                  <!-- api 영역 -->
+                  <div class="api-area">
+                    <img src="../../images/@img-map.png" alt="지도 임시이미지">
+                  </div>
+                  <!-- // api 영역 -->
+                </div><!-- //.map-wrap -->
+              </div><!-- //.sort-block -->
             </div>
 
             <div class="bottom-area">
@@ -890,9 +893,7 @@
                   <div class="mo-top">
                     <p class="mo-tit">예약일 선택</p>
                   </div>
-                  <div class="cal-cont">
-
-                  </div>
+                  <div id="calendar" class="cal-cont"></div> <!-- #calendar 로 달력호출 -->
                 </div>
                 <div class="time active"><!-- active 클래스 추가(mo) -->
                   <div class="mo-top">
@@ -1052,7 +1053,7 @@
                     <ul class="acco-type">
                       <li>
                         <div class="check-box">
-                          <input type="checkbox" name="agr-all" id="agr-all">
+                          <input type="checkbox" name="agr-all" id="agr-all" class="agr-all">
                           <label for="agr-all">
                             <span class="name">모두 동의</span>
                           </label>
@@ -1176,7 +1177,7 @@
     </div>
 
     <!-- 하단바 -->
-    <div class="bottom-fixed-wrap"><!-- active 클래스 추가 -->
+    <div class="bottom-fixed-wrap active"><!-- active 클래스 추가 -->
       <div class="dimmed"></div>
       <div class="bar-wrap">
         <div class="head-area">
@@ -1302,130 +1303,64 @@
     });
 
     // step 2 지도/리스트 보기 버튼
-    var mapBtn = $('.res-main .step-area.step02 .view-area .sort-area button.view-map');
-    var listBtn = $('.res-main .step-area.step02 .view-area .sort-area button.view-list');
-    var mapWrap = $('.res-main .step-area.step02 .view-area .map-wrap');
-    var listWrap = $('.res-main .step-area.step02 .view-area .list-wrap');
-    
-    listBtn.on('click',function(){
-      if($(this).hasClass('active')) {
-        $(this).removeClass('active');
-        mapBtn.addClass('active');
-        mapWrap.removeClass('active');
-        listWrap.addClass('active');
-      }
-    });
-    mapBtn.on('click',function(){
-      if($(this).hasClass('active')) {
-        $(this).removeClass('active');
-        listBtn.addClass('active');
-        listWrap.removeClass('active');
-        mapWrap.addClass('active');
-      }
-    });
-
-    // step 2 예약일 선택 / 예약시간 선택
-    var calendar = $('.res-main .step-area.step02 .bottom-area .date-wrap .calendar .mo-top');
-    var time = $('.res-main .step-area.step02 .bottom-area .date-wrap .time .mo-top');
-    calendar.next('.cal-cont').show();
-    time.next('.time-cont').show();
-
-    function dateSelect(){
-      if($(window).width() < 768) {
-        calendar.on('click',function(){
-          if($(this).parent().hasClass('active')) {
-            $(this).parent().removeClass('active');
-            $(this).next('.cal-cont').stop().slideUp();
-          } else {
-            $(this).parent().addClass('active');
-            $(this).next('.cal-cont').stop().slideDown();
-          }
+    for(i = 1; i<5; i++) {
+      (function(i2){
+        $('.sort-area button:nth-child('+ i2 +')').click(function(){
+          $('.sort-area button').addClass('active');
+          $('.sort-block > div').removeClass('active');
+          $(this).removeClass('active')
+          $('.sort-block > div:nth-child('+ i2 +')').addClass('active');
         });
-        time.on('click',function(){
-          if($(this).parent().hasClass('active')) {
-            $(this).parent().removeClass('active');
-            $(this).next('.time-cont').stop().slideUp();
-          } else {
-            $(this).parent().addClass('active');
-            $(this).next('.time-cont').stop().slideDown();
-          }
-        });
-      } else {
-        calendar.next('.cal-cont').show();
-        time.next('.time-cont').show();
-      }
+      })(i);
     }
-    dateSelect();
 
-    // step 2 약관 더보기 버튼
-    var agrBtn = $('.res-main .step-area.step03 .user-info-area .input-area ul.acco-type .check-box .agr-more');
-    var agrTxt = $('.res-main .step-area.step03 .user-info-area .input-area ul.acco-type .check-box .agr-txt-wrap');
+     // step 2 예약일 선택 / 예약시간 선택
+     $('.date-wrap .mo-top').next('div').show();
+    if($(window).width() < 768) {
+      $('.date-wrap .mo-tit').on('click',function(){
+        $(this).parent().parent('div').toggleClass('active');
+        $(this).closest('.mo-top').next('div').slideToggle(200);
+      });
+    }
 
-    agrBtn.on('click',function(){
-      if($(this).hasClass('active')) {
-        $(this).removeClass('active');
-        $(this).siblings(agrTxt).removeClass('active');
-      } else {
-        $(this).addClass('active');
-        $(this).siblings(agrTxt).addClass('active');
-      }
+    // step 2 약관
+    $(function(){
+      // step 2 약관 > 더보기 버튼
+      $('.check-box .agr-more').on('click',function(){
+        $(this).toggleClass('active').siblings('.agr-txt-wrap').slideToggle(200);
+      });
+      // step 2 약관 > 모두 동의
+      $(".agr-all").click(function(){
+        if($(".agr-all").prop("checked")){
+          $(".acco-type input[type='checkbox']").prop("checked",true);
+        } else{
+          $(".acco-type input[type='checkbox']").prop("checked",false);
+        }
+      });
     });
 
-    // step 2 약관 모두 동의
-    $("#agr-all").click(function(){
-      if($("#agr-all").prop("checked")){
-        $("input[name=agr-required]").prop("checked",true);
-        $("input[name=agr-optional]").prop("checked",true);
-      } else{
-        $("input[name=agr-required]").prop("checked",false);
-        $("input[name=agr-optional]").prop("checked",false);
-      }
-    })
-
-    // 하단바 영역
-    $('.bottom-fixed-wrap .bar-wrap .head-area').on('click',function(){
-      if($(this).parent().parent().hasClass('active')) {
-        $(this).parent().parent().removeClass('active');
-        $(this).next('.body-area').stop().slideUp();
-        $('.bottom-fixed-wrap .dimmed').fadeOut();
-        $('html').removeClass('scroll-fixed');
-      } else {
-        $(this).parent().parent().addClass('active');
-        $(this).next('.body-area').stop().slideDown();
-        $('.bottom-fixed-wrap .dimmed').fadeIn();
-        $('html').addClass('scroll-fixed');
-      }
-    })
+    // 모바일 하단바 영역
+    $('.bar-wrap .head-area').on('click',function(){
+      $('html').toggleClass('scroll-fixed');
+      $(this).closest('.bottom-fixed-wrap').toggleClass('active');
+      $('.body-area').stop().slideToggle();
+      $('.bottom-fixed-wrap .dimmed').stop().fadeToggle(200);
+    });
 
     // 휴대폰 인증 팝업
-    $('.res-main .btn-area .btn-res').on('click',function(){
-      $('.res-visit.popup-area').fadeIn().addClass('active');
-      $('.res-visit.popup-area .dimmed').fadeIn();
-      $('html').addClass('scroll-fixed');
-    })
-    $('.res-visit.popup-area .popup-wrap .head-area .btn-close').on('click',function(){
-      if($('.res-visit.popup-area').hasClass('active')) {
-        $('.res-visit.popup-area').fadeOut().removeClass('active');
-        $('.res-visit.popup-area .dimmed').fadeOut();
-        $('html').removeClass('scroll-fixed');
-      } else {
-        $('.res-visit.popup-area').fadeIn().addClass('active');
-        $('.res-visit.popup-area .dimmed').fadeIn();
-        $('html').addClass('scroll-fixed');
-      }
-    })
-    $('.res-visit.popup-area .popup-wrap .foot-area .btn-cancle').on('click',function(){
-      if($('.res-visit.popup-area').hasClass('active')) {
-        $('.res-visit.popup-area').fadeOut().removeClass('active');
-        $('.res-visit.popup-area .dimmed').fadeOut();
-        $('html').removeClass('scroll-fixed');
-      } else {
-        $('.res-visit.popup-area').fadeIn().addClass('active');
-        $('.res-visit.popup-area .dimmed').fadeIn();
-        $('html').addClass('scroll-fixed');
-      }
-    })
+    $(function(){
+      var openPop = $('.btn-area .btn-res'),
+          closePop = $('.head-area .btn-close, .btn-area .btn-cancle, .res-visit.popup-area .dimmed');
 
+      openPop.on('click',function(){
+        $('.res-visit.popup-area, .res-visit.popup-area .dimmed').stop().fadeIn(200);
+        $('html').addClass('scroll-fixed');
+      });
+      closePop.on('click',function(){
+        $('.res-visit.popup-area, .res-visit.popup-area .dimmed').stop().fadeOut(200);
+        $('html').removeClass('scroll-fixed');
+      });
+    });
   });
 </script>
 <jsp:include page="../../templates/common/footer.jsp" />
