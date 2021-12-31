@@ -310,7 +310,7 @@
 /* step 3 */
 .res-main .step-area.step03 .user-info-area::after {content:''; display:block; clear:both}
 .res-main .step-area.step03 .user-info-area .lt {float:left; width:40%; max-width:540px}
-.res-main .step-area.step03 .user-info-area .rt {float:right; width:60%; max-width:808px; margin-left:32px}
+.res-main .step-area.step03 .user-info-area .rt {float:right; width:60%; max-width:808px; padding-left:32px}
 
 .res-main .step-area.step03 .user-info-area .input-area ul.box-type {flex-direction:column; height:348px; padding:60px; border-radius:8px; background-color:#f4f4f4}
 .res-main .step-area.step03 .user-info-area .input-area ul.box-type > li + li {margin-top:50px}
@@ -526,7 +526,7 @@
   .res-main .step-area.step02 .date-wrap .input-area > .base-type .radio-btn.btn-type2 label {border-radius:4px}
 
   .res-main .step-area.step03 .user-info-area .lt {float:none; width:100%; max-width:100%}
-  .res-main .step-area.step03 .user-info-area .rt {float:none; width:100%; margin-left:0; margin-top:12px}
+  .res-main .step-area.step03 .user-info-area .rt {float:none; width:100%; padding-left:0; margin-top:12px}
   .res-main .step-area.step03 .user-info-area .input-area ul.box-type {height:248px; padding:25px}
   .res-main .step-area.step03 .user-info-area .input-area ul.box-type > li + li {margin-top:30px}
   .res-main .step-area.step03 .user-info-area .input-area ul.box-type .tit {font-size:14px; line-height:22px}
@@ -796,7 +796,7 @@
 .res-main.care .prd-list-area > ul {display:flex; flex-wrap:wrap; width:calc(100% + 24px); margin:18px 0 0 -12px}
 .res-main.care .prd-list-area > ul > .item {width:25%; padding:12px}
 .res-main.care .prd-list-area > ul > .item .box {padding:12px 40px 40px; border-radius:8px; box-shadow:2px 4px 16px 0 rgba(0, 0, 0, 0.14); overflow:hidden}
-.res-main.care .prd-list-area > ul > .item .box .img-wrap {width:226px; height:226px; margin:0 auto}
+.res-main.care .prd-list-area > ul > .item .box .img-wrap {width:100%; max-width:226px; height:226px; margin:0 auto}
 .res-main.care .prd-list-area > ul > .item .box .img-wrap > img {display:block; width:100%}
 .res-main.care .prd-list-area > ul > .item .box .tit-wrap {height:80px; margin-top:16px}
 .res-main.care .prd-list-area > ul > .item .box .tit-wrap .tit {font-size:18px; font-weight:bold; line-height:28px}
@@ -857,7 +857,7 @@
   .res-main.care .service-detail-area > ul > li {width:100%!important; margin:0}
   .res-main.care .service-detail-area > ul > li + li {margin-top:34px}
   .res-main.care .service-detail-area > ul > li .icon-wrap {width:75px; height:75px}
-  .res-main.care .service-detail-area > ul > li .desc-wrap {margin-left:12px}
+  .res-main.care .service-detail-area > ul > li .desc-wrap {width:calc(100% - 87px); margin-left:12px}
   .res-main.care .service-detail-area > ul > li .desc-wrap dl dt {font-size:14px; line-height:22px}
   .res-main.care .service-detail-area > ul > li .desc-wrap dl dd {font-size:14px; line-height:22px}
   .res-main.care .service-detail-area > ul > li .desc-wrap dl dd em {margin-top:6px}
@@ -867,7 +867,7 @@
   .res-main.care .prd-list-area > ul > .item {width:100%; padding:0}
   .res-main.care .prd-list-area > ul > .item + .item {margin-top:12px}
   .res-main.care .prd-list-area > ul > .item .box {padding:12px 36px 32px}
-  .res-main.care .prd-list-area > ul > .item .box .img-wrap {width:232px; height:232px}
+  .res-main.care .prd-list-area > ul > .item .box .img-wrap {max-width:232px; height:232px}
   .res-main.care .prd-list-area > ul > .item .box .tit-wrap {margin-top:8px}
   .res-main.care .prd-list-area > ul > .item .box .tit-wrap .code {margin-top:2px}
   .res-main.care .prd-list-area > ul > .item .box .info-wrap .opt-info .select-box .select-tit {font-size:13px; line-height:46px}
