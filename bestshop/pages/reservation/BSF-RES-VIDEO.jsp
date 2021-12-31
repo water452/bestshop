@@ -532,456 +532,460 @@
         <!-- step 2 -->
         <div class="step-area step02 active"><!-- active 클래스 추가 -->
           <div class="main-area active"><!-- active 클래스 추가 -->
-            <div class="view-area">
-              <div class="tit-area">
-                <h4 class="step-tit">상담하실 매장과 상담일시 선택<sup>*</sup></h4>
-                <em>*화상 상담이 가능한 매장만 조회됩니다.</em>
-              </div>
-              <div class="sort-area">
-                <button type="button" class="view-list active">리스트보기</button><!-- active 클래스 추가 -->
-                <button type="button" class="view-map">지도보기</button>
-              </div>
+            
+            <div class="shop-date-wrap">
+              <div class="view-area">
+                <div class="tit-area">
+                  <h4 class="step-tit">상담하실 매장과 상담일시 선택<sup>*</sup></h4>
+                  <em>*화상 상담이 가능한 매장만 조회됩니다.</em>
+                </div>
+                <div class="sort-area">
+                  <button type="button" class="view-list active">리스트보기</button><!-- active 클래스 추가 -->
+                  <button type="button" class="view-map">지도보기</button>
+                </div>
 
-              <div class="sort-block">
-                <!-- 리스트 보기 영역 -->
-                <div class="list-wrap"><!-- active 클래스 추가 -->
-                  <div class="search-wrap">
-                    <form action="#">
-                      <div class="input-area">
-                        <div class="search-box">
-                          <input type="search" placeholder="매장명을 검색해주세요.">
-                          <button type="button" class="btn-search"><span class="blind">검색하기</span></button>
+                <div class="sort-block">
+                  <!-- 리스트 보기 영역 -->
+                  <div class="list-wrap"><!-- active 클래스 추가 -->
+                    <div class="search-wrap">
+                      <form action="#">
+                        <div class="input-area">
+                          <div class="search-box">
+                            <input type="search" placeholder="매장명을 검색해주세요.">
+                            <button type="button" class="btn-search"><span class="blind">검색하기</span></button>
+                          </div>
                         </div>
-                      </div>
-                    </form>
-                  </div>
-                  <div class="view-wrap">
-                    <div class="lt">
-                      <ul>
-                        <li>
-                          <button type="button" class="btn-city">전체<span>530</span></button>
-                        </li>
-                        <li>
-                          <button type="button" class="btn-city active">서울특별시<span>7</span></button><!-- active 클래스 추가 -->
-                        </li>
-                        <li>
-                          <button type="button" class="btn-city">부산광역시<span>38</span></button>
-                        </li>
-                        <li>
-                          <button type="button" class="btn-city">대구광역시<span>32</span></button>
-                        </li>
-                        <li>
-                          <button type="button" class="btn-city">인천광역시<span>56</span></button>
-                        </li>
-                        <li>
-                          <button type="button" class="btn-city">광주광역시<span>72</span></button>
-                        </li>
-                        <li>
-                          <button type="button" class="btn-city">대전광역시<span>65</span></button>
-                        </li>
-                        <li>
-                          <button type="button" class="btn-city">울산광역시<span>79</span></button>
-                        </li>
-                        <li>
-                          <button type="button" class="btn-city">세종특별자치시청<span>5</span></button>
-                        </li>
-                        <li>
-                          <button type="button" class="btn-city">부산광역시<span>38</span></button>
-                        </li>
-                        <li>
-                          <button type="button" class="btn-city">대구광역시<span>32</span></button>
-                        </li>
-                        <li>
-                          <button type="button" class="btn-city">인천광역시<span>56</span></button>
-                        </li>
-                        <li>
-                          <button type="button" class="btn-city">광주광역시<span>72</span></button>
-                        </li>
-                        <li>
-                          <button type="button" class="btn-city">대전광역시<span>65</span></button>
-                        </li>
-                        <li>
-                          <button type="button" class="btn-city">울산광역시<span>79</span></button>
-                        </li>
-                        <li>
-                          <button type="button" class="btn-city">세종특별자치시청<span>5</span></button>
-                        </li>
-                      </ul>
+                      </form>
                     </div>
-                    <div class="mo-select">
-                      <div class="input-area">
-                        <div class="select-box">
-                          <select title="시/도 선택">
-                            <option value="">선택</option>
-                            <option value="">서울특별시</option>
-                          </select> 
-                        </div>
-                      </div>
-                    </div>
-                    <div class="rt">
-                      <ul>
-                        <li>
-                          <div class="shop-box">
-                            <div class="name-area">
-                              <p class="shop-name">강남 본점</p>
-                              <ul class="key-words">
-                                <li>NEW</li>
-                                <li>화상상담</li>
-                                <li>아이폰</li>
-                                <li>LX지인</li>
-                                <li>야간무인</li>
-                              </ul>
-                            </div>
-                            <p class="info-txt">
-                              서울특별시 강남구 도산대로 403 (청담동 86-1)
-                            </p>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="shop-box">
-                            <div class="name-area">
-                              <p class="shop-name">강남 본점</p>
-                              <ul class="key-words">
-                                <li>NEW</li>
-                                <li>화상상담</li>
-                                <li>아이폰</li>
-                                <li>LX지인</li>
-                                <li>야간무인</li>
-                              </ul>
-                            </div>
-                            <p class="info-txt">
-                              서울특별시 강남구 도산대로 403 (청담동 86-1)
-                            </p>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="shop-box">
-                            <div class="name-area">
-                              <p class="shop-name">강남 본점</p>
-                              <ul class="key-words">
-                                <li>NEW</li>
-                                <li>화상상담</li>
-                                <li>아이폰</li>
-                                <li>LX지인</li>
-                                <li>야간무인</li>
-                              </ul>
-                            </div>
-                            <p class="info-txt">
-                              서울특별시 강남구 도산대로 403 (청담동 86-1)
-                            </p>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="shop-box">
-                            <div class="name-area">
-                              <p class="shop-name">강남 본점</p>
-                              <ul class="key-words">
-                                <li>NEW</li>
-                                <li>화상상담</li>
-                                <li>아이폰</li>
-                                <li>LX지인</li>
-                                <li>야간무인</li>
-                              </ul>
-                            </div>
-                            <p class="info-txt">
-                              서울특별시 강남구 도산대로 403 (청담동 86-1)
-                            </p>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="shop-box">
-                            <div class="name-area">
-                              <p class="shop-name">강남 본점</p>
-                              <ul class="key-words">
-                                <li>NEW</li>
-                                <li>화상상담</li>
-                                <li>아이폰</li>
-                                <li>LX지인</li>
-                                <li>야간무인</li>
-                              </ul>
-                            </div>
-                            <p class="info-txt">
-                              서울특별시 강남구 도산대로 403 (청담동 86-1)
-                            </p>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="shop-box">
-                            <div class="name-area">
-                              <p class="shop-name">강남 본점</p>
-                              <ul class="key-words">
-                                <li>NEW</li>
-                                <li>화상상담</li>
-                                <li>아이폰</li>
-                                <li>LX지인</li>
-                                <li>야간무인</li>
-                              </ul>
-                            </div>
-                            <p class="info-txt">
-                              서울특별시 강남구 도산대로 403 (청담동 86-1)
-                            </p>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="shop-box">
-                            <div class="name-area">
-                              <p class="shop-name">강남 본점</p>
-                              <ul class="key-words">
-                                <li>NEW</li>
-                                <li>화상상담</li>
-                                <li>아이폰</li>
-                                <li>LX지인</li>
-                                <li>야간무인</li>
-                              </ul>
-                            </div>
-                            <p class="info-txt">
-                              서울특별시 강남구 도산대로 403 (청담동 86-1)
-                            </p>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="shop-box">
-                            <div class="name-area">
-                              <p class="shop-name">강남 본점</p>
-                              <ul class="key-words">
-                                <li>NEW</li>
-                                <li>화상상담</li>
-                                <li>아이폰</li>
-                                <li>LX지인</li>
-                                <li>야간무인</li>
-                              </ul>
-                            </div>
-                            <p class="info-txt">
-                              서울특별시 강남구 도산대로 403 (청담동 86-1)
-                            </p>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="shop-box">
-                            <div class="name-area">
-                              <p class="shop-name">강남 본점</p>
-                              <ul class="key-words">
-                                <li>NEW</li>
-                                <li>화상상담</li>
-                                <li>아이폰</li>
-                                <li>LX지인</li>
-                                <li>야간무인</li>
-                              </ul>
-                            </div>
-                            <p class="info-txt">
-                              서울특별시 강남구 도산대로 403 (청담동 86-1)
-                            </p>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="shop-box">
-                            <div class="name-area">
-                              <p class="shop-name">강남 본점</p>
-                              <ul class="key-words">
-                                <li>NEW</li>
-                                <li>화상상담</li>
-                                <li>아이폰</li>
-                                <li>LX지인</li>
-                                <li>야간무인</li>
-                              </ul>
-                            </div>
-                            <p class="info-txt">
-                              서울특별시 강남구 도산대로 403 (청담동 86-1)
-                            </p>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="shop-box">
-                            <div class="name-area">
-                              <p class="shop-name">강남 본점</p>
-                              <ul class="key-words">
-                                <li>NEW</li>
-                                <li>화상상담</li>
-                                <li>아이폰</li>
-                                <li>LX지인</li>
-                                <li>야간무인</li>
-                              </ul>
-                            </div>
-                            <p class="info-txt">
-                              서울특별시 강남구 도산대로 403 (청담동 86-1)
-                            </p>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div><!-- //.list-wrap -->
-
-                <!-- 지도보기 영역 -->
-                <div class="map-wrap active"><!-- active 클래스 추가 -->
-                  <div class="input-area">
-                    <ul>
-                      <li>
-                        <div class="select-box">
-                          <select title="시/도 선택">
-                            <option value="">선택</option>
-                            <option value="">서울특별시</option>
-                          </select> 
-                        </div>
-                      </li>
-                      <li>
-                        <div class="select-box">
-                          <select title="구 선택">
-                            <option value="">선택</option>
-                            <option value="">강남구</option>
-                          </select> 
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-
-                  <!-- api 영역 -->
-                  <div class="api-area">
-                    <img src="../../images/@img-map.png" alt="지도 임시이미지">
-                  </div>
-                  <!-- // api 영역 -->
-                </div><!-- //.map-wrap -->
-              </div><!-- //.sort-block -->
-            </div>
-
-            <div class="bottom-area">
-              <div class="shop-info-wrap">
-                <div class="box">
-                  <div class="top-area">
-                    <p class="shop-name">강남 본점</p>
-                    <ul class="key-words">
-                      <li>NEW</li>
-                      <li>화상상담</li>
-                      <li>아이폰</li>
-                      <li>LX지인</li>
-                      <li>야간무인</li>
-                    </ul>
-                  </div>
-                  <div class="info-area">
-                    <dl>
-                      <dt>주소</dt>
-                      <dd>서울 특별시 강남구 도산대로 403 (청담동 86-1)<br>LG전자 베스트샵 강남본점</dd>
-                    </dl>
-                    <dl>
-                      <dt>전화번호</dt>
-                      <dd>02-3448-5191</dd>
-                    </dl>
-                    <dl>
-                      <dt>영업시간</dt>
-                      <dd>
+                    <div class="view-wrap">
+                      <div class="lt">
                         <ul>
                           <li>
-                            <span>평&nbsp;&nbsp;&nbsp;&nbsp;일</span>
-                            <span>10:30 - 20:30</span>
+                            <button type="button" class="btn-city">전체<span>530</span></button>
                           </li>
                           <li>
-                            <span>토요일</span>
-                            <span>10:30 - 20:30</span>
+                            <button type="button" class="btn-city active">서울특별시<span>7</span></button><!-- active 클래스 추가 -->
                           </li>
                           <li>
-                            <span>일요일</span>
-                            <span>11:00 - 20:30</span>
+                            <button type="button" class="btn-city">부산광역시<span>38</span></button>
+                          </li>
+                          <li>
+                            <button type="button" class="btn-city">대구광역시<span>32</span></button>
+                          </li>
+                          <li>
+                            <button type="button" class="btn-city">인천광역시<span>56</span></button>
+                          </li>
+                          <li>
+                            <button type="button" class="btn-city">광주광역시<span>72</span></button>
+                          </li>
+                          <li>
+                            <button type="button" class="btn-city">대전광역시<span>65</span></button>
+                          </li>
+                          <li>
+                            <button type="button" class="btn-city">울산광역시<span>79</span></button>
+                          </li>
+                          <li>
+                            <button type="button" class="btn-city">세종특별자치시청<span>5</span></button>
+                          </li>
+                          <li>
+                            <button type="button" class="btn-city">부산광역시<span>38</span></button>
+                          </li>
+                          <li>
+                            <button type="button" class="btn-city">대구광역시<span>32</span></button>
+                          </li>
+                          <li>
+                            <button type="button" class="btn-city">인천광역시<span>56</span></button>
+                          </li>
+                          <li>
+                            <button type="button" class="btn-city">광주광역시<span>72</span></button>
+                          </li>
+                          <li>
+                            <button type="button" class="btn-city">대전광역시<span>65</span></button>
+                          </li>
+                          <li>
+                            <button type="button" class="btn-city">울산광역시<span>79</span></button>
+                          </li>
+                          <li>
+                            <button type="button" class="btn-city">세종특별자치시청<span>5</span></button>
                           </li>
                         </ul>
-                      </dd>
-                    </dl>
-                  </div>
-                </div>
-              </div>
-              <div class="date-wrap">
-                <div class="calendar active"><!-- active 클래스 추가(mo) -->
-                  <div class="mo-top">
-                    <p class="mo-tit">예약일 선택</p>
-                  </div>
-                  <div id="calendar" class="cal-cont"></div> <!-- #calendar 로 달력호출 -->
-                </div>
-                <div class="time active"><!-- active 클래스 추가(mo) -->
-                  <div class="mo-top">
-                    <p class="mo-tit">예약시간 선택</p>
-                  </div>
-                  <div class="time-cont">
-                    <form action="#">
-                      <div class="input-area">
+                      </div>
+                      <div class="mo-select">
+                        <div class="input-area">
+                          <div class="select-box">
+                            <select title="시/도 선택">
+                              <option value="">선택</option>
+                              <option value="">서울특별시</option>
+                            </select> 
+                          </div>
+                        </div>
+                      </div>
+                      <div class="rt">
                         <ul>
                           <li>
-                            <div class="radio-btn btn-type2">
-                              <input type="radio" id="am11" name="time">
-                              <label for="am11">
-                                <span class="name">11시</span>
-                              </label>
+                            <div class="shop-box">
+                              <div class="name-area">
+                                <p class="shop-name">강남 본점</p>
+                                <ul class="key-words">
+                                  <li>NEW</li>
+                                  <li>화상상담</li>
+                                  <li>아이폰</li>
+                                  <li>LX지인</li>
+                                  <li>야간무인</li>
+                                </ul>
+                              </div>
+                              <p class="info-txt">
+                                서울특별시 강남구 도산대로 403 (청담동 86-1)
+                              </p>
                             </div>
                           </li>
                           <li>
-                            <div class="radio-btn btn-type2">
-                              <input type="radio" id="pm12" name="time">
-                              <label for="pm12">
-                                <span class="name">12시</span>
-                              </label>
+                            <div class="shop-box">
+                              <div class="name-area">
+                                <p class="shop-name">강남 본점</p>
+                                <ul class="key-words">
+                                  <li>NEW</li>
+                                  <li>화상상담</li>
+                                  <li>아이폰</li>
+                                  <li>LX지인</li>
+                                  <li>야간무인</li>
+                                </ul>
+                              </div>
+                              <p class="info-txt">
+                                서울특별시 강남구 도산대로 403 (청담동 86-1)
+                              </p>
                             </div>
                           </li>
                           <li>
-                            <div class="radio-btn btn-type2">
-                              <input type="radio" id="pm13" name="time">
-                              <label for="pm13">
-                                <span class="name">13시</span>
-                              </label>
+                            <div class="shop-box">
+                              <div class="name-area">
+                                <p class="shop-name">강남 본점</p>
+                                <ul class="key-words">
+                                  <li>NEW</li>
+                                  <li>화상상담</li>
+                                  <li>아이폰</li>
+                                  <li>LX지인</li>
+                                  <li>야간무인</li>
+                                </ul>
+                              </div>
+                              <p class="info-txt">
+                                서울특별시 강남구 도산대로 403 (청담동 86-1)
+                              </p>
                             </div>
                           </li>
                           <li>
-                            <div class="radio-btn btn-type2">
-                              <input type="radio" id="pm14" name="time">
-                              <label for="pm14">
-                                <span class="name">14시</span>
-                              </label>
+                            <div class="shop-box">
+                              <div class="name-area">
+                                <p class="shop-name">강남 본점</p>
+                                <ul class="key-words">
+                                  <li>NEW</li>
+                                  <li>화상상담</li>
+                                  <li>아이폰</li>
+                                  <li>LX지인</li>
+                                  <li>야간무인</li>
+                                </ul>
+                              </div>
+                              <p class="info-txt">
+                                서울특별시 강남구 도산대로 403 (청담동 86-1)
+                              </p>
                             </div>
                           </li>
                           <li>
-                            <div class="radio-btn btn-type2">
-                              <input type="radio" id="pm15" name="time">
-                              <label for="pm15">
-                                <span class="name">15시</span>
-                              </label>
+                            <div class="shop-box">
+                              <div class="name-area">
+                                <p class="shop-name">강남 본점</p>
+                                <ul class="key-words">
+                                  <li>NEW</li>
+                                  <li>화상상담</li>
+                                  <li>아이폰</li>
+                                  <li>LX지인</li>
+                                  <li>야간무인</li>
+                                </ul>
+                              </div>
+                              <p class="info-txt">
+                                서울특별시 강남구 도산대로 403 (청담동 86-1)
+                              </p>
                             </div>
                           </li>
                           <li>
-                            <div class="radio-btn btn-type2">
-                              <input type="radio" id="pm16" name="time">
-                              <label for="pm16">
-                                <span class="name">16시</span>
-                              </label>
+                            <div class="shop-box">
+                              <div class="name-area">
+                                <p class="shop-name">강남 본점</p>
+                                <ul class="key-words">
+                                  <li>NEW</li>
+                                  <li>화상상담</li>
+                                  <li>아이폰</li>
+                                  <li>LX지인</li>
+                                  <li>야간무인</li>
+                                </ul>
+                              </div>
+                              <p class="info-txt">
+                                서울특별시 강남구 도산대로 403 (청담동 86-1)
+                              </p>
                             </div>
                           </li>
                           <li>
-                            <div class="radio-btn btn-type2">
-                              <input type="radio" id="pm17" name="time">
-                              <label for="pm17">
-                                <span class="name">17시</span>
-                              </label>
+                            <div class="shop-box">
+                              <div class="name-area">
+                                <p class="shop-name">강남 본점</p>
+                                <ul class="key-words">
+                                  <li>NEW</li>
+                                  <li>화상상담</li>
+                                  <li>아이폰</li>
+                                  <li>LX지인</li>
+                                  <li>야간무인</li>
+                                </ul>
+                              </div>
+                              <p class="info-txt">
+                                서울특별시 강남구 도산대로 403 (청담동 86-1)
+                              </p>
                             </div>
                           </li>
                           <li>
-                            <div class="radio-btn btn-type2">
-                              <input type="radio" id="pm18" name="time">
-                              <label for="pm18">
-                                <span class="name">18시</span>
-                              </label>
+                            <div class="shop-box">
+                              <div class="name-area">
+                                <p class="shop-name">강남 본점</p>
+                                <ul class="key-words">
+                                  <li>NEW</li>
+                                  <li>화상상담</li>
+                                  <li>아이폰</li>
+                                  <li>LX지인</li>
+                                  <li>야간무인</li>
+                                </ul>
+                              </div>
+                              <p class="info-txt">
+                                서울특별시 강남구 도산대로 403 (청담동 86-1)
+                              </p>
                             </div>
                           </li>
                           <li>
-                            <div class="radio-btn btn-type2">
-                              <input type="radio" id="pm19" name="time">
-                              <label for="pm19">
-                                <span class="name">19시</span>
-                              </label>
+                            <div class="shop-box">
+                              <div class="name-area">
+                                <p class="shop-name">강남 본점</p>
+                                <ul class="key-words">
+                                  <li>NEW</li>
+                                  <li>화상상담</li>
+                                  <li>아이폰</li>
+                                  <li>LX지인</li>
+                                  <li>야간무인</li>
+                                </ul>
+                              </div>
+                              <p class="info-txt">
+                                서울특별시 강남구 도산대로 403 (청담동 86-1)
+                              </p>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="shop-box">
+                              <div class="name-area">
+                                <p class="shop-name">강남 본점</p>
+                                <ul class="key-words">
+                                  <li>NEW</li>
+                                  <li>화상상담</li>
+                                  <li>아이폰</li>
+                                  <li>LX지인</li>
+                                  <li>야간무인</li>
+                                </ul>
+                              </div>
+                              <p class="info-txt">
+                                서울특별시 강남구 도산대로 403 (청담동 86-1)
+                              </p>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="shop-box">
+                              <div class="name-area">
+                                <p class="shop-name">강남 본점</p>
+                                <ul class="key-words">
+                                  <li>NEW</li>
+                                  <li>화상상담</li>
+                                  <li>아이폰</li>
+                                  <li>LX지인</li>
+                                  <li>야간무인</li>
+                                </ul>
+                              </div>
+                              <p class="info-txt">
+                                서울특별시 강남구 도산대로 403 (청담동 86-1)
+                              </p>
                             </div>
                           </li>
                         </ul>
                       </div>
-                    </form>
+                    </div>
+                  </div><!-- //.list-wrap -->
+
+                  <!-- 지도보기 영역 -->
+                  <div class="map-wrap active"><!-- active 클래스 추가 -->
+                    <div class="input-area">
+                      <ul>
+                        <li>
+                          <div class="select-box">
+                            <select title="시/도 선택">
+                              <option value="">선택</option>
+                              <option value="">서울특별시</option>
+                            </select> 
+                          </div>
+                        </li>
+                        <li>
+                          <div class="select-box">
+                            <select title="구 선택">
+                              <option value="">선택</option>
+                              <option value="">강남구</option>
+                            </select> 
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <!-- api 영역 -->
+                    <div class="api-area">
+                      <img src="../../images/@img-map.png" alt="지도 임시이미지">
+                    </div>
+                    <!-- // api 영역 -->
+                  </div><!-- //.map-wrap -->
+                </div><!-- //.sort-block -->
+              </div>
+
+              <div class="bottom-area">
+                <div class="shop-info-wrap">
+                  <div class="box">
+                    <div class="top-area">
+                      <p class="shop-name">강남 본점</p>
+                      <ul class="key-words">
+                        <li>NEW</li>
+                        <li>화상상담</li>
+                        <li>아이폰</li>
+                        <li>LX지인</li>
+                        <li>야간무인</li>
+                      </ul>
+                    </div>
+                    <div class="info-area">
+                      <dl>
+                        <dt>주소</dt>
+                        <dd>서울 특별시 강남구 도산대로 403 (청담동 86-1)<br>LG전자 베스트샵 강남본점</dd>
+                      </dl>
+                      <dl>
+                        <dt>전화번호</dt>
+                        <dd>02-3448-5191</dd>
+                      </dl>
+                      <dl>
+                        <dt>영업시간</dt>
+                        <dd>
+                          <ul>
+                            <li>
+                              <span>평&nbsp;&nbsp;&nbsp;&nbsp;일</span>
+                              <span>10:30 - 20:30</span>
+                            </li>
+                            <li>
+                              <span>토요일</span>
+                              <span>10:30 - 20:30</span>
+                            </li>
+                            <li>
+                              <span>일요일</span>
+                              <span>11:00 - 20:30</span>
+                            </li>
+                          </ul>
+                        </dd>
+                      </dl>
+                    </div>
+                  </div>
+                </div>
+                <div class="date-wrap">
+                  <div class="calendar active"><!-- active 클래스 추가(mo) -->
+                    <div class="mo-top">
+                      <p class="mo-tit">예약일 선택</p>
+                    </div>
+                    <div id="calendar" class="cal-cont"></div> <!-- #calendar 로 달력호출 -->
+                  </div>
+                  <div class="time active"><!-- active 클래스 추가(mo) -->
+                    <div class="mo-top">
+                      <p class="mo-tit">예약시간 선택</p>
+                    </div>
+                    <div class="time-cont">
+                      <form action="#">
+                        <div class="input-area">
+                          <ul>
+                            <li>
+                              <div class="radio-btn btn-type2">
+                                <input type="radio" id="am11" name="time">
+                                <label for="am11">
+                                  <span class="name">11시</span>
+                                </label>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="radio-btn btn-type2">
+                                <input type="radio" id="pm12" name="time">
+                                <label for="pm12">
+                                  <span class="name">12시</span>
+                                </label>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="radio-btn btn-type2">
+                                <input type="radio" id="pm13" name="time">
+                                <label for="pm13">
+                                  <span class="name">13시</span>
+                                </label>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="radio-btn btn-type2">
+                                <input type="radio" id="pm14" name="time">
+                                <label for="pm14">
+                                  <span class="name">14시</span>
+                                </label>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="radio-btn btn-type2">
+                                <input type="radio" id="pm15" name="time">
+                                <label for="pm15">
+                                  <span class="name">15시</span>
+                                </label>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="radio-btn btn-type2">
+                                <input type="radio" id="pm16" name="time">
+                                <label for="pm16">
+                                  <span class="name">16시</span>
+                                </label>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="radio-btn btn-type2">
+                                <input type="radio" id="pm17" name="time">
+                                <label for="pm17">
+                                  <span class="name">17시</span>
+                                </label>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="radio-btn btn-type2">
+                                <input type="radio" id="pm18" name="time">
+                                <label for="pm18">
+                                  <span class="name">18시</span>
+                                </label>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="radio-btn btn-type2">
+                                <input type="radio" id="pm19" name="time">
+                                <label for="pm19">
+                                  <span class="name">19시</span>
+                                </label>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </form>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
+
           </div>
 
           <div class="btn-area bg active"><!-- active 클래스 추가 -->
@@ -1295,7 +1299,6 @@
     // 배너
     var resbanner01 = new Swiper(".res-banner-01", {
       spaceBetween: 40,
-      loop: true,
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",

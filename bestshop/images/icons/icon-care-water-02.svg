@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">
+    <defs>
+        <style>
+            .cls-1,.cls-2,.cls-3{fill:none}.cls-2,.cls-3{stroke:#000;stroke-width:2.5px}.cls-2{stroke-linecap:round;stroke-linejoin:round}.cls-5{stroke:none}
+        </style>
+    </defs>
+    <g id="icon_필터무상교체" transform="translate(-215 -72)">
+        <path id="bg" class="cls-1" transform="translate(215 72)" d="M0 0h96v96H0z"/>
+        <g id="그룹_12" data-name="그룹 12" transform="translate(-7)">
+            <g id="그룹_8" data-name="그룹 8">
+                <g id="사각형_4" data-name="사각형 4" class="cls-2" transform="translate(230 82)">
+                    <rect class="cls-5" width="60" height="18" rx="4"/>
+                    <rect class="cls-1" x="1.25" y="1.25" width="57.5" height="15.5" rx="2.75"/>
+                </g>
+                <path id="패스_11" data-name="패스 11" class="cls-3" d="M231.5 88h57.75" transform="translate(0 1)"/>
+                <path id="패스_12" data-name="패스 12" class="cls-3" d="M231.5 88h57.75" transform="translate(0 6)"/>
+            </g>
+            <g id="사각형_5" data-name="사각형 5" class="cls-3">
+                <path class="cls-5" d="M0 0h20v5H0z" transform="translate(235 97.5)"/>
+                <path class="cls-1" d="M1.25 1.25h17.5v2.5H1.25z" transform="translate(235 97.5)"/>
+            </g>
+            <g id="사각형_6" data-name="사각형 6" class="cls-3">
+                <path class="cls-5" d="M0 0h20v5H0z" transform="translate(264 97.5)"/>
+                <path class="cls-1" d="M1.25 1.25h17.5v2.5H1.25z" transform="translate(264 97.5)"/>
+            </g>
+            <g id="그룹_9" data-name="그룹 9">
+                <g id="사각형_7" data-name="사각형 7" class="cls-2" transform="translate(232 102)">
+                    <rect class="cls-5" width="26" height="18" rx="4"/>
+                    <rect class="cls-1" x="1.25" y="1.25" width="23.5" height="15.5" rx="2.75"/>
+                </g>
+                <path id="패스_13" data-name="패스 13" class="cls-3" d="M231.5 88h25" transform="translate(.5 26)"/>
+            </g>
+            <g id="그룹_10" data-name="그룹 10" transform="translate(30)">
+                <g id="사각형_7-2" data-name="사각형 7" class="cls-2" transform="translate(232 102)">
+                    <rect class="cls-5" width="26" height="18" rx="4"/>
+                    <rect class="cls-1" x="1.25" y="1.25" width="23.5" height="15.5" rx="2.75"/>
+                </g>
+                <path id="패스_13-2" data-name="패스 13" class="cls-3" d="M231.5 88h25" transform="translate(.5 26)"/>
+            </g>
+            <g id="사각형_8" data-name="사각형 8" class="cls-2">
+                <path class="cls-5" d="M0 0h22v30a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V0z" transform="translate(264 117.5)"/>
+                <path class="cls-1" d="M2.5 1.25h17a1.25 1.25 0 0 1 1.25 1.25V30A2.75 2.75 0 0 1 18 32.75H4A2.75 2.75 0 0 1 1.25 30V2.5A1.25 1.25 0 0 1 2.5 1.25z" transform="translate(264 117.5)"/>
+            </g>
+            <g id="사각형_9" data-name="사각형 9" class="cls-2">
+                <path class="cls-5" d="M0 0h22v30a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V0z" transform="translate(234 117.5)"/>
+                <path class="cls-1" d="M2.5 1.25h17a1.25 1.25 0 0 1 1.25 1.25V30A2.75 2.75 0 0 1 18 32.75H4A2.75 2.75 0 0 1 1.25 30V2.5A1.25 1.25 0 0 1 2.5 1.25z" transform="translate(234 117.5)"/>
+            </g>
+            <path id="패스_14" data-name="패스 14" class="cls-3" d="M231.5 88h20" transform="translate(3.5 45)"/>
+            <path id="패스_15" data-name="패스 15" class="cls-3" d="M231.5 88h20" transform="translate(2.5 58)"/>
+            <path id="패스_16" data-name="패스 16" class="cls-3" d="M231.5 88h20" transform="translate(35 45)"/>
+            <path id="패스_17" data-name="패스 17" class="cls-3" d="M231.5 88h20" transform="translate(35 58)"/>
+            <g id="그룹_11" data-name="그룹 11" transform="translate(-31 33)">
+                <g id="타원_9" data-name="타원 9" transform="translate(305 90)" style="fill:#fff;stroke:#000;stroke-width:2.5px">
+                    <circle class="cls-5" cx="18" cy="18" r="18"/>
+                    <circle class="cls-1" cx="18" cy="18" r="16.75"/>
+                </g>
+                <path id="패스_18" data-name="패스 18" class="cls-2" d="m308.905 136.076-13.38 13.706 2.817 2.885h-11.493v-12.746l3.783 3.875 5.583-5.719 3.307 3.387v-11.8h-12.673l2.895 2.965-12.839 13.151" transform="translate(30.095 -32.667)"/>
+            </g>
+        </g>
+    </g>
+</svg>
