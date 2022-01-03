@@ -539,7 +539,8 @@
   .res-main .step-area.step03 .user-info-area .input-area ul.acco-type .check-box label {padding-left:28px; font-size:14px; line-height:22px}
   .res-main .step-area.step03 .user-info-area .input-area ul.acco-type .check-box label::after {background-image:url(../images/icons/btn-checkbox-off-48-mo.svg)}
   .res-main .step-area.step03 .user-info-area .input-area ul.acco-type .check-box input:checked + label::after {background-image:url(../images/icons/btn-checkbox-on-48-mo.svg)}
-  .res-main .step-area.step03 .user-info-area .input-area ul.acco-type .check-box .agr-txt-wrap {padding:12pxs}
+  .res-main .step-area.step03 .user-info-area .input-area ul.acco-type .check-box .agr-txt-wrap {height:107px; padding:12px}
+  .res-main .step-area.step03 .user-info-area .input-area ul.acco-type .check-box .agr-txt-wrap.size-l {height:121px}
   .res-main .step-area.step03 .user-info-area .input-area ul.acco-type .check-box button.agr-more {width:20px; height:20px}
   .res-main .step-area.step03 .user-info-area .bottom-area .tit {font-size:13px; line-height:20px}
   .res-main .step-area.step03 .user-info-area .bottom-area .desc {font-size:11px; line-height:16px}
