@@ -4,7 +4,7 @@
 <div class="container" id="content">
 
   <div class="page-header">
-    <h1 class="title">방문 상담 예약</h1>
+    <h1 class="title">소모품 구매 예약</h1>
   </div>
 
   <!-- contents -->
@@ -14,7 +14,7 @@
       <div class="guide-area">
         <div class="guide-process">
           <div class="inner">
-            <p class="desc">고객님, 매장 상담 예약은 이렇게 진행됩니다.</p>
+            <p class="desc">필요한 소모품에 대한 정보를 LG전자 베스트샵을 통해 확인하고 <br>매장 방문하여 구매 및 추가 상담을 받으실 수 있습니다.</p>
             <div class="swiper guide-banner-visit">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -22,7 +22,7 @@
                     <span class="icon-wrap">
                       <i class="icon01"></i>
                     </span>
-                    <p class="txt">상품선택 및 <br class="only_mo">매장/일자 선택</p>
+                    <p class="txt">구매 희망 소모품 선택</p>
                   </div>
                 </div>
                 <div class="swiper-slide">
@@ -30,7 +30,7 @@
                     <span class="icon-wrap">
                       <i class="icon02"></i>
                     </span>
-                    <p class="txt">예약 고객님의 <br class="only_mo">정보를 입력</p>
+                    <p class="txt">소모품 구매 예약 신청</p>
                   </div>
                 </div>
                 <div class="swiper-slide">
@@ -38,7 +38,7 @@
                     <span class="icon-wrap">
                       <i class="icon03"></i>
                     </span>
-                    <p class="txt">전문 매니저의 전화 <br class="only_mo">안내 서비스</p>
+                    <p class="txt">방문 매장 재고 확인 및 고객 전화 안내</p>
                   </div>
                 </div>
                 <div class="swiper-slide">
@@ -46,7 +46,7 @@
                     <span class="icon-wrap">
                       <i class="icon04"></i>
                     </span>
-                    <p class="txt">신청 매장 방문 후 <br class="only_mo">상담진행</p>
+                    <p class="txt">매장 방문 픽업 및 추가 상담</p>
                   </div>
                 </div>
               </div>
@@ -54,474 +54,306 @@
             </div>
           </div>
         </div>
-        <div class="guide-benefits">
+        <div class="guide-info-list">
           <div class="inner">
-            <ul class="list-area">
-              <li>
-                <i class="icon01"></i>
-                <p class="txt">
-                  <span>라이프 스타일에 맞는</span>
-                  <strong>생활 맞춤 컨설팅</strong>
-                </p>
-              </li>
-              <li>
-                <i class="icon02"></i>
-                <p class="txt">
-                  <span>고객 맞춤형</span>
-                  <strong>특별 혜택가 안내</strong>
-                </p>
-              </li>
-              <li>
-                <i class="icon03"></i>
-                <p class="txt">
-                  <span>사은품, 멤버십 포인트 등</span>
-                  <strong>푸짐한 사은 혜택 안내</strong>
-                </p>
-              </li>
+            <ul class="bull">
+              <li>소모품은 적기에 교체해야, 제품의 성능을 100% 발휘할 수 있습니다.</li>
+              <li>오프라인 상에는 LG전자 베스트샵에서만 소모품 구매가 가능합니다.</li>
             </ul>
           </div>
         </div>
-      </div>
-      <div class="add-area">
-        <div class="swiper res-banner-01">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="banner01">
-                <div class="box">
-                  <img class="only_pc" src="../../images/img-res-visit-banner-01.png" alt="">
-                  <img class="only_mo" src="../../images/img-res-visit-banner-01_mo.png" alt="">
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="banner02">
-                <div class="box">
-                  <img class="only_pc" src="../../images/img-res-visit-banner-01.png" alt="">
-                  <img class="only_mo" src="../../images/img-res-visit-banner-01_mo.png" alt="">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="banner-btns">
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+        <div class="guide-benefits">
+          <div class="inner">
+            <dl>
+              <dt>소모품이란?</dt>
+              <dd>사용 주기에 맞추어 손쉽게 교체할 수 있는 필터, 청소포와 같은 소모품이나 옷걸이, 거치대와 같은 액세서리 종류를 말합니다.</dd>
+            </dl>
           </div>
         </div>
       </div>
     </div>
 
     <div class="cont-wrap">
+      <!-- 소모품 목록 영역 -->
+      <section class="cont-area">
+        <!-- 카테고리 스티키 탭(라디오)  -->
+        <div class="cate-sticky-wrap">
+          <div clas="inner">
+            <div class="btn-filter">
+              <a href="#"><span class="blind">옵션필터</span></a>
+            </div>
+            <div class="cate-wrap">
+              <div class="cate-list">
+                <div class="fixed-tab-wrap">
+                  <div class="inner">
+                    <ul>
+                      <li class="active">
+                        <div class="radio-tab">
+                          <input type="radio" name="air-clean" id="air-clean">
+                          <label for="air-clean">360º 공기청정기</label>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- // 카테고리 스티키 탭(라디오)  -->
+        <!-- 제품 목록 전체 -->
+        <div class="plp-list-wrap">
+          <!-- 필터 영역 -->
+          <div class="lay-filter">
+            <div class="dimmed" style="display:none"></div>
+            <div class="lay-fliter-con">
+
+              <div class="filter-head">
+                <p class="tit">360º 공기청정기 상세 검색</p>
+              </div>
+          
+              <div class="plp-filter-wrap">
+                <div class="box">
+                  <p class="tit">소모품 분류<span class="sel_num">(1)<span class="blind">총 선택 갯수</span></span></p>
+                  <ul>
+                    <li>
+                      <div class="check-box">
+                        <input type="checkbox" name="filter" id="filter">
+                        <label for="filter">필터</label>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="check-box">
+                        <input type="checkbox" name="moving-wheel" id="moving-wheel">
+                        <label for="moving-wheel">무빙휠</label>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="btn-reset">
+                  <button type="button" class="btn-reset"><span>초기화</span></button>
+                </div>
+                <div class="filter-close">
+                  <button type="button" class="btn-close"><span class="blind">닫기</span></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- // 필터 영역 -->
+          <!-- 리스트 영역 -->
+          <div class="prd-list-area">
+            <div class="list-count">총 24개</div>
+            <div class="list-info-txt">*구매하실 소모품을 선택하세요.</div>
+            <div class="list-wrap">
+              <ul>
+                <li class="item">
+                  <div class="box">
+                    <div class="img-wrap">
+                      <img src="../../images/img-filter-01.jpg" alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
+                    </div>
+                    <div class="tit-wrap">
+                      <p class="tit">V트루 토탈케어 필터 전용 극세 필터</p>
+                      <p class="code"><span class="blind">제품 코드</span>ADQ75153442</p>
+                    </div>
+                    <div class="info-wrap">
+                      <p class="price">29,000원</p>
+                      <a href="#" class="info-pop">적용 가능 모델</a>
+                    </div>
+                    <div class="btn-area">
+                      <button type="button" class="btn border btn-select">소모품 선택</button>
+                    </div>
+                  </div>   
+                </li>
+                <li class="item">
+                  <div class="box">
+                    <div class="img-wrap">
+                      <img src="../../images/img-filter-01.jpg" alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
+                    </div>
+                    <div class="tit-wrap">
+                      <p class="tit">V트루 토탈케어 필터 전용 극세 필터</p>
+                      <p class="code"><span class="blind">제품 코드</span>ADQ75153442</p>
+                    </div>
+                    <div class="info-wrap">
+                      <p class="price">29,000원</p>
+                      <a href="#" class="info-pop">적용 가능 모델</a>
+                    </div>
+                    <div class="btn-area">
+                      <button type="button" class="btn border btn-select">소모품 선택</button>
+                    </div>
+                  </div>   
+                </li>
+                <li class="item">
+                  <div class="box">
+                    <div class="img-wrap">
+                      <img src="../../images/img-filter-01.jpg" alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
+                    </div>
+                    <div class="tit-wrap">
+                      <p class="tit">V트루 토탈케어 필터 전용 극세 필터</p>
+                      <p class="code"><span class="blind">제품 코드</span>ADQ75153442</p>
+                    </div>
+                    <div class="info-wrap">
+                      <p class="price">29,000원</p>
+                      <a href="#" class="info-pop">적용 가능 모델</a>
+                    </div>
+                    <div class="btn-area">
+                      <button type="button" class="btn border btn-select">소모품 선택</button>
+                    </div>
+                  </div>   
+                </li>
+                <li class="item">
+                  <div class="box">
+                    <div class="img-wrap">
+                      <img src="../../images/img-filter-01.jpg" alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
+                    </div>
+                    <div class="tit-wrap">
+                      <p class="tit">V트루 토탈케어 필터 전용 극세 필터</p>
+                      <p class="code"><span class="blind">제품 코드</span>ADQ75153442</p>
+                    </div>
+                    <div class="info-wrap">
+                      <p class="price">29,000원</p>
+                      <a href="#" class="info-pop">적용 가능 모델</a>
+                    </div>
+                    <div class="btn-area">
+                      <button type="button" class="btn border btn-select">소모품 선택</button>
+                    </div>
+                  </div>   
+                </li>
+                <li class="item">
+                  <div class="box">
+                    <div class="img-wrap">
+                      <img src="../../images/img-filter-01.jpg" alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
+                    </div>
+                    <div class="tit-wrap">
+                      <p class="tit">V트루 토탈케어 필터 전용 극세 필터</p>
+                      <p class="code"><span class="blind">제품 코드</span>ADQ75153442</p>
+                    </div>
+                    <div class="info-wrap">
+                      <p class="price">29,000원</p>
+                      <a href="#" class="info-pop">적용 가능 모델</a>
+                    </div>
+                    <div class="btn-area">
+                      <button type="button" class="btn border btn-select">소모품 선택</button>
+                    </div>
+                  </div>   
+                </li>
+                <li class="item">
+                  <div class="box">
+                    <div class="img-wrap">
+                      <img src="../../images/img-filter-01.jpg" alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
+                    </div>
+                    <div class="tit-wrap">
+                      <p class="tit">V트루 토탈케어 필터 전용 극세 필터</p>
+                      <p class="code"><span class="blind">제품 코드</span>ADQ75153442</p>
+                    </div>
+                    <div class="info-wrap">
+                      <p class="price">29,000원</p>
+                      <a href="#" class="info-pop">적용 가능 모델</a>
+                    </div>
+                    <div class="btn-area">
+                      <button type="button" class="btn border btn-select">소모품 선택</button>
+                    </div>
+                  </div>   
+                </li>
+              </ul>
+              <button type="button" class="btn-view-more"><span>더보기</span></button>
+            </div>
+          </div>
+          <!-- // 리스트 영역 -->
+        </div>
+        <!-- // 제품 목록 전체 -->
+
+        <!-- 선택한 소모품(장바구니) 영역 -->
+        <div class="bottom-fixed-wrap active"><!-- active 클래스 추가 -->
+          <div class="bar-wrap">
+            <div class="head-area">
+              <p class="head-txt">선택한 소모품 <span><em>2</em>/3</span></p>
+              <button type="button" class="view-more"><span class="blind">펼쳐보기</span></button>
+            </div>
+            <div class="body-area">
+              <div class="my-select">
+                <ul>
+                  <li class="item">
+                    <div class="box">
+                      <div class="img-wrap">
+                        <img src="../../images/img-filter-01.jpg" alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
+                      </div>
+                      <div class="tit-wrap">
+                        <p class="tit">V트루 토탈케어 필터 전용 극세 필터</p>
+                        <p class="code"><span class="blind">제품 코드</span>ADQ75153442</p>
+                      </div>
+                      <div class="info-wrap">
+                        <p class="price">29,000원</p>
+                      </div>
+                      <button type="button" class="btn-close"><span class="blind">닫기</span></button>
+                    </div>
+                  </li>
+                  <li class="item no-item">
+                    <div class="box">
+                      <span class="no-item-txt">원하는 상담 제품을 추가 하실 수 있습니다.</span>
+                    </div>
+                  </li>
+                  <li class="item no-item">
+                    <div class="box">
+                      <span class="no-item-txt">원하는 상담 제품을 추가 하실 수 있습니다.</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="foot-area">
+              <div class="btn-area active"><!-- active 클래스 추가 -->
+                <button type="button" class="btn-reset"><span>초기화</span></button>
+                <button type="button" class="btn btn-res">소모품 구매 예약</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- // 선택한 소모품(장바구니) 영역 -->
+      </section>
+      <!-- // 소모품 목록 영역 -->
+
+      <!-- 소모품 구매 예약 스텝 영역 -->
       <section class="cont-area">
         <p class="step-top-note"><sup>*</sup>필수입력항목</p>
         <!-- step 1 -->
         <div class="step-area step01 active"><!-- active 클래스 추가 -->
           <div class="main-area active"><!-- active 클래스 추가 -->
-            <form action="#">
-              <h4 class="step-tit">상담목적<sup>*</sup></h4>
-              <div class="input-area">
-                <ul class="icon-type">
-                  <li>
-                    <div class="radio-btn btn-type2">
-                      <input type="radio" name="purpose" id="wedding">
-                      <label for="wedding">
-                        <i class="icon wedding"></i><span class="name">혼수</span>
-                      </label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="radio-btn btn-type2">
-                      <input type="radio" name="purpose" id="move">
-                      <label for="move">
-                        <i class="icon move"></i><span class="name">이사</span>
-                      </label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="radio-btn btn-type2">
-                      <input type="radio" name="purpose" id="interior">
-                      <label for="interior">
-                        <i class="icon interior"></i><span class="name">인테리어</span>
-                      </label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="radio-btn btn-type2">
-                      <input type="radio" name="purpose" id="broken">
-                      <label for="broken">
-                        <i class="icon broken"></i><span class="name">고장</span>
-                      </label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="radio-btn btn-type2">
-                      <input type="radio" name="purpose" id="etc">
-                      <label for="etc">
-                        <i class="icon etc"></i><span class="name">기타</span>
-                      </label>
-                    </div>
-                  </li>
-                </ul>
+            <div class="my-select-area">
+              <div class="tit-area">
+                <h4 class="step-tit">선택하신 소모품<sup>*</sup></h4>
+                <em>(최대 3개 선택가능)</em>
               </div>
-
-              <h4 class="step-tit">제품선택<sup>*</sup><span>(다중선택)</span></h4>
-              <!-- 제품선택 카테고리형 -->
-              <div class="input-area">
-                <ul class="cate-type">
-                  <li>
-                    <p class="cate-tit"><i class="icon tv-audio"></i>TV/오디오</p>
-                    <ul class="cate-items">
-                      <li class="check-box">
-                        <input type="checkbox" name="tv" id="tv">
-                        <label for="tv">
-                          <span class="name">TV</span>
-                        </label>
-                      </li>
-                      <li class="check-box">
-                        <input type="checkbox" name="projector" id="projector">
-                        <label for="projector">
-                          <span class="name">프로젝터</span>
-                        </label>
-                      </li>
-                      <li class="check-box">
-                        <input type="checkbox" name="soundbar" id="soundbar">
-                        <label for="soundbar">
-                          <span class="name">사운드바</span>
-                        </label>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <p class="cate-tit"><i class="icon pc"></i>PC</p>
-                    <ul class="cate-items">
-                      <li class="check-box">
-                        <input type="checkbox" name="laptop" id="laptop">
-                        <label for="laptop">
-                          <span class="name">노트북</span>
-                        </label>
-                      </li>
-                      <li class="check-box">
-                        <input type="checkbox" name="desktop" id="desktop">
-                        <label for="desktop">
-                          <span class="name">데스크탑</span>
-                        </label>
-                      </li>
-                      <li class="check-box">
-                        <input type="checkbox" name="monitor" id="monitor">
-                        <label for="monitor">
-                          <span class="name">모니터</span>
-                        </label>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <p class="cate-tit"><i class="icon kitchens"></i>주방가전</p>
-                    <ul class="cate-items">
-                      <li class="check-box">
-                        <input type="checkbox" name="kitchens" id="fridge">
-                        <label for="fridge">
-                          <span class="name">냉장고</span>
-                        </label>
-                      </li>
-                      <li class="check-box">
-                        <input type="checkbox" name="dish-washer" id="dish-washer">
-                        <label for="dish-washer">
-                          <span class="name">식기세척기</span>
-                        </label>
-                      </li>
-                      <li class="check-box">
-                        <input type="checkbox" name="oven" id="oven">
-                        <label for="oven">
-                          <span class="name">광파오븐</span>
-                        </label>
-                      </li>
-                      <li class="check-box">
-                        <input type="checkbox" name="range" id="range">
-                        <label for="range">
-                          <span class="name">전기레인지</span>
-                        </label>
-                      </li>
-                      <li class="check-box">
-                        <input type="checkbox" name="etc-kitchens" id="etc-kitchens">
-                        <label for="etc-kitchens">
-                          <span class="name">기타 주방가전</span>
-                        </label>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <p class="cate-tit"><i class="icon house"></i>생활가전</p>
-                    <ul class="cate-items">
-                      <li class="check-box">
-                        <input type="checkbox" name="washing" id="washing">
-                        <label for="washing">
-                          <span class="name">세탁기/건조기</span>
-                        </label>
-                      </li>
-                      <li class="check-box">
-                        <input type="checkbox" name="styler" id="styler">
-                        <label for="styler">
-                          <span class="name">스타일러</span>
-                        </label>
-                      </li>
-                      <li class="check-box">
-                        <input type="checkbox" name="air-con" id="air-con">
-                        <label for="air-con">
-                          <span class="name">에어컨</span>
-                        </label>
-                      </li>
-                      <li class="check-box">
-                        <input type="checkbox" name="vaccum" id="vaccum">
-                        <label for="vaccum">
-                          <span class="name">청소기</span>
-                        </label>
-                      </li>
-                      <li class="check-box">
-                        <input type="checkbox" name="air-clean" id="air-clean">
-                        <label for="air-clean">
-                          <span class="name">공기청정기</span>
-                        </label>
-                      </li>
-                      <li class="check-box">
-                        <input type="checkbox" name="etc-house" id="etc-house">
-                        <label for="etc-house">
-                          <span class="name">기타 생활가전</span>
-                        </label>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <p class="cate-tit"><i class="icon mobile"></i>모바일</p>
-                    <ul class="cate-items">
-                      <li class="check-box">
-                        <input type="checkbox" name="iphone" id="iphone">
-                        <label for="iphone">
-                          <span class="name">아이폰</span>
-                        </label>
-                      </li>
-                      <li class="check-box">
-                        <input type="checkbox" name="ipad" id="ipad">
-                        <label for="ipad">
-                          <span class="name">아이패드</span>
-                        </label>
-                      </li>
-                      <li class="check-box">
-                        <input type="checkbox" name="watch" id="watch">
-                        <label for="watch">
-                          <span class="name">애플워치</span>
-                        </label>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <p class="cate-tit"><i class="icon beauty"></i>뷰티</p>
-                    <ul class="cate-items">
-                      <li class="check-box">
-                        <input type="checkbox" name="pra-l" id="pra-l">
-                        <label for="pra-l">
-                          <span class="name">프라엘</span>
-                        </label>
-                      </li>
-                      <li class="check-box">
-                        <input type="checkbox" name="medihair" id="medihair">
-                        <label for="medihair">
-                          <span class="name">메디헤어</span>
-                        </label>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-              <!-- // 제품선택 카테고리형 -->
-
-              <!-- 제품선택 제품군형 -->
-              <!-- <div class="input-area">
-                <ul class="pdt-type">
-                  <li>
-                    <div class="check-box">
-                      <input type="checkbox" name="tv" id="tv">
-                      <label for="tv">
-                        <i class="icon tv"></i><span class="name">TV</span>
-                      </label>
+              <ul>
+                <li class="item">
+                  <div class="box">
+                    <div class="img-wrap">
+                      <img src="../../images/img-filter-01.jpg" alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
                     </div>
-                  </li>
-                  <li>
-                    <div class="check-box">
-                      <input type="checkbox" name="soundbar" id="soundbar">
-                      <label for="soundbar">
-                        <i class="icon soundbar"></i><span class="name">사운드바</span>
-                      </label>
+                    <div class="tit-wrap">
+                      <p class="tit">V트루 토탈케어 필터 전용 극세 필터</p>
+                      <p class="code"><span class="blind">제품 코드</span>ADQ75153442</p>
                     </div>
-                  </li>
-                  <li>
-                    <div class="check-box">
-                      <input type="checkbox" name="laptop" id="laptop">
-                      <label for="laptop">
-                        <i class="icon laptop"></i><span class="name">노트북</span>
-                      </label>
+                    <div class="info-wrap">
+                      <p class="price">29,000원</p>
                     </div>
-                  </li>
-                  <li>
-                    <div class="check-box">
-                      <input type="checkbox" name="desktop" id="desktop">
-                      <label for="desktop">
-                        <i class="icon desktop"></i><span class="name">데스크탑</span>
-                      </label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="check-box">
-                      <input type="checkbox" name="fridge" id="fridge">
-                      <label for="fridge">
-                        <i class="icon fridge"></i><span class="name">냉장고</span>
-                      </label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="check-box">
-                      <input type="checkbox" name="washing" id="washing">
-                      <label for="washing">
-                        <i class="icon washing"></i><span class="name">세탁기/건조기</span>
-                      </label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="check-box">
-                      <input type="checkbox" name="air-con" id="air-con">
-                      <label for="air-con">
-                        <i class="icon air-con"></i><span class="name">에어컨</span>
-                      </label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="check-box">
-                      <input type="checkbox" name="pra-l" id="pra-l">
-                      <label for="pra-l">
-                        <i class="icon pra-l"></i><span class="name">프라엘</span>
-                      </label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="check-box">
-                      <input type="checkbox" name="vaccum" id="vaccum">
-                      <label for="vaccum">
-                        <i class="icon vaccum"></i><span class="name">청소기</span>
-                      </label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="check-box">
-                      <input type="checkbox" name="styler" id="styler">
-                      <label for="styler">
-                        <i class="icon styler"></i><span class="name">스타일러</span>
-                      </label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="check-box">
-                      <input type="checkbox" name="air-clean" id="air-clean">
-                      <label for="air-clean">
-                        <i class="icon air-clean"></i><span class="name">공기청정기</span>
-                      </label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="check-box">
-                      <input type="checkbox" name="range" id="range">
-                      <label for="range">
-                        <i class="icon range"></i><span class="name">전기레인지</span>
-                      </label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="check-box">
-                      <input type="checkbox" name="ipad" id="ipad">
-                      <label for="ipad">
-                        <i class="icon ipad"></i><span class="name">아이패드</span>
-                      </label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="check-box">
-                      <input type="checkbox" name="projector" id="projector">
-                      <label for="projector">
-                        <i class="icon projector"></i><span class="name">프로젝터</span>
-                      </label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="check-box">
-                      <input type="checkbox" name="medihair" id="medihair">
-                      <label for="medihair">
-                        <i class="icon medihair"></i><span class="name">메디헤어</span>
-                      </label>
-                    </div>
-                  </li>
-                </ul>
-              </div> -->
-              <!-- // 제품선택 제품군형 -->
-
-              <h4 class="step-tit">구매 희망 시기<sup>*</sup></h4>
-              <div class="input-area">
-                <ul class="base-type">
-                  <li>
-                    <div class="radio-btn btn-type2">
-                      <input type="radio" name="period" id="weeks01">
-                      <label for="weeks01">
-                        <span class="name">1주 내</span>
-                      </label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="radio-btn btn-type2">
-                      <input type="radio" name="period" id="weeks02">
-                      <label for="weeks02">
-                        <span class="name">2주 내</span>
-                      </label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="radio-btn btn-type2">
-                      <input type="radio" name="period" id="weeks03">
-                      <label for="weeks03">
-                        <span class="name">3주 내</span>
-                      </label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="radio-btn btn-type2">
-                      <input type="radio" name="period" id="month01">
-                      <label for="month01">
-                        <span class="name">1개월 내</span>
-                      </label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="radio-btn btn-type2">
-                      <input type="radio" name="period" id="month02">
-                      <label for="month02">
-                        <span class="name">2개월 내</span>
-                      </label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="radio-btn btn-type2">
-                      <input type="radio" name="period" id="month03">
-                      <label for="month03">
-                        <span class="name">3개월 내</span>
-                      </label>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-
-              <h4 class="step-tit">추가 전달사항<span>(선택)</span></span></h4>
-              <div class="input-area">
-                <div class="text-area">
-                  <textarea maxlength="100" placeholder="원하시는 제품의 기능이나 가격대, 기타 문의사항을 남겨주시면 원활한 상담이 가능합니다."></textarea>
-                  <p class="info-msg">* 텍스트는 100자까지 입력가능합니다.</p>
-                </div>
-              </div>
-            </form>
+                    <button type="button" class="btn-close"><span class="blind">닫기</span></button>
+                  </div>
+                </li>
+                <li class="item no-item">
+                  <div class="box">
+                    <span class="no-item-txt">원하는 상담 제품을 추가 하실 수 있습니다.</span>
+                    <button type="button" class="btn border btn-add">소모품 추가 하기</button>
+                  </div>
+                </li>
+                <li class="item no-item">
+                  <div class="box">
+                    <span class="no-item-txt">원하는 상담 제품을 추가 하실 수 있습니다.</span>
+                    <button type="button" class="btn border btn-add">소모품 추가 하기</button>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            
           </div>
 
           <div class="btn-area active"><!-- active 클래스 추가 -->
@@ -1193,46 +1025,10 @@
         </div>
         <!-- // step 3 -->
       </section>
+      <!-- // 소모품 구매 예약 스텝 영역 -->
+
     </div>
 
-    <!-- 하단바 -->
-    <div class="bottom-fixed-wrap active"><!-- active 클래스 추가 -->
-      <div class="dimmed"></div>
-      <div class="bar-wrap">
-        <div class="head-area">
-          <p class="head-txt">혼수, TV 외 3개, 1개월 내, 강남본점, 12. 15(수), 17시, 김베샵, 01012558484</p>
-          <button type="button" class="view-more"><span class="blind">펼쳐보기</span></button>
-        </div>
-        <div class="body-area">
-          <div class="my-result">
-            <ul>
-              <li>
-                <span>상담목적</span>
-                <strong>혼수</strong>
-              </li>
-              <li>
-                <span>상담제품</span>
-                <strong>TV, 냉장고, 식기세척기, 세탁기, 스타일러, 공기청정기, 에어컨</strong>
-              </li>
-              <li>
-                <span>상담매장</span>
-                <strong>강남본점, 12. 15(수), 17시</strong>
-              </li>
-              <li>
-                <span>예약정보</span>
-                <strong>김베샵, 01012558484</strong>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="foot-area">
-          <div class="btn-area active"><!-- active 클래스 추가 -->
-            <button type="button" class="btn btn-res">상담 예약하기</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- // 하단바 -->
   </div>
   <!-- // contents -->
 </div>
