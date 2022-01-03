@@ -444,7 +444,7 @@
 
           <!-- s: Floating Menu -->
           <div class="floating-block">
-            <a href="#top" class="top-btn">TOP</a>
+            <a href="javascript:void(0);" class="top-btn">TOP</a>
             <div class="floating-custom-wrap">
               <a href="javascript:void(0);" class="main-btn"><span class="blind">서비스 메뉴 열기</span></a>
               <ul class="service-list">

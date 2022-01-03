@@ -78,6 +78,7 @@ function myTooltip(){
 //  floating menu
 function floatingMenu(){
   $('.floating-custom-wrap .main-btn').on('click', function(){
+    $('.floating-custom-wrap').toggleClass('active');
     $(this).toggleClass('active').siblings('.service-list').toggle();
   });
 }
@@ -158,6 +159,11 @@ $(document).ready(function() {
   $('.bottom-fixed-wrap').parents('.wrap').addClass('innerLayer');
   // page custom > if not main breadcrumb show
   $('#content').not('.main').parents('body').find('.breadcrumb-wrap').addClass('active');
+
+  // scroll top
+  $('.top-btn').on('click', function(){
+    $(window).scrollTop(0);
+  });
 
   // calendar
   $(function(){
