@@ -61,12 +61,12 @@
 
 
 /* 당첨자 발표 */
-.win-popup-wrap .inner-contents .search-result {padding-bottom: 50px;margin-bottom: 60px;border-bottom: 1px solid #000; } 
+.win-popup-wrap .inner-contents .search-result {padding-bottom: 50px;margin: 10px 0 60px 0;border-bottom: 1px solid #000; } 
 .win-popup-wrap .inner-contents .search-result h1 {color: #da0f47;font-size: 30px;margin-bottom: 40px;background-color: #fff; } 
-.win-popup-wrap .inner-contents .search-result .no-result-msg {font-size: 20px; } 
+.win-popup-wrap .inner-contents .search-result .no-result-msg {font-size: 20px;line-height:26px;} 
 .win-popup-wrap .inner-contents .table-cont h2.event-title {font-size: 24px;margin-bottom: 15px; } 
-.win-popup-wrap .inner-contents .table-cont ~ .table-cont {margin-top: 48px; } 
-.win-popup-wrap .inner-contents .table-cont .tb-tit {margin-bottom: 16px; font-size: 14px; line-height: 22px; font-weight: bold;}
+.win-popup-wrap .inner-contents .table-cont ~ .table-cont {margin-top: 60px; } 
+.win-popup-wrap .inner-contents .table-cont .tb-tit {margin-bottom: 16px; font-size: 16px; line-height: 22px; font-weight: bold;}
 .win-popup-wrap .inner-contents .table-cont .tb_row table tr {display: table-row !important; } 
 .win-popup-wrap .inner-contents .table-cont .tb_row table tr th,
 .win-popup-wrap .inner-contents .table-cont .tb_row table tr td {display: table-cell !important;width: unset !important;max-width: unset !important; } 
@@ -94,7 +94,7 @@
 .win-popup-wrap .inner-contents.sorry .event-win-result .sorry-desc span {color: #5d5d5d;font-size: 20px;font-weight: normal;display: block;margin-top: 15px; } 
 /* Mobile */
 .mdevice .win-popup-wrap .tit-area {height: auto;padding-bottom: 30px; } 
-.mdevice .win-popup-wrap .inner-contents {padding-top: 30px; } 
+.mdevice .win-popup-wrap .inner-contents {padding-top: 60px; } 
 .mdevice .win-popup-wrap .inner-contents .event-win-result::before {margin-bottom: 15px; } 
 .mdevice .win-popup-wrap .inner-contents .event-win-result .event-winner .winner-goods {font-size: 22px;text-align: center; } 
 .mdevice .win-popup-wrap .inner-contents .event-win-result .event-winner .winner-info {font-size: 17px;width: 100%;flex-direction: column;gap: 15px;margin-top: 15px; } 
