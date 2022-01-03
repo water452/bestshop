@@ -91,6 +91,7 @@
                 box-sizing: border-box;
                 border-top: 2px solid #eee;
                 border-bottom: 2px solid #eee;
+                table-layout:fixed;
             }
             tr:hover td {
                 border-top: 2px solid #222;
@@ -196,18 +197,27 @@
                 공정진척률 <strong class="jin"></strong>%
             </p>
             <table>
+                <colgroup>
+                    <col width="200px">
+                    <col width="200px">
+                    <col width="200px">
+                    <col width="200px">
+                    <col width="100px">
+                    <col width="120px">
+                    <col width="120px">
+                    <col width="80px">
+                    <col>
+                    <col width="150px">
+                </colgroup>
                 <thead>
-                    <th>화면ID</th>
                     <th>1 Dep</th>
                     <th>2 Dep</th>
                     <th>3 Dep</th>
                     <th>4 Dep</th>
-                    <th>세부기능</th>
                     <th>작업자</th>
-                    <th>시작일자</th>
-                    <th>완료예정</th>
+                    <th>시작일정</th>
+                    <th>완료일정</th>
                     <th>진행사항</th>
-                    <th>완료일자</th>
                     <th>파일명</th>
                     <th>비고</th>
                 </thead>
@@ -248,15 +258,13 @@
                     var wan = 0;
                     for (var i = 0; i < data.list.length; i++) {
                         list += '<tr>';
-                        list += '<td>' + data.list[i].screenid + '</td>';
                         list += '<td>' + data.list[i].dep1 + '</td>';
                         list += '<td>' + data.list[i].dep2 + '</td>';
                         list += '<td>' + data.list[i].dep3 + '</td>';
                         list += '<td>' + data.list[i].dep4 + '</td>';
-                        list += '<td>' + data.list[i].func + '</td>';
                         list += '<td class="tac">' + data.list[i].worker + '</td>';
                         list += '<td class="tac">' + data.list[i].startdate + '</td>';
-                        list += '<td class="tac">' + data.list[i].targetdate + '</td>';
+                        list += '<td class="tac">' + data.list[i].finishdate + '</td>';
                         if (data.list[i].status == '진행중') {
                             list += '<td class="td-status"><span class="working">' + data.list[i].status + '</span></td>';
                         } else if (data.list[i].status == '진행예정') {
@@ -271,7 +279,6 @@
                         } else if (data.list[i].status == '취소') {
                             list += '<td class="td-status"><span class="cancel">' + data.list[i].status + '</span></td>';
                         }
-                        list += '<td class="tac">' + data.list[i].finishdate + '</td>';
                         list += '<td>';
                         if (data.list[i].filename != "") {
                             list += '<a href=' + data.list[i].filename + ' target="_blank" class="link">' + data.list[i].filename +'</a>';

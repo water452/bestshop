@@ -570,7 +570,7 @@
                 _thsDesc = _ths.find('span').text(),
                 _thsLink = _ths.find('a').attr('href'),
                 _thsLinkTxt = _ths.find('a').text()
-                
+
             function changeEv(){
                 $('.left-cont strong').text(_thsTit);
                 $('.left-cont span').text(_thsDesc);
