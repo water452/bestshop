@@ -8,7 +8,7 @@
   </div>
 
   <!-- contents -->
-  <div class="contents res-main">
+  <div class="contents res-main care-ex">
 
     <div class="top-wrap">
       <div class="guide-area">
@@ -84,18 +84,56 @@
             </div>
             <div class="cate-wrap">
               <div class="cate-list">
-                <div class="fixed-tab-wrap">
-                  <div class="inner">
-                    <ul>
-                      <li class="active">
-                        <div class="radio-tab">
-                          <input type="radio" name="air-clean" id="air-clean">
-                          <label for="air-clean">360º 공기청정기</label>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+                <ul>
+                  <li class="active">
+                    <div class="radio-btn tab-type">
+                      <input type="radio" name="product" id="air-purifier-360">
+                      <label for="air-purifier-360">360º 공기청정기</label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="radio-btn tab-type">
+                      <input type="radio" name="product" id="air-purifier-mini">
+                      <label for="air-purifier-mini">미니 공기청정기</label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="radio-btn tab-type">
+                      <input type="radio" name="product" id="vaccum">
+                      <label for="vaccum">청소기</label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="radio-btn tab-type">
+                      <input type="radio" name="product" id="pra-l">
+                      <label for="pra-l">프라엘</label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="radio-btn tab-type">
+                      <input type="radio" name="product" id="styler">
+                      <label for="styler">스타일러</label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="radio-btn tab-type">
+                      <input type="radio" name="product" id="dryer">
+                      <label for="dryer">건조기</label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="radio-btn tab-type">
+                      <input type="radio" name="product" id="washing">
+                      <label for="washing">세탁기</label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="radio-btn tab-type">
+                      <input type="radio" name="productr" id="dish-washer">
+                      <label for="dish-washer">식기세척기</label>
+                    </div>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -105,7 +143,7 @@
         <div class="plp-list-wrap">
           <!-- 필터 영역 -->
           <div class="lay-filter">
-            <div class="dimmed" style="display:none"></div>
+            <span class="dimmed"></span>
             <div class="lay-fliter-con">
 
               <div class="filter-head">
@@ -114,8 +152,8 @@
           
               <div class="plp-filter-wrap">
                 <div class="box">
-                  <p class="tit">소모품 분류<span class="sel_num">(1)<span class="blind">총 선택 갯수</span></span></p>
-                  <ul>
+                  <p class="tit">소모품 분류<span class="sel-num">(1)<span class="blind">총 선택 갯수</span></span></p>
+                  <ul class="filter-list">
                     <li>
                       <div class="check-box">
                         <input type="checkbox" name="filter" id="filter">
@@ -130,13 +168,15 @@
                     </li>
                   </ul>
                 </div>
-                <div class="btn-reset">
+
+                <div class="btn-area">
                   <button type="button" class="btn-reset"><span>초기화</span></button>
                 </div>
                 <div class="filter-close">
                   <button type="button" class="btn-close"><span class="blind">닫기</span></button>
                 </div>
               </div>
+
             </div>
           </div>
           <!-- // 필터 영역 -->
@@ -1036,7 +1076,7 @@
 
 <!-- 휴대폰 인증 팝업 -->
 <div class="popup-area res-visit"><!-- active 클래스 추가 -->
-  <div class="dimmed"></div>
+  <span class="dimmed"></span>
   <div class="popup-wrap">
     <div class="head-area">
       <p class="head-txt">휴대전화 인증</p>

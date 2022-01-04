@@ -903,6 +903,33 @@
 }
 /* // 케어십상담예약 */
 /* 소모품구매예약 */
-.res-main .top-wrap .guide-area .guide-benefits dl {display:flex; padding:34px 0; font-size:18px; line-height:26px}
-.res-main .top-wrap .guide-area .guide-benefits dl dt {margin-right:5px; font-weight:bold}
+.res-main.care-ex .top-wrap .guide-area .guide-benefits dl {display:flex; padding:34px 0; font-size:18px; line-height:26px}
+.res-main.care-ex .top-wrap .guide-area .guide-benefits dl dt {margin-right:5px; font-weight:bold}
+
+.res-main .cate-sticky-wrap {border-bottom:1px solid #ddd}
+.res-main .cate-sticky-wrap .cate-wrap {text-align:center}
+.res-main .cate-sticky-wrap .cate-wrap .cate-list {display:inline-block; padding:8px 0 16px}
+.res-main .cate-sticky-wrap .cate-wrap .cate-list > ul {display:flex}
+.res-main .cate-sticky-wrap .cate-wrap .cate-list .radio-btn.tab-type {margin:0 4px}
+.res-main .cate-sticky-wrap .cate-wrap .cate-list .radio-btn.tab-type label {display:block; padding:0 16px; border-radius:44px; font-size:18px; font-weight:bold; line-height:44px; cursor:pointer}
+.res-main .cate-sticky-wrap .cate-wrap .cate-list .radio-btn.tab-type label:hover {background-color:#e4e4e4}
+.res-main .cate-sticky-wrap .cate-wrap .cate-list .radio-btn.tab-type label::after {display:none}
+.res-main .cate-sticky-wrap .cate-wrap .cate-list .radio-btn.tab-type input:checked + label {background-color:#e4e4e4}
+
+.res-main.care-ex .plp-list-wrap {margin-top:48px}
+.res-main.care-ex .plp-list-wrap::after {content:''; display:block; clear:both}
+.res-main.care-ex .plp-list-wrap .lay-filter {float:left; width:215px; margin-right:25px}
+.res-main.care-ex .plp-list-wrap .lay-filter .dimmed {display:none}
+.res-main.care-ex .plp-list-wrap .lay-filter .filter-head {padding-bottom:12px}
+.res-main.care-ex .plp-list-wrap .lay-filter .filter-head .tit {font-size:14px; font-weight:bold; line-height:24px}
+.res-main.care-ex .plp-list-wrap .lay-filter .plp-filter-wrap .box {padding:27px 0; border-top:1px solid #ddd; border-bottom:1px solid #ddd}
+.res-main.care-ex .plp-list-wrap .lay-filter .plp-filter-wrap .box .tit {padding-bottom:24px; font-size:14px; font-weight:bold; line-height:24px}
+.res-main.care-ex .plp-list-wrap .lay-filter .plp-filter-wrap .box .tit .sel-num {margin-left:2px}
+.res-main.care-ex .plp-list-wrap .lay-filter .plp-filter-wrap .box .filter-list {}
+.res-main.care-ex .plp-list-wrap .lay-filter .plp-filter-wrap .box .filter-list > li + li {margin-top:14px}
+.res-main.care-ex .plp-list-wrap .lay-filter .plp-filter-wrap .btn-area {text-align:right}
+.res-main.care-ex .plp-list-wrap .lay-filter .plp-filter-wrap .btn-area .btn-reset {position:relative; padding-right:24px; font-size:14px; line-height:24px}
+.res-main.care-ex .plp-list-wrap .lay-filter .plp-filter-wrap .btn-area .btn-reset::after {content:''; display:block; position:absolute; width:20px; height:20px; top:calc(50% - 10px); right:0; background:url(../images/icons/icon-reset.svg) no-repeat center / contain}
+
+.res-main.care-ex .plp-list-wrap .prd-list-area {float:left}
 /* // 소모품구매예약 */
