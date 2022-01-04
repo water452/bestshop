@@ -48,76 +48,46 @@
                 </ul>
             </div>
             <!-- //tab -->
-            <!-- list-sorting -->
-            <div class="list-sorting">
-                <div class="sort-area left">
-                    <div class="sort-list">
-                        <div class="sort-select-wrap">
-                            <select class="ui_selectbox" title="이벤트 상태 선택" style="display: none;">
-                                <option>진행중인 이벤트</option>
-                                <option>종료된 이벤트</option>
-                            </select>
-                            <div class="ui-selectbox-wrap">
-                                <div class="ui-selectbox-view">
-                                    <a href="#0" class="ui-select-button" title="이벤트 상태 선택 열기">
-                                        <span class="ui-select-text">진행중인 이벤트</span><span class="blind">선택됨</span><span class="ico"></span>
-                                    </a>
-                                </div>
-                                <div class="ui-selectbox-list" style="display: none;">
-                                    <div class="ui-select-scrollarea">
-                                        <ul>
-                                            <li class="on"><a href="#1" title="이벤트 상태 선택">진행중인 이벤트</a></li>
-                                            <li><a href="#2" title="이벤트 상태 선택">종료된 이벤트</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="ui-select-scroll" style="top: 0px;">
-                                        <span class="bg_top"></span><span class="bg_mid"></span><span class="bg_btm"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="sort-select-wrap">
-                            <select class="ui_selectbox" title="이벤트 유형 선택" style="display: none;">
-                                <option>유형전체</option>
-                                <option>구매혜택</option>
-                                <option>사은품</option>
-                                <option>경품</option>
-                                <option>체험단 신청</option>
-                            </select>
-                            <div class="ui-selectbox-wrap">
-                                <div class="ui-selectbox-view">
-                                    <a href="#0" class="ui-select-button" title="이벤트 구분 선택 열기">
-                                        <span class="ui-select-text">유형전체</span><span lass="blind">선택됨</span><span class="ico"></span>
-                                    </a>
-                                </div>
-                                <div class="ui-selectbox-list" style="display: none;">
-                                    <div class="ui-select-scrollarea">
-                                        <ul>
-                                            <li class="on"><a href="#1" title="이벤트 구분 선택">유형전체</a></li>
-                                            <li><a href="#2" title="이벤트 구분 선택">구매혜택</a></li>
-                                            <li><a href="#3" title="이벤트 구분 선택">사은품</a></li>
-                                            <li><a href="#4" title="이벤트 구분 선택">경품</a></li>
-                                            <li><a href="#5" title="이벤트 구분 선택">체험단 신청</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="ui-select-scroll" style="top: 0px;">
-                                        <span class="bg_top"></span><span class="bg_mid"></span><span class="bg_btm"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            <!-- sorting-area -->
+            <div class="sorting-area">
+                <div class="lt">
+                    <div class="slt sltBox" data-txt-change="true">
+                        <a href="javascript:void(0);" class="btn-slt">진행중인 이벤트</a>
+                        <ul>
+                            <li><a href="javascript:void(0);">진행중인 이벤트</a></li>
+                            <li><a href="javascript:void(0);">종료된 이벤트</a></li>
+                        </ul>
+                        <select>
+                            <option selected>진행중인 이벤트</option>
+                            <option>종료된 이벤트</option>
+                        </select>
+                    </div>
+                    <div class="slt sltBox" data-txt-change="true">
+                        <a href="javascript:void(0);" class="btn-slt">유형전체</a>
+                        <ul>
+                            <li><a href="javascript:void(0);">유형전체</a></li>
+                            <li><a href="javascript:void(0);">구매혜택</a></li>
+                            <li><a href="javascript:void(0);">사은품</a></li>
+                            <li><a href="javascript:void(0);">경품</a></li>
+                            <li><a href="javascript:void(0);">체험단 신청</a></li>
+                        </ul>
+                        <select>
+                            <option selected>유형전체</option>
+                            <option>구매혜택</option>
+                            <option>사은품</option>
+                            <option>경품</option>
+                            <option>체험단 신청</option>
+                        </select>
                     </div>
                 </div>
-                <div class="sort-area">
-                    <div class="sort-list">
-                        <span class="check-box">
-                            <input type="checkbox" id="eventSort" name="win">
-                            <label for="eventSort">당첨자 발표</label>
-                        </span>
-                    </div>
+                <div class="rt">
+                    <span class="check-box small">
+                        <input type="checkbox" id="sortingWinner" />
+                        <label for="sortingWinner">당첨자 발표</label>
+                    </span>
                 </div>
             </div>
-            <!-- //list-sorting -->
+            <!-- //sorting-area -->
             <!-- event-list -->
             <div class="event-list">
                 <ul>
@@ -310,6 +280,46 @@
         };
     };
     tabSlide();
+
+    // sltBox
+    $(document).on("click", ".sltBox a", function(){
+        var slt = $(this).parents(".sltBox");
+
+        if ( $(this).is(".btn-slt") ){
+            $(".sltBox").not(slt).removeClass("on");
+			slt.toggleClass("on");
+        }
+        else {
+            if ( slt.attr("data-txt-change") == "true" ){
+                var index = $(this).parent().index();
+                var txt = $(this).text();
+                var sel = slt.find("select");
+
+                slt.find(".btn-slt").text(txt);
+                sel.find("option").eq(index).prop('selected', true);
+            };
+        };
+    });
+
+    // sltBox (select click)
+    $(document).on("change", ".sltBox select", function(){
+        var slt = $(this).parents(".sltBox");
+        var v = $(this).val();
+        var index = $(this).find("option:selected").index();
+
+        slt.find(".btn-slt").text(v);
+    });
+
+    // document target
+    $(document).on("click", function(e){
+        var target = e.target;
+        var targetClass = target.className;
+        var targetId = target.id;
+
+        if ( targetClass != "btn-slt" ){
+            $(".sltBox").removeClass("on");
+        };
+    });
 </script>
 <!-- // container -->
 

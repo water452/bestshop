@@ -54,6 +54,28 @@
 [class*="tab"].is_depth > ul > li [class*="tab"] { display: none; position: absolute; bottom: 0; left: 0; width: 100%; }
 [class*="tab"].is_depth > ul > .on [class*="tab"] { display: block; }
 
+/* custom select */
+.sltBox { display: inline-block; position: relative; vertical-align: middle; }
+.sltBox a { display: block; }
+.sltBox > a:before { content: ""; position: absolute; top: 50%; right: 0; -webkit-transition: all 0.2s ease-in-out 0s; transition: all 0.2s ease-in-out 0s; }
+.sltBox.on > a:before { -webkit-transform: rotate(180deg); transform: rotate(180deg); }
+.sltBox.on ul { display: block; }
+.sltBox ul { display: none; position: absolute; left: 50%; min-width: 100%; overflow: hidden; z-index: 3; -webkit-transform: translateX(-50%); transform: translateX(-50%); }
+.sltBox select { position: absolute; margin: -1px; width: 1px; height: 1px; overflow: hidden; clip-path: polygon(0 0, 0 0, 0 0); }
+
+/* sorting-area */
+.sorting-area { padding: 50px 0 12px; }
+.sorting-area:after { content: ""; display: block; clear: both; }
+.sorting-area > .lt { float: left; }
+.sorting-area > .rt { float: right; }
+.sorting-area .slt + .slt { margin-left: 34px; }
+.slt { min-width: 50px; }
+.slt > a { padding: 0 20px 0 0; line-height: 24px; font-size: 14px; }
+.slt > a:before { margin-top: -8px; width: 16px; height: 16px; background: url("../images/icons/btn-down-16-black.svg") no-repeat 0 0; }
+.slt ul { top: 34px; padding: 4px 0; border-radius: 4px; background: #fff; box-shadow: 0 4px 12px 0 rgb(0 0 0 / 15%); }
+.slt li > a { padding: 8px 27px; line-height: 24px; font-size: 14px; word-break: break-all; text-align: center; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+.check-box.small label { padding-left: 28px; font-size: 14px; }
+
 /******************* contents **********************/
 /*event-list*/
 .event-list ul {display: flex; flex-wrap: wrap; margin: 0 -12px;}
@@ -156,6 +178,13 @@
     .tab02 > ul > li { margin-right: 20px; }
     .tab02 > ul > li > a { padding: 15px 0; font-size: 15px; }
     .tab01.is_depth > ul { padding-bottom: 54px; }
+
+    /* sorting-area */
+    .sorting-area { padding: 20px 0; }
+    .sorting-area .slt + .slt { margin-left: 12px; }
+    .slt select { position: static; margin: 0; padding-right: 20px; width: auto; height: 22px; font-size: 13px; background: url("../images/icons/btn-down-16-black.svg") no-repeat top 50% right 0; outline: none; clip-path: none; }
+    .slt > a, .slt ul { display: none; }
+    .check-box.small label { font-size: 13px; }
 
     /******************* contents **********************/
     /*event-list*/
