@@ -160,7 +160,7 @@
                         </dd>
                     </dl>
                     <dl class="form">
-                        <dt class="tit req">설문방식 첨부파일 선택형</dt>
+                        <dt class="tit">설문방식 첨부파일 선택형</dt>
                         <dd class="conts">
                             <div class="image-file-wrap">
                                 <div class="file-item">
@@ -208,19 +208,6 @@
                                         <div class="file-btns">
                                             <input type="file" name="imageFile4" id="imageFile4" accept="image/*">
                                             <label for="imageFile4" class="btn-upload"><span class="blind">업로드</span></label>
-                                            <button type="button" class="btn-del"><span class="blind">삭제</span></button>
-                                        </div>
-                                    </div>
-                                    <div class="file-name">
-                                        <input type="text" class="name" placeholder="파일선택" disabled>
-                                    </div>
-                                </div>
-                                <div class="file-item">
-                                    <div class="file-image">
-                                        <div class="file-preview"></div>
-                                        <div class="file-btns">
-                                            <input type="file" name="imageFile5" id="imageFile5" accept="image/*">
-                                            <label for="imageFile5" class="btn-upload"><span class="blind">업로드</span></label>
                                             <button type="button" class="btn-del"><span class="blind">삭제</span></button>
                                         </div>
                                     </div>
@@ -297,7 +284,7 @@
                         </dd>
                     </dl>
                     <dl class="form">
-                        <dt class="tit req">마케팅 수신 동의 <span class="blind">필수입력</span></dt>
+                        <dt class="tit req">마케팅 수신 동의 (선택) <span class="blind">필수입력</span></dt>
                         <dd class="conts">
                             <div class="agree-cont-wrap">
                                 <div class="agree-cont-box" tabindex="0">
@@ -343,9 +330,14 @@
                                     </span>
                                 </div>
                             </div>
+                            <dl class="bullet-list">
+                                <dt class="b-tit">유의사항</dt>
+                                <dd class="b-txt">고객님은 개인정보 수집 활용에 동의하지 않을 수 있습니다. 다만, 동의 거부 시 본 이벤트 응모 및 경품 증정이 제한됩니다.</dd>
+                                <dd class="b-txt">비회원의 경우 작성 완료 후 휴대폰 번호 간편 인증절차가 진행됩니다.</dd>
+                            </dl>
                         </dd>
                     </dl>
-                    <dl class="form">
+                    <dl class="form row">
                         <dt class="tit"><label for="buyerName" class="req">이름<span class="blind">필수입력</span></label></dt>
                         <dd class="conts">
                             <span class="input-wrap">
@@ -353,7 +345,7 @@
                             </span>
                         </dd>
                     </dl>
-                    <dl class="form">
+                    <dl class="form row">
                         <dt class="tit">
                             <label for="buyerPhone" class="req">휴대폰<span class="blind">필수</span></label>
                         </dt>
@@ -369,7 +361,7 @@
                         </dd>
                     </dl>
                 </div>
-                <div class="btn-wrap">
+                <div class="btn-area full-size-m">
                     <a href="#" class="btn"><span>참여하기</span></a>
                 </div>
                 <div class="notice-wrap">
@@ -380,7 +372,7 @@
                         <dd class="b-txt">LG전자 멤버십 고객에 한하여 당첨 시 멤버십 포인트가 적립됩니다.</dd>
                     </dl>
                 </div>
-                <div class="btn-wrap">
+                <div class="btn-area full-size-m">
                     <a href="#" class="btn border"><span>목록</span></a>
                 </div>
             </div>
