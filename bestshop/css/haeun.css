@@ -989,6 +989,20 @@
 .bottom-cart-wrap .bar-wrap.care-ex .foot-area .btn-area .btn-reset::before {content:''; display:block; position:absolute; width:24px; height:24px; top:0; left:0; background:url(../images/icons/icon-reset-pink.svg) no-repeat center / 20px 20px}
 .bottom-cart-wrap .bar-wrap.care-ex .foot-area .btn-area .btn-res {width:152px; margin-left:24px; padding:11px 19px}
 
+.res-main .cont-wrap .cont-area .step-area .my-select > ul {display:flex; justify-content:space-between}
+.res-main .cont-wrap .cont-area .step-area .my-select > ul > li {width:calc((100% / 3) - 8px)}
+.res-main .cont-wrap .cont-area .step-area .my-select .box {position:relative; display:flex; align-items:center; min-height:148px; padding:13px 25px; border-radius:8px; border:1px solid #ddd}
+.res-main .cont-wrap .cont-area .step-area .my-select .box .img-wrap {width:120px; height:120px; margin-right:32px}
+.res-main .cont-wrap .cont-area .step-area .my-select .box .img-wrap > img {display:block; width:100%}
+.res-main .cont-wrap .cont-area .step-area .my-select .box .txt-wrap {width:calc(100% - 152px)}
+.res-main .cont-wrap .cont-area .step-area .my-select .box .txt-wrap .tit {font-size:16px; font-weight:bold; line-height:26px}
+.res-main .cont-wrap .cont-area .step-area .my-select .box .txt-wrap .code {margin-top:4px; font-size:14px; font-weight:bold; line-height:20px}
+.res-main .cont-wrap .cont-area .step-area .my-select .box .txt-wrap .price {margin-top:10px; font-size:16px; line-height:24px}
+.res-main .cont-wrap .cont-area .step-area .my-select .box.no-item {flex-direction:column; justify-content:center}
+.res-main .cont-wrap .cont-area .step-area .my-select .box.no-item .no-item-txt {color:#aaa; font-size:16px; font-weight:500; line-height:26px}
+.res-main .cont-wrap .cont-area .step-area .my-select .box .btn-add {width:124px; margin-top:18px; padding:3px 12px; border-radius:8px; font-size:14px}
+.res-main .cont-wrap .cont-area .step-area .my-select .box .btn-close {position:absolute; width:18px; height:18px; top:12px; right:12px; background:url(../images/icons/btn-close-24-black.svg) no-repeat center / contain}
+
 /* mobile */
 @media screen and (max-width:767px) {
   .res-main .top-wrap .guide-area .guide-process .guide-banner-care-ex .swiper-slide .box .icon-wrap .icon01 {background:url(../images/icons/icon-res-guide-visit-01_mo.svg) no-repeat center / 100%}

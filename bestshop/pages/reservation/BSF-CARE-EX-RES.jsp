@@ -482,11 +482,12 @@
         <!-- step 1 -->
         <div class="step-area step01 active"><!-- active 클래스 추가 -->
           <div class="main-area active"><!-- active 클래스 추가 -->
-            <div class="my-select-area">
-              <div class="tit-area">
-                <h4 class="step-tit">선택하신 소모품<sup>*</sup></h4>
-                <em>(최대 3개 선택가능)</em>
-              </div>
+            
+            <div class="tit-area">
+              <h4 class="step-tit">선택하신 소모품<sup>*</sup></h4>
+              <em>(최대 3개 선택가능)</em>
+            </div>
+            <div class="my-select">
               <ul>
                 <li>
                   <div class="box">
@@ -1330,8 +1331,8 @@
     // 선택한 소모품(장바구니) 영역
     $('.bottom-cart-wrap .head-area').on('click',function(){
       $(this).closest('.bottom-cart-wrap').toggleClass('active');
-      $('.body-area').stop().slideToggle();
-      $('.foot-area').stop().slideToggle();
+      $('.bottom-cart-wrap .body-area').stop().slideToggle();
+      $('.bottom-cart-wrap .foot-area').stop().slideToggle();
     });
 
     // step 2 지도/리스트 보기 버튼
