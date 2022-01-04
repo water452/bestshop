@@ -1,0 +1,25 @@
+<svg id="icon_filter" xmlns="http://www.w3.org/2000/svg" width="23.999" height="23.999" viewBox="0 0 23.999 23.999">
+    <defs>
+        <style>
+            .cls-1,.cls-2,.cls-3{fill:none}.cls-2,.cls-3{stroke:#000;stroke-miterlimit:10}.cls-2{stroke-linecap:round}
+        </style>
+    </defs>
+    <path id="Rectangle" class="cls-1" d="M0 0h24v24H0z"/>
+    <g id="ic" transform="translate(4.5 4.5)">
+        <path id="Line" class="cls-2" d="M11.284 9h10.662" transform="translate(-7.321 -6.75)"/>
+        <g id="Rectangle-2">
+            <path id="패스_260" data-name="패스 260" class="cls-1" d="M8.25 6a2.25 2.25 0 0 1 2.25 2.25 2.25 2.25 0 0 1-2.25 2.25A2.25 2.25 0 0 1 6 8.25 2.25 2.25 0 0 1 8.25 6z" transform="translate(-6 -6)"/>
+            <path id="패스_261" data-name="패스 261" class="cls-3" d="M8.437 6.75a1.687 1.687 0 0 1 1.687 1.687 1.687 1.687 0 0 1-1.687 1.687A1.687 1.687 0 0 1 6.75 8.437 1.687 1.687 0 0 1 8.437 6.75z" transform="translate(-6.188 -6.188)"/>
+        </g>
+        <path id="Line-2" class="cls-2" d="M11.284 23h10.662" transform="translate(-7.321 -10.251)"/>
+        <g id="Rectangle-3" transform="translate(0 10.5)">
+            <path id="패스_262" data-name="패스 262" class="cls-1" d="M8.25 20a2.25 2.25 0 0 1 2.25 2.25 2.25 2.25 0 0 1-2.25 2.25A2.25 2.25 0 0 1 6 22.25 2.25 2.25 0 0 1 8.25 20z" transform="translate(-6 -20)"/>
+            <path id="패스_263" data-name="패스 263" class="cls-3" d="M8.437 20.75a1.687 1.687 0 0 1 1.687 1.687 1.687 1.687 0 0 1-1.687 1.687 1.687 1.687 0 0 1-1.687-1.687 1.687 1.687 0 0 1 1.687-1.687z" transform="translate(-6.188 -20.188)"/>
+        </g>
+        <path id="Line-3" class="cls-2" d="M7 16h10.7" transform="translate(-6.25 -8.5)"/>
+        <g id="Rectangle-4" transform="translate(10.875 5.25)">
+            <path id="패스_264" data-name="패스 264" class="cls-1" d="M22.75 13A2.25 2.25 0 0 1 25 15.25a2.25 2.25 0 0 1-2.25 2.25 2.25 2.25 0 0 1-2.25-2.25A2.25 2.25 0 0 1 22.75 13z" transform="translate(-20.5 -13)"/>
+            <path id="패스_265" data-name="패스 265" class="cls-3" d="M22.937 13.75a1.687 1.687 0 0 1 1.687 1.687 1.687 1.687 0 0 1-1.687 1.687 1.687 1.687 0 0 1-1.687-1.687 1.687 1.687 0 0 1 1.687-1.687z" transform="translate(-20.688 -13.188)"/>
+        </g>
+    </g>
+</svg>

@@ -582,7 +582,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
     .slide-navi .swiper-auto .slideBtn{width:26px;height:26px;}
 
 	/* btn area */
-	.btn-area.full-size-m{display:flex;}
+	.btn-area.full-size-m{display:flex;width:100%;}
 	.btn-area.full-size-m > *{flex:1;}
 	.btn-area.full-size-m > * + *{margin-left:10px;}
 }
