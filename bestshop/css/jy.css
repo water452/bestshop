@@ -33,6 +33,12 @@
 .flag-wrap .flag:first-child { margin-left: 0; } 
 .flag-wrap .flag:not(:first-child):before { display: inline-block; width: 1px; height: 10px; margin: 0 6px; background-color: #ddd; vertical-align: -1px; content: ''; } 
 
+/* btn-area */
+.btn-area.more { margin-top: 32px; text-align: center; }
+
+/* button */
+.btn.s01 { padding: 0 16px; line-height: 38px; font-size: 14px; border-radius: 20px; }
+
 /* tab */
 [class*="tab"] { position: relative; }
 .tabSlide > ul { white-space: nowrap; overflow-x: auto; }
@@ -169,6 +175,12 @@
 
     /*flag-wrap*/
     .flag-wrap .flag {font-size: 11px;}
+
+    /* btn-area */
+    .btn-area.more { margin-top: 40px; }
+
+    /* button */
+    .btn.s01 { padding: 0 20px; line-height: 41px; font-size: 13px; border-radius: 21px; }
 
     /* tab */
     [class*="tab"] { left: -16px; padding: 0 16px; width: calc(100% + 32px); }

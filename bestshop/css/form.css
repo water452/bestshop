@@ -849,7 +849,7 @@
 .image-file-wrap .file-item .file-image .file-preview:before { content: ''; display: inline-block; width: 0; height: 100%; vertical-align: middle; } 
 .image-file-wrap .file-item .file-image .file-preview img { max-width: 100%; max-height: 100%; } 
 .image-file-wrap .file-item .file-image .file-btns { position: absolute; bottom: -8px; right: -8px; } 
-.image-file-wrap .file-item .file-image .file-btns .btn-upload { display: block; width: 24px; height: 24px; border-radius: 50%; background: url(../images/icons/btn-imgadd-24.svg) no-repeat; cursor: pointer; } 
+.image-file-wrap .file-item .file-image .file-btns .btn-upload { display: block; width: 20px; height: 20px; border-radius: 50%; background: url(../images/icons/btn-imgadd-20.svg) no-repeat; cursor: pointer; } 
 .image-file-wrap .file-item .file-image .file-btns input[type="file"]:focus + .btn-upload { outline: 1px solid #000; } 
 .image-file-wrap .file-item .file-image .file-btns .btn-file-del,.image-file-wrap .file-item .file-image .file-btns .btn-del { display: none; width: 24px; height: 24px; border-radius: 50%; background: url(../images/icons/btn-imgdelet-24.svg) no-repeat; } 
 .image-file-wrap .file-item .file-image .file-btns input[type="file"] { position: absolute; z-index: -10; width: 0 !important; height: 0 !important; overflow: hidden !important; font-size: medium; line-height: normal; word-break: break-all; } 

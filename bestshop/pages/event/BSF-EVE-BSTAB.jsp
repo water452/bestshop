@@ -5,11 +5,6 @@
 <div class="container" id="content">
     <div class="page-header">
         <h2 class="title">이벤트 전체보기</h2>
-        <!--
-        <div class="desc">
-          <p class="txt">LG 베스트샵에서 즐길 수 있는 혜택을 놓치지 마세요!</p>
-        </div>
-        -->
     </div>
     <!-- contents -->
     <div class="contents">
@@ -175,6 +170,11 @@
                 </ul>
             </div>
             <!-- //event-list -->
+            <!-- 더보기 -->
+            <div class="btn-area more">
+                <a href="javascript:void(0);" class="btn border s01"><span>이벤트 더보기</span></a>
+            </div>
+            <!-- //더보기 -->
             <!-- no-data -->
             <div class="no-data">
                 <p>설정하신 필터에 맞는 이벤트가 없습니다.</p>

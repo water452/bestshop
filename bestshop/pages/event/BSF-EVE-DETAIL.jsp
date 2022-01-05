@@ -40,7 +40,7 @@
                 <div class="component-wrap">
                     <div class="inner">
                         <div class="tooltip-wrap share active">
-                            <a href="javascript:;" class="tooltip-icon ui_tooltip-target" data-fixed="fixed-right" ui-modules="TooltipTarget"><span class="blind">제품 공유하기</span></a>
+                            <a href="javascript:void(0);" class="tooltip-icon ui_tooltip-target" data-fixed="fixed-right" ui-modules="TooltipTarget"><span class="blind">제품 공유하기</span></a>
                             <!-- tooltip: 공유하기 -->
                             <div class="tooltip-box" style="display: none;">
                                 <span class="title">공유하기</span>
@@ -284,7 +284,7 @@
                         </dd>
                     </dl>
                     <dl class="form">
-                        <dt class="tit req">마케팅 수신 동의 (선택) <span class="blind">필수입력</span></dt>
+                        <dt class="tit">마케팅 수신 동의 (선택)</dt>
                         <dd class="conts">
                             <div class="agree-cont-wrap">
                                 <div class="agree-cont-box" tabindex="0">
@@ -362,7 +362,7 @@
                     </dl>
                 </div>
                 <div class="btn-area full-size-m">
-                    <a href="#" class="btn"><span>참여하기</span></a>
+                    <a href="javascript:void(0);" class="btn"><span>참여하기</span></a>
                 </div>
                 <div class="notice-wrap">
                     <dl class="bullet-list">
@@ -373,7 +373,7 @@
                     </dl>
                 </div>
                 <div class="btn-area full-size-m">
-                    <a href="#" class="btn border"><span>목록</span></a>
+                    <a href="javascript:void(0);" class="btn border"><span>목록</span></a>
                 </div>
             </div>
         </div>
