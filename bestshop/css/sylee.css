@@ -21,5 +21,13 @@ html.full-height .wrap #content .shop-search-wrap{position:relative;height:100%;
 .tab-area .tab-title li.active a:after{display:block;content:'';position:absolute;bottom:-1px;left:0;width:100%;height:4px;background:#000;border-radius:4px 4px 0 0;}
 .tab-area .tab-content{padding-top:14px;}
 .tab-area .tab-content .search-select{display:flex;}
+.tab-area .tab-content .search-select.typeA > *{flex:1;}
+.tab-area .tab-content .search-select.typeA > * + *{margin-left:9px;}
+.tab-area .tab-content .search-select .slt.sltBox > a{display:block;position:relative;width:100%;height:48px;line-height:46px;padding:0 40px 0 16px;border-radius:8px;}
+.tab-area .tab-content .search-select .slt.sltBox > a:before{display:block;content:'';position:absolute;top:calc(50% - 8px);right:16px;width:16px;height:16px;background:url('../images/icons/btn-down-16-black.svg') no-repeat 0 0;background-size:contain;transition:all 0.3s linear;}
+.tab-area .tab-content .search-select .slt.sltBox > ul{display:none;}
+.tab-area .tab-content .search-select .slt.sltBox.border > a{border:1px solid #ddd;}
+.tab-area .tab-content .search-select.typeA > .btn-area{flex:none;}
+.tab-area .tab-content .search-select.typeA > .btn-area > *{display:block;width:65px;height:48px;font-size:16px;text-align:center;line-height:46px;border:1px solid #000;border-radius:8px;}
 
 .shop-search-wrap .shop-search-body{flex:1;background:gray;}
