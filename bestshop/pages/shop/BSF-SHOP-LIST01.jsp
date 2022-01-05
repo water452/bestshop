@@ -1,26 +1,30 @@
 <%@ page contentType="text/html; charset=utf-8" %>
 
 <div class="tab-content">
-    <div class="search-select">
-        <div class="slt sltBox border">
+    <div class="search-select typeA">
+        <div class="sltBox border" data-txt-change="true">
             <a href="javascript:void(0);" class="btn-slt">시/도 선택</a>
             <ul>
+                <li><a href="javascript:void(0);">시/도 선택</a></li>
                 <li><a href="javascript:void(0);">서울특별시</a></li>
                 <li><a href="javascript:void(0);">부산광역시</a></li>
             </ul>
             <select title="지역별 매장찾기">
-                <option selected>서울특별시</option>
+                <option selected>시/도 선택</option>
+                <option>서울특별시</option>
                 <option>부산광역시</option>
             </select>
         </div>
-        <div class="slt sltBox border">
+        <div class="sltBox border" data-txt-change="true">
             <a href="javascript:void(0);" class="btn-slt">구/군 선택</a>
             <ul>
+                <li><a href="javascript:void(0);">구/군 선택</a></li>
                 <li><a href="javascript:void(0);">송파구</a></li>
                 <li><a href="javascript:void(0);">종로구</a></li>
             </ul>
             <select title="지역별 매장찾기">
-                <option selected>송파구</option>
+                <option selected>구/군 선택</option>
+                <option>송파구</option>
                 <option>종로구</option>
             </select>
         </div>
