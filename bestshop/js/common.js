@@ -199,6 +199,8 @@ $(function(){
         $(this).attr("data-default-selected", index).find(".btn-slt").attr("title", "현재 선택");
     });
 
+    $('.sltBox > ul > li:first-of-type').addClass('active');
+
     // sltBox
     $(document).on("click", ".sltBox a", function(){
         var slt = $(this).parents(".sltBox");
@@ -213,6 +215,8 @@ $(function(){
                 var txt = $(this).text();
                 var sel = slt.find("select");
                 var indexDefault = slt.attr("data-default-selected");
+
+                $(this).parents('li').addClass('active').siblings('li').removeClass('active');
 
                 slt.find(".btn-slt").text(txt);
                 sel.find("option").eq(index).prop('selected', true);
@@ -231,10 +235,10 @@ $(function(){
 
     // sltBox (select click)
     $(document).on("change", ".sltBox select", function(){
-        var slt = $(this).parents(".sltBox");
-        var v = $(this).val();
-        var index = $(this).find("option:selected").index();
-        var indexDefault = slt.attr("data-default-selected");
+        var slt = $(this).parents(".sltBox"),
+            v = $(this).val(),
+            index = $(this).find("option:selected").index(),
+            indexDefault = slt.attr("data-default-selected");
 
         slt.find(".btn-slt").text(v);
 
@@ -329,9 +333,7 @@ $(document).ready(function() {
 $(window).resize(function(){
     var _thsW = $(window).width();
 
-    if(_thsW < 768){
-        tabCommon();
-    }
+    tabCommon();
 });
 
 $(window).scroll(function () {
