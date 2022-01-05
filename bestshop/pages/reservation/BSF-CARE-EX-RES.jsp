@@ -14,7 +14,7 @@
       <div class="guide-area">
         <div class="guide-process">
           <div class="inner">
-            <p class="desc">필요한 소모품에 대한 정보를 LG전자 베스트샵을 통해 확인하고 <br>매장 방문하여 구매 및 추가 상담을 받으실 수 있습니다.</p>
+            <p class="desc">필요한 소모품에 대한 정보를 LG전자 베스트샵을 통해 확인하고 <br class="only_pc">매장 방문하여 구매 및 추가 상담을 받으실 수 있습니다.</p>
             <div class="swiper guide-banner-care-ex">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -22,7 +22,7 @@
                     <span class="icon-wrap">
                       <i class="icon01"></i>
                     </span>
-                    <p class="txt">구매 희망 소모품 선택</p>
+                    <p class="txt">구매 희망 <br class="only_mo">소모품 선택</p>
                   </div>
                 </div>
                 <div class="swiper-slide">
@@ -30,7 +30,7 @@
                     <span class="icon-wrap">
                       <i class="icon02"></i>
                     </span>
-                    <p class="txt">소모품 구매 예약 신청</p>
+                    <p class="txt">소모품 구매 <br class="only_mo">예약 신청</p>
                   </div>
                 </div>
                 <div class="swiper-slide">
@@ -38,7 +38,7 @@
                     <span class="icon-wrap">
                       <i class="icon03"></i>
                     </span>
-                    <p class="txt">방문 매장 재고 확인 및 고객 전화 안내</p>
+                    <p class="txt">방문 매장 재고 확인 <br class="only_mo">및 고객 전화 안내</p>
                   </div>
                 </div>
                 <div class="swiper-slide">
@@ -46,7 +46,7 @@
                     <span class="icon-wrap">
                       <i class="icon04"></i>
                     </span>
-                    <p class="txt">매장 방문 픽업 및 추가 상담</p>
+                    <p class="txt">매장 방문 픽업 <br class="only_mo">및 추가 상담</p>
                   </div>
                 </div>
               </div>
@@ -79,69 +79,67 @@
 
         <!-- 카테고리 스티키 탭(라디오)  -->
         <div class="cate-sticky-wrap">
-          <div clas="inner">
-            <div class="btn-filter">
-              <a href="#"><span class="blind">옵션필터</span></a>
-            </div>
-            <div class="cate-wrap">
-              <div class="cate-list">
-                <ul>
-                  <li class="active">
-                    <div class="radio-btn tab-type">
-                      <input type="radio" name="product" id="air-purifier-360">
-                      <label for="air-purifier-360">360º 공기청정기</label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="radio-btn tab-type">
-                      <input type="radio" name="product" id="air-purifier-mini">
-                      <label for="air-purifier-mini">미니 공기청정기</label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="radio-btn tab-type">
-                      <input type="radio" name="product" id="vaccum">
-                      <label for="vaccum">청소기</label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="radio-btn tab-type">
-                      <input type="radio" name="product" id="pra-l">
-                      <label for="pra-l">프라엘</label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="radio-btn tab-type">
-                      <input type="radio" name="product" id="styler">
-                      <label for="styler">스타일러</label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="radio-btn tab-type">
-                      <input type="radio" name="product" id="dryer">
-                      <label for="dryer">건조기</label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="radio-btn tab-type">
-                      <input type="radio" name="product" id="washing">
-                      <label for="washing">세탁기</label>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="radio-btn tab-type">
-                      <input type="radio" name="productr" id="dish-washer">
-                      <label for="dish-washer">식기세척기</label>
-                    </div>
-                  </li>
-                </ul>
-              </div>
+          <div class="btn-filter">
+            <a href="#"><span class="blind">옵션필터</span></a>
+          </div>
+          <div class="cate-wrap">
+            <div class="cate-list">
+              <ul>
+                <li class="active">
+                  <div class="radio-btn tab-type">
+                    <input type="radio" name="product" id="air-purifier-360">
+                    <label for="air-purifier-360">360º 공기청정기</label>
+                  </div>
+                </li>
+                <li>
+                  <div class="radio-btn tab-type">
+                    <input type="radio" name="product" id="air-purifier-mini">
+                    <label for="air-purifier-mini">미니 공기청정기</label>
+                  </div>
+                </li>
+                <li>
+                  <div class="radio-btn tab-type">
+                    <input type="radio" name="product" id="vaccum">
+                    <label for="vaccum">청소기</label>
+                  </div>
+                </li>
+                <li>
+                  <div class="radio-btn tab-type">
+                    <input type="radio" name="product" id="pra-l">
+                    <label for="pra-l">프라엘</label>
+                  </div>
+                </li>
+                <li>
+                  <div class="radio-btn tab-type">
+                    <input type="radio" name="product" id="styler">
+                    <label for="styler">스타일러</label>
+                  </div>
+                </li>
+                <li>
+                  <div class="radio-btn tab-type">
+                    <input type="radio" name="product" id="dryer">
+                    <label for="dryer">건조기</label>
+                  </div>
+                </li>
+                <li>
+                  <div class="radio-btn tab-type">
+                    <input type="radio" name="product" id="washing">
+                    <label for="washing">세탁기</label>
+                  </div>
+                </li>
+                <li>
+                  <div class="radio-btn tab-type">
+                    <input type="radio" name="productr" id="dish-washer">
+                    <label for="dish-washer">식기세척기</label>
+                  </div>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
         <!-- // 카테고리 스티키 탭(라디오)  -->
         <!-- 제품 목록 전체 -->
-        <div class="plp-list-wrap">
+        <div class="plp-list-wrap"><!-- active 클래스 추가 -->
           <!-- 필터 영역 -->
           <div class="lay-filter">
             <span class="dimmed"></span>
@@ -504,13 +502,13 @@
                 </li>
                 <li>
                   <div class="box no-item">
-                    <p class="no-item-txt">원하는 상담 제품을 추가 하실 수 있습니다.</p>
+                    <p class="no-item-txt">구매 예약하실 소모품을 추가 하실 수 있습니다.</p>
                     <button type="button" class="btn border btn-add">소모품 추가 하기</button>
                   </div>
                 </li>
                 <li>
                   <div class="box no-item">
-                    <p class="no-item-txt">원하는 상담 제품을 추가 하실 수 있습니다.</p>
+                    <p class="no-item-txt">구매 예약하실 소모품을 추가 하실 수 있습니다.</p>
                     <button type="button" class="btn border btn-add">소모품 추가 하기</button>
                   </div>
                 </li>
@@ -526,15 +524,9 @@
           <div class="result-area active"><!-- active 클래스 추가 -->
             <div class="info-step01">
               <div class="info-txt-com active"><!-- active 클래스 추가 -->
-                <span class="mo-tit">상담목적 및 제품선택</span>
-                <span class="pc-tit">상담목적 :</span>
-                <span class="txt">혼수</span>
-
-                <span class="pc-tit">상담제품 :</span>
-                <span class="txt">TV, 냉장고, 식기세척기, 세탁기, 스타일러, 공기청정기, 에어컨</span>
-
-                <span class="pc-tit">구매시기 :</span>
-                <span class="txt">3개월 내</span>
+                <span class="mo-tit">소모품 선택</span>
+                <span class="pc-tit">제품 :</span>
+                <span class="txt">물걸레노즐, 트루 토탈케어 필터 전용 극세 필터</span>
               </div>
               <button type="button" class="btn-reselect">재선택</button>
             </div>
@@ -1198,7 +1190,7 @@
 <!-- // container -->
 
 <!-- 선택한 소모품(장바구니) 영역 -->
-<div class="bottom-cart-wrap active"><!-- active 클래스 추가 -->
+<div class="bottom-cart-wrap"><!-- active 클래스 추가 -->
   <div class="bar-wrap care-ex">
     <div class="head-area">
       <p class="head-txt">선택한 소모품 <span><em>2</em>/3</span></p>
@@ -1235,7 +1227,7 @@
     </div>
     <div class="foot-area">
       <div class="btn-area">
-        <button type="button" class="btn-reset"><span>초기화</span></button>
+        <button type="button" class="btn btn-reset"><span>초기화</span></button>
         <button type="button" class="btn btn-res">소모품 구매 예약</button>
       </div>
     </div>
@@ -1315,6 +1307,16 @@
         // hide: true,
       },
     })
+
+    // 모바일 필터 영역
+    $('.res-main .cate-sticky-wrap .btn-filter').on('click',function(){
+      $('.res-main.care-ex .plp-list-wrap .lay-filter').toggleClass('active');
+      $('html').addClass('scroll-fixed');
+    });
+    $('.lay-filter .plp-filter-wrap .filter-close .btn-close, .res-main.care-ex .plp-list-wrap .lay-filter .dimmed').on('click',function(){
+      $('.res-main.care-ex .plp-list-wrap .lay-filter').removeClass('active');
+      $('html').removeClass('scroll-fixed');
+    });
 
     // 소모품 목록 영역 > 제품 목록 내 팝업
     var prdPopOpen = $('.prd-list-area .list-wrap > ul > li .box .info-wrap .btn-info-pop');
