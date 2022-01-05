@@ -215,7 +215,8 @@
     }
     $('[role="tab"]').on('click keydown', tabEvent);
 
-    // common tab (is depth)
+    /* tab: start */
+    // tab (is depth)
     $(".tabOn").each(function(){
         var $this = $(this);
         if ( $this.find("[class*='tab']").length > 0 ){
@@ -223,7 +224,7 @@
         };
     });
 
-    // common tab
+    // tab
     function tabOn(e){
         e.preventDefault();
         var target = $(this).attr("href");
@@ -240,7 +241,7 @@
     };
     $(document).on("click", ".tabOn > ul > li > a", tabOn);
 
-    // common tab (tabSlide)
+    // tab (tabSlide)
     function tabSlide(){
         var winWidth = $(window).width();
         var mobile = 768;
@@ -280,6 +281,14 @@
         };
     };
     tabSlide();
+    /* tab: end */
+
+    /* sltBox: start */
+    // sltBox (default selected)
+    $(".sltBox").each(function(){
+        var index = $(this).find("option:selected").index();
+        $(this).attr("data-default-selected", index).find(".btn-slt").attr("title", "현재 선택");
+    });
 
     // sltBox
     $(document).on("click", ".sltBox a", function(){
@@ -294,9 +303,19 @@
                 var index = $(this).parent().index();
                 var txt = $(this).text();
                 var sel = slt.find("select");
+                var indexDefault = slt.attr("data-default-selected");
 
                 slt.find(".btn-slt").text(txt);
                 sel.find("option").eq(index).prop('selected', true);
+
+                if ( index != indexDefault ){
+                    if ( !slt.is(".change") ){
+                        slt.addClass("change");
+                    };
+                }
+                else {
+                    slt.removeClass("change");
+                };
             };
         };
     });
@@ -306,8 +325,18 @@
         var slt = $(this).parents(".sltBox");
         var v = $(this).val();
         var index = $(this).find("option:selected").index();
+        var indexDefault = slt.attr("data-default-selected");
 
         slt.find(".btn-slt").text(v);
+
+        if ( index != indexDefault ){
+            if ( !slt.is(".change") ){
+                slt.addClass("change");
+            };
+        }
+        else {
+            slt.removeClass("change");
+        };
     });
 
     // document target
@@ -320,6 +349,7 @@
             $(".sltBox").removeClass("on");
         };
     });
+    /* sltBox: end */
 </script>
 <!-- // container -->
 
