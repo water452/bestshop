@@ -124,7 +124,7 @@ function footMenu(){
 }
 
 // tab common
-$(function(){
+function tabCommon(){
     // tab (is depth)
     $(".tabOn").each(function(){
         var $this = $(this);
@@ -190,7 +190,7 @@ $(function(){
         };
     };
     tabSlide();
-});
+}
 
 // select box common
 $(function(){
@@ -265,6 +265,7 @@ $(document).ready(function() {
     clickLayer2()
     floatingMenu();
     footMenu();
+    tabCommon();
 
     if(_thsW > 767){
         megaGnb();
@@ -327,6 +328,10 @@ $(document).ready(function() {
 
 $(window).resize(function(){
     var _thsW = $(window).width();
+
+    if(_thsW < 768){
+        tabCommon();
+    }
 });
 
 $(window).scroll(function () {
