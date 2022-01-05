@@ -241,6 +241,7 @@ $(function(){
             indexDefault = slt.attr("data-default-selected");
 
         slt.find(".btn-slt").text(v);
+		slt.find("li").eq(index).addClass("active").siblings().removeClass("active");
 
         if ( index != indexDefault ){
             if ( !slt.is(".change") ){
