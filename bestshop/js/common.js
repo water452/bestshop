@@ -331,8 +331,16 @@ $(document).ready(function() {
 
     // scroll custom
     if(_thsW > 767){
-        $('.custom-scroll').mCustomScrollbar({theme:"minimal-dark"});
-    }
+        $('.custom-scroll').mCustomScrollbar({
+			theme:"minimal-dark",
+			mouseWheelPixels: 140, // 한번에 스크롤 되는양
+			scrollInertia: 300, // 부드러움 (값이 작을수록 속도가 빨라짐)
+			autoDraggerLength: false // 가속도 여부?
+			/* ajax 적용시
+			advanced:{ updateOnContentResize: true }
+			*/
+		});
+    };
 
     // search clear
     $('.btn-clear').on('click', function(){

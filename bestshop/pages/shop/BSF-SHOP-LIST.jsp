@@ -310,7 +310,7 @@
                     var _thsTop = $(this).parents('li').position().top;
 
                     $(this).parents('li').addClass('active').siblings('li').removeClass('active');
-                    $('.result-body .mCustomScrollBox').scrollTop(_thsTop)
+                    $('.result-body .mCustomScrollbar').mCustomScrollbar("scrollTo", _thsTop);
                 });
 
                 // filter popup > toggle
