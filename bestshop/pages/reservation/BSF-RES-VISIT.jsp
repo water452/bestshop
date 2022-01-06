@@ -4,7 +4,7 @@
 <div class="container" id="content">
 
   <div class="page-header">
-    <h1 class="title">방문 상담 예약</h1>
+    <h2 class="title">방문 상담 예약</h2>
   </div>
 
   <!-- contents -->
@@ -117,7 +117,7 @@
         <div class="step-area step01 active"><!-- active 클래스 추가 -->
           <div class="main-area active"><!-- active 클래스 추가 -->
             <form action="#">
-              <h4 class="step-tit">상담목적<sup>*</sup></h4>
+              <h3 class="step-tit">상담목적<sup>*</sup></h3>
               <div class="input-area">
                 <ul class="icon-type">
                   <li>
@@ -163,7 +163,7 @@
                 </ul>
               </div>
 
-              <h4 class="step-tit">제품선택<sup>*</sup><span>(다중선택)</span></h4>
+              <h3 class="step-tit">제품선택<sup>*</sup><span>(다중선택)</span></h3>
               <!-- 제품선택 카테고리형 -->
               <div class="input-area">
                 <ul class="cate-type">
@@ -460,7 +460,7 @@
               </div> -->
               <!-- // 제품선택 제품군형 -->
 
-              <h4 class="step-tit">구매 희망 시기<sup>*</sup></h4>
+              <h3 class="step-tit">구매 희망 시기<sup>*</sup></h3>
               <div class="input-area">
                 <ul class="base-type">
                   <li>
@@ -514,10 +514,10 @@
                 </ul>
               </div>
 
-              <h4 class="step-tit">추가 전달사항<span>(선택)</span></span></h4>
+              <h3 class="step-tit">추가 전달사항<span>(선택)</span></span></h3>
               <div class="input-area">
                 <div class="text-area">
-                  <textarea maxlength="100" placeholder="원하시는 제품의 기능이나 가격대, 기타 문의사항을 남겨주시면 원활한 상담이 가능합니다."></textarea>
+                  <textarea title="추가 전달사항 입력" maxlength="100" placeholder="원하시는 제품의 기능이나 가격대, 기타 문의사항을 남겨주시면 원활한 상담이 가능합니다."></textarea>
                   <p class="info-msg">* 텍스트는 100자까지 입력가능합니다.</p>
                 </div>
               </div>
@@ -553,7 +553,7 @@
             
             <div class="shop-date-wrap">
               <div class="view-area">
-                <h4 class="step-tit">상담하실 매장과 상담일시 선택<sup>*</sup></h4>
+                <h3 class="step-tit">상담하실 매장과 상담일시 선택<sup>*</sup></h3>
                 <div class="sort-area">
                   <button type="button" class="view-list active">리스트보기</button><!-- active 클래스 추가 -->
                   <button type="button" class="view-map">지도보기</button>
@@ -566,8 +566,9 @@
                       <form action="#">
                         <div class="input-area">
                           <div class="search-box">
-                            <input type="search" placeholder="매장명을 검색해주세요.">
-                            <button type="button" class="btn-search"><span class="blind">검색하기</span></button>
+                            <input type="text" placeholder="매장명을 검색해주세요." title="매장명을 검색해주세요." required="required">
+                            <button type="button" class="btn-clear">검색어 삭제</button>
+                            <button type="button" class="btn-search">검색</button>
                           </div>
                         </div>
                       </form>
@@ -627,18 +628,23 @@
                       </div>
                       <div class="mo-select">
                         <div class="input-area">
-                          <div class="select-box">
+                          <div class="slt sltBox border-type" data-txt-change="true">
+                            <a href="javascript:void(0);" class="btn-slt">선택</a>
+                            <ul>
+                              <li><a href="javascript:void(0);">선택</a></li>
+                              <li><a href="javascript:void(0);">서울특별시</a></li>
+                            </ul>
                             <select title="시/도 선택">
-                              <option value="">선택</option>
-                              <option value="">서울특별시</option>
-                            </select> 
+                              <option selected>선택</option>
+                              <option>서울특별시</option>
+                            </select>
                           </div>
                         </div>
                       </div>
                       <div class="rt">
                         <ul>
                           <li>
-                            <div class="shop-box">
+                            <a href="#" class="shop-box">
                               <div class="name-area">
                                 <p class="shop-name">강남 본점</p>
                                 <ul class="key-words">
@@ -652,10 +658,10 @@
                               <p class="info-txt">
                                 서울특별시 강남구 도산대로 403 (청담동 86-1)
                               </p>
-                            </div>
+                            </a>
                           </li>
                           <li>
-                            <div class="shop-box">
+                            <a href="#" class="shop-box">
                               <div class="name-area">
                                 <p class="shop-name">강남 본점</p>
                                 <ul class="key-words">
@@ -669,10 +675,10 @@
                               <p class="info-txt">
                                 서울특별시 강남구 도산대로 403 (청담동 86-1)
                               </p>
-                            </div>
+                            </a>
                           </li>
                           <li>
-                            <div class="shop-box">
+                            <a href="#" class="shop-box">
                               <div class="name-area">
                                 <p class="shop-name">강남 본점</p>
                                 <ul class="key-words">
@@ -686,10 +692,10 @@
                               <p class="info-txt">
                                 서울특별시 강남구 도산대로 403 (청담동 86-1)
                               </p>
-                            </div>
+                            </a>
                           </li>
                           <li>
-                            <div class="shop-box">
+                            <a href="#" class="shop-box">
                               <div class="name-area">
                                 <p class="shop-name">강남 본점</p>
                                 <ul class="key-words">
@@ -703,10 +709,10 @@
                               <p class="info-txt">
                                 서울특별시 강남구 도산대로 403 (청담동 86-1)
                               </p>
-                            </div>
+                            </a>
                           </li>
                           <li>
-                            <div class="shop-box">
+                            <a href="#" class="shop-box">
                               <div class="name-area">
                                 <p class="shop-name">강남 본점</p>
                                 <ul class="key-words">
@@ -720,10 +726,10 @@
                               <p class="info-txt">
                                 서울특별시 강남구 도산대로 403 (청담동 86-1)
                               </p>
-                            </div>
+                            </a>
                           </li>
                           <li>
-                            <div class="shop-box">
+                            <a href="#" class="shop-box">
                               <div class="name-area">
                                 <p class="shop-name">강남 본점</p>
                                 <ul class="key-words">
@@ -737,10 +743,10 @@
                               <p class="info-txt">
                                 서울특별시 강남구 도산대로 403 (청담동 86-1)
                               </p>
-                            </div>
+                            </a>
                           </li>
                           <li>
-                            <div class="shop-box">
+                            <a href="#" class="shop-box">
                               <div class="name-area">
                                 <p class="shop-name">강남 본점</p>
                                 <ul class="key-words">
@@ -754,10 +760,10 @@
                               <p class="info-txt">
                                 서울특별시 강남구 도산대로 403 (청담동 86-1)
                               </p>
-                            </div>
+                            </a>
                           </li>
                           <li>
-                            <div class="shop-box">
+                            <a href="#" class="shop-box">
                               <div class="name-area">
                                 <p class="shop-name">강남 본점</p>
                                 <ul class="key-words">
@@ -771,10 +777,10 @@
                               <p class="info-txt">
                                 서울특별시 강남구 도산대로 403 (청담동 86-1)
                               </p>
-                            </div>
+                            </a>
                           </li>
                           <li>
-                            <div class="shop-box">
+                            <a href="#" class="shop-box">
                               <div class="name-area">
                                 <p class="shop-name">강남 본점</p>
                                 <ul class="key-words">
@@ -788,10 +794,10 @@
                               <p class="info-txt">
                                 서울특별시 강남구 도산대로 403 (청담동 86-1)
                               </p>
-                            </div>
+                            </a>
                           </li>
                           <li>
-                            <div class="shop-box">
+                            <a href="#" class="shop-box">
                               <div class="name-area">
                                 <p class="shop-name">강남 본점</p>
                                 <ul class="key-words">
@@ -805,24 +811,7 @@
                               <p class="info-txt">
                                 서울특별시 강남구 도산대로 403 (청담동 86-1)
                               </p>
-                            </div>
-                          </li>
-                          <li>
-                            <div class="shop-box">
-                              <div class="name-area">
-                                <p class="shop-name">강남 본점</p>
-                                <ul class="key-words">
-                                  <li>NEW</li>
-                                  <li>화상상담</li>
-                                  <li>아이폰</li>
-                                  <li>LX지인</li>
-                                  <li>야간무인</li>
-                                </ul>
-                              </div>
-                              <p class="info-txt">
-                                서울특별시 강남구 도산대로 403 (청담동 86-1)
-                              </p>
-                            </div>
+                            </a>
                           </li>
                         </ul>
                       </div>
@@ -834,19 +823,29 @@
                     <div class="input-area">
                       <ul>
                         <li>
-                          <div class="select-box">
+                          <div class="slt sltBox border-type" data-txt-change="true">
+                            <a href="javascript:void(0);" class="btn-slt">선택</a>
+                            <ul>
+                              <li><a href="javascript:void(0);">선택</a></li>
+                              <li><a href="javascript:void(0);">서울특별시</a></li>
+                            </ul>
                             <select title="시/도 선택">
-                              <option value="">선택</option>
-                              <option value="">서울특별시</option>
-                            </select> 
+                              <option selected>선택</option>
+                              <option>서울특별시</option>
+                            </select>
                           </div>
                         </li>
                         <li>
-                          <div class="select-box">
+                          <div class="slt sltBox border-type" data-txt-change="true">
+                            <a href="javascript:void(0);" class="btn-slt">선택</a>
+                            <ul>
+                              <li><a href="javascript:void(0);">선택</a></li>
+                              <li><a href="javascript:void(0);">강남구</a></li>
+                            </ul>
                             <select title="구 선택">
-                              <option value="">선택</option>
-                              <option value="">강남구</option>
-                            </select> 
+                              <option selected>선택</option>
+                              <option>강남구</option>
+                            </select>
                           </div>
                         </li>
                       </ul>
@@ -1000,9 +999,8 @@
                 </div>
               </div>
             </div>
-
           </div>
-
+          
           <div class="btn-area bg active"><!-- active 클래스 추가 -->
             <div class="result-txt">
               <!-- <p>상담하실 매장과 일시를 선택해주세요.</p> -->
@@ -1037,7 +1035,7 @@
         <div class="step-area step03 active"><!-- active 클래스 추가 -->
           <div class="main-area active"><!-- active 클래스 추가 -->
             <div class="user-info-area">
-              <h4 class="step-tit">예약자 정보<sup>*</sup></h4>
+              <h3 class="step-tit">예약자 정보<sup>*</sup></h3>
               <div class="lt">
                 <form action="#">
                   <div class="input-area">
@@ -1072,7 +1070,7 @@
                     <ul class="acco-type">
                       <li>
                         <div class="check-box">
-                          <input type="checkbox" name="agr-all" id="agr-all" class="agr-all">
+                          <input type="checkbox" id="agr-all" class="agr-all">
                           <label for="agr-all">
                             <span class="name">모두 동의</span>
                           </label>
@@ -1080,7 +1078,7 @@
                       </li>
                       <li>
                         <div class="check-box">
-                          <input type="checkbox" name="agr-required" id="agr-required">
+                          <input type="checkbox" class="agr-check" id="agr-required">
                           <label for="agr-required">
                             <span class="name"><em class="red">(필수)</em>개인정보 수집 및 이용에 동의합니다.</span>
                           </label>
@@ -1117,7 +1115,7 @@
                       </li>
                       <li>
                         <div class="check-box">
-                          <input type="checkbox" name="agr-optional" id="agr-optional">
+                          <input type="checkbox" class="agr-check" id="agr-optional">
                           <label for="agr-optional">
                             <span class="name"><em>(선택)</em>마케팅 정보활용에 동의합니다.</span>
                           </label>
@@ -1143,7 +1141,7 @@
                 </div>
               </div>
               <div class="bottom-area">
-                <p class="tit">필수 위탁 고지</p>
+                <h4 class="tit">필수 위탁 고지</h4>
                 <p class="desc">LG전자는 개인정보 취급업무 중 서비스 제공에 필요한 필수적 업무를 아래와 같이 외부 전문업체에 위탁하여 운영하고 있으며, 해당 업체는 서비스 이행을 위한 목적으로만 사용됩니다.</p>
                 <div class="tb_row tb-row-bl white size-s">
                   <table>
@@ -1348,12 +1346,19 @@
         $(this).toggleClass('active').siblings('.agr-txt-wrap').slideToggle(200);
       });
       // step 2 약관 > 모두 동의
-      $(".agr-all").click(function(){
-        if($(".agr-all").prop("checked")){
-          $(".acco-type input[type='checkbox']").prop("checked",true);
-        } else{
-          $(".acco-type input[type='checkbox']").prop("checked",false);
-        }
+      $(".agr-wrap").on("click", "#agr-all", function () {
+        $(this).parents(".agr-wrap").find('input').prop("checked", $(this).is(":checked"));
+      });
+
+      // 약관 개별 선택
+      $(".agr-wrap").on("click", ".agr-check", function() {
+        var is_checked = true;
+
+        $(".agr-wrap .agr-check").each(function(){
+          is_checked = is_checked && $(this).is(":checked");
+        });
+
+        $("#agr-all").prop("checked", is_checked);
       });
     });
 

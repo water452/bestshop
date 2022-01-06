@@ -4,7 +4,7 @@
 <div class="container" id="content">
 
   <div class="page-header">
-    <h1 class="title">소모품 구매 예약</h1>
+    <h2 class="title">소모품 구매 예약</h2>
   </div>
 
   <!-- contents -->
@@ -76,401 +76,403 @@
     <div class="cont-wrap">
       <!-- 소모품 목록 영역 -->
       <section class="cont-area">
-
-        <!-- 카테고리 스티키 탭(라디오)  -->
-        <div class="cate-sticky-wrap">
-          <div class="btn-filter">
-            <a href="#"><span class="blind">옵션필터</span></a>
-          </div>
-          <div class="cate-wrap">
-            <div class="cate-list">
-              <ul>
-                <li class="active">
-                  <div class="radio-btn tab-type">
-                    <input type="radio" name="product" id="air-purifier-360">
-                    <label for="air-purifier-360">360º 공기청정기</label>
-                  </div>
-                </li>
-                <li>
-                  <div class="radio-btn tab-type">
-                    <input type="radio" name="product" id="air-purifier-mini">
-                    <label for="air-purifier-mini">미니 공기청정기</label>
-                  </div>
-                </li>
-                <li>
-                  <div class="radio-btn tab-type">
-                    <input type="radio" name="product" id="vaccum">
-                    <label for="vaccum">청소기</label>
-                  </div>
-                </li>
-                <li>
-                  <div class="radio-btn tab-type">
-                    <input type="radio" name="product" id="pra-l">
-                    <label for="pra-l">프라엘</label>
-                  </div>
-                </li>
-                <li>
-                  <div class="radio-btn tab-type">
-                    <input type="radio" name="product" id="styler">
-                    <label for="styler">스타일러</label>
-                  </div>
-                </li>
-                <li>
-                  <div class="radio-btn tab-type">
-                    <input type="radio" name="product" id="dryer">
-                    <label for="dryer">건조기</label>
-                  </div>
-                </li>
-                <li>
-                  <div class="radio-btn tab-type">
-                    <input type="radio" name="product" id="washing">
-                    <label for="washing">세탁기</label>
-                  </div>
-                </li>
-                <li>
-                  <div class="radio-btn tab-type">
-                    <input type="radio" name="productr" id="dish-washer">
-                    <label for="dish-washer">식기세척기</label>
-                  </div>
-                </li>
-              </ul>
+        <div class="main-area">
+          <!-- 카테고리 스티키 탭(라디오)  -->
+          <div class="cate-sticky-wrap">
+            <div class="btn-filter">
+              <a href="#"><span class="blind">옵션필터</span></a>
+            </div>
+            <div class="cate-wrap">
+              <div class="cate-list">
+                <ul>
+                  <li class="active">
+                    <div class="radio-btn tab-type">
+                      <input type="radio" name="product" id="air-purifier-360">
+                      <label for="air-purifier-360">360º 공기청정기</label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="radio-btn tab-type">
+                      <input type="radio" name="product" id="air-purifier-mini">
+                      <label for="air-purifier-mini">미니 공기청정기</label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="radio-btn tab-type">
+                      <input type="radio" name="product" id="vaccum">
+                      <label for="vaccum">청소기</label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="radio-btn tab-type">
+                      <input type="radio" name="product" id="pra-l">
+                      <label for="pra-l">프라엘</label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="radio-btn tab-type">
+                      <input type="radio" name="product" id="styler">
+                      <label for="styler">스타일러</label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="radio-btn tab-type">
+                      <input type="radio" name="product" id="dryer">
+                      <label for="dryer">건조기</label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="radio-btn tab-type">
+                      <input type="radio" name="product" id="washing">
+                      <label for="washing">세탁기</label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="radio-btn tab-type">
+                      <input type="radio" name="productr" id="dish-washer">
+                      <label for="dish-washer">식기세척기</label>
+                    </div>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- // 카테고리 스티키 탭(라디오)  -->
-        <!-- 제품 목록 전체 -->
-        <div class="plp-list-wrap"><!-- active 클래스 추가 -->
-          <!-- 필터 영역 -->
-          <div class="lay-filter">
-            <span class="dimmed"></span>
-            <div class="lay-fliter-con">
+          <!-- // 카테고리 스티키 탭(라디오)  -->
+          <!-- 제품 목록 전체 -->
+          <div class="plp-list-wrap"><!-- active 클래스 추가 -->
+            <!-- 필터 영역 -->
+            <div class="lay-filter">
+              <span class="dimmed"></span>
+              <div class="lay-fliter-con">
 
-              <div class="filter-head">
-                <p class="tit">360º 공기청정기 상세 검색</p>
-              </div>
-          
-              <div class="plp-filter-wrap">
-                <div class="box">
-                  <p class="tit">소모품 분류<span class="sel-num">(1)<span class="blind">총 선택 갯수</span></span></p>
-                  <ul class="filter-list">
-                    <li>
-                      <div class="check-box">
-                        <input type="checkbox" name="filter" id="filter">
-                        <label for="filter">필터</label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="check-box">
-                        <input type="checkbox" name="moving-wheel" id="moving-wheel">
-                        <label for="moving-wheel">무빙휠</label>
-                      </div>
-                    </li>
-                  </ul>
+                <div class="filter-head">
+                  <p class="tit">360º 공기청정기 상세 검색</p>
+                </div>
+            
+                <div class="plp-filter-wrap">
+                  <div class="box">
+                    <p class="tit">소모품 분류<span class="sel-num">(1)<span class="blind">총 선택 갯수</span></span></p>
+                    <ul class="filter-list">
+                      <li>
+                        <div class="check-box">
+                          <input type="checkbox" name="filter" id="filter">
+                          <label for="filter">필터</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="check-box">
+                          <input type="checkbox" name="moving-wheel" id="moving-wheel">
+                          <label for="moving-wheel">무빙휠</label>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="btn-area">
+                    <button type="button" class="btn-reset"><span>초기화</span></button>
+                  </div>
+                  <div class="filter-close">
+                    <button type="button" class="btn-close"><span class="blind">닫기</span></button>
+                  </div>
                 </div>
 
+              </div>
+            </div>
+            <!-- // 필터 영역 -->
+            <!-- 리스트 영역 -->
+            <div class="prd-list-area">
+              <div class="list-info">
+                <div class="list-count">총 24개</div>
+                <div class="info-txt">*구매하실 소모품을 선택하세요.</div>
+              </div>
+              <div class="list-wrap">
+                <ul>
+                  <li>
+                    <div class="box">
+                      <div class="img-wrap">
+                        <img src="../../images/img-filter-01.jpg" alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
+                      </div>
+                      <div class="tit-wrap">
+                        <p class="tit">V트루 토탈케어 필터 전용 극세 필터 V트루 토탈케어 필터 전용 극세 필터</p>
+                        <p class="code"><span class="blind">제품 코드</span>ADQ75153442</p>
+                      </div>
+                      <div class="info-wrap">
+                        <p class="price">29,000원</p>
+                        <a href="#" class="btn-info-pop">적용 가능 모델</a>
+                      </div>
+                      <div class="btn-area">
+                        <button type="button" class="btn border btn-select">소모품 선택</button>
+                      </div>
+                      <div class="info-popup">
+                        <div class="inner">
+                          <div class="head-area">
+                            <div class="pop-tit">적용 가능 모델<span><em>16</em>개</span></div>
+                          </div>
+                          <div class="body-area">
+                            <ul class="model-list">
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                            </ul>
+                          </div>
+                          <button type="button" class="btn-close"><span class="blind">닫기</span></button>
+                        </div>
+                      </div>
+                    </div>   
+                  </li>
+                  <li>
+                    <div class="box">
+                      <div class="img-wrap">
+                        <img src="../../images/img-filter-01.jpg" alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
+                      </div>
+                      <div class="tit-wrap">
+                        <p class="tit">V트루 토탈케어 필터 전용 극세 필터</p>
+                        <p class="code"><span class="blind">제품 코드</span>ADQ75153442</p>
+                      </div>
+                      <div class="info-wrap">
+                        <p class="price">29,000원</p>
+                        <a href="#" class="btn-info-pop">적용 가능 모델</a>
+                      </div>
+                      <div class="btn-area">
+                        <button type="button" class="btn border btn-select">소모품 선택</button>
+                      </div>
+                      <div class="info-popup">
+                        <div class="inner">
+                          <div class="head-area">
+                            <div class="pop-tit">적용 가능 모델<span><em>16</em>개</span></div>
+                          </div>
+                          <div class="body-area">
+                            <ul class="model-list">
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                            </ul>
+                          </div>
+                          <button type="button" class="btn-close"><span class="blind">닫기</span></button>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="box">
+                      <div class="img-wrap">
+                        <img src="../../images/img-filter-01.jpg" alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
+                      </div>
+                      <div class="tit-wrap">
+                        <p class="tit">V트루 토탈케어 필터 전용 극세 필터</p>
+                        <p class="code"><span class="blind">제품 코드</span>ADQ75153442</p>
+                      </div>
+                      <div class="info-wrap">
+                        <p class="price">29,000원</p>
+                        <a href="#" class="btn-info-pop">적용 가능 모델</a>
+                      </div>
+                      <div class="btn-area">
+                        <button type="button" class="btn border btn-select">소모품 선택</button>
+                      </div>
+                      <div class="info-popup">
+                        <div class="inner">
+                          <div class="head-area">
+                            <div class="pop-tit">적용 가능 모델<span><em>16</em>개</span></div>
+                          </div>
+                          <div class="body-area">
+                            <ul class="model-list">
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                            </ul>
+                          </div>
+                          <button type="button" class="btn-close"><span class="blind">닫기</span></button>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="box">
+                      <div class="img-wrap">
+                        <img src="../../images/img-filter-01.jpg" alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
+                      </div>
+                      <div class="tit-wrap">
+                        <p class="tit">V트루 토탈케어 필터 전용 극세 필터</p>
+                        <p class="code"><span class="blind">제품 코드</span>ADQ75153442</p>
+                      </div>
+                      <div class="info-wrap">
+                        <p class="price">29,000원</p>
+                        <a href="#" class="btn-info-pop">적용 가능 모델</a>
+                      </div>
+                      <div class="btn-area">
+                        <button type="button" class="btn border btn-select">소모품 선택</button>
+                      </div>
+                      <div class="info-popup">
+                        <div class="inner">
+                          <div class="head-area">
+                            <div class="pop-tit">적용 가능 모델<span><em>16</em>개</span></div>
+                          </div>
+                          <div class="body-area">
+                            <ul class="model-list">
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                            </ul>
+                          </div>
+                          <button type="button" class="btn-close"><span class="blind">닫기</span></button>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="box">
+                      <div class="img-wrap">
+                        <img src="../../images/img-filter-01.jpg" alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
+                      </div>
+                      <div class="tit-wrap">
+                        <p class="tit">V트루 토탈케어 필터 전용 극세 필터</p>
+                        <p class="code"><span class="blind">제품 코드</span>ADQ75153442</p>
+                      </div>
+                      <div class="info-wrap">
+                        <p class="price">29,000원</p>
+                        <a href="#" class="btn-info-pop">적용 가능 모델</a>
+                      </div>
+                      <div class="btn-area">
+                        <button type="button" class="btn border btn-select">소모품 선택</button>
+                      </div>
+                      <div class="info-popup">
+                        <div class="inner">
+                          <div class="head-area">
+                            <div class="pop-tit">적용 가능 모델<span><em>16</em>개</span></div>
+                          </div>
+                          <div class="body-area">
+                            <ul class="model-list">
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                            </ul>
+                          </div>
+                          <button type="button" class="btn-close"><span class="blind">닫기</span></button>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="box">
+                      <div class="img-wrap">
+                        <img src="../../images/img-filter-01.jpg" alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
+                      </div>
+                      <div class="tit-wrap">
+                        <p class="tit">V트루 토탈케어 필터 전용 극세 필터</p>
+                        <p class="code"><span class="blind">제품 코드</span>ADQ75153442</p>
+                      </div>
+                      <div class="info-wrap">
+                        <p class="price">29,000원</p>
+                        <a href="#" class="btn-info-pop">적용 가능 모델</a>
+                      </div>
+                      <div class="btn-area">
+                        <button type="button" class="btn border btn-select">소모품 선택</button>
+                      </div>
+                      <div class="info-popup">
+                        <div class="inner">
+                          <div class="head-area">
+                            <div class="pop-tit">적용 가능 모델<span><em>16</em>개</span></div>
+                          </div>
+                          <div class="body-area">
+                            <ul class="model-list">
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                              <li>AS191NNFCNDDDCE</li>
+                            </ul>
+                          </div>
+                          <button type="button" class="btn-close"><span class="blind">닫기</span></button>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
                 <div class="btn-area">
-                  <button type="button" class="btn-reset"><span>초기화</span></button>
-                </div>
-                <div class="filter-close">
-                  <button type="button" class="btn-close"><span class="blind">닫기</span></button>
+                  <button type="button" class="btn-view-more"><span>더보기</span></button>
                 </div>
               </div>
-
             </div>
+            <!-- // 리스트 영역 -->
           </div>
-          <!-- // 필터 영역 -->
-          <!-- 리스트 영역 -->
-          <div class="prd-list-area">
-            <div class="list-info">
-              <div class="list-count">총 24개</div>
-              <div class="info-txt">*구매하실 소모품을 선택하세요.</div>
-            </div>
-            <div class="list-wrap">
-              <ul>
-                <li>
-                  <div class="box">
-                    <div class="img-wrap">
-                      <img src="../../images/img-filter-01.jpg" alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
-                    </div>
-                    <div class="tit-wrap">
-                      <p class="tit">V트루 토탈케어 필터 전용 극세 필터 V트루 토탈케어 필터 전용 극세 필터</p>
-                      <p class="code"><span class="blind">제품 코드</span>ADQ75153442</p>
-                    </div>
-                    <div class="info-wrap">
-                      <p class="price">29,000원</p>
-                      <a href="#" class="btn-info-pop">적용 가능 모델</a>
-                    </div>
-                    <div class="btn-area">
-                      <button type="button" class="btn border btn-select">소모품 선택</button>
-                    </div>
-                    <div class="info-popup">
-                      <div class="inner">
-                        <div class="head-area">
-                          <div class="pop-tit">적용 가능 모델<span><em>16</em>개</span></div>
-                        </div>
-                        <div class="body-area">
-                          <ul class="model-list">
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                          </ul>
-                        </div>
-                        <button type="button" class="btn-close"><span class="blind">닫기</span></button>
-                      </div>
-                    </div>
-                  </div>   
-                </li>
-                <li>
-                  <div class="box">
-                    <div class="img-wrap">
-                      <img src="../../images/img-filter-01.jpg" alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
-                    </div>
-                    <div class="tit-wrap">
-                      <p class="tit">V트루 토탈케어 필터 전용 극세 필터</p>
-                      <p class="code"><span class="blind">제품 코드</span>ADQ75153442</p>
-                    </div>
-                    <div class="info-wrap">
-                      <p class="price">29,000원</p>
-                      <a href="#" class="btn-info-pop">적용 가능 모델</a>
-                    </div>
-                    <div class="btn-area">
-                      <button type="button" class="btn border btn-select">소모품 선택</button>
-                    </div>
-                    <div class="info-popup">
-                      <div class="inner">
-                        <div class="head-area">
-                          <div class="pop-tit">적용 가능 모델<span><em>16</em>개</span></div>
-                        </div>
-                        <div class="body-area">
-                          <ul class="model-list">
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                          </ul>
-                        </div>
-                        <button type="button" class="btn-close"><span class="blind">닫기</span></button>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="box">
-                    <div class="img-wrap">
-                      <img src="../../images/img-filter-01.jpg" alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
-                    </div>
-                    <div class="tit-wrap">
-                      <p class="tit">V트루 토탈케어 필터 전용 극세 필터</p>
-                      <p class="code"><span class="blind">제품 코드</span>ADQ75153442</p>
-                    </div>
-                    <div class="info-wrap">
-                      <p class="price">29,000원</p>
-                      <a href="#" class="btn-info-pop">적용 가능 모델</a>
-                    </div>
-                    <div class="btn-area">
-                      <button type="button" class="btn border btn-select">소모품 선택</button>
-                    </div>
-                    <div class="info-popup">
-                      <div class="inner">
-                        <div class="head-area">
-                          <div class="pop-tit">적용 가능 모델<span><em>16</em>개</span></div>
-                        </div>
-                        <div class="body-area">
-                          <ul class="model-list">
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                          </ul>
-                        </div>
-                        <button type="button" class="btn-close"><span class="blind">닫기</span></button>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="box">
-                    <div class="img-wrap">
-                      <img src="../../images/img-filter-01.jpg" alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
-                    </div>
-                    <div class="tit-wrap">
-                      <p class="tit">V트루 토탈케어 필터 전용 극세 필터</p>
-                      <p class="code"><span class="blind">제품 코드</span>ADQ75153442</p>
-                    </div>
-                    <div class="info-wrap">
-                      <p class="price">29,000원</p>
-                      <a href="#" class="btn-info-pop">적용 가능 모델</a>
-                    </div>
-                    <div class="btn-area">
-                      <button type="button" class="btn border btn-select">소모품 선택</button>
-                    </div>
-                    <div class="info-popup">
-                      <div class="inner">
-                        <div class="head-area">
-                          <div class="pop-tit">적용 가능 모델<span><em>16</em>개</span></div>
-                        </div>
-                        <div class="body-area">
-                          <ul class="model-list">
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                          </ul>
-                        </div>
-                        <button type="button" class="btn-close"><span class="blind">닫기</span></button>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="box">
-                    <div class="img-wrap">
-                      <img src="../../images/img-filter-01.jpg" alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
-                    </div>
-                    <div class="tit-wrap">
-                      <p class="tit">V트루 토탈케어 필터 전용 극세 필터</p>
-                      <p class="code"><span class="blind">제품 코드</span>ADQ75153442</p>
-                    </div>
-                    <div class="info-wrap">
-                      <p class="price">29,000원</p>
-                      <a href="#" class="btn-info-pop">적용 가능 모델</a>
-                    </div>
-                    <div class="btn-area">
-                      <button type="button" class="btn border btn-select">소모품 선택</button>
-                    </div>
-                    <div class="info-popup">
-                      <div class="inner">
-                        <div class="head-area">
-                          <div class="pop-tit">적용 가능 모델<span><em>16</em>개</span></div>
-                        </div>
-                        <div class="body-area">
-                          <ul class="model-list">
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                          </ul>
-                        </div>
-                        <button type="button" class="btn-close"><span class="blind">닫기</span></button>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="box">
-                    <div class="img-wrap">
-                      <img src="../../images/img-filter-01.jpg" alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
-                    </div>
-                    <div class="tit-wrap">
-                      <p class="tit">V트루 토탈케어 필터 전용 극세 필터</p>
-                      <p class="code"><span class="blind">제품 코드</span>ADQ75153442</p>
-                    </div>
-                    <div class="info-wrap">
-                      <p class="price">29,000원</p>
-                      <a href="#" class="btn-info-pop">적용 가능 모델</a>
-                    </div>
-                    <div class="btn-area">
-                      <button type="button" class="btn border btn-select">소모품 선택</button>
-                    </div>
-                    <div class="info-popup">
-                      <div class="inner">
-                        <div class="head-area">
-                          <div class="pop-tit">적용 가능 모델<span><em>16</em>개</span></div>
-                        </div>
-                        <div class="body-area">
-                          <ul class="model-list">
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                            <li>AS191NNFCNDDDCE</li>
-                          </ul>
-                        </div>
-                        <button type="button" class="btn-close"><span class="blind">닫기</span></button>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-              <button type="button" class="btn-view-more"><span>더보기</span></button>
-            </div>
-          </div>
-          <!-- // 리스트 영역 -->
+          <!-- // 제품 목록 전체 -->
         </div>
-        <!-- // 제품 목록 전체 -->
-
       </section>
       <!-- // 소모품 목록 영역 -->
 
@@ -482,7 +484,7 @@
           <div class="main-area active"><!-- active 클래스 추가 -->
             
             <div class="tit-area">
-              <h4 class="step-tit">선택하신 소모품<sup>*</sup></h4>
+              <h3 class="step-tit">선택하신 소모품<sup>*</sup></h3>
               <em>(최대 3개 선택가능)</em>
             </div>
             <div class="my-select">
@@ -540,7 +542,7 @@
             
             <div class="shop-date-wrap">
               <div class="view-area">
-                <h4 class="step-tit">상담하실 매장과 상담일시 선택<sup>*</sup></h4>
+                <h3 class="step-tit">상담하실 매장과 상담일시 선택<sup>*</sup></h3>
                 <div class="sort-area">
                   <button type="button" class="view-list active">리스트보기</button><!-- active 클래스 추가 -->
                   <button type="button" class="view-map">지도보기</button>
@@ -553,8 +555,9 @@
                       <form action="#">
                         <div class="input-area">
                           <div class="search-box">
-                            <input type="search" placeholder="매장명을 검색해주세요.">
-                            <button type="button" class="btn-search"><span class="blind">검색하기</span></button>
+                            <input type="text" placeholder="매장명을 검색해주세요." title="매장명을 검색해주세요." required="required">
+                            <button type="button" class="btn-clear">검색어 삭제</button>
+                            <button type="button" class="btn-search">검색</button>
                           </div>
                         </div>
                       </form>
@@ -614,18 +617,23 @@
                       </div>
                       <div class="mo-select">
                         <div class="input-area">
-                          <div class="select-box">
+                          <div class="slt sltBox border-type" data-txt-change="true">
+                            <a href="javascript:void(0);" class="btn-slt">선택</a>
+                            <ul>
+                              <li><a href="javascript:void(0);">선택</a></li>
+                              <li><a href="javascript:void(0);">서울특별시</a></li>
+                            </ul>
                             <select title="시/도 선택">
-                              <option value="">선택</option>
-                              <option value="">서울특별시</option>
-                            </select> 
+                              <option selected>선택</option>
+                              <option>서울특별시</option>
+                            </select>
                           </div>
                         </div>
                       </div>
                       <div class="rt">
                         <ul>
                           <li>
-                            <div class="shop-box">
+                            <a href="#" class="shop-box">
                               <div class="name-area">
                                 <p class="shop-name">강남 본점</p>
                                 <ul class="key-words">
@@ -639,10 +647,10 @@
                               <p class="info-txt">
                                 서울특별시 강남구 도산대로 403 (청담동 86-1)
                               </p>
-                            </div>
+                            </a>
                           </li>
                           <li>
-                            <div class="shop-box">
+                            <a href="#" class="shop-box">
                               <div class="name-area">
                                 <p class="shop-name">강남 본점</p>
                                 <ul class="key-words">
@@ -656,10 +664,10 @@
                               <p class="info-txt">
                                 서울특별시 강남구 도산대로 403 (청담동 86-1)
                               </p>
-                            </div>
+                            </a>
                           </li>
                           <li>
-                            <div class="shop-box">
+                            <a href="#" class="shop-box">
                               <div class="name-area">
                                 <p class="shop-name">강남 본점</p>
                                 <ul class="key-words">
@@ -673,10 +681,10 @@
                               <p class="info-txt">
                                 서울특별시 강남구 도산대로 403 (청담동 86-1)
                               </p>
-                            </div>
+                            </a>
                           </li>
                           <li>
-                            <div class="shop-box">
+                            <a href="#" class="shop-box">
                               <div class="name-area">
                                 <p class="shop-name">강남 본점</p>
                                 <ul class="key-words">
@@ -690,10 +698,10 @@
                               <p class="info-txt">
                                 서울특별시 강남구 도산대로 403 (청담동 86-1)
                               </p>
-                            </div>
+                            </a>
                           </li>
                           <li>
-                            <div class="shop-box">
+                            <a href="#" class="shop-box">
                               <div class="name-area">
                                 <p class="shop-name">강남 본점</p>
                                 <ul class="key-words">
@@ -707,10 +715,10 @@
                               <p class="info-txt">
                                 서울특별시 강남구 도산대로 403 (청담동 86-1)
                               </p>
-                            </div>
+                            </a>
                           </li>
                           <li>
-                            <div class="shop-box">
+                            <a href="#" class="shop-box">
                               <div class="name-area">
                                 <p class="shop-name">강남 본점</p>
                                 <ul class="key-words">
@@ -724,10 +732,10 @@
                               <p class="info-txt">
                                 서울특별시 강남구 도산대로 403 (청담동 86-1)
                               </p>
-                            </div>
+                            </a>
                           </li>
                           <li>
-                            <div class="shop-box">
+                            <a href="#" class="shop-box">
                               <div class="name-area">
                                 <p class="shop-name">강남 본점</p>
                                 <ul class="key-words">
@@ -741,10 +749,10 @@
                               <p class="info-txt">
                                 서울특별시 강남구 도산대로 403 (청담동 86-1)
                               </p>
-                            </div>
+                            </a>
                           </li>
                           <li>
-                            <div class="shop-box">
+                            <a href="#" class="shop-box">
                               <div class="name-area">
                                 <p class="shop-name">강남 본점</p>
                                 <ul class="key-words">
@@ -758,10 +766,10 @@
                               <p class="info-txt">
                                 서울특별시 강남구 도산대로 403 (청담동 86-1)
                               </p>
-                            </div>
+                            </a>
                           </li>
                           <li>
-                            <div class="shop-box">
+                            <a href="#" class="shop-box">
                               <div class="name-area">
                                 <p class="shop-name">강남 본점</p>
                                 <ul class="key-words">
@@ -775,10 +783,10 @@
                               <p class="info-txt">
                                 서울특별시 강남구 도산대로 403 (청담동 86-1)
                               </p>
-                            </div>
+                            </a>
                           </li>
                           <li>
-                            <div class="shop-box">
+                            <a href="#" class="shop-box">
                               <div class="name-area">
                                 <p class="shop-name">강남 본점</p>
                                 <ul class="key-words">
@@ -792,24 +800,7 @@
                               <p class="info-txt">
                                 서울특별시 강남구 도산대로 403 (청담동 86-1)
                               </p>
-                            </div>
-                          </li>
-                          <li>
-                            <div class="shop-box">
-                              <div class="name-area">
-                                <p class="shop-name">강남 본점</p>
-                                <ul class="key-words">
-                                  <li>NEW</li>
-                                  <li>화상상담</li>
-                                  <li>아이폰</li>
-                                  <li>LX지인</li>
-                                  <li>야간무인</li>
-                                </ul>
-                              </div>
-                              <p class="info-txt">
-                                서울특별시 강남구 도산대로 403 (청담동 86-1)
-                              </p>
-                            </div>
+                            </a>
                           </li>
                         </ul>
                       </div>
@@ -821,19 +812,29 @@
                     <div class="input-area">
                       <ul>
                         <li>
-                          <div class="select-box">
+                          <div class="slt sltBox border-type" data-txt-change="true">
+                            <a href="javascript:void(0);" class="btn-slt">선택</a>
+                            <ul>
+                              <li><a href="javascript:void(0);">선택</a></li>
+                              <li><a href="javascript:void(0);">서울특별시</a></li>
+                            </ul>
                             <select title="시/도 선택">
-                              <option value="">선택</option>
-                              <option value="">서울특별시</option>
-                            </select> 
+                              <option selected>선택</option>
+                              <option>서울특별시</option>
+                            </select>
                           </div>
                         </li>
                         <li>
-                          <div class="select-box">
+                          <div class="slt sltBox border-type" data-txt-change="true">
+                            <a href="javascript:void(0);" class="btn-slt">선택</a>
+                            <ul>
+                              <li><a href="javascript:void(0);">선택</a></li>
+                              <li><a href="javascript:void(0);">강남구</a></li>
+                            </ul>
                             <select title="구 선택">
-                              <option value="">선택</option>
-                              <option value="">강남구</option>
-                            </select> 
+                              <option selected>선택</option>
+                              <option>강남구</option>
+                            </select>
                           </div>
                         </li>
                       </ul>
@@ -1024,7 +1025,7 @@
         <div class="step-area step03 active"><!-- active 클래스 추가 -->
           <div class="main-area active"><!-- active 클래스 추가 -->
             <div class="user-info-area">
-              <h4 class="step-tit">예약자 정보<sup>*</sup></h4>
+              <h3 class="step-tit">예약자 정보<sup>*</sup></h3>
               <div class="lt">
                 <form action="#">
                   <div class="input-area">
@@ -1059,7 +1060,7 @@
                     <ul class="acco-type">
                       <li>
                         <div class="check-box">
-                          <input type="checkbox" name="agr-all" id="agr-all" class="agr-all">
+                          <input type="checkbox" id="agr-all" class="agr-all">
                           <label for="agr-all">
                             <span class="name">모두 동의</span>
                           </label>
@@ -1067,7 +1068,7 @@
                       </li>
                       <li>
                         <div class="check-box">
-                          <input type="checkbox" name="agr-required" id="agr-required">
+                          <input type="checkbox" class="agr-check" id="agr-required">
                           <label for="agr-required">
                             <span class="name"><em class="red">(필수)</em>개인정보 수집 및 이용에 동의합니다.</span>
                           </label>
@@ -1104,7 +1105,7 @@
                       </li>
                       <li>
                         <div class="check-box">
-                          <input type="checkbox" name="agr-optional" id="agr-optional">
+                          <input type="checkbox" class="agr-check" id="agr-optional">
                           <label for="agr-optional">
                             <span class="name"><em>(선택)</em>마케팅 정보활용에 동의합니다.</span>
                           </label>
@@ -1130,7 +1131,7 @@
                 </div>
               </div>
               <div class="bottom-area">
-                <p class="tit">필수 위탁 고지</p>
+                <h4 class="tit">필수 위탁 고지</h4>
                 <p class="desc">LG전자는 개인정보 취급업무 중 서비스 제공에 필요한 필수적 업무를 아래와 같이 외부 전문업체에 위탁하여 운영하고 있으며, 해당 업체는 서비스 이행을 위한 목적으로만 사용됩니다.</p>
                 <div class="tb_row tb-row-bl white size-s">
                   <table>
@@ -1365,12 +1366,19 @@
         $(this).toggleClass('active').siblings('.agr-txt-wrap').slideToggle(200);
       });
       // step 2 약관 > 모두 동의
-      $(".agr-all").click(function(){
-        if($(".agr-all").prop("checked")){
-          $(".acco-type input[type='checkbox']").prop("checked",true);
-        } else{
-          $(".acco-type input[type='checkbox']").prop("checked",false);
-        }
+      $(".agr-wrap").on("click", "#agr-all", function () {
+        $(this).parents(".agr-wrap").find('input').prop("checked", $(this).is(":checked"));
+      });
+
+      // 약관 개별 선택
+      $(".agr-wrap").on("click", ".agr-check", function() {
+        var is_checked = true;
+
+        $(".agr-wrap .agr-check").each(function(){
+          is_checked = is_checked && $(this).is(":checked");
+        });
+
+        $("#agr-all").prop("checked", is_checked);
       });
     });
 

@@ -4,7 +4,7 @@
 <div class="container" id="content">
 
   <div class="page-header">
-    <h1 class="title">소모품 구매 예약</h1>
+    <h2 class="title">소모품 구매 예약</h1>
   </div>
 
   <!-- contents -->

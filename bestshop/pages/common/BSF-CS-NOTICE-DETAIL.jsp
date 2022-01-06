@@ -22,7 +22,7 @@
             <div class="tooltip-wrap share layer-click">
               <a href="javascript:void(0);" class="tooltip-icon ui_tooltip-target "><span class="blind">현재 페이지 공유하기</span></a>
               <div class="tooltip-box fixed-right layer-detail">
-                <span class="title">공유하기</span>
+                <strong class="title">공유하기</strong>
                 <div class="sns-wrap">
                   <ul class="sns-list">
                     <li><a href="#none" class="ico-btn fb" title="페이스북에 공유하기, 새창열림" data-link-name="facebook">페이스북<span class="blind">으로 페이지 공유하기</span></a></li>
@@ -37,7 +37,7 @@
           </div>
           <div class="board-view-body">
             <div class="view-content" id="viewContent">
-              <p>
+              <div>
                 ■ 이용약관<br>
                 <br>
                 - 변경 약관의 효력 발생일 : 2021년 12월 17일<br>
@@ -74,7 +74,7 @@
                 앞으로도 고객 여러분께 보다 나은 서비스로 보답할 수 있도록 최선을 다하겠습니다.<br>
                 <br>
                 감사합니다.
-              </p>
+              </div>
             </div>
           </div>
         </div>

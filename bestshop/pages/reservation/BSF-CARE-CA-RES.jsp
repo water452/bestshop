@@ -4,7 +4,7 @@
 <div class="container" id="content">
 
   <div class="page-header">
-    <h1 class="title">케어십 상담 예약</h1>
+    <h2 class="title">케어십 상담 예약</h2>
   </div>
 
   <!-- contents -->
@@ -456,7 +456,7 @@
 
             <!-- 케어서비스 상세 - 정수기(3열) -->
             <div class="service-detail-area water">
-              <h4 class="blind">정수기 케어서비스 상세</h4>
+              <h3 class="blind">정수기 케어서비스 상세</h3>
               <ul class="col-3">
                 <li>
                   <div class="icon-wrap">
@@ -468,7 +468,7 @@
                       <dd>
                         국내 최초로 3개월마다 방문해 살균키트를 이용한 출수구 고온/고압 살균을 제공하여 더 위생적으로 사용할 수 있습니다.
                         <em>* 직수형 정수기 업계 동급 모델 기준</em>
-                      <dd>
+                      </dd>
                     </dl>
                   </div>
                 </li>
@@ -479,7 +479,7 @@
                   <div class="desc-wrap">
                     <dl>
                       <dt>필터 무상 교체</dt>
-                      <dd>정수기의 핵심부품인 필터를 교체주기에 따라 무상으로 교체하여 위생적으로 사용할 수 있습니다.<dd>
+                      <dd>정수기의 핵심부품인 필터를 교체주기에 따라 무상으로 교체하여 위생적으로 사용할 수 있습니다.</dd>
                     </dl>
                   </div>
                 </li>
@@ -490,7 +490,7 @@
                   <div class="desc-wrap">
                     <dl>
                       <dt>외관 토탈 클리닝</dt>
-                      <dd>번거로운 물받이 청소부터 외관점검 및 클리닝까지 꼼꼼하고 편리하게 관리 받으실 수 있습니다.<dd>
+                      <dd>번거로운 물받이 청소부터 외관점검 및 클리닝까지 꼼꼼하고 편리하게 관리 받으실 수 있습니다.</dd>
                     </dl>
                   </div>
                 </li>
@@ -499,7 +499,7 @@
             <!-- // 케어서비스 상세 - 정수기(3열) -->
             <!-- 케어서비스 상세 - 건조기(2열) -->
             <div class="service-detail-area dryer">
-              <h4 class="blind">건조기 케어서비스 상세</h4>
+              <h3 class="blind">건조기 케어서비스 상세</h3>
               <ul class="col-2">
                 <li>
                   <div class="icon-wrap">
@@ -508,7 +508,7 @@
                   <div class="desc-wrap">
                     <dl>
                       <dt>2중 안심필터 무상 증정</dt>
-                      <dd>최초 1회 방문 시 여분의 필터를 추가로 증정해드립니다. 기존 필터 세척 후 말리는 동안에도 사용 가능합니다.<dd>
+                      <dd>최초 1회 방문 시 여분의 필터를 추가로 증정해드립니다. 기존 필터 세척 후 말리는 동안에도 사용 가능합니다.</dd>
                     </dl>
                   </div>
                 </li>
@@ -519,7 +519,7 @@
                   <div class="desc-wrap">
                     <dl>
                       <dt>토탈 클리닝 서비스</dt>
-                      <dd>먼지가 축적되면 제품 성능에 영향을 줄 수 있습니다. 필터 장착부를 포함한 제품 내/외부의 클리닝은 물론 세척제를 이용해 2중 안심필터, 배수통, 스팀 물통을 세척하고 습도센서까지 점검&middot;관리해드립니다.<dd>
+                      <dd>먼지가 축적되면 제품 성능에 영향을 줄 수 있습니다. 필터 장착부를 포함한 제품 내/외부의 클리닝은 물론 세척제를 이용해 2중 안심필터, 배수통, 스팀 물통을 세척하고 습도센서까지 점검&middot;관리해드립니다.</dd>
                     </dl>
                   </div>
                 </li>
@@ -530,7 +530,7 @@
                   <div class="desc-wrap">
                     <dl>
                       <dt>섬유유연시트 무상 증정</dt>
-                      <dd>방문 시마다 건조기 전용 섬유유연시트(LG 생활건강 아우라 드라이)를 제공해 따로 구매하는 번거로움과 비용 부담이 없습니다.<dd>
+                      <dd>방문 시마다 건조기 전용 섬유유연시트(LG 생활건강 아우라 드라이)를 제공해 따로 구매하는 번거로움과 비용 부담이 없습니다.</dd>
                     </dl>
                   </div>
                 </li>
@@ -541,7 +541,7 @@
                   <div class="desc-wrap">
                     <dl>
                       <dt>펫케어 악세사리 1BOX 제공</dt>
-                      <dd>2중 안심필터(펫케어 전용)와 펫케어 건조볼 6개로 구성된 펫케어 악세사리 1BOX를 제공해 드립니다.<dd>
+                      <dd>2중 안심필터(펫케어 전용)와 펫케어 건조볼 6개로 구성된 펫케어 악세사리 1BOX를 제공해 드립니다.</dd>
                     </dl>
                     <ul class="bull">
                       <li>최초 1회 제공으로 RH17ETE 모델 한정</li>
@@ -553,7 +553,7 @@
             <!-- // 케어서비스 상세 - 건조기(2열) -->
 
             <div class="prd-list-area">
-              <p class="prd-list-count">신청 가능 제품 총<em>8</em>개</p>
+              <h4 class="prd-list-count">신청 가능 제품 총<em>8</em>개</h4>
               <ul>
                 <li class="item">
                   <div class="box">
@@ -566,11 +566,16 @@
                     </div>
                     <div class="info-wrap">
                       <div class="opt-info">
-                        <div class="select-box disabled"><!-- disabled 클래스 추가 -->
+                        <div class="slt sltBox border-type disabled" data-txt-change="true"><!-- disabled 클래스 추가 -->
                           <p class="select-tit">방문주기</p>
+                          <a href="javascript:void(0);" class="btn-slt">3개월</a>
+                          <ul>
+                            <li><a href="javascript:void(0);">3개월</a></li>
+                            <li><a href="javascript:void(0);">방문없음(자가관리)</a></li>
+                          </ul>
                           <select title="방문주기 선택" disabled>
-                            <option value="">3개월</option>
-                            <option value="">방문없음(자가관리)</option>
+                            <option selected>3개월</option>
+                            <option>방문없음(자가관리)</option>
                           </select>
                         </div>
                       </div>
@@ -594,11 +599,16 @@
                     </div>
                     <div class="info-wrap">
                       <div class="opt-info">
-                        <div class="select-box">
+                        <div class="slt sltBox border-type" data-txt-change="true">
                           <p class="select-tit">방문주기</p>
+                          <a href="javascript:void(0);" class="btn-slt">3개월</a>
+                          <ul>
+                            <li><a href="javascript:void(0);">3개월</a></li>
+                            <li><a href="javascript:void(0);">방문없음(자가관리)</a></li>
+                          </ul>
                           <select title="방문주기 선택">
-                            <option value="">3개월</option>
-                            <option value="">방문없음(자가관리)</option>
+                            <option selected>3개월</option>
+                            <option>방문없음(자가관리)</option>
                           </select>
                         </div>
                       </div>
@@ -622,11 +632,16 @@
                     </div>
                     <div class="info-wrap">
                       <div class="opt-info">
-                        <div class="select-box">
+                        <div class="slt sltBox border-type" data-txt-change="true">
                           <p class="select-tit">방문주기</p>
+                          <a href="javascript:void(0);" class="btn-slt">3개월</a>
+                          <ul>
+                            <li><a href="javascript:void(0);">3개월</a></li>
+                            <li><a href="javascript:void(0);">방문없음(자가관리)</a></li>
+                          </ul>
                           <select title="방문주기 선택">
-                            <option value="">3개월</option>
-                            <option value="">방문없음(자가관리)</option>
+                            <option selected>3개월</option>
+                            <option>방문없음(자가관리)</option>
                           </select>
                         </div>
                       </div>
@@ -650,11 +665,16 @@
                     </div>
                     <div class="info-wrap">
                       <div class="opt-info">
-                        <div class="select-box">
+                        <div class="slt sltBox border-type" data-txt-change="true">
                           <p class="select-tit">방문주기</p>
+                          <a href="javascript:void(0);" class="btn-slt">3개월</a>
+                          <ul>
+                            <li><a href="javascript:void(0);">3개월</a></li>
+                            <li><a href="javascript:void(0);">방문없음(자가관리)</a></li>
+                          </ul>
                           <select title="방문주기 선택">
-                            <option value="">3개월</option>
-                            <option value="">방문없음(자가관리)</option>
+                            <option selected>3개월</option>
+                            <option>방문없음(자가관리)</option>
                           </select>
                         </div>
                       </div>
@@ -678,11 +698,16 @@
                     </div>
                     <div class="info-wrap">
                       <div class="opt-info">
-                        <div class="select-box">
+                        <div class="slt sltBox border-type" data-txt-change="true">
                           <p class="select-tit">방문주기</p>
+                          <a href="javascript:void(0);" class="btn-slt">3개월</a>
+                          <ul>
+                            <li><a href="javascript:void(0);">3개월</a></li>
+                            <li><a href="javascript:void(0);">방문없음(자가관리)</a></li>
+                          </ul>
                           <select title="방문주기 선택">
-                            <option value="">3개월</option>
-                            <option value="">방문없음(자가관리)</option>
+                            <option selected>3개월</option>
+                            <option>방문없음(자가관리)</option>
                           </select>
                         </div>
                       </div>
@@ -706,11 +731,16 @@
                     </div>
                     <div class="info-wrap">
                       <div class="opt-info">
-                        <div class="select-box">
+                        <div class="slt sltBox border-type" data-txt-change="true">
                           <p class="select-tit">방문주기</p>
+                          <a href="javascript:void(0);" class="btn-slt">3개월</a>
+                          <ul>
+                            <li><a href="javascript:void(0);">3개월</a></li>
+                            <li><a href="javascript:void(0);">방문없음(자가관리)</a></li>
+                          </ul>
                           <select title="방문주기 선택">
-                            <option value="">3개월</option>
-                            <option value="">방문없음(자가관리)</option>
+                            <option selected>3개월</option>
+                            <option>방문없음(자가관리)</option>
                           </select>
                         </div>
                       </div>
@@ -734,11 +764,16 @@
                     </div>
                     <div class="info-wrap">
                       <div class="opt-info">
-                        <div class="select-box">
+                        <div class="slt sltBox border-type" data-txt-change="true">
                           <p class="select-tit">방문주기</p>
+                          <a href="javascript:void(0);" class="btn-slt">3개월</a>
+                          <ul>
+                            <li><a href="javascript:void(0);">3개월</a></li>
+                            <li><a href="javascript:void(0);">방문없음(자가관리)</a></li>
+                          </ul>
                           <select title="방문주기 선택">
-                            <option value="">3개월</option>
-                            <option value="">방문없음(자가관리)</option>
+                            <option selected>3개월</option>
+                            <option>방문없음(자가관리)</option>
                           </select>
                         </div>
                       </div>
@@ -762,11 +797,16 @@
                     </div>
                     <div class="info-wrap">
                       <div class="opt-info">
-                        <div class="select-box">
+                        <div class="slt sltBox border-type" data-txt-change="true">
                           <p class="select-tit">방문주기</p>
+                          <a href="javascript:void(0);" class="btn-slt">3개월</a>
+                          <ul>
+                            <li><a href="javascript:void(0);">3개월</a></li>
+                            <li><a href="javascript:void(0);">방문없음(자가관리)</a></li>
+                          </ul>
                           <select title="방문주기 선택">
-                            <option value="">3개월</option>
-                            <option value="">방문없음(자가관리)</option>
+                            <option selected>3개월</option>
+                            <option>방문없음(자가관리)</option>
                           </select>
                         </div>
                       </div>
@@ -780,7 +820,9 @@
                   </div>
                 </li>
               </ul>
-              <button type="button" class="btn-view-more" ><span>더보기</span></button>
+              <div class="btn-area">
+                <button type="button" class="btn-view-more" ><span>더보기</span></button>
+              </div>
             </div>
           </div>
         </div>
@@ -793,7 +835,7 @@
             
             <div class="shop-date-wrap">
               <div class="view-area">
-                <h4 class="step-tit">상담하실 매장과 상담일시 선택<sup>*</sup></h4>
+                <h3 class="step-tit">상담하실 매장과 상담일시 선택<sup>*</sup></h3>
                 <div class="sort-area">
                   <button type="button" class="view-list active">리스트보기</button><!-- active 클래스 추가 -->
                   <button type="button" class="view-map">지도보기</button>
@@ -806,8 +848,9 @@
                       <form action="#">
                         <div class="input-area">
                           <div class="search-box">
-                            <input type="search" placeholder="매장명을 검색해주세요.">
-                            <button type="button" class="btn-search"><span class="blind">검색하기</span></button>
+                            <input type="text" placeholder="매장명을 검색해주세요." title="매장명을 검색해주세요." required="required">
+                            <button type="button" class="btn-clear">검색어 삭제</button>
+                            <button type="button" class="btn-search">검색</button>
                           </div>
                         </div>
                       </form>
@@ -867,18 +910,23 @@
                       </div>
                       <div class="mo-select">
                         <div class="input-area">
-                          <div class="select-box">
+                          <div class="slt sltBox border-type" data-txt-change="true">
+                            <a href="javascript:void(0);" class="btn-slt">3개월</a>
+                            <ul>
+                              <li><a href="javascript:void(0);">선택</a></li>
+                              <li><a href="javascript:void(0);">서울특별시</a></li>
+                            </ul>
                             <select title="시/도 선택">
-                              <option value="">선택</option>
-                              <option value="">서울특별시</option>
-                            </select> 
+                              <option selected>선택</option>
+                              <option>서울특별시</option>
+                            </select>
                           </div>
                         </div>
                       </div>
                       <div class="rt">
                         <ul>
                           <li>
-                            <div class="shop-box">
+                            <a href="#" class="shop-box">
                               <div class="name-area">
                                 <p class="shop-name">강남 본점</p>
                                 <ul class="key-words">
@@ -892,10 +940,10 @@
                               <p class="info-txt">
                                 서울특별시 강남구 도산대로 403 (청담동 86-1)
                               </p>
-                            </div>
+                            </a>
                           </li>
                           <li>
-                            <div class="shop-box">
+                            <a href="#" class="shop-box">
                               <div class="name-area">
                                 <p class="shop-name">강남 본점</p>
                                 <ul class="key-words">
@@ -909,10 +957,10 @@
                               <p class="info-txt">
                                 서울특별시 강남구 도산대로 403 (청담동 86-1)
                               </p>
-                            </div>
+                            </a>
                           </li>
                           <li>
-                            <div class="shop-box">
+                            <a href="#" class="shop-box">
                               <div class="name-area">
                                 <p class="shop-name">강남 본점</p>
                                 <ul class="key-words">
@@ -926,10 +974,10 @@
                               <p class="info-txt">
                                 서울특별시 강남구 도산대로 403 (청담동 86-1)
                               </p>
-                            </div>
+                            </a>
                           </li>
                           <li>
-                            <div class="shop-box">
+                            <a href="#" class="shop-box">
                               <div class="name-area">
                                 <p class="shop-name">강남 본점</p>
                                 <ul class="key-words">
@@ -943,10 +991,10 @@
                               <p class="info-txt">
                                 서울특별시 강남구 도산대로 403 (청담동 86-1)
                               </p>
-                            </div>
+                            </a>
                           </li>
                           <li>
-                            <div class="shop-box">
+                            <a href="#" class="shop-box">
                               <div class="name-area">
                                 <p class="shop-name">강남 본점</p>
                                 <ul class="key-words">
@@ -960,10 +1008,10 @@
                               <p class="info-txt">
                                 서울특별시 강남구 도산대로 403 (청담동 86-1)
                               </p>
-                            </div>
+                            </a>
                           </li>
                           <li>
-                            <div class="shop-box">
+                            <a href="#" class="shop-box">
                               <div class="name-area">
                                 <p class="shop-name">강남 본점</p>
                                 <ul class="key-words">
@@ -977,10 +1025,10 @@
                               <p class="info-txt">
                                 서울특별시 강남구 도산대로 403 (청담동 86-1)
                               </p>
-                            </div>
+                            </a>
                           </li>
                           <li>
-                            <div class="shop-box">
+                            <a href="#" class="shop-box">
                               <div class="name-area">
                                 <p class="shop-name">강남 본점</p>
                                 <ul class="key-words">
@@ -994,10 +1042,10 @@
                               <p class="info-txt">
                                 서울특별시 강남구 도산대로 403 (청담동 86-1)
                               </p>
-                            </div>
+                            </a>
                           </li>
                           <li>
-                            <div class="shop-box">
+                            <a href="#" class="shop-box">
                               <div class="name-area">
                                 <p class="shop-name">강남 본점</p>
                                 <ul class="key-words">
@@ -1011,10 +1059,10 @@
                               <p class="info-txt">
                                 서울특별시 강남구 도산대로 403 (청담동 86-1)
                               </p>
-                            </div>
+                            </a>
                           </li>
                           <li>
-                            <div class="shop-box">
+                            <a href="#" class="shop-box">
                               <div class="name-area">
                                 <p class="shop-name">강남 본점</p>
                                 <ul class="key-words">
@@ -1028,10 +1076,10 @@
                               <p class="info-txt">
                                 서울특별시 강남구 도산대로 403 (청담동 86-1)
                               </p>
-                            </div>
+                            </a>
                           </li>
                           <li>
-                            <div class="shop-box">
+                            <a href="#" class="shop-box">
                               <div class="name-area">
                                 <p class="shop-name">강남 본점</p>
                                 <ul class="key-words">
@@ -1045,24 +1093,7 @@
                               <p class="info-txt">
                                 서울특별시 강남구 도산대로 403 (청담동 86-1)
                               </p>
-                            </div>
-                          </li>
-                          <li>
-                            <div class="shop-box">
-                              <div class="name-area">
-                                <p class="shop-name">강남 본점</p>
-                                <ul class="key-words">
-                                  <li>NEW</li>
-                                  <li>화상상담</li>
-                                  <li>아이폰</li>
-                                  <li>LX지인</li>
-                                  <li>야간무인</li>
-                                </ul>
-                              </div>
-                              <p class="info-txt">
-                                서울특별시 강남구 도산대로 403 (청담동 86-1)
-                              </p>
-                            </div>
+                            </a>
                           </li>
                         </ul>
                       </div>
@@ -1074,19 +1105,29 @@
                     <div class="input-area">
                       <ul>
                         <li>
-                          <div class="select-box">
+                          <div class="slt sltBox border-type" data-txt-change="true">
+                            <a href="javascript:void(0);" class="btn-slt">3개월</a>
+                            <ul>
+                              <li><a href="javascript:void(0);">선택</a></li>
+                              <li><a href="javascript:void(0);">서울특별시</a></li>
+                            </ul>
                             <select title="시/도 선택">
-                              <option value="">선택</option>
-                              <option value="">서울특별시</option>
-                            </select> 
+                              <option selected>선택</option>
+                              <option>서울특별시</option>
+                            </select>
                           </div>
                         </li>
                         <li>
-                          <div class="select-box">
+                          <div class="slt sltBox border-type" data-txt-change="true">
+                            <a href="javascript:void(0);" class="btn-slt">3개월</a>
+                            <ul>
+                              <li><a href="javascript:void(0);">선택</a></li>
+                              <li><a href="javascript:void(0);">강남구</a></li>
+                            </ul>
                             <select title="구 선택">
-                              <option value="">선택</option>
-                              <option value="">강남구</option>
-                            </select> 
+                              <option selected>선택</option>
+                              <option>강남구</option>
+                            </select>
                           </div>
                         </li>
                       </ul>
@@ -1240,7 +1281,7 @@
                 </div>
               </div>
 
-              <div class="btn-area bg mt20 active"><!-- active 클래스 추가 -->
+              <div class="btn-area bg active mt20"><!-- active 클래스 추가 -->
                 <div class="result-txt">
                   <!-- <p>상담하실 매장과 일시를 선택해주세요.</p> -->
                   <p>상담매장: <span>강남본점</span></p>
@@ -1249,9 +1290,9 @@
               </div>
 
             </div>
-
+            
             <div  class="user-info-area mt60">
-              <h4 class="step-tit">예약자 정보<sup>*</sup></h4>
+              <h3 class="step-tit">예약자 정보<sup>*</sup></h3>
               <div class="lt">
                 <form action="#">
                   <div class="input-area">
@@ -1286,7 +1327,7 @@
                     <ul class="acco-type">
                       <li>
                         <div class="check-box">
-                          <input type="checkbox" name="agr-all" id="agr-all" class="agr-all">
+                          <input type="checkbox" id="agr-all" class="agr-all">
                           <label for="agr-all">
                             <span class="name">모두 동의</span>
                           </label>
@@ -1294,7 +1335,7 @@
                       </li>
                       <li>
                         <div class="check-box">
-                          <input type="checkbox" name="agr-required" id="agr-required">
+                          <input type="checkbox" class="agr-check" id="agr-required">
                           <label for="agr-required">
                             <span class="name"><em class="red">(필수)</em>개인정보 수집 및 이용에 동의합니다.</span>
                           </label>
@@ -1331,7 +1372,7 @@
                       </li>
                       <li>
                         <div class="check-box">
-                          <input type="checkbox" name="agr-optional" id="agr-optional">
+                          <input type="checkbox" class="agr-check" id="agr-optional">
                           <label for="agr-optional">
                             <span class="name"><em>(선택)</em>마케팅 정보활용에 동의합니다.</span>
                           </label>
@@ -1357,7 +1398,7 @@
                 </div>
               </div>
               <div class="bottom-area">
-                <p class="tit">필수 위탁 고지</p>
+                <h4 class="tit">필수 위탁 고지</h4>
                 <p class="desc">LG전자는 개인정보 취급업무 중 서비스 제공에 필요한 필수적 업무를 아래와 같이 외부 전문업체에 위탁하여 운영하고 있으며, 해당 업체는 서비스 이행을 위한 목적으로만 사용됩니다.</p>
                 <div class="tb_row tb-row-bl white size-s">
                   <table>
@@ -1516,17 +1557,24 @@
 
     // step 3 약관
     $(function(){
-      // step 2 약관 > 더보기 버튼
+      // step 3 약관 > 더보기 버튼
       $('.check-box .agr-more').on('click',function(){
         $(this).toggleClass('active').siblings('.agr-txt-wrap').slideToggle(200);
       });
-      // step 2 약관 > 모두 동의
-      $(".agr-all").click(function(){
-        if($(".agr-all").prop("checked")){
-          $(".acco-type input[type='checkbox']").prop("checked",true);
-        } else{
-          $(".acco-type input[type='checkbox']").prop("checked",false);
-        }
+      // step 3 약관 > 모두 동의
+      $(".agr-wrap").on("click", "#agr-all", function () {
+        $(this).parents(".agr-wrap").find('input').prop("checked", $(this).is(":checked"));
+      });
+
+      // 약관 개별 선택
+      $(".agr-wrap").on("click", ".agr-check", function() {
+        var is_checked = true;
+
+        $(".agr-wrap .agr-check").each(function(){
+          is_checked = is_checked && $(this).is(":checked");
+        });
+
+        $("#agr-all").prop("checked", is_checked);
       });
     });
 

@@ -4,7 +4,7 @@
 <div class="container" id="content">
 
   <div class="page-header">
-    <h1 class="title">공지사항</h1>
+    <h2 class="title">공지사항</h2>
   </div>
 
   <!-- contents -->
@@ -14,80 +14,42 @@
       <div class="search-wrap">
         <div class="keyword-search">
           <div class="search-box">
-            <div class="search-input">
-              <input type="text" name="keyword" id="keyword" class="ui_input_clearbutton" value="" placeholder="검색어 입력" title="검색어 입력">
-              <button type="button" class="btn-delete">
-                <span class="blind">검색어 삭제</span>
-              </button>
-              <button type="button" class="btn-search">
-                <span class="blind">검색</span>
-              </button>
+            <div class="search-select">
+              <input type="text" placeholder="검색어 입력" title="검색어 입력" required="required">
+              <button type="button" class="btn-clear">검색어 삭제</button>
+              <button type="button" class="btn-search">검색</button>
             </div>
             <p class="search-error">검색어를 2자리 이상 입력해주세요.</p>
           </div>
         </div>
       </div>
       <div class="result-wrap">
-        <div class="sorting-wrap">
+        <div class="sorting-area">
           <div class="total">전체 <em id="count" class="count">140</em>건</div>
           <div class="sort-box">
-            <div class="sort-select-wrap">
-              <select name="category" id="category" class="ui_selectbox" style="display:none">
-                <option value="">전체</option>
-                <option value="">공지사항</option>
-                <option value="">만족도/설문 당첨자 발표</option>
+            <div class="slt sltBox width-auto" data-txt-change="true">
+              <a href="javascript:void(0);" class="btn-slt">전체</a>
+              <ul>
+                <li><a href="javascript:void(0);">전체</a></li>
+                <li><a href="javascript:void(0);">공지사항</a></li>
+                <li><a href="javascript:void(0);">만족도/설문 당첨자 발표</a></li>
+              </ul>
+              <select>
+                <option selected>전체</option>
+                <option>공지사항</option>
+                <option>만족도/설문 당첨자 발표</option>
               </select>
-              <div class="ui-selectbox-wrap">
-                <div class="ui-selectbox-view">
-                  <a href="javascirpt:void(0);" class="ui-select-button">
-                    <span class="ui-select-text">전체</span>
-                    <span class="blind">선택됨</span>
-                    <span class="ico"></span>
-                  </a>
-                </div>
-                <div class="ui-selectbox-list" style="display:none">
-                  <div class="ui-select-scrollarea">
-                    <ul>
-                      <li class="on"><a href="#">전체</a></li>
-                      <li><a href="#">공지사항</a></li>
-                      <li><a href="#">만족도/설문 당첨자 발표</a></li>
-                    </ul>
-                  </div>
-                  <div class="ui-select-scroll">
-                    <span class="bg_top"></span>
-                    <span class="bg_mid"></span>
-                    <span class="bg_btm"></span>
-                  </div>
-                </div>
-              </div>
             </div>
-            <div class="sort-select-wrap">
-              <select name="orderType" id="orderType" class="ui_selectbox" style="display:none">
-                <option value="">최신순</option>
-                <option value="">조회순</option>
+            <div class="slt sltBox width-auto" data-txt-change="true">
+              <a href="javascript:void(0);" class="btn-slt">최신순</a>
+              <ul>
+                <li><a href="javascript:void(0);">최신순</a></li>
+                <li><a href="javascript:void(0);">조회순</a></li>
+              </ul>
+              <select>
+                <option selected>최신순</option>
+                <option>조회순</option>
               </select>
-              <div class="ui-selectbox-wrap">
-                <div class="ui-selectbox-view">
-                  <a href="javascirpt:void(0);" class="ui-select-button">
-                    <span class="ui-select-text">최신순</span>
-                    <span class="blind">선택됨</span>
-                    <span class="ico"></span>
-                  </a>
-                </div>
-                <div class="ui-selectbox-list" style="display:none">
-                  <div class="ui-select-scrollarea">
-                    <ul>
-                      <li class="on"><a href="#">최신순</a></li>
-                      <li><a href="#">조회순</a></li>
-                    </ul>
-                  </div>
-                  <div class="ui-select-scroll">
-                    <span class="bg_top"></span>
-                    <span class="bg_mid"></span>
-                    <span class="bg_btm"></span>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -227,5 +189,9 @@
   <!-- // contents -->
 </div>
 <!-- // container -->
-
+<script>
+  $(document).ready(function(){
+    
+  })
+</script>
 <jsp:include page="../../templates/common/footer.jsp" />
