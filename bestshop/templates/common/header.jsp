@@ -3,32 +3,34 @@
 <html lang="ko">
 
     <head>
-    <meta charset="utf-8" />
-    <title>LG전자 베스트샵</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta name="description" content="LG전자에서 진행되는 이벤트, 기획전, 카드 혜택 그리고 LG전자 멤버십까지 다양한 혜택 정보를 확인하실 수 있습니다.">
-    <meta name="twitter:card" content="summary">
-    <meta property="og:locale" content="ko_KR">
-    <meta property="og:site_name" content="LG전자 BEST SHOP">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="LG전자 BEST SHOP">
-    <meta property="og:description" content="">
-    <link rel="shortcut icon" href="/bestshop/images/favicon.ico">
-    <link rel="stylesheet" href="/bestshop/css/reset.min.css">
-    <link rel="stylesheet" href="/bestshop/css/common.css">
-    <link rel="stylesheet" href="/bestshop/css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="/bestshop/css/jquery-ui.min.css">
-    <link rel="stylesheet" href="/bestshop/css/base.css">
-    <link rel="stylesheet" href="/bestshop/css/mobile.css">
-    <link rel="stylesheet" href="/bestshop/css/jy.css">
-    <link rel="stylesheet" href="/bestshop/css/haeun.css">
-    <link rel="stylesheet" href="/bestshop/css/sylee.css">
-    <link rel="stylesheet" href="/bestshop/css/main.css">
-    <script type="text/javascript" src="/bestshop/js/libs/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="/bestshop/js/libs/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="/bestshop/js/libs/swiper-bundle.min.js"></script>
-    <script type="text/javascript" src="/bestshop/js/common.js"></script>
+        <meta charset="utf-8" />
+        <title>LG전자 베스트샵</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta content="IE=edge" http-equiv="X-UA-Compatible">
+        <meta name="description" content="LG전자에서 진행되는 이벤트, 기획전, 카드 혜택 그리고 LG전자 멤버십까지 다양한 혜택 정보를 확인하실 수 있습니다.">
+        <meta name="twitter:card" content="summary">
+        <meta property="og:locale" content="ko_KR">
+        <meta property="og:site_name" content="LG전자 BEST SHOP">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="LG전자 BEST SHOP">
+        <meta property="og:description" content="">
+        <link rel="shortcut icon" href="/bestshop/images/favicon.ico">
+        <link rel="stylesheet" href="/bestshop/css/reset.min.css">
+        <link rel="stylesheet" href="/bestshop/css/common.css">
+        <link rel="stylesheet" href="/bestshop/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="/bestshop/css/jquery-ui.min.css">
+        <link rel="stylesheet" href="/bestshop/css/jquery.mCustomScrollbar.css">
+        <link rel="stylesheet" href="/bestshop/css/base.css">
+        <link rel="stylesheet" href="/bestshop/css/mobile.css">
+        <link rel="stylesheet" href="/bestshop/css/jy.css">
+        <link rel="stylesheet" href="/bestshop/css/haeun.css">
+        <link rel="stylesheet" href="/bestshop/css/sylee.css">
+        <link rel="stylesheet" href="/bestshop/css/main.css">
+        <script type="text/javascript" src="/bestshop/js/libs/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="/bestshop/js/libs/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/bestshop/js/libs/swiper-bundle.min.js"></script>
+        <script type="text/javascript" src="/bestshop/js/libs/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script type="text/javascript" src="/bestshop/js/common.js"></script>
     </head>
 
     <body>

@@ -329,11 +329,28 @@ $(document).ready(function() {
         $('.ui-widget-header a').attr('href','javascript:void(0);');
     });
 
+    // scroll custom
+    if(_thsW > 767){
+        $('.custom-scroll').mCustomScrollbar({theme:"minimal-dark"});
+    }
+
+    // search clear
+    $('.btn-clear').on('click', function(){
+        $(this).siblings('input').val('');
+    });
 });
 
 $(window).resize(function(){
     var _thsW = $(window).width();
 
+    if(_thsW > 767){
+        megaGnb();
+        myTooltip();
+        focusGnb();
+    } else { // mobile size
+        mobileMega();
+        mobileMenutoggle()
+    }
     tabCommon();
 });
 
