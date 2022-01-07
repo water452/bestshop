@@ -54,6 +54,13 @@
         <div class="step-count">
           <p class="tit">카테고리 선택</p>
           <p class="step-num">STEP<em>01</em><span>/ 03</span></p>
+
+          <!-- <p class="tit">제품 선택</p>
+          <p class="step-num">STEP<em>02</em><span>/ 03</span></p> -->
+
+          <!-- <p class="tit">예약 정보 입력</p>
+          <p class="step-num">STEP<em>03</em><span>/ 03</span></p> -->
+          
         </div>
         <!-- // step count -->
 
