@@ -2,6 +2,7 @@
 <jsp:include page="../../templates/common/header.jsp" />
 <div class="container" id="content">
     <!-- 팝업 버튼 -->
+    <a href="#popup-default" class="btn btnPopOpen">팝업: 기본스타일</a>
     <a href="#popup-confirm" class="btn btnPopOpen">팝업: 위치 정보 제공 동의</a>
     <!-- //팝업 버튼 -->
 </div>
@@ -10,14 +11,27 @@
 <div class="dim"> </div>
 <!-- //dim -->
 
-<!-- 팝업: 위치 정보 제공 동의 -->
-<div class="popup confirm" id="popup-confirm">
+<!-- 팝업: 기본스타일 -->
+<div class="popup" id="popup-default">
     <div class="pop-wrap">
-        <!--
         <div class="pop-head">
             <h2 class="tit-pop">타이틀</h2>
         </div>
-        -->
+        <div class="pop-cont">
+            컨텐츠영역
+        </div>
+        <div class="btn-area m-full-flex">
+            <button type="button" class="btn gray btnPopCancel">아니요</button>
+            <button type="button" class="btn s02">네</button>
+        </div>
+        <button type="button" class="btn-pop-close btnPopClose"><span class="blind">닫기</span></button>
+    </div>
+</div>
+<!-- 팝업: 기본스타일 -->
+
+<!-- 팝업: 위치 정보 제공 동의 -->
+<div class="popup confirm" id="popup-confirm">
+    <div class="pop-wrap">
         <div class="pop-cont">
             <dfn class="tit-pop">위치 정보 제공 동의</dfn>
             <p class="txt-pop01 tm-ty01">
@@ -27,19 +41,20 @@
             </p>
         </div>
         <div class="btn-area m-full-flex">
-            <button type="button" class="btn gray">아니요</button>
+            <button type="button" class="btn gray btnPopCancel">아니요</button>
             <button type="button" class="btn s02">네</button>
         </div>
-        <!--
-        <button type="button" class="btnPopClose btnPopClose"><span class="blind">닫기</span></button>
-        -->
     </div>
 </div>
 <!-- 팝업: 위치 정보 제공 동의 -->
 
 <script>
-	// popup
+    // popup
 	function popup(){
+        var winWidth = $(window).width(),
+            winHeight = $(window).height(),
+            pc = 768;
+
 		// popup z-index
 		$(".popup").each(function(index){
 			var popZindex = 1000 + index;
@@ -143,12 +158,12 @@
 				$("html").removeAttr("style");
 			};
 		};
-		$(document).on("click", ".btnPopClose", popOff);
+		$(document).on("click", ".btnPopClose, .btnPopCancel", popOff);
 
 		// popup esc 버튼 닫기
 		function escClose(e){
 			if ( e.keyCode == 27 ){ 
-				$(".btnPopClose").trigger("click");
+				$(".btnPopClose, .btnPopCancel").trigger("click");
 			};
 		};
 		$(document).on("keydown", escClose);
@@ -159,7 +174,7 @@
 			$(this).parents(".popup").find(".btnPopClose").trigger("click");
 			$(closePopId).find(".btnPopClose").trigger("click");
 		};
-		$(document).on("click", ".btnPopClose", popAllOff);
+		$(document).on("click", ".btnPopConnectClose", popAllOff);
 	};
 	popup();
 </script>
