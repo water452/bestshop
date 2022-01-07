@@ -49,6 +49,14 @@
 
     <div class="cont-wrap">
       <section class="cont-area">
+
+        <!-- step count -->
+        <div class="step-count">
+          <p class="tit">카테고리 선택</p>
+          <p class="step-num">STEP<em>01</em><span>/ 03</span></p>
+        </div>
+        <!-- // step count -->
+
         <!-- step 1 -->
         <div class="step-area step01 active"><!-- active 클래스 추가 -->
           <div class="main-area active"><!-- active 클래스 추가 -->
@@ -151,6 +159,10 @@
                         </div>
                       </div>
                     </li>
+                  </ul>
+                </div>
+                <div class="swiper-slide">
+                  <ul class="category-list">
                     <li>
                       <div class="box">
                         <div class="category">
@@ -166,6 +178,8 @@
                             <p class="category-tit">얼음정수기 냉장고</p>
                             <ul class="sub-category-list">
                               <li>주기별 필터 무상 교체</li>
+                              <li>고온 고압 세척으로 99.99% 살균교체 고온 고압 세척으로 99.99% 살균교체</li>
+                              <li>토탈 클리닝 서비스</li>
                               <li>고온 고압 세척으로 99.99% 살균교체</li>
                               <li>토탈 클리닝 서비스</li>
                             </ul>
@@ -262,98 +276,8 @@
                             <p class="category-tit">얼음정수기 냉장고</p>
                             <ul class="sub-category-list">
                               <li>주기별 필터 무상 교체</li>
-                              <li>고온 고압 세척으로 99.99% 살균교체</li>
+                              <li>고온 고압 세척으로 99.99% 살균교체 고온 고압 세척으로 99.99% 살균교체</li>
                               <li>토탈 클리닝 서비스</li>
-                            </ul>
-                            <button type="button" class="btn btn-select">선택</button>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="box">
-                        <div class="category">
-                          <div class="inner">
-                            <p class="category-tit">얼음정수기 냉장고</p>
-                            <div class="category-thumb">
-                              <img src="../../images/img-refrigerator-01.jpg" alt="얼음정수기 냉장고">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="sub-category">
-                          <div class="inner">
-                            <p class="category-tit">얼음정수기 냉장고</p>
-                            <ul class="sub-category-list">
-                              <li>주기별 필터 무상 교체</li>
-                              <li>고온 고압 세척으로 99.99% 살균교체</li>
-                              <li>토탈 클리닝 서비스</li>
-                            </ul>
-                            <button type="button" class="btn btn-select">선택</button>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="box">
-                        <div class="category">
-                          <div class="inner">
-                            <p class="category-tit">얼음정수기 냉장고</p>
-                            <div class="category-thumb">
-                              <img src="../../images/img-refrigerator-01.jpg" alt="얼음정수기 냉장고">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="sub-category">
-                          <div class="inner">
-                            <p class="category-tit">얼음정수기 냉장고</p>
-                            <ul class="sub-category-list">
-                              <li>주기별 필터 무상 교체</li>
-                              <li>고온 고압 세척으로 99.99% 살균교체</li>
-                              <li>토탈 클리닝 서비스</li>
-                            </ul>
-                            <button type="button" class="btn btn-select">선택</button>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="box">
-                        <div class="category">
-                          <div class="inner">
-                            <p class="category-tit">얼음정수기 냉장고</p>
-                            <div class="category-thumb">
-                              <img src="../../images/img-refrigerator-01.jpg" alt="얼음정수기 냉장고">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="sub-category">
-                          <div class="inner">
-                            <p class="category-tit">얼음정수기 냉장고</p>
-                            <ul class="sub-category-list">
-                              <li>주기별 필터 무상 교체</li>
-                              <li>고온 고압 세척으로 99.99% 살균교체</li>
-                              <li>토탈 클리닝 서비스</li>
-                            </ul>
-                            <button type="button" class="btn btn-select">선택</button>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="box">
-                        <div class="category">
-                          <div class="inner">
-                            <p class="category-tit">얼음정수기 냉장고</p>
-                            <div class="category-thumb">
-                              <img src="../../images/img-refrigerator-01.jpg" alt="얼음정수기 냉장고">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="sub-category">
-                          <div class="inner">
-                            <p class="category-tit">얼음정수기 냉장고</p>
-                            <ul class="sub-category-list">
-                              <li>주기별 필터 무상 교체</li>
                               <li>고온 고압 세척으로 99.99% 살균교체</li>
                               <li>토탈 클리닝 서비스</li>
                             </ul>
@@ -447,6 +371,7 @@
         <!-- step 2 -->
         <div class="step-area step02 active"><!-- active 클래스 추가 -->
           <div class="main-area active"><!-- active 클래스 추가 -->
+
             <div class="video-area">
               <div class="video-box">
                 <iframe src="https://www.youtube.com/embed/Df8HWdaveDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen controls></iframe>
@@ -825,14 +750,15 @@
               </div>
             </div>
           </div>
+
         </div>
         <!-- // step 2 -->
 
         <!-- step 3 -->
         <p class="step-top-note"><sup>*</sup>필수입력항목</p>
-        <div class="step-area step03 active"><!-- active 클래스 추가 -->
+        <div class="step-area step03 active"><!-- active 클래스 추가 -->        
           <div class="main-area active"><!-- active 클래스 추가 -->
-            
+        
             <div class="shop-date-wrap">
               <div class="view-area">
                 <h3 class="step-tit">상담하실 매장과 상담일시 선택<sup>*</sup></h3>
@@ -1520,7 +1446,14 @@
 
     // step 1 제품선택
     var categoryBox = new Swiper(".category-box", {
-      spaceBetween: 24,
+      slidesPerView: 1,
+      spaceBetween: 40,
+      breakpoints: {
+        1024: {
+          slidesPerView: 2,
+          spaceBetween: 24,
+          },
+      },
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
