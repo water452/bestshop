@@ -212,11 +212,13 @@ dfn { display: block; font-style: normal; }
     .tab02 > ul > li > a { padding: 15px 0; font-size: 15px; }
     .tab01.is_depth > ul { padding-bottom: 54px; }
 
+    /* custom select */
+    .sltBox > a, .sltBox ul { display: none; }
+
     /* sorting-area */
     .sorting-area { padding: 20px 0; }
     .sorting-area .slt + .slt { margin-left: 12px; }
     .slt select { position: static; margin: 0; padding-right: 20px; width: auto; height: 22px; font-size: 13px; background: url("../images/icons/btn-down-16-black.svg") no-repeat top 50% right 0; outline: none; clip-path: none; }
-    .slt > a, .slt ul { display: none; }
     .check-box.small label { font-size: 13px; }
 
     /* popup */
