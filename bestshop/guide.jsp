@@ -20,9 +20,11 @@
         <script type="text/javascript" src="https://www.lge.co.kr/lg5-common/js/lg.common.min.js"></script>
         <script type="text/javascript" src="https://www.lge.co.kr/lg5-common/js/app.common.min.js"></script>        
         <script type="text/javascript" src="https://www.lge.co.kr/lg5-common/js/libs/jquery.mCustomScrollbar.min.js"></script>
+        <script type="text/javascript" src="/bestshop/js/common.js"></script>
         <link rel="stylesheet" href="./css/reset.min.css"/>
         <link rel="stylesheet" href="./css/common.css"/>
         <link rel="stylesheet" href="./css/base.css"/>
+        <link rel="stylesheet" href="./css/button.css"/>
         <link rel="stylesheet" href="./css/mobile.css"/>
         <style>
             html {
@@ -118,6 +120,7 @@
             <li><a href="#guide-table">Table</a></li>
             <li><a>리스트</a></li>
             <li><a>툴팁</a></li>
+            <li><a>팝업</a></li>
         </ul>
         <div class="guide-content">
             <!-- 컬러시스템 -->
@@ -319,6 +322,33 @@
             <div id="guide-tab">
                 <h2>Tab</h2>
             </div> <!-- 탭 끝 -->
+            <!-- 팝업 -->
+            <div id="guide-tab">
+                <h2>팝업</h2>
+                <a href="#popup-sample" class="btn btnPopOpen">팝업: 샘플</a>
+
+                <!-- dim -->
+                <div class="dim"> </div>
+                <!-- //dim -->
+
+                <!-- 팝업: 샘플 -->
+                <div class="popup" id="popup-sample">
+                    <div class="pop-wrap">
+                        <div class="pop-head">
+                            <h2 class="tit-pop">타이틀</h2>
+                        </div>
+                        <div class="pop-cont">
+                            컨텐츠영역
+                        </div>
+                        <div class="btn-area m-full-flex">
+                            <button type="button" class="btn gray btnPopCancel">아니요</button>
+                            <button type="button" class="btn s02">네</button>
+                        </div>
+                        <button type="button" class="btn-pop-close btnPopClose"><span class="blind">닫기</span></button>
+                    </div>
+                </div>
+                <!-- 팝업: 샘플 -->
+            </div> <!-- 팝업 끝 -->
         </div>
     </body>
 </html>
