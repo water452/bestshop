@@ -776,7 +776,6 @@
 .res-main.care .cont-wrap .cont-area .step-top-note {margin-top:8px}
 
 .res-main .category-box {width:calc(100% + 48px); padding:12px; margin-left:-24px; margin-top:-24px}
-.res-main .category-box .swiper-slide {}
 .res-main .category-box .category-list {display:flex; flex-wrap:wrap; margin:-24px -12px 0}
 .res-main .category-box .category-list > li {width:50%; height:376px; padding:24px 12px 0}
 .res-main .category-box .category-list > li .box {position:relative; width:100%; height:100%; padding:42px 16px; border-radius:8px; background-color:#fff; box-shadow:2px 4px 16px 0 rgba(0, 0, 0, 0.14); overflow:hidden; cursor:pointer}
@@ -1151,3 +1150,34 @@
 
 }
 /* // 소모품구매예약 */
+
+/* 상담예약조회 */
+.res-main .inq-area .inq-box-area {display:flex; justify-content:space-between}
+.res-main .inq-area .inq-box-area .inq-box {position:relative; width:calc(50% - 10px); height:548px; padding:24px 32px; border:1px solid #ddd; border-radius:8px}
+.res-main .inq-area .inq-box-area .inq-box .tit-area {padding-bottom:20px; border-bottom:1px solid #000}
+.res-main .inq-area .inq-box-area .inq-box .tit-area .tit {font-size:22px; font-weight:500; line-height:32px}
+.res-main .inq-area .inq-box-area .inq-box .body-area {padding-top:12px}
+.res-main .inq-area .inq-box-area .inq-box .body-area ul.info > li {position:relative; margin-top:4px; padding-left:12px; font-size:16px; line-height:26px}
+.res-main .inq-area .inq-box-area .inq-box .body-area ul.info > li::before {content:''; display:block; position:absolute; width:2px; height:2px; top:12px; left:0; border-radius:50%; background-color:#000}
+.res-main .inq-area .inq-box-area .inq-box .btn-area {position:absolute; bottom:70px; left:0; right:0; text-align:center}
+.res-main .inq-area .inq-box-area .inq-box .btn-area .btn {display:inline-block; width:220px; padding:11px 28px}
+
+.res-main .inq-area .inq-box-area .inq-box .phone-check-wrap {padding-bottom:44px}
+.res-main .inq-area .inq-box-area .inq-box .phone-check-wrap .note {display:flex; font-size:14px; line-height:20px}
+.res-main .inq-area .inq-box-area .inq-box .phone-check-wrap .note > sup {margin-right:3px}
+.res-main .inq-area .inq-box-area .inq-box .phone-check-wrap sup {color:#e81953; font-size:14px; line-height:20px}
+.res-main .inq-area .inq-box-area .inq-box .phone-check-wrap .input-area {max-width:630px; margin-top:30px}
+.res-main .inq-area .inq-box-area .inq-box .phone-check-wrap .input-area .num-box {margin-top:30px}
+.res-main .inq-area .inq-box-area .inq-box .phone-check-wrap .input-area .tit label {font-size:16px; font-weight:bold; line-height:24px}
+.res-main .inq-area .inq-box-area .inq-box .phone-check-wrap .input-area .tit label .name {display:flex}
+.res-main .inq-area .inq-box-area .inq-box .phone-check-wrap .input-area .tit label .name sup {margin-left:4px; font-size:16px; font-weight:bold; line-height:24px}
+.res-main .inq-area .inq-box-area .inq-box .phone-check-wrap .input-area .txt-box {margin-top:8px}
+.res-main .inq-area .inq-box-area .inq-box .phone-check-wrap .input-area .txt-box input {width:100%; height:48px; padding:10px 15px; border:1px solid #ddd; border-radius:8px; font-size:16px; line-height:26px}
+.res-main .inq-area .inq-box-area .inq-box .phone-check-wrap .input-area .num-box .txt-box > ul > li {display:flex}
+.res-main .inq-area .inq-box-area .inq-box .phone-check-wrap .input-area .num-box .txt-box > ul > li + li {margin-top:12px}
+.res-main .inq-area .inq-box-area .inq-box .phone-check-wrap .input-area .num-box .txt-box .btn-send {width:104px; margin-left:8px; padding:12px 10px; border:1px solid #000; border-radius:8px; background-color:#fff; font-size:14px; font-weight:bold; line-height:20px; white-space:nowrap}
+
+.res-main .inq-area .caution-box {margin-top:40px; padding:40px 40px 34px; border-radius:8px; background-color:#f4f4f4}
+.res-main .inq-area .caution-box .tit {margin-bottom:8px; font-size:14px; font-weight:500; line-height:22px}
+
+/* // 상담예약조회 */
