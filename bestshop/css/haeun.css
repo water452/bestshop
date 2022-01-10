@@ -86,6 +86,9 @@
   .step-tit ~ .step-tit {margin-top:40px}
   .step-tit > span {margin-left:5px; font-size:11px}
   .step-tit > sup {font-size:16px; line-height:25px}
+  
+  .tit-area {flex-direction:column; align-items:flex-start; margin-bottom:12px}
+  .tit-area .step-tit + em {margin-left:0; font-size:10px; line-height:19px}
 }
 
 
@@ -146,184 +149,184 @@
 
 
 /* 컨텐츠 영역 */
-.res-main .cont-wrap .cont-area {padding-top:8px}
+.cont-area {padding-top:8px}
 /* .res-main .cont-wrap .cont-area .step-area {display:none}
 .res-main .cont-wrap .cont-area .step-area.active {display:block} */
 .step-area {border-top:1px solid #707070}
-.res-main .cont-wrap .cont-area .step-area .main-area {display:none; padding:20px 0}
-.res-main .cont-wrap .cont-area .step-area .main-area.active {display:block}
+.cont-area .step-area .main-area {display:none; padding:20px 0}
+.cont-area .step-area .main-area.active {display:block}
 
 /* step 1 */
 
 /* input */
-.input-area > ul {display:flex}
+ul[class*="input"] {display:flex}
 /* 상담목적 */
-.input-area ul.icon-type {justify-content:space-between}
-.input-area ul.icon-type > li {width:calc(20% - 15px)}
-.input-area ul.icon-type .radio-btn.btn-type2 {width:100%}
-.input-area ul.icon-type .radio-btn.btn-type2 label {display:flex; justify-content:center; align-items:center; width:100%; height:80px; border-radius:28px; font-size:18px; font-weight:500; line-height:27px}
-.input-area ul.icon-type .radio-btn.btn-type2 input:checked + label {border:2px solid #da0f47; color:#da0f47}
-.input-area ul.icon-type .radio-btn.btn-type2 .icon {display:block; width:48px; height:48px; margin-right:8px}
-.input-area ul.icon-type .radio-btn.btn-type2 .icon.wedding {background:url(../images/icons/icon-wedding.svg) no-repeat center}
-.input-area ul.icon-type .radio-btn.btn-type2 .icon.move {background:url(../images/icons/icon-move.svg) no-repeat center}
-.input-area ul.icon-type .radio-btn.btn-type2 .icon.interior {background:url(../images/icons/icon-interior.svg) no-repeat center}
-.input-area ul.icon-type .radio-btn.btn-type2 .icon.broken {background:url(../images/icons/icon-broken.svg) no-repeat center}
-.input-area ul.icon-type .radio-btn.btn-type2 .icon.etc {background:url(../images/icons/icon-etc.svg) no-repeat center}
-.input-area ul.icon-type .radio-btn.btn-type2 input:checked + label .icon.wedding {background:url(../images/icons/icon-wedding_on.svg) no-repeat center}
-.input-area ul.icon-type .radio-btn.btn-type2 input:checked + label .icon.move {background:url(../images/icons/icon-move_on.svg) no-repeat center}
-.input-area ul.icon-type .radio-btn.btn-type2 input:checked + label .icon.interior {background:url(../images/icons/icon-interior_on.svg) no-repeat center}
-.input-area ul.icon-type .radio-btn.btn-type2 input:checked + label .icon.broken {background:url(../images/icons/icon-broken_on.svg) no-repeat center}
-.input-area ul.icon-type .radio-btn.btn-type2 input:checked + label .icon.etc {background:url(../images/icons/icon-etc_on.svg) no-repeat center}
+ul.input-icon-type {justify-content:space-between}
+ul.input-icon-type > li {width:calc(20% - 15px)}
+ul.input-icon-type .radio-btn.btn-type2 {width:100%}
+ul.input-icon-type .radio-btn.btn-type2 label {display:flex; justify-content:center; align-items:center; width:100%; height:80px; border-radius:28px; font-size:18px; font-weight:500; line-height:27px}
+ul.input-icon-type .radio-btn.btn-type2 input:checked + label {border:2px solid #da0f47; color:#da0f47}
+ul.input-icon-type .radio-btn.btn-type2 .icon {display:block; width:48px; height:48px; margin-right:8px}
+ul.input-icon-type .radio-btn.btn-type2 .icon.wedding {background:url(../images/icons/icon-wedding.svg) no-repeat center}
+ul.input-icon-type .radio-btn.btn-type2 .icon.move {background:url(../images/icons/icon-move.svg) no-repeat center}
+ul.input-icon-type .radio-btn.btn-type2 .icon.interior {background:url(../images/icons/icon-interior.svg) no-repeat center}
+ul.input-icon-type .radio-btn.btn-type2 .icon.broken {background:url(../images/icons/icon-broken.svg) no-repeat center}
+ul.input-icon-type .radio-btn.btn-type2 .icon.etc {background:url(../images/icons/icon-etc.svg) no-repeat center}
+ul.input-icon-type .radio-btn.btn-type2 input:checked + label .icon.wedding {background:url(../images/icons/icon-wedding_on.svg) no-repeat center}
+ul.input-icon-type .radio-btn.btn-type2 input:checked + label .icon.move {background:url(../images/icons/icon-move_on.svg) no-repeat center}
+ul.input-icon-type .radio-btn.btn-type2 input:checked + label .icon.interior {background:url(../images/icons/icon-interior_on.svg) no-repeat center}
+ul.input-icon-type .radio-btn.btn-type2 input:checked + label .icon.broken {background:url(../images/icons/icon-broken_on.svg) no-repeat center}
+ul.input-icon-type .radio-btn.btn-type2 input:checked + label .icon.etc {background:url(../images/icons/icon-etc_on.svg) no-repeat center}
 @media screen and (max-width:767px) {
-  .input-area ul.icon-type {flex-wrap:wrap; margin-top:-12px}
-  .input-area ul.icon-type > li {width:calc(50% - 6px); margin-top:12px}
-  .input-area ul.icon-type .radio-btn.btn-type2 label {height:49px; border:1.5px solid #ddd; border-radius:14px; font-size:13px; line-height:20px}
-  .input-area ul.icon-type .radio-btn.btn-type2 input:checked + label {border:1.5px solid #da0f47}
-  .input-area ul.icon-type .radio-btn.btn-type2 .icon {width:32px; height:32px; margin-right:6px}
-  .input-area ul.icon-type .radio-btn.btn-type2 .icon.wedding {background:url(../images/icons/icon-wedding_mo.svg) no-repeat center / contain}
-  .input-area ul.icon-type .radio-btn.btn-type2 .icon.move {background:url(../images/icons/icon-move_mo.svg) no-repeat center / contain}
-  .input-area ul.icon-type .radio-btn.btn-type2 .icon.interior {background:url(../images/icons/icon-interior_mo.svg) no-repeat center / contain}
-  .input-area ul.icon-type .radio-btn.btn-type2 .icon.broken {background:url(../images/icons/icon-broken_mo.svg) no-repeat center / contain}
-  .input-area ul.icon-type .radio-btn.btn-type2 .icon.etc {background:url(../images/icons/icon-etc_mo.svg) no-repeat center / contain}
-  .input-area ul.icon-type .radio-btn.btn-type2 input:checked + label .icon.wedding {background:url(../images/icons/icon-wedding_mo_on.svg) no-repeat center / contain}
-  .input-area ul.icon-type .radio-btn.btn-type2 input:checked + label .icon.move {background:url(../images/icons/icon-move_mo_on.svg) no-repeat center / contain}
-  .input-area ul.icon-type .radio-btn.btn-type2 input:checked + label .icon.interior {background:url(../images/icons/icon-interior_mo_on.svg) no-repeat center / contain}
-  .input-area ul.icon-type .radio-btn.btn-type2 input:checked + label .icon.broken {background:url(../images/icons/icon-broken_mo_on.svg) no-repeat center / contain}
-  .input-area ul.icon-type .radio-btn.btn-type2 input:checked + label .icon.etc {background:url(../images/icons/icon-etc_mo_on.svg) no-repeat center / contain}
+  ul.input-icon-type {flex-wrap:wrap; margin-top:-12px}
+  ul.input-icon-type > li {width:calc(50% - 6px); margin-top:12px}
+  ul.input-icon-type .radio-btn.btn-type2 label {height:49px; border:1.5px solid #ddd; border-radius:14px; font-size:13px; line-height:20px}
+  ul.input-icon-type .radio-btn.btn-type2 input:checked + label {border:1.5px solid #da0f47}
+  ul.input-icon-type .radio-btn.btn-type2 .icon {width:32px; height:32px; margin-right:6px}
+  ul.input-icon-type .radio-btn.btn-type2 .icon.wedding {background:url(../images/icons/icon-wedding_mo.svg) no-repeat center / contain}
+  ul.input-icon-type .radio-btn.btn-type2 .icon.move {background:url(../images/icons/icon-move_mo.svg) no-repeat center / contain}
+  ul.input-icon-type .radio-btn.btn-type2 .icon.interior {background:url(../images/icons/icon-interior_mo.svg) no-repeat center / contain}
+  ul.input-icon-type .radio-btn.btn-type2 .icon.broken {background:url(../images/icons/icon-broken_mo.svg) no-repeat center / contain}
+  ul.input-icon-type .radio-btn.btn-type2 .icon.etc {background:url(../images/icons/icon-etc_mo.svg) no-repeat center / contain}
+  ul.input-icon-type .radio-btn.btn-type2 input:checked + label .icon.wedding {background:url(../images/icons/icon-wedding_mo_on.svg) no-repeat center / contain}
+  ul.input-icon-type .radio-btn.btn-type2 input:checked + label .icon.move {background:url(../images/icons/icon-move_mo_on.svg) no-repeat center / contain}
+  ul.input-icon-type .radio-btn.btn-type2 input:checked + label .icon.interior {background:url(../images/icons/icon-interior_mo_on.svg) no-repeat center / contain}
+  ul.input-icon-type .radio-btn.btn-type2 input:checked + label .icon.broken {background:url(../images/icons/icon-broken_mo_on.svg) no-repeat center / contain}
+  ul.input-icon-type .radio-btn.btn-type2 input:checked + label .icon.etc {background:url(../images/icons/icon-etc_mo_on.svg) no-repeat center / contain}
 }
 
 /* 제품선택 - 카테고리형 */
-.input-area ul.cate-type {display:flex; flex-wrap:wrap; justify-content:space-between; margin-top:-12px}
-.input-area ul.cate-type > li {display:flex; flex-wrap:wrap; justify-content:space-between; align-items:flex-start; width:calc(50% - 6px); margin-top:12px; padding:16px 14px 16px 18px; border-radius:8px; background-color:#fcfcfc}
-.input-area ul.cate-type .cate-tit {display:flex; align-items:center; font-size:16px; line-height:26px}
-.input-area ul.cate-type .cate-tit > .icon {display:block; width:48px; height:48px; margin-right:6px}
-.input-area ul.cate-type .cate-tit > .icon.tv-audio {background:url(../images/icons/icon-tv.svg) no-repeat center}
-.input-area ul.cate-type .cate-tit > .icon.pc {background:url(../images/icons/icon-desktop.svg) no-repeat center}
-.input-area ul.cate-type .cate-tit > .icon.kitchens {background:url(../images/icons/icon-refrigerator.svg) no-repeat center}
-.input-area ul.cate-type .cate-tit > .icon.house {background:url(../images/icons/icon-washing-machine.svg) no-repeat center}
-.input-area ul.cate-type .cate-tit > .icon.mobile {background:url(../images/icons/icon-mobile.svg) no-repeat center}
-.input-area ul.cate-type .cate-tit > .icon.beauty {background:url(../images/icons/icon-pra_l.svg) no-repeat center}
-.input-area ul.cate-type .cate-items {display:flex; flex-wrap:wrap; width:calc(100% - 135px); max-width:498px}
-.input-area ul.cate-type ul.cate-items {margin-top:-10px}
-.input-area ul.cate-type .cate-items > li {width:calc(100% / 3); max-width:156px; min-width:112px; height:48px; margin-top:10px; margin-right:10px}
-.input-area ul.cate-type .cate-items .check-box label {width:100%; height:100%; padding:10px 0; background-color:#fff; border-radius:48px; border:1px solid #ddd; background-color:#fff; font-size:16px; font-weight:500; line-height:24px; box-sizing:border-box; text-align:center}
-.input-area ul.cate-type .cate-items .check-box input:checked + label {border:1px solid #da0f47; color:#da0f47}
-.input-area ul.cate-type .cate-items .check-box input + label::after {display:none}
+ul.input-cate-type {display:flex; flex-wrap:wrap; justify-content:space-between; margin-top:-12px}
+ul.input-cate-type > li {display:flex; flex-wrap:wrap; justify-content:space-between; align-items:flex-start; width:calc(50% - 6px); margin-top:12px; padding:16px 14px 16px 18px; border-radius:8px; background-color:#fcfcfc}
+ul.input-cate-type .cate-tit {display:flex; align-items:center; font-size:16px; line-height:26px}
+ul.input-cate-type .cate-tit > .icon {display:block; width:48px; height:48px; margin-right:6px}
+ul.input-cate-type .cate-tit > .icon.tv-audio {background:url(../images/icons/icon-tv.svg) no-repeat center}
+ul.input-cate-type .cate-tit > .icon.pc {background:url(../images/icons/icon-desktop.svg) no-repeat center}
+ul.input-cate-type .cate-tit > .icon.kitchens {background:url(../images/icons/icon-refrigerator.svg) no-repeat center}
+ul.input-cate-type .cate-tit > .icon.house {background:url(../images/icons/icon-washing-machine.svg) no-repeat center}
+ul.input-cate-type .cate-tit > .icon.mobile {background:url(../images/icons/icon-mobile.svg) no-repeat center}
+ul.input-cate-type .cate-tit > .icon.beauty {background:url(../images/icons/icon-pra_l.svg) no-repeat center}
+ul.input-cate-type .cate-items {display:flex; flex-wrap:wrap; width:calc(100% - 135px); max-width:498px}
+ul.input-cate-type ul.cate-items {margin-top:-10px}
+ul.input-cate-type .cate-items > li {width:calc(100% / 3); max-width:156px; min-width:112px; height:48px; margin-top:10px; margin-right:10px}
+ul.input-cate-type .cate-items .check-box label {width:100%; height:100%; padding:10px 0; background-color:#fff; border-radius:48px; border:1px solid #ddd; background-color:#fff; font-size:16px; font-weight:500; line-height:24px; box-sizing:border-box; text-align:center}
+ul.input-cate-type .cate-items .check-box input:checked + label {border:1px solid #da0f47; color:#da0f47}
+ul.input-cate-type .cate-items .check-box input + label::after {display:none}
 @media screen and (max-width:767px) {
-  .input-area ul.cate-type > li {flex-direction:column; align-items:center; width:100%; padding:16px 0}
-  .input-area ul.cate-type .cate-tit {font-size:13px; line-height:20px}
-  .input-area ul.cate-type .cate-tit > .icon {display:none}
-  .input-area ul.cate-type ul.cate-items {width:100%; max-width:328px; margin-top:3px; padding:0 3px 0 10px}
-  .input-area ul.cate-type .cate-items > li {width:98px; min-width:98px; height:34px; margin-top:7px; margin-right:7px}
-  .input-area ul.cate-type .cate-items .check-box label {padding:0; font-size:13px; line-height:34px}
+  ul.input-cate-type > li {flex-direction:column; align-items:center; width:100%; padding:16px 0}
+  ul.input-cate-type .cate-tit {font-size:13px; line-height:20px}
+  ul.input-cate-type .cate-tit > .icon {display:none}
+  ul.input-cate-type ul.cate-items {width:100%; max-width:328px; margin-top:3px; padding:0 3px 0 10px}
+  ul.input-cate-type .cate-items > li {width:98px; min-width:98px; height:34px; margin-top:7px; margin-right:7px}
+  ul.input-cate-type .cate-items .check-box label {padding:0; font-size:13px; line-height:34px}
 }
 
 /* 제품선택 - 제품군형 */
-.input-area ul.pdt-type {display:flex; flex-wrap:wrap; margin:-16px -8px 0}
-.input-area ul.pdt-type > li {width:calc(100% / 6); min-width:175px; max-width:233px; margin-top:16px; padding:0 8px}
-.input-area ul.pdt-type > li .check-box {width:100%}
-.input-area ul.pdt-type > li .check-box input:checked + label {border-color:#da0f47; color:#da0f47}
-.input-area ul.pdt-type > li .check-box input + label::after {display:none}
-.input-area ul.pdt-type > li .check-box label {display:flex; justify-content:center; align-items:center; width:100%; height:54px; padding:0; background-color:#fff; border-radius:48px; border:1px solid #ddd; font-size:16px; font-weight:500; line-height:24px; box-sizing:border-box}
-.input-area ul.pdt-type > li .check-box label .icon {display:block; width:48px; height:48px; margin-right:6px}
-.input-area ul.pdt-type > li .check-box label .icon.tv {background:url(../images/icons/icon-tv.svg) no-repeat center}
-.input-area ul.pdt-type > li .check-box label .icon.soundbar {background:url(../images/icons/icon-soundbar.svg) no-repeat center}
-.input-area ul.pdt-type > li .check-box label .icon.laptop {background:url(../images/icons/icon-laptop.svg) no-repeat center}
-.input-area ul.pdt-type > li .check-box label .icon.desktop {background:url(../images/icons/icon-desktop.svg) no-repeat center}
-.input-area ul.pdt-type > li .check-box label .icon.fridge {background:url(../images/icons/icon-refrigerator.svg) no-repeat center}
-.input-area ul.pdt-type > li .check-box label .icon.washing {background:url(../images/icons/icon-washing-machine.svg) no-repeat center}
-.input-area ul.pdt-type > li .check-box label .icon.air-con {background:url(../images/icons/icon-air-conditioner.svg) no-repeat center}
-.input-area ul.pdt-type > li .check-box label .icon.pra-l {background:url(../images/icons/icon-pra_l.svg) no-repeat center}
-.input-area ul.pdt-type > li .check-box label .icon.vaccum {background:url(../images/icons/icon-vacuum.svg) no-repeat center}
-.input-area ul.pdt-type > li .check-box label .icon.styler {background:url(../images/icons/icon-styler.svg) no-repeat center}
-.input-area ul.pdt-type > li .check-box label .icon.air-clean {background:url(../images/icons/icon-air-cleaner.svg) no-repeat center}
-.input-area ul.pdt-type > li .check-box label .icon.range {background:url(../images/icons/icon-electricrange.svg) no-repeat center}
-.input-area ul.pdt-type > li .check-box label .icon.ipad {background:url(../images/icons/icon-ipad.svg) no-repeat center}
-.input-area ul.pdt-type > li .check-box label .icon.projector {background:url(../images/icons/icon-projector.svg) no-repeat center}
-.input-area ul.pdt-type > li .check-box label .icon.medihair {background:url(../images/icons/icon-medihair.svg) no-repeat center}
-.input-area ul.pdt-type > li .check-box input:checked + label .icon.tv {background:url(../images/icons/icon-tv_on.svg) no-repeat center}
-.input-area ul.pdt-type > li .check-box input:checked + label .icon.soundbar {background:url(../images/icons/icon-soundbar_on.svg) no-repeat center}
-.input-area ul.pdt-type > li .check-box input:checked + label .icon.laptop {background:url(../images/icons/icon-laptop_on.svg) no-repeat center}
-.input-area ul.pdt-type > li .check-box input:checked + label .icon.desktop {background:url(../images/icons/icon-desktop_on.svg) no-repeat center}
-.input-area ul.pdt-type > li .check-box input:checked + label .icon.fridge {background:url(../images/icons/icon-refrigerator_on.svg) no-repeat center}
-.input-area ul.pdt-type > li .check-box input:checked + label .icon.washing {background:url(../images/icons/icon-washing-machine_on.svg) no-repeat center}
-.input-area ul.pdt-type > li .check-box input:checked + label .icon.air-con {background:url(../images/icons/icon-air-conditioner_on.svg) no-repeat center}
-.input-area ul.pdt-type > li .check-box input:checked + label .icon.pra-l {background:url(../images/icons/icon-pra_l_on.svg) no-repeat center}
-.input-area ul.pdt-type > li .check-box input:checked + label .icon.vaccum {background:url(../images/icons/icon-vacuum_on.svg) no-repeat center}
-.input-area ul.pdt-type > li .check-box input:checked + label .icon.styler {background:url(../images/icons/icon-styler_on.svg) no-repeat center}
-.input-area ul.pdt-type > li .check-box input:checked + label .icon.air-clean {background:url(../images/icons/icon-air-cleaner_on.svg) no-repeat center}
-.input-area ul.pdt-type > li .check-box input:checked + label .icon.range {background:url(../images/icons/icon-electricrange_on.svg) no-repeat center}
-.input-area ul.pdt-type > li .check-box input:checked + label .icon.ipad {background:url(../images/icons/icon-ipad_on.svg) no-repeat center}
-.input-area ul.pdt-type > li .check-box input:checked + label .icon.projector {background:url(../images/icons/icon-projector_on.svg) no-repeat center}
-.input-area ul.pdt-type > li .check-box input:checked + label .icon.medihair {background:url(../images/icons/icon-medihair_on.svg) no-repeat center}
+ul.input-pdt-type {display:flex; flex-wrap:wrap; margin:-16px -8px 0}
+ul.input-pdt-type > li {width:calc(100% / 6); min-width:175px; max-width:233px; margin-top:16px; padding:0 8px}
+ul.input-pdt-type > li .check-box {width:100%}
+ul.input-pdt-type > li .check-box input:checked + label {border-color:#da0f47; color:#da0f47}
+ul.input-pdt-type > li .check-box input + label::after {display:none}
+ul.input-pdt-type > li .check-box label {display:flex; justify-content:center; align-items:center; width:100%; height:54px; padding:0; background-color:#fff; border-radius:48px; border:1px solid #ddd; font-size:16px; font-weight:500; line-height:24px; box-sizing:border-box}
+ul.input-pdt-type > li .check-box label .icon {display:block; width:48px; height:48px; margin-right:6px}
+ul.input-pdt-type > li .check-box label .icon.tv {background:url(../images/icons/icon-tv.svg) no-repeat center}
+ul.input-pdt-type > li .check-box label .icon.soundbar {background:url(../images/icons/icon-soundbar.svg) no-repeat center}
+ul.input-pdt-type > li .check-box label .icon.laptop {background:url(../images/icons/icon-laptop.svg) no-repeat center}
+ul.input-pdt-type > li .check-box label .icon.desktop {background:url(../images/icons/icon-desktop.svg) no-repeat center}
+ul.input-pdt-type > li .check-box label .icon.fridge {background:url(../images/icons/icon-refrigerator.svg) no-repeat center}
+ul.input-pdt-type > li .check-box label .icon.washing {background:url(../images/icons/icon-washing-machine.svg) no-repeat center}
+ul.input-pdt-type > li .check-box label .icon.air-con {background:url(../images/icons/icon-air-conditioner.svg) no-repeat center}
+ul.input-pdt-type > li .check-box label .icon.pra-l {background:url(../images/icons/icon-pra_l.svg) no-repeat center}
+ul.input-pdt-type > li .check-box label .icon.vaccum {background:url(../images/icons/icon-vacuum.svg) no-repeat center}
+ul.input-pdt-type > li .check-box label .icon.styler {background:url(../images/icons/icon-styler.svg) no-repeat center}
+ul.input-pdt-type > li .check-box label .icon.air-clean {background:url(../images/icons/icon-air-cleaner.svg) no-repeat center}
+ul.input-pdt-type > li .check-box label .icon.range {background:url(../images/icons/icon-electricrange.svg) no-repeat center}
+ul.input-pdt-type > li .check-box label .icon.ipad {background:url(../images/icons/icon-ipad.svg) no-repeat center}
+ul.input-pdt-type > li .check-box label .icon.projector {background:url(../images/icons/icon-projector.svg) no-repeat center}
+ul.input-pdt-type > li .check-box label .icon.medihair {background:url(../images/icons/icon-medihair.svg) no-repeat center}
+ul.input-pdt-type > li .check-box input:checked + label .icon.tv {background:url(../images/icons/icon-tv_on.svg) no-repeat center}
+ul.input-pdt-type > li .check-box input:checked + label .icon.soundbar {background:url(../images/icons/icon-soundbar_on.svg) no-repeat center}
+ul.input-pdt-type > li .check-box input:checked + label .icon.laptop {background:url(../images/icons/icon-laptop_on.svg) no-repeat center}
+ul.input-pdt-type > li .check-box input:checked + label .icon.desktop {background:url(../images/icons/icon-desktop_on.svg) no-repeat center}
+ul.input-pdt-type > li .check-box input:checked + label .icon.fridge {background:url(../images/icons/icon-refrigerator_on.svg) no-repeat center}
+ul.input-pdt-type > li .check-box input:checked + label .icon.washing {background:url(../images/icons/icon-washing-machine_on.svg) no-repeat center}
+ul.input-pdt-type > li .check-box input:checked + label .icon.air-con {background:url(../images/icons/icon-air-conditioner_on.svg) no-repeat center}
+ul.input-pdt-type > li .check-box input:checked + label .icon.pra-l {background:url(../images/icons/icon-pra_l_on.svg) no-repeat center}
+ul.input-pdt-type > li .check-box input:checked + label .icon.vaccum {background:url(../images/icons/icon-vacuum_on.svg) no-repeat center}
+ul.input-pdt-type > li .check-box input:checked + label .icon.styler {background:url(../images/icons/icon-styler_on.svg) no-repeat center}
+ul.input-pdt-type > li .check-box input:checked + label .icon.air-clean {background:url(../images/icons/icon-air-cleaner_on.svg) no-repeat center}
+ul.input-pdt-type > li .check-box input:checked + label .icon.range {background:url(../images/icons/icon-electricrange_on.svg) no-repeat center}
+ul.input-pdt-type > li .check-box input:checked + label .icon.ipad {background:url(../images/icons/icon-ipad_on.svg) no-repeat center}
+ul.input-pdt-type > li .check-box input:checked + label .icon.projector {background:url(../images/icons/icon-projector_on.svg) no-repeat center}
+ul.input-pdt-type > li .check-box input:checked + label .icon.medihair {background:url(../images/icons/icon-medihair_on.svg) no-repeat center}
 @media screen and (max-width:1230px) {
-  .input-area ul.pdt-type > li {width:20%}
+  ul.input-pdt-type > li {width:20%}
 }
 @media screen and (max-width:996px) {
-  .input-area ul.pdt-type > li {width:25%}
+  ul.input-pdt-type > li {width:25%}
 }
 @media screen and (max-width:767px) {
-  .input-area ul.pdt-type {justify-content:space-between; margin:-12px 0 0}
-  .input-area ul.pdt-type > li {width:calc(50% - 6px); max-width:50%; min-width:0; margin-top:12px; padding:0}
-  .input-area ul.pdt-type > li .check-box label {height:38px; border:1.5px solid #ddd; font-size:13px; line-height:20px}
-  .input-area ul.pdt-type > li .check-box input:checked + label {border:1.5px solid #da0f47}
-  .input-area ul.pdt-type > li .check-box label .icon {width:24px; height:24px}
-  .input-area ul.pdt-type > li .check-box label .icon.tv {background:url(../images/icons/icon-tv_mo.svg) no-repeat center / contain}
-  .input-area ul.pdt-type > li .check-box label .icon.soundbar {background:url(../images/icons/icon-soundbar_mo.svg) no-repeat center / contain}
-  .input-area ul.pdt-type > li .check-box label .icon.laptop {background:url(../images/icons/icon-laptop_mo.svg) no-repeat center / contain}
-  .input-area ul.pdt-type > li .check-box label .icon.desktop {background:url(../images/icons/icon-desktop_mo.svg) no-repeat center / contain}
-  .input-area ul.pdt-type > li .check-box label .icon.fridge {background:url(../images/icons/icon-refrigerator_mo.svg) no-repeat center / contain}
-  .input-area ul.pdt-type > li .check-box label .icon.washing {background:url(../images/icons/icon-washing-machine_mo.svg) no-repeat center / contain}
-  .input-area ul.pdt-type > li .check-box label .icon.air-con {background:url(../images/icons/icon-air-conditioner_mo.svg) no-repeat center / contain}
-  .input-area ul.pdt-type > li .check-box label .icon.pra-l {background:url(../images/icons/icon-pra_l_mo.svg) no-repeat center / contain}
-  .input-area ul.pdt-type > li .check-box label .icon.vaccum {background:url(../images/icons/icon-vacuum_mo.svg) no-repeat center / contain}
-  .input-area ul.pdt-type > li .check-box label .icon.styler {background:url(../images/icons/icon-styler_mo.svg) no-repeat center / contain}
-  .input-area ul.pdt-type > li .check-box label .icon.air-clean {background:url(../images/icons/icon-air-cleaner_mo.svg) no-repeat center / contain}
-  .input-area ul.pdt-type > li .check-box label .icon.range {background:url(../images/icons/icon-electricrange_mo.svg) no-repeat center / contain}
-  .input-area ul.pdt-type > li .check-box label .icon.ipad {background:url(../images/icons/icon-ipad_mo.svg) no-repeat center / contain}
-  .input-area ul.pdt-type > li .check-box label .icon.projector {background:url(../images/icons/icon-projector_mo.svg) no-repeat center / contain}
-  .input-area ul.pdt-type > li .check-box label .icon.medihair {background:url(../images/icons/icon-medihair_mo.svg) no-repeat center / contain}
-  .input-area ul.pdt-type > li .check-box input:checked + label .icon.tv {background:url(../images/icons/icon-tv_mo_on.svg) no-repeat center / contain}
-  .input-area ul.pdt-type > li .check-box input:checked + label .icon.soundbar {background:url(../images/icons/icon-soundbar_mo_on.svg) no-repeat center / contain}
-  .input-area ul.pdt-type > li .check-box input:checked + label .icon.laptop {background:url(../images/icons/icon-laptop_mo_on.svg) no-repeat center / contain}
-  .input-area ul.pdt-type > li .check-box input:checked + label .icon.desktop {background:url(../images/icons/icon-desktop_mo_on.svg) no-repeat center / contain}
-  .input-area ul.pdt-type > li .check-box input:checked + label .icon.fridge {background:url(../images/icons/icon-refrigerator_mo_on.svg) no-repeat center / contain}
-  .input-area ul.pdt-type > li .check-box input:checked + label .icon.washing {background:url(../images/icons/icon-washing-machine_mo_on.svg) no-repeat center / contain}
-  .input-area ul.pdt-type > li .check-box input:checked + label .icon.air-con {background:url(../images/icons/icon-air-conditioner_mo_on.svg) no-repeat center / contain}
-  .input-area ul.pdt-type > li .check-box input:checked + label .icon.pra-l {background:url(../images/icons/icon-pra_l_mo_on.svg) no-repeat center / contain}
-  .input-area ul.pdt-type > li .check-box input:checked + label .icon.vaccum {background:url(../images/icons/icon-vacuum_mo_on.svg) no-repeat center / contain}
-  .input-area ul.pdt-type > li .check-box input:checked + label .icon.styler {background:url(../images/icons/icon-styler_mo_on.svg) no-repeat center / contain}
-  .input-area ul.pdt-type > li .check-box input:checked + label .icon.air-clean {background:url(../images/icons/icon-air-cleaner_mo_on.svg) no-repeat center / contain}
-  .input-area ul.pdt-type > li .check-box input:checked + label .icon.range {background:url(../images/icons/icon-electricrange_mo_on.svg) no-repeat center / contain}
-  .input-area ul.pdt-type > li .check-box input:checked + label .icon.ipad {background:url(../images/icons/icon-ipad_mo_on.svg) no-repeat center / contain}
-  .input-area ul.pdt-type > li .check-box input:checked + label .icon.projector {background:url(../images/icons/icon-projector_mo_on.svg) no-repeat center / contain}
-  .input-area ul.pdt-type > li .check-box input:checked + label .icon.medihair {background:url(../images/icons/icon-medihair_mo_on.svg) no-repeat center / contain}
+  ul.input-pdt-type {justify-content:space-between; margin:-12px 0 0}
+  ul.input-pdt-type > li {width:calc(50% - 6px); max-width:50%; min-width:0; margin-top:12px; padding:0}
+  ul.input-pdt-type > li .check-box label {height:38px; border:1.5px solid #ddd; font-size:13px; line-height:20px}
+  ul.input-pdt-type > li .check-box input:checked + label {border:1.5px solid #da0f47}
+  ul.input-pdt-type > li .check-box label .icon {width:24px; height:24px}
+  ul.input-pdt-type > li .check-box label .icon.tv {background:url(../images/icons/icon-tv_mo.svg) no-repeat center / contain}
+  ul.input-pdt-type > li .check-box label .icon.soundbar {background:url(../images/icons/icon-soundbar_mo.svg) no-repeat center / contain}
+  ul.input-pdt-type > li .check-box label .icon.laptop {background:url(../images/icons/icon-laptop_mo.svg) no-repeat center / contain}
+  ul.input-pdt-type > li .check-box label .icon.desktop {background:url(../images/icons/icon-desktop_mo.svg) no-repeat center / contain}
+  ul.input-pdt-type > li .check-box label .icon.fridge {background:url(../images/icons/icon-refrigerator_mo.svg) no-repeat center / contain}
+  ul.input-pdt-type > li .check-box label .icon.washing {background:url(../images/icons/icon-washing-machine_mo.svg) no-repeat center / contain}
+  ul.input-pdt-type > li .check-box label .icon.air-con {background:url(../images/icons/icon-air-conditioner_mo.svg) no-repeat center / contain}
+  ul.input-pdt-type > li .check-box label .icon.pra-l {background:url(../images/icons/icon-pra_l_mo.svg) no-repeat center / contain}
+  ul.input-pdt-type > li .check-box label .icon.vaccum {background:url(../images/icons/icon-vacuum_mo.svg) no-repeat center / contain}
+  ul.input-pdt-type > li .check-box label .icon.styler {background:url(../images/icons/icon-styler_mo.svg) no-repeat center / contain}
+  ul.input-pdt-type > li .check-box label .icon.air-clean {background:url(../images/icons/icon-air-cleaner_mo.svg) no-repeat center / contain}
+  ul.input-pdt-type > li .check-box label .icon.range {background:url(../images/icons/icon-electricrange_mo.svg) no-repeat center / contain}
+  ul.input-pdt-type > li .check-box label .icon.ipad {background:url(../images/icons/icon-ipad_mo.svg) no-repeat center / contain}
+  ul.input-pdt-type > li .check-box label .icon.projector {background:url(../images/icons/icon-projector_mo.svg) no-repeat center / contain}
+  ul.input-pdt-type > li .check-box label .icon.medihair {background:url(../images/icons/icon-medihair_mo.svg) no-repeat center / contain}
+  ul.input-pdt-type > li .check-box input:checked + label .icon.tv {background:url(../images/icons/icon-tv_mo_on.svg) no-repeat center / contain}
+  ul.input-pdt-type > li .check-box input:checked + label .icon.soundbar {background:url(../images/icons/icon-soundbar_mo_on.svg) no-repeat center / contain}
+  ul.input-pdt-type > li .check-box input:checked + label .icon.laptop {background:url(../images/icons/icon-laptop_mo_on.svg) no-repeat center / contain}
+  ul.input-pdt-type > li .check-box input:checked + label .icon.desktop {background:url(../images/icons/icon-desktop_mo_on.svg) no-repeat center / contain}
+  ul.input-pdt-type > li .check-box input:checked + label .icon.fridge {background:url(../images/icons/icon-refrigerator_mo_on.svg) no-repeat center / contain}
+  ul.input-pdt-type > li .check-box input:checked + label .icon.washing {background:url(../images/icons/icon-washing-machine_mo_on.svg) no-repeat center / contain}
+  ul.input-pdt-type > li .check-box input:checked + label .icon.air-con {background:url(../images/icons/icon-air-conditioner_mo_on.svg) no-repeat center / contain}
+  ul.input-pdt-type > li .check-box input:checked + label .icon.pra-l {background:url(../images/icons/icon-pra_l_mo_on.svg) no-repeat center / contain}
+  ul.input-pdt-type > li .check-box input:checked + label .icon.vaccum {background:url(../images/icons/icon-vacuum_mo_on.svg) no-repeat center / contain}
+  ul.input-pdt-type > li .check-box input:checked + label .icon.styler {background:url(../images/icons/icon-styler_mo_on.svg) no-repeat center / contain}
+  ul.input-pdt-type > li .check-box input:checked + label .icon.air-clean {background:url(../images/icons/icon-air-cleaner_mo_on.svg) no-repeat center / contain}
+  ul.input-pdt-type > li .check-box input:checked + label .icon.range {background:url(../images/icons/icon-electricrange_mo_on.svg) no-repeat center / contain}
+  ul.input-pdt-type > li .check-box input:checked + label .icon.ipad {background:url(../images/icons/icon-ipad_mo_on.svg) no-repeat center / contain}
+  ul.input-pdt-type > li .check-box input:checked + label .icon.projector {background:url(../images/icons/icon-projector_mo_on.svg) no-repeat center / contain}
+  ul.input-pdt-type > li .check-box input:checked + label .icon.medihair {background:url(../images/icons/icon-medihair_mo_on.svg) no-repeat center / contain}
 }
 
 /* 구매희망시기 */
-.input-area ul.base-type {justify-content:space-between; margin:0 -8px}
-.input-area ul.base-type > li {width:calc(100% / 6); padding:0 8px}
-.input-area ul.base-type .radio-btn.btn-type2 {width:100%}
-.input-area ul.base-type .radio-btn.btn-type2 label {display:flex; justify-content:center; align-items:center; width:100%; height:48px; border-radius:28px; font-size:16px; font-weight:500; line-height:24px}
-.input-area ul.base-type .radio-btn.btn-type2 input:checked + label {border:2px solid #da0f47; color:#da0f47}
+ul.input-base-type {justify-content:space-between; margin:0 -8px}
+ul.input-base-type > li {width:calc(100% / 6); padding:0 8px}
+ul.input-base-type .radio-btn.btn-type2 {width:100%}
+ul.input-base-type .radio-btn.btn-type2 label {display:flex; justify-content:center; align-items:center; width:100%; height:48px; border-radius:28px; font-size:16px; font-weight:500; line-height:24px}
+ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid #da0f47; color:#da0f47}
 @media screen and (max-width:767px) {
-  .input-area ul.base-type {flex-wrap:wrap; margin:-7px -3.5px 0}
-  .input-area ul.base-type > li {width:calc(100% / 3); margin-top:7px; padding:0 3.5px}
-  .input-area ul.base-type .radio-btn.btn-type2 label {height:34px; padding:0; border:1px solid #ddd; font-size:13px; line-height:34px}
-  .input-area ul.base-type .radio-btn.btn-type2 input:checked + label {border:1px solid #da0f47}
+  ul.input-base-type {flex-wrap:wrap; margin:-7px -3.5px 0}
+  ul.input-base-type > li {width:calc(100% / 3); margin-top:7px; padding:0 3.5px}
+  ul.input-base-type .radio-btn.btn-type2 label {height:34px; padding:0; border:1px solid #ddd; font-size:13px; line-height:34px}
+  ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:1px solid #da0f47}
 }
 
 /* 추가전달사항 */
-.input-area .text-area::after {content:''; display:block; clear:both}
-.input-area .text-area textarea {height:140px; padding:26px 24px; border:1px solid #ddd; border-radius:8px; font-size:16px; line-height:24px}
-.input-area .text-area textarea::placeholder {color:#666; font-size:16px; line-height:24px}
-.input-area .text-area .info-msg {float:left; margin-top:10px; margin-left:10px; color:#777; font-size:14px; line-height:22px}
-.input-area .text-area .txt-count {float:right; margin-top:10px; margin-right:10px; color:#777; font-size:14px; line-height:22px}
+.text-area::after {content:''; display:block; clear:both}
+.text-area textarea {height:140px; padding:26px 24px; border:1px solid #ddd; border-radius:8px; font-size:16px; line-height:24px}
+.text-area textarea::placeholder {color:#666; font-size:16px; line-height:24px}
+.text-area .info-msg {float:left; margin-top:10px; margin-left:10px; color:#777; font-size:14px; line-height:22px}
+.text-area .txt-count {float:right; margin-top:10px; margin-right:10px; color:#777; font-size:14px; line-height:22px}
 @media screen and (max-width:767px) {
-  .input-area .text-area textarea {padding:13px 16px; font-size:14px; line-height:19px}
-  .input-area .text-area textarea::placeholder {font-size:14px; line-height:19px}
-  .input-area .text-area .info-msg {margin-top:8px; margin-left:8px; font-size:10px; line-height:17px}
-  .input-area .text-area .txt-count {margin-top:8px; margin-right:8px; font-size:10px; line-height:17px}
+  .text-area textarea {padding:13px 16px; font-size:14px; line-height:19px}
+  .text-area textarea::placeholder {font-size:14px; line-height:19px}
+  .text-area .info-msg {margin-top:8px; margin-left:8px; font-size:10px; line-height:17px}
+  .text-area .txt-count {margin-top:8px; margin-right:8px; font-size:10px; line-height:17px}
 }
 
 /* result-area */
@@ -369,8 +372,7 @@
 .step-area .shop-date-wrap .view-area .sort-area button.view-list.active {background:url(../images/icons/icon-view-list_on.svg) no-repeat 0 8px}
 .step-area .shop-date-wrap .view-area .map-wrap {display:none; padding:20px; border:1px solid #000; border-radius:8px}
 .step-area .shop-date-wrap .view-area .map-wrap.active {display:block}
-.step-area .shop-date-wrap .view-area .map-wrap .input-area > ul li + li {margin-left:8px}
-.step-area .shop-date-wrap .view-area .map-wrap .input-area .slt > ul li + li {margin-left:0}
+.map-wrap ul[class*="input"] > li + li {margin-left:8px}
 .step-area .shop-date-wrap .view-area .map-wrap .api-area {margin-top:14px; border-radius:8px; overflow:hidden}
 .step-area .shop-date-wrap .view-area .map-wrap .api-area > img {width:100%}
 
@@ -435,11 +437,11 @@
 .step-area .shop-date-wrap .bottom-area .date-wrap .calendar {width:414px; height:100%; border:1px solid #ddd; border-radius:8px}
 .step-area .shop-date-wrap .bottom-area .date-wrap .calendar .cal-cont {height:100%}
 .step-area .shop-date-wrap .bottom-area .date-wrap .time {width:118px; height:100%; margin-left:12px}
-.step-area .shop-date-wrap .bottom-area .date-wrap .time .input-area > ul {flex-direction:column; flex-wrap:wrap; margin-top:-10px}
-.step-area .shop-date-wrap .bottom-area .date-wrap .time .input-area > ul li {height:calc(100% / 6); margin-left:0; margin-top:10px}
-.step-area .shop-date-wrap .bottom-area .date-wrap .time .input-area > ul li .radio-btn.btn-type2 {width:100%}
-.step-area .shop-date-wrap .bottom-area .date-wrap .time .input-area > ul li .radio-btn.btn-type2 label {width:100%; max-height:34px; padding:5px 0; border-radius:8px; font-size:14px; line-height:22px}
-.step-area .shop-date-wrap .bottom-area .date-wrap .time .input-area > ul li .radio-btn.btn-type2 input:checked + label {border-width:1px}
+.time ul[class*="input"] {flex-direction:column; flex-wrap:wrap; margin-top:-10px}
+.time ul[class*="input"] li {height:calc(100% / 6); margin-left:0; margin-top:10px}
+.time ul[class*="input"] li .radio-btn.btn-type2 {width:100%}
+.time ul[class*="input"] li .radio-btn.btn-type2 label {width:100%; max-height:34px; padding:5px 0; border-radius:8px; font-size:14px; line-height:22px}
+.time ul[class*="input"] li .radio-btn.btn-type2 input:checked + label {border-width:1px}
 @media screen and (max-width:1023px) {
   .step-area .shop-date-wrap .bottom-area .shop-info-wrap {width:50%}
   .step-area .shop-date-wrap .bottom-area .shop-info-wrap .box {padding:24px}
@@ -456,10 +458,10 @@
   .step-area .shop-date-wrap .view-area .sort-area button.view-list.active {background:url(../images/icons/icon-view-list-mo_on.svg) no-repeat 0 center / contain}
   .step-area .shop-date-wrap .view-area .map-wrap {padding:11px}
   .step-area .shop-date-wrap .view-area .map-wrap .api-area {margin-top:8px}
-  .step-area .shop-date-wrap .view-area .map-wrap > .input-area > ul li {width:50%}
-  .step-area .shop-date-wrap .view-area .map-wrap > .input-area > ul li:nth-child(2) {min-width:190px}
-  .step-area .shop-date-wrap .view-area .map-wrap > .input-area > ul li .slt {width:100%}
-  .step-area .shop-date-wrap .view-area .map-wrap .input-area > ul li + li {margin-left:6px}
+  .map-wrap > ul[class*="input"] > li {width:50%}
+  .map-wrap > ul[class*="input"] > li:nth-child(2) {min-width:190px}
+  .map-wrap > ul[class*="input"] > li .slt {width:100%}
+  .map-wrap [class*="input"] > li + li {margin-left:6px}
   
   .step-area .shop-date-wrap .view-area .list-wrap .search-wrap {padding:0 23px 11px}
   .step-area .shop-date-wrap .view-area .list-wrap .search-wrap .search-box > input {background-color:#fff; font-size:13px; line-height:24px}
@@ -497,9 +499,9 @@
   .step-area .shop-date-wrap .bottom-area .date-wrap .time::after {content:''; display:block; position:absolute; width:16px; height:16px; top:15px; right:16px; background:url(../images/icons/icon-arr-down-16.svg) no-repeat center}
   .step-area .shop-date-wrap .bottom-area .date-wrap .time.active::after {transform:rotate(180deg)}
   .step-area .shop-date-wrap .bottom-area .date-wrap .time .time-cont {display:none}
-  .step-area .shop-date-wrap .bottom-area .date-wrap .time .input-area > ul {flex-direction:row; justify-content:flex-start; margin-top:-6.5px; padding:4px 12.75px 16px}
-  .step-area .shop-date-wrap .bottom-area .date-wrap .time .input-area > ul li {width:20%; min-width:54px; margin-top:6.5px; padding:0 3.25px}
-  .step-area .shop-date-wrap .bottom-area .date-wrap .time .input-area > ul li .radio-btn.btn-type2 label {border-radius:4px; font-size:11px}
+  .time ul[class*="input"] {flex-direction:row; justify-content:flex-start; margin-top:-6.5px; padding:4px 12.75px 16px}
+  .time ul[class*="input"] li {width:20%; min-width:54px; margin-top:6.5px; padding:0 3.25px}
+  .time ul[class*="input"] li .radio-btn.btn-type2 label {border-radius:4px; font-size:11px}
 }
 
 /* 예약자 정보 */
@@ -507,51 +509,51 @@
 .step-area .user-info-area .lt {float:left; width:40%; max-width:540px}
 .step-area .user-info-area .rt {float:right; width:60%; max-width:808px; padding-left:32px}
 
-.step-area .user-info-area .input-area ul.box-type {flex-direction:column; height:348px; padding:60px; border-radius:8px; background-color:#f4f4f4}
-.step-area .user-info-area .input-area ul.box-type > li + li {margin-top:50px}
-.step-area .user-info-area .input-area ul.box-type .tit {margin-bottom:8px; font-size:16px; font-weight:500; line-height:26px}
-.step-area .user-info-area .input-area ul.box-type .txt-box input {width:100%; height:48px; padding:10px 15px; border:1px solid #ddd; border-radius:8px; font-size:16px; line-height:26px}
+.step-area .user-info-area ul.input-box-type {flex-direction:column; height:348px; padding:60px; border-radius:8px; background-color:#f4f4f4}
+.step-area .user-info-area ul.input-box-type > li + li {margin-top:50px}
+.step-area .user-info-area ul.input-box-type .tit {margin-bottom:8px; font-size:16px; font-weight:500; line-height:26px}
+.step-area .user-info-area ul.input-box-type .txt-box input {width:100%; height:48px; padding:10px 15px; border:1px solid #ddd; border-radius:8px; font-size:16px; line-height:26px}
 .res-main input[type="number"]::-webkit-outer-spin-button,
 .res-main input[type="number"]::-webkit-inner-spin-button {-webkit-appearance:none; margin:0}
-.step-area .user-info-area .input-area ul.acco-type {flex-direction:column}
-.step-area .user-info-area .input-area ul.acco-type > li + li {margin-top:10px}
-.step-area .user-info-area .input-area ul.acco-type .check-box {position:relative; display:block}
-.step-area .user-info-area .input-area ul.acco-type .check-box input {height:0}
-.step-area .user-info-area .input-area ul.acco-type .check-box label {padding-right:16px; font-size:16px; line-height:26px}
-.step-area .user-info-area .input-area ul.acco-type .check-box label .name > em {margin-right:2px}
-.step-area .user-info-area .input-area ul.acco-type .check-box label .name > em.red {color:#da0f47}
-.step-area .user-info-area .input-area ul.acco-type .check-box button.agr-more {position:absolute; width:24px; height:24px; top:1px; right:0; background:url(../images/icons/btn-plus-48.svg) no-repeat center / contain}
-.step-area .user-info-area .input-area ul.acco-type .check-box button.agr-more.active {background:url(../images/icons/btn-minus-48.svg) no-repeat center / contain}
-.step-area .user-info-area .input-area ul.acco-type .check-box .agr-txt-wrap {display:none; width:100%; height:106px; margin-top:10px; padding:16px 0 16px 16px; border:1px solid #ddd; border-radius:8px; font-size:12px; line-height:18px; overflow:hidden}
-.step-area .user-info-area .input-area ul.acco-type .check-box .agr-txt-wrap .inner {height:100%; overflow-y:auto}
-.step-area .user-info-area .input-area ul.acco-type .check-box .agr-txt-wrap.active {display:block}
-.step-area .user-info-area .input-area ul.acco-type .check-box .agr-txt-wrap.size-l {height:124px}
-.step-area .user-info-area .input-area ul.acco-type .check-box .agr-txt-wrap .inner > ul > li > span {display:block}
-.step-area .user-info-area .input-area ul.acco-type .check-box .agr-txt-wrap .inner > ul > li > p {padding-left:10px}
+.step-area .user-info-area ul.input-acco-type {flex-direction:column}
+.step-area .user-info-area ul.input-acco-type > li + li {margin-top:10px}
+.step-area .user-info-area ul.input-acco-type .check-box {position:relative; display:block}
+.step-area .user-info-area ul.input-acco-type .check-box input {height:0}
+.step-area .user-info-area ul.input-acco-type .check-box label {padding-right:16px; font-size:16px; line-height:26px}
+.step-area .user-info-area ul.input-acco-type .check-box label .name > em {margin-right:2px}
+.step-area .user-info-area ul.input-acco-type .check-box label .name > em.red {color:#da0f47}
+.step-area .user-info-area ul.input-acco-type .check-box button.agr-more {position:absolute; width:24px; height:24px; top:1px; right:0; background:url(../images/icons/btn-plus-48.svg) no-repeat center / contain}
+.step-area .user-info-area ul.input-acco-type .check-box button.agr-more.active {background:url(../images/icons/btn-minus-48.svg) no-repeat center / contain}
+.step-area .user-info-area ul.input-acco-type .check-box .agr-txt-wrap {display:none; width:100%; height:106px; margin-top:10px; padding:16px 0 16px 16px; border:1px solid #ddd; border-radius:8px; font-size:12px; line-height:18px; overflow:hidden}
+.step-area .user-info-area ul.input-acco-type .check-box .agr-txt-wrap .inner {height:100%; overflow-y:auto}
+.step-area .user-info-area ul.input-acco-type .check-box .agr-txt-wrap.active {display:block}
+.step-area .user-info-area ul.input-acco-type .check-box .agr-txt-wrap.size-l {height:124px}
+.step-area .user-info-area ul.input-acco-type .check-box .agr-txt-wrap .inner > ul > li > span {display:block}
+.step-area .user-info-area ul.input-acco-type .check-box .agr-txt-wrap .inner > ul > li > p {padding-left:10px}
 
 .step-area .user-info-area .bottom-area {float:left; width:100%}
 .step-area .user-info-area .bottom-area .tit {margin-top:20px; font-size:16px; font-weight:500; line-height:26px}
 .step-area .user-info-area .bottom-area .desc {margin-top:6px; font-size:14px; line-height:22px}
 .step-area .user-info-area .bottom-area .tb_row {margin-top:14px}
 @media screen and (max-width:1023px) {
-  .step-area .user-info-area .input-area ul.box-type {padding:25px}
+  .step-area .user-info-area ul.input-box-type {padding:25px}
 }
 @media screen and (max-width:767px) {
   .step-area .user-info-area .lt {float:none; width:100%; max-width:100%}
   .step-area .user-info-area .rt {float:none; width:100%; padding-left:0; margin-top:12px}
-  .step-area .user-info-area .input-area ul.box-type {height:248px}
-  .step-area .user-info-area .input-area ul.box-type > li + li {margin-top:30px}
-  .step-area .user-info-area .input-area ul.box-type .tit {font-size:14px; line-height:22px}
-  .step-area .user-info-area .input-area ul.box-type .txt-box input {height:auto; padding:11px 12px; font-size:14px; line-height:22px}
-  .step-area .user-info-area .input-area ul.acco-type {padding-bottom:4px; border:1px solid #ddd; border-radius:8px}
-  .step-area .user-info-area .input-area ul.acco-type > li {padding:12px 16px}
-  .step-area .user-info-area .input-area ul.acco-type > li + li {margin-top:0; border-top:1px solid #ddd}
-  .step-area .user-info-area .input-area ul.acco-type .check-box label {padding-left:28px; font-size:14px; line-height:22px}
-  .step-area .user-info-area .input-area ul.acco-type .check-box label::after {background-image:url(../images/icons/btn-checkbox-off-48-mo.svg)}
-  .step-area .user-info-area .input-area ul.acco-type .check-box input:checked + label::after {background-image:url(../images/icons/btn-checkbox-on-48-mo.svg)}
-  .step-area .user-info-area .input-area ul.acco-type .check-box .agr-txt-wrap {height:107px; padding:12px}
-  .step-area .user-info-area .input-area ul.acco-type .check-box .agr-txt-wrap.size-l {height:121px}
-  .step-area .user-info-area .input-area ul.acco-type .check-box button.agr-more {width:20px; height:20px}
+  .step-area .user-info-area ul.input-box-type {height:248px}
+  .step-area .user-info-area ul.input-box-type > li + li {margin-top:30px}
+  .step-area .user-info-area ul.input-box-type .tit {font-size:14px; line-height:22px}
+  .step-area .user-info-area ul.input-box-type .txt-box input {height:auto; padding:11px 12px; font-size:14px; line-height:22px}
+  .step-area .user-info-area ul.input-acco-type {padding-bottom:4px; border:1px solid #ddd; border-radius:8px}
+  .step-area .user-info-area ul.input-acco-type > li {padding:12px 16px}
+  .step-area .user-info-area ul.input-acco-type > li + li {margin-top:0; border-top:1px solid #ddd}
+  .step-area .user-info-area ul.input-acco-type .check-box label {padding-left:28px; font-size:14px; line-height:22px}
+  .step-area .user-info-area ul.input-acco-type .check-box label::after {background-image:url(../images/icons/btn-checkbox-off-48-mo.svg)}
+  .step-area .user-info-area ul.input-acco-type .check-box input:checked + label::after {background-image:url(../images/icons/btn-checkbox-on-48-mo.svg)}
+  .step-area .user-info-area ul.input-acco-type .check-box .agr-txt-wrap {height:107px; padding:12px}
+  .step-area .user-info-area ul.input-acco-type .check-box .agr-txt-wrap.size-l {height:121px}
+  .step-area .user-info-area ul.input-acco-type .check-box button.agr-more {width:20px; height:20px}
   .step-area .user-info-area .bottom-area .tit {font-size:13px; line-height:20px}
   .step-area .user-info-area .bottom-area .desc {font-size:11px; line-height:16px}
 }
