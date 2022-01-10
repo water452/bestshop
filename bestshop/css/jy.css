@@ -24,7 +24,7 @@ dfn { display: block; font-style: normal; }
 
 /* panel */
 [role='tabpanel'] { display: none; } 
-[role='tabpanel'].active { display: block; } 
+[role='tabpanel'].on { display: block; } 
 
 /*no-data*/
 .no-data { margin: 0; padding: 80px 0; background-color: #fff; text-align: center; } 
