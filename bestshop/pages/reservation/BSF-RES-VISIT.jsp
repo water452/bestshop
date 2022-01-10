@@ -11,13 +11,13 @@
   <div class="contents res-main">
 
     <div class="cont-wrap">
-      <div class="tab01 tabOn center">
+      <div class="tab01 center">
         <ul>
           <li class="on">
-            <a href="./BSF-RES-VISIT.jsp">방문상담예약</a>
+            <a href="BSF-RES-VISIT.jsp">방문상담예약</a>
           </li>
           <li>
-            <a href="./BSF-RES-VIDEO.jsp">화상상담예약</a>
+            <a href="BSF-RES-VIDEO.jsp">화상상담예약</a>
           </li>
         </ul>
       </div>
