@@ -43,7 +43,6 @@
           <!-- <span class="no-cate">제품을 선택하세요.</span> -->
           <span class="cate-name">LG퓨리케어 슬림스윙정수기 / WU800AS</span>
         </div>
-        <button type="button" class="btn-reselect">재선택</button>
       </div>
     </div>
 
@@ -770,11 +769,51 @@
               <div class="view-area">
                 <h3 class="step-tit">상담하실 매장과 상담일시 선택<sup>*</sup></h3>
                 <div class="sort-area">
-                  <button type="button" class="view-list active">리스트보기</button><!-- active 클래스 추가 -->
-                  <button type="button" class="view-map">지도보기</button>
+                  <button type="button" class="view-map active">지도보기</button><!-- active 클래스 추가 -->
+                  <button type="button" class="view-list">리스트보기</button>
                 </div>
 
                 <div class="sort-block">
+                  <!-- 지도보기 영역 -->
+                  <div class="map-wrap active"><!-- active 클래스 추가 -->
+                    <div class="input-area">
+                      <ul>
+                        <li>
+                          <div class="slt sltBox border-type" data-txt-change="true">
+                            <a href="javascript:void(0);" class="btn-slt">선택</a>
+                            <ul>
+                              <li><a href="javascript:void(0);">선택</a></li>
+                              <li><a href="javascript:void(0);">서울특별시</a></li>
+                            </ul>
+                            <select title="시/도 선택">
+                              <option selected>선택</option>
+                              <option>서울특별시</option>
+                            </select>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="slt sltBox border-type" data-txt-change="true">
+                            <a href="javascript:void(0);" class="btn-slt">선택</a>
+                            <ul>
+                              <li><a href="javascript:void(0);">선택</a></li>
+                              <li><a href="javascript:void(0);">강남구</a></li>
+                            </ul>
+                            <select title="구 선택">
+                              <option selected>선택</option>
+                              <option>강남구</option>
+                            </select>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <!-- api 영역 -->
+                    <div class="api-area">
+                      <img src="../../images/@img-map.png" alt="지도 임시이미지">
+                    </div>
+                    <!-- // api 영역 -->
+                  </div><!-- //.map-wrap -->
+
                   <!-- 리스트 보기 영역 -->
                   <div class="list-wrap"><!-- active 클래스 추가 -->
                     <div class="search-wrap">
@@ -844,7 +883,7 @@
                       <div class="mo-select">
                         <div class="input-area">
                           <div class="slt sltBox border-type" data-txt-change="true">
-                            <a href="javascript:void(0);" class="btn-slt">3개월</a>
+                            <a href="javascript:void(0);" class="btn-slt">선택</a>
                             <ul>
                               <li><a href="javascript:void(0);">선택</a></li>
                               <li><a href="javascript:void(0);">서울특별시</a></li>
@@ -1033,45 +1072,6 @@
                     </div>
                   </div><!-- //.list-wrap -->
 
-                  <!-- 지도보기 영역 -->
-                  <div class="map-wrap active"><!-- active 클래스 추가 -->
-                    <div class="input-area">
-                      <ul>
-                        <li>
-                          <div class="slt sltBox border-type" data-txt-change="true">
-                            <a href="javascript:void(0);" class="btn-slt">3개월</a>
-                            <ul>
-                              <li><a href="javascript:void(0);">선택</a></li>
-                              <li><a href="javascript:void(0);">서울특별시</a></li>
-                            </ul>
-                            <select title="시/도 선택">
-                              <option selected>선택</option>
-                              <option>서울특별시</option>
-                            </select>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="slt sltBox border-type" data-txt-change="true">
-                            <a href="javascript:void(0);" class="btn-slt">3개월</a>
-                            <ul>
-                              <li><a href="javascript:void(0);">선택</a></li>
-                              <li><a href="javascript:void(0);">강남구</a></li>
-                            </ul>
-                            <select title="구 선택">
-                              <option selected>선택</option>
-                              <option>강남구</option>
-                            </select>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-
-                    <!-- api 영역 -->
-                    <div class="api-area">
-                      <img src="../../images/@img-map.png" alt="지도 임시이미지">
-                    </div>
-                    <!-- // api 영역 -->
-                  </div><!-- //.map-wrap -->
                 </div><!-- //.sort-block -->
               </div>
 
@@ -1478,9 +1478,9 @@
     for(i = 1; i<5; i++) {
       (function(i2){
         $('.sort-area button:nth-child('+ i2 +')').click(function(){
-          $('.sort-area button').addClass('active');
+          $('.sort-area button').removeClass('active');
           $('.sort-block > div').removeClass('active');
-          $(this).removeClass('active')
+          $(this).addClass('active')
           $('.sort-block > div:nth-child('+ i2 +')').addClass('active');
         });
       })(i);

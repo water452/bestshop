@@ -4,117 +4,127 @@
 <div class="container" id="content">
 
   <div class="page-header">
-    <h2 class="title">방문 상담 예약</h2>
+    <h2 class="title">매장 상담 예약</h2>
   </div>
 
   <!-- contents -->
   <div class="contents res-main">
 
-    <div class="top-wrap">
-      <div class="guide-area">
-        <div class="guide-process">
-          <div class="inner">
-            <p class="desc">고객님, 매장 상담 예약은 이렇게 진행됩니다.</p>
-            <div class="swiper guide-banner-visit">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <div class="box">
-                    <span class="icon-wrap">
-                      <i class="icon01"></i>
-                    </span>
-                    <p class="txt">상품선택 및 <br class="only_mo">매장/일자 선택</p>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="box">
-                    <span class="icon-wrap">
-                      <i class="icon02"></i>
-                    </span>
-                    <p class="txt">예약 고객님의 <br class="only_mo">정보를 입력</p>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="box">
-                    <span class="icon-wrap">
-                      <i class="icon03"></i>
-                    </span>
-                    <p class="txt">전문 매니저의 전화 <br class="only_mo">안내 서비스</p>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="box">
-                    <span class="icon-wrap">
-                      <i class="icon04"></i>
-                    </span>
-                    <p class="txt">신청 매장 방문 후 <br class="only_mo">상담진행</p>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-scrollbar"></div>
-            </div>
-          </div>
-        </div>
-        <div class="guide-benefits">
-          <div class="inner">
-            <ul class="list-area">
-              <li>
-                <i class="icon01"></i>
-                <p class="txt">
-                  <span>라이프 스타일에 맞는</span>
-                  <strong>생활 맞춤 컨설팅</strong>
-                </p>
-              </li>
-              <li>
-                <i class="icon02"></i>
-                <p class="txt">
-                  <span>고객 맞춤형</span>
-                  <strong>특별 혜택가 안내</strong>
-                </p>
-              </li>
-              <li>
-                <i class="icon03"></i>
-                <p class="txt">
-                  <span>사은품, 멤버십 포인트 등</span>
-                  <strong>푸짐한 사은 혜택 안내</strong>
-                </p>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="add-area">
-        <div class="swiper res-banner-01">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="banner01">
-                <div class="box">
-                  <img class="only_pc" src="../../images/img-res-visit-banner-01.png" alt="">
-                  <img class="only_mo" src="../../images/img-res-visit-banner-01_mo.png" alt="">
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="banner02">
-                <div class="box">
-                  <img class="only_pc" src="../../images/img-res-visit-banner-01.png" alt="">
-                  <img class="only_mo" src="../../images/img-res-visit-banner-01_mo.png" alt="">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="banner-btns">
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <div class="cont-wrap">
+      <div class="tab01 tabOn center">
+        <ul>
+          <li class="on">
+            <a href="javascript:void(0);">방문상담예약</a>
+          </li>
+          <li>
+            <a href="javascript:void(0);">화상상담예약</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="top-wrap">
+        <div class="guide-area">
+          <div class="guide-process">
+            <div class="inner">
+              <div class="swiper guide-banner-visit">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="box">
+                      <span class="icon-wrap">
+                        <i class="icon01"></i>
+                      </span>
+                      <p class="txt">상품선택 및 <br class="only_mo">매장/일자 선택</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="box">
+                      <span class="icon-wrap">
+                        <i class="icon02"></i>
+                      </span>
+                      <p class="txt">예약 고객님의 <br class="only_mo">정보를 입력</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="box">
+                      <span class="icon-wrap">
+                        <i class="icon03"></i>
+                      </span>
+                      <p class="txt">전문 매니저의 전화 <br class="only_mo">안내 서비스</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="box">
+                      <span class="icon-wrap">
+                        <i class="icon04"></i>
+                      </span>
+                      <p class="txt">신청 매장 방문 후 <br class="only_mo">상담진행</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="add-area">
+          <div class="swiper res-banner-01">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="banner">
+                  <div class="box">
+                    <img class="only_pc" src="../../images/img-res-visit-banner-01.png" alt="">
+                    <img class="only_mo" src="../../images/img-res-visit-banner-01_mo.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="banner">
+                  <div class="box">
+                    <img class="only_pc" src="../../images/img-res-visit-banner-02.png" alt="">
+                    <img class="only_mo" src="../../images/img-res-visit-banner-02_mo.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="banner">
+                  <div class="box">
+                    <img class="only_pc" src="../../images/img-res-visit-banner-03.png" alt="">
+                    <img class="only_mo" src="../../images/img-res-visit-banner-03_mo.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="banner-btns">
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
       <section class="cont-area">
         <p class="step-top-note"><sup>*</sup>필수입력항목</p>
         <!-- step 1 -->
         <div class="step-area step01 active"><!-- active 클래스 추가 -->
+
+          <div class="result-area active"><!-- active 클래스 추가 -->
+            <div class="info-step01">
+              <div class="info-txt-com active"><!-- active 클래스 추가 -->
+                <a href="#">
+                  <span class="mo-tit">상담목적 및 제품선택</span>
+                  <span class="pc-tit">상담목적 :</span>
+                  <span class="txt">혼수</span>
+
+                  <span class="pc-tit">상담제품 :</span>
+                  <span class="txt">TV, 냉장고, 식기세척기, 세탁기, 스타일러, 공기청정기, 에어컨</span>
+
+                  <span class="pc-tit">구매시기 :</span>
+                  <span class="txt">3개월 내</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
           <div class="main-area active"><!-- active 클래스 추가 -->
             <form action="#">
               <h3 class="step-tit">상담목적<sup>*</sup></h3>
@@ -519,47 +529,93 @@
                 <div class="text-area">
                   <textarea title="추가 전달사항 입력" maxlength="100" placeholder="원하시는 제품의 기능이나 가격대, 기타 문의사항을 남겨주시면 원활한 상담이 가능합니다."></textarea>
                   <p class="info-msg">* 텍스트는 100자까지 입력가능합니다.</p>
+                  <p class="txt-count"><span>0</span>/100</p>
                 </div>
               </div>
             </form>
           </div>
 
-          <div class="btn-area active"><!-- active 클래스 추가 -->
+          <div class="btn-area"><!-- active 클래스 추가 -->
             <button type="button" class="btn btn-next">다음 단계로</button>
           </div>
 
-          <div class="result-area active"><!-- active 클래스 추가 -->
-            <div class="info-step01">
-              <div class="info-txt-com active"><!-- active 클래스 추가 -->
-                <span class="mo-tit">상담목적 및 제품선택</span>
-                <span class="pc-tit">상담목적 :</span>
-                <span class="txt">혼수</span>
-
-                <span class="pc-tit">상담제품 :</span>
-                <span class="txt">TV, 냉장고, 식기세척기, 세탁기, 스타일러, 공기청정기, 에어컨</span>
-
-                <span class="pc-tit">구매시기 :</span>
-                <span class="txt">3개월 내</span>
-              </div>
-              <button type="button" class="btn-reselect">재선택</button>
-            </div>
-          </div>
         </div>
         <!-- // step 1 -->
 
         <!-- step 2 -->
         <div class="step-area step02 active"><!-- active 클래스 추가 -->
+
+          <div class="result-area active"><!-- active 클래스 추가 -->
+            <div class="info-step02">
+              <div class="info-txt-com active"><!-- active 클래스 추가 -->
+                <a href="#">
+                  <span class="mo-tit">상담매장 및 예약일시</span>
+                  <span class="pc-tit">상담매장 :</span>
+                  <span class="txt">강남 본점</span>
+
+                  <span class="pc-tit">예약 일시 :</span>
+                  <span class="txt">21년12월15일, 17시</span>
+                </a>
+              </div>
+
+              <div class="info-txt-uncom active"><!-- active 클래스 추가 --> 
+                <p class="page-num">STEP02</p>
+                <p class="txt">방문하실 매장과 일시를 선택해주세요.</p>
+              </div>
+            </div>
+          </div>
+
           <div class="main-area active"><!-- active 클래스 추가 -->
             
             <div class="shop-date-wrap">
               <div class="view-area">
                 <h3 class="step-tit">상담하실 매장과 상담일시 선택<sup>*</sup></h3>
                 <div class="sort-area">
-                  <button type="button" class="view-list active">리스트보기</button><!-- active 클래스 추가 -->
-                  <button type="button" class="view-map">지도보기</button>
+                  <button type="button" class="view-map active">지도보기</button><!-- active 클래스 추가 -->
+                  <button type="button" class="view-list">리스트보기</button>
                 </div>
 
                 <div class="sort-block">
+                  <!-- 지도보기 영역 -->
+                  <div class="map-wrap active"><!-- active 클래스 추가 -->
+                    <div class="input-area">
+                      <ul>
+                        <li>
+                          <div class="slt sltBox border-type" data-txt-change="true">
+                            <a href="javascript:void(0);" class="btn-slt">선택</a>
+                            <ul>
+                              <li><a href="javascript:void(0);">선택</a></li>
+                              <li><a href="javascript:void(0);">서울특별시</a></li>
+                            </ul>
+                            <select title="시/도 선택">
+                              <option selected>선택</option>
+                              <option>서울특별시</option>
+                            </select>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="slt sltBox border-type" data-txt-change="true">
+                            <a href="javascript:void(0);" class="btn-slt">선택</a>
+                            <ul>
+                              <li><a href="javascript:void(0);">선택</a></li>
+                              <li><a href="javascript:void(0);">강남구</a></li>
+                            </ul>
+                            <select title="구 선택">
+                              <option selected>선택</option>
+                              <option>강남구</option>
+                            </select>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <!-- api 영역 -->
+                    <div class="api-area">
+                      <img src="../../images/@img-map.png" alt="지도 임시이미지">
+                    </div>
+                    <!-- // api 영역 -->
+                  </div><!-- //.map-wrap -->
+
                   <!-- 리스트 보기 영역 -->
                   <div class="list-wrap"><!-- active 클래스 추가 -->
                     <div class="search-wrap">
@@ -818,45 +874,6 @@
                     </div>
                   </div><!-- //.list-wrap -->
 
-                  <!-- 지도보기 영역 -->
-                  <div class="map-wrap active"><!-- active 클래스 추가 -->
-                    <div class="input-area">
-                      <ul>
-                        <li>
-                          <div class="slt sltBox border-type" data-txt-change="true">
-                            <a href="javascript:void(0);" class="btn-slt">선택</a>
-                            <ul>
-                              <li><a href="javascript:void(0);">선택</a></li>
-                              <li><a href="javascript:void(0);">서울특별시</a></li>
-                            </ul>
-                            <select title="시/도 선택">
-                              <option selected>선택</option>
-                              <option>서울특별시</option>
-                            </select>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="slt sltBox border-type" data-txt-change="true">
-                            <a href="javascript:void(0);" class="btn-slt">선택</a>
-                            <ul>
-                              <li><a href="javascript:void(0);">선택</a></li>
-                              <li><a href="javascript:void(0);">강남구</a></li>
-                            </ul>
-                            <select title="구 선택">
-                              <option selected>선택</option>
-                              <option>강남구</option>
-                            </select>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-
-                    <!-- api 영역 -->
-                    <div class="api-area">
-                      <img src="../../images/@img-map.png" alt="지도 임시이미지">
-                    </div>
-                    <!-- // api 영역 -->
-                  </div><!-- //.map-wrap -->
                 </div><!-- //.sort-block -->
               </div>
 
@@ -1010,29 +1027,22 @@
             <button type="button" class="btn btn-next">다음 단계로</button>
           </div>
 
-          <div class="result-area active"><!-- active 클래스 추가 -->
-            <div class="info-step02"> 
-              <div class="info-txt-com active"><!-- active 클래스 추가 -->
-                <span class="mo-tit">상담매장 및 예약일시</span>
-                <span class="pc-tit">상담매장 :</span>
-                <span class="txt">강남 본점</span>
-
-                <span class="pc-tit">예약 일시 :</span>
-                <span class="txt">21년12월15일, 17시</span>
-              </div>
-              <button type="button" class="btn-reselect">재선택</button>
-
-              <div class="info-txt-uncom active"><!-- active 클래스 추가 --> 
-                <p class="page-num">STEP02</p>
-                <p class="txt">방문하실 매장과 일시를 선택해주세요.</p>
-              </div>
-            </div>
-          </div>
+          
         </div>
         <!-- // step 2 -->
 
         <!-- step 3 -->
         <div class="step-area step03 active"><!-- active 클래스 추가 -->
+
+          <div class="result-area active"><!-- active 클래스 추가 -->
+            <div class="info-step03">
+              <div class="info-txt-uncom active"><!-- active 클래스 추가 --> 
+                <p class="page-num">STEP03</p>
+                <p class="txt">예약자 정보를 입력해주세요.</p>
+              </div>
+            </div>
+          </div>
+
           <div class="main-area active"><!-- active 클래스 추가 -->
             <div class="user-info-area">
               <h3 class="step-tit">예약자 정보<sup>*</sup></h3>
@@ -1179,15 +1189,7 @@
           <div class="btn-area active"><!-- active 클래스 추가 -->
             <button type="button" class="btn btn-res">상담 예약하기</button>
           </div>
-
-          <div class="result-area active"><!-- active 클래스 추가 -->
-            <div class="info-step03"> 
-              <div class="info-txt-uncom active"><!-- active 클래스 추가 --> 
-                <p class="page-num">STEP03</p>
-                <p class="txt">예약자 정보를 입력해주세요.</p>
-              </div>
-            </div>
-          </div>
+          
         </div>
         <!-- // step 3 -->
       </section>
@@ -1322,9 +1324,9 @@
     for(i = 1; i<5; i++) {
       (function(i2){
         $('.sort-area button:nth-child('+ i2 +')').click(function(){
-          $('.sort-area button').addClass('active');
+          $('.sort-area button').removeClass('active');
           $('.sort-block > div').removeClass('active');
-          $(this).removeClass('active')
+          $(this).addClass('active')
           $('.sort-block > div:nth-child('+ i2 +')').addClass('active');
         });
       })(i);

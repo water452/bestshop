@@ -101,19 +101,25 @@
 
 /* tab */
 .res-main [class*="tab"].center {display:flex; justify-content:center}
+@media screen and (max-width:767px) {
+  .res-main [class*="tab"].center {justify-content:flex-start}
+}
+
 
 /* 방문상담예약 */
 /* 상단 공통 영역 */
 .res-main [class*="tab"] + .top-wrap {width:calc(100% + 80px); margin-left:-40px}
 .res-main .top-wrap .guide-area.bg {background-image:linear-gradient(104deg,#ddd5f9,#ffccd8 100%)}
-.res-main .top-wrap .guide-area .guide-process {padding:30px 0 0}
+.res-main .top-wrap .guide-area .guide-process {padding:50px 0 0}
 .res-main .top-wrap .guide-area .guide-process .inner {max-width:1460px; margin:0 auto}
-.res-main .top-wrap .guide-area .guide-process .desc {margin-top:30px; padding:0 40px; font-size:24px; font-weight:bold; line-height:34px}
-.res-main .top-wrap .guide-area .guide-process [class*="guide-banner"] {margin-top:30px; padding:0 40px 30px}
+.res-main .top-wrap .guide-area .guide-process .desc {margin:10px 0 30px; padding:0 40px; font-size:24px; font-weight:bold; line-height:34px}
+.res-main .top-wrap .guide-area .guide-process [class*="guide-banner"] {padding:0 40px 30px}
+.res-main .top-wrap .guide-area .guide-process [class*="guide-banner"] .swiper-wrapper {justify-content:space-between}
 .res-main .top-wrap .guide-area .guide-process [class*="guide-banner"] .swiper-slide {width:auto; min-width:320px}
 .res-main .top-wrap .guide-area .guide-process [class*="guide-banner"] .swiper-slide + .swiper-slide {margin-left:32px}
 .res-main .top-wrap .guide-area .guide-process [class*="guide-banner"] .swiper-slide .box {position:relative; width:100%; padding:23px 0 28px; box-sizing:border-box; border:3px solid #ca9bd8; border-radius:16px; background-color:#fff}
-.res-main .top-wrap .guide-area .guide-process [class*="guide-banner"] .swiper-slide .box::before {content:''; display:block; position:absolute; width:32.5px; height:20px; top:calc(50% - 10px); left:-34.5px; background:url(../images/icons/icon-arr-11-white.svg) no-repeat center}
+.res-main .top-wrap .guide-area .guide-process [class*="guide-banner"] .swiper-slide .box::before {content:''; display:block; position:absolute; width:32.5px; height:20px; top:calc(50% - 10px); left:-34.5px; background:url(../images/icons/icon-arr-11-purple.svg) no-repeat center}
+.res-main .top-wrap .guide-area.bg .guide-process [class*="guide-banner"] .swiper-slide .box::before {content:''; display:block; position:absolute; width:32.5px; height:20px; top:calc(50% - 10px); left:-34.5px; background:url(../images/icons/icon-arr-11-white.svg) no-repeat center}
 .res-main .top-wrap .guide-area .guide-process [class*="guide-banner"] .swiper-slide:first-child .box::before {display:none}
 .res-main .top-wrap .guide-area .guide-process [class*="guide-banner"] .swiper-slide .box .icon-wrap {display:block; width:140px; height:140px; margin:0 auto}
 .res-main .top-wrap .guide-area .guide-process [class*="guide-banner"] .swiper-slide .box .icon-wrap i[class^="icon"] {display:block; width:100%; height:100%}
@@ -308,13 +314,16 @@
 }
 
 /* 추가전달사항 */
+.input-area .text-area::after {content:''; display:block; clear:both}
 .input-area .text-area textarea {height:140px; padding:26px 24px; border:1px solid #ddd; border-radius:8px; font-size:16px; line-height:24px}
 .input-area .text-area textarea::placeholder {color:#666; font-size:16px; line-height:24px}
-.input-area .text-area .info-msg {margin-top:10px; margin-left:10px; color:#777; font-size:14px; line-height:22px}
+.input-area .text-area .info-msg {float:left; margin-top:10px; margin-left:10px; color:#777; font-size:14px; line-height:22px}
+.input-area .text-area .txt-count {float:right; margin-top:10px; margin-right:10px; color:#777; font-size:14px; line-height:22px}
 @media screen and (max-width:767px) {
   .input-area .text-area textarea {padding:13px 16px; font-size:14px; line-height:19px}
   .input-area .text-area textarea::placeholder {font-size:14px; line-height:19px}
   .input-area .text-area .info-msg {margin-top:8px; margin-left:8px; font-size:10px; line-height:17px}
+  .input-area .text-area .txt-count {margin-top:8px; margin-right:8px; font-size:10px; line-height:17px}
 }
 
 /* result-area */
@@ -322,7 +331,8 @@
 .step-area .result-area.active {display:block}
 .step-area .result-area [class^="info-step"] {position:relative; margin-top:-1px; border-top:1px solid #ddd; border-bottom:1px solid #ddd}
 .step-area .result-area .info-txt-com {display:none}
-.step-area .result-area .info-txt-com.active {display:block; padding:22px 110px 22px 0; color:#da0f47; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;}
+.step-area .result-area .info-txt-com.active {display:block; background:url(../images/icons/icon-arrow-down-32.svg) no-repeat center right / 32px 32px; color:#da0f47}
+.step-area .result-area .info-txt-com a {display:block; padding:22px 40px 22px 0; white-space:nowrap; text-overflow:ellipsis; overflow:hidden}
 .step-area .result-area .info-txt-com .pc-tit {color:#666; font-size:18px; line-height:28px}
 .step-area .result-area .info-txt-com .mo-tit {display:none}
 .step-area .result-area .info-txt-com .txt::after {content:'/'; display:inline-block; margin-left:3px; color:#666}
@@ -332,9 +342,10 @@
 .step-area .result-area .info-txt-uncom.active {display:flex}
 .step-area .result-area .info-txt-uncom .page-num {color:#666; font-size:20px; font-weight:bold; line-height:30px}
 .step-area .result-area .info-txt-uncom .txt {margin-left:18px; color:#666; font-size:18px; line-height:30px}
-.step-area .result-area .btn-reselect {position:absolute; display:block; right:0; top:calc(50% - 19px); width:102px; padding:0 17px 0 43px; border:1px solid #ddd; border-radius:34px; background:#fff url(../images/icons/icon-reset.svg) no-repeat 18px center / 20px; font-size:14px; line-height:36px}
+/* .step-area .result-area .btn-reselect {position:absolute; display:block; right:0; top:calc(50% - 19px); width:102px; padding:0 17px 0 43px; border:1px solid #ddd; border-radius:34px; background:#fff url(../images/icons/icon-reset.svg) no-repeat 18px center / 20px; font-size:14px; line-height:36px} */
 @media screen and (max-width:767px) {
-  .step-area .result-area .info-txt-com {padding:11px 100px 11px 0!important}
+  .step-area .result-area .info-txt-com {background-size:20px 20px!important}
+  .step-area .result-area .info-txt-com a {padding:11px 30px 11px 0!important}
   .step-area .result-area .info-txt-com .pc-tit {display:none}
   .step-area .result-area .info-txt-com .mo-tit {display:block; color:#666; font-size:13px; line-height:21px}
   .step-area .result-area .info-txt-com .txt {display:inline; font-size:13px; font-weight:500; line-height:21px}
@@ -342,16 +353,20 @@
   .step-area .result-area .info-txt-uncom {padding:19px 0}
   .step-area .result-area .info-txt-uncom .page-num {font-size:13px; line-height:19px}
   .step-area .result-area .info-txt-uncom .txt {margin-left:10px; font-size:13px; line-height:19px}
-  .step-area .result-area .btn-reselect {width:91px; top:calc(50%  - 17px); padding:0 15px 0 38px; background-size:20px 20px!important; background-position:14px center; font-size:13px; line-height:32px}
+  /* .step-area .result-area .btn-reselect {width:91px; top:calc(50%  - 17px); padding:0 15px 0 38px; background-size:20px 20px!important; background-position:14px center; font-size:13px; line-height:32px} */
 }
 
 /* 매장/상담일시 선택 */
 .step-area .shop-date-wrap .view-area {position:relative}
 .step-area .shop-date-wrap .view-area .sort-area {position:absolute; top:0; right:0}
-.step-area .shop-date-wrap .view-area .sort-area button {display:none; padding-left:26px; font-size:16px; line-height:32px}
-.step-area .shop-date-wrap .view-area .sort-area button.active {display:block}
-.step-area .shop-date-wrap .view-area .sort-area button.view-list {background:url(../images/icons/icon-view-list.svg) no-repeat 0 8px}
+.step-area .shop-date-wrap .view-area .sort-area button {padding-left:26px; color:#aaa; font-size:16px; line-height:32px}
+.step-area .shop-date-wrap .view-area .sort-area button + button {position:relative; margin-left:30px}
+.step-area .shop-date-wrap .view-area .sort-area button + button::before {content:''; display:block; position:absolute; width:1px; height:14px; top:calc(50% - 7px); left:-17px; background-color:#ddd}
+.step-area .shop-date-wrap .view-area .sort-area button.active {color:#000}
 .step-area .shop-date-wrap .view-area .sort-area button.view-map {background:url(../images/icons/icon-view-map.svg) no-repeat 0 center}
+.step-area .shop-date-wrap .view-area .sort-area button.view-map.active {background:url(../images/icons/icon-view-map_on.svg) no-repeat 0 center}
+.step-area .shop-date-wrap .view-area .sort-area button.view-list {background:url(../images/icons/icon-view-list.svg) no-repeat 0 8px}
+.step-area .shop-date-wrap .view-area .sort-area button.view-list.active {background:url(../images/icons/icon-view-list_on.svg) no-repeat 0 8px}
 .step-area .shop-date-wrap .view-area .map-wrap {display:none; padding:20px; border:1px solid #000; border-radius:8px}
 .step-area .shop-date-wrap .view-area .map-wrap.active {display:block}
 .step-area .shop-date-wrap .view-area .map-wrap .input-area > ul li + li {margin-left:8px}
@@ -432,9 +447,13 @@
 }
 @media screen and (max-width:767px) {
   .step-area .shop-date-wrap .view-area .sort-area {position:static; display:flex; margin-bottom:8px}
-  .step-area .shop-date-wrap .view-area .sort-area button {display:block; font-size:12px; line-height:24px; background-size:15px!important; background-position:4.5px center!important}
+  .step-area .shop-date-wrap .view-area .sort-area button {display:block; font-size:12px; line-height:24px}
   .step-area .shop-date-wrap .view-area .sort-area button + button {position:relative; margin-left:15px}
   .step-area .shop-date-wrap .view-area .sort-area button + button::before {content:''; display:block; position:absolute; width:1px; height:14px; top:calc(50% - 7px); left:-4px; background-color:#ddd}
+  .step-area .shop-date-wrap .view-area .sort-area button.view-map {background:url(../images/icons/icon-view-map-mo.svg) no-repeat 0 center / contain}
+  .step-area .shop-date-wrap .view-area .sort-area button.view-map.active {background:url(../images/icons/icon-view-map-mo_on.svg) no-repeat 0 center / contain}
+  .step-area .shop-date-wrap .view-area .sort-area button.view-list {background:url(../images/icons/icon-view-list-mo.svg) no-repeat 0 center / contain}
+  .step-area .shop-date-wrap .view-area .sort-area button.view-list.active {background:url(../images/icons/icon-view-list-mo_on.svg) no-repeat 0 center / contain}
   .step-area .shop-date-wrap .view-area .map-wrap {padding:11px}
   .step-area .shop-date-wrap .view-area .map-wrap .api-area {margin-top:8px}
   .step-area .shop-date-wrap .view-area .map-wrap > .input-area > ul li {width:50%}
@@ -539,22 +558,23 @@
 
 
 /* 스텝 btn-area */
-.step-area .btn-area {display:none; margin-top:20px; margin-bottom:50px; text-align:center}
-.step-area .btn-area.active {display:block}
-.step-area .btn-area .btn {min-width:158px}
-.step-area .btn-area .btn-res {width:220px}
-.step-area .btn-area.bg {margin-top:0; padding:30px 0; background-color:#f6f6f6; border-radius:8px}
+.step-area .btn-area {margin-top:20px; margin-bottom:70px; text-align:right}
+.step-area .btn-area .btn {width:220px; height:50px; text-align:left}
+.step-area .btn-area .btn-next {border:1px solid #aaa; background:#fff url(../images/icons/btn-double-arrow-right-32.svg) no-repeat center right 21px / 16px 16px; color:#aaa}
+.step-area .btn-area.active .btn-next {border:1px solid #da0f47; background:#fff url(../images/icons/btn-double-arrow-right-32_on.svg) no-repeat center right 21px / 16px 16px; color:#da0f47}
+.step-area .btn-area .btn-res {display:block; margin:0 auto; text-align:center}
+.step-area .btn-area.bg {display:flex; justify-content:space-between; align-items:center; min-height:130px; margin-top:0; padding:30px 50px; background-color:#f6f6f6; border-radius:8px}
 .step-area .btn-area.bg.active {background-image:linear-gradient(98deg,#9a7fed 1%,#ff6489 100%,#ff6489 100%)}
-.step-area .btn-area.bg .result-txt {font-size:20px; line-height:32px}
+.step-area .btn-area.bg .result-txt {font-size:20px; line-height:32px; text-align:left}
 .step-area .btn-area.bg.active .result-txt {color:#fff}
-.step-area .btn-area.bg > .btn {margin-top:30px}
-.step-area .btn-area.bg.active > .btn {margin-top:30px; border:0; background:#fff; color:#000}
 @media screen and (max-width:767px) {
-  .step-area .btn-area.bg {padding:0; background:none!important}
+  .step-area .btn-area.bg {justify-content:flex-end; min-height:0; padding:0; background:none!important}
   .step-area .btn-area.bg .result-txt {display:none}
-  .step-area .btn-area.bg .btn {background-color:#fa263e!important; background-image:linear-gradient(280deg,#fb5a72,#fa263e)!important; color:#fff!important}
-  .step-area .btn-area .btn {min-width:118px; padding:10px 25px; font-size:13px; line-height:21px}
-  .step-area .btn-area.bg.active > .btn {margin-top:10px}
+  .step-area .btn-area.bg .btn {background:#fff url(../images/icons/btn-double-arrow-right-40.svg) no-repeat center right 16px / 20px 20px}
+  .step-area .btn-area.bg.active .btn {background:#fff url(../images/icons/btn-double-arrow-right-40_on.svg) no-repeat center right 16px / 20px 20px}
+  .step-area .btn-area .btn {width:148px; height:43px; padding:10px 20px; font-size:13px; line-height:21px}
+  .step-area .btn-area .btn-next {background:#fff url(../images/icons/btn-double-arrow-right-40.svg) no-repeat center right 16px / 20px 20px}
+  .step-area .btn-area.active .btn-next {background:#fff url(../images/icons/btn-double-arrow-right-40_on.svg) no-repeat center right 16px / 20px 20px}
 }
 
 
@@ -571,13 +591,16 @@
 
   .res-main .cont-wrap .cont-area {padding-top:4px}
   
+  .res-main [class*="tab"] + .top-wrap {width:calc(100% + 32px); margin-left:-16px}
+  /* .res-main [class*="tab"] + .top-wrap .guide-area .guide-process [class*="guide-banner"] {padding:0 0 20px} */
+
   .res-main .top-wrap .guide-area .guide-process {padding:25px 0 0}
-  .res-main .top-wrap .guide-area .guide-process .desc {margin-top:0; padding:0 16px; font-size:16px; line-height:24px}
-  .res-main .top-wrap .guide-area .guide-process [class*="guide-banner"] {margin-top:16px; padding:0 16px 20px}
+  .res-main .top-wrap .guide-area .guide-process .desc {margin:0 0 16px; padding:0 16px; font-size:16px; line-height:24px}
+  .res-main .top-wrap .guide-area .guide-process [class*="guide-banner"] {padding:0 16px 20px}
   .res-main .top-wrap .guide-area .guide-process [class*="guide-banner"] .swiper-slide {width:calc(25% - 12.375px); min-width:125px}
   .res-main .top-wrap .guide-area .guide-process [class*="guide-banner"] .swiper-slide .box {padding:11px 12px 10px; border-radius:8px; border-width:1.5px}
   .res-main .top-wrap .guide-area .guide-process [class*="guide-banner"] .swiper-slide + .swiper-slide {margin-left:16px}
-  .res-main .top-wrap .guide-area .guide-process [class*="guide-banner"] .swiper-slide .box::before {width:16px; left:-18px; background-size:5px}
+  .res-main .top-wrap .guide-area .guide-process [class*="guide-banner"] .swiper-slide .box::before {width:16px!important; left:-18px!important; background-size:5px!important}
   .res-main .top-wrap .guide-area .guide-process [class*="guide-banner"] .swiper-slide .box .icon-wrap {width:80px; height:80px}
   .res-main .top-wrap .guide-area .guide-process .guide-banner-visit .swiper-slide .box .icon-wrap .icon01 {background:url(../images/icons/icon-res-guide-visit-01_mo.svg) no-repeat center / 100%}
   .res-main .top-wrap .guide-area .guide-process .guide-banner-visit .swiper-slide .box .icon-wrap .icon02 {background:url(../images/icons/icon-res-guide-visit-02_mo.svg) no-repeat center / 100%}
@@ -588,7 +611,7 @@
 
   .res-main .top-wrap .add-area {margin:20px auto}
   .res-main .top-wrap .add-area .res-banner-01 {padding:0 16px}
-  .res-main .top-wrap .add-area .res-banner-01 .swiper-slide > [class^="banner"] {height:90px}
+  .res-main .top-wrap .add-area .res-banner-01 .swiper-slide > [class^="banner"] {height:180px}
   .res-main .top-wrap .add-area .res-banner-01 .swiper-slide > [class^="banner"] .box {border-radius:8px}
   .res-main .top-wrap .add-area .res-banner-01 .swiper-slide > [class^="banner"] .box > img {width:auto; height:100%; margin:0 auto}
   .res-main .top-wrap .add-area .res-banner-01 .banner-btns {height:28px}
@@ -953,6 +976,7 @@
   .res-main.care .prd-list-area .btn-view-more::before {width:14px; height:14px; top:calc(50% - 7px)}
 
   .res-main.care .cont-wrap .cont-area .step-area.step03 .btn-area {display:block; margin:10px auto 0}
+  .res-main.care .cont-wrap .cont-area .step-area.step03 .btn-area.bg {display:none}
   .res-main.care .cont-wrap .cont-area .step-area.step03 .btn-res {width:156px; padding:10px 20px}
 }
 /* // 케어십상담예약 */
