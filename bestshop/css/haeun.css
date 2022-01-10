@@ -143,14 +143,9 @@
 .res-main .cont-wrap .cont-area {padding-top:8px}
 /* .res-main .cont-wrap .cont-area .step-area {display:none}
 .res-main .cont-wrap .cont-area .step-area.active {display:block} */
-.res-main .cont-wrap .cont-area .step-area .main-area {display:none}
-.res-main .cont-wrap .cont-area .step-area .main-area.active {display:block}
-
-.step-area .result-area {display:none}
-.step-area .result-area.active {display:block}
 .step-area {border-top:1px solid #707070}
-
-.res-main .cont-wrap .cont-area .main-area {padding:20px 0}
+.res-main .cont-wrap .cont-area .step-area .main-area {display:none; padding:20px 0}
+.res-main .cont-wrap .cont-area .step-area .main-area.active {display:block}
 
 /* step 1 */
 
@@ -255,6 +250,12 @@
 .input-area ul.pdt-type > li .check-box input:checked + label .icon.ipad {background:url(../images/icons/icon-ipad_on.svg) no-repeat center}
 .input-area ul.pdt-type > li .check-box input:checked + label .icon.projector {background:url(../images/icons/icon-projector_on.svg) no-repeat center}
 .input-area ul.pdt-type > li .check-box input:checked + label .icon.medihair {background:url(../images/icons/icon-medihair_on.svg) no-repeat center}
+@media screen and (max-width:1230px) {
+  .input-area ul.pdt-type > li {width:20%}
+}
+@media screen and (max-width:996px) {
+  .input-area ul.pdt-type > li {width:25%}
+}
 @media screen and (max-width:767px) {
   .input-area ul.pdt-type {justify-content:space-between; margin:-12px 0 0}
   .input-area ul.pdt-type > li {width:calc(50% - 6px); max-width:50%; min-width:0; margin-top:12px; padding:0}
@@ -317,6 +318,8 @@
 }
 
 /* result-area */
+.step-area .result-area {display:none}
+.step-area .result-area.active {display:block}
 .step-area .result-area [class^="info-step"] {position:relative; margin-top:-1px; border-top:1px solid #ddd; border-bottom:1px solid #ddd}
 .step-area .result-area .info-txt-com {display:none}
 .step-area .result-area .info-txt-com.active {display:block; padding:22px 110px 22px 0; color:#da0f47; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;}
@@ -561,12 +564,6 @@
 
 
 /* mobile */
-@media screen and (max-width:1230px) {
-  .input-area ul.pdt-type > li {width:20%}
-}
-@media screen and (max-width:996px) {
-  .input-area ul.pdt-type > li {width:25%}
-}
 @media screen and (max-width:767px) {
   .only_pc {display:none!important}
   .only_mo {display:block!important}
