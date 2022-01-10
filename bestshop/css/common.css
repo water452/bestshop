@@ -558,7 +558,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 
 	footer .foot-cont .foot-bottom{border-top:0 none;}
 
-	.mobile-status-bar{display:block;}
+	.mobile-status-bar{display:block;transition:all 0.1s linear;}
 
 	.floating-block{bottom:94px;right:14px;z-index:1000;}
 	.floating-block .top-btn{width:40px;height:40px;background-size:32px 32px;}

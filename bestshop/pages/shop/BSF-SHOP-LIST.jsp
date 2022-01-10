@@ -245,92 +245,161 @@
                     </div><!-- //.result-body -->
 
                     <div class="result-filter">
-                        <p class="filter-title"><strong>필터</strong></p>
-                        <a href="javascript:void(0);" class="filter-close">필터 닫기</a>
-                        <div class="filter-list">
-                            <em><a href="javascript:void(0);">입점 형태</a></em>
-                            <div class="filter-detail">
-                                <ul>
-                                    <li>
-                                        <span class="check-box small">
-                                            <input type="checkbox" id="filterList01">
-                                            <label for="filterList01">베스트샵 단독 매장</label>
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <span class="check-box small">
-                                            <input type="checkbox" id="filterList02">
-                                            <label for="filterList02">백화점 입점 매장</label>
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <span class="check-box small">
-                                            <input type="checkbox" id="filterList03">
-                                            <label for="filterList03">홈플러스 입점 매장</label>
-                                        </span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div><!-- //.filter-list -->
-                        <div class="filter-list">
-                            <em><a href="javascript:void(0);">입점 형태</a></em>
-                            <div class="filter-detail">
-                                <ul>
-                                    <li>
-                                        <span class="check-box small">
-                                            <input type="checkbox" id="filterList04">
-                                            <label for="filterList04">베스트샵 단독 매장</label>
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <span class="check-box small">
-                                            <input type="checkbox" id="filterList05">
-                                            <label for="filterList05">백화점 입점 매장</label>
-                                        </span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div><!-- //.filter-list -->
-                        <p class="btn-area">
-                            <button type="button" class="btn-reset">초기화</button>
-                        </p>
+                        <div class="result-filter-detail">
+                            <p class="filter-title"><strong>필터</strong></p>
+                            <a href="javascript:void(0);" class="filter-close">필터 닫기</a>
+                            <div class="filter-list">
+                                <em><a href="javascript:void(0);">입점 형태</a></em>
+                                <div class="filter-detail">
+                                    <ul>
+                                        <li>
+                                            <span class="check-box small">
+                                                <input type="checkbox" id="filterList01">
+                                                <label for="filterList01">베스트샵 단독 매장</label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span class="check-box small">
+                                                <input type="checkbox" id="filterList02">
+                                                <label for="filterList02">백화점 입점 매장</label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span class="check-box small">
+                                                <input type="checkbox" id="filterList03">
+                                                <label for="filterList03">홈플러스 입점 매장</label>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div><!-- //.filter-list -->
+                            <div class="filter-list">
+                                <em><a href="javascript:void(0);">입점 형태</a></em>
+                                <div class="filter-detail">
+                                    <ul>
+                                        <li>
+                                            <span class="check-box small">
+                                                <input type="checkbox" id="filterList04">
+                                                <label for="filterList04">베스트샵 단독 매장</label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span class="check-box small">
+                                                <input type="checkbox" id="filterList05">
+                                                <label for="filterList05">백화점 입점 매장</label>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div><!-- //.filter-list -->
+                            <p class="btn-area">
+                                <button type="button" class="btn-reset">초기화</button>
+                            </p>
+                        </div><!-- //.result-filter-detail -->
                     </div><!-- //.result-filter -->
                 </div>
             </div>
             <script>
-                // tab area
-                $('.tab-title li a').on('click', function(){
-                    var _thsDetail = $(this).parents('.tab-title').siblings('.tab-content-group'),
-                        _thsCnt = parseInt($(this).parent('li').index()) + 1;
+                var _winWd = $(window).width();
 
-                    $(this).parent('li').addClass('active').siblings('li').removeClass('active');
-                    $('.tab-content-group .tab-content:nth-child('+ _thsCnt +')').addClass('active').siblings('.tab-content').removeClass('active')
+                function tabDraggable(){
+                    var touchStart;
+                    $('.shop-search-head .tab-area').on('touchstart touchend touchmove', function(e){
+                        if(e.type == 'touchstart'){
+                            touchStart = e.originalEvent.touches[0].clientY;
+                        } else if(e.type == 'touchend'){
+                            var touchend = e.originalEvent.changedTouches[0].clientY;
+
+                            if(touchStart > touchend + 100){
+                                $('.tab-area-wrap').addClass('active').css('margin-top', '30px');
+                            } else if(touchStart < touchend - 100){
+                                $('.tab-area-wrap').removeClass('active').css('margin-top', '250px');
+                            }
+                            $('.tab-area-wrap').css('top', '0')
+                        } if(e.type == 'touchmove'){
+                            var mouseWhere = e.originalEvent.touches[0].clientY,
+                                mouseMove = mouseWhere - touchStart;
+
+                            if(mouseMove < 50 && mouseMove > -50){
+                                $('.tab-area-wrap').css('top', mouseMove)
+                            }
+                        }
+                    })
+                }
+
+                function filterToggle(){
+                    // filter popup > toggle
+                    $('.btn-filter, .filter-close').on('click', function(){
+                        $('.result-filter').stop().slideToggle(200);
+                    });
+                }
+
+                function filterToggleM(){
+                    // filter popup > toggle
+                    $('.btn-filter, .filter-close').on('click', function(){
+                        var _ths = $(this);
+                        if(_ths.hasClass('btn-filter')){
+                            $('.result-filter').stop().animate({'margin-right':'0'}, 200);
+                            $('.result-filter .dimmde').fadeIn(100);
+                            $('.floating-block').fadeOut(100); // floating menu hide
+                        } else {
+                            $('.result-filter').stop().animate({'margin-right':'-100%'}, 200);
+                            $('.result-filter .dimmde').fadeOut(100);
+                            $('.floating-block').fadeIn(100); // floating menu show
+                        }
+                    });
+                }
+
+                $(document).ready(function(){
+                    $('.result-filter').prepend('<div class="dimmde"></div>')
+
+                    // tab area
+                    $('.tab-title li a').on('click', function(){
+                        var _thsDetail = $(this).parents('.tab-title').siblings('.tab-content-group'),
+                            _thsCnt = parseInt($(this).parent('li').index()) + 1;
+
+                        $(this).parent('li').addClass('active').siblings('li').removeClass('active');
+                        $('.tab-content-group .tab-content:nth-child('+ _thsCnt +')').addClass('active').siblings('.tab-content').removeClass('active')
+                    });
+
+                    // tab area > search result > scrollTop + active
+                    $('.result-body a.base-link').on('click', function(e){
+                        var _thsTop = $(this).parents('li').position().top;
+
+                        setTimeout(function() {
+                            $('.result-body .mCustomScrollbar').mCustomScrollbar("scrollTo", _thsTop);
+                        }, 200);
+                        $(this).parents('li').addClass('active').siblings('li').removeClass('active');
+                    });
+
+                    // filter popup > detail > toggle
+                    $('.filter-list > em a').on('click', function(){
+                        $(this).parents('.filter-list').toggleClass('closed').find('.filter-detail').slideToggle(100);
+                    });
+
+                    // filter popup > detail > checked reset
+                    $('.btn-reset').on('click', function(){
+                        $('.filter-list').find('input').prop('checked', false);
+                    });
+
+                    if(_winWd > 767){
+                        filterToggle();
+                    } else {
+                        filterToggleM();
+                        tabDraggable();
+                    }
+                });
+
+                $(window).resize(function(){
+                    var _winWd = $(window).width();
+
+                    if(_winWd > 767){
+                        filterToggle();
+                    } else {
+                        filterToggleM();
+                        tabDraggable();
+                    }
                 })
-
-                // tab area > search result > scrollTop + active
-                $('.result-body a.base-link').on('click', function(e){
-                    var _thsTop = $(this).parents('li').position().top;
-
-                    setTimeout(function() {
-                        $('.result-body .mCustomScrollbar').mCustomScrollbar("scrollTo", _thsTop);
-                    }, 200);
-                    $(this).parents('li').addClass('active').siblings('li').removeClass('active');
-                });
-
-                // filter popup > toggle
-                $('.btn-filter, .filter-close').on('click', function(){
-                    $('.result-filter').slideToggle(200);
-                });
-
-                // filter popup > detail > toggle
-                $('.filter-list > em a').on('click', function(){
-                    $(this).parents('.filter-list').toggleClass('closed').find('.filter-detail').slideToggle(100);
-                });
-
-                // filter popup > detail > checked reset
-                $('.btn-reset').on('click', function(){
-                    $('.filter-list').find('input').prop('checked', false);
-                });
             </script>
             <!-- e: search result -->
         </div>
