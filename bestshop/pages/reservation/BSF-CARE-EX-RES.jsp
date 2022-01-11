@@ -532,7 +532,7 @@
             
           </div>
 
-          <div class="btn-area active"><!-- active 클래스 추가 -->
+          <div class="btn-area">
             <button type="button" class="btn btn-next">다음 단계로</button>
           </div>
           

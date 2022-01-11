@@ -361,10 +361,10 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
 
 /* 매장/상담일시 선택 */
 .step-area .shop-date-wrap .view-area {position:relative}
-.step-area .shop-date-wrap .view-area .sort-area {position:absolute; top:0; right:0}
+.step-area .shop-date-wrap .view-area .sort-area {position:absolute; top:75px; right:24px}
 .step-area .shop-date-wrap .view-area .sort-area button {padding-left:26px; color:#aaa; font-size:16px; line-height:32px}
-.step-area .shop-date-wrap .view-area .sort-area button + button {position:relative; margin-left:30px}
-.step-area .shop-date-wrap .view-area .sort-area button + button::before {content:''; display:block; position:absolute; width:1px; height:14px; top:calc(50% - 7px); left:-17px; background-color:#ddd}
+.step-area .shop-date-wrap .view-area .sort-area button + button {position:relative; margin-left:25px}
+.step-area .shop-date-wrap .view-area .sort-area button + button::before {content:''; display:block; position:absolute; width:1px; height:14px; top:calc(50% - 7px); left:-16px; background-color:#ddd}
 .step-area .shop-date-wrap .view-area .sort-area button.active {color:#000}
 .step-area .shop-date-wrap .view-area .sort-area button.view-map {background:url(../images/icons/icon-view-map.svg) no-repeat 0 center}
 .step-area .shop-date-wrap .view-area .sort-area button.view-map.active {background:url(../images/icons/icon-view-map_on.svg) no-repeat 0 center}
@@ -378,8 +378,8 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
 
 .step-area .shop-date-wrap .view-area .list-wrap {display:none; border:1px solid #000; border-radius:8px; overflow:hidden}
 .step-area .shop-date-wrap .view-area .list-wrap.active {display:block}
-.step-area .shop-date-wrap .view-area .list-wrap .search-wrap {width:100%; padding:16px; box-shadow:0 3px 6px 0 rgba(0, 0, 0, 0.16)}
-.step-area .shop-date-wrap .view-area .list-wrap .search-wrap .search-box {position:relative; width:100%; max-width:594px; margin:0 auto}
+.step-area .shop-date-wrap .view-area .list-wrap .search-wrap {width:100%; padding:16px 24px; box-shadow:0 3px 6px 0 rgba(0, 0, 0, 0.16)}
+.step-area .shop-date-wrap .view-area .list-wrap .search-wrap .search-box {position:relative; width:100%; max-width:594px}
 .step-area .shop-date-wrap .view-area .list-wrap .search-wrap .search-box > input {width:100%; padding:11px 36px 10px 0; font-size:16px; line-height:26px; border-bottom:2px solid #000}
 .step-area .shop-date-wrap .view-area .list-wrap .search-wrap .search-box > input:focus {outline:none; border-bottom:2px solid transparent; background: linear-gradient(#ffffff, #ffffff) padding-box, linear-gradient(119deg, #9c86e7 0%, #de64a0 100%) border-box}
 .step-area .shop-date-wrap .view-area .list-wrap .search-wrap .search-box .btn-search {position:absolute; width:24px; height:48px; top:0; right:0; background:url(../images/icons/icon-search.svg) no-repeat center; text-indent:-9999em}
@@ -464,6 +464,7 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
   .map-wrap [class*="input"] > li + li {margin-left:6px}
   
   .step-area .shop-date-wrap .view-area .list-wrap .search-wrap {padding:0 23px 11px}
+  .step-area .shop-date-wrap .view-area .list-wrap .search-wrap .search-box {margin:0 auto}
   .step-area .shop-date-wrap .view-area .list-wrap .search-wrap .search-box > input {background-color:#fff; font-size:13px; line-height:24px}
   .step-area .shop-date-wrap .view-area .list-wrap .search-wrap .search-box .btn-search {width:16px; background:url(../images/icons/icon-search_mo.svg) no-repeat center / contain}
   .step-area .shop-date-wrap .view-area .list-wrap .view-wrap {flex-direction:column}
@@ -562,11 +563,12 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
 /* 스텝 btn-area */
 .step-area .btn-area {margin-top:20px; margin-bottom:70px; text-align:right}
 .step-area .btn-area .btn {width:220px; height:50px; text-align:left}
-.step-area .btn-area .btn-next {border:1px solid #aaa; background:#fff url(../images/icons/btn-double-arrow-right-32.svg) no-repeat center right 21px / 16px 16px; color:#aaa}
-.step-area .btn-area.active .btn-next {border:1px solid #da0f47; background:#fff url(../images/icons/btn-double-arrow-right-32_on.svg) no-repeat center right 21px / 16px 16px; color:#da0f47}
+.step-area .btn-area .btn-next {border:1px solid #da0f47; background:#fff url(../images/icons/btn-double-arrow-right-32_on.svg) no-repeat center right 21px / 16px 16px; color:#da0f47}
 .step-area .btn-area .btn-res {display:block; margin:0 auto; text-align:center}
 .step-area .btn-area.bg {display:flex; justify-content:space-between; align-items:center; min-height:130px; margin-top:0; padding:30px 50px; background-color:#f6f6f6; border-radius:8px}
 .step-area .btn-area.bg.active {background-image:linear-gradient(98deg,#9a7fed 1%,#ff6489 100%,#ff6489 100%)}
+.step-area .btn-area.bg .btn-next {border:1px solid #aaa; background:#fff url(../images/icons/btn-double-arrow-right-32.svg) no-repeat center right 21px / 16px 16px; color:#aaa}
+.step-area .btn-area.bg.active .btn-next {border:1px solid #da0f47; background:#fff url(../images/icons/btn-double-arrow-right-32_on.svg) no-repeat center right 21px / 16px 16px; color:#da0f47}
 .step-area .btn-area.bg .result-txt {font-size:20px; line-height:32px; text-align:left}
 .step-area .btn-area.bg.active .result-txt {color:#fff}
 @media screen and (max-width:767px) {
