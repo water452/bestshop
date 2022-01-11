@@ -8,9 +8,9 @@
   </div>
 
   <!-- contents -->
-  <div class="contents res-done">
+  <div class="contents">
 
-    <div class="cont-wrap">
+    <div class="cont-wrap w100">
       <div class="done-msg-area">
         <p class="done-msg-big">
           <strong>소모품 구매 예약이 완료되었습니다.</strong>
@@ -49,9 +49,9 @@
           </ul>
         </div>
       </div>
-      <div class="btn-area">
-        <button type="button" class="btn inquiry">상담 예약 조회</button>
-        <button type="button" class="btn border">메인 화면으로</button>
+      <div class="btn-area center m64 mo50">
+        <button type="button" class="btn s01">상담 예약 조회</button>
+        <button type="button" class="btn border s01">메인 화면으로</button>
       </div>
     </div>
 

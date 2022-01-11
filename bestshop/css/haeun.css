@@ -63,7 +63,7 @@
 .slt.border-type ul li > a {padding:10px 15px; background-color:#fff; font-size:16px; line-height:26px; text-align:left}
 
 .slt.width-auto ul {width:auto; left:50%; transform:translateX(-50%)}
-
+/* mobile */
 @media screen and (max-width:767px) {
   .slt.border-type > a,
   .slt.border-type > ul {display:none}
@@ -80,7 +80,7 @@
 .tit-area {display:flex; align-items:center; margin-bottom:16px}
 .tit-area .step-tit {margin-bottom:0}
 .tit-area .step-tit + em {margin-left:10px; font-size:14px; line-height:22px}
-
+/* mobile */
 @media screen and (max-width:767px) {
   .step-tit {font-size:16px; line-height:25px}
   .step-tit ~ .step-tit {margin-top:40px}
@@ -95,7 +95,7 @@
 /* step 필수입력항목  */
 .step-top-note {display:flex; justify-content:flex-end; margin-bottom:12px; font-size:14px; line-height:20px}
 .step-top-note sup {margin-right:3px; color:#da0f47; font-size:14px; line-height:20px}
-
+/* mobile */
 @media screen and (max-width:767px) {
   .step-top-note {margin-bottom:5px; font-size:10px; line-height:15px}
   .step-top-note sup {font-size:10px; line-height:15px}
@@ -104,8 +104,21 @@
 
 /* tab */
 .res-main [class*="tab"].center {display:flex; justify-content:center}
+/* mobile */
 @media screen and (max-width:767px) {
   .res-main [class*="tab"].center {justify-content:flex-start}
+}
+
+
+/* btn-area */
+.btn-area.center {text-align:center}
+.btn-area.m64 {margin-top:64px}
+.btn-area .btn + .btn {margin-left:13px}
+/* mobile */
+@media screen and (max-width:767px) {
+  .btn-area.m64 {margin-top:30px}
+  .btn-area.mo50 > .btn {width:calc(50% - 4.5px)}
+  .btn-area .btn + .btn {margin-left:5px}
 }
 
 
@@ -150,6 +163,10 @@
 
 /* 컨텐츠 영역 */
 .cont-area {padding-top:8px}
+.cont-wrap.w100 {max-width:100%; padding:0}
+@media screen and (max-width:767px) {
+  .cont-wrap.w100 {padding:0 16px 4px}
+}
 /* .res-main .cont-wrap .cont-area .step-area {display:none}
 .res-main .cont-wrap .cont-area .step-area.active {display:block} */
 .step-area {border-top:1px solid #707070}
@@ -177,6 +194,7 @@ ul.input-icon-type .radio-btn.btn-type2 input:checked + label .icon.move {backgr
 ul.input-icon-type .radio-btn.btn-type2 input:checked + label .icon.interior {background:url(../images/icons/icon-interior_on.svg) no-repeat center}
 ul.input-icon-type .radio-btn.btn-type2 input:checked + label .icon.broken {background:url(../images/icons/icon-broken_on.svg) no-repeat center}
 ul.input-icon-type .radio-btn.btn-type2 input:checked + label .icon.etc {background:url(../images/icons/icon-etc_on.svg) no-repeat center}
+/* mobile */
 @media screen and (max-width:767px) {
   ul.input-icon-type {flex-wrap:wrap; margin-top:-12px}
   ul.input-icon-type > li {width:calc(50% - 6px); margin-top:12px}
@@ -212,6 +230,7 @@ ul.input-cate-type .cate-items > li {width:calc(100% / 3); max-width:156px; min-
 ul.input-cate-type .cate-items .check-box label {width:100%; height:100%; padding:10px 0; background-color:#fff; border-radius:48px; border:1px solid #ddd; background-color:#fff; font-size:16px; font-weight:500; line-height:24px; box-sizing:border-box; text-align:center}
 ul.input-cate-type .cate-items .check-box input:checked + label {border:1px solid #da0f47; color:#da0f47}
 ul.input-cate-type .cate-items .check-box input + label::after {display:none}
+/* mobile */
 @media screen and (max-width:767px) {
   ul.input-cate-type > li {flex-direction:column; align-items:center; width:100%; padding:16px 0}
   ul.input-cate-type .cate-tit {font-size:13px; line-height:20px}
@@ -265,6 +284,7 @@ ul.input-pdt-type > li .check-box input:checked + label .icon.medihair {backgrou
 @media screen and (max-width:996px) {
   ul.input-pdt-type > li {width:25%}
 }
+/* mobile */
 @media screen and (max-width:767px) {
   ul.input-pdt-type {justify-content:space-between; margin:-12px 0 0}
   ul.input-pdt-type > li {width:calc(50% - 6px); max-width:50%; min-width:0; margin-top:12px; padding:0}
@@ -309,6 +329,7 @@ ul.input-base-type > li {width:calc(100% / 6); padding:0 8px}
 ul.input-base-type .radio-btn.btn-type2 {width:100%}
 ul.input-base-type .radio-btn.btn-type2 label {display:flex; justify-content:center; align-items:center; width:100%; height:48px; border-radius:28px; font-size:16px; font-weight:500; line-height:24px}
 ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid #da0f47; color:#da0f47}
+/* mobile */
 @media screen and (max-width:767px) {
   ul.input-base-type {flex-wrap:wrap; margin:-7px -3.5px 0}
   ul.input-base-type > li {width:calc(100% / 3); margin-top:7px; padding:0 3.5px}
@@ -322,6 +343,7 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
 .text-area textarea::placeholder {color:#666; font-size:16px; line-height:24px}
 .text-area .info-msg {float:left; margin-top:10px; margin-left:10px; color:#777; font-size:14px; line-height:22px}
 .text-area .txt-count {float:right; margin-top:10px; margin-right:10px; color:#777; font-size:14px; line-height:22px}
+/* mobile */
 @media screen and (max-width:767px) {
   .text-area textarea {padding:13px 16px; font-size:14px; line-height:19px}
   .text-area textarea::placeholder {font-size:14px; line-height:19px}
@@ -346,6 +368,7 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
 .step-area .result-area .info-txt-uncom .page-num {color:#666; font-size:20px; font-weight:bold; line-height:30px}
 .step-area .result-area .info-txt-uncom .txt {margin-left:18px; color:#666; font-size:18px; line-height:30px}
 /* .step-area .result-area .btn-reselect {position:absolute; display:block; right:0; top:calc(50% - 19px); width:102px; padding:0 17px 0 43px; border:1px solid #ddd; border-radius:34px; background:#fff url(../images/icons/icon-reset.svg) no-repeat 18px center / 20px; font-size:14px; line-height:36px} */
+/* mobile */
 @media screen and (max-width:767px) {
   .step-area .result-area .info-txt-com {background-size:20px 20px!important}
   .step-area .result-area .info-txt-com a {padding:11px 30px 11px 0!important}
@@ -447,6 +470,7 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
   .step-area .shop-date-wrap .bottom-area .shop-info-wrap .box {padding:24px}
   .step-area .shop-date-wrap .bottom-area .date-wrap {width:50%}
 }
+/* mobile */
 @media screen and (max-width:767px) {
   .step-area .shop-date-wrap .view-area .sort-area {position:static; display:flex; margin-bottom:8px}
   .step-area .shop-date-wrap .view-area .sort-area button {display:block; font-size:12px; line-height:24px}
@@ -539,6 +563,7 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
 @media screen and (max-width:1023px) {
   .step-area .user-info-area ul.input-box-type {padding:25px}
 }
+/* mobile */
 @media screen and (max-width:767px) {
   .step-area .user-info-area .lt {float:none; width:100%; max-width:100%}
   .step-area .user-info-area .rt {float:none; width:100%; padding-left:0; margin-top:12px}
@@ -571,6 +596,7 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
 .step-area .btn-area.bg.active .btn-next {border:1px solid #da0f47; background:#fff url(../images/icons/btn-double-arrow-right-32_on.svg) no-repeat center right 21px / 16px 16px; color:#da0f47}
 .step-area .btn-area.bg .result-txt {font-size:20px; line-height:32px; text-align:left}
 .step-area .btn-area.bg.active .result-txt {color:#fff}
+/* mobile */
 @media screen and (max-width:767px) {
   .step-area .btn-area.bg {justify-content:flex-end; min-height:0; padding:0; background:none!important}
   .step-area .btn-area.bg .result-txt {display:none}
@@ -716,35 +742,28 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
 /* // 휴대폰 인증 팝업 */
 
 /* 완료페이지 */
-.res-done .cont-wrap {max-width:100%; padding:0}
-.res-done .done-msg-area {padding:0 40px; text-align:center}
-.res-done .done-msg-area .done-msg-big > strong {display:block; font-size:36px; font-weight:500; line-height:48px}
-.res-done .done-msg-area .done-msg-big > span {display:block; font-size:36px; font-weight:500; line-height:48px}
-.res-done .done-msg-area .done-msg-small {margin-top:27px}
-.res-done .done-msg-area .done-msg-small ul li {font-size:16px; line-height:24px}
-.res-done .res-info-area {width:100%; margin-top:54px; padding:32px; background-image:linear-gradient(96deg,#9a7fed 0%,#ff6489 100%,#ff6489 100%); text-align:center}
-.res-done .res-info-area .info-box {display:inline-block; text-align:left}
-.res-done .res-info-area .info-box ul li {display:flex; color:#fff; font-size:20px; line-height:34px}
-.res-done .res-info-area .info-box ul li > span {display:block; min-width:209px}
-.res-done .res-info-area .info-box ul li > strong {display:block; font-weight:500}
-.res-done .btn-area {margin-top:64px; text-align:center}
-.res-done .btn-area .btn {padding:9px 15px; font-size:14px; line-height:20px}
-.res-done .btn-area .btn + .btn {margin-left:13px}
+.done-msg-area {padding:0 40px; text-align:center}
+.done-msg-area .done-msg-big > strong {display:block; font-size:36px; font-weight:500; line-height:48px}
+.done-msg-area .done-msg-big > span {display:block; font-size:36px; font-weight:500; line-height:48px}
+.done-msg-area .done-msg-small {margin-top:27px}
+.done-msg-area .done-msg-small ul li {font-size:16px; line-height:24px}
+.res-info-area {width:100%; margin-top:54px; padding:32px; background-image:linear-gradient(96deg,#9a7fed 0%,#ff6489 100%,#ff6489 100%); text-align:center}
+.res-info-area .info-box {display:inline-block; text-align:left}
+.res-info-area .info-box ul li {display:flex; color:#fff; font-size:20px; line-height:34px}
+.res-info-area .info-box ul li > span {display:block; min-width:209px}
+.res-info-area .info-box ul li > strong {display:block; font-weight:500}
 /* mobile */
 @media screen and (max-width:767px) {
-  .res-done .done-msg-area {padding:0 16px}
-  .res-done .done-msg-area .done-msg-big > strong {font-size:18px; font-weight:bold; line-height:27px}
-  .res-done .done-msg-area .done-msg-big > span {margin-top:4px; font-size:11px; line-height:19px}
-  .res-done .done-msg-area .done-msg-small {margin-top:16px}
-  .res-done .done-msg-area .done-msg-small ul li {font-size:10px; line-height:18px}
-  .res-done .done-msg-area .done-msg-small ul li + li {margin-top:4px}
-  .res-done .res-info-area {margin-top:39px; padding:30px 30px 43px}
-  .res-done .res-info-area .info-box ul li {font-size:14px; line-height:22px}
-  .res-done .res-info-area .info-box ul li + li {margin-top:2px}
-  .res-done .res-info-area .info-box ul li > span {min-width:109px}
-  .res-done .btn-area {margin-top:30px; padding:0 16px}
-  .res-done .btn-area .btn {width:calc(50% -  5px); max-width:160px; padding:10.5px 15px; font-size:13px}
-  .res-done .btn-area .btn + .btn {margin-left:5px}
+  .done-msg-area {padding:0 16px}
+  .done-msg-area .done-msg-big > strong {font-size:18px; font-weight:bold; line-height:27px}
+  .done-msg-area .done-msg-big > span {margin-top:4px; font-size:11px; line-height:19px}
+  .done-msg-area .done-msg-small {margin-top:16px}
+  .done-msg-area .done-msg-small ul li {font-size:10px; line-height:18px}
+  .done-msg-area .done-msg-small ul li + li {margin-top:4px}
+  .res-info-area {width:calc(100% + 32px); margin-top:39px; margin-left:-16px; padding:30px 30px 43px}
+  .res-info-area .info-box ul li {font-size:14px; line-height:22px}
+  .res-info-area .info-box ul li + li {margin-top:2px}
+  .res-info-area .info-box ul li > span {min-width:109px}
 }
 /* // 완료페이지 */
 
@@ -779,7 +798,6 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
 .res-video-mobile .btn-area {position:fixed; left:0; right:0; bottom:0; padding:0 16px 50px; text-align:center}
 .res-video-mobile .btn-area .btn-start {width:100%; max-width:328px; font-size:14px}
 .res-video-mobile .btn-area .btn-info {display:block; margin-top:10px; color:#999; font-size:10px; line-height:15px}
-
 /* mobile */
 @media screen and (max-width:767px) {
   .res-main .bull > li {padding-left:10px; font-size:12px; line-height:20px}
@@ -894,8 +912,6 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
 .res-main.care .prd-list-area .btn-area {display:block!important; margin:20px auto 0!important; text-align:center}
 .res-main.care .prd-list-area .btn-view-more {position:relative; display:inline-block; min-width:0; width:90px; padding:6px 14px 6px 35px; border:1px solid #000; border-radius:40px; font-size:14px; line-height:26px}
 .res-main.care .prd-list-area .btn-view-more::before {content:''; display:block; position:absolute; width:16px; height:16px; top:calc(50% - 8px); left:16px; background:url(../images/icons/btn-plus-16.svg) no-repeat center / contain}
-
-/* mobile */
 @media screen and (max-width:1023px) {
   /* .res-main .category-box .category-list > li {width:50%} */
 
@@ -908,6 +924,7 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
 
   .res-main.care .service-detail-area > ul.col-3 > li {width:calc(50% - 54px)}
 }
+/* mobile */
 @media screen and (max-width:767px) {
   .res-main.care .cont-wrap .cont-area {padding-top:0}
   .res-main.care .cont-wrap .cont-area .step-area {margin-top:24px}
@@ -1094,11 +1111,8 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
 .res-main .cont-wrap .cont-area .step-area .my-select .box.no-item .no-item-txt {color:#aaa; font-size:16px; font-weight:500; line-height:26px}
 .res-main .cont-wrap .cont-area .step-area .my-select .box .btn-add {width:124px; margin-top:18px; padding:3px 12px; border-radius:8px; font-size:14px}
 .res-main .cont-wrap .cont-area .step-area .my-select .box .btn-close {position:absolute; width:18px; height:18px; top:12px; right:12px; background:url(../images/icons/btn-close-24-black.svg) no-repeat center / contain}
-
-/* mobile */
 @media screen and (max-width:1284px) {
   .res-main.care-ex .plp-list-wrap .prd-list-area .list-wrap > ul > li {width:50%}
-
 }
 @media screen and (max-width:1024px) {
   .res-main .cate-sticky-wrap {position:relative}
@@ -1128,6 +1142,7 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
   .res-main .cont-wrap .cont-area .step-area .my-select > ul {flex-wrap:wrap}
   .res-main .cont-wrap .cont-area .step-area .my-select > ul > li {width:50%}
 }
+/* mobile */
 @media screen and (max-width:767px) {
   .res-main.care-ex .top-wrap {margin-bottom:28px}
   .res-main .top-wrap .guide-area .guide-process .guide-banner-care-ex .swiper-slide .box .icon-wrap .icon01 {background:url(../images/icons/icon-res-guide-visit-01_mo.svg) no-repeat center / 100%}
@@ -1211,8 +1226,8 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
 /* 상담예약조회 */
 .res-main .inq-area .inq-box-area {display:flex; justify-content:space-between}
 .res-main .inq-area .inq-box-area .inq-box {position:relative; width:calc(50% - 10px); height:548px; padding:24px 32px; border:1px solid #ddd; border-radius:8px}
-.res-main .inq-area .inq-box-area .inq-box .tit-area {padding-bottom:20px; border-bottom:1px solid #000}
-.res-main .inq-area .inq-box-area .inq-box .tit-area .tit {font-size:22px; font-weight:500; line-height:32px}
+.res-main .inq-area .inq-box-area .inq-box .top-area {padding-bottom:20px; border-bottom:1px solid #000}
+.res-main .inq-area .inq-box-area .inq-box .top-area .tit {font-size:22px; font-weight:500; line-height:32px}
 .res-main .inq-area .inq-box-area .inq-box .body-area {padding-top:12px}
 .res-main .inq-area .inq-box-area .inq-box .body-area ul.info > li {position:relative; margin-top:4px; padding-left:12px; font-size:16px; line-height:26px}
 .res-main .inq-area .inq-box-area .inq-box .body-area ul.info > li::before {content:''; display:block; position:absolute; width:2px; height:2px; top:12px; left:0; border-radius:50%; background-color:#000}
@@ -1236,5 +1251,28 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
 
 .res-main .inq-area .caution-box {margin-top:40px; padding:40px 40px 34px; border-radius:8px; background-color:#f4f4f4}
 .res-main .inq-area .caution-box .tit {margin-bottom:8px; font-size:14px; font-weight:500; line-height:22px}
+/* mobile */
+@media screen and (max-width:767px) {
+  .res-main .inq-area .inq-box-area {flex-direction:column}
+  .res-main .inq-area .inq-box-area .inq-box {width:100%; height:auto; padding:20px}
+  .res-main .inq-area .inq-box-area .inq-box + .inq-box {margin-top:24px}
+  .res-main .inq-area .inq-box-area .inq-box .top-area {padding-bottom:12px}
+  .res-main .inq-area .inq-box-area .inq-box .top-area .tit {font-size:16px; line-height:25px}
+  .res-main .inq-area .inq-box-area .inq-box .body-area ul.info > li {margin-top:0; font-size:14px; line-height:19px}
+  .res-main .inq-area .inq-box-area .inq-box .body-area ul.info > li + li {margin-top:5px}
+  .res-main .inq-area .inq-box-area .inq-box .btn-area {position:static; margin-top:55px}
+  .res-main .inq-area .inq-box-area .inq-box .btn-area .btn {width:179px; padding:11px 20px; font-size:13px; line-height:19px}
+  
+  .res-main .inq-area .inq-box-area .inq-box .phone-check-wrap {padding-bottom:0}
+  .res-main .inq-area .inq-box-area .inq-box .phone-check-wrap .note {font-size:13px; line-height:22px}
+  .res-main .inq-area .inq-box-area .inq-box .phone-check-wrap .input-area {margin-top:40px}
+  .res-main .inq-area .inq-box-area .inq-box .phone-check-wrap .input-area .tit label {font-size:14px; line-height:20px}
+  .res-main .inq-area .inq-box-area .inq-box .phone-check-wrap .input-area .tit label .name sup {font-size:14px; line-height:20px}
+  .res-main .inq-area .inq-box-area .inq-box .phone-check-wrap .input-area .num-box {margin-top:38px}
+  .res-main .inq-area .inq-box-area .inq-box .phone-check-wrap .input-area .txt-box input {height:auto; padding:11px 12px; font-size:14px; line-height:22px}
+  .res-main .inq-area .inq-box-area .inq-box .phone-check-wrap .input-area .num-box .txt-box > ul > li + li {margin-top:7px}
+  .res-main .inq-area .inq-box-area .inq-box .phone-check-wrap .input-area .num-box .txt-box .btn-send {width:99px; font-size:13px}
 
+  .res-main .inq-area .caution-box {margin-top:24px}
+}
 /* // 상담예약조회 */

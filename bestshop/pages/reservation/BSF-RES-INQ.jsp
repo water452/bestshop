@@ -19,7 +19,7 @@
 
         <div class="inq-box-area">
           <div class="inq-box">
-            <div class="tit-area">
+            <div class="top-area">
               <p class="tit">회원 상담 예약 조회</p>
             </div>
             <div class="body-area">
@@ -34,7 +34,7 @@
           </div>
 
           <div class="inq-box">
-            <div class="tit-area">
+            <div class="top-area">
               <p class="tit">비회원 상담 예약 조회</p>
             </div>
             <div class="body-area">
