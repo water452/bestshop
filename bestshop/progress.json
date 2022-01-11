@@ -608,7 +608,7 @@
       "worker": "서강원",
       "startdate": "2022-01-07",
       "finishdate": "2022-01-10",
-      "status": "진행예정",
+      "status": "완료",
       "filename": "./pages/event/BSF-RES-VISIT.jsp",
       "memo": ""
     },
@@ -620,7 +620,7 @@
       "worker": "서강원",
       "startdate": "2022-01-11",
       "finishdate": "2022-01-12",
-      "status": "진행예정",
+      "status": "완료",
       "filename": "./pages/event/BSF-RES-VISIT.jsp",
       "memo": ""
     },
@@ -632,7 +632,7 @@
       "worker": "서강원",
       "startdate": "2022-01-13",
       "finishdate": "2022-01-13",
-      "status": "진행예정",
+      "status": "완료",
       "filename": "./pages/event/BSF-RES-VISIT.jsp",
       "memo": ""
     },
@@ -644,7 +644,7 @@
       "worker": "서강원",
       "startdate": "2022-01-14",
       "finishdate": "2022-01-14",
-      "status": "진행예정",
+      "status": "완료",
       "filename": "./pages/event/BSF-RES-VISIT-DONE.jsp",
       "memo": ""
     },
