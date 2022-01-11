@@ -379,7 +379,7 @@ function popup(){
 		$(this).parents(".popup").removeAttr("data-open-popup-id").removeAttr("tabindex");
 		$("[href='" + "#" + popId + "']").focus();
 		$(".popup").each(function(index){
-			var popZindex = 9000 + index;
+			var popZindex = 9005 + index;
 			if ( $(this).is(".on") && $(this).attr("data-open-popup-id") != prevPopAttr ){
 				$(this).css("z-index", 998);
 			}
