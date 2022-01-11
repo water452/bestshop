@@ -959,8 +959,8 @@
                         </div>
                     </div>
                     <div class="btn-area active"><!-- active 클래스 추가 -->
-                        <button type="button" class="btn btn-res">상담 예약하기</button>
-                        <a href="#popup-certification" class="btn btnPopOpen">상담 예약하기</a>
+                        <!-- <a href="#popup-certification" class="btn btn-res btnPopOpen">상담 예약하기</a> -->
+                        <button type="button" data-href="#popup-certification" class="btn btn-res btnPopOpen">상담 예약하기</button>
                     </div>
                 </div>
                 <!-- // step 3 -->
@@ -1033,67 +1033,6 @@
 </div>
 <!-- 팝업: 휴대전화 인증 -->
 
-<!-- 휴대폰 인증 팝업 -->
-<div class="popup-area res-visit"><!-- active 클래스 추가 -->
-  <div class="dimmed"></div>
-  <div class="popup-wrap">
-    <div class="head-area">
-      <p class="head-txt">휴대전화 인증</p>
-      <button type="button" class="btn-close"><span class="blind">닫기</span></button>
-    </div>
-    <div class="body-area">
-      <div class="phone-check-wrap">
-        <p class="note"><sup>*</sup>필수 입력 사항</p>
-        <form action="#">
-          <div class="input-area">
-            <div class="name-box">
-              <div class="tit">
-                <label for="user-name02">
-                  <span class="name">이름<sup>*</sup></span>
-                </label>
-              </div>
-              <div class="txt-box">
-                <input type="text" name="user-name02" placeholder="이름 입력">
-              </div>
-            </div>
-            <div class="num-box">
-              <div class="tit">
-                <label for="user-number02">
-                  <span class="name">휴대 전화<sup>*</sup></span>
-                </label>
-              </div>
-              <div class="txt-box">
-                <ul>
-                  <li>
-                    <input type="number" name="user-number02" placeholder="휴대전화 번호 입력">
-                    <button type="button" class="btn-send">인증번호 발송</button>
-                  </li>
-                  <li>
-                    <input type="number" placeholder="인증번호를 입력해주세요">
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </form>
-      </div>
-      <div class="caution-box">
-        <ul class="bull">
-          <li>휴대전화 인증을 한 정보(이름, 휴대전화)로 접수됩니다.</li>
-          <li>인증번호가 수신되지 않은 경우 1544-7777이 스팸처리 되지 않았는지 확인해주시기 바랍니다.</li>
-        </ul>
-      </div>
-    </div>
-    <div class="foot-area">
-      <div class="btn-area active"><!-- active 클래스 추가 -->
-        <button type="button" class="btn btn-cancle">취소</button>
-        <button type="button" class="btn btn-confirm">확인</button>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- // 휴대폰 인증 팝업 -->
-
 <script>
   $(document).ready(function(){
     // 상단 예약진행 가이드 영역
@@ -1165,21 +1104,6 @@
       $(this).closest('.bottom-fixed-wrap').toggleClass('active');
       $('.body-area').stop().slideToggle();
       $('.bottom-fixed-wrap .dimmed').stop().fadeToggle(200);
-    });
-
-    // 휴대폰 인증 팝업
-    $(function(){
-      var openPop = $('.btn-area .btn-res'),
-          closePop = $('.head-area .btn-close, .btn-area .btn-cancle, .res-visit.popup-area .dimmed');
-
-      openPop.on('click',function(){
-        $('.res-visit.popup-area, .res-visit.popup-area .dimmed').stop().fadeIn(200);
-        $('html').addClass('scroll-fixed');
-      });
-      closePop.on('click',function(){
-        $('.res-visit.popup-area, .res-visit.popup-area .dimmed').stop().fadeOut(200);
-        $('html').removeClass('scroll-fixed');
-      });
     });
   });
 </script>

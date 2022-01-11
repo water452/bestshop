@@ -334,7 +334,12 @@ function popup(){
 
 		$(".dim").stop().fadeIn(100);
 
-		var href = $(this).attr("href");
+		if ( $(this).attr("href") ){
+			var href = $(this).attr("href");
+		}
+		else {
+			var href = $(this).attr("data-href");
+		};
 
 		$(href).stop().fadeIn(200).addClass("on").attr("tabindex", "0").focus();
 		$("html").css("overflow", "hidden");
@@ -398,7 +403,7 @@ function popup(){
 	};
 	$(document).on("keydown", escClose);
 
-	// popup 원하는 팝업 닫기
+	// popup 선택 팝업 닫기
 	function popAllOff(){
 		var closePopId = $(this).attr("data-close-popup-id");
 		$(this).parents(".popup").find(".btnPopClose").trigger("click");
