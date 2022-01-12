@@ -180,6 +180,11 @@
                 <p>설정하신 필터에 맞는 이벤트가 없습니다.</p>
             </div>
             <!-- //no-data -->
+            <!-- no-data (ty-bg) -->
+            <div class="no-data ty-bg">
+                <p>등록된 기획전이 없습니다.</p>
+            </div>
+            <!-- //no-data (ty-bg) -->
         </div>
     </div>
     <!-- // contents -->
