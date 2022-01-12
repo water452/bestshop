@@ -86,12 +86,6 @@ dfn { display: block; font-style: normal; }
 .slt li > a { padding: 8px 15px; line-height: 24px; font-size: 14px; word-break: break-all; text-align: center; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
 .check-box.small label { padding-left: 28px; font-size: 14px; }
 
-/* popup - confirm */
-.popup.confirm .pop-wrap { padding: 60px 30px 50px 30px; max-width: 500px; text-align: center; }
-.inblock { display: inline-block; }
-.block { display: block; }
-.tm-ty01 .block:last-child { margin-top: 26px; }
-
 /******************* contents **********************/
 /* 신규 오픈 매장 */
 .tit-img-area img { max-width: 100%; }
@@ -240,12 +234,6 @@ dfn { display: block; font-style: normal; }
     .sorting-area .slt + .slt { margin-left: 12px; }
     .slt select { padding-right: 20px; height: 22px; font-size: 13px; background: url("../images/icons/btn-down-16-black.svg") no-repeat top 50% right 0; }
     .check-box.small label { font-size: 13px; }
-
-    /* popup - confirm */
-    .popup.confirm .pop-wrap { padding: 0; width: calc(100% - 44px); }
-    .popup.confirm .pop-cont { padding: 50px 20px 0 20px; }
-    .popup.confirm .btn-area.m-full-flex { left: auto; width: auto; }
-    .tm-ty01 .block + .block { margin-top: 18px; }
 
     /******************* contents **********************/
     /* 신규 오픈 매장 */

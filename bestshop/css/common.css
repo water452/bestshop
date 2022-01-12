@@ -412,7 +412,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 /* popup */
 .dim { -webkit-tap-highlight-color: rgba(255,255,255,0); display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #111; opacity: 0.7; z-index: 100; }
 .popup { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 101; }
-.pop-wrap { position: absolute; top: 50%; left: 50%; width: 100%; padding: 34px 40px 50px; max-width: 1280px; border-radius: 8px; background: #fff; overflow: hidden; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+.pop-wrap { position: absolute; top: 50%; left: 50%; width: 100%; padding: 34px 40px 50px; max-width: 678px; border-radius: 8px; background: #fff; overflow: hidden; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
 .pop-head { padding-bottom: 15px; border-bottom: 2px solid #000; }
 .tit-pop { line-height: 30px; font-size: 20px; font-weight: 500; }
 .tit-pop + .txt-pop01 { margin-top: 10px; }
@@ -422,7 +422,15 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 .btn-pop-close { position: absolute; top: 34px; right: 40px; width: 30px; height: 30px; background: url("../images/icons/btn-close-24-black.svg") no-repeat center; }
 
 /* popup - size */
+.popup.small .pop-wrap { max-width: 444px; }
 .popup.medium .pop-wrap { max-width: 912px; }
+.popup.large .pop-wrap { max-width: 1146px; }
+
+/* popup - alert */
+.popup.alert .pop-wrap { padding: 60px 30px 50px 30px; max-width: 500px; text-align: center; }
+.inblock { display: inline-block; }
+.block { display: block; }
+.tm-ty01 .block:last-child { margin-top: 26px; }
 
 @media screen and (min-width:768px){
 	.header{border-bottom:1px solid #ddd;}
@@ -613,8 +621,14 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
     .btn-area.m-full-flex > .btn { width: 100%; font-size: 14px; border-radius: 0; }
     .btn-pop-close { top: 25px; right: 13px; width: 26px; height: 26px; background-size: 20px auto; }
     
-    /* popup - size */
+    /* popup - 모바일 full */
     .popup.m-full .pop-wrap { height: 100%; border-radius: 0; }
     .popup.m-full .pop-cont { height: calc(100% - 62px - 56px) !important; overflow-y: auto; }
     .popup.m-full .btn-area.m-full-flex { position: absolute; bottom: 0; left: 0; margin: 0; width: 100%; }
+
+    /* popup - alert */
+    .popup.alert .pop-wrap { padding: 0; width: calc(100% - 44px); }
+    .popup.alert .pop-cont { padding: 50px 20px 0 20px; }
+    .popup.alert .btn-area.m-full-flex { left: auto; width: auto; }
+    .tm-ty01 .block + .block { margin-top: 18px; }
 }

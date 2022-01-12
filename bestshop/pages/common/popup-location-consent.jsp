@@ -11,7 +11,7 @@
 <!-- //dim -->
 
 <!-- 팝업: 위치 정보 제공 동의 -->
-<div class="popup confirm" id="popup-confirm">
+<div class="popup alert" id="popup-confirm">
     <div class="pop-wrap">
         <div class="pop-cont">
             <dfn class="tit-pop">위치 정보 제공 동의</dfn>
