@@ -61,6 +61,15 @@ dfn { display: block; font-style: normal; }
 .bg-666 { background-color: #666 !important; }
 .bg-aaa { background-color: #aaa !important; }
 
+/* title */
+.tit01 { line-height: 48px; font-size: 40px; }
+.tit02 { line-height: 44px; font-size: 36px; }
+.tit03 { line-height: 40px; font-size: 32px; }
+.tit04 { line-height: 36px; font-size: 28px; }
+.tit05 { line-height: 32px; font-size: 24px; }
+.tit06 { line-height: 30px; font-size: 22px; }
+.tit07 { line-height: 28px; font-size: 20px; }
+
 /* btn-area */
 .btn-area.more { margin-top: 32px; text-align: center; }
 

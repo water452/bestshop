@@ -120,11 +120,13 @@
     <div id="guide-title">
         <h2>title</h2>
         <div class="guide-cont">
-            <h2 class="">LG전자 마케팅 플랫폼</h2>
-            <h3 class="">LG전자 마케팅 플랫폼</h3>
-            <h4 class="">LG전자 마케팅 플랫폼</h4>
-            <h5 class="">LG전자 마케팅 플랫폼</h5>
-            <h6 class="">LG전자 마케팅 플랫폼</h6>
+            <h2 class="tit01">LG전자 마케팅 플랫폼</h2>
+            <h2 class="tit02">LG전자 마케팅 플랫폼</h2>
+            <h2 class="tit03">LG전자 마케팅 플랫폼</h2>
+            <h2 class="tit04">LG전자 마케팅 플랫폼</h2>
+            <h2 class="tit05">LG전자 마케팅 플랫폼</h2>
+            <h2 class="tit06">LG전자 마케팅 플랫폼</h2>
+            <h2 class="tit07">LG전자 마케팅 플랫폼</h2>
         </div>
     </div> 
     <!-- //title -->
