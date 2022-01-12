@@ -612,10 +612,10 @@ ul.input-list-type .tit label .name sup {color:#e81953; margin-left:4px; font-si
 .res-main .cont-wrap .cont-area .step-area .my-select .box .btn-close {position:absolute; width:18px; height:18px; top:12px; right:12px; background:url(../images/icons/btn-close-24-black.svg) no-repeat center / contain}
 
 /* 상담예약조회페이지 */
+.res-main .inq-area .top-area {padding-bottom:20px; border-bottom:1px solid #000}
+.res-main .inq-area .top-area .tit {font-size:22px; font-weight:500; line-height:32px}
 .res-main .inq-area .inq-box-area {display:flex; justify-content:space-between}
 .res-main .inq-area .inq-box-area .inq-box {position:relative; width:calc(50% - 10px); height:548px; padding:24px 32px; border:1px solid #ddd; border-radius:8px}
-.res-main .inq-area .inq-box-area .inq-box .top-area {padding-bottom:20px; border-bottom:1px solid #000}
-.res-main .inq-area .inq-box-area .inq-box .top-area .tit {font-size:22px; font-weight:500; line-height:32px}
 .res-main .inq-area .inq-box-area .inq-box .body-area {padding-top:12px}
 .res-main .inq-area .inq-box-area .inq-box .btn-area {position:absolute; bottom:70px; left:0; right:0; text-align:center}
 .res-main .inq-area .inq-box-area .inq-box .btn-area .btn {display:inline-block; width:220px; padding:11px 28px}
@@ -1163,10 +1163,10 @@ ul.input-list-type .tit label .name sup {color:#e81953; margin-left:4px; font-si
     .bottom-cart-wrap .bar-wrap.care-ex .foot-area .btn-area .btn-reset span::before {width:20px; height:20px}
 
     /* 상담예약조회페이지 */
+    .res-main .inq-area .top-area .tit {font-size:16px; line-height:25px}
     .res-main .inq-area .inq-box-area {flex-direction:column}
     .res-main .inq-area .inq-box-area .inq-box {width:100%; height:auto; padding:20px 20px 40px}
     .res-main .inq-area .inq-box-area .inq-box + .inq-box {margin-top:24px}
-    .res-main .inq-area .inq-box-area .inq-box .top-area .tit {font-size:16px; line-height:25px}
     .res-main .inq-area .inq-box-area .inq-box .body-area ul.info > li {font-size:14px}
     .res-main .inq-area .inq-box-area .inq-box .body-area ul.info > li::before {top:9.5px}
     .res-main .inq-area .inq-box-area .inq-box .btn-area {position:static; margin-top:55px}
