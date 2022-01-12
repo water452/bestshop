@@ -37,11 +37,36 @@ dfn { display: block; font-style: normal; }
 .flag-wrap .flag:first-child { margin-left: 0; } 
 .flag-wrap .flag:not(:first-child):before { display: inline-block; width: 1px; height: 10px; margin: 0 6px; background-color: #ddd; vertical-align: -1px; content: ''; } 
 
+/* color */
+.color-red { color: #da0f47 !important; } 
+.color-red-dark { color: #e81953 !important; }
+.color-red-original { color: #a50024 !important; }
+.color-violet { color: #6735ea !important; }
+.color-emerald { color: #008182 !important; }
+.color-red-alert { color: #76892d !important; }
+.color-emerald-alert { color: #ff3723 !important; }
+.color-000 { color: #000 !important; }
+.color-666 { color: #666 !important; }
+.color-aaa { color: #aaa !important; }
+
+/* bg */
+.bg-red { background-color: #da0f47 !important; } 
+.bg-red-dark { background-color: #e81953 !important; }
+.bg-red-original { background-color: #a50024 !important; }
+.bg-violet { background-color: #6735ea !important; }
+.bg-emerald { background-color: #008182 !important; }
+.bg-red-alert { background-color: #76892d !important; }
+.bg-emerald-alert { background-color: #ff3723 !important; }
+.bg-000 { background-color: #000 !important; }
+.bg-666 { background-color: #666 !important; }
+.bg-aaa { background-color: #aaa !important; }
+
 /* btn-area */
 .btn-area.more { margin-top: 32px; text-align: center; }
 
 /* button */
 .btn.full { min-width: 0; width: 100%; }
+.btn.s01.mix { line-height: 40px; }
 .btn.s01 { padding: 0 16px; line-height: 38px; font-size: 14px; border-radius: 20px; }
 
 /* tab */
@@ -64,6 +89,16 @@ dfn { display: block; font-style: normal; }
 .tab01.is_depth > ul { padding-bottom: 50px; }
 [class*="tab"].is_depth > ul > li [class*="tab"] { display: none; position: absolute; bottom: 0; left: 0; width: 100%; }
 [class*="tab"].is_depth > ul > .on [class*="tab"] { display: block; }
+
+/* form요소 */
+.toggle-btn { display: inline-block; position: relative; vertical-align: middle; }
+.toggle-btn input { position: absolute !important; margin: -1px !important; padding: 0 !important; width: 1px !important; height: 1px !important; overflow: hidden !important; clip-path: polygon(0 0, 0 0, 0 0) !important; }
+.toggle-btn label { display: inline-block; position: relative; width: 60px; height: 32px; border-radius: 32px; border: 2px solid #aaa; background: #aaa; vertical-align: top; cursor: pointer; }
+.toggle-btn label:before { content: ""; position: absolute; top: 0; left: 0; width: 28px; height: 28px; background: #fff; border-radius: 100%; }
+.toggle-btn input + label:before { transition: all 0.1s ease-in-out 0s; -webkit-transition: all 0.1s ease-in-out 0s; }
+.toggle-btn input:disabled + label { border-color: #eee; background: #f4f4f4; }
+.toggle-btn input:checked + label { border-color: #da0f47; background: #da0f47; }
+.toggle-btn input:checked + label:before { left: calc(100% - 28px); }
 
 /* custom select */
 .sltBox { display: inline-block; position: relative; vertical-align: middle; }
