@@ -33,7 +33,7 @@
 .res-main .top-wrap .guide-area .guide-process [class*="guide-banner"] .swiper-slide + .swiper-slide {margin-left:32px}
 .res-main .top-wrap .guide-area .guide-process [class*="guide-banner"] .swiper-slide .box {position:relative; width:100%; padding:23px 0 28px; box-sizing:border-box; border:3px solid #ca9bd8; border-radius:16px; background-color:#fff}
 .res-main .top-wrap .guide-area .guide-process [class*="guide-banner"] .swiper-slide .box::before {content:''; display:block; position:absolute; width:32.5px; height:20px; top:calc(50% - 10px); left:-34.5px; background:url(../images/icons/icon-arr-11-purple.svg) no-repeat center}
-.res-main .top-wrap .guide-area.bg .guide-process [class*="guide-banner"] .swiper-slide .box::before {content:''; display:block; position:absolute; width:32.5px; height:20px; top:calc(50% - 10px); left:-34.5px; background:url(../images/icons/icon-arr-11-white.svg) no-repeat center}
+.res-main .top-wrap .guide-area.bg .guide-process [class*="guide-banner"] .swiper-slide .box::before {content:''; display:block; position:absolute; width:32.5px; height:20px; top:calc(50% - 10px); left:-35.5px; background:url(../images/icons/icon-arr-11-white.svg) no-repeat center}
 .res-main .top-wrap .guide-area .guide-process [class*="guide-banner"] .swiper-slide:first-child .box::before {display:none}
 .res-main .top-wrap .guide-area .guide-process [class*="guide-banner"] .swiper-slide .box .icon-wrap {display:block; width:140px; height:140px; margin:0 auto}
 .res-main .top-wrap .guide-area .guide-process [class*="guide-banner"] .swiper-slide .box .icon-wrap i[class^="icon"] {display:block; width:100%; height:100%}
@@ -187,13 +187,6 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
 .step-area .shop-date-wrap .view-area .map-wrap .api-area > img {width:100%}
 .step-area .shop-date-wrap .view-area .list-wrap {display:none; border:1px solid #000; border-radius:8px; overflow:hidden}
 .step-area .shop-date-wrap .view-area .list-wrap.active {display:block}
-.step-area .shop-date-wrap .view-area .list-wrap .search-wrap {width:100%; padding:16px 24px; box-shadow:0 3px 6px 0 rgba(0, 0, 0, 0.16)}
-.step-area .shop-date-wrap .view-area .list-wrap .search-wrap .search-box {position:relative; width:100%; max-width:594px}
-.step-area .shop-date-wrap .view-area .list-wrap .search-wrap .search-box > input {width:100%; padding:11px 36px 10px 0; font-size:16px; line-height:26px; border-bottom:2px solid #000}
-.step-area .shop-date-wrap .view-area .list-wrap .search-wrap .search-box > input:focus {outline:none; border-bottom:2px solid transparent; background: linear-gradient(#ffffff, #ffffff) padding-box, linear-gradient(119deg, #9c86e7 0%, #de64a0 100%) border-box}
-.step-area .shop-date-wrap .view-area .list-wrap .search-wrap .search-box .btn-search {position:absolute; width:24px; height:48px; top:0; right:0; background:url(../images/icons/icon-search.svg) no-repeat center; text-indent:-9999em}
-.step-area .shop-date-wrap .view-area .list-wrap .search-wrap .search-box .btn-clear {display:none; position:absolute; top:50%; right:44px; width:20px; height:20px; margin-top:-10px; background:url(../images/icons/icon-delete-20.svg) no-repeat 0 0; text-indent:-9999em}
-.step-area .shop-date-wrap .view-area .list-wrap .search-wrap .search-box input:valid + .btn-clear {display:block}
 .step-area .shop-date-wrap .view-area .list-wrap .view-wrap {display:flex; height:514px}
 .step-area .shop-date-wrap .view-area .list-wrap .view-wrap .lt {width:220px; height:100%; border-right:1px solid #ddd; overflow-y:auto}
 .step-area .shop-date-wrap .view-area .list-wrap .view-wrap .lt > ul {width:100%; padding:16px 0}
@@ -433,9 +426,7 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
 .res-main.care .prd-list-area > ul > .item .box .price-wrap dl {display:flex; justify-content:space-between; align-items:center}
 .res-main.care .prd-list-area > ul > .item .box .price-wrap dl dt {color:#767676; font-size:14px; line-height:22px}
 .res-main.care .prd-list-area > ul > .item .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-height:30px}
-.res-main.care .prd-list-area .btn-area {display:block!important; margin:20px auto 0!important; text-align:center}
-.res-main.care .prd-list-area .btn-view-more {position:relative; display:inline-block; min-width:0; width:90px; padding:6px 14px 6px 35px; border:1px solid #000; border-radius:40px; font-size:14px; line-height:26px}
-.res-main.care .prd-list-area .btn-view-more::before {content:''; display:block; position:absolute; width:16px; height:16px; top:calc(50% - 8px); left:16px; background:url(../images/icons/btn-plus-16.svg) no-repeat center / contain}
+.res-main.care .prd-list-area .btn-area {display:block!important; margin:20px auto 0!important}
 
 /* 소모품구매예약페이지 */
 .res-main .top-wrap .guide-area .guide-process .guide-banner-care-ex .swiper-slide .box .icon-wrap .icon01 {background:url(../images/icons/icon-res-guide-visit-01.svg) no-repeat center}
@@ -453,7 +444,7 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
 .res-main .cate-sticky-wrap .cate-wrap .cate-list > ul {display:flex; margin-left:240px; overflow-x:auto}
 .res-main .cate-sticky-wrap .cate-wrap .cate-list .radio-btn.tab-type {margin:0 4px}
 .res-main .cate-sticky-wrap .cate-wrap .cate-list .radio-btn.tab-type input {left:0}
-.res-main .cate-sticky-wrap .cate-wrap .cate-list .radio-btn.tab-type label {display:block; padding:0 16px; border-radius:44px; font-size:18px; font-weight:bold; line-height:44px; cursor:pointer; white-space:nowrap; background-color:#e4e4e4}
+.res-main .cate-sticky-wrap .cate-wrap .cate-list .radio-btn.tab-type label {display:block; padding:0 16px; border-radius:44px; font-size:18px; font-weight:bold; line-height:44px; cursor:pointer; white-space:nowrap}
 .res-main .cate-sticky-wrap .cate-wrap .cate-list .radio-btn.tab-type label:hover {background-color:#e4e4e4}
 .res-main .cate-sticky-wrap .cate-wrap .cate-list .radio-btn.tab-type label::after {display:none}
 .res-main .cate-sticky-wrap .cate-wrap .cate-list .radio-btn.tab-type input:checked + label {background-color:#e4e4e4}
@@ -502,9 +493,7 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
 .res-main.care-ex .plp-list-wrap .prd-list-area .list-wrap > ul > li .box .info-popup .body-area .model-list {display:flex; flex-wrap:wrap}
 .res-main.care-ex .plp-list-wrap .prd-list-area .list-wrap > ul > li .box .info-popup .body-area .model-list > li {width:50%; margin:5px 0; padding:0 5px; font-size:14px; line-height:22px}
 .res-main.care-ex .plp-list-wrap .prd-list-area .list-wrap > ul > li .box .info-popup .btn-close {position:absolute; width:24px; height:24px; top:27px; right:26px; background:url(../images/icons/btn-close-24-black.svg) no-repeat center / contain}
-.res-main.care-ex .plp-list-wrap .prd-list-area .list-wrap .btn-area {display:block!important; margin:26px auto 0!important; text-align:center}
-.res-main.care-ex .plp-list-wrap .prd-list-area .list-wrap .btn-view-more {position:relative; display:inline-block; min-width:0; width:90px; padding:6px 14px 6px 35px; border:1px solid #000; border-radius:40px; font-size:14px; line-height:26px}
-.res-main.care-ex .plp-list-wrap .prd-list-area .list-wrap .btn-view-more::before {content:''; display:block; position:absolute; width:16px; height:16px; top:calc(50% - 8px); left:16px; background:url(../images/icons/btn-plus-16.svg) no-repeat center / contain}
+.res-main.care-ex .plp-list-wrap .prd-list-area .list-wrap .btn-area {display:block!important; margin:26px auto 0!important}
 
 .bottom-cart-wrap {position:fixed; bottom:0; left:0; right:0; background-color:#fff; box-shadow:0 -3px 6px 0 rgba(0, 0, 0, 0.16); z-index:1000}
 .bottom-cart-wrap .bar-wrap.care-ex {width:100%; max-width:1460px; margin:0 auto; padding:0 40px 5px}
@@ -534,36 +523,53 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
 .bottom-cart-wrap .bar-wrap.care-ex .foot-area .btn-area .btn-reset span::before {content:''; display:block; position:absolute; width:24px; height:24px; top:0; left:0; background:url(../images/icons/icon-reset-pink.svg) no-repeat center / 20px 20px}
 .bottom-cart-wrap .bar-wrap.care-ex .foot-area .btn-area .btn-res {width:152px; margin-left:16px; padding:11px 19px}
 
-.res-main .cont-wrap .cont-area .step-area .my-select > ul {display:flex; margin:-6px -6px 0}
-.res-main .cont-wrap .cont-area .step-area .my-select > ul > li {width:calc(100% / 3); padding:6px}
-.res-main .cont-wrap .cont-area .step-area .my-select .box {position:relative; display:flex; align-items:center; height:100%; min-height:148px; padding:13px 36px 13px 25px; border-radius:8px; border:1px solid #ddd}
-.res-main .cont-wrap .cont-area .step-area .my-select .box .img-wrap {width:33%; max-width:120px; height:120px; margin-right:32px}
-.res-main .cont-wrap .cont-area .step-area .my-select .box .img-wrap > img {display:block; width:100%}
-.res-main .cont-wrap .cont-area .step-area .my-select .box .txt-wrap {width:67%}
-.res-main .cont-wrap .cont-area .step-area .my-select .box .txt-wrap .tit {font-size:16px; font-weight:bold; line-height:26px}
-.res-main .cont-wrap .cont-area .step-area .my-select .box .txt-wrap .code {margin-top:4px; font-size:14px; font-weight:bold; line-height:20px}
-.res-main .cont-wrap .cont-area .step-area .my-select .box .txt-wrap .price {margin-top:10px; font-size:16px; line-height:24px}
-.res-main .cont-wrap .cont-area .step-area .my-select .box.no-item {flex-direction:column; justify-content:center}
-.res-main .cont-wrap .cont-area .step-area .my-select .box.no-item .no-item-txt {color:#aaa; font-size:16px; font-weight:500; line-height:26px}
-.res-main .cont-wrap .cont-area .step-area .my-select .box .btn-add {width:124px; margin-top:18px; padding:3px 12px; border-radius:8px; font-size:14px}
-.res-main .cont-wrap .cont-area .step-area .my-select .box .btn-close {position:absolute; width:18px; height:18px; top:12px; right:12px; background:url(../images/icons/btn-close-24-black.svg) no-repeat center / contain}
+.step-area .my-select > ul {display:flex; margin:-6px -6px 0}
+.step-area .my-select > ul > li {width:calc(100% / 3); padding:6px}
+.step-area .my-select .box {position:relative; display:flex; align-items:center; height:100%; min-height:148px; padding:13px 36px 13px 25px; border-radius:8px; border:1px solid #ddd}
+.step-area .my-select .box .img-wrap {width:33%; max-width:120px; height:120px; margin-right:32px}
+.step-area .my-select .box .img-wrap > img {display:block; width:100%}
+.step-area .my-select .box .txt-wrap {width:67%}
+.step-area .my-select .box .txt-wrap .tit {font-size:16px; font-weight:bold; line-height:26px}
+.step-area .my-select .box .txt-wrap .code {margin-top:4px; font-size:14px; font-weight:bold; line-height:20px}
+.step-area .my-select .box .txt-wrap .price {margin-top:10px; font-size:16px; line-height:24px}
+.step-area .my-select .box.no-item {flex-direction:column; justify-content:center}
+.step-area .my-select .box.no-item .no-item-txt {color:#aaa; font-size:16px; font-weight:500; line-height:26px}
+.step-area .my-select .box .btn-add {width:124px; margin-top:18px; padding:3px 12px; border-radius:8px; font-size:14px}
+.step-area .my-select .box .btn-close {position:absolute; width:18px; height:18px; top:12px; right:12px; background:url(../images/icons/btn-close-24-black.svg) no-repeat center / contain}
 
-/* 상담예약조회페이지 */
-.res-main .inq-area .inq-box-area {display:flex; justify-content:space-between}
-.res-main .inq-area .inq-box-area .inq-box {position:relative; width:calc(50% - 10px); height:548px; padding:24px 32px; border:1px solid #ddd; border-radius:8px}
-.res-main .inq-area .inq-box-area .inq-box .top-area {padding-bottom:20px; border-bottom:1px solid #000}
-.res-main .inq-area .inq-box-area .inq-box .top-area .tit {font-size:22px; font-weight:500; line-height:32px}
-.res-main .inq-area .inq-box-area .inq-box .body-area {padding-top:12px}
-.res-main .inq-area .inq-box-area .inq-box .btn-area {position:absolute; bottom:70px; left:0; right:0; text-align:center}
-.res-main .inq-area .inq-box-area .inq-box .btn-area .btn {display:inline-block; width:220px; padding:11px 28px}
+/* 상담예약조회 - 인증페이지 */
+.inq-area .inq-box-area {display:flex; justify-content:space-between}
+.inq-area .inq-box-area .inq-box {position:relative; width:calc(50% - 10px); height:548px; padding:24px 32px; border:1px solid #ddd; border-radius:8px}
+.inq-area .top-area {padding-bottom:16px; border-bottom:1px solid #000}
+.inq-area .top-area .tit {font-size:22px; font-weight:500; line-height:36px}
+.inq-area .inq-box-area .inq-box .body-area {padding-top:12px}
+.inq-area .inq-box-area .inq-box .btn-area {position:absolute; bottom:70px; left:0; right:0; text-align:center}
+.inq-area .inq-box-area .inq-box .btn-area .btn {display:inline-block; width:220px; padding:11px 28px}
 
-.res-main .inq-area .inq-box-area .inq-box .phone-check-wrap {padding-bottom:44px}
-.res-main .inq-area .inq-box-area .inq-box .phone-check-wrap sup {color:#e81953; font-size:14px; line-height:20px}
-.res-main .inq-area .inq-box-area .inq-box .phone-check-wrap ul.input-list-type {margin-top:30px}
+.inq-area .inq-box-area .inq-box .phone-check-wrap {padding-bottom:44px}
+.inq-area .inq-box-area .inq-box .phone-check-wrap sup {color:#e81953; font-size:14px; line-height:20px}
+.inq-area .inq-box-area .inq-box .phone-check-wrap ul.input-list-type {margin-top:30px}
 
-.res-main .inq-area .caution-box {margin-top:40px; padding:40px 40px 34px; border-radius:8px; background-color:#f4f4f4}
-.res-main .inq-area .caution-box .tit {margin-bottom:8px; font-size:14px; font-weight:500; line-height:22px}
+.inq-area .caution-box {margin-top:40px; padding:40px 40px 34px; border-radius:8px; background-color:#f4f4f4}
+.inq-area .caution-box .tit {margin-bottom:8px; font-size:14px; font-weight:500; line-height:22px}
 
+/* 상담예약조회 - 탭페이지 */
+.inq-area .res-his-area {padding-top:48px}
+.inq-area .res-his-area .res-history > li {position:relative; padding:24px 0}
+.inq-area .res-his-area .res-history > li + li {border-top:1px solid #ddd}
+.inq-area .res-his-area .res-history .his-tit-area {display:flex; align-items:center}
+.inq-area .res-his-area .res-history .his-tit-area .tit {font-size:18px; line-height:28px}
+.inq-area .res-his-area .res-history .his-tit-area .flag {display:block; width:54px; margin-left:10px; border:1px solid #ff3723; border-radius:2px; color:#ff3723; font-size:12px; font-weight:500; line-height:18px; text-align:center}
+.inq-area .res-his-area .res-history .his-info-area {margin-top:16px}
+.inq-area .res-his-area .res-history .his-info-area dl {display:flex; font-size:16px; line-height:26px}
+.inq-area .res-his-area .res-history .his-info-area dl dt {min-width:90px}
+.inq-area .res-his-area .res-history .his-info-area dl dd {margin-left:10px}
+.inq-area .res-his-area .res-history .his-info-area dl + dl {margin-top:2px}
+.inq-area .res-his-area .res-history .his-info-area .box-wrap {display:flex; flex-wrap:wrap; margin-top:14px; padding:24px 32px; border-radius:8px; background-color:#f4f4f4}
+.inq-area .res-his-area .res-history .his-info-area .box-wrap dl {width:calc(100% / 3)}
+.inq-area .res-his-area .res-history .his-info-area .box-wrap dl dt {font-weight:500}
+.inq-area .res-his-area .res-history .btn-area {position:absolute; top:24px; right:0}
+.inq-area .res-his-area .btn-area {margin-top:8px}
 
 /* mobile */
 @media screen and (max-width:1440px) {
@@ -621,8 +627,8 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
     .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select > ul {flex-wrap:wrap}
     .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select > ul > li {width:50%}
 
-    .res-main .cont-wrap .cont-area .step-area .my-select > ul {flex-wrap:wrap}
-    .res-main .cont-wrap .cont-area .step-area .my-select > ul > li {width:50%}
+    .step-area .my-select > ul {flex-wrap:wrap}
+    .step-area .my-select > ul > li {width:50%}
 }
 @media screen and (max-width:996px) {
     /* 제품선택 - 제품군형 */
@@ -693,7 +699,7 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
     .res-main .cont-wrap .cont-area {padding-top:4px}
     .cont-wrap.w100 {padding:0 16px 4px}
     .res-main .step-area.step02 .date-wrap .input-area > .base-type .radio-btn.btn-type2 label {border-radius:4px}
-    .res-main .cont-wrap .cont-area .step-area.step03 .btn-area {display:none}
+    /* .res-main .cont-wrap .cont-area .step-area.step03 .btn-area {display:none} */
 
     /******** 매장상담예약 input ********/
     /* 상담목적 */
@@ -794,10 +800,6 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
     .map-wrap > ul[class*="input"] > li:nth-child(2) {min-width:190px}
     .map-wrap > ul[class*="input"] > li .slt {width:100%}
     .map-wrap [class*="input"] > li + li {margin-left:6px}
-    .step-area .shop-date-wrap .view-area .list-wrap .search-wrap {padding:0 23px 11px}
-    .step-area .shop-date-wrap .view-area .list-wrap .search-wrap .search-box {margin:0 auto}
-    .step-area .shop-date-wrap .view-area .list-wrap .search-wrap .search-box > input {background-color:#fff; font-size:13px; line-height:24px}
-    .step-area .shop-date-wrap .view-area .list-wrap .search-wrap .search-box .btn-search {width:16px; background:url(../images/icons/icon-search_mo.svg) no-repeat center / contain}
     .step-area .shop-date-wrap .view-area .list-wrap .view-wrap {flex-direction:column}
     .step-area .shop-date-wrap .view-area .list-wrap .view-wrap .lt {display:none}
     .step-area .shop-date-wrap .view-area .list-wrap .view-wrap .mo-select {display:block; padding:16px 12px 8px}
@@ -971,8 +973,6 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
     .res-main.care .prd-list-area > ul > .item .box .price-wrap dl dt {font-size:13px}
     .res-main.care .prd-list-area > ul > .item .box .price-wrap dl dd {font-size:16px; line-height:24px}
     .res-main.care .prd-list-area .btn-area {margin-top:32px!important}
-    .res-main.care .prd-list-area .btn-view-more {width:86px; padding:6px 15px 6px 33px; font-size:13px}
-    .res-main.care .prd-list-area .btn-view-more::before {width:14px; height:14px; top:calc(50% - 7px)}
 
     .res-main.care .cont-wrap .cont-area .step-area.step03 .btn-area {display:block; margin:10px auto 0}
     .res-main.care .cont-wrap .cont-area .step-area.step03 .btn-area.bg {display:none}
@@ -1020,19 +1020,17 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
     .res-main.care-ex .plp-list-wrap .prd-list-area .list-wrap > ul > li .box .btn-area {position:static; margin-top:37px}
     .res-main.care-ex .plp-list-wrap .prd-list-area .list-wrap > ul > li .box .btn-area .btn-select {padding:8.5px 30px; font-size:16px}
     .res-main.care-ex .plp-list-wrap .prd-list-area .list-wrap .btn-area {margin-top:32px!important}
-    .res-main.care-ex .plp-list-wrap .prd-list-area .list-wrap .btn-view-more {width:86px; padding:6px 15px 6px 33px; font-size:13px}
-    .res-main.care-ex .plp-list-wrap .prd-list-area .list-wrap .btn-view-more::before {width:14px; height:14px; top:calc(50% - 7px)}
 
-    .res-main .cont-wrap .cont-area .step-area .my-select > ul > li {width:100%}
-    .res-main .cont-wrap .cont-area .step-area .my-select .box {min-height:150px; padding:24px 36px 24px 24px; border-radius:4px}
-    .res-main .cont-wrap .cont-area .step-area .my-select .box .img-wrap {width:85px; height:85px; margin-right:20px}
-    .res-main .cont-wrap .cont-area .step-area .my-select .box .txt-wrap {width:calc(100% - 105px)}
-    .res-main .cont-wrap .cont-area .step-area .my-select .box .txt-wrap .tit {font-size:15px; line-height:19px}
-    .res-main .cont-wrap .cont-area .step-area .my-select .box .txt-wrap .code {margin-top:2px; font-size:13px}
-    .res-main .cont-wrap .cont-area .step-area .my-select .box .txt-wrap .price {font-size:18px; font-weight:bold}
-    .res-main .cont-wrap .cont-area .step-area .my-select .box.no-item .no-item-txt {font-size:13px}
-    .res-main .cont-wrap .cont-area .step-area .my-select .box .btn-add {width:auto; min-width:114px; padding:10px 11px; font-size:13px}
-    .res-main .cont-wrap .cont-area .step-area .my-select .box .btn-close {width:24px; height:24px}
+    .step-area .my-select > ul > li {width:100%}
+    .step-area .my-select .box {min-height:150px; padding:24px 36px 24px 24px; border-radius:4px}
+    .step-area .my-select .box .img-wrap {width:85px; height:85px; margin-right:20px}
+    .step-area .my-select .box .txt-wrap {width:calc(100% - 105px)}
+    .step-area .my-select .box .txt-wrap .tit {font-size:15px; line-height:19px}
+    .step-area .my-select .box .txt-wrap .code {margin-top:2px; font-size:13px}
+    .step-area .my-select .box .txt-wrap .price {font-size:18px; font-weight:bold}
+    .step-area .my-select .box.no-item .no-item-txt {font-size:13px}
+    .step-area .my-select .box .btn-add {width:auto; min-width:114px; padding:10px 11px; font-size:13px}
+    .step-area .my-select .box .btn-close {width:24px; height:24px}
 
     .bottom-cart-wrap {bottom:69px}
     .bottom-cart-wrap .bar-wrap.care-ex {position:relative; padding:0 16px}
@@ -1055,11 +1053,12 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
     .bottom-cart-wrap .bar-wrap.care-ex .foot-area .btn-area .btn-reset span {padding-left:20px; font-size:14px}
     .bottom-cart-wrap .bar-wrap.care-ex .foot-area .btn-area .btn-reset span::before {width:20px; height:20px}
 
-    /* 상담예약조회페이지 */
+    /* 상담예약조회 - 인증페이지 */
     .res-main .inq-area .inq-box-area {flex-direction:column}
     .res-main .inq-area .inq-box-area .inq-box {width:100%; height:auto; padding:20px 20px 40px}
     .res-main .inq-area .inq-box-area .inq-box + .inq-box {margin-top:24px}
-    .res-main .inq-area .inq-box-area .inq-box .top-area .tit {font-size:16px; line-height:25px}
+    .res-main .inq-area .top-area {padding-bottom:12px}
+    .res-main .inq-area .top-area .tit {font-size:16px; line-height:25px}
     .res-main .inq-area .inq-box-area .inq-box .body-area ul.info > li {font-size:14px}
     .res-main .inq-area .inq-box-area .inq-box .body-area ul.info > li::before {top:9.5px}
     .res-main .inq-area .inq-box-area .inq-box .btn-area {position:static; margin-top:55px}
@@ -1072,4 +1071,7 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
     .res-main .inq-area .caution-box ul li {padding-left:6px; font-size:14px; line-height:19px}
     .res-main .inq-area .caution-box ul li::before {top:9.5px}
     .res-main .inq-area .caution-box ul li + li {margin-top:5px}
+
+    /* 상담예약조회 - 탭페이지 */
+
 }
