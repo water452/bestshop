@@ -166,11 +166,14 @@ table{border-collapse:collapse}
 
 /* button */
 .btn.full { min-width: 0; width: 100%; }
-.btn.s01.mix { line-height: 40px; }
+.btn.s01.mix, .btn.s02.mix { padding-top: 1px; padding-bottom: 1px; }
 .btn.s01 { padding: 0 16px; line-height: 38px; font-size: 14px; border-radius: 20px; }
 .btn.s01.h32 {line-height:30px}
 .btn.s01.more {position:relative; display:inline-block; min-width:90px; height:auto; padding-left:36px; line-height:38px}
 .btn.s01.more::before {content:''; display:block; position:absolute; width:16px; height:16px; top:calc(50% - 8px); left:16px; background:url(../images/icons/btn-plus-16.svg) no-repeat center / contain}
+.btn.s02 { padding: 0 16px; line-height: 32px; font-size: 14px; border-radius: 17px; }
+.btn.b01 { border-radius: 8px; }
+.btn.border-gray { color: #000 !important; border-color: #ddd !important; background: #fff !important; }
 
 /* bullet list */
 ul.bull > li {position:relative; padding-left:10px; font-size:14px; line-height:22px}
