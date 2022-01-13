@@ -150,8 +150,8 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
 /* 추가전달사항 */
 .text-area .info-msg {float:left; margin-top:10px; margin-left:10px; color:#777; font-size:14px; line-height:22px}
 .text-area .txt-count {float:right; margin-top:10px; margin-right:10px; color:#777; font-size:14px; line-height:22px}
-
 /******** // 매장상담예약 input ********/
+
 /* result-area */
 .step-area .result-area {display:none}
 .step-area .result-area.active {display:block}
@@ -548,11 +548,11 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
 .res-main .cont-wrap .cont-area .step-area .my-select .box .btn-add {width:124px; margin-top:18px; padding:3px 12px; border-radius:8px; font-size:14px}
 .res-main .cont-wrap .cont-area .step-area .my-select .box .btn-close {position:absolute; width:18px; height:18px; top:12px; right:12px; background:url(../images/icons/btn-close-24-black.svg) no-repeat center / contain}
 
-/* 상담예약조회 - 인증페이지 */
-.res-main .inq-area .top-area {padding-bottom:20px; border-bottom:1px solid #000}
-.res-main .inq-area .top-area .tit {font-size:22px; font-weight:500; line-height:32px}
+/* 상담예약조회페이지 */
 .res-main .inq-area .inq-box-area {display:flex; justify-content:space-between}
 .res-main .inq-area .inq-box-area .inq-box {position:relative; width:calc(50% - 10px); height:548px; padding:24px 32px; border:1px solid #ddd; border-radius:8px}
+.res-main .inq-area .inq-box-area .inq-box .top-area {padding-bottom:20px; border-bottom:1px solid #000}
+.res-main .inq-area .inq-box-area .inq-box .top-area .tit {font-size:22px; font-weight:500; line-height:32px}
 .res-main .inq-area .inq-box-area .inq-box .body-area {padding-top:12px}
 .res-main .inq-area .inq-box-area .inq-box .btn-area {position:absolute; bottom:70px; left:0; right:0; text-align:center}
 .res-main .inq-area .inq-box-area .inq-box .btn-area .btn {display:inline-block; width:220px; padding:11px 28px}
@@ -564,8 +564,6 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
 .res-main .inq-area .caution-box {margin-top:40px; padding:40px 40px 34px; border-radius:8px; background-color:#f4f4f4}
 .res-main .inq-area .caution-box .tit {margin-bottom:8px; font-size:14px; font-weight:500; line-height:22px}
 
-/* 상담예약조회 - 탭페이지 */
-.res-his-area {padding-top:46px}
 
 /* mobile */
 @media screen and (max-width:1440px) {
@@ -663,6 +661,7 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
     .sitemap .inner > ul .category-cluster .level-3 * {font-size:14px; line-height:22px}
     .sitemap .inner > ul .category-cluster .level-3 li + li {margin-top:8px}
 
+    
     /* 매장상담예약 상단 공통 영역 */
     .res-main [class*="tab"] + .top-wrap {width:calc(100% + 32px); margin-left:-16px}
     .res-main .top-wrap .guide-area .guide-process {padding:25px 0 0}
@@ -768,7 +767,6 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
     /* 추가전달사항 */
     .text-area .info-msg {margin-top:8px; margin-left:8px; font-size:10px; line-height:17px}
     .text-area .txt-count {margin-top:8px; margin-right:8px; font-size:10px; line-height:17px}
-
     /******** 매장상담예약 input ********/
     /* result-area */
     .step-area .result-area .info-txt-com {background-size:20px 20px!important}
@@ -1057,11 +1055,11 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
     .bottom-cart-wrap .bar-wrap.care-ex .foot-area .btn-area .btn-reset span {padding-left:20px; font-size:14px}
     .bottom-cart-wrap .bar-wrap.care-ex .foot-area .btn-area .btn-reset span::before {width:20px; height:20px}
 
-    /* 상담예약조회 - 인증페이지 */
-    .res-main .inq-area .top-area .tit {font-size:16px; line-height:25px}
+    /* 상담예약조회페이지 */
     .res-main .inq-area .inq-box-area {flex-direction:column}
     .res-main .inq-area .inq-box-area .inq-box {width:100%; height:auto; padding:20px 20px 40px}
     .res-main .inq-area .inq-box-area .inq-box + .inq-box {margin-top:24px}
+    .res-main .inq-area .inq-box-area .inq-box .top-area .tit {font-size:16px; line-height:25px}
     .res-main .inq-area .inq-box-area .inq-box .body-area ul.info > li {font-size:14px}
     .res-main .inq-area .inq-box-area .inq-box .body-area ul.info > li::before {top:9.5px}
     .res-main .inq-area .inq-box-area .inq-box .btn-area {position:static; margin-top:55px}

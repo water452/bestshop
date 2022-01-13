@@ -118,18 +118,62 @@ table{border-collapse:collapse}
 .table-basic.col table th{border-top:1px solid #ddd}
 .table-basic.col table td{border-bottom:1px solid #ddd}
 
+/* 공통 */
+.pc .only_pc{display:block!important}
+.mo .only_pc{display:none!important}
+.pc .only_mo{display:none!important}
+.mo .only_mo{display:block!important}
+.scroll-fixed{overflow:hidden;position:relative;height:100%;}
+
+/* select */
+.slt.border-type {position:relative; width:200px}
+.slt.border-type > a {display:block; width:100%; padding:10px 15px; border:1px solid #ddd; border-radius:8px; background-color:#fff; font-size:16px; line-height:26px}
+.slt.border-type.on > a {border-radius:8px 8px 0 0; border-color:#222; border-bottom-color:transparent}
+.slt.border-type > a::before {right:15px}
+.slt.border-type ul {width:100%; top:48px; left:0; padding:0; border:1px solid #222; border-radius:0 0 8px 8px; border-top:none; box-shadow:none}
+.slt.border-type ul li > a {padding:10px 15px; background-color:#fff; font-size:16px; line-height:26px; text-align:left}
+.slt.width-auto ul {width:auto; left:50%; transform:translateX(-50%)}
+
+/* step title */
+.step-tit {display:flex; align-items:center; margin-bottom:16px; font-size:20px; font-weight:bold; line-height:32px}
+.step-tit > span {display:block; margin-left:3px; font-size:16px; font-weight:500}
+.step-tit ~ .step-tit {margin-top:50px}
+.step-tit > sup {color:#da0f47; font-size:20px; font-weight:bold; line-height:32px}
+.tit-area {display:flex; align-items:center; margin-bottom:16px}
+.tit-area .step-tit {margin-bottom:0}
+.tit-area .step-tit + em {margin-left:10px; font-size:14px; line-height:22px}
+
+/* step 필수입력항목  */
+.step-top-note {display:flex; justify-content:flex-end; margin-bottom:12px; font-size:14px; line-height:20px}
+.step-top-note sup {margin-right:3px; color:#da0f47; font-size:14px; line-height:20px}
+
+/* tab */
+.res-main [class*="tab"].center {display:flex; justify-content:center}
+
+/* btn-area */
+.btn-area.center {text-align:center}
+.btn-area.m64 {margin-top:64px}
+.btn-area .btn + .btn {margin-left:13px}
+
+/* bullet list */
+ul.bull > li {position:relative; padding-left:10px; font-size:14px; line-height:22px}
+ul.bull > li::before {content:''; display:block; position:absolute; width:2px; height:2px; top:10px; left:0; border-radius:50%; background-color:#000}
+ul.bull > li + li {margin-top:4px}
+ul.bull > li.red {color:#da0f47}
+ul.bull > li.red::before {background-color:#da0f47}
+
 /* input */
 ul[class*="input"] {display:flex}
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {-webkit-appearance:none; margin:0}
-
 .text-area::after {content:''; display:block; clear:both}
 .text-area textarea {height:140px; padding:26px 24px; border:1px solid #ddd; border-radius:8px; font-size:16px; line-height:24px}
 .text-area textarea::placeholder {color:#666; font-size:16px; line-height:24px}
-
+/* 휴대폰인증 input */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {-webkit-appearance:none; margin:0}
 input.base-txt {width:100%; height:48px; padding:10px 15px; border:1px solid #ddd; border-radius:8px; font-size:16px; line-height:26px}
 input:disabled {border-color:#ededed; background-color:#ededed}
-
 ul.input-list-type {flex-direction:column}
 ul.input-list-type li + li {margin-top:32px}
 ul.input-list-type.pc-row > li {display:flex}
@@ -138,20 +182,11 @@ ul.input-list-type.pc-row .tit > label {line-height:48px}
 ul.input-list-type .tit {margin-bottom:8px; font-size:16px; font-weight:bold; line-height:26px}
 ul.input-list-type .tit label .name {display:flex}
 ul.input-list-type .tit label .name sup {color:#e81953; margin-left:4px; font-size:16px; font-weight:bold; line-height:48px}
-
 .input-pin-type {display:flex; margin-bottom:12px}
 .input-pin-type input {width:calc(100% - 112px)}
 .input-pin-type .btn-send {width:104px; margin-left:8px; padding:12px 10px; border:1px solid #000; border-radius:8px; background-color:#fff; font-size:14px; font-weight:bold; line-height:20px; white-space:nowrap}
-
 .note {display:flex; font-size:14px; line-height:20px}/* 필수 입력 사항 */
 .note > sup {margin-right:3px; color:#e81953; font-size:14px; line-height:20px}
-
-/* 공통 */
-.pc .only_pc{display:block!important}
-.mo .only_pc{display:none!important}
-.pc .only_mo{display:none!important}
-.mo .only_mo{display:block!important}
-.scroll-fixed{overflow:hidden;position:relative;height:100%;}
 
 /* 헤더 */
 .header{position:relative;background-color:#fff}
@@ -479,37 +514,38 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 }
 @media screen and (max-width:767px){
 	/* select */
-    .slt.border-type > a,
-    .slt.border-type > ul {display:none}
-    .slt.border-type select {width:100%; height:auto; border:1px solid #ddd; border-radius:8px; background-position:top 50% right 11px; padding:11px 12px; font-size:14px; line-height:22px}
+	.slt.border-type > a,
+	.slt.border-type > ul {display:none}
+	.slt.border-type select {width:100%; height:auto; border:1px solid #ddd; border-radius:8px; background-position:top 50% right 11px; padding:11px 12px; font-size:14px; line-height:22px}
 
-    /* step title */
-    .step-tit {font-size:16px; line-height:25px}
-    .step-tit ~ .step-tit {margin-top:40px}
-    .step-tit > span {margin-left:5px; font-size:11px}
-    .step-tit > sup {font-size:16px; line-height:25px}
-    .tit-area {flex-direction:column; align-items:flex-start; margin-bottom:12px}
-    .tit-area .step-tit + em {margin-left:0; font-size:10px; line-height:19px}
+	/* step title */
+	.step-tit {font-size:16px; line-height:25px}
+	.step-tit ~ .step-tit {margin-top:40px}
+	.step-tit > span {margin-left:5px; font-size:11px}
+	.step-tit > sup {font-size:16px; line-height:25px}
+	.tit-area {flex-direction:column; align-items:flex-start; margin-bottom:12px}
+	.tit-area .step-tit + em {margin-left:0; font-size:10px; line-height:19px}
 
-    /* step 필수입력항목  */
-    .step-top-note {margin-bottom:5px; font-size:10px; line-height:15px}
-    .step-top-note sup {font-size:10px; line-height:15px}
+	/* step 필수입력항목  */
+	.step-top-note {margin-bottom:5px; font-size:10px; line-height:15px}
+	.step-top-note sup {font-size:10px; line-height:15px}
 
-    /* tab */
-    .res-main [class*="tab"].center {justify-content:flex-start}
+	/* tab */
+	.res-main [class*="tab"].center {justify-content:flex-start}
 
-    /* btn-area */
-    .btn-area.m64 {margin-top:30px}
-    .btn-area.mo50 > .btn {width:calc(50% - 4.5px)}
-    .btn-area .btn + .btn {margin-left:5px}
+	/* btn-area */
+	.btn-area.m64 {margin-top:30px}
+	.btn-area.mo50 > .btn {width:calc(50% - 4.5px)}
+	.btn-area .btn + .btn {margin-left:5px}
 
-    /* bullet list */
-    ul.bull > li {padding-left:5px; font-size:12px; line-height:20px}
-    ul.bull > li + li {margin-top:5px}
+	/* bullet list */
+	ul.bull > li {padding-left:5px; font-size:12px; line-height:20px}
+	ul.bull > li + li {margin-top:5px}
 
 	/* input */
-    .text-area textarea {padding:13px 16px; font-size:14px; line-height:19px}
+	.text-area textarea {padding:13px 16px; font-size:14px; line-height:19px}
     .text-area textarea::placeholder {font-size:14px; line-height:19px}
+	/* 휴대폰인증 input */
     input.base-txt {height:auto; padding:11px 12px; font-size:14px; line-height:22px}
     ul.input-list-type .tit {font-size:14px; line-height:20px}
     ul.input-list-type.pc-row > li {flex-direction:column}
@@ -520,7 +556,6 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
     .input-pin-type .btn-send {width:99px; margin-left:6.5px; font-size:13px; font-weight:500}
     .note {font-size:13px; font-weight:500}
     .note sup {font-size:13px}
-
 
 	header.fixed{padding-top:48px;}
 	header.fixed .header-wrap{position:fixed;top:0;left:0;width:100%;transition:all 0.2s linear;}
