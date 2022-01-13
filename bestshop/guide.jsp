@@ -72,6 +72,11 @@
     <div id="guide-color">
         <h2>color</h2>
         <div class="guide-cont">
+            <h3 class="tit-guide">Default Color</h3>
+            <p class="guide-txt-sample color-000">.color-000 (#000)</p>
+            <p class="guide-txt-sample color-666">.color-666 (#666)</p>
+            <p class="guide-txt-sample color-aaa">.color-aaa (#aaa)</p>
+            <hr>
             <h3 class="tit-guide">Primary Color</h3>
             <p class="guide-txt-sample color-red">.color-red (#da0f47)</p>
             <p class="guide-txt-sample color-red-dark">.color-red-dark (#e81953)</p>
@@ -81,14 +86,9 @@
             <p class="guide-txt-sample color-emerald">.color-emerald (#008182)</p>
             <p class="guide-txt-sample color-red-original">.color-red-original (#a50024)</p>
             <hr>
-            <h3 class="tit-guide">Default Color</h3>
-            <p class="guide-txt-sample color-000">.color-000 (#000)</p>
-            <p class="guide-txt-sample color-666">.color-666 (#666)</p>
-            <p class="guide-txt-sample color-aaa">.color-aaa (#aaa)</p>
-            <hr>
             <h3 class="tit-guide">Validation Color</h3>
-            <p class="guide-txt-sample color-emerald-alert">.color-emerald-alert (#ff3723)</p>
-            <p class="guide-txt-sample color-red-alert">.color-red-alert (#76892d)</p>
+            <p class="guide-txt-sample color-red-alert">.color-red-alert (#ff3723)</p>
+            <p class="guide-txt-sample color-emerald-alert">.color-emerald-alert (#76892d)</p>
         </div>
     </div> 
     <!-- //color -->
@@ -96,6 +96,11 @@
     <div id="guide-bg">
         <h2>background-color</h2>
         <div class="guide-cont">
+            <h3 class="tit-guide">Default Color</h3>
+            <div class="guide-bg-box bg-000"><span>.bg-000<br/>#000</span></div>
+            <div class="guide-bg-box bg-666"><span>.bg-666<br/>#666</span></div>
+            <div class="guide-bg-box bg-aaa"><span>.bg-aaa<br/>#aaa</span></div>
+            <hr>
             <h3 class="tit-guide">Primary Color</h3>
             <div class="guide-bg-box bg-red"><span>.bg-red<br/>#da0f47</span></div>
             <div class="guide-bg-box bg-red-dark"><span>.bg-red-dark<br/>#e81953</span></div>
@@ -105,14 +110,9 @@
             <div class="guide-bg-box bg-emerald"><span>.bg-emerald<br/>#008182</span></div>
             <div class="guide-bg-box bg-red-original"><span>.bg-red-original<br/>#a50024</span></div>
             <hr>
-            <h3 class="tit-guide">Default Color</h3>
-            <div class="guide-bg-box bg-000"><span>.bg-000<br/>#000</span></div>
-            <div class="guide-bg-box bg-666"><span>.bg-666<br/>#666</span></div>
-            <div class="guide-bg-box bg-aaa"><span>.bg-aaa<br/>#aaa</span></div>
-            <hr>
             <h3 class="tit-guide">Validation Color</h3>
-            <div class="guide-bg-box bg-emerald-alert"><span>.bg-emerald-alert<br/>#ff3723</span></div>
-            <div class="guide-bg-box bg-red-alert"><span>.bg-red-alert<br/>#76892d</span></div>
+            <div class="guide-bg-box bg-red-alert"><span>.box bg-red-alert<br/>#ff3723</span></div>
+            <div class="guide-bg-box bg-emerald-alert"><span>.bg-emerald-alert<br/>#76892d</span></div>
         </div>
     </div> 
     <!-- //background-color -->
@@ -134,7 +134,10 @@
     <div id="guide-txt">
         <h2>txt</h2>
         <div class="guide-cont">
-            <p class="">LG전자 마케팅 플랫폼</p>
+            <p class="txt01">LG전자 마케팅 플랫폼</p>
+            <p class="txt02">LG전자 마케팅 플랫폼</p>
+            <p class="txt03">LG전자 마케팅 플랫폼</p>
+            <p class="txt04">LG전자 마케팅 플랫폼</p>
         </div>
     </div> 
     <!-- //txt -->

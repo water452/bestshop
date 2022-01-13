@@ -609,7 +609,7 @@
       "startdate": "2022-01-07",
       "finishdate": "2022-01-10",
       "status": "완료",
-      "filename": "./pages/event/BSF-RES-VISIT.jsp",
+      "filename": "./pages/event/BSF-EVE-WED-INFO.jsp",
       "memo": ""
     },
     {
@@ -621,7 +621,7 @@
       "startdate": "2022-01-11",
       "finishdate": "2022-01-12",
       "status": "완료",
-      "filename": "./pages/event/BSF-RES-VISIT.jsp",
+      "filename": "./pages/event/BSF-EVE-WED-INFO.jsp",
       "memo": ""
     },
     {
@@ -633,7 +633,7 @@
       "startdate": "2022-01-13",
       "finishdate": "2022-01-13",
       "status": "완료",
-      "filename": "./pages/event/BSF-RES-VISIT.jsp",
+      "filename": "./pages/event/BSF-EVE-WED-INFO.jsp",
       "memo": ""
     },
     {
@@ -645,7 +645,7 @@
       "startdate": "2022-01-14",
       "finishdate": "2022-01-14",
       "status": "완료",
-      "filename": "./pages/event/BSF-RES-VISIT-DONE.jsp",
+      "filename": "./pages/event/BSF-EVE-WED-RES-DONE.jsp",
       "memo": ""
     },
     {

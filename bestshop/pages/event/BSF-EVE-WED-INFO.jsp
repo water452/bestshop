@@ -825,28 +825,30 @@
                             <h3 class="step-tit">예약자 정보<sup>*</sup></h3>
                             <div class="lt">
                                 <form action="#">
-                                    <ul class="input-box-type">
-                                        <li>
-                                            <div class="tit">
-                                                <label for="user-name">
-                                                    <span class="name">이름</span>
-                                                </label>
-                                            </div>
-                                            <div class="txt-box">
-                                                <input type="text" name="user-name" placeholder="이름 입력">
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="tit">
-                                                <label for="user-number">
-                                                    <span class="name">휴대폰번호</span>
-                                                </label>
-                                            </div>
-                                            <div class="txt-box">
-                                                <input type="number" name="user-number" placeholder="휴대폰 번호 입력">
-                                            </div>
-                                        </li>
-                                    </ul>
+                                    <div class="box-gray">
+                                        <ul class="input-list-type">
+                                            <li>
+                                                <div class="tit">
+                                                    <label for="user-name">
+                                                        <span class="name">이름</span>
+                                                    </label>
+                                                </div>
+                                                <div class="txt-box">
+                                                    <input class="base-txt" type="text" name="user-name" placeholder="이름 입력">
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="tit">
+                                                    <label for="user-number">
+                                                        <span class="name">휴대폰번호</span>
+                                                    </label>
+                                                </div>
+                                                <div class="txt-box">
+                                                    <input class="base-txt" type="number" name="user-number" placeholder="휴대폰 번호 입력">
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </form>
                             </div>
                             <div class="rt">
@@ -985,48 +987,44 @@
             <div class="phone-check-wrap">
                 <p class="note"><sup>*</sup>필수 입력 사항</p>
                 <form action="#">
-                    <div class="input-area">
-                        <div class="name-box">
+                    <ul class="input-list-type pc-row">
+                        <li class="name-box">
                             <div class="tit">
                                 <label for="user-name02">
                                     <span class="name">이름<sup>*</sup></span>
                                 </label>
                             </div>
                             <div class="txt-box">
-                                <input type="text" name="user-name02" placeholder="이름 입력">
+                                <input class="base-txt" type="text" name="user-name02" placeholder="이름 입력">
                             </div>
-                        </div>
-                        <div class="num-box">
+                          </li>
+                        <li class="num-box">
                             <div class="tit">
                                 <label for="user-number02">
                                     <span class="name">휴대 전화<sup>*</sup></span>
                                 </label>
                             </div>
                             <div class="txt-box">
-                                <ul>
-                                    <li>
-                                        <input type="number" name="user-number02" placeholder="휴대전화 번호 입력">
-                                        <button type="button" class="btn-send">인증번호 발송</button>
-                                    </li>
-                                    <li>
-                                        <input type="number" placeholder="인증번호를 입력해주세요">
-                                    </li>
-                                </ul>
+                                <div class="input-pin-type">
+                                    <input class="base-txt" type="number" name="user-number02" placeholder="휴대전화 번호 입력">
+                                    <button type="button" class="btn-send">인증번호 발송</button>
+                                </div>
+                                <input class="base-txt" type="number" placeholder="인증번호를 입력해주세요" disabled>
                             </div>
-                        </div>
-                    </div>
+                        </li>
+                    </ul>
                 </form>
             </div>
             <div class="caution-box">
-                <ul class="bull">
+                <ul class="bull sm">
                     <li>휴대전화 인증을 한 정보(이름, 휴대전화)로 접수됩니다.</li>
                     <li>인증번호가 수신되지 않은 경우 1544-7777이 스팸처리 되지 않았는지 확인해주시기 바랍니다.</li>
                 </ul>
             </div>      
         </div>
         <div class="btn-area m-full-flex">
-            <button type="button" class="btn gray btnPopCancel">취소</button>
-            <button type="button" class="btn s02">확인</button>
+            <!-- <button type="button" class="btn gray btnPopCancel">취소</button> -->
+            <button type="button" class="btn s02">인증하기</button>
         </div>
         <button type="button" class="btn-pop-close btnPopClose"><span class="blind">닫기</span></button>
     </div>

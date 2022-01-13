@@ -41,10 +41,10 @@ dfn { display: block; font-style: normal; }
 .color-red { color: #da0f47 !important; } 
 .color-red-dark { color: #e81953 !important; }
 .color-red-original { color: #a50024 !important; }
+.color-red-alert { color: #ff3723 !important; }
 .color-violet { color: #6735ea !important; }
 .color-emerald { color: #008182 !important; }
-.color-red-alert { color: #76892d !important; }
-.color-emerald-alert { color: #ff3723 !important; }
+.color-emerald-alert { color: #76892d !important; }
 .color-000 { color: #000 !important; }
 .color-666 { color: #666 !important; }
 .color-aaa { color: #aaa !important; }
@@ -53,10 +53,10 @@ dfn { display: block; font-style: normal; }
 .bg-red { background-color: #da0f47 !important; } 
 .bg-red-dark { background-color: #e81953 !important; }
 .bg-red-original { background-color: #a50024 !important; }
+.bg-red-alert { background-color: #ff3723 !important; }
 .bg-violet { background-color: #6735ea !important; }
 .bg-emerald { background-color: #008182 !important; }
-.bg-red-alert { background-color: #76892d !important; }
-.bg-emerald-alert { background-color: #ff3723 !important; }
+.bg-emerald-alert { background-color: #76892d !important; }
 .bg-000 { background-color: #000 !important; }
 .bg-666 { background-color: #666 !important; }
 .bg-aaa { background-color: #aaa !important; }
@@ -69,6 +69,12 @@ dfn { display: block; font-style: normal; }
 .tit05 { line-height: 32px; font-size: 24px; }
 .tit06 { line-height: 30px; font-size: 22px; }
 .tit07 { line-height: 28px; font-size: 20px; }
+
+/* txt */
+.txt01 { line-height: 26px; font-size: 18px; }
+.txt02 { line-height: 24px; font-size: 16px; }
+.txt03 { line-height: 20px; font-size: 14px; }
+.txt04 { line-height: 18px; font-size: 12px; }
 
 /* btn-area */
 .btn-area.more { margin-top: 32px; text-align: center; }
@@ -254,6 +260,21 @@ dfn { display: block; font-style: normal; }
 
     /* flag-wrap */
     .flag-wrap .flag {font-size: 11px;}
+
+    /* title */
+    .tit01 { line-height: 34px; font-size: 27px; }
+    .tit02 { line-height: 30px; font-size: 24px; }
+    .tit03 { line-height: px; font-size: px; }
+    .tit04 { line-height: px; font-size: px; }
+    .tit05 { line-height: 26px; font-size: 20px; }
+    .tit06 { line-height: 24px; font-size: 18px; }
+    .tit07 { line-height: 22px; font-size: 16px; }
+
+    /* txt */
+    .txt01 { line-height: px; font-size: px; }
+    .txt02 { line-height: px; font-size: px; }
+    .txt03 { line-height: px; font-size: px; }
+    .txt04 { line-height: px; font-size: px; }
 
     /* btn-area */
     .btn-area.more { margin-top: 40px; }
