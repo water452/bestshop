@@ -465,7 +465,7 @@
                   </li>
                 </ul>
                 <div class="btn-area">
-                  <button type="button" class="btn-view-more"><span>더보기</span></button>
+                  <button type="button" class="btn border s01 more"><span>더보기</span></button>
                 </div>
               </div>
             </div>
