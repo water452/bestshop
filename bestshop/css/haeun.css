@@ -187,6 +187,7 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
 .step-area .shop-date-wrap .view-area .map-wrap .api-area > img {width:100%}
 .step-area .shop-date-wrap .view-area .list-wrap {display:none; border:1px solid #000; border-radius:8px; overflow:hidden}
 .step-area .shop-date-wrap .view-area .list-wrap.active {display:block}
+.step-area .shop-date-wrap .view-area .list-wrap .search-wrap {width:100%; padding:16px 24px; box-shadow:0 3px 6px 0 rgba(0, 0, 0, 0.16)}
 .step-area .shop-date-wrap .view-area .list-wrap .view-wrap {display:flex; height:514px}
 .step-area .shop-date-wrap .view-area .list-wrap .view-wrap .lt {width:220px; height:100%; border-right:1px solid #ddd; overflow-y:auto}
 .step-area .shop-date-wrap .view-area .list-wrap .view-wrap .lt > ul {width:100%; padding:16px 0}
@@ -566,7 +567,8 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
 .inq-area .res-his-area .res-history .his-info-area dl dd {margin-left:10px}
 .inq-area .res-his-area .res-history .his-info-area dl + dl {margin-top:2px}
 .inq-area .res-his-area .res-history .his-info-area .box-wrap {display:flex; flex-wrap:wrap; margin-top:14px; padding:24px 32px; border-radius:8px; background-color:#f4f4f4}
-.inq-area .res-his-area .res-history .his-info-area .box-wrap dl {width:calc(100% / 3)}
+.inq-area .res-his-area .res-history .his-info-area .box-wrap dl {width:calc((100% / 3) - 66)}
+.inq-area .res-his-area .res-history .his-info-area .box-wrap dl:nth-of-type(3n) {max-width:350px}
 .inq-area .res-his-area .res-history .his-info-area .box-wrap dl dt {font-weight:500}
 .inq-area .res-his-area .res-history .btn-area {position:absolute; top:24px; right:0}
 .inq-area .res-his-area .btn-area {margin-top:8px}
@@ -800,6 +802,7 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
     .map-wrap > ul[class*="input"] > li:nth-child(2) {min-width:190px}
     .map-wrap > ul[class*="input"] > li .slt {width:100%}
     .map-wrap [class*="input"] > li + li {margin-left:6px}
+    .step-area .shop-date-wrap .view-area .list-wrap .search-wrap {padding:0 23px 11px}
     .step-area .shop-date-wrap .view-area .list-wrap .view-wrap {flex-direction:column}
     .step-area .shop-date-wrap .view-area .list-wrap .view-wrap .lt {display:none}
     .step-area .shop-date-wrap .view-area .list-wrap .view-wrap .mo-select {display:block; padding:16px 12px 8px}
