@@ -35,9 +35,9 @@
     .guide-lnb li a:before { content: ""; position: absolute; top: 50%; left: 20px; width: 4px; height: 4px; background: #666; -webkit-transform: translateY(-50%); transform: translateY(-50%); }
     .guide-content { padding: 0 40px 0 240px; height: 100%; }
     .guide-content > div { min-height: 50%; border-bottom: 2px solid #666; }
-    .guide-content > div > h2 { padding: 25px 0; color: #222; line-height: 36px; font-size: 25px; border-bottom: 1px solid #eaeaea; }
+    .guide-content > div > h2 { padding: 25px 30px; color: #222; line-height: 36px; font-size: 30px; border-bottom: 1px solid #eaeaea; }
     .guide-cont { padding: 40px 30px 50px 30px; }
-    .tit-guide { position: relative; left: -14px; margin-bottom: 10px; padding-left: 14px; line-height: 26px; font-size: 20px; }
+    .tit-guide { position: relative; left: -14px; margin-bottom: 10px; padding-left: 14px; color: #666; line-height: 26px; font-size: 20px; }
     .tit-guide:before { content: "-"; position: absolute; top: 0; left: 0; }
 
     /* color */
@@ -307,9 +307,9 @@
     <div id="guide-form">
         <h2>form요소</h2>
         <div class="guide-cont">
-            <input type="text" class="base-txt" title="입력" placeholder="" />
-            <input type="text" class="base-txt" title="입력" placeholder="" readonly />
-            <input type="text" class="base-txt" title="입력" placeholder="" disabled />
+            <input type="text" class="base-txt" title="입력" placeholder="" style="width: 200px;" />
+            <input type="text" class="base-txt" title="입력" placeholder="" style="width: 200px;" readonly />
+            <input type="text" class="base-txt" title="입력" placeholder="" style="width: 200px;" disabled />
             <hr>
             <div class="slt sltBox" data-txt-change="true">
                 <a href="javascript:void(0);" class="btn-slt">진행중인 이벤트</a>

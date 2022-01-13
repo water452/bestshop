@@ -644,8 +644,8 @@
       "worker": "서강원",
       "startdate": "2022-01-17",
       "finishdate": "2022-01-18",
-      "status": "진행예정",
-      "filename": "",
+      "status": "완료",
+      "filename": "./pages/event/BSF-EVE-APT-INFO.jsp",
       "memo": ""
     },
     {
@@ -657,7 +657,7 @@
       "startdate": "2022-01-19",
       "finishdate": "2022-01-20",
       "status": "진행예정",
-      "filename": "",
+      "filename": "./pages/event/BSF-EVE-APT-LIST.jsp",
       "memo": ""
     },
     {
@@ -669,7 +669,7 @@
       "startdate": "2022-01-21",
       "finishdate": "2022-01-21",
       "status": "진행예정",
-      "filename": "",
+      "filename": "./pages/event/BSF-EVE-APT-LIST.jsp",
       "memo": ""
     },
     {
@@ -681,7 +681,7 @@
       "startdate": "2022-01-24",
       "finishdate": "2022-01-24",
       "status": "진행예정",
-      "filename": "",
+      "filename": "./pages/event/BSF-EVE-APT-LIST.jsp",
       "memo": ""
     },
     {
@@ -693,7 +693,7 @@
       "startdate": "2022-01-25",
       "finishdate": "2022-01-25",
       "status": "진행예정",
-      "filename": "",
+      "filename": "./pages/event/BSF-EVE-APT-RES-DONE.jsp",
       "memo": ""
     },
     {
@@ -705,7 +705,7 @@
       "startdate": "2022-01-26",
       "finishdate": "2022-01-26",
       "status": "진행예정",
-      "filename": "",
+      "filename": "./pages/event/BSF-EVE-FAIR-LIST.jsp",
       "memo": ""
     },
     {
@@ -717,7 +717,7 @@
       "startdate": "2022-01-27",
       "finishdate": "2022-01-28",
       "status": "진행예정",
-      "filename": "",
+      "filename": "./pages/event/BSF-EVE-MEDIA-LIST.jsp",
       "memo": ""
     },
     {
@@ -729,7 +729,7 @@
       "startdate": "2022-01-27",
       "finishdate": "2022-01-28",
       "status": "진행예정",
-      "filename": "",
+      "filename": "./pages/event/BSF-EVE-MEDIA-DETAIL.jsp",
       "memo": ""
     },
     {
@@ -1029,7 +1029,7 @@
       "startdate": "2022-02-03",
       "finishdate": "2022-02-07",
       "status": "진행예정",
-      "filename": "",
+      "filename": "./pages/aaaaaa/BSF-RES-IPHONE.jsp",
       "memo": ""
     },
     {
@@ -1041,7 +1041,7 @@
       "startdate": "2022-02-03",
       "finishdate": "2022-02-07",
       "status": "진행예정",
-      "filename": "",
+      "filename": "./pages/aaaaaa/BSF-RES-IPHONE.jsp",
       "memo": ""
     },
     {
@@ -1053,7 +1053,7 @@
       "startdate": "2022-02-03",
       "finishdate": "2022-02-07",
       "status": "진행예정",
-      "filename": "",
+      "filename": "./pages/aaaaaa/BSF-RES-IPHONE-DONW.jsp",
       "memo": ""
     },
     {
@@ -1065,7 +1065,7 @@
       "startdate": "2022-02-08",
       "finishdate": "2022-02-08",
       "status": "진행예정",
-      "filename": "",
+      "filename": "./pages/aaaaaa/BSF-PAGE-LIVE.jsp",
       "memo": ""
     },
     {
@@ -1077,7 +1077,7 @@
       "startdate": "2022-02-09",
       "finishdate": "2022-02-10",
       "status": "진행예정",
-      "filename": "",
+      "filename": "./pages/aaaaaa/BSF-EVE-SHOP-INFO.jsp",
       "memo": ""
     },
     {
@@ -1089,7 +1089,7 @@
       "startdate": "2022-02-09",
       "finishdate": "2022-02-10",
       "status": "진행예정",
-      "filename": "",
+      "filename": "./pages/aaaaaa/BSF-EVE-SHOP-INFO.jsp",
       "memo": ""
     },
     {
@@ -1101,7 +1101,7 @@
       "startdate": "2022-02-09",
       "finishdate": "2022-02-10",
       "status": "진행예정",
-      "filename": "",
+      "filename": "./pages/aaaaaa/BSF-EVE-SHOP-INFO.jsp",
       "memo": ""
     },
     {
@@ -1113,7 +1113,7 @@
       "startdate": "2022-02-09",
       "finishdate": "2022-02-10",
       "status": "진행예정",
-      "filename": "",
+      "filename": "./pages/aaaaaa/BSF-EVE-SHOP-RES-DONE.jsp",
       "memo": ""
     },
     {

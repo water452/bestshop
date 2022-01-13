@@ -76,13 +76,8 @@ dfn { display: block; font-style: normal; }
 .txt03 { line-height: 20px; font-size: 14px; }
 .txt04 { line-height: 18px; font-size: 12px; }
 
-/* btn-area */
-.btn-area.more { margin-top: 32px; text-align: center; }
-
 /* button */
-.btn.full { min-width: 0; width: 100%; }
-.btn.s01.mix { line-height: 40px; }
-.btn.s01 { padding: 0 16px; line-height: 38px; font-size: 14px; border-radius: 20px; }
+
 
 /* tab */
 [class*="tab"] { position: relative; }
@@ -162,6 +157,7 @@ dfn { display: block; font-style: normal; }
 .btn-txt-icon_more:after { content: ""; display: inline-block; margin-left: 4px; width: 16px; height: 16px; background: url("../images/icons/btn_arrow_right_16.svg") no-repeat 0 0; background-size: 100% auto; vertical-align: -4px; }
 
 /* event-list */
+.event-list + .btn-area { margin-top: 32px; }
 .event-list ul {display: flex; flex-wrap: wrap; margin: 0 -12px;}
 .event-list ul li {position: relative; overflow: hidden; width: calc((100% / 3) - 24px); margin:0 12px; border-radius: 8px; box-shadow: 2px 4px 16px 0 rgba(0, 0, 0, 0.16);}
 .event-list ul li:nth-child(n+4) {margin-top: 24px;}
@@ -224,10 +220,13 @@ dfn { display: block; font-style: normal; }
 .ev-detail-con .image-file-wrap .file-item:last-child { margin-right: 20px; } 
 .ev-detail-con .agree-box .agree-all-chk .desc { margin: 5px 0 0 30px; } 
 .ev-detail-con .notice-wrap { margin-top: 128px; padding-top: 50px; border-top: 1px solid #ddd; text-align: left;}
-.ev-detail-con .btn-area { margin-top: 64px; padding: 0; text-align: center; }
+.ev-detail-con .btn-area { margin-top: 64px; }
 
 /* 이벤트 > 혼수이벤트 */
 .detail-thum img { max-width: 100%; }
+
+/* 이벤트 > 아파트 입주 이벤트 */
+.detail-thum + .btn-area { margin-top: 60px; }
 
 /* popup: 당첨자발표 */
 .event-popup .ev-detail-top {margin: 0 0 47px;}
@@ -276,12 +275,6 @@ dfn { display: block; font-style: normal; }
     .txt03 { line-height: px; font-size: px; }
     .txt04 { line-height: px; font-size: px; }
 
-    /* btn-area */
-    .btn-area.more { margin-top: 40px; }
-
-    /* button */
-    .btn.s01 { padding: 0 20px; line-height: 41px; font-size: 13px; border-radius: 21px; }
-
     /* tab */
     .tab01, .tab02 { left: -16px; padding: 0 16px; width: calc(100% + 32px); }
     .tab01 > ul > li { margin-right: 20px; }
@@ -325,6 +318,7 @@ dfn { display: block; font-style: normal; }
     .btn-txt-icon_more:after { margin-left: 2px; width: 12px; height: 12px; vertical-align: -3px; }
 
     /* event-list */
+    .event-list + .btn-area { margin-top: 40px; }
     .event-list ul {margin: 0 -4px;}
     .event-list ul li {margin:0 4px; width: calc((100% / 2) - 8px); box-shadow: 1px 2px 8px 0 rgba(0, 0, 0, 0.16);}
     .event-list ul li:nth-child(n+3) {margin-top: 8px;}
@@ -375,6 +369,9 @@ dfn { display: block; font-style: normal; }
     .ev-detail-con .agree-box .agree-all-chk .desc { margin: 3px 0 0 0; font-size: 13px; line-height: 19px; } 
     .ev-detail-con .notice-wrap {margin-top: 55px; padding-top: 37px;}
     .ev-detail-con .btn-area { margin-top: 35px; }
+
+    /* 이벤트 > 아파트 입주 이벤트 */
+    .detail-thum + .btn-area { margin-top: 30px; }
 
     /* popup: 당첨자발표 */
     .event-popup .pop-conts { padding: 95px 16px 60px;}

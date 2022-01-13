@@ -361,7 +361,7 @@
                         </dd>
                     </dl>
                 </div>
-                <div class="btn-area full-size-m">
+                <div class="btn-area center full-size-m">
                     <a href="javascript:void(0);" class="btn"><span>참여하기</span></a>
                 </div>
                 <div class="notice-wrap">
@@ -372,7 +372,7 @@
                         <dd class="b-txt">LG전자 멤버십 고객에 한하여 당첨 시 멤버십 포인트가 적립됩니다.</dd>
                     </dl>
                 </div>
-                <div class="btn-area full-size-m">
+                <div class="btn-area center full-size-m">
                     <a href="javascript:void(0);" class="btn border"><span>목록</span></a>
                 </div>
             </div>

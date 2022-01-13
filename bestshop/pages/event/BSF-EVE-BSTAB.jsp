@@ -171,7 +171,7 @@
             </div>
             <!-- //event-list -->
             <!-- 더보기 -->
-            <div class="btn-area more">
+            <div class="btn-area center">
                 <a href="javascript:void(0);" class="btn border s01"><span>이벤트 더보기</span></a>
             </div>
             <!-- //더보기 -->
