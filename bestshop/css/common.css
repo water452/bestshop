@@ -169,8 +169,8 @@ table{border-collapse:collapse}
 .btn.s01.mix { line-height: 40px; }
 .btn.s01 { padding: 0 16px; line-height: 38px; font-size: 14px; border-radius: 20px; }
 .btn.s01.h32 {line-height:30px}
-.btn.more {position:relative; display:inline-block; min-width:0; width:90px!important; height:auto!important; padding-left:36px!important}
-.btn.more::before {content:''; display:block; position:absolute; width:16px; height:16px; top:calc(50% - 8px); left:16px; background:url(../images/icons/btn-plus-16.svg) no-repeat center / contain}
+.btn.s01.more {position:relative; display:inline-block; min-width:90px; height:auto; padding-left:36px; line-height:38px}
+.btn.s01.more::before {content:''; display:block; position:absolute; width:16px; height:16px; top:calc(50% - 8px); left:16px; background:url(../images/icons/btn-plus-16.svg) no-repeat center / contain}
 
 /* bullet list */
 ul.bull > li {position:relative; padding-left:10px; font-size:14px; line-height:22px}
@@ -569,8 +569,9 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 
 	/* button */
     .btn.s01 { padding: 0 20px; line-height: 41px; font-size: 13px; border-radius: 21px; }
-	.btn.more {width:86px!important; padding:6px 15px 6px 33px!important}
-    .btn.more::before {width:14px; height:14px; top:calc(50% - 7px)}
+	.btn.s01.more {min-width:86px; padding:0 15px 0 33px}
+    .btn.s01.more::before {width:14px; height:14px; top:calc(50% - 7px)}
+	.btn.s01.h32 {min-width:79px; padding:0 10px; font-size:10px; line-height:22px}
 
 	/* bullet list */
 	ul.bull > li {padding-left:5px; font-size:12px; line-height:20px}

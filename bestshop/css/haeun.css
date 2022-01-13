@@ -563,15 +563,16 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
 .inq-area .res-his-area .res-history .his-tit-area .flag {display:block; width:54px; margin-left:10px; border:1px solid #ff3723; border-radius:2px; color:#ff3723; font-size:12px; font-weight:500; line-height:18px; text-align:center}
 .inq-area .res-his-area .res-history .his-info-area {margin-top:16px}
 .inq-area .res-his-area .res-history .his-info-area dl {display:flex; font-size:16px; line-height:26px}
-.inq-area .res-his-area .res-history .his-info-area dl dt {min-width:90px}
+.inq-area .res-his-area .res-history .his-info-area dl dt {min-width:90px; font-weight:500}
 .inq-area .res-his-area .res-history .his-info-area dl dd {margin-left:10px}
 .inq-area .res-his-area .res-history .his-info-area dl + dl {margin-top:2px}
 .inq-area .res-his-area .res-history .his-info-area .box-wrap {display:flex; flex-wrap:wrap; margin-top:14px; padding:24px 32px; border-radius:8px; background-color:#f4f4f4}
-.inq-area .res-his-area .res-history .his-info-area .box-wrap dl {width:calc((100% / 3) - 66)}
-.inq-area .res-his-area .res-history .his-info-area .box-wrap dl:nth-of-type(3n) {max-width:350px}
-.inq-area .res-his-area .res-history .his-info-area .box-wrap dl dt {font-weight:500}
-.inq-area .res-his-area .res-history .btn-area {position:absolute; top:24px; right:0}
+.inq-area .res-his-area .res-history .his-info-area .box-wrap dl {width:calc((100% - 350px) / 2); min-width:calc(100% / 3); padding-right:24px}
+.inq-area .res-his-area .res-history .his-info-area .box-wrap dl:nth-of-type(3n) {max-width:350px; min-width:0}
+.inq-area .res-his-area .res-history .btn-area {position:absolute; top:24px; right:0; margin-top:0}
 .inq-area .res-his-area .btn-area {margin-top:8px}
+.inq-area .res-his-area .res-history a[target="_blank"] {position:relative}
+.inq-area .res-his-area .res-history a[target="_blank"]::after {content:''; display:inline-block; position:absolute; width:16px; height:16px; bottom:2px; background:url(../images/icons/btn-outlink-16.svg) no-repeat center / contain}
 
 /* mobile */
 @media screen and (max-width:1440px) {
@@ -631,6 +632,10 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
 
     .step-area .my-select > ul {flex-wrap:wrap}
     .step-area .my-select > ul > li {width:50%}
+
+    /* 상담예약조회 - 탭페이지 */
+    .inq-area .res-his-area .res-history .his-info-area .box-wrap dl {width:50%; min-width:0}
+    .inq-area .res-his-area .res-history .his-info-area .box-wrap dl:nth-of-type(3n) {max-width:100%}
 }
 @media screen and (max-width:996px) {
     /* 제품선택 - 제품군형 */
@@ -1076,5 +1081,18 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
     .res-main .inq-area .caution-box ul li + li {margin-top:5px}
 
     /* 상담예약조회 - 탭페이지 */
-
+    .inq-area .res-his-area {padding-top:19px}
+    .inq-area .res-his-area .res-history > li {padding:16px 0}
+    .inq-area .res-his-area .res-history .his-tit-area .tit {font-size:14px; line-height:24px}
+    .inq-area .res-his-area .res-history .his-tit-area .flag {width:45px; margin-left:5px; border-radius:1px; font-size:10px; line-height:14px}
+    .inq-area .res-his-area .res-history .his-info-area {margin-top:11px}
+    .inq-area .res-his-area .res-history .his-info-area dl {font-size:13px; line-height:19px}
+    .inq-area .res-his-area .res-history .his-info-area dl + dl {margin-top:5px}
+    .inq-area .res-his-area .res-history .his-info-area .box-wrap {margin-top:11px; padding:17px 16px}
+    .inq-area .res-his-area .res-history .his-info-area .box-wrap dl {width:100%}
+    .inq-area .res-his-area .res-history .his-info-area .box-wrap dl + dl {margin-top:8px}
+    .inq-area .res-his-area .res-history .his-info-area .box-wrap dl dt {min-width:78px}
+    .inq-area .res-his-area .res-history .btn-area {top:16px}
+    .inq-area .res-his-area .btn-area {margin-top:16px}
+    .inq-area .res-his-area .res-history a[target="_blank"]::after {bottom:0; background-size:14px 14px!important}
 }
