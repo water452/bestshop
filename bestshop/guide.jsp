@@ -307,15 +307,9 @@
     <div id="guide-form">
         <h2>form요소</h2>
         <div class="guide-cont">
-            <div class="inputbox">
-                <input type="text" title="입력" placeholder="" />
-            </div>
-            <div class="inputbox">
-                <input type="text" title="입력" placeholder="" readonly />
-            </div>
-            <div class="inputbox">
-                <input type="text" title="입력" placeholder="" disabled />
-            </div>
+            <input type="text" class="base-txt" title="입력" placeholder="" />
+            <input type="text" class="base-txt" title="입력" placeholder="" readonly />
+            <input type="text" class="base-txt" title="입력" placeholder="" disabled />
             <hr>
             <div class="slt sltBox" data-txt-change="true">
                 <a href="javascript:void(0);" class="btn-slt">진행중인 이벤트</a>
