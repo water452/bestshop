@@ -197,6 +197,9 @@ $(function(){
     $(".sltBox").each(function(){
         var index = $(this).find("option:selected").index();
         $(this).attr("data-default-selected", index).find(".btn-slt").attr("title", "현재 선택");
+		if ( $(this).is(".border-type") ){
+			$(this).find("select").addClass("base-slt");
+		};
     });
 
     $('.sltBox > ul > li:first-of-type').addClass('active');

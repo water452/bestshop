@@ -55,6 +55,9 @@
 /* body scroll */
 html, body{scroll-behavior:smooth;}
 
+/* display */
+.pc-hidden { display: none !important; }
+
 /* button */
 button,
 button *{transition:all 0.5s linear;}
@@ -536,6 +539,10 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	footer .foot-cont .foot-bottom .bottom-body .foot-last .ismsp::before{left:-6px;}
 }
 @media screen and (max-width:767px){
+    /* display */
+    .pc-hidden { display: block !important; }
+    .m-hidden { display: none !important; }
+
 	/* search */
     .search-box {margin:0 auto}
     .search-box > input {background-color:#fff; font-size:13px; line-height:24px}
@@ -545,6 +552,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	.slt.border-type > a,
 	.slt.border-type > ul {display:none}
 	.slt.border-type select {width:100%; height:auto; border:1px solid #ddd; border-radius:8px; background-position:top 50% right 11px; padding:11px 12px; font-size:14px; line-height:22px}
+    .base-slt { padding: 0 12px; width: 100%; height: 46px; line-height: 22px; font-size: 14px; border-radius: 8px; border: 1px solid #ddd; background: #fff url("../images/icons/btn-down-16-black.svg") no-repeat top 50% right 11px; }
 
 	/* step title */
 	.step-tit {font-size:16px; line-height:25px}
@@ -576,6 +584,8 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	.btn.s01.more {min-width:86px; padding:0 15px 0 33px}
     .btn.s01.more::before {width:14px; height:14px; top:calc(50% - 7px)}
 	.btn.s01.h32 {min-width:79px; padding:0 10px; font-size:10px; line-height:22px}
+    .btn.s02 { padding: 0 12px; min-width: 0; line-height: 32px; font-size: 11px; border-radius: 17px; }
+    .btn.b01 { border-radius: 4px; }
 
 	/* bullet list */
 	ul.bull > li {padding-left:5px; font-size:12px; line-height:20px}
