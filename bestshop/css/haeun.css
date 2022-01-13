@@ -21,43 +21,6 @@
 .sitemap .inner > ul .category-cluster .category-depth.level-2 a[target="_blank"]::after {content:''; display:block; position:absolute; top:0; right:0; bottom:0; width:16px; margin-left:4px; background:url(../images/icons/btn-outlink-16.svg) no-repeat right center}
 .sitemap .inner > ul .category-cluster .category-depth {padding-right:12px}
 
-/* select */
-.slt.border-type {position:relative; width:200px}
-.slt.border-type > a {display:block; width:100%; padding:10px 15px; border:1px solid #ddd; border-radius:8px; background-color:#fff; font-size:16px; line-height:26px}
-.slt.border-type.on > a {border-radius:8px 8px 0 0; border-color:#222; border-bottom-color:transparent}
-.slt.border-type > a::before {right:15px}
-.slt.border-type ul {width:100%; top:48px; left:0; padding:0; border:1px solid #222; border-radius:0 0 8px 8px; border-top:none; box-shadow:none}
-.slt.border-type ul li > a {padding:10px 15px; background-color:#fff; font-size:16px; line-height:26px; text-align:left}
-.slt.width-auto ul {width:auto; left:50%; transform:translateX(-50%)}
-
-/* step title */
-.step-tit {display:flex; align-items:center; margin-bottom:16px; font-size:20px; font-weight:bold; line-height:32px}
-.step-tit > span {display:block; margin-left:3px; font-size:16px; font-weight:500}
-.step-tit ~ .step-tit {margin-top:50px}
-.step-tit > sup {color:#da0f47; font-size:20px; font-weight:bold; line-height:32px}
-.tit-area {display:flex; align-items:center; margin-bottom:16px}
-.tit-area .step-tit {margin-bottom:0}
-.tit-area .step-tit + em {margin-left:10px; font-size:14px; line-height:22px}
-
-/* step 필수입력항목  */
-.step-top-note {display:flex; justify-content:flex-end; margin-bottom:12px; font-size:14px; line-height:20px}
-.step-top-note sup {margin-right:3px; color:#da0f47; font-size:14px; line-height:20px}
-
-/* tab */
-.res-main [class*="tab"].center {display:flex; justify-content:center}
-
-/* btn-area */
-.btn-area.center {text-align:center}
-.btn-area.m64 {margin-top:64px}
-.btn-area .btn + .btn {margin-left:13px}
-
-/* bullet list */
-ul.bull > li {position:relative; padding-left:10px; font-size:14px; line-height:22px}
-ul.bull > li::before {content:''; display:block; position:absolute; width:2px; height:2px; top:10px; left:0; border-radius:50%; background-color:#000}
-ul.bull > li + li {margin-top:4px}
-ul.bull > li.red {color:#da0f47}
-ul.bull > li.red::before {background-color:#da0f47}
-
 /* 매장상담예약 상단 공통 영역 */
 .res-main [class*="tab"] + .top-wrap {width:calc(100% + 80px); margin-left:-40px}
 .res-main .top-wrap .guide-area.bg {background-image:linear-gradient(104deg,#ddd5f9,#ffccd8 100%)}
@@ -102,9 +65,6 @@ ul.bull > li.red::before {background-color:#da0f47}
 .cont-area .step-area .main-area.active {display:block}
 
 /******** 매장상담예약 input ********/
-ul[class*="input"] {display:flex}
-input[type="number"]::-webkit-outer-spin-button,
-input[type="number"]::-webkit-inner-spin-button {-webkit-appearance:none; margin:0}
 /* 상담목적 */
 ul.input-icon-type {justify-content:space-between}
 ul.input-icon-type > li {width:calc(20% - 15px)}
@@ -188,33 +148,10 @@ ul.input-base-type .radio-btn.btn-type2 label {display:flex; justify-content:cen
 ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid #da0f47; color:#da0f47}
 
 /* 추가전달사항 */
-.text-area::after {content:''; display:block; clear:both}
-.text-area textarea {height:140px; padding:26px 24px; border:1px solid #ddd; border-radius:8px; font-size:16px; line-height:24px}
-.text-area textarea::placeholder {color:#666; font-size:16px; line-height:24px}
 .text-area .info-msg {float:left; margin-top:10px; margin-left:10px; color:#777; font-size:14px; line-height:22px}
 .text-area .txt-count {float:right; margin-top:10px; margin-right:10px; color:#777; font-size:14px; line-height:22px}
 
-/* 휴대폰인증 input */
-input[type="number"]::-webkit-outer-spin-button,
-input[type="number"]::-webkit-inner-spin-button {-webkit-appearance:none; margin:0}
-input.base-txt {width:100%; height:48px; padding:10px 15px; border:1px solid #ddd; border-radius:8px; font-size:16px; line-height:26px}
-input:disabled {border-color:#ededed; background-color:#ededed}
-ul.input-list-type {flex-direction:column}
-ul.input-list-type li + li {margin-top:32px}
-ul.input-list-type.pc-row > li {display:flex}
-ul.input-list-type.pc-row .tit {margin-bottom:0}
-ul.input-list-type.pc-row .tit > label {line-height:48px}
-ul.input-list-type .tit {margin-bottom:8px; font-size:16px; font-weight:bold; line-height:26px}
-ul.input-list-type .tit label .name {display:flex}
-ul.input-list-type .tit label .name sup {color:#e81953; margin-left:4px; font-size:16px; font-weight:bold; line-height:48px}
-.input-pin-type {display:flex; margin-bottom:12px}
-.input-pin-type input {width:calc(100% - 112px)}
-.input-pin-type .btn-send {width:104px; margin-left:8px; padding:12px 10px; border:1px solid #000; border-radius:8px; background-color:#fff; font-size:14px; font-weight:bold; line-height:20px; white-space:nowrap}
-.note {display:flex; font-size:14px; line-height:20px}/* 필수 입력 사항 */
-.note > sup {margin-right:3px; color:#e81953; font-size:14px; line-height:20px}
-
 /******** // 매장상담예약 input ********/
-
 /* result-area */
 .step-area .result-area {display:none}
 .step-area .result-area.active {display:block}
@@ -611,7 +548,7 @@ ul.input-list-type .tit label .name sup {color:#e81953; margin-left:4px; font-si
 .res-main .cont-wrap .cont-area .step-area .my-select .box .btn-add {width:124px; margin-top:18px; padding:3px 12px; border-radius:8px; font-size:14px}
 .res-main .cont-wrap .cont-area .step-area .my-select .box .btn-close {position:absolute; width:18px; height:18px; top:12px; right:12px; background:url(../images/icons/btn-close-24-black.svg) no-repeat center / contain}
 
-/* 상담예약조회페이지 */
+/* 상담예약조회 - 인증페이지 */
 .res-main .inq-area .top-area {padding-bottom:20px; border-bottom:1px solid #000}
 .res-main .inq-area .top-area .tit {font-size:22px; font-weight:500; line-height:32px}
 .res-main .inq-area .inq-box-area {display:flex; justify-content:space-between}
@@ -627,6 +564,8 @@ ul.input-list-type .tit label .name sup {color:#e81953; margin-left:4px; font-si
 .res-main .inq-area .caution-box {margin-top:40px; padding:40px 40px 34px; border-radius:8px; background-color:#f4f4f4}
 .res-main .inq-area .caution-box .tit {margin-bottom:8px; font-size:14px; font-weight:500; line-height:22px}
 
+/* 상담예약조회 - 탭페이지 */
+.res-his-area {padding-top:46px}
 
 /* mobile */
 @media screen and (max-width:1440px) {
@@ -723,35 +662,6 @@ ul.input-list-type .tit label .name sup {color:#e81953; margin-left:4px; font-si
     .sitemap .inner > ul .category-cluster .level-2 strong * {font-size:14px; line-height:22px}
     .sitemap .inner > ul .category-cluster .level-3 * {font-size:14px; line-height:22px}
     .sitemap .inner > ul .category-cluster .level-3 li + li {margin-top:8px}
-
-    /* select */
-    .slt.border-type > a,
-    .slt.border-type > ul {display:none}
-    .slt.border-type select {width:100%; height:auto; border:1px solid #ddd; border-radius:8px; background-position:top 50% right 11px; padding:11px 12px; font-size:14px; line-height:22px}
-
-    /* step title */
-    .step-tit {font-size:16px; line-height:25px}
-    .step-tit ~ .step-tit {margin-top:40px}
-    .step-tit > span {margin-left:5px; font-size:11px}
-    .step-tit > sup {font-size:16px; line-height:25px}
-    .tit-area {flex-direction:column; align-items:flex-start; margin-bottom:12px}
-    .tit-area .step-tit + em {margin-left:0; font-size:10px; line-height:19px}
-
-    /* step 필수입력항목  */
-    .step-top-note {margin-bottom:5px; font-size:10px; line-height:15px}
-    .step-top-note sup {font-size:10px; line-height:15px}
-
-    /* tab */
-    .res-main [class*="tab"].center {justify-content:flex-start}
-
-    /* btn-area */
-    .btn-area.m64 {margin-top:30px}
-    .btn-area.mo50 > .btn {width:calc(50% - 4.5px)}
-    .btn-area .btn + .btn {margin-left:5px}
-
-    /* bullet list */
-    ul.bull > li {padding-left:5px; font-size:12px; line-height:20px}
-    ul.bull > li + li {margin-top:5px}
 
     /* 매장상담예약 상단 공통 영역 */
     .res-main [class*="tab"] + .top-wrap {width:calc(100% + 32px); margin-left:-16px}
@@ -856,25 +766,10 @@ ul.input-list-type .tit label .name sup {color:#e81953; margin-left:4px; font-si
     ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:1px solid #da0f47}
 
     /* 추가전달사항 */
-    .text-area textarea {padding:13px 16px; font-size:14px; line-height:19px}
-    .text-area textarea::placeholder {font-size:14px; line-height:19px}
     .text-area .info-msg {margin-top:8px; margin-left:8px; font-size:10px; line-height:17px}
     .text-area .txt-count {margin-top:8px; margin-right:8px; font-size:10px; line-height:17px}
 
-    /* 휴대폰인증 input */
-    input.base-txt {height:auto; padding:11px 12px; font-size:14px; line-height:22px}
-    ul.input-list-type .tit {font-size:14px; line-height:20px}
-    ul.input-list-type.pc-row > li {flex-direction:column}
-    ul.input-list-type.pc-row .tit > label {line-height:20px}
-    ul.input-list-type .tit label .name sup {font-size:14px; line-height:20px}
-    .input-pin-type {margin-bottom:7px}
-    .input-pin-type input {width:calc(100% - 105.5px)}
-    .input-pin-type .btn-send {width:99px; margin-left:6.5px; font-size:13px; font-weight:500}
-    .note {font-size:13px; font-weight:500}
-    .note sup {font-size:13px}
-
     /******** 매장상담예약 input ********/
-
     /* result-area */
     .step-area .result-area .info-txt-com {background-size:20px 20px!important}
     .step-area .result-area .info-txt-com a {padding:11px 30px 11px 0!important}
@@ -1162,7 +1057,7 @@ ul.input-list-type .tit label .name sup {color:#e81953; margin-left:4px; font-si
     .bottom-cart-wrap .bar-wrap.care-ex .foot-area .btn-area .btn-reset span {padding-left:20px; font-size:14px}
     .bottom-cart-wrap .bar-wrap.care-ex .foot-area .btn-area .btn-reset span::before {width:20px; height:20px}
 
-    /* 상담예약조회페이지 */
+    /* 상담예약조회 - 인증페이지 */
     .res-main .inq-area .top-area .tit {font-size:16px; line-height:25px}
     .res-main .inq-area .inq-box-area {flex-direction:column}
     .res-main .inq-area .inq-box-area .inq-box {width:100%; height:auto; padding:20px 20px 40px}
