@@ -297,6 +297,7 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
 
 /* 완료페이지 */
 .done-msg-area {padding:0 40px; text-align:center}
+.done-msg-area.pt100 {padding-top:66px}
 .done-msg-area .done-msg-big > strong {display:block; font-size:36px; font-weight:500; line-height:48px}
 .done-msg-area .done-msg-big > span {display:block; font-size:36px; font-weight:500; line-height:48px}
 .done-msg-area .done-msg-small {margin-top:27px}
@@ -895,6 +896,7 @@ ul.prd-list > .item .box .price-wrap dl dd {font-size:20px; font-weight:bold; li
 
     /* 완료페이지 */
     .done-msg-area {padding:0 16px}
+    .done-msg-area.pt100 {padding-top:16px}
     .done-msg-area .done-msg-big > strong {font-size:18px; font-weight:bold; line-height:27px}
     .done-msg-area .done-msg-big > span {margin-top:4px; font-size:11px; line-height:19px}
     .done-msg-area .done-msg-small {margin-top:16px}

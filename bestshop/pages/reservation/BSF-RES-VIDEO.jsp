@@ -1338,7 +1338,7 @@
             </div>
             <div class="btn-area m-full-flex">
                 <!-- <button type="button" class="btn gray btnPopCancel">취소</button> -->
-                <button type="button" class="btn s02">인증하기</button>
+                <button type="button" class="btn">인증하기</button>
             </div>
             <button type="button" class="btn-pop-close btnPopClose"><span class="blind">닫기</span></button>
         </div>
