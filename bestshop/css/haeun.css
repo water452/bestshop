@@ -574,8 +574,7 @@ ul.prd-list > .item .box .price-wrap dl dd {font-size:20px; font-weight:bold; li
 .inq-area .res-his-area .res-history a[target="_blank"]::after {content:''; display:inline-block; position:absolute; width:16px; height:16px; bottom:2px; background:url(../images/icons/btn-outlink-16.svg) no-repeat center / contain}
 
 /* popup - size */
-.popup.alert .pop-wrap {width:calc(100% - 44px); max-width:500px; padding:50px 40px; text-align:center}
-.popup.alert .pop-wrap .btn-area {margin-top:20px}
+.popup.alert .pop-wrap {width:calc(100% - 44px); max-width:500px; padding:60px 40px 50px; text-align:center}
 
 /* mobile */
 @media screen and (max-width:1440px) {
@@ -1101,5 +1100,6 @@ ul.prd-list > .item .box .price-wrap dl dd {font-size:20px; font-weight:bold; li
 
     /* popup - size */
     .popup.alert .pop-wrap {padding:0}
-    .popup.alert .pop-wrap .btn-area {margin-top:20px}
+    .popup.alert .pop-cont {padding:55px 20px 0}
+    .popup.alert .btn-area.m-full-flex {width:auto; left:auto}
 }
