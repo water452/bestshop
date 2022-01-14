@@ -515,8 +515,8 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 .popup.medium .pop-wrap { max-width: 912px; }
 .popup.large .pop-wrap { max-width: 1146px; }
 
-/* popup - alert */
-.popup.alert .pop-wrap { padding: 60px 30px 50px 30px; max-width: 500px; text-align: center; }
+/* popup - confirm */
+.popup.confirm .pop-wrap { padding: 60px 30px 50px 30px; max-width: 500px; text-align: center; }
 .inblock { display: inline-block; }
 .block { display: block; }
 .tm-ty01 .block:last-child { margin-top: 26px; }
@@ -757,7 +757,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 
     /* slide navi */
     .slide-navi .slide-navi-detail{padding:0 16px;}
-    .slide-navi .swiper-pager{padding:5.5px;border-radius:13px;}
+    .slide-navi .swiper-pager{padding:7px;border-radius:13px;}
     .slide-navi .swiper-pager .slideBtn{width:15px;height:15px;}
     .slide-navi .swiper-pager .pager-fraction{font-size:12px;line-height:15px;}
     .slide-navi .swiper-auto .slideBtn{width:26px;height:26px;}
@@ -779,9 +779,9 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
     .popup.m-full .pop-cont { height: calc(100% - 62px - 56px) !important; overflow-y: auto; }
     .popup.m-full .btn-area.m-full-flex { position: absolute; bottom: 0; left: 0; margin: 0; width: 100%; }
 
-    /* popup - alert */
-    .popup.alert .pop-wrap { padding: 0; width: calc(100% - 44px); }
-    .popup.alert .pop-cont { padding: 50px 20px 0 20px; }
-    .popup.alert .btn-area.m-full-flex { left: auto; width: auto; }
+    /* popup - confirm */
+    .popup.confirm .pop-wrap { padding: 0; width: calc(100% - 44px); }
+    .popup.confirm .pop-cont { padding: 50px 20px 0 20px; }
+    .popup.confirm .btn-area.m-full-flex { left: auto; width: auto; }
     .tm-ty01 .block + .block { margin-top: 18px; }
 }
