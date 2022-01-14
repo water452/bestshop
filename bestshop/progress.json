@@ -476,8 +476,8 @@
       "worker": "안하은",
       "startdate": "2022-01-11",
       "finishdate": "2022-01-14",
-      "status": "진행예정",
-      "filename": "",
+      "status": "완료",
+      "filename": "./pages/reservation/BSF-RES-INQ.jsp",
       "memo": ""
     },
     {
@@ -488,9 +488,9 @@
       "worker": "안하은",
       "startdate": "2022-01-11",
       "finishdate": "2022-01-14",
-      "status": "진행예정",
-      "filename": "",
-      "memo": ""
+      "status": "완료",
+      "filename": "./pages/reservation/BSF-RES-INQ-LIST.jsp",
+      "memo": "탭"
     },
     {
       "dep1": "",
@@ -500,9 +500,9 @@
       "worker": "안하은",
       "startdate": "2022-01-11",
       "finishdate": "2022-01-14",
-      "status": "진행예정",
-      "filename": "",
-      "memo": ""
+      "status": "완료",
+      "filename": "./pages/reservation/BSF-RES-INQ-LIST.jsp",
+      "memo": "탭"
     },
     {
       "dep1": "",
@@ -512,9 +512,9 @@
       "worker": "안하은",
       "startdate": "2022-01-11",
       "finishdate": "2022-01-14",
-      "status": "진행예정",
-      "filename": "",
-      "memo": ""
+      "status": "완료",
+      "filename": "./pages/reservation/BSF-RES-INQ-LIST.jsp",
+      "memo": "탭"
     },
     {
       "dep1": "",
@@ -524,9 +524,9 @@
       "worker": "안하은",
       "startdate": "2022-01-11",
       "finishdate": "2022-01-14",
-      "status": "진행예정",
-      "filename": "",
-      "memo": ""
+      "status": "완료",
+      "filename": "./pages/reservation/BSF-RES-INQ-LIST.jsp",
+      "memo": "상담예약취소 클릭"
     },
     {
       "dep1": "",
@@ -536,8 +536,8 @@
       "worker": "안하은",
       "startdate": "2022-01-11",
       "finishdate": "2022-01-14",
-      "status": "진행예정",
-      "filename": "",
+      "status": "완료",
+      "filename": "./pages/reservation/BSF-RES-CANCEL-DONE.jsp",
       "memo": ""
     },
     {
