@@ -583,7 +583,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	.btn.s01.more {min-width:86px; padding:0 15px 0 33px}
     .btn.s01.more::before {width:14px; height:14px; top:calc(50% - 7px)}
 	.btn.s01.h32 {min-width:79px; padding:0 10px; font-size:10px; line-height:22px}
-    .btn.s02 { padding: 0 12px; min-width: 0; line-height: 22px; font-size: 10px; border-radius: 17px; }
+    .btn.s02 { padding: 0 12px; min-width: 0; line-height: 22px; font-size: 10px; border-radius: 12px; }
     .btn.s02.b01 { line-height: 32px; font-size: 11px; }
     .btn.b01 { border-radius: 4px; }
 
