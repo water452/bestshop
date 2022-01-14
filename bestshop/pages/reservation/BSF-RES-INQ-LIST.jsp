@@ -271,7 +271,7 @@
         </div>
         <div class="btn-area m-full-flex">
             <button type="button" class="btn gray btnPopCancel">취소</button>
-            <button type="button" class="btn s02">확인</button>
+            <button type="button" class="btn">확인</button>
         </div>
     </div>
 </div>

@@ -33,7 +33,7 @@
                                                 <span class="icon-wrap">
                                                     <i class="icon01"></i>
                                                 </span>
-                                                <p class="txt">상품선택 및 <br class="only_mo">매장/일자 선택</p>
+                                                <p class="txt">상품선택 및 <br class="pc-hidden">매장/일자 선택</p>
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
@@ -41,7 +41,7 @@
                                                 <span class="icon-wrap">
                                                     <i class="icon02"></i>
                                                 </span>
-                                                <p class="txt">예약 고객님의 <br class="only_mo">정보를 입력</p>
+                                                <p class="txt">예약 고객님의 <br class="pc-hidden">정보를 입력</p>
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
@@ -49,7 +49,7 @@
                                                 <span class="icon-wrap">
                                                     <i class="icon03"></i>
                                                 </span>
-                                                <p class="txt">전문 매니저의 전화 <br class="only_mo">안내 서비스</p>
+                                                <p class="txt">전문 매니저의 전화 <br class="pc-hidden">안내 서비스</p>
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
@@ -57,7 +57,7 @@
                                                 <span class="icon-wrap">
                                                     <i class="icon04"></i>
                                                 </span>
-                                                <p class="txt">신청 매장 방문 후 <br class="only_mo">상담진행</p>
+                                                <p class="txt">신청 매장 방문 후 <br class="pc-hidden">상담진행</p>
                                             </div>
                                         </div>
                                     </div>
@@ -72,8 +72,8 @@
                                 <div class="swiper-slide">
                                     <div class="banner">
                                         <div class="box">
-                                            <img class="only_pc" src="../../images/img-res-visit-banner-01.png" alt="">
-                                            <img class="only_mo" src="../../images/img-res-visit-banner-01_mo.png"
+                                            <img class="m-hidden" src="../../images/img-res-visit-banner-01.png" alt="">
+                                            <img class="pc-hidden" src="../../images/img-res-visit-banner-01_mo.png"
                                                 alt="">
                                         </div>
                                     </div>
@@ -81,8 +81,8 @@
                                 <div class="swiper-slide">
                                     <div class="banner">
                                         <div class="box">
-                                            <img class="only_pc" src="../../images/img-res-visit-banner-02.png" alt="">
-                                            <img class="only_mo" src="../../images/img-res-visit-banner-02_mo.png"
+                                            <img class="m-hidden" src="../../images/img-res-visit-banner-02.png" alt="">
+                                            <img class="pc-hidden" src="../../images/img-res-visit-banner-02_mo.png"
                                                 alt="">
                                         </div>
                                     </div>
@@ -90,8 +90,8 @@
                                 <div class="swiper-slide">
                                     <div class="banner">
                                         <div class="box">
-                                            <img class="only_pc" src="../../images/img-res-visit-banner-03.png" alt="">
-                                            <img class="only_mo" src="../../images/img-res-visit-banner-03_mo.png"
+                                            <img class="m-hidden" src="../../images/img-res-visit-banner-03.png" alt="">
+                                            <img class="pc-hidden" src="../../images/img-res-visit-banner-03_mo.png"
                                                 alt="">
                                         </div>
                                     </div>
@@ -1218,10 +1218,8 @@
                             </div>
                         </div>
 
-                        <div class="btn-area active">
-                            <!-- active 클래스 추가 -->
-                            <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담
-                                예약하기</button>
+                        <div class="btn-area m-hidden active"><!-- active 클래스 추가 -->
+                            <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담 예약하기</button>
                         </div>
 
                     </div>

@@ -33,7 +33,7 @@
                                                 <span class="icon-wrap">
                                                     <i class="icon01"></i>
                                                 </span>
-                                                <p class="txt">화상 상담 <br class="only_mo">예약</p>
+                                                <p class="txt">화상 상담 <br class="pc-hidden">예약</p>
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
@@ -41,7 +41,7 @@
                                                 <span class="icon-wrap">
                                                     <i class="icon02"></i>
                                                 </span>
-                                                <p class="txt">상담사와 <br class="only_mo">통화</p>
+                                                <p class="txt">상담사와 <br class="pc-hidden">통화</p>
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
@@ -49,7 +49,7 @@
                                                 <span class="icon-wrap">
                                                     <i class="icon03"></i>
                                                 </span>
-                                                <p class="txt">화상 상담 <br class="only_mo">URL 접속</p>
+                                                <p class="txt">화상 상담 <br class="pc-hidden">URL 접속</p>
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
@@ -57,7 +57,7 @@
                                                 <span class="icon-wrap">
                                                     <i class="icon04"></i>
                                                 </span>
-                                                <p class="txt">화상 상담 <br class="only_mo">진행 및 완료</p>
+                                                <p class="txt">화상 상담 <br class="pc-hidden">진행 및 완료</p>
                                             </div>
                                         </div>
                                     </div>
@@ -81,8 +81,8 @@
                                 <div class="swiper-slide">
                                     <div class="banner">
                                         <div class="box">
-                                            <img class="only_pc" src="../../images/img-res-visit-banner-01.png" alt="">
-                                            <img class="only_mo" src="../../images/img-res-visit-banner-01_mo.png"
+                                            <img class="m-hidden" src="../../images/img-res-visit-banner-01.png" alt="">
+                                            <img class="pc-hidden" src="../../images/img-res-visit-banner-01_mo.png"
                                                 alt="">
                                         </div>
                                     </div>
@@ -90,8 +90,8 @@
                                 <div class="swiper-slide">
                                     <div class="banner">
                                         <div class="box">
-                                            <img class="only_pc" src="../../images/img-res-visit-banner-02.png" alt="">
-                                            <img class="only_mo" src="../../images/img-res-visit-banner-02_mo.png"
+                                            <img class="m-hidden" src="../../images/img-res-visit-banner-02.png" alt="">
+                                            <img class="pc-hidden" src="../../images/img-res-visit-banner-02_mo.png"
                                                 alt="">
                                         </div>
                                     </div>
@@ -99,8 +99,8 @@
                                 <div class="swiper-slide">
                                     <div class="banner">
                                         <div class="box">
-                                            <img class="only_pc" src="../../images/img-res-visit-banner-03.png" alt="">
-                                            <img class="only_mo" src="../../images/img-res-visit-banner-03_mo.png"
+                                            <img class="m-hidden" src="../../images/img-res-visit-banner-03.png" alt="">
+                                            <img class="pc-hidden" src="../../images/img-res-visit-banner-03_mo.png"
                                                 alt="">
                                         </div>
                                     </div>
@@ -1229,10 +1229,8 @@
                             </div>
                         </div>
 
-                        <div class="btn-area active">
-                            <!-- active 클래스 추가 -->
-                            <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담
-                                예약하기</button>
+                        <div class="btn-area m-hidden active"><!-- active 클래스 추가 -->
+                            <button type="button" class="btn btn-res btnPopOpen m-hidden" data-href="#popup-certification">상담 예약하기</button>
                         </div>
 
                     </div>

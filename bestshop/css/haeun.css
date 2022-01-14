@@ -288,12 +288,11 @@ ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid 
 .res-main .bottom-fixed-wrap .dimmed {display:none}
 
 /* 팝업: 휴대전화 인증 */
-.popup .pop-wrap .pop-cont {padding:10px 0}
-.popup .pop-wrap .pop-cont .phone-check-wrap {padding-bottom:44px}
-.popup .pop-wrap .pop-cont .phone-check-wrap ul.input-list-type {max-width:630px; margin-top:50px}
-.popup .pop-wrap .pop-cont .phone-check-wrap ul.input-list-type .tit {width:180px}
-.popup .pop-wrap .pop-cont .phone-check-wrap ul.input-list-type .txt-box {width:calc(100% - 180px)}
-.popup .pop-wrap .pop-cont .caution-box {padding-top:20px; border-top:2px solid #ddd}
+.popup .phone-check-wrap {padding:10px 0 44px}
+.popup .phone-check-wrap ul.input-list-type {max-width:630px; margin-top:50px}
+.popup .phone-check-wrap ul.input-list-type .tit {width:180px}
+.popup .phone-check-wrap ul.input-list-type .txt-box {width:calc(100% - 180px)}
+.popup .pop-wrap .pop-cont .caution-box {padding:20px 0 10px; border-top:2px solid #ddd}
 
 /* 완료페이지 */
 .done-msg-area {padding:0 40px; text-align:center}
@@ -573,6 +572,10 @@ ul.prd-list > .item .box .price-wrap dl dd {font-size:20px; font-weight:bold; li
 .inq-area .res-his-area .btn-area {margin-top:8px}
 .inq-area .res-his-area .res-history a[target="_blank"] {position:relative}
 .inq-area .res-his-area .res-history a[target="_blank"]::after {content:''; display:inline-block; position:absolute; width:16px; height:16px; bottom:2px; background:url(../images/icons/btn-outlink-16.svg) no-repeat center / contain}
+
+/* popup - size */
+.popup.alert .pop-wrap {width:calc(100% - 44px); max-width:500px; padding:50px 40px; text-align:center}
+.popup.alert .pop-wrap .btn-area {margin-top:20px}
 
 /* mobile */
 @media screen and (max-width:1440px) {
@@ -887,12 +890,11 @@ ul.prd-list > .item .box .price-wrap dl dd {font-size:20px; font-weight:bold; li
     .res-main .bottom-fixed-wrap .bar-wrap .foot-area .btn-area button {display:block; width:100%; max-width:328px; margin:0 auto; height:43px; padding:10px 25px; font-size:13px; line-height:20px}
 
     /* 팝업: 휴대전화 인증 */
-    .popup .pop-wrap .pop-cont {padding:13px 0}
-    .popup .pop-wrap .pop-cont .phone-check-wrap {padding-bottom:40px}
-    .popup .pop-wrap .pop-cont .phone-check-wrap ul.input-list-type {max-width:100%; margin-top:41px}
-    .popup .pop-wrap .pop-cont .phone-check-wrap ul.input-list-type .tit {width:auto}
-    .popup .pop-wrap .pop-cont .phone-check-wrap ul.input-list-type .txt-box {width:100%; margin-top:13px}
-    .popup .pop-wrap .pop-cont .caution-box {padding-top:25px; border-top:1px solid #ddd}
+    .popup .phone-check-wrap {padding:13px 0 40px}
+    .popup .phone-check-wrap ul.input-list-type {max-width:100%; margin-top:41px}
+    .popup .phone-check-wrap ul.input-list-type .tit {width:auto}
+    .popup .phone-check-wrap ul.input-list-type .txt-box {width:100%; margin-top:13px}
+    .popup .pop-wrap .pop-cont .caution-box {padding:25px 0 13px; border-top:1px solid #ddd}
 
     /* 완료페이지 */
     .done-msg-area {padding:0 16px}
@@ -1096,4 +1098,8 @@ ul.prd-list > .item .box .price-wrap dl dd {font-size:20px; font-weight:bold; li
     .inq-area .res-his-area .res-history .btn-area {top:16px}
     .inq-area .res-his-area .btn-area {margin-top:16px}
     .inq-area .res-his-area .res-history a[target="_blank"]::after {bottom:0; background-size:14px 14px!important}
+
+    /* popup - size */
+    .popup.alert .pop-wrap {padding:0}
+    .popup.alert .pop-wrap .btn-area {margin-top:20px}
 }

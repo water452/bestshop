@@ -14,7 +14,7 @@
                 <div class="guide-area bg">
                     <div class="guide-process">
                         <div class="inner">
-                            <p class="desc">필요한 소모품에 대한 정보를 LG전자 베스트샵을 통해 확인하고 <br class="only_pc">매장 방문하여 구매 및 추가 상담을
+                            <p class="desc">필요한 소모품에 대한 정보를 LG전자 베스트샵을 통해 확인하고 <br class="m-hidden">매장 방문하여 구매 및 추가 상담을
                                 받으실 수 있습니다.</p>
                             <div class="swiper guide-banner-care-ex">
                                 <div class="swiper-wrapper">
@@ -23,7 +23,7 @@
                                             <span class="icon-wrap">
                                                 <i class="icon01"></i>
                                             </span>
-                                            <p class="txt">구매 희망 <br class="only_mo">소모품 선택</p>
+                                            <p class="txt">구매 희망 <br class="pc-hidden">소모품 선택</p>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
@@ -31,7 +31,7 @@
                                             <span class="icon-wrap">
                                                 <i class="icon02"></i>
                                             </span>
-                                            <p class="txt">소모품 구매 <br class="only_mo">예약 신청</p>
+                                            <p class="txt">소모품 구매 <br class="pc-hidden">예약 신청</p>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
@@ -39,7 +39,7 @@
                                             <span class="icon-wrap">
                                                 <i class="icon03"></i>
                                             </span>
-                                            <p class="txt">방문 매장 재고 확인 <br class="only_mo">및 고객 전화 안내</p>
+                                            <p class="txt">방문 매장 재고 확인 <br class="pc-hidden">및 고객 전화 안내</p>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
@@ -47,7 +47,7 @@
                                             <span class="icon-wrap">
                                                 <i class="icon04"></i>
                                             </span>
-                                            <p class="txt">매장 방문 픽업 <br class="only_mo">및 추가 상담</p>
+                                            <p class="txt">매장 방문 픽업 <br class="pc-hidden">및 추가 상담</p>
                                         </div>
                                     </div>
                                 </div>

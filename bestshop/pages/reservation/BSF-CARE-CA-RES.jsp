@@ -16,17 +16,17 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="banner-box">
-                                <img class="only_pc" src="../../images/img-careship-banner-01.jpg"
+                                <img class="m-hidden" src="../../images/img-careship-banner-01.jpg"
                                     alt="케어십 상담 예약 배너 이미지">
-                                <img class="only_mo" src="../../images/img-careship-banner-01_mo.jpg"
+                                <img class="pc-hidden" src="../../images/img-careship-banner-01_mo.jpg"
                                     alt="케어십 상담 예약 배너 이미지">
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="banner-box">
-                                <img class="only_pc" src="../../images/img-careship-banner-01.jpg"
+                                <img class="m-hidden" src="../../images/img-careship-banner-01.jpg"
                                     alt="케어십 상담 예약 배너 이미지">
-                                <img class="only_mo" src="../../images/img-careship-banner-01_mo.jpg"
+                                <img class="pc-hidden" src="../../images/img-careship-banner-01_mo.jpg"
                                     alt="케어십 상담 예약 배너 이미지">
                             </div>
                         </div>
