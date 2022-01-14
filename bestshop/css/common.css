@@ -60,7 +60,7 @@ html, body{scroll-behavior:smooth;}
 
 /* button */
 button,
-button *{transition:all 0.5s linear;}
+button *{transition:all 0.1s linear;}
 .btn.focus,
 .btn:focus{outline:0;box-shadow:0 0 0 0.2rem rgb(0 123 255 / 25%);}
 footer .foot-cont .pc-dropdown-wrap .btns .btn.border:active,
@@ -171,7 +171,6 @@ table{border-collapse:collapse}
 .btn.full { min-width: 0; width: 100%; }
 .btn.s01.mix, .btn.s02.mix { padding-top: 1px; padding-bottom: 1px; }
 .btn.s01 { padding: 0 16px; line-height: 38px; font-size: 14px; border-radius: 20px; }
-.btn.s01.h32 {line-height:30px}
 .btn.s01.more {position:relative; display:inline-block; min-width:90px; height:auto; padding-left:36px; line-height:38px}
 .btn.s01.more::before {content:''; display:block; position:absolute; width:16px; height:16px; top:calc(50% - 8px); left:16px; background:url(../images/icons/btn-plus-16.svg) no-repeat center / contain}
 .btn.s02 { padding: 0 16px; line-height: 32px; font-size: 14px; border-radius: 17px; }
@@ -584,7 +583,8 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	.btn.s01.more {min-width:86px; padding:0 15px 0 33px}
     .btn.s01.more::before {width:14px; height:14px; top:calc(50% - 7px)}
 	.btn.s01.h32 {min-width:79px; padding:0 10px; font-size:10px; line-height:22px}
-    .btn.s02 { padding: 0 12px; min-width: 0; line-height: 32px; font-size: 11px; border-radius: 17px; }
+    .btn.s02 { padding: 0 12px; min-width: 0; line-height: 22px; font-size: 10px; border-radius: 17px; }
+    .btn.s02.b01 { line-height: 32px; font-size: 11px; }
     .btn.b01 { border-radius: 4px; }
 
 	/* bullet list */
