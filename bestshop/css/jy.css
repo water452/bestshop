@@ -227,11 +227,49 @@ dfn { display: block; font-style: normal; }
 
 /* 이벤트 > 아파트 입주 이벤트 */
 .detail-thum + .btn-area { margin-top: 60px; }
-.sorting-cp { line-height: 0; font-size: 0; background: #f8f8f8; text-align: center; }
+.sorting-cp { padding: 5px 0; line-height: 0; font-size: 0; background: #f8f8f8; text-align: center; }
 .sorting-cp > * { display: inline-block; position: relative; vertical-align: middle; }
 .sorting-cp > .cp-list { margin-left: 160px; }
-.sorting-cp > .cp-list:before { content: ""; position: absolute; top: 50%; left: -97px; margin-top: -35px; width: 50px; height: 70px; border: 1px solid #ddd; background: #fff url("../images/aaaaaa.svg") no-repeat center; background-size: 100% auto; }
-.cp-map { width: 512px; color: #fff; line-height: 596px; font-size: 14px; background: #000; }
+.sorting-cp > .cp-list:before { content: ""; position: absolute; top: 50%; left: -123px; margin-top: -35px; width: 50px; height: 70px; border: 1px solid #ddd; background: #fff url("../images/icons/icon-sorting-cp.svg") no-repeat center; background-size: 36px auto; }
+.cp-map { position: relative; width: 492px; height: 580px; background: url("../images/cp-map.png") no-repeat center 0; }
+.cp-map[data-number="1"] { background-position: center -580px; }
+.cp-map[data-number="2"] { background-position: center -1160px; }
+.cp-map[data-number="3"] { background-position: center -1740px; }
+.cp-map[data-number="4"] { background-position: center -2320px; }
+.cp-map[data-number="5"] { background-position: center -2900px; }
+.cp-map[data-number="6"] { background-position: center -3480px; }
+.cp-map[data-number="7"] { background-position: center -4060px; }
+.cp-map[data-number="8"] { background-position: center -4640px; }
+.cp-map[data-number="9"] { background-position: center -5220px; }
+.cp-map[data-number="10"] { background-position: center -5800px; }
+.cp-map[data-number="11"] { background-position: center -6380px; }
+.cp-map[data-number="12"] { background-position: center -6960px; }
+.cp-map[data-number="13"] { background-position: center -7540px; }
+.cp-map[data-number="14"] { background-position: center -8120px; }
+.cp-map[data-number="15"] { background-position: center -8700px; }
+.cp-map[data-number="16"] { background-position: center -9280px; }
+.cp-map[data-number="17"] { background-position: center -9860px; }
+.list-cp-map { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.list-cp-map > li { position: absolute; }
+.list-cp-map > li a { display: block; padding: 0 10px; color: #878787; line-height: 24px; font-size: 14px; font-weight: 500; border-radius: 12px; }
+.list-cp-map > .on a { color: #fff; background: linear-gradient(80deg, #fa263e 2%, #fb5a72 99%); }
+.list-cp-map > .li01 { top: 22%; left: 21%; } /* 서울 */
+.list-cp-map > .li02 { top: 28.5%; left: 26%; } /* 경기 */
+.list-cp-map > .li03 { top: 23%; left: 13%; } /* 인천 */
+.list-cp-map > .li04 { top: 19%; right: 43%; } /* 강원 */
+.list-cp-map > .li05 { top: 36%; left: 33%; } /* 충북 */
+.list-cp-map > .li06 { top: 39%; left: 18.5%; } /* 충남 */
+.list-cp-map > .li07 { top: 41.5%; left: 29%; } /* 세종 */
+.list-cp-map > .li08 { top: 45%; left: 32%; } /* 대전 */
+.list-cp-map > .li09 { top: 44%; right: 35%; } /* 경북 */
+.list-cp-map > .li10 { bottom: 33.5%; right: 43%; } /* 경남 */
+.list-cp-map > .li11 { top: 52.5%; right: 39%; } /* 대구 */
+.list-cp-map > .li12 { top: 59.3%; right: 28.5%; } /* 울산 */
+.list-cp-map > .li13 { top: 64%; right: 32%; } /* 부산 */
+.list-cp-map > .li14 { top: 56%; left: 24%; } /* 전북 */
+.list-cp-map > .li15 { top: 70%; left: 21%; } /* 전남 */
+.list-cp-map > .li16 { top: 65%; left: 22%; } /* 광주 */
+.list-cp-map > .li17 { bottom: 5.5%; left: 14.5%; } /* 제주 */
 .list-chkrdo-btn { max-width: 514px; width: 100%; line-height: 0; font-size: 0; text-align: center; }
 .list-chkrdo-btn > li { display: inline-block; padding: 5px; vertical-align: top; }
 .chkrdo-btn { display: inline-block; position: relative; vertical-align: middle; }
@@ -244,11 +282,11 @@ dfn { display: block; font-style: normal; }
 .sr-header > .btn-area { position: absolute; top: 8px; right: 0; }
 .sr-location dd { line-height: 0; font-size: 0; }
 .sr-location dd > * { display: inline-block; line-height: 32px; font-size: 20px; font-weight: bold; vertical-align: middle; }
-.sr-location dd > * + * { margin-left: 20px; }
-.sr-location dd > .arrow { width: 6px; height: 12px; background: #000 url("../images/icons/aaaaaaaa.svg") no-repeat 0 0; background-size: 100% auto; }
+.sr-location dd > * + * { margin-left: 14px; }
+.sr-location dd > .arrow { width: 16px; height: 16px; text-indent: -9999px; background: url("../images/icons/icon-more-arrow20.svg") no-repeat 0 0; background-size: 100% auto; overflow: hidden; }
 .sr-location dd > strong { color: #da0f47; }
 .btn-txt-icon_more-line { display: inline-block; line-height: 24px; font-size: 16px; text-decoration: underline !important; vertical-align: top; }
-.btn-txt-icon_more-line:after { content: ""; display: inline-block; margin-left: 9px; width: 6px; height: 12px; background: #000 url("../images/icons/aaaaaaaa.svg") no-repeat 0 0; background-size: 100% auto; vertical-align: 0px; }
+.btn-txt-icon_more-line:after { content: ""; display: inline-block; margin-left: 2px; width: 20px; height: 20px; background: url("../images/icons/icon-more-arrow20.svg") no-repeat 0 0; background-size: 100% auto; vertical-align: -4px; }
 .sorting-form { margin-top: 20px; }
 .sorting-form .search-box { margin: 0 auto; }
 .list-apt + .btn-area { margin-top: 24px; }
@@ -271,10 +309,23 @@ dfn { display: block; font-style: normal; }
 .search-result-title-default { color: #da0f47; font-size: 30px; }
 .search-result-title-default + .no-result-msg { margin-top: 40px; }
 
+@media screen and (max-width: 1280px){ /* pc 작은해상도 */
+    /******************* contents **********************/
+    /* 이벤트 > 아파트 입주 이벤트 */
+    .sorting-cp > .cp-list { margin: 0; }
+    .sorting-cp > .cp-list:before { left: -60px; }
+    .list-chkrdo-btn { max-width: 450px; }
+}
 @media screen and (max-width: 1024px){ /* Tablet */
     /******************* contents **********************/
     /* 신규 오픈 매장 */
     .list-shop > ul > li { width: 50%; }
+
+    /* 이벤트 > 아파트 입주 이벤트 */
+    .sorting-cp > * { display: block; margin: 0 auto; }
+    .sorting-cp > .cp-list { margin-top: 80px; padding-bottom: 30px; }
+    .sorting-cp > .cp-list:before { left: 50%; top: -55px; -webkit-transform: translateX(-50%) rotate(90deg); transform: translateX(-50%) rotate(90deg); }
+    .list-chkrdo-btn { max-width: 100%; }
 }
 @media screen and (max-width: 767px){ /* Mobile */
     .cont-wrap { padding: 0 16px 4px; } 

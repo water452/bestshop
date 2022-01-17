@@ -13,7 +13,25 @@
             <div class="sorting-cp">
                 <!-- pc -->
                 <div class="cp-map m-hidden">
-                    지도
+                    <ul class="list-cp-map">
+                        <li class="li01"><a href="#none">서울특별시</a></li>
+                        <li class="li02"><a href="#none">경기도</a></li>
+                        <li class="li03"><a href="#none">인천</a></li>
+                        <li class="li04"><a href="#none">강원도</a></li>
+                        <li class="li05"><a href="#none">충청북도</a></li>
+                        <li class="li06"><a href="#none">충청남도</a></li>
+                        <li class="li07"><a href="#none">세종</a></li>
+                        <li class="li08"><a href="#none">대전</a></li>
+                        <li class="li09"><a href="#none">경상북도</a></li>
+                        <li class="li10"><a href="#none">경상남도</a></li>
+                        <li class="li11"><a href="#none">대구</a></li>
+                        <li class="li12"><a href="#none">울산</a></li>
+                        <li class="li13"><a href="#none">부산</a></li>
+                        <li class="li14"><a href="#none">전라북도</a></li>
+                        <li class="li15"><a href="#none">전라남도</a></li>
+                        <li class="li16"><a href="#none">광주</a></li>
+                        <li class="li17"><a href="#none">제주도</a></li>
+                    </ul>
                 </div>
                 <div class="cp-list m-hidden">
                     <ul class="list-chkrdo-btn">
@@ -200,7 +218,7 @@
                         <dt><span class="blind">현재 선택된 시/도</span></dt>
                         <dd>
                             <span>서울특별시</span>
-                            <span class="arrow"><span class="blind">&gt;</span></span>
+                            <span class="arrow">&gt;</span>
                             <strong title="현재선택">전체</strong>
                         </dd>
                     </dl>
@@ -296,5 +314,30 @@
     <!-- // contents -->
 </div>
 <!-- // container -->
+
+<script>
+    // 지도 click
+    function mapChnage(){
+        var map = $(".cp-map");
+        var defaultNum = 1;
+
+        $(".list-cp-map li:nth-child(" + defaultNum + ")").addClass("on");
+        map.attr("data-number", defaultNum);
+
+        /*
+        $(".list-cp-map li").each(function(){
+            var i = $(this).text();
+            $(this).attr("data-txt", i);
+        });
+        */
+
+        $(document).on("click", ".list-cp-map li a", function(){
+            var index = $(this).parent().index() + 1;
+            $(this).parent().addClass("on").siblings().removeClass("on");
+            map.attr("data-number", index);
+        });
+    };
+    mapChnage();
+</script>
 
 <jsp:include page="../../templates/common/footer.jsp" />
