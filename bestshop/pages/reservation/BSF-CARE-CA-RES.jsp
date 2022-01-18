@@ -510,7 +510,7 @@
 
                             <div class="prd-list-area">
                                 <h4 class="prd-list-count">신청 가능 제품 총<em>8</em>개</h4>
-                                <ul>
+                                <ul class="prd-list">
                                     <li class="item">
                                         <div class="box">
                                             <div class="img-wrap">
