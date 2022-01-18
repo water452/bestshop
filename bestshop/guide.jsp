@@ -126,7 +126,6 @@
             <h2 class="tit04">LG전자 마케팅 플랫폼</h2>
             <h2 class="tit05">LG전자 마케팅 플랫폼</h2>
             <h2 class="tit06">LG전자 마케팅 플랫폼</h2>
-            <h2 class="tit07">LG전자 마케팅 플랫폼</h2>
         </div>
     </div> 
     <!-- //title -->
@@ -136,8 +135,6 @@
         <div class="guide-cont">
             <p class="txt01">LG전자 마케팅 플랫폼</p>
             <p class="txt02">LG전자 마케팅 플랫폼</p>
-            <p class="txt03">LG전자 마케팅 플랫폼</p>
-            <p class="txt04">LG전자 마케팅 플랫폼</p>
         </div>
     </div> 
     <!-- //txt -->

@@ -10,23 +10,25 @@
     <div class="contents">
         <div class="cont-wrap">
             <!-- 박람회일정 -->
-            <div class="swiper img-slide">
-                <ul class="swiper-wrapper">
-                    <li class="swiper-slide">
-                        <img class="m-hidden" src="../../images/img-event-schedule01.png" alt="&nbsp;" /><!-- pc용 -->
-                        <img class="pc-hidden" src="../../images/img-event-schedule01-m.png" alt="&nbsp;" /><!-- mobile용 -->
-                    </li>
-                    <li class="swiper-slide">
-                        <img class="m-hidden" src="../../images/img-event-schedule02.png" alt="&nbsp;" /><!-- pc용 -->
-                        <img class="pc-hidden" src="../../images/img-event-schedule02-m.png" alt="&nbsp;" /><!-- mobile용 -->
-                    </li>
-                </ul>
-                <button type="button" class="swiper-button-next">다음 슬라이드</button>
-                <button type="button" class="swiper-button-prev">이전 슬라이드</button>
-                <div class="btn-area-ps">
-                    <div class="swiper-pagination"></div>
-                    <button type="button" class="btn-slide-stop">슬라이드 일시정지</button>
-                    <button type="button" class="btn-slide-play">슬라이드 재생</button>
+            <div class="img-slide-wrap">
+                <div class="swiper img-slide">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <img class="m-hidden" src="../../images/img-event-schedule01.png" alt="&nbsp;" /><!-- pc용 -->
+                            <img class="pc-hidden" src="../../images/img-event-schedule01-m.png" alt="&nbsp;" /><!-- mobile용 -->
+                        </li>
+                        <li class="swiper-slide">
+                            <img class="m-hidden" src="../../images/img-event-schedule02.png" alt="&nbsp;" /><!-- pc용 -->
+                            <img class="pc-hidden" src="../../images/img-event-schedule02-m.png" alt="&nbsp;" /><!-- mobile용 -->
+                        </li>
+                    </ul>
+                    <button type="button" class="swiper-button-next">다음 슬라이드</button>
+                    <button type="button" class="swiper-button-prev">이전 슬라이드</button>
+                    <div class="btn-area-ps">
+                        <div class="swiper-pagination"></div>
+                        <button type="button" class="btn-slide-stop">슬라이드 일시정지</button>
+                        <button type="button" class="btn-slide-play">슬라이드 재생</button>
+                    </div>
                 </div>
             </div>
             <!-- //박람회일정 -->
@@ -60,7 +62,7 @@
                 <!-- 목록 -->
                 <div class="sec-sd-area">
                     <section class="sec-sd">
-                        <h3 class="txt01">12월 2주차</h3>
+                        <h3 class="tit05">12월 2주차</h3>
                         <ul class="list-apt ty-col">
                             <li>
                                 <div class="li-wrap">
@@ -100,7 +102,7 @@
                         </ul>
                     </section>
                     <section class="sec-sd">
-                        <h3 class="txt01">12월 3주차</h3>
+                        <h3 class="tit05">12월 3주차</h3>
                         <ul class="list-apt ty-col">
                             <li>
                                 <div class="li-wrap">
@@ -166,7 +168,7 @@
 <script>
     // 박람회 일정 슬라이드
     var imgSwiper = new Swiper(".img-slide", {
-        spaceBetween: 0,
+        spaceBetween: 24,
         autoplay: {
             delay: 5000
         },
