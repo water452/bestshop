@@ -208,6 +208,7 @@ ul.input-list-type .tit label .name sup {color:#e81953; margin-left:4px; font-si
 .input-pin-type {display:flex; margin-bottom:12px}
 .input-pin-type input {width:calc(100% - 112px)}
 .input-pin-type .btn-send {width:104px; margin-left:8px; padding:12px 10px; border:1px solid #000; border-radius:8px; background-color:#fff; font-size:14px; font-weight:bold; line-height:20px; white-space:nowrap}
+.base-slt { padding: 0 38px 0 15px; width: 100%; height: 48px; line-height: 46px; font-size: 16px; border-radius: 8px; border: 1px solid #ddd; background: #fff url("../images/icons/btn-down-16-black.svg") no-repeat top 50% right 11px; }
 
 /* 필수 입력 사항 */
 .note {display:flex; font-size:14px; line-height:20px}
@@ -554,7 +555,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	.slt.border-type > a,
 	.slt.border-type > ul {display:none}
 	.slt.border-type select {width:100%; height:auto; border:1px solid #ddd; border-radius:8px; background-position:top 50% right 11px; padding:11px 12px; font-size:14px; line-height:22px}
-    .base-slt { padding: 0 12px; width: 100%; height: 46px; line-height: 22px; font-size: 14px; border-radius: 8px; border: 1px solid #ddd; background: #fff url("../images/icons/btn-down-16-black.svg") no-repeat top 50% right 11px; }
+    .base-slt { padding-left: 12px; height: 46px; line-height: 44px; font-size: 14px; }
 
 	/* step title */
 	.step-tit {font-size:16px; line-height:25px}

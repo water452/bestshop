@@ -321,6 +321,10 @@
             <input type="text" class="base-txt" title="입력" placeholder="" style="width: 200px;" readonly />
             <input type="text" class="base-txt" title="입력" placeholder="" style="width: 200px;" disabled />
             <hr>
+            <select class="base-slt" style="width: 200px;">
+                <option>선택</option>
+            </select>
+            <hr>
             <div class="slt sltBox" data-txt-change="true">
                 <a href="javascript:void(0);" class="btn-slt">진행중인 이벤트</a>
                 <ul>

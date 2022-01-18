@@ -292,15 +292,63 @@ dfn { display: block; font-style: normal; }
 .list-apt + .btn-area { margin-top: 24px; }
 .list-apt { position: relative; left: -8px; margin-top: 24px; width: calc(100% + 16px); line-height: 0; font-size: 0; }
 .list-apt > li { display: inline-block; padding: 8px; width: 50%; vertical-align: top; }
-.list-apt > li .li-wrap { position: relative; padding: 22px 164px 22px 22px; border-radius: 8px; border: 1px solid #ddd; }
+.list-apt > li .li-wrap { position: relative; padding: 22px; border-radius: 8px; border: 1px solid #ddd; }
 .list-apt > li .cp { display: block; color: #da0f47; line-height: 20px; font-size: 14px; }
 .list-apt > li .name { display: block; margin-top: 8px; line-height: 26px; font-size: 18px; }
+.list-apt > li .name-big { display: block; margin-top: 5px; line-height: 30px; font-size: 20px; font-weight: bold; }
+.list-apt > li .date { display: block; margin-top: 9px; line-height: 20px; font-size: 14px; }
 .list-apt > li .branch { margin-top: 8px; }
 .list-apt > li .branch li { display: inline-block; position: relative; margin-right: 15px; line-height: 20px; font-size: 14px; vertical-align: top; }
 .list-apt > li .branch li:last-child { margin: 0; }
 .list-apt > li .branch li:last-child:before { display: none; }
 .list-apt > li .branch li:before { content: ""; position: absolute; top: 50%; right: -8px; margin-top: -5px; width: 1px; height: 10px; background: #ddd; }
 .list-apt > li .btn-area { position: absolute; top: 50%; right: 22px; -webkit-transform: translateY(-50%); transform: translateY(-50%); }
+.list-apt > .on .li-wrap { border-color: #000; }
+.list-apt.ty-btn > li .li-wrap { padding-right: 164px; }
+.list-apt.ty-col { left: auto; width: auto; }
+.list-apt.ty-col > li { padding: 0; width: 100%; }
+.list-apt.ty-col > li + li { margin-top: 14px; }
+.img-slide img { width: 100%; }
+.img-slide .swiper-button-prev,
+.img-slide .swiper-button-next { width: 50px; height: 70px; text-indent: -9999px; overflow: hidden; }
+.img-slide .swiper-button-prev { left: 20px; }
+.img-slide .swiper-button-next { right: 20px; }
+.img-slide .swiper-button-prev:after,
+.img-slide .swiper-button-next:after { width: 30px; height: 50px; background: #fff; background-repeat: no-repeat; background-position: 0 0; text-indent: -9999px; overflow: hidden; }
+.img-slide .swiper-button-prev:after {  }
+.img-slide .swiper-button-next:after {  }
+.img-slide .swiper-pagination { display: inline-block; position: static; width: auto; vertical-align: middle; }
+.img-slide .swiper-pagination-bullet + .swiper-pagination-bullet { margin-left: 10px !important; }
+.img-slide .swiper-pagination-bullet { margin: 0 !important; width: 14px; height: 14px; }
+.img-slide .swiper-pagination-bullet-active {  }
+.btn-area-ps { position: absolute; bottom: 20px; left: 0; width: 100%; line-height: 0; font-size: 0; text-align: center; z-index: 10; }
+.btn-area-ps > * + * { margin-left: 10px; }
+.btn-slide-stop, .btn-slide-play { position: relative; width: 30px; height: 30px; border-radius: 100%; background-repeat: no-repeat; background-position: center; text-indent: -9999px; overflow: hidden; }
+.btn-slide-stop { background-color: rgba(255,0,0,0.5); background-image: url("../images/icons/icon-btn-slide-stop.svg"); }
+.btn-slide-play { background-color: rgba(255,255,255,0.5); background-image: url("../images/icons/icon-btn-slide-play.svg"); }
+.schedule-map-list { table-layout: fixed; display: table; margin-top: 80px; width: 100%; }
+.schedule-map-list > * { display: table-cell; vertical-align: top; }
+.sd-map { padding: 16px 0 0 17px; width: calc(512px + 17px); }
+.list-sd-map { position: relative; height: 612px; background: url("../images/sd-map.png") no-repeat center 0; }
+.list-sd-map > li { position: absolute; }
+.list-sd-map > [data-area="seoul"] { top: 22.5%; left: 24%; }
+.list-sd-map > [data-area="gyeonggi"] { top: 29%; left: 26%; }
+.list-sd-map > [data-area="incheon"] { top: 26%; left: 12%; }
+.list-sd-map > [data-area="gangwon"] { top: 21%; left: 45%; }
+.list-sd-map > [data-area="chungcheong"] { top: 42%; left: 26%; }
+.list-sd-map > [data-area="jeolla"] { top: 62.7%; left: 21%; }
+.list-sd-map > [data-area="gyeongsang"] { top: 52.5%; left: 49%; }
+.list-sd-map > [data-area="jeju"] { bottom: 6.5%; left: 14%; }
+.list-sd-map > [data-area="jeju"] a { background: #fff; }
+.list-sd-map > .on a { color: #fff; background: linear-gradient(80deg, #fa263e 2%, #fb5a72 99%); }
+.list-sd-map > .on span { color: #fa263e; }
+.list-sd-map > li a { display: block; padding: 4px 10px; color: #878787; border-radius: 14px; border: 1px solid #ddd; background: #ddd; }
+.list-sd-map > li a > * { display: inline-block; vertical-align: top; }
+.list-sd-map > li dfn { line-height: 18px; font-size: 14px; }
+.list-sd-map > li span { margin-left: 3px; min-width: 18px; line-height: 18px; font-size: 12px; border-radius: 100%; background: #fff; text-align: center; }
+.sec-sd-area { padding-left: 31px; width: 100%; line-height: 0; font-size: 0; }
+.sec-sd-area > * { display: inline-block; width: calc(50% - 12px); vertical-align: top; }
+.sec-sd-area > * + * { margin-left: 24px; }
 
 /* popup: 당첨자발표 */
 .event-popup .ev-detail-top {margin: 0 0 47px;}
@@ -357,7 +405,7 @@ dfn { display: block; font-style: normal; }
     .tit07 { line-height: 22px; font-size: 16px; }
 
     /* txt */
-    .txt01 { line-height: px; font-size: px; }
+    .txt01 { line-height: 20px; font-size: 14px; }
     .txt02 { line-height: px; font-size: px; }
     .txt03 { line-height: px; font-size: px; }
     .txt04 { line-height: px; font-size: px; }
@@ -459,9 +507,6 @@ dfn { display: block; font-style: normal; }
 
     /* 이벤트 > 아파트 입주 이벤트 */
     .detail-thum + .btn-area { margin-top: 30px; }
-
-    /* 이벤트 > 아파트 입주 이벤트 */
-    .detail-thum + .btn-area { margin-top: px; }
     .sorting-cp { position: relative; left: -16px; padding: 21px 16px; width: calc(100% + 32px); }
     .slt-m-full-area > label { display: block; }
     .slt-m-full-area > * + * { margin-top: 6px; }
@@ -476,15 +521,27 @@ dfn { display: block; font-style: normal; }
     .sorting-form { margin-top: 8px; padding: 0 24px; }
     .list-apt + .btn-area { margin-top: 32px; }
     .list-apt { left: auto; margin-top: 20px; width: 100%; }
-    .list-apt > li + li { margin-top: 7px; }
+    .list-apt > li + li { margin-top: 7px !important; }
     .list-apt > li { padding: 0; width: 100%; }
-    .list-apt > li .li-wrap { padding: 14px 116px 14px 12px; border-radius: 4px; }
+    .list-apt > li .li-wrap { padding: 14px 14px 14px 12px; border-radius: 4px; }
     .list-apt > li .cp { line-height: 14px; font-size: 10px; }
-    .list-apt > li .name { margin-top: 4px; line-height: 20px; font-size: 14px; }
+    .list-apt > li .name,
+    .list-apt > li .name-big { margin-top: 4px; line-height: 20px; font-size: 14px; }
+    .list-apt > li .date { margin-top: 5px; line-height: 17px; font-size: 11px; }
     .list-apt > li .branch { margin-top: 4px; }
     .list-apt > li .branch li { margin-right: 12px; line-height: 17px; font-size: 11px; }
     .list-apt > li .branch li:before { right: -7px; margin-top: -4px; height: 8px; }
     .list-apt > li .btn-area { right: 12px; }
+    .list-apt.ty-btn > li .li-wrap { padding-right: 116px; }
+
+    .schedule-map-list { display: block; margin-top: 40px; }
+    .schedule-map-list > * { display: block; }
+    .sd-map { padding: 0; width: auto; }
+    .sec-sd-area { margin-top: 20px; padding: 0; }
+    .sec-sd-area > * { display: block; width: auto; }
+    .sec-sd-area > * + * { margin: 7px 0 0 0; }
+    .sec-sd > .txt01 + .list-apt { margin-top: 16px; }
+    .sec-sd + .sec-sd { margin-top: 30px; }
 
     /* popup: 당첨자발표 */
     .event-popup .pop-conts { padding: 95px 16px 60px;}

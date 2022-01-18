@@ -197,12 +197,12 @@
                 <!-- mobile -->
                 <div class="slt-m-full-area pc-hidden">
                     <label for="slt-sorting-cp01">
-                        <select  id="slt-sorting-cp01" class="base-slt">
+                        <select id="slt-sorting-cp01" class="base-slt">
                             <option>시/도 선택</option>
                         </select>
                     </label>
                     <label for="slt-sorting-cp02">
-                        <select  id="slt-sorting-cp02" class="base-slt">
+                        <select id="slt-sorting-cp02" class="base-slt">
                             <option>전체</option>
                         </select>
                     </label>
@@ -237,7 +237,7 @@
                 </form>
                 <!-- //검색 -->
                 <!-- 목록 -->
-                <ul class="list-apt">
+                <ul class="list-apt ty-btn">
                     <li>
                         <div class="li-wrap">
                             <strong class="cp">동대문구</strong>
@@ -316,7 +316,7 @@
 <!-- // container -->
 
 <script>
-    // 지도 click
+    // 지도
     function mapChnage(){
         var map = $(".cp-map");
         var defaultNum = 1;
