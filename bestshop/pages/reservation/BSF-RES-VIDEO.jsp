@@ -11,6 +11,7 @@
         <div class="contents res-main">
 
             <div class="cont-wrap">
+
                 <div class="tab01 center">
                     <ul>
                         <li>
@@ -21,8 +22,41 @@
                         </li>
                     </ul>
                 </div>
-
+    
                 <div class="top-wrap">
+                    <div class="add-area">
+                        <div class="swiper res-banner-01">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="box">
+                                        <img class="m-hidden" src="../../images/img-res-visit-banner-01.png" alt="">
+                                        <img class="pc-hidden" src="../../images/img-res-visit-banner-01_mo.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="box">
+                                        <img class="m-hidden" src="../../images/img-res-visit-banner-02.png" alt="">
+                                        <img class="pc-hidden" src="../../images/img-res-visit-banner-02_mo.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="box">
+                                        <img class="m-hidden" src="../../images/img-res-visit-banner-03.png" alt="">
+                                        <img class="pc-hidden" src="../../images/img-res-visit-banner-03_mo.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="banner-btns">
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                            <div class="banner-indi-wrap">
+                                <div class="swiper-pagination"></div>
+                                <button type="button" class="btn-play"><span class="blind">재생</span></button>
+                            </div>
+                        </div>
+                    </div>
+    
                     <div class="guide-area">
                         <div class="guide-process">
                             <div class="inner">
@@ -30,85 +64,51 @@
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <div class="box">
+                                                <div class="tit-wrap">
+                                                    <span class="tit">STEP 01</span>
+                                                    <strong>상담 희망 제품 선택</strong>
+                                                </div>
                                                 <span class="icon-wrap">
                                                     <i class="icon01"></i>
                                                 </span>
-                                                <p class="txt">화상 상담 <br class="pc-hidden">예약</p>
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="box">
+                                                <div class="tit-wrap">
+                                                    <span class="tit">STEP 02</span>
+                                                    <strong>매장 및 일시 선택</strong>
+                                                </div>
                                                 <span class="icon-wrap">
                                                     <i class="icon02"></i>
                                                 </span>
-                                                <p class="txt">상담사와 <br class="pc-hidden">통화</p>
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="box">
+                                                <div class="tit-wrap">
+                                                    <span class="tit">STEP 03</span>
+                                                    <strong>고객 정보 입력 후 예약 완료</strong>
+                                                </div>
                                                 <span class="icon-wrap">
                                                     <i class="icon03"></i>
                                                 </span>
-                                                <p class="txt">화상 상담 <br class="pc-hidden">URL 접속</p>
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="box">
+                                                <div class="tit-wrap">
+                                                    <span class="tit">STEP 04</span>
+                                                    <strong>사전 전화 안내 후 매장 방문</strong>
+                                                </div>
                                                 <span class="icon-wrap">
                                                     <i class="icon04"></i>
                                                 </span>
-                                                <p class="txt">화상 상담 <br class="pc-hidden">진행 및 완료</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="swiper-scrollbar"></div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="guide-info-list">
-                            <div class="inner">
-                                <ul class="bull">
-                                    <li>예약한 시간에 상담사가 전화로 연락드리고, 영상상담을 접속할 수 있는 사이트 URL을 문자로 송부 드립니다.</li>
-                                    <li>카메라 접속 등의 동의가 필요하며 일부 Web 브라우저의 버전이 낮을 경우 서비스에 제한이 있을 수 있습니다.</li>
-                                    <li class="red">고객님의 화면은 매니저에게 노출되지 않습니다.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="add-area">
-                        <div class="swiper res-banner-01">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="banner">
-                                        <div class="box">
-                                            <img class="m-hidden" src="../../images/img-res-visit-banner-01.png" alt="">
-                                            <img class="pc-hidden" src="../../images/img-res-visit-banner-01_mo.png"
-                                                alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="banner">
-                                        <div class="box">
-                                            <img class="m-hidden" src="../../images/img-res-visit-banner-02.png" alt="">
-                                            <img class="pc-hidden" src="../../images/img-res-visit-banner-02_mo.png"
-                                                alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="banner">
-                                        <div class="box">
-                                            <img class="m-hidden" src="../../images/img-res-visit-banner-03.png" alt="">
-                                            <img class="pc-hidden" src="../../images/img-res-visit-banner-03_mo.png"
-                                                alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="banner-btns">
-                                <div class="swiper-button-next"></div>
-                                <div class="swiper-button-prev"></div>
                             </div>
                         </div>
                     </div>
@@ -190,169 +190,169 @@
                                 <h3 class="step-tit">제품선택<sup>*</sup><span>(다중선택)</span></h3>
                                 <!-- 제품선택 카테고리형 -->
                                 <!-- <ul class="input-cate-type">
-                <li>
-                  <p class="cate-tit"><i class="icon tv-audio"></i>TV/오디오</p>
-                  <ul class="cate-items">
-                    <li class="check-box">
-                      <input type="checkbox" name="tv" id="tv">
-                      <label for="tv">
-                        <span class="name">TV</span>
-                      </label>
-                    </li>
-                    <li class="check-box">
-                      <input type="checkbox" name="projector" id="projector">
-                      <label for="projector">
-                        <span class="name">프로젝터</span>
-                      </label>
-                    </li>
-                    <li class="check-box">
-                      <input type="checkbox" name="soundbar" id="soundbar">
-                      <label for="soundbar">
-                        <span class="name">사운드바</span>
-                      </label>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <p class="cate-tit"><i class="icon pc"></i>PC</p>
-                  <ul class="cate-items">
-                    <li class="check-box">
-                      <input type="checkbox" name="laptop" id="laptop">
-                      <label for="laptop">
-                        <span class="name">노트북</span>
-                      </label>
-                    </li>
-                    <li class="check-box">
-                      <input type="checkbox" name="desktop" id="desktop">
-                      <label for="desktop">
-                        <span class="name">데스크탑</span>
-                      </label>
-                    </li>
-                    <li class="check-box">
-                      <input type="checkbox" name="monitor" id="monitor">
-                      <label for="monitor">
-                        <span class="name">모니터</span>
-                      </label>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <p class="cate-tit"><i class="icon kitchens"></i>주방가전</p>
-                  <ul class="cate-items">
-                    <li class="check-box">
-                      <input type="checkbox" name="kitchens" id="fridge">
-                      <label for="fridge">
-                        <span class="name">냉장고</span>
-                      </label>
-                    </li>
-                    <li class="check-box">
-                      <input type="checkbox" name="dish-washer" id="dish-washer">
-                      <label for="dish-washer">
-                        <span class="name">식기세척기</span>
-                      </label>
-                    </li>
-                    <li class="check-box">
-                      <input type="checkbox" name="oven" id="oven">
-                      <label for="oven">
-                        <span class="name">광파오븐</span>
-                      </label>
-                    </li>
-                    <li class="check-box">
-                      <input type="checkbox" name="range" id="range">
-                      <label for="range">
-                        <span class="name">전기레인지</span>
-                      </label>
-                    </li>
-                    <li class="check-box">
-                      <input type="checkbox" name="etc-kitchens" id="etc-kitchens">
-                      <label for="etc-kitchens">
-                        <span class="name">기타 주방가전</span>
-                      </label>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <p class="cate-tit"><i class="icon house"></i>생활가전</p>
-                  <ul class="cate-items">
-                    <li class="check-box">
-                      <input type="checkbox" name="washing" id="washing">
-                      <label for="washing">
-                        <span class="name">세탁기/건조기</span>
-                      </label>
-                    </li>
-                    <li class="check-box">
-                      <input type="checkbox" name="styler" id="styler">
-                      <label for="styler">
-                        <span class="name">스타일러</span>
-                      </label>
-                    </li>
-                    <li class="check-box">
-                      <input type="checkbox" name="air-con" id="air-con">
-                      <label for="air-con">
-                        <span class="name">에어컨</span>
-                      </label>
-                    </li>
-                    <li class="check-box">
-                      <input type="checkbox" name="vaccum" id="vaccum">
-                      <label for="vaccum">
-                        <span class="name">청소기</span>
-                      </label>
-                    </li>
-                    <li class="check-box">
-                      <input type="checkbox" name="air-clean" id="air-clean">
-                      <label for="air-clean">
-                        <span class="name">공기청정기</span>
-                      </label>
-                    </li>
-                    <li class="check-box">
-                      <input type="checkbox" name="etc-house" id="etc-house">
-                      <label for="etc-house">
-                        <span class="name">기타 생활가전</span>
-                      </label>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <p class="cate-tit"><i class="icon mobile"></i>모바일</p>
-                  <ul class="cate-items">
-                    <li class="check-box">
-                      <input type="checkbox" name="iphone" id="iphone">
-                      <label for="iphone">
-                        <span class="name">아이폰</span>
-                      </label>
-                    </li>
-                    <li class="check-box">
-                      <input type="checkbox" name="ipad" id="ipad">
-                      <label for="ipad">
-                        <span class="name">아이패드</span>
-                      </label>
-                    </li>
-                    <li class="check-box">
-                      <input type="checkbox" name="watch" id="watch">
-                      <label for="watch">
-                        <span class="name">애플워치</span>
-                      </label>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <p class="cate-tit"><i class="icon beauty"></i>뷰티</p>
-                  <ul class="cate-items">
-                    <li class="check-box">
-                      <input type="checkbox" name="pra-l" id="pra-l">
-                      <label for="pra-l">
-                        <span class="name">프라엘</span>
-                      </label>
-                    </li>
-                    <li class="check-box">
-                      <input type="checkbox" name="medihair" id="medihair">
-                      <label for="medihair">
-                        <span class="name">메디헤어</span>
-                      </label>
-                    </li>
-                  </ul>
-                </li>
-              </ul> -->
+                                    <li>
+                                        <p class="cate-tit"><i class="icon tv-audio"></i>TV/오디오</p>
+                                        <ul class="cate-items">
+                                            <li class="check-box">
+                                                <input type="checkbox" name="tv" id="tv">
+                                                <label for="tv">
+                                                    <span class="name">TV</span>
+                                                </label>
+                                            </li>
+                                            <li class="check-box">
+                                                <input type="checkbox" name="projector" id="projector">
+                                                <label for="projector">
+                                                    <span class="name">프로젝터</span>
+                                                </label>
+                                            </li>
+                                            <li class="check-box">
+                                                <input type="checkbox" name="soundbar" id="soundbar">
+                                                <label for="soundbar">
+                                                    <span class="name">사운드바</span>
+                                                </label>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <p class="cate-tit"><i class="icon pc"></i>PC</p>
+                                        <ul class="cate-items">
+                                            <li class="check-box">
+                                                <input type="checkbox" name="laptop" id="laptop">
+                                                <label for="laptop">
+                                                    <span class="name">노트북</span>
+                                                </label>
+                                            </li>
+                                            <li class="check-box">
+                                                <input type="checkbox" name="desktop" id="desktop">
+                                                <label for="desktop">
+                                                    <span class="name">데스크탑</span>
+                                                </label>
+                                            </li>
+                                            <li class="check-box">
+                                                <input type="checkbox" name="monitor" id="monitor">
+                                                <label for="monitor">
+                                                    <span class="name">모니터</span>
+                                                </label>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <p class="cate-tit"><i class="icon kitchens"></i>주방가전</p>
+                                        <ul class="cate-items">
+                                            <li class="check-box">
+                                                <input type="checkbox" name="kitchens" id="fridge">
+                                                <label for="fridge">
+                                                    <span class="name">냉장고</span>
+                                                </label>
+                                            </li>
+                                            <li class="check-box">
+                                                <input type="checkbox" name="dish-washer" id="dish-washer">
+                                                <label for="dish-washer">
+                                                    <span class="name">식기세척기</span>
+                                                </label>
+                                            </li>
+                                            <li class="check-box">
+                                                <input type="checkbox" name="oven" id="oven">
+                                                <label for="oven">
+                                                    <span class="name">광파오븐</span>
+                                                </label>
+                                            </li>
+                                            <li class="check-box">
+                                                <input type="checkbox" name="range" id="range">
+                                                <label for="range">
+                                                    <span class="name">전기레인지</span>
+                                                </label>
+                                            </li>
+                                            <li class="check-box">
+                                                <input type="checkbox" name="etc-kitchens" id="etc-kitchens">
+                                                <label for="etc-kitchens">
+                                                    <span class="name">기타 주방가전</span>
+                                                </label>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <p class="cate-tit"><i class="icon house"></i>생활가전</p>
+                                        <ul class="cate-items">
+                                            <li class="check-box">
+                                                <input type="checkbox" name="washing" id="washing">
+                                                <label for="washing">
+                                                    <span class="name">세탁기/건조기</span>
+                                                </label>
+                                            </li>
+                                            <li class="check-box">
+                                                <input type="checkbox" name="styler" id="styler">
+                                                <label for="styler">
+                                                    <span class="name">스타일러</span>
+                                                </label>
+                                            </li>
+                                            <li class="check-box">
+                                                <input type="checkbox" name="air-con" id="air-con">
+                                                <label for="air-con">
+                                                    <span class="name">에어컨</span>
+                                                </label>
+                                            </li>
+                                            <li class="check-box">
+                                                <input type="checkbox" name="vaccum" id="vaccum">
+                                                <label for="vaccum">
+                                                    <span class="name">청소기</span>
+                                                </label>
+                                            </li>
+                                            <li class="check-box">
+                                                <input type="checkbox" name="air-clean" id="air-clean">
+                                                <label for="air-clean">
+                                                    <span class="name">공기청정기</span>
+                                                </label>
+                                            </li>
+                                            <li class="check-box">
+                                                <input type="checkbox" name="etc-house" id="etc-house">
+                                                <label for="etc-house">
+                                                    <span class="name">기타 생활가전</span>
+                                                </label>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <p class="cate-tit"><i class="icon mobile"></i>모바일</p>
+                                        <ul class="cate-items">
+                                            <li class="check-box">
+                                                <input type="checkbox" name="iphone" id="iphone">
+                                                <label for="iphone">
+                                                    <span class="name">아이폰</span>
+                                                </label>
+                                            </li>
+                                            <li class="check-box">
+                                                <input type="checkbox" name="ipad" id="ipad">
+                                                <label for="ipad">
+                                                    <span class="name">아이패드</span>
+                                                </label>
+                                            </li>
+                                            <li class="check-box">
+                                                <input type="checkbox" name="watch" id="watch">
+                                                <label for="watch">
+                                                    <span class="name">애플워치</span>
+                                                </label>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <p class="cate-tit"><i class="icon beauty"></i>뷰티</p>
+                                        <ul class="cate-items">
+                                            <li class="check-box">
+                                                <input type="checkbox" name="pra-l" id="pra-l">
+                                                <label for="pra-l">
+                                                    <span class="name">프라엘</span>
+                                                </label>
+                                            </li>
+                                            <li class="check-box">
+                                                <input type="checkbox" name="medihair" id="medihair">
+                                                <label for="medihair">
+                                                    <span class="name">메디헤어</span>
+                                                </label>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul> -->
                                 <!-- // 제품선택 카테고리형 -->
 
                                 <!-- 제품선택 제품군형 -->
@@ -626,7 +626,68 @@
 
                                             <!-- api 영역 -->
                                             <div class="api-area">
-                                                <img src="../../images/@img-map.png" alt="지도 임시이미지">
+                                                <div class="map-list-wrap active">
+                                                    <div class="list-inner">
+                                                        <ul class="shop-list">
+                                                            <li>
+                                                                <button type="button" class="btn-shop">강남 본점</button>
+                                                            </li>
+                                                            <li>
+                                                                <button type="button" class="btn-shop active">갤러리아 명품관 WEST점</button><!-- active 클래스 추가 -->
+                                                            </li>
+                                                            <li>
+                                                                <button type="button" class="btn-shop">논현역점</button>
+                                                            </li>
+                                                            <li>
+                                                                <button type="button" class="btn-shop">대치 본점</button>
+                                                            </li>
+                                                            <li>
+                                                                <button type="button" class="btn-shop">논현역점</button>
+                                                            </li>
+                                                            <li>
+                                                                <button type="button" class="btn-shop">대치 본점</button>
+                                                            </li>
+                                                            <li>
+                                                                <button type="button" class="btn-shop">논현역점</button>
+                                                            </li>
+                                                            <li>
+                                                                <button type="button" class="btn-shop">대치 본점</button>
+                                                            </li>
+                                                            <li>
+                                                                <button type="button" class="btn-shop">논현역점</button>
+                                                            </li>
+                                                            <li>
+                                                                <button type="button" class="btn-shop">대치 본점</button>
+                                                            </li>
+                                                            <li>
+                                                                <button type="button" class="btn-shop">논현역점</button>
+                                                            </li>
+                                                            <li>
+                                                                <button type="button" class="btn-shop">대치 본점</button>
+                                                            </li>
+                                                            <li>
+                                                                <button type="button" class="btn-shop">논현역점</button>
+                                                            </li>
+                                                            <li>
+                                                                <button type="button" class="btn-shop">대치 본점</button>
+                                                            </li>
+                                                            <li>
+                                                                <button type="button" class="btn-shop">논현역점</button>
+                                                            </li>
+                                                            <li>
+                                                                <button type="button" class="btn-shop">대치 본점</button>
+                                                            </li>
+                                                            <li>
+                                                                <button type="button" class="btn-shop">논현역점</button>
+                                                            </li>
+                                                            <li>
+                                                                <button type="button" class="btn-shop">대치 본점</button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <button type="button" class="btn-view"><span class="blind">매장 리스트 보기</span></button>
+                                                </div>
+                                                <!-- <img src="../../images/@img-map.png" alt="지도 임시이미지"> -->
                                             </div>
                                             <!-- // api 영역 -->
                                         </div><!-- //.map-wrap -->
@@ -646,71 +707,54 @@
                                             </div>
                                             <div class="view-wrap">
                                                 <div class="lt">
-                                                    <ul>
+                                                    <ul class="shop-list">
                                                         <li>
-                                                            <button type="button"
-                                                                class="btn-city">전체<span>530</span></button>
+                                                            <button type="button" class="btn-city">전체<span>530</span></button>
                                                         </li>
                                                         <li>
-                                                            <button type="button"
-                                                                class="btn-city active">서울특별시<span>7</span></button>
-                                                            <!-- active 클래스 추가 -->
+                                                            <button type="button" class="btn-city active">서울특별시<span>7</span></button><!-- active 클래스 추가 -->
                                                         </li>
                                                         <li>
-                                                            <button type="button"
-                                                                class="btn-city">부산광역시<span>38</span></button>
+                                                            <button type="button" class="btn-city">부산광역시<span>38</span></button>
                                                         </li>
                                                         <li>
-                                                            <button type="button"
-                                                                class="btn-city">대구광역시<span>32</span></button>
+                                                            <button type="button" class="btn-city">대구광역시<span>32</span></button>
                                                         </li>
                                                         <li>
-                                                            <button type="button"
-                                                                class="btn-city">인천광역시<span>56</span></button>
+                                                            <button type="button" class="btn-city">인천광역시<span>56</span></button>
                                                         </li>
                                                         <li>
-                                                            <button type="button"
-                                                                class="btn-city">광주광역시<span>72</span></button>
+                                                            <button type="button" class="btn-city">광주광역시<span>72</span></button>
                                                         </li>
                                                         <li>
-                                                            <button type="button"
-                                                                class="btn-city">대전광역시<span>65</span></button>
+                                                            <button type="button" class="btn-city">대전광역시<span>65</span></button>
                                                         </li>
                                                         <li>
-                                                            <button type="button"
-                                                                class="btn-city">울산광역시<span>79</span></button>
+                                                            <button type="button" class="btn-city">울산광역시<span>79</span></button>
                                                         </li>
                                                         <li>
-                                                            <button type="button"
-                                                                class="btn-city">세종특별자치시청<span>5</span></button>
+                                                            <button type="button" class="btn-city">세종특별자치시청<span>5</span></button>
                                                         </li>
                                                         <li>
-                                                            <button type="button"
-                                                                class="btn-city">부산광역시<span>38</span></button>
+                                                            <button type="button" class="btn-city">부산광역시<span>38</span></button>
                                                         </li>
                                                         <li>
-                                                            <button type="button"
-                                                                class="btn-city">대구광역시<span>32</span></button>
+                                                            <button type="button" class="btn-city">대구광역시<span>32</span></button>
                                                         </li>
                                                         <li>
-                                                            <button type="button"
-                                                                class="btn-city">인천광역시<span>56</span></button>
+                                                            <button type="button" class="btn-city">인천광역시<span>56</span></button>
                                                         </li>
                                                         <li>
-                                                            <button type="button"
-                                                                class="btn-city">광주광역시<span>72</span></button>
+                                                            <button type="button" class="btn-city">광주광역시<span>72</span></button>
                                                         </li>
                                                         <li>
-                                                            <button type="button"
-                                                                class="btn-city">대전광역시<span>65</span></button>
+                                                            <button type="button" class="btn-city">대전광역시<span>65</span></button>
                                                         </li>
                                                         <li>
-                                                            <button type="button"
-                                                                class="btn-city">울산광역시<span>79</span></button>
+                                                            <button type="button" class="btn-city">울산광역시<span>79</span></button>
                                                         </li>
                                                         <li>
-                                                            <button type="button"
-                                                                class="btn-city">세종특별자치시청<span>5</span></button>
+                                                            <button type="button" class="btn-city">세종특별자치시청<span>5</span></button>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -900,6 +944,11 @@
                                                             </a>
                                                         </li>
                                                     </ul>
+                                                    <!-- .no-data -->
+                                                    <div class="no-data">
+                                                        <span>검색된 결과가 없습니다.</span>
+                                                    </div>
+                                                    <!-- // .no-data -->
                                                 </div>
                                             </div>
                                         </div><!-- //.list-wrap -->
@@ -1362,6 +1411,26 @@
                     nextEl: ".swiper-button-next",
                     prevEl: ".swiper-button-prev",
                 },
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                },
+                autoplay: {
+                    delay: 3000,
+                },
+            });
+            // play/stop 버튼
+            $('.btn-play').click(function(){
+                if ($(this).hasClass('pause')) {
+                    resbanner01.autoplay.start();
+                    $(this).removeClass('pause');
+                    $(this).find('.blind').text('멈춤');
+                } else {
+                    resbanner01.autoplay.stop();
+                    $(this).addClass('pause');
+                    $(this).find('.blind').text('재생');
+                }
+                return false;
             });
 
             // step 2 지도/리스트 보기 버튼
@@ -1375,6 +1444,11 @@
                     });
                 })(i);
             }
+
+            // step 3 지도 매장리스트보기 버튼
+            $('.map-list-wrap .btn-view').on('click', function(){
+                $(this).closest('.map-list-wrap').toggleClass('active')
+            })
 
             // step 2 예약일 선택 / 예약시간 선택
             $('.date-wrap .mo-top').next('div').show();

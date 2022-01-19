@@ -23,7 +23,7 @@
                                             <span class="icon-wrap">
                                                 <i class="icon01"></i>
                                             </span>
-                                            <p class="txt">구매 희망 <br class="pc-hidden">소모품 선택</p>
+                                            <span class="txt">구매 희망 <br class="pc-hidden">소모품 선택</span>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
@@ -31,7 +31,7 @@
                                             <span class="icon-wrap">
                                                 <i class="icon02"></i>
                                             </span>
-                                            <p class="txt">소모품 구매 <br class="pc-hidden">예약 신청</p>
+                                            <span class="txt">소모품 구매 <br class="pc-hidden">예약 신청</span>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
@@ -39,7 +39,7 @@
                                             <span class="icon-wrap">
                                                 <i class="icon03"></i>
                                             </span>
-                                            <p class="txt">방문 매장 재고 확인 <br class="pc-hidden">및 고객 전화 안내</p>
+                                            <span class="txt">방문 매장 재고 확인 <br class="pc-hidden">및 고객 전화 안내</span>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
@@ -47,7 +47,7 @@
                                             <span class="icon-wrap">
                                                 <i class="icon04"></i>
                                             </span>
-                                            <p class="txt">매장 방문 픽업 <br class="pc-hidden">및 추가 상담</p>
+                                            <span class="txt">매장 방문 픽업 <br class="pc-hidden">및 추가 상담</span>
                                         </div>
                                     </div>
                                 </div>

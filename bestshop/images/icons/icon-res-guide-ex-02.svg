@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
-  <g id="그룹_1209" data-name="그룹 1209" transform="translate(-453.001 -370)">
-    <rect id="사각형_812" data-name="사각형 812" width="80" height="80" transform="translate(453.001 370)" fill="none"/>
-    <g id="그룹_1184" data-name="그룹 1184" transform="translate(42 30)">
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 140 140">
+  <g id="그룹_1266" data-name="그룹 1266" transform="translate(-420 -314)">
+    <circle id="타원_37" data-name="타원 37" cx="70" cy="70" r="70" transform="translate(420 314)" fill="#fbf5ff"/>
+    <g id="그룹_387" data-name="그룹 387" transform="translate(39 3)">
       <g id="그룹_386" data-name="그룹 386">
         <g id="사각형_278" data-name="사각형 278" transform="translate(466 355) rotate(90)" fill="#edcec9" stroke="#000" stroke-width="1.5">
           <rect width="52" height="42" rx="4" stroke="none"/>

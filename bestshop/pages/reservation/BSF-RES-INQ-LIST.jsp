@@ -39,7 +39,7 @@
                     <ul class="res-history">
                         <li>
                             <div class="his-tit-area">
-                                <h3 class="tit">방문 상담 예약</h3>
+                                <strong class="tit">방문 상담 예약</strong>
                                 <span class="flag">고객취소</span>
                             </div>
                             <div class="his-info-area">
@@ -75,12 +75,12 @@
                                 </div>
                             </div>
                             <div class="btn-area">
-                                <button type="button" class="btn border s01 h32 btnPopOpen" data-href="#popup-reservation-cancel">상담예약취소</button>
+                                <button type="button" class="btn border s02 btnPopOpen" data-href="#popup-reservation-cancel">상담예약취소</button>
                             </div>
                         </li>
                         <li>
                             <div class="his-tit-area">
-                                <h3 class="tit">방문 상담 예약</h3>
+                                <strong class="tit">방문 상담 예약</strong>
                                 <span class="flag">고객취소</span>
                             </div>
                             <div class="his-info-area">
@@ -116,12 +116,12 @@
                                 </div>
                             </div>
                             <div class="btn-area">
-                                <button type="button" class="btn border s01 h32 btnPopOpen" data-href="#popup-reservation-cancel">상담예약취소</button>
+                                <button type="button" class="btn border s02 btnPopOpen" data-href="#popup-reservation-cancel">상담예약취소</button>
                             </div>
                         </li>
                         <li>
                             <div class="his-tit-area">
-                                <h3 class="tit">방문 상담 예약</h3>
+                                <strong class="tit">방문 상담 예약</strong>
                                 <span class="flag">고객취소</span>
                             </div>
                             <div class="his-info-area">
@@ -157,12 +157,12 @@
                                 </div>
                             </div>
                             <div class="btn-area">
-                                <button type="button" class="btn border s01 h32 btnPopOpen" data-href="#popup-reservation-cancel">상담예약취소</button>
+                                <button type="button" class="btn border s02 btnPopOpen" data-href="#popup-reservation-cancel">상담예약취소</button>
                             </div>
                         </li>
                         <li>
                             <div class="his-tit-area">
-                                <h3 class="tit">화상 상담 예약</h3>
+                                <strong class="tit">화상 상담 예약</strong>
                             </div>
                             <div class="his-info-area">
                                 <dl>
@@ -197,12 +197,12 @@
                                 </div>
                             </div>
                             <div class="btn-area">
-                                <button type="button" class="btn border s01 h32 btnPopOpen" data-href="#popup-reservation-cancel">상담예약취소</button>
+                                <button type="button" class="btn border s02 btnPopOpen" data-href="#popup-reservation-cancel">상담예약취소</button>
                             </div>
                         </li>
                         <li>
                             <div class="his-tit-area">
-                                <h3 class="tit">화상 상담 예약</h3>
+                                <strong class="tit">화상 상담 예약</strong>
                             </div>
                             <div class="his-info-area">
                                 <dl>
@@ -237,7 +237,7 @@
                                 </div>
                             </div>
                             <div class="btn-area">
-                                <button type="button" class="btn border s01 h32 btnPopOpen" data-href="#popup-reservation-cancel">상담예약취소</button>
+                                <button type="button" class="btn border s02 btnPopOpen" data-href="#popup-reservation-cancel">상담예약취소</button>
                             </div>
                         </li>
                     </ul>

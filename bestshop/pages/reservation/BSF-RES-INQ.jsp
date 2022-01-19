@@ -4,7 +4,7 @@
     <div class="container" id="content">
 
         <div class="page-header">
-            <h1 class="title">상담 예약 조회</h1>
+            <h2 class="title">상담 예약 조회</h2>
             <div class="desc">
                 <p class="txt">고객님께서 예약하신 상담 예약 내역을 조회하실 수 있습니다.</p>
             </div>
@@ -20,7 +20,7 @@
                     <div class="inq-box-area">
                         <div class="inq-box">
                             <div class="top-area">
-                                <h2 class="tit">회원 상담 예약 조회</h2>
+                                <h3 class="tit">회원 상담 예약 조회</h3>
                             </div>
                             <div class="body-area">
                                 <ul class="bull info">
@@ -35,7 +35,7 @@
 
                         <div class="inq-box">
                             <div class="top-area">
-                                <h2 class="tit">비회원 상담 예약 조회</h2>
+                                <h3 class="tit">비회원 상담 예약 조회</h3>
                             </div>
                             <div class="body-area">
                                 <div class="phone-check-wrap">
@@ -49,8 +49,7 @@
                                                     </label>
                                                 </div>
                                                 <div class="txt-box">
-                                                    <input class="base-txt" type="text" name="user-name02"
-                                                        placeholder="이름 입력">
+                                                    <input class="base-txt" type="text" id="user-name02" placeholder="이름 입력">
                                                 </div>
                                             </li>
                                             <li class="num-box">
@@ -61,12 +60,10 @@
                                                 </div>
                                                 <div class="txt-box">
                                                     <div class="input-pin-type">
-                                                        <input class="base-txt" type="number" name="user-number02"
-                                                            placeholder="휴대전화 번호 입력">
+                                                        <input class="base-txt" type="number" id="user-number02" placeholder="휴대전화 번호 입력">
                                                         <button type="button" class="btn-send">인증번호 발송</button>
                                                     </div>
-                                                    <input class="base-txt" type="number" placeholder="인증번호를 입력해주세요"
-                                                        disabled>
+                                                    <input class="base-txt" type="number" placeholder="인증번호를 입력해주세요" disabled>
                                                 </div>
                                             </li>
                                         </ul>

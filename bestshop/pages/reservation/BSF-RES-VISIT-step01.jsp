@@ -116,11 +116,13 @@
                 <section class="cont-area">
                     <p class="step-top-note"><sup>*</sup>필수입력항목</p>
                     <!-- step 1 -->
-                    <div class="step-area step01 active"><!-- active 클래스 추가 -->
+                    <div class="step-area step01 active">
+                        <!-- active 클래스 추가 -->
 
-                        <div class="result-area active"><!-- active 클래스 추가 -->
+                        <div class="result-area">
+                            <!-- active 클래스 추가 -->
                             <div class="info-step01">
-                                <div class="info-txt-com active"><!-- active 클래스 추가 -->
+                                <div class="info-txt-com"><!-- active 클래스 추가 -->
                                     <a href="#">
                                         <span class="mo-tit">상담목적 및 제품선택</span>
                                         <span class="pc-tit">상담목적 :</span>
@@ -545,11 +547,13 @@
                     <!-- // step 1 -->
 
                     <!-- step 2 -->
-                    <div class="step-area step02 active"><!-- active 클래스 추가 -->
+                    <div class="step-area step02">
+                        <!-- active 클래스 추가 -->
 
-                        <div class="result-area active"><!-- active 클래스 추가 -->
+                        <div class="result-area active">
+                            <!-- active 클래스 추가 -->
                             <div class="info-step02">
-                                <div class="info-txt-com active"><!-- active 클래스 추가 -->
+                                <div class="info-txt-com"><!-- active 클래스 추가 -->
                                     <a href="#">
                                         <span class="mo-tit">상담매장 및 예약일시</span>
                                         <span class="pc-tit">상담매장 :</span>
@@ -567,19 +571,21 @@
                             </div>
                         </div>
 
-                        <div class="main-area active"><!-- active 클래스 추가 -->
+                        <div class="main-area"><!-- active 클래스 추가 -->
 
                             <div class="shop-date-wrap">
                                 <div class="view-area">
                                     <h3 class="step-tit">상담하실 매장과 상담일시 선택<sup>*</sup></h3>
                                     <div class="sort-area">
-                                        <button type="button" class="view-map active">지도보기</button><!-- active 클래스 추가 -->
+                                        <button type="button" class="view-map active">지도보기</button>
+                                        <!-- active 클래스 추가 -->
                                         <button type="button" class="view-list">리스트보기</button>
                                     </div>
 
                                     <div class="sort-block">
                                         <!-- 지도보기 영역 -->
-                                        <div class="map-wrap active"><!-- active 클래스 추가 -->
+                                        <div class="map-wrap active">
+                                            <!-- active 클래스 추가 -->
                                             <ul class="input-select-type">
                                                 <li>
                                                     <div class="slt sltBox border-type" data-txt-change="true">
@@ -678,7 +684,8 @@
                                         </div><!-- //.map-wrap -->
 
                                         <!-- 리스트 보기 영역 -->
-                                        <div class="list-wrap"><!-- active 클래스 추가 -->
+                                        <div class="list-wrap">
+                                            <!-- active 클래스 추가 -->
                                             <div class="search-wrap">
                                                 <form action="#">
                                                     <div class="search-box">
@@ -1081,7 +1088,7 @@
                             </div>
                         </div>
 
-                        <div class="btn-area bg active"><!-- active 클래스 추가 -->
+                        <div class="btn-area bg"><!-- active 클래스 추가 -->
                             <div class="result-txt">
                                 <!-- <p>상담하실 매장과 일시를 선택해주세요.</p> -->
                                 <p>상담매장: <span>강남본점</span></p>
@@ -1094,18 +1101,22 @@
                     <!-- // step 2 -->
 
                     <!-- step 3 -->
-                    <div class="step-area step03 active"><!-- active 클래스 추가 -->
+                    <div class="step-area step03">
+                        <!-- active 클래스 추가 -->
 
-                        <div class="result-area active"><!-- active 클래스 추가 -->
+                        <div class="result-area active">
+                            <!-- active 클래스 추가 -->
                             <div class="info-step03">
-                                <div class="info-txt-uncom active"><!-- active 클래스 추가 -->
+                                <div class="info-txt-uncom active">
+                                    <!-- active 클래스 추가 -->
                                     <p class="page-num">STEP03</p>
                                     <p class="txt">예약자 정보를 입력해주세요.</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="main-area active"><!-- active 클래스 추가 -->
+                        <div class="main-area">
+                            <!-- active 클래스 추가 -->
                             <div class="user-info-area">
                                 <h3 class="step-tit">예약자 정보<sup>*</sup></h3>
                                 <div class="lt">
@@ -1153,10 +1164,13 @@
                                                 <div class="check-box">
                                                     <input type="checkbox" class="agr-check" id="agr-required">
                                                     <label for="agr-required">
-                                                        <span class="name"><em class="red">(필수)</em>개인정보 수집 및 이용에 동의합니다.</span>
+                                                        <span class="name"><em class="red">(필수)</em>개인정보 수집 및 이용에
+                                                            동의합니다.</span>
                                                     </label>
-                                                    <button type="button" class="agr-more active"><span class="blind">약관 내용 보기</span></button><!-- active 클래스 추가 -->
-                                                    <div class="agr-txt-wrap size-l active"><!-- active 클래스 추가 -->
+                                                    <button type="button" class="agr-more active"><span class="blind">약관
+                                                            내용 보기</span></button><!-- active 클래스 추가 -->
+                                                    <div class="agr-txt-wrap size-l active">
+                                                        <!-- active 클래스 추가 -->
                                                         <div class="inner">
                                                             <ul>
                                                                 <li>
@@ -1194,8 +1208,10 @@
                                                     <label for="agr-optional">
                                                         <span class="name"><em>(선택)</em>마케팅 정보활용에 동의합니다.</span>
                                                     </label>
-                                                    <button type="button" class="agr-more active"><span class="blind">약관 내용 보기</span></button><!-- active 클래스 추가 -->
-                                                    <div class="agr-txt-wrap active"><!-- active 클래스 추가 -->
+                                                    <button type="button" class="agr-more active"><span class="blind">약관
+                                                            내용 보기</span></button><!-- active 클래스 추가 -->
+                                                    <div class="agr-txt-wrap active">
+                                                        <!-- active 클래스 추가 -->
                                                         <div class="inner">
                                                             <ul>
                                                                 <li>
@@ -1252,7 +1268,7 @@
                             </div>
                         </div>
 
-                        <div class="btn-area m-hidden active"><!-- active 클래스 추가 -->
+                        <div class="btn-area m-hidden"><!-- active 클래스 추가 -->
                             <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담 예약하기</button>
                         </div>
 
@@ -1262,7 +1278,7 @@
             </div>
 
             <!-- 하단바 -->
-            <div class="bottom-fixed-wrap active"><!-- active 클래스 추가 -->
+            <div class="bottom-fixed-wrap"><!-- active 클래스 추가 -->
                 <div class="dimmed"></div>
                 <div class="bar-wrap">
                     <div class="head-area">
@@ -1292,8 +1308,10 @@
                         </div>
                     </div>
                     <div class="foot-area">
-                        <div class="btn-area active"><!-- active 클래스 추가 -->
-                            <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담 예약하기</button>
+                        <div class="btn-area active">
+                            <!-- active 클래스 추가 -->
+                            <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담
+                                예약하기</button>
                         </div>
                     </div>
                 </div>

@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="120" viewBox="0 0 120 120">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160" height="160" viewBox="0 0 160 160">
   <defs>
     <clipPath id="clip">
       <use xlink:href="#fill"/>
     </clipPath>
   </defs>
-  <g id="step04" transform="translate(-381 -408)">
-    <rect id="사각형_832" data-name="사각형 832" width="120" height="120" transform="translate(381 408)" fill="none"/>
-    <g id="그룹_1201" data-name="그룹 1201" transform="translate(404 433)">
+  <g id="그룹_1269" data-name="그룹 1269" transform="translate(-377 -314)">
+    <circle id="타원_122" data-name="타원 122" cx="80" cy="80" r="80" transform="translate(377 314)" fill="#fbf5ff"/>
+    <g id="그룹_904" data-name="그룹 904" transform="translate(420 363)">
       <g id="사각형_290" data-name="사각형 290" transform="translate(32.892 1.949)" fill="#aa593d" stroke="#000" stroke-width="3">
         <path d="M10,0H21.674a10,10,0,0,1,10,10V45.075a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10A10,10,0,0,1,10,0Z" stroke="none"/>
         <path d="M10,1.5H21.674a8.5,8.5,0,0,1,8.5,8.5V43.575a0,0,0,0,1,0,0H1.5a0,0,0,0,1,0,0V10A8.5,8.5,0,0,1,10,1.5Z" fill="none"/>
