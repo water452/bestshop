@@ -453,7 +453,68 @@
 
                                         <!-- api 영역 -->
                                         <div class="api-area">
-                                            <img src="../../images/@img-map.png" alt="지도 임시이미지">
+                                            <div class="map-list-wrap active">
+                                                <div class="list-inner">
+                                                    <ul class="shop-list">
+                                                        <li>
+                                                            <button type="button" class="btn-shop">강남 본점</button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button" class="btn-shop active">갤러리아 명품관 WEST점</button><!-- active 클래스 추가 -->
+                                                        </li>
+                                                        <li>
+                                                            <button type="button" class="btn-shop">논현역점</button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button" class="btn-shop">대치 본점</button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button" class="btn-shop">논현역점</button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button" class="btn-shop">대치 본점</button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button" class="btn-shop">논현역점</button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button" class="btn-shop">대치 본점</button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button" class="btn-shop">논현역점</button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button" class="btn-shop">대치 본점</button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button" class="btn-shop">논현역점</button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button" class="btn-shop">대치 본점</button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button" class="btn-shop">논현역점</button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button" class="btn-shop">대치 본점</button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button" class="btn-shop">논현역점</button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button" class="btn-shop">대치 본점</button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button" class="btn-shop">논현역점</button>
+                                                        </li>
+                                                        <li>
+                                                            <button type="button" class="btn-shop">대치 본점</button>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <button type="button" class="btn-view"><span class="blind">매장 리스트 보기</span></button>
+                                            </div>
+                                            <!-- <img src="../../images/@img-map.png" alt="지도 임시이미지"> -->
                                         </div>
                                         <!-- // api 영역 -->
                                     </div><!-- //.map-wrap -->
@@ -471,7 +532,7 @@
                                         </div>
                                         <div class="view-wrap">
                                             <div class="lt">
-                                                <ul>
+                                                <ul class="shop-list">
                                                     <li><button type="button" class="btn-city">전체<span>530</span></button></li>
                                                     <li><button type="button" class="btn-city active">서울특별시<span>7</span></button><!-- active 클래스 추가 --></li>
                                                     <li><button type="button" class="btn-city">부산광역시<span>38</span></button></li>
@@ -656,6 +717,11 @@
                                                         </a>
                                                     </li>
                                                 </ul>
+                                                <!-- .no-data -->
+                                                <div class="no-data">
+                                                    <span>검색된 결과가 없습니다.</span>
+                                                </div>
+                                                <!-- // .no-data -->
                                             </div>
                                         </div>
                                     </div><!-- //.list-wrap -->
@@ -1063,6 +1129,11 @@
         });
       })(i);
     }
+
+    // step 2 지도 매장리스트보기 버튼
+    $('.map-list-wrap .btn-view').on('click', function(){
+        $(this).closest('.map-list-wrap').toggleClass('active')
+    })
 
     // step 2 예약일 선택 / 예약시간 선택
     $('.date-wrap .mo-top').next('div').show();
