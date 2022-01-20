@@ -62,7 +62,7 @@
             <div class="ev-detail-con">
                 <div class="ev-img-box">
                     <div class="img">
-                        <img src="https://www.lge.co.kr/kr/upload/admin/eventMgt/12월_식기세척기_구매사은품증정_이벤트[20211126_184711].jpg" alt="event">
+                        <img src="../../images/temp-thum-event.png" alt="event" />
                     </div>
                     <div class="blind">
                         <p>꿈의 가전으로 트리를 꾸며요!</p>
