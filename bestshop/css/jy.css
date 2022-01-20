@@ -616,10 +616,9 @@ li[class*="blt"], li > [class*="blt"] { display: block; }
     .sr-header { padding-bottom: 15px; }
     .sr-header > .btn-area { top: 0; }
     .sr-location dd > * { line-height: 22px; font-size: 16px; }
-    .sr-location dd > * + * { margin-left: 7px; }
-    .sr-location dd > .arrow { width: 5px; height: 10px; }
+    .sr-location dd > * + * { margin-left: 3px; }
     .btn-txt-icon_more-line { line-height: 22px; font-size: 13px; }
-    .btn-txt-icon_more-line:after { margin-left: 8px; width: 5px; height: 10px; }
+    .btn-txt-icon_more-line:after { margin-left: 3px; width: 16px; height: 16px; }
     .sorting-form { margin-top: 8px; padding: 0 24px; }
     .list-apt + .btn-area { margin-top: 32px; }
     .list-apt { left: auto; margin-top: 20px; width: 100%; }

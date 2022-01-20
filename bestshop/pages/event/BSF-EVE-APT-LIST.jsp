@@ -250,7 +250,7 @@
                                 <li>미아사거리점</li>
                             </ul>
                             <div class="btn-area">
-                                <a href="#javascript:void(0);" class="btn border-gray s02 b01">방문 상담 예약</a>
+                                <a href="#javascript:void(0);" class="btn border-gray s03 b01">방문 상담 예약</a>
                             </div>
                         </div>
                     </li>
@@ -266,7 +266,7 @@
                                 <li>미아사거리점</li>
                             </ul>
                             <div class="btn-area">
-                                <a href="#javascript:void(0);" class="btn border-gray s02 b01">방문 상담 예약</a>
+                                <a href="#javascript:void(0);" class="btn border-gray s03 b01">방문 상담 예약</a>
                             </div>
                         </div>
                     </li>
@@ -282,7 +282,7 @@
                                 <li>미아사거리점</li>
                             </ul>
                             <div class="btn-area">
-                                <a href="#javascript:void(0);" class="btn border-gray s02 b01">방문 상담 예약</a>
+                                <a href="#javascript:void(0);" class="btn border-gray s03 b01">방문 상담 예약</a>
                             </div>
                         </div>
                     </li>
@@ -298,7 +298,7 @@
                                 <li>미아사거리점</li>
                             </ul>
                             <div class="btn-area">
-                                <a href="#javascript:void(0);" class="btn border-gray s02 b01">방문 상담 예약</a>
+                                <a href="#javascript:void(0);" class="btn border-gray s03 b01">방문 상담 예약</a>
                             </div>
                         </div>
                     </li>

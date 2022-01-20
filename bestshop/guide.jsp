@@ -180,6 +180,14 @@
             <a href="javascript:void(0);" class="btn dark-gray s02">버튼</a>
             <a href="javascript:void(0);" class="btn black s02">버튼</a>
             <a href="javascript:void(0);" class="btn mix s02">버튼</a>
+            <hr>
+            <a href="javascript:void(0);" class="btn s03">버튼</a>
+            <a href="javascript:void(0);" class="btn border s03">버튼</a>
+            <a href="javascript:void(0);" class="btn border-gray s03">버튼</a>
+            <a href="javascript:void(0);" class="btn gray s03">버튼</a>
+            <a href="javascript:void(0);" class="btn dark-gray s03">버튼</a>
+            <a href="javascript:void(0);" class="btn black s03">버튼</a>
+            <a href="javascript:void(0);" class="btn mix s03">버튼</a>
         </div>
     </div> 
     <!-- //buttons -->
