@@ -167,17 +167,6 @@ table{border-collapse:collapse}
 .btn-area.m64 {margin-top:64px}
 .btn-area [class*="btn"] + [class*="btn"] {margin-left:13px}
 
-/* button */
-.btn.full { min-width: 0; width: 100%; }
-.btn.s01.mix, .btn.s02.mix { padding-top: 1px; padding-bottom: 1px; }
-.btn.s01 { padding: 0 16px; line-height: 38px; font-size: 14px; border-radius: 20px; }
-.btn.s01.more {position:relative; display:inline-block; min-width:90px; height:auto; padding-left:36px; line-height:38px}
-.btn.s01.more::before {content:''; display:block; position:absolute; width:16px; height:16px; top:calc(50% - 8px); left:16px; background:url(../images/icons/btn-plus-16.svg) no-repeat center / contain}
-.btn.s02 { padding: 0 16px; line-height: 32px; font-size: 14px; border-radius: 17px; }
-.btn.b01 { border-radius: 8px; }
-.btn.border-gray { color: #000 !important; border-color: #ddd !important; background: #fff !important; }
-.btn.border-gray:hover, .btn.border-gray:focus, .btn.border-gray:active { color: #da0f47 !important; border-color: #da0f47 !important; }
-
 /* bullet list */
 ul.bull > li {position:relative; padding-left:10px; font-size:14px; line-height:22px}
 ul.bull > li::before {content:''; display:block; position:absolute; width:2px; height:2px; top:10px; left:0; border-radius:50%; background-color:#000}
@@ -582,15 +571,6 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
     .btn-area.m-full > [class*="btn"] { width: 100%; }
     .btn-area.m-full > [class*="btn"] + [class*="btn"] { margin: 10px 0 0 0; }
 
-	/* button */
-    .btn.s01 { padding: 0 20px; line-height: 41px; font-size: 13px; border-radius: 21px; }
-	.btn.s01.more {min-width:86px; padding:0 15px 0 33px}
-    .btn.s01.more::before {width:14px; height:14px; top:calc(50% - 7px)}
-	.btn.s01.h32 {min-width:79px; padding:0 10px; font-size:10px; line-height:22px}
-    .btn.s02 { padding: 0 12px; min-width: 0; line-height: 22px; font-size: 10px; border-radius: 12px; }
-    .btn.s02.b01 { line-height: 32px; font-size: 11px; }
-    .btn.b01 { border-radius: 4px; }
-
 	/* bullet list */
 	ul.bull > li {padding-left:5px; font-size:12px; line-height:20px}
 	ul.bull > li + li {margin-top:5px}
@@ -775,7 +755,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
     .txt-pop01 { line-height: 17px; font-size: 13px; }
     .btn-area.m-full-flex { position: relative; left: -16px; margin-top: 48px; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; align-items: center; width: calc(100% + 32px); }
     .btn-area.m-full-flex > * + * { margin: 0 !important; }
-    .btn-area.m-full-flex > .btn { width: 100%; font-size: 14px; border-radius: 0; }
+    .btn-area.m-full-flex > .btn { width: 100%; line-height: 54px; border-radius: 0; }
     .btn-pop-close { top: 25px; right: 13px; width: 26px; height: 26px; background-size: 20px auto; }
     
     /* popup - 모바일 full */

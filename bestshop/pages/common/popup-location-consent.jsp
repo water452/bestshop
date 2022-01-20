@@ -22,8 +22,8 @@
             </p>
         </div>
         <div class="btn-area m-full-flex">
-            <button type="button" class="btn gray btnPopCancel">아니요</button>
-            <button type="button" class="btn">네</button>
+            <button type="button" class="btn s01 gray btnPopCancel">아니요</button>
+            <button type="button" class="btn s01">네</button>
         </div>
     </div>
 </div>

@@ -11,7 +11,8 @@
         <div class="cont-wrap">
             <!-- 타이틀 이미지 -->
             <div class="tit-img-area">
-                <img src="../../images/tit-img-shop-open.png" alt="가전 매장의 새로운 기준. LG전자 베스트샵 GRAND OPEN (가장 풍성한 혜택의 오픈 매장 이벤트를 꼭 확인해보세요!)" />
+                <img src="../../images/tit-img-shop-open.png" alt="가전 매장의 새로운 기준. LG전자 베스트샵 GRAND OPEN (가장 풍성한 혜택의 오픈 매장 이벤트를 꼭 확인해보세요!)" class="m-hidden" /><!-- pc용 -->
+                <img src="../../images/tit-img-shop-open-m.png" alt="가전 매장의 새로운 기준. LG전자 베스트샵 GRAND OPEN (가장 풍성한 혜택의 오픈 매장 이벤트를 꼭 확인해보세요!)" class="pc-hidden" /><!-- mobile용 -->
             </div>
             <!-- //타이틀 이미지 -->
             <!-- 매장 목록 -->
@@ -31,7 +32,7 @@
                                 </dd>
                             </dl>
                             <div class="btn-area">
-                                <a href="javascript:void(0);" class="btn border full">혜택 안내 및 상담 예약</a>
+                                <a href="javascript:void(0);" class="btn border">혜택 안내 및 상담 예약</a>
                             </div>
                             <a href="javascript:void(0);" class="btn-txt-icon_more">매장 상세 정보</a>
                         </div>
@@ -50,7 +51,7 @@
                                 </dd>
                             </dl>
                             <div class="btn-area">
-                                <a href="javascript:void(0);" class="btn border full">혜택 안내</a>
+                                <a href="javascript:void(0);" class="btn border">혜택 안내</a>
                             </div>
                             <a href="javascript:void(0);" class="btn-txt-icon_more">매장 상세 정보</a>
                         </div>
@@ -70,7 +71,7 @@
                                 </dd>
                             </dl>
                             <div class="btn-area">
-                                <a href="javascript:void(0);" class="btn border full disabled">혜택 안내 및 상담 예약</a>
+                                <a href="javascript:void(0);" class="btn border disabled">혜택 안내 및 상담 예약</a>
                             </div>
                             <a href="javascript:void(0);" class="btn-txt-icon_more">매장 상세 정보</a>
                         </div>
@@ -90,7 +91,7 @@
                                 </dd>
                             </dl>
                             <div class="btn-area">
-                                <a href="javascript:void(0);" class="btn border full disabled">혜택 추후 공지</a>
+                                <a href="javascript:void(0);" class="btn border disabled">혜택 추후 공지</a>
                             </div>
                             <a href="javascript:void(0);" class="btn-txt-icon_more">매장 상세 정보</a>
                         </div>
@@ -110,7 +111,7 @@
                                 </dd>
                             </dl>
                             <div class="btn-area">
-                                <a href="javascript:void(0);" class="btn border full disabled">혜택 추후 공지</a>
+                                <a href="javascript:void(0);" class="btn border disabled">혜택 추후 공지</a>
                             </div>
                             <a href="javascript:void(0);" class="btn-txt-icon_more">매장 상세 정보</a>
                         </div>
@@ -130,7 +131,7 @@
                                 </dd>
                             </dl>
                             <div class="btn-area">
-                                <a href="javascript:void(0);" class="btn border full disabled">혜택 추후 공지</a>
+                                <a href="javascript:void(0);" class="btn border disabled">혜택 추후 공지</a>
                             </div>
                             <a href="javascript:void(0);" class="btn-txt-icon_more">매장 상세 정보</a>
                         </div>

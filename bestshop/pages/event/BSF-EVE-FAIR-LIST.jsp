@@ -62,7 +62,7 @@
                 <!-- 목록 -->
                 <div class="sec-sd-area">
                     <section class="sec-sd">
-                        <h3 class="tit05">12월 2주차</h3>
+                        <h3 class="tit08">12월 2주차</h3>
                         <ul class="list-apt ty-col">
                             <li>
                                 <div class="li-wrap">
@@ -102,7 +102,7 @@
                         </ul>
                     </section>
                     <section class="sec-sd">
-                        <h3 class="tit05">12월 3주차</h3>
+                        <h3 class="tit08">12월 3주차</h3>
                         <ul class="list-apt ty-col">
                             <li>
                                 <div class="li-wrap">

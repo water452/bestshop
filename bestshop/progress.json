@@ -836,8 +836,8 @@
       "worker": "이수용",
       "startdate": "2022-01-19",
       "finishdate": "2022-01-26",
-      "status": "진행예정",
-      "filename": "",
+      "status": "진행중",
+      "filename": "./pages/benefit/BSF-BEN-MEMBER.jsp",
       "memo": ""
     },
     {

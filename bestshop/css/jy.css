@@ -45,6 +45,7 @@ dfn { display: block; font-style: normal; }
 .color-violet { color: #6735ea !important; }
 .color-emerald { color: #008182 !important; }
 .color-emerald-alert { color: #76892d !important; }
+.color-fff { color: #fff !important; }
 .color-000 { color: #000 !important; }
 .color-666 { color: #666 !important; }
 .color-aaa { color: #aaa !important; }
@@ -62,16 +63,19 @@ dfn { display: block; font-style: normal; }
 .bg-aaa { background-color: #aaa !important; }
 
 /* title */
-.tit01 { line-height: 40px; font-size: 32px; } /* Event Page Title */
-.tit02 { line-height: 32px; font-size: 24px; } /* Page Title (Large) */
-.tit03 { line-height: 30px; font-size: 22px; } /* 상담예약완료서브문구 */
-.tit04 { line-height: 32px; font-size: 20px; } /* List Title (Small) */
-.tit05 { line-height: 26px; font-size: 18px; } /* Tab / Sub Tab */
-.tit06 { line-height: 24px; font-size: 16px; } /* 본문 Default */
+.tit01 { line-height: 40px; font-size: 32px; }
+.tit02 { line-height: 38px; font-size: 30px; }
+.tit03 { line-height: 36px; font-size: 28px; }
+.tit04 { line-height: 34px; font-size: 26px; }
+.tit05 { line-height: 32px; font-size: 24px; }
+.tit06 { line-height: 30px; font-size: 22px; }
+.tit07 { line-height: 32px; font-size: 20px; }
+.tit08 { line-height: 26px; font-size: 18px; }
+.tit09 { line-height: 24px; font-size: 16px; }
 
 /* txt */
-.txt01 { line-height: 20px; font-size: 14px; } /* 본문 & 주석 */
-.txt02 { line-height: 18px; font-size: 12px; } /* Flag */
+.txt01 { line-height: 20px; font-size: 14px; }
+.txt02 { line-height: 18px; font-size: 12px; }
 
 /* button */
 
@@ -137,16 +141,15 @@ dfn { display: block; font-style: normal; }
 .list-shop { margin-top: 25px; }
 .list-shop > ul { position: relative; left: -15px; width: calc(100% + 30px); line-height: 0; font-size: 0; }
 .list-shop > ul > li { display: inline-block; padding: 15px; width: calc(100% / 3); vertical-align: top; }
-.list-shop .li-wrap { position: relative; border-radius: 8px; border: 1px solid #ddd; }
+.list-shop .li-wrap { position: relative; border-radius: 8px; border: 1px solid #ddd; text-align: center; }
 .list-shop .btn-area { padding: 20px 32px; }
 .list-shop .flag-item { position: absolute; top: 0; left: 32px; }
 .list-shop .btn-txt-icon_more { position: absolute; top: 16px; right: 16px; }
-.infor-item { text-align: center; }
 .infor-item > dt { padding: 32px 32px 24px 32px; line-height: 20px; font-size: 14px; font-weight: 500; }
 .infor-item > dt span { display: block; margin-top: 6px; line-height: 30px; font-size: 24px; font-weight: bold; }
-.infor-item > dd { padding: 0 32px; color: #8d488d; }
-.infor-item > .date { line-height: 30px; font-size: 24px; font-weight: bold; }
-.infor-item > .event-date { table-layout: fixed; display: table; margin-top: 14px; width: 100%; height: 106px; border-radius: 0 0 8px 8px; background: #efe4ef; }
+.infor-item > dd { padding: 0 32px; }
+.infor-item > .date { color: #da0f47; line-height: 30px; font-size: 24px; font-weight: bold; }
+.infor-item > .event-date { table-layout: fixed; display: table; margin-top: 14px; width: 100%; height: 106px; border-radius: 0 0 8px 8px; background: #f4f4f4; }
 .infor-item > .event-date dl { display: table-cell; vertical-align: middle; }
 .infor-item > .event-date dt { line-height: 18px; font-size: 12px; }
 .infor-item > .event-date dd { margin-top: 4px; line-height: 22px; font-size: 14px; font-weight: bold; }
@@ -351,6 +354,93 @@ dfn { display: block; font-style: normal; }
 .sec-sd-area > * { display: inline-block; width: calc(50% - 12px); vertical-align: top; }
 .sec-sd-area > * + * { margin-left: 24px; }
 
+/* 혜택안내 > 멤버십 혜택 */
+.sec-wrap { position: relative; margin: 0 auto; padding: 48px 40px 52px 40px; max-width: 1460px; }
+.tit-area-sec + * { margin-top: 48px; }
+.tit-area-sec { text-align: center; }
+.tit-area-sec .tit01 { display: inline-block; vertical-align: top; }
+.banner-benefit { background: #cce7f5; }
+.banner-benefit .sec-wrap { padding: 90px 40px; height: 480px; }
+.bg-wrap-benefit { position: absolute; bottom: 20px; right: 20px; padding-top: 350px; width: 696px; background: url("../images/bg-banner-benefit.png") no-repeat center 0; }
+.bg-wrap-benefit .txt01 { text-align: center; }
+.blt-em { display: inline-block; position: relative; padding-left: 18px; vertical-align: top; }
+.blt-em:before { content: "※"; position: absolute; top: 0; left: 0; }
+.txt-st01 { line-height: 28px; font-size: 20px; }
+.txt-st02 { line-height: 30px; font-size: 22px; }
+.txt-st03 { line-height: 32px; font-size: 24px; }
+.txt-st04 { line-height: 34px; font-size: 26px; }
+.txt-st-big { line-height: 54px; font-size: 46px; }
+.txt-st04 + .txt-st-big { margin-top: 12px; }
+.tit02 + .txt-st03 { margin-top: 19px; }
+.tit-area-sec + .list-benefit { margin-top: 36px; }
+.list-benefit + .btn-area { margin-top: 20px; }
+.list-benefit { position: relative; left: -12px; width: calc(100% + 24px); line-height: 0; font-size: 0; }
+.list-benefit > li { display: inline-block; padding: 12px; width: 25%; vertical-align: top; }
+.list-benefit > li .li-wrap { padding: 30px; min-height: 230px; border-radius: 8px; border: 1px solid #ddd; text-align: center; }
+.list-benefit > li .tit { display: block; position: relative; padding-top: 82px; line-height: 26px; font-size: 18px; font-weight: bold; }
+.list-benefit > li .tit:before { content: ""; position: absolute; top: 0; left: 50%; margin-left: -32px; width: 64px; height: 64px; background-repeat: no-repeat; background-position: center; background-size: 100% auto; }
+.list-benefit > li:nth-child(1) .tit:before { background-image: url("../images/icons/icon-list-benefit01.png"); }
+.list-benefit > li:nth-child(2) .tit:before { background-image: url("../images/icons/icon-list-benefit02.png"); }
+.list-benefit > li:nth-child(3) .tit:before { background-image: url("../images/icons/icon-list-benefit03.png"); }
+.list-benefit > li:nth-child(4) .tit:before { background-image: url("../images/icons/icon-list-benefit04.png"); }
+.list-benefit > li .dsc { display: block; margin-top: 8px; line-height: 26px; font-size: 16px; letter-spacing: -0.5px; }
+.vip-membership { min-height: 399px; background: url("../images/bg-vip-membership-lt.png") no-repeat 0 0, url("../images/bg-vip-membership-rb.png") no-repeat right bottom; background-size: contain !important; background-color: #efefef; text-align: center; }
+.vip-membership .tit02 { padding-top: 70px; }
+.vip-membership .txt-st03 { padding-bottom: 70px; }
+.vip-membership .bull { padding: 32px 32px; background: rgba(255,255,255,0.7); text-align: left; }
+.vip-membership .bull > li + li { margin-top: 6px; }
+.tit-area-sec + .list-vip-as { margin-top: 36px; }
+.list-vip-as + .list-ty01 { margin-top: 12px; }
+.list-vip-as { position: relative; left: -12px; width: calc(100% + 24px); line-height: 0; font-size: 0; }
+.list-vip-as > li { display: inline-block; padding: 12px; width: 20%; vertical-align: top; }
+.list-vip-as > li .li-wrap { position: relative; padding: 24px; min-height: 375px; border-radius: 8px; border: 1px solid #ddd; text-align: center; }
+.list-vip-as > li .li-wrap:before { content: ""; position: absolute; top: 62px; left: 50%; margin-left: -70px; width: 140px; height: 140px; background-repeat: no-repeat; background-position: center; background-size: 100% auto; }
+.list-vip-as > li:nth-child(1) .li-wrap:before { background-image: url("../images/item-vip-as01.png"); }
+.list-vip-as > li:nth-child(2) .li-wrap:before { background-image: url("../images/item-vip-as02.png"); }
+.list-vip-as > li:nth-child(3) .li-wrap:before { background-image: url("../images/item-vip-as03.png"); }
+.list-vip-as > li:nth-child(4) .li-wrap:before { background-image: url("../images/item-vip-as04.png"); }
+.list-vip-as > li:nth-child(5) .li-wrap:before { background-image: url("../images/item-vip-as05.png"); }
+.list-vip-as > li .tit { display: block; line-height: 32px; font-size: 22px; font-weight: bold; }
+.list-vip-as > li .dsc { display: block; margin-top: 153px; line-height: 26px; font-size: 16px; }
+.list-vip-as > li .blt-dotted01 { margin-top: 16px; line-height: 24px; font-size: 14px; }
+.blt-dotted01 { display: inline-block; position: relative; padding-left: 10px; vertical-align: top; }
+.blt-dotted01:before { content: ""; position: absolute; top: 10px; left: 0; width: 3px; height: 3px; background: #000; }
+.blt-dotted01.ty-inline { padding: 0; }
+.blt-dotted01.ty-inline:before { display: inline-block; position: static; margin-right: 7px; vertical-align: 4px; }
+li[class*="blt"], li > [class*="blt"] { display: block; }
+.list-ty01 > li + li { margin-top: 6px; }
+.list-ty01 > li { line-height: 22px; font-size: 14px; }
+.list-ty01 > li > [class*="blt"] { margin-top: 6px; }
+.tbl-auto > table { table-layout: fixed; }
+.btn-arrow-toggle { display: none; }
+.tb_row.td-big table td { padding-top: 24px; padding-bottom: 24px; }
+.membership-join-infor { line-height: 0; font-size: 0; }
+.membership-join-infor > li { display: inline-block; position: relative; padding: 17px 96px 9px 276px; width: 50%; vertical-align: top; }
+.membership-join-infor > li:before { content: ""; position: absolute; top: 0; left: 120px; width: 128px; height: 128px; background-repeat: no-repeat; background-position: center; background-size: 100% auto; }
+.membership-join-infor > li:nth-child(1):before { background-image: url("../images/icons/icon-membership-join-infor01.png"); }
+.membership-join-infor > li:nth-child(2):before { background-image: url("../images/icons/icon-membership-join-infor02.png"); }
+.membership-join-infor > li + li { border-left: 1px solid #ddd; }
+.membership-join-infor > li .tit { display: block; line-height: 32px; font-size: 22px; font-weight: bold; }
+.membership-join-infor > li .dsc { display: block; margin-top: 10px; line-height: 26px; font-size: 16px; }
+.membership-join-infor > li .btn-area { margin-top: 20px; }
+.sec-app_download { padding: 84px 40px; min-height: 500px; background: url("../images/bg-app_download.png") no-repeat center; background-size: cover; }
+.sec-app_download .tit01 { color: #fff; }
+.app-download { margin: 52px auto 0 auto; max-width: 1000px; line-height: 0; font-size: 0; }
+.app-download > li + li { margin-left: 20px; }
+.app-download > li { display: inline-block; position: relative; padding: 66px 40px; width: calc(50% - 10px); min-height: 240px; border-radius: 8px; background: #f4f4f4; vertical-align: top; }
+.app-download > li .tit { display: block; line-height: 26px; font-size: 18px; font-weight: bold; }
+.app-download > li .btn-app-down { margin-top: 15px; }
+.app-download > li .qr-code { position: absolute; top: 50%; right: 84px; margin-top: -54px; }
+.btn-app-down { display: inline-block; width: 133px; height: 42px; background-repeat: no-repeat; background-position: center; background-size: 100% auto; text-indent: -9999px; overflow: hidden; vertical-align: top; }
+.btn-app-down.google-play { background-image: url("../images/btn-google-play.png"); }
+.btn-app-down.app-store { background-image: url("../images/btn-app-store.png"); }
+.qr-code { width: 108px; height: 109px; }
+.qr-code img { width: 100%; }
+.belt-wrap { padding: 15px 40px; text-align: center; }
+.belt-wrap > * { display: inline-block; vertical-align: middle; }
+.belt-wrap > .txt-st01 + * { margin-left: 16px; }
+.bg-tangible01 { background-image: linear-gradient(92deg, #8d71ec 0%, #f75584); }
+
 /* popup: 당첨자발표 */
 .event-popup .ev-detail-top {margin: 0 0 47px;}
 .event-popup .ev-detail-top .tit-wrap .tit {padding-right: 0;}
@@ -375,6 +465,16 @@ dfn { display: block; font-style: normal; }
     .sorting-cp > .cp-list { margin-top: 80px; padding-bottom: 30px; }
     .sorting-cp > .cp-list:before { left: 50%; top: -55px; -webkit-transform: translateX(-50%) rotate(90deg); transform: translateX(-50%) rotate(90deg); }
     .list-chkrdo-btn { max-width: 100%; }
+
+    /* 혜택안내 > 멤버십 혜택 */
+    .list-benefit > li { width: 50%; }
+    .list-vip-as > li { width: 50%; }
+    .list-vip-as > li .li-wrap { min-height: 353px; }
+    .membership-join-infor > li + li { border-left: 0 none; border-top: 1px solid #ddd; }
+    .membership-join-infor > li { padding-top: 30px; padding-bottom: 30px; width: 100%; }
+    .membership-join-infor > li:before { top: 20px; }
+    .app-download > li { padding: 168px 40px 40px 40px; text-align: center; }
+    .app-download > li .qr-code { top: 40px; right: 50%; margin: 0 -54px 0 0; }
 }
 @media screen and (max-width: 767px){ /* Mobile */
     .cont-wrap { padding: 0 16px 4px; } 
@@ -397,16 +497,19 @@ dfn { display: block; font-style: normal; }
     .flag-wrap .flag {font-size: 11px;}
 
     /* title */
-    .tit01 { line-height: 30px; font-size: 24px; } /* Event Page Title */
-    .tit02 { line-height: 26px; font-size: 20px; } /* Page Title (Large) */
-    .tit03 { line-height: 24px; font-size: 18px; } /* 상담예약완료서브문구 */
-    .tit04 { line-height: 20px; font-size: 14px; } /* List Title (Small) */
-    .tit05 { line-height: 20px; font-size: 14px; } /* Tab / Sub Tab */
-    .tit06 { line-height: 20px; font-size: 14px; } /* 본문 Default */
+    .tit01 { line-height: 30px; font-size: 24px; }
+    .tit02 { line-height: 29px; font-size: 23px; }
+    .tit03 { line-height: 28px; font-size: 22px; }
+    .tit04 { line-height: 27px; font-size: 21px; }
+    .tit05 { line-height: 26px; font-size: 20px; }
+    .tit06 { line-height: 24px; font-size: 18px; }
+    .tit07 { line-height: 20px; font-size: 14px; }
+    .tit08 { line-height: 20px; font-size: 14px; }
+    .tit09 { line-height: 20px; font-size: 14px; }
 
     /* txt */
-    .txt01 { line-height: 16px; font-size: 11px; } /* 본문 & 주석 */
-    .txt02 { line-height: 15px; font-size: 10px; } /* Flag */
+    .txt01 { line-height: 16px; font-size: 11px; }
+    .txt02 { line-height: 15px; font-size: 10px; }
 
     /* tab */
     .tab01, .tab02 { left: -16px; padding: 0 16px; width: calc(100% + 32px); }
@@ -439,7 +542,6 @@ dfn { display: block; font-style: normal; }
     .list-shop .btn-area { padding: 12px 16px; }
     .list-shop .flag-item { left: 16px; }
     .list-shop .btn-txt-icon_more { top: 8px; right: 12px; }
-    .list-shop .btn.border { padding-top: 0; padding-bottom: 0; line-height: 38px; font-size: 14px; }
     .infor-item > dt { padding: 23px 16px 12px 16px; line-height: 16px; font-size: 11px; }
     .infor-item > dt span { margin-top: 7px; line-height: 24px; font-size: 18px; }
     .infor-item > dd { padding: 0 16px; }
@@ -542,6 +644,87 @@ dfn { display: block; font-style: normal; }
     .sec-sd-area > * + * { margin: 7px 0 0 0; }
     .sec-sd > .txt01 + .list-apt { margin-top: 16px; }
     .sec-sd + .sec-sd { margin-top: 30px; }
+
+    /* 혜택안내 > 멤버십 혜택 */
+    .sec-wrap { padding: 50px 0 0 0; }
+    .sec-wrap > .tit-area-sec + * { margin-top: 30px; }
+    .banner-benefit { position: relative; left: -16px; width: calc(100% + 32px); }
+    .banner-benefit .sec-wrap { padding: 35px 19px; height: 360px; }
+    .bg-wrap-benefit { bottom: 20px; right: 50%; margin-right: -174px; padding-top: 175px; width: 348px; background-image: url("../images/bg-banner-benefit-m.png"); background-size: 100% auto; }
+    .blt-em { padding-left: 16px; }
+    .txt-st01 { line-height: 20px; font-size: 14px; }
+    .txt-st02 { line-height: 20px; font-size: 14px; }
+    .txt-st03 { line-height: 20px; font-size: 14px; }
+    .txt-st04 { line-height: 22px; font-size: 16px; }
+    .txt-st-big { line-height: 30px; font-size: 24px; }
+    .txt-st04 + .txt-st-big { margin-top: 5px; }
+    .tit02 + .txt-st03 { margin-top: 10px; }
+    .sec-wrap > .list-benefit { margin-top: 24px; }
+    .list-benefit + .btn-area { margin-top: 24px; }
+    .list-benefit + .btn-area .btn { width: 80%; }
+    .list-benefit { left: -6px; width: calc(100% + 12px); }
+    .list-benefit > li { padding: 6px; }
+    .list-benefit > li .li-wrap { padding: 20px 17px 14px 17px; min-height: 212px; border-radius: 4px; }
+    .list-benefit > li br { display: none; }
+    .list-benefit > li .tit { padding-top: 74px; line-height: 20px; font-size: 14px; }
+    .list-benefit > li .tit:before { margin-left: -32px; width: 64px; height: 64px; }
+    .list-benefit > li:nth-child(1) .tit:before { background-image: url("../images/icons/icon-list-benefit01-m.png"); }
+    .list-benefit > li:nth-child(2) .tit:before { background-image: url("../images/icons/icon-list-benefit02-m.png"); }
+    .list-benefit > li:nth-child(3) .tit:before { background-image: url("../images/icons/icon-list-benefit03-m.png"); }
+    .list-benefit > li:nth-child(4) .tit:before { background-image: url("../images/icons/icon-list-benefit04-m.png"); }
+    .list-benefit > li .dsc { margin-top: 8px; line-height: 18px; font-size: 12px; }
+    .vip-membership { min-height: px; background: url("../images/bg-vip-membership-lt-m.png") no-repeat 0 0, url("../images/bg-vip-membership-rb-m.png") no-repeat right bottom; background-color: #f6f6f6; }
+    .vip-membership .tit02 { padding-top: 45px; }
+    .vip-membership .txt-st03 { padding: 0 80px 45px; }
+    .vip-membership .bull { padding: 25px 20px; }
+    .list-vip-as + .list-ty01 { margin-top: 16px; }
+    .list-vip-as { left: auto; width: auto; }
+    .list-vip-as > li + li { margin-top: 12px; }
+    .list-vip-as > li { padding: 0; width: 100%; }
+    .list-vip-as > li .li-wrap { padding: 24px 15px 24px 138px; min-height: 176px; border-radius: 4px; text-align: left; }
+    .list-vip-as > li .li-wrap:before { left: 5px; top: 50%; margin: -64px 0 0 0; width: 128px; height: 128px; }
+    .list-vip-as > li:nth-child(1) .li-wrap:before { background-image: url("../images/item-vip-as01-m.png"); }
+    .list-vip-as > li:nth-child(2) .li-wrap:before { background-image: url("../images/item-vip-as02-m.png"); }
+    .list-vip-as > li:nth-child(3) .li-wrap:before { background-image: url("../images/item-vip-as03-m.png"); }
+    .list-vip-as > li:nth-child(4) .li-wrap:before { background-image: url("../images/item-vip-as04-m.png"); }
+    .list-vip-as > li:nth-child(5) .li-wrap:before { background-image: url("../images/item-vip-as05-m.png"); }
+    .list-vip-as > li .tit { line-height: 28px; font-size: 20px; }
+    .list-vip-as > li .dsc { margin-top: 4px; line-height: 20px; font-size: 14px; }
+    .list-vip-as > li .blt-dotted01 { margin-top: 8px; line-height: 18px; font-size: 12px; }
+    .blt-dotted01:before { top: 8px; width: 2px; height: 2px; }
+    .blt-dotted01.ty-inline:before { margin-right: 8px; vertical-align: 3px; }
+    .list-ty01 > li + li { margin-top: 9px; }
+    .list-ty01 > li { line-height: 18px; font-size: 12px; }
+    .tit-btn { position: relative; padding-right: 45px; }
+    .tit-btn .btn-arrow-toggle { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    .btn-arrow-toggle { display: inline-block; position: relative; text-indent: -9999px; overflow: hidden; vertical-align: top; }
+    .btn-arrow-toggle:before { content: ""; position: absolute; top: 0; right: 0; width: 30px; height: 30px; background: url("../images/icons/icon-arrow-down-48.svg") no-repeat center; background-size: 24px auto; -webkit-transition: all 0.1s ease-in-out 0s; transition: all 0.1s ease-in-out 0s; }
+    .btn-arrow-toggle.on:before { margin-top: -1px; -webkit-transform: rotate(180deg); transform: rotate(180deg); }
+    .tb_row.td-big table td { padding-top: 5px; padding-bottom: 5px; }
+    #tbl-membership-store { display: none; }
+    #tbl-membership-store.on { display: block; }
+    .membership-join-infor { margin-top: 0 !important; }
+    .membership-join-infor > li { padding: 35px 19px 30px 19px; }
+    .membership-join-infor > li:before { top: 35px; left: 19px; width: 64px; height: 64px; }
+    .membership-join-infor > li:nth-child(1):before { background-image: url("../images/icons/icon-membership-join-infor01-m.png"); }
+    .membership-join-infor > li:nth-child(2):before { background-image: url("../images/icons/icon-membership-join-infor02-m.png"); }
+    .membership-join-infor > li .tit { padding-left: 78px; line-height: 21px; font-size: 15px; }
+    .membership-join-infor > li .dsc { margin-top: 3px; padding-left: 78px; min-height: 36px; line-height: 18px; font-size: 12px; }
+    .membership-join-infor > li .btn-area { margin-top: 25px; padding: 0 17px; }
+    .membership-join-infor > li .btn { width: 100%; }
+    .membership-join-infor > li br { display: none; }
+    .app-download { position: relative; left: -19px; margin-top: 27px; width: calc(100% + 38px); }
+    .app-download > li + li { margin-left: 8px; }
+    .app-download > li { padding: 90px 17px 25px 17px; width: calc(50% - 4px); min-height: 0; }
+    .app-download > li .tit { padding: 0; line-height: 19px; font-size: 13px; }
+    .app-download > li .btn-app-down { margin-top: 7px; }
+    .app-download > li .qr-code { top: 25px; right: 50%; margin: 0 -27px 0 0; }
+    .btn-app-down { width: 66px; height: 21px; }
+    .qr-code { width: 54px; height: 55px; }
+    .belt-area { margin-top: 20px; border-radius: 8px; }
+    .belt-wrap { padding: 25px 60px; }
+    .belt-wrap > .txt-st01 { display: block; }
+    .belt-wrap > .txt-st01 + * { margin: 15px 0 0 0; }
 
     /* popup: 당첨자발표 */
     .event-popup .pop-conts { padding: 95px 16px 60px;}
