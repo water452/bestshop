@@ -50,7 +50,7 @@
                         </li>
                     </ul>
                     <div class="btn-area center">
-                        <a href="#none" class="btn">멤버십 가입</a>
+                        <a href="#none" class="btn s01">멤버십 가입</a>
                     </div>
                 </div>
             </section>
@@ -212,7 +212,7 @@
                         <li>
                             <dfn class="tit">온라인 / 모바일 가입 방법</dfn>
                             <span class="dsc">LGE.COM 또는 LG전자 멤버십 앱에서 회원가입,<br /> 본인인증 후 가입 완료!</span>
-                            <div class="btn-area"><a href="#none" class="btn m-full">멤버십 가입</a></div>
+                            <div class="btn-area"><a href="#none" class="btn s01 m-full">멤버십 가입</a></div>
                             <!-- mobile용 -->
                             <ul class="app-download pc-hidden">
                                 <li>
@@ -231,7 +231,7 @@
                         <li>
                             <dfn class="tit">매장 방문</dfn>
                             <span class="dsc">가까운 LG전자 베스트샵 매장 방문,<br /> 가입 신청서 작성</span>
-                            <div class="btn-area"><a href="#none" class="btn border">가까운 매장 찾기</a></div>
+                            <div class="btn-area"><a href="#none" class="btn s01 border">가까운 매장 찾기</a></div>
                         </li>
                     </ul>
                 </div>
@@ -258,7 +258,7 @@
             <div class="belt-area bg-tangible01">
                 <div class="belt-wrap">
                     <p class="txt-st01 color-fff">멤버십 포인트 적립 및 사용 내역을 확인하실 수 있어요.</p>
-                    <a href="#none" class="btn border-white">내 포인트 확인</a>
+                    <a href="#none" class="btn s01 border-white">내 포인트 확인</a>
                 </div>
             </div>
         </div>

@@ -47,8 +47,8 @@
                 </div>
             </div>
             <div class="btn-area center m64 mo50">
-                <button type="button" class="btn s01">상담 예약 조회</button>
-                <button type="button" class="btn border s01">메인 화면으로</button>
+                <button type="button" class="btn">상담 예약 조회</button>
+                <button type="button" class="btn border">메인 화면으로</button>
             </div>
         </div>
     </div>
