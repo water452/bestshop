@@ -191,9 +191,10 @@ ul.input-list-type li + li {margin-top:32px}
 ul.input-list-type.pc-row > li {display:flex}
 ul.input-list-type.pc-row .tit {margin-bottom:0}
 ul.input-list-type.pc-row .tit > label {line-height:48px}
+ul.input-list-type.pc-row .tit label .name sup {line-height:48px}
 ul.input-list-type .tit {margin-bottom:8px; font-size:16px; font-weight:bold; line-height:26px}
 ul.input-list-type .tit label .name {display:flex}
-ul.input-list-type .tit label .name sup {color:#e81953; margin-left:4px; font-size:16px; font-weight:bold; line-height:48px}
+ul.input-list-type .tit label .name sup {color:#e81953; margin-left:4px; font-size:16px; font-weight:bold; line-height:26px}
 .input-pin-type {display:flex; margin-bottom:12px}
 .input-pin-type input {width:calc(100% - 112px)}
 .input-pin-type .btn-send {width:104px; margin-left:8px; padding:12px 10px; border:1px solid #000; border-radius:8px; background-color:#fff; font-size:14px; font-weight:bold; line-height:20px; white-space:nowrap}

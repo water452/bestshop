@@ -9,7 +9,7 @@
 .btn.full { min-width: 0; width: 100%; }
 .btn.s01 { font-size: 16px; }
 .btn.s02 { padding: 0 16px; line-height: 38px; font-size: 14px; border-radius: 20px; }
-.btn.s02.more { padding-left: 36px; min-width: 90px; }
+.btn.s02.more { padding: 0 14px 0 35px; min-width: 90px; }
 .btn.s02.more::before { content: ''; display: block; position: absolute; width: 16px; height: 16px; top: calc(50% - 8px); left: 16px; background: url(../images/icons/btn-plus-16.svg) no-repeat center / contain; }
 .btn.s03 { padding: 0 16px; line-height: 32px; font-size: 14px; border-radius: 17px; }
 
