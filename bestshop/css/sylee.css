@@ -105,6 +105,7 @@ html.full-height .wrap #content .shop-search-wrap{position:relative;min-width:13
 
 .shop-search-wrap .shop-search-body{flex:1;position:relative;background:lightgray;}
 
+/* mobile */
 @media screen and (max-width:767px){
     /* common > option list */
     .option-list span{font-size:10px;line-height:15px;}
