@@ -4,537 +4,554 @@
     <div class="container" id="content">
 
         <div class="page-header">
-            <h2 class="title">매장 상담 예약</h2>
+            <h2 class="title">소모품 구매 예약</h2>
         </div>
 
         <!-- contents -->
-        <div class="contents res-main">
+        <div class="contents res-main care-ex">
+
+            <div class="top-wrap">
+                <div class="guide-area bg">
+                    <div class="guide-process">
+                        <div class="inner">
+                            <p class="desc">필요한 소모품에 대한 정보를 LG전자 베스트샵을 통해 확인하고 <br class="m-hidden">매장 방문하여 구매 및 추가 상담을
+                                받으실 수 있습니다.</p>
+                            <div class="swiper guide-banner-care-ex">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="box">
+                                            <span class="icon-wrap">
+                                                <i class="icon01"></i>
+                                            </span>
+                                            <span class="txt">구매 희망 <br class="pc-hidden">소모품 선택</span>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="box">
+                                            <span class="icon-wrap">
+                                                <i class="icon02"></i>
+                                            </span>
+                                            <span class="txt">소모품 구매 <br class="pc-hidden">예약 신청</span>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="box">
+                                            <span class="icon-wrap">
+                                                <i class="icon03"></i>
+                                            </span>
+                                            <span class="txt">방문 매장 재고 확인 <br class="pc-hidden">및 고객 전화 안내</span>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="box">
+                                            <span class="icon-wrap">
+                                                <i class="icon04"></i>
+                                            </span>
+                                            <span class="txt">매장 방문 픽업 <br class="pc-hidden">및 추가 상담</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-scrollbar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="guide-info-list">
+                        <div class="inner">
+                            <ul class="bull">
+                                <li>소모품은 적기에 교체해야, 제품의 성능을 100% 발휘할 수 있습니다.</li>
+                                <li>오프라인 상에는 LG전자 베스트샵에서만 소모품 구매가 가능합니다.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="guide-bottom">
+                        <div class="inner">
+                            <dl>
+                                <dt>소모품이란?</dt>
+                                <dd>사용 주기에 맞추어 손쉽게 교체할 수 있는 필터, 청소포와 같은 소모품이나 옷걸이, 거치대와 같은 액세서리 종류를 말합니다.</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="cont-wrap">
-
-                <div class="tab01 center">
-                    <ul>
-                        <li class="on">
-                            <a href="BSF-RES-VISIT.jsp">방문상담예약</a>
-                        </li>
-                        <li>
-                            <a href="BSF-RES-VIDEO.jsp">화상상담예약</a>
-                        </li>
-                    </ul>
-                </div>
-    
-                <div class="top-wrap">
-                    <div class="add-area">
-                        <div class="swiper res-banner-01">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="box">
-                                        <img class="m-hidden" src="../../images/img-res-visit-banner-01.png" alt="">
-                                        <img class="pc-hidden" src="../../images/img-res-visit-banner-01_mo.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="box">
-                                        <img class="m-hidden" src="../../images/img-res-visit-banner-02.png" alt="">
-                                        <img class="pc-hidden" src="../../images/img-res-visit-banner-02_mo.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="box">
-                                        <img class="m-hidden" src="../../images/img-res-visit-banner-03.png" alt="">
-                                        <img class="pc-hidden" src="../../images/img-res-visit-banner-03_mo.png" alt="">
-                                    </div>
-                                </div>
+                <!-- 소모품 목록 영역 -->
+                <section class="cont-area">
+                    <div class="main-area">
+                        <!-- 카테고리 스티키 탭(라디오)  -->
+                        <div class="cate-sticky-wrap">
+                            <div class="btn-filter">
+                                <a href="#"><span class="blind">옵션필터</span></a>
                             </div>
-                            <div class="banner-btns">
-                                <div class="swiper-button-next"></div>
-                                <div class="swiper-button-prev"></div>
-                            </div>
-                            <div class="banner-indi-wrap">
-                                <div class="swiper-pagination"></div>
-                                <button type="button" class="btn-play"><span class="blind">재생</span></button>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="guide-area">
-                        <div class="guide-process">
-                            <div class="inner">
-                                <div class="swiper guide-banner-visit">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <div class="box">
-                                                <div class="tit-wrap">
-                                                    <span class="tit">STEP 01</span>
-                                                    <strong>상담 희망 제품 선택</strong>
-                                                </div>
-                                                <span class="icon-wrap">
-                                                    <i class="icon01"></i>
-                                                </span>
+                            <div class="cate-wrap">
+                                <div class="cate-list">
+                                    <ul>
+                                        <li class="active">
+                                            <div class="radio-btn tab-type">
+                                                <input type="radio" name="product" id="air-purifier-360">
+                                                <label for="air-purifier-360">360º 공기청정기</label>
                                             </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="box">
-                                                <div class="tit-wrap">
-                                                    <span class="tit">STEP 02</span>
-                                                    <strong>매장 및 일시 선택</strong>
-                                                </div>
-                                                <span class="icon-wrap">
-                                                    <i class="icon02"></i>
-                                                </span>
+                                        </li>
+                                        <li>
+                                            <div class="radio-btn tab-type">
+                                                <input type="radio" name="product" id="air-purifier-mini">
+                                                <label for="air-purifier-mini">미니 공기청정기</label>
                                             </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="box">
-                                                <div class="tit-wrap">
-                                                    <span class="tit">STEP 03</span>
-                                                    <strong>고객 정보 입력 후 예약 완료</strong>
-                                                </div>
-                                                <span class="icon-wrap">
-                                                    <i class="icon03"></i>
-                                                </span>
+                                        </li>
+                                        <li>
+                                            <div class="radio-btn tab-type">
+                                                <input type="radio" name="product" id="vaccum">
+                                                <label for="vaccum">청소기</label>
                                             </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="box">
-                                                <div class="tit-wrap">
-                                                    <span class="tit">STEP 04</span>
-                                                    <strong>사전 전화 안내 후 매장 방문</strong>
-                                                </div>
-                                                <span class="icon-wrap">
-                                                    <i class="icon04"></i>
-                                                </span>
+                                        </li>
+                                        <li>
+                                            <div class="radio-btn tab-type">
+                                                <input type="radio" name="product" id="pra-l">
+                                                <label for="pra-l">프라엘</label>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-scrollbar"></div>
+                                        </li>
+                                        <li>
+                                            <div class="radio-btn tab-type">
+                                                <input type="radio" name="product" id="styler">
+                                                <label for="styler">스타일러</label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="radio-btn tab-type">
+                                                <input type="radio" name="product" id="dryer">
+                                                <label for="dryer">건조기</label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="radio-btn tab-type">
+                                                <input type="radio" name="product" id="washing">
+                                                <label for="washing">세탁기</label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="radio-btn tab-type">
+                                                <input type="radio" name="productr" id="dish-washer">
+                                                <label for="dish-washer">식기세척기</label>
+                                            </div>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
+                        <!-- // 카테고리 스티키 탭(라디오)  -->
+                        <!-- 제품 목록 전체 -->
+                        <div class="plp-list-wrap">
+                            <!-- active 클래스 추가 -->
+                            <!-- 필터 영역 -->
+                            <div class="lay-filter">
+                                <span class="dimmed"></span>
+                                <div class="lay-fliter-con">
 
+                                    <div class="filter-head">
+                                        <p class="tit">360º 공기청정기 상세 검색</p>
+                                    </div>
+
+                                    <div class="plp-filter-wrap">
+                                        <div class="box">
+                                            <p class="tit">소모품 분류<span class="sel-num">(1)<span class="blind">총 선택
+                                                        갯수</span></span></p>
+                                            <ul class="filter-list">
+                                                <li>
+                                                    <div class="check-box">
+                                                        <input type="checkbox" name="filter" id="filter">
+                                                        <label for="filter">필터</label>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="check-box">
+                                                        <input type="checkbox" name="moving-wheel" id="moving-wheel">
+                                                        <label for="moving-wheel">무빙휠</label>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="btn-area">
+                                            <button type="button" class="btn-reset"><span>초기화</span></button>
+                                        </div>
+                                        <div class="filter-close">
+                                            <button type="button" class="btn-close"><span
+                                                    class="blind">닫기</span></button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- // 필터 영역 -->
+                            <!-- 리스트 영역 -->
+                            <div class="prd-list-area">
+                                <div class="list-info">
+                                    <div class="list-count">총 24개</div>
+                                    <div class="info-txt">*구매하실 소모품을 선택하세요.</div>
+                                </div>
+                                <div class="list-wrap">
+                                    <ul class="prd-list">
+                                        <li>
+                                            <div class="box">
+                                                <div class="img-wrap">
+                                                    <img src="../../images/img-filter-01.jpg"
+                                                        alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
+                                                </div>
+                                                <div class="tit-wrap">
+                                                    <p class="tit">V트루 토탈케어 필터 전용 극세 필터 V트루 토탈케어 필터 전용 극세 필터</p>
+                                                    <p class="code"><span class="blind">제품 코드</span>ADQ75153442</p>
+                                                </div>
+                                                <div class="info-wrap">
+                                                    <p class="price">29,000원</p>
+                                                    <a href="#" class="btn-info-pop">적용 가능 모델</a>
+                                                </div>
+                                                <div class="btn-area">
+                                                    <button type="button" class="btn border btn-select">소모품 선택</button>
+                                                </div>
+                                                <div class="info-popup">
+                                                    <div class="inner">
+                                                        <div class="head-area">
+                                                            <div class="pop-tit">적용 가능 모델<span><em>16</em>개</span></div>
+                                                        </div>
+                                                        <div class="body-area">
+                                                            <ul class="model-list">
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                            </ul>
+                                                        </div>
+                                                        <button type="button" class="btn-close"><span
+                                                                class="blind">닫기</span></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="box">
+                                                <div class="img-wrap">
+                                                    <img src="../../images/img-filter-01.jpg"
+                                                        alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
+                                                </div>
+                                                <div class="tit-wrap">
+                                                    <p class="tit">V트루 토탈케어 필터 전용 극세 필터</p>
+                                                    <p class="code"><span class="blind">제품 코드</span>ADQ75153442</p>
+                                                </div>
+                                                <div class="info-wrap">
+                                                    <p class="price">29,000원</p>
+                                                    <a href="#" class="btn-info-pop">적용 가능 모델</a>
+                                                </div>
+                                                <div class="btn-area">
+                                                    <button type="button" class="btn border btn-select">소모품 선택</button>
+                                                </div>
+                                                <div class="info-popup">
+                                                    <div class="inner">
+                                                        <div class="head-area">
+                                                            <div class="pop-tit">적용 가능 모델<span><em>16</em>개</span></div>
+                                                        </div>
+                                                        <div class="body-area">
+                                                            <ul class="model-list">
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                            </ul>
+                                                        </div>
+                                                        <button type="button" class="btn-close"><span
+                                                                class="blind">닫기</span></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="box">
+                                                <div class="img-wrap">
+                                                    <img src="../../images/img-filter-01.jpg"
+                                                        alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
+                                                </div>
+                                                <div class="tit-wrap">
+                                                    <p class="tit">V트루 토탈케어 필터 전용 극세 필터</p>
+                                                    <p class="code"><span class="blind">제품 코드</span>ADQ75153442</p>
+                                                </div>
+                                                <div class="info-wrap">
+                                                    <p class="price">29,000원</p>
+                                                    <a href="#" class="btn-info-pop">적용 가능 모델</a>
+                                                </div>
+                                                <div class="btn-area">
+                                                    <button type="button" class="btn border btn-select">소모품 선택</button>
+                                                </div>
+                                                <div class="info-popup">
+                                                    <div class="inner">
+                                                        <div class="head-area">
+                                                            <div class="pop-tit">적용 가능 모델<span><em>16</em>개</span></div>
+                                                        </div>
+                                                        <div class="body-area">
+                                                            <ul class="model-list">
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                            </ul>
+                                                        </div>
+                                                        <button type="button" class="btn-close"><span
+                                                                class="blind">닫기</span></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="box">
+                                                <div class="img-wrap">
+                                                    <img src="../../images/img-filter-01.jpg"
+                                                        alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
+                                                </div>
+                                                <div class="tit-wrap">
+                                                    <p class="tit">V트루 토탈케어 필터 전용 극세 필터</p>
+                                                    <p class="code"><span class="blind">제품 코드</span>ADQ75153442</p>
+                                                </div>
+                                                <div class="info-wrap">
+                                                    <p class="price">29,000원</p>
+                                                    <a href="#" class="btn-info-pop">적용 가능 모델</a>
+                                                </div>
+                                                <div class="btn-area">
+                                                    <button type="button" class="btn border btn-select">소모품 선택</button>
+                                                </div>
+                                                <div class="info-popup">
+                                                    <div class="inner">
+                                                        <div class="head-area">
+                                                            <div class="pop-tit">적용 가능 모델<span><em>16</em>개</span></div>
+                                                        </div>
+                                                        <div class="body-area">
+                                                            <ul class="model-list">
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                            </ul>
+                                                        </div>
+                                                        <button type="button" class="btn-close"><span
+                                                                class="blind">닫기</span></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="box">
+                                                <div class="img-wrap">
+                                                    <img src="../../images/img-filter-01.jpg"
+                                                        alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
+                                                </div>
+                                                <div class="tit-wrap">
+                                                    <p class="tit">V트루 토탈케어 필터 전용 극세 필터</p>
+                                                    <p class="code"><span class="blind">제품 코드</span>ADQ75153442</p>
+                                                </div>
+                                                <div class="info-wrap">
+                                                    <p class="price">29,000원</p>
+                                                    <a href="#" class="btn-info-pop">적용 가능 모델</a>
+                                                </div>
+                                                <div class="btn-area">
+                                                    <button type="button" class="btn border btn-select">소모품 선택</button>
+                                                </div>
+                                                <div class="info-popup">
+                                                    <div class="inner">
+                                                        <div class="head-area">
+                                                            <div class="pop-tit">적용 가능 모델<span><em>16</em>개</span></div>
+                                                        </div>
+                                                        <div class="body-area">
+                                                            <ul class="model-list">
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                            </ul>
+                                                        </div>
+                                                        <button type="button" class="btn-close"><span
+                                                                class="blind">닫기</span></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="box">
+                                                <div class="img-wrap">
+                                                    <img src="../../images/img-filter-01.jpg"
+                                                        alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
+                                                </div>
+                                                <div class="tit-wrap">
+                                                    <p class="tit">V트루 토탈케어 필터 전용 극세 필터</p>
+                                                    <p class="code"><span class="blind">제품 코드</span>ADQ75153442</p>
+                                                </div>
+                                                <div class="info-wrap">
+                                                    <p class="price">29,000원</p>
+                                                    <a href="#" class="btn-info-pop">적용 가능 모델</a>
+                                                </div>
+                                                <div class="btn-area">
+                                                    <button type="button" class="btn border btn-select">소모품 선택</button>
+                                                </div>
+                                                <div class="info-popup">
+                                                    <div class="inner">
+                                                        <div class="head-area">
+                                                            <div class="pop-tit">적용 가능 모델<span><em>16</em>개</span></div>
+                                                        </div>
+                                                        <div class="body-area">
+                                                            <ul class="model-list">
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                                <li>AS191NNFCNDDDCE</li>
+                                                            </ul>
+                                                        </div>
+                                                        <button type="button" class="btn-close"><span
+                                                                class="blind">닫기</span></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="btn-area center">
+                                        <button type="button" class="btn border s01 more"><span>더보기</span></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- // 리스트 영역 -->
+                        </div>
+                        <!-- // 제품 목록 전체 -->
+                    </div>
+                </section>
+                <!-- // 소모품 목록 영역 -->
+
+                <!-- 소모품 구매 예약 스텝 영역 -->
                 <section class="cont-area">
                     <p class="step-top-note"><sup>*</sup>필수입력항목</p>
                     <!-- step 1 -->
-                    <div class="step-area step01"><!-- active 클래스 추가 -->
+                    <div class="step-area step01 active">
+                        <!-- active 클래스 추가 -->
 
-                        <div class="result-area active"><!-- active 클래스 추가 -->
+                        <div class="result-area active">
+                            <!-- active 클래스 추가 -->
                             <div class="info-step01">
-                                <div class="info-txt-com active"><!-- active 클래스 추가 -->
+                                <div class="info-txt-com active">
+                                    <!-- active 클래스 추가 -->
                                     <a href="#">
-                                        <span class="mo-tit">상담목적 및 제품선택</span>
-                                        <span class="pc-tit">상담목적 :</span>
-                                        <span class="txt">혼수</span>
-
-                                        <span class="pc-tit">상담제품 :</span>
-                                        <span class="txt">TV, 냉장고, 식기세척기, 세탁기, 스타일러, 공기청정기, 에어컨</span>
-
-                                        <span class="pc-tit">구매시기 :</span>
-                                        <span class="txt">3개월 내</span>
+                                        <span class="mo-tit">소모품 선택</span>
+                                        <span class="pc-tit">제품 :</span>
+                                        <span class="txt">물걸레노즐, 트루 토탈케어 필터 전용 극세 필터</span>
                                     </a>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="main-area"><!-- active 클래스 추가 -->
-                            <form action="#">
-                                <h3 class="step-tit">상담목적<sup>*</sup></h3>
-                                <ul class="input-icon-type">
+                        <div class="main-area active">
+                            <!-- active 클래스 추가 -->
+
+                            <div class="tit-area">
+                                <h3 class="step-tit">선택하신 소모품<sup>*</sup></h3>
+                                <em>(최대 3개 선택가능)</em>
+                            </div>
+                            <div class="my-select">
+                                <ul>
                                     <li>
-                                        <div class="radio-btn btn-type2">
-                                            <input type="radio" name="purpose" id="wedding">
-                                            <label for="wedding">
-                                                <i class="icon wedding"></i><span class="name">혼수</span>
-                                            </label>
+                                        <div class="box">
+                                            <div class="img-wrap">
+                                                <img src="../../images/img-filter-01.jpg"
+                                                    alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
+                                            </div>
+                                            <div class="txt-wrap">
+                                                <p class="tit">V트루 토탈케어 필터 전용 극세 필터</p>
+                                                <p class="code"><span class="blind">제품 코드</span>ADQ75153442</p>
+                                                <p class="price">29,000원</p>
+                                            </div>
+                                            <button type="button" class="btn-close"><span
+                                                    class="blind">닫기</span></button>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="radio-btn btn-type2">
-                                            <input type="radio" name="purpose" id="move">
-                                            <label for="move">
-                                                <i class="icon move"></i><span class="name">이사</span>
-                                            </label>
+                                        <div class="box no-item">
+                                            <p class="no-item-txt">구매 예약하실 소모품을 추가 하실 수 있습니다.</p>
+                                            <button type="button" class="btn border btn-add">소모품 추가 하기</button>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="radio-btn btn-type2">
-                                            <input type="radio" name="purpose" id="interior">
-                                            <label for="interior">
-                                                <i class="icon interior"></i><span class="name">인테리어</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="radio-btn btn-type2">
-                                            <input type="radio" name="purpose" id="broken">
-                                            <label for="broken">
-                                                <i class="icon broken"></i><span class="name">고장</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="radio-btn btn-type2">
-                                            <input type="radio" name="purpose" id="etc">
-                                            <label for="etc">
-                                                <i class="icon etc"></i><span class="name">기타</span>
-                                            </label>
+                                        <div class="box no-item">
+                                            <p class="no-item-txt">구매 예약하실 소모품을 추가 하실 수 있습니다.</p>
+                                            <button type="button" class="btn border btn-add">소모품 추가 하기</button>
                                         </div>
                                     </li>
                                 </ul>
+                            </div>
 
-                                <h3 class="step-tit">제품선택<sup>*</sup><span>(다중선택)</span></h3>
-                                <!-- 제품선택 카테고리형 -->
-                                <ul class="input-cate-type">
-                                    <li>
-                                        <p class="cate-tit"><i class="icon tv-audio"></i>TV/오디오</p>
-                                        <ul class="cate-items">
-                                            <li class="check-box">
-                                                <input type="checkbox" name="tv" id="tv">
-                                                <label for="tv">
-                                                    <span class="name">TV</span>
-                                                </label>
-                                            </li>
-                                            <li class="check-box">
-                                                <input type="checkbox" name="projector" id="projector">
-                                                <label for="projector">
-                                                    <span class="name">프로젝터</span>
-                                                </label>
-                                            </li>
-                                            <li class="check-box">
-                                                <input type="checkbox" name="soundbar" id="soundbar">
-                                                <label for="soundbar">
-                                                    <span class="name">사운드바</span>
-                                                </label>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <p class="cate-tit"><i class="icon pc"></i>PC</p>
-                                        <ul class="cate-items">
-                                            <li class="check-box">
-                                                <input type="checkbox" name="laptop" id="laptop">
-                                                <label for="laptop">
-                                                    <span class="name">노트북</span>
-                                                </label>
-                                            </li>
-                                            <li class="check-box">
-                                                <input type="checkbox" name="desktop" id="desktop">
-                                                <label for="desktop">
-                                                    <span class="name">데스크탑</span>
-                                                </label>
-                                            </li>
-                                            <li class="check-box">
-                                                <input type="checkbox" name="monitor" id="monitor">
-                                                <label for="monitor">
-                                                    <span class="name">모니터</span>
-                                                </label>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <p class="cate-tit"><i class="icon kitchens"></i>주방가전</p>
-                                        <ul class="cate-items">
-                                            <li class="check-box">
-                                                <input type="checkbox" name="kitchens" id="fridge">
-                                                <label for="fridge">
-                                                    <span class="name">냉장고</span>
-                                                </label>
-                                            </li>
-                                            <li class="check-box">
-                                                <input type="checkbox" name="dish-washer" id="dish-washer">
-                                                <label for="dish-washer">
-                                                    <span class="name">식기세척기</span>
-                                                </label>
-                                            </li>
-                                            <li class="check-box">
-                                                <input type="checkbox" name="oven" id="oven">
-                                                <label for="oven">
-                                                    <span class="name">광파오븐</span>
-                                                </label>
-                                            </li>
-                                            <li class="check-box">
-                                                <input type="checkbox" name="range" id="range">
-                                                <label for="range">
-                                                    <span class="name">전기레인지</span>
-                                                </label>
-                                            </li>
-                                            <li class="check-box">
-                                                <input type="checkbox" name="etc-kitchens" id="etc-kitchens">
-                                                <label for="etc-kitchens">
-                                                    <span class="name">기타 주방가전</span>
-                                                </label>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <p class="cate-tit"><i class="icon house"></i>생활가전</p>
-                                        <ul class="cate-items">
-                                            <li class="check-box">
-                                                <input type="checkbox" name="washing" id="washing">
-                                                <label for="washing">
-                                                    <span class="name">세탁기/건조기</span>
-                                                </label>
-                                            </li>
-                                            <li class="check-box">
-                                                <input type="checkbox" name="styler" id="styler">
-                                                <label for="styler">
-                                                    <span class="name">스타일러</span>
-                                                </label>
-                                            </li>
-                                            <li class="check-box">
-                                                <input type="checkbox" name="air-con" id="air-con">
-                                                <label for="air-con">
-                                                    <span class="name">에어컨</span>
-                                                </label>
-                                            </li>
-                                            <li class="check-box">
-                                                <input type="checkbox" name="vaccum" id="vaccum">
-                                                <label for="vaccum">
-                                                    <span class="name">청소기</span>
-                                                </label>
-                                            </li>
-                                            <li class="check-box">
-                                                <input type="checkbox" name="air-clean" id="air-clean">
-                                                <label for="air-clean">
-                                                    <span class="name">공기청정기</span>
-                                                </label>
-                                            </li>
-                                            <li class="check-box">
-                                                <input type="checkbox" name="etc-house" id="etc-house">
-                                                <label for="etc-house">
-                                                    <span class="name">기타 생활가전</span>
-                                                </label>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <p class="cate-tit"><i class="icon mobile"></i>모바일</p>
-                                        <ul class="cate-items">
-                                            <li class="check-box">
-                                                <input type="checkbox" name="iphone" id="iphone">
-                                                <label for="iphone">
-                                                    <span class="name">아이폰</span>
-                                                </label>
-                                            </li>
-                                            <li class="check-box">
-                                                <input type="checkbox" name="ipad" id="ipad">
-                                                <label for="ipad">
-                                                    <span class="name">아이패드</span>
-                                                </label>
-                                            </li>
-                                            <li class="check-box">
-                                                <input type="checkbox" name="watch" id="watch">
-                                                <label for="watch">
-                                                    <span class="name">애플워치</span>
-                                                </label>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <p class="cate-tit"><i class="icon beauty"></i>뷰티</p>
-                                        <ul class="cate-items">
-                                            <li class="check-box">
-                                                <input type="checkbox" name="pra-l" id="pra-l">
-                                                <label for="pra-l">
-                                                    <span class="name">프라엘</span>
-                                                </label>
-                                            </li>
-                                            <li class="check-box">
-                                                <input type="checkbox" name="medihair" id="medihair">
-                                                <label for="medihair">
-                                                    <span class="name">메디헤어</span>
-                                                </label>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                                <!-- // 제품선택 카테고리형 -->
-
-                                <!-- 제품선택 제품군형 -->
-                                <!-- <ul class="input-pdt-type">
-                                    <li>
-                                        <div class="check-box">
-                                            <input type="checkbox" name="tv" id="tv">
-                                            <label for="tv">
-                                                <i class="icon tv"></i><span class="name">TV</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="check-box">
-                                            <input type="checkbox" name="soundbar" id="soundbar">
-                                            <label for="soundbar">
-                                                <i class="icon soundbar"></i><span class="name">사운드바</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="check-box">
-                                            <input type="checkbox" name="laptop" id="laptop">
-                                            <label for="laptop">
-                                                <i class="icon laptop"></i><span class="name">노트북</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="check-box">
-                                            <input type="checkbox" name="desktop" id="desktop">
-                                            <label for="desktop">
-                                                <i class="icon desktop"></i><span class="name">데스크탑</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="check-box">
-                                            <input type="checkbox" name="fridge" id="fridge">
-                                            <label for="fridge">
-                                                <i class="icon fridge"></i><span class="name">냉장고</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="check-box">
-                                            <input type="checkbox" name="washing" id="washing">
-                                            <label for="washing">
-                                                <i class="icon washing"></i><span class="name">세탁기/건조기</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="check-box">
-                                            <input type="checkbox" name="air-con" id="air-con">
-                                            <label for="air-con">
-                                                <i class="icon air-con"></i><span class="name">에어컨</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="check-box">
-                                            <input type="checkbox" name="pra-l" id="pra-l">
-                                            <label for="pra-l">
-                                                <i class="icon pra-l"></i><span class="name">프라엘</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="check-box">
-                                            <input type="checkbox" name="vaccum" id="vaccum">
-                                            <label for="vaccum">
-                                                <i class="icon vaccum"></i><span class="name">청소기</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="check-box">
-                                            <input type="checkbox" name="styler" id="styler">
-                                            <label for="styler">
-                                                <i class="icon styler"></i><span class="name">스타일러</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="check-box">
-                                            <input type="checkbox" name="air-clean" id="air-clean">
-                                            <label for="air-clean">
-                                                <i class="icon air-clean"></i><span class="name">공기청정기</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="check-box">
-                                            <input type="checkbox" name="range" id="range">
-                                            <label for="range">
-                                                <i class="icon range"></i><span class="name">전기레인지</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="check-box">
-                                            <input type="checkbox" name="ipad" id="ipad">
-                                            <label for="ipad">
-                                                <i class="icon ipad"></i><span class="name">아이패드</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="check-box">
-                                            <input type="checkbox" name="projector" id="projector">
-                                            <label for="projector">
-                                                <i class="icon projector"></i><span class="name">프로젝터</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="check-box">
-                                            <input type="checkbox" name="medihair" id="medihair">
-                                            <label for="medihair">
-                                                <i class="icon medihair"></i><span class="name">메디헤어</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                </ul> -->
-                                <!-- // 제품선택 제품군형 -->
-
-                                <h3 class="step-tit">구매 희망 시기<sup>*</sup></h3>
-                                <ul class="input-base-type">
-                                    <li>
-                                        <div class="radio-btn btn-type2">
-                                            <input type="radio" name="period" id="weeks01">
-                                            <label for="weeks01">
-                                                <span class="name">1주 내</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="radio-btn btn-type2">
-                                            <input type="radio" name="period" id="weeks02">
-                                            <label for="weeks02">
-                                                <span class="name">2주 내</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="radio-btn btn-type2">
-                                            <input type="radio" name="period" id="weeks03">
-                                            <label for="weeks03">
-                                                <span class="name">3주 내</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="radio-btn btn-type2">
-                                            <input type="radio" name="period" id="month01">
-                                            <label for="month01">
-                                                <span class="name">1개월 내</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="radio-btn btn-type2">
-                                            <input type="radio" name="period" id="month02">
-                                            <label for="month02">
-                                                <span class="name">2개월 내</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="radio-btn btn-type2">
-                                            <input type="radio" name="period" id="month03">
-                                            <label for="month03">
-                                                <span class="name">3개월 내</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                </ul>
-
-                                <h3 class="step-tit">추가 전달사항<span>(선택)</span></span></h3>
-                                <div class="text-area">
-                                    <textarea title="추가 전달사항 입력" maxlength="100"
-                                        placeholder="원하시는 제품의 기능이나 가격대, 기타 문의사항을 남겨주시면 원활한 상담이 가능합니다."></textarea>
-                                    <p class="info-msg">* 텍스트는 100자까지 입력가능합니다.</p>
-                                    <p class="txt-count"><span>0</span>/100</p>
-                                </div>
-                            </form>
                         </div>
 
                         <div class="btn-area">
@@ -545,11 +562,14 @@
                     <!-- // step 1 -->
 
                     <!-- step 2 -->
-                    <div class="step-area step02 active"><!-- active 클래스 추가 -->
+                    <div class="step-area step02 active">
+                        <!-- active 클래스 추가 -->
 
-                        <div class="result-area"><!-- active 클래스 추가 -->
+                        <div class="result-area active">
+                            <!-- active 클래스 추가 -->
                             <div class="info-step02">
-                                <div class="info-txt-com"><!-- active 클래스 추가 -->
+                                <div class="info-txt-com active">
+                                    <!-- active 클래스 추가 -->
                                     <a href="#">
                                         <span class="mo-tit">상담매장 및 예약일시</span>
                                         <span class="pc-tit">상담매장 :</span>
@@ -560,20 +580,23 @@
                                     </a>
                                 </div>
 
-                                <div class="info-txt-uncom"><!-- active 클래스 추가 -->
+                                <div class="info-txt-uncom active">
+                                    <!-- active 클래스 추가 -->
                                     <p class="page-num">STEP02</p>
                                     <p class="txt">방문하실 매장과 일시를 선택해주세요.</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="main-area active"><!-- active 클래스 추가 -->
+                        <div class="main-area active">
+                            <!-- active 클래스 추가 -->
 
                             <div class="shop-date-wrap">
                                 <div class="view-area">
                                     <h3 class="step-tit">상담하실 매장과 상담일시 선택<sup>*</sup></h3>
                                     <div class="sort-area">
-                                        <button type="button" class="view-map active">지도보기</button><!-- active 클래스 추가 -->
+                                        <button type="button" class="view-map active">지도보기</button>
+                                        <!-- active 클래스 추가 -->
                                         <button type="button" class="view-list">리스트보기</button>
                                     </div>
 
@@ -612,68 +635,7 @@
 
                                             <!-- api 영역 -->
                                             <div class="api-area">
-                                                <div class="map-list-wrap active">
-                                                    <div class="list-inner">
-                                                        <ul class="shop-list">
-                                                            <li>
-                                                                <button type="button" class="btn-shop">강남 본점</button>
-                                                            </li>
-                                                            <li>
-                                                                <button type="button" class="btn-shop active">갤러리아 명품관 WEST점</button><!-- active 클래스 추가 -->
-                                                            </li>
-                                                            <li>
-                                                                <button type="button" class="btn-shop">논현역점</button>
-                                                            </li>
-                                                            <li>
-                                                                <button type="button" class="btn-shop">대치 본점</button>
-                                                            </li>
-                                                            <li>
-                                                                <button type="button" class="btn-shop">논현역점</button>
-                                                            </li>
-                                                            <li>
-                                                                <button type="button" class="btn-shop">대치 본점</button>
-                                                            </li>
-                                                            <li>
-                                                                <button type="button" class="btn-shop">논현역점</button>
-                                                            </li>
-                                                            <li>
-                                                                <button type="button" class="btn-shop">대치 본점</button>
-                                                            </li>
-                                                            <li>
-                                                                <button type="button" class="btn-shop">논현역점</button>
-                                                            </li>
-                                                            <li>
-                                                                <button type="button" class="btn-shop">대치 본점</button>
-                                                            </li>
-                                                            <li>
-                                                                <button type="button" class="btn-shop">논현역점</button>
-                                                            </li>
-                                                            <li>
-                                                                <button type="button" class="btn-shop">대치 본점</button>
-                                                            </li>
-                                                            <li>
-                                                                <button type="button" class="btn-shop">논현역점</button>
-                                                            </li>
-                                                            <li>
-                                                                <button type="button" class="btn-shop">대치 본점</button>
-                                                            </li>
-                                                            <li>
-                                                                <button type="button" class="btn-shop">논현역점</button>
-                                                            </li>
-                                                            <li>
-                                                                <button type="button" class="btn-shop">대치 본점</button>
-                                                            </li>
-                                                            <li>
-                                                                <button type="button" class="btn-shop">논현역점</button>
-                                                            </li>
-                                                            <li>
-                                                                <button type="button" class="btn-shop">대치 본점</button>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <button type="button" class="btn-view"><span class="blind">매장 리스트 보기</span></button>
-                                                </div>
-                                                <!-- <img src="../../images/@img-map.png" alt="지도 임시이미지"> -->
+                                                <img src="../../images/@img-map.png" alt="지도 임시이미지">
                                             </div>
                                             <!-- // api 영역 -->
                                         </div><!-- //.map-wrap -->
@@ -693,54 +655,71 @@
                                             </div>
                                             <div class="view-wrap">
                                                 <div class="lt">
-                                                    <ul class="shop-list">
+                                                    <ul>
                                                         <li>
-                                                            <button type="button" class="btn-city">전체<span>530</span></button>
+                                                            <button type="button"
+                                                                class="btn-city">전체<span>530</span></button>
                                                         </li>
                                                         <li>
-                                                            <button type="button" class="btn-city active">서울특별시<span>7</span></button><!-- active 클래스 추가 -->
+                                                            <button type="button"
+                                                                class="btn-city active">서울특별시<span>7</span></button>
+                                                            <!-- active 클래스 추가 -->
                                                         </li>
                                                         <li>
-                                                            <button type="button" class="btn-city">부산광역시<span>38</span></button>
+                                                            <button type="button"
+                                                                class="btn-city">부산광역시<span>38</span></button>
                                                         </li>
                                                         <li>
-                                                            <button type="button" class="btn-city">대구광역시<span>32</span></button>
+                                                            <button type="button"
+                                                                class="btn-city">대구광역시<span>32</span></button>
                                                         </li>
                                                         <li>
-                                                            <button type="button" class="btn-city">인천광역시<span>56</span></button>
+                                                            <button type="button"
+                                                                class="btn-city">인천광역시<span>56</span></button>
                                                         </li>
                                                         <li>
-                                                            <button type="button" class="btn-city">광주광역시<span>72</span></button>
+                                                            <button type="button"
+                                                                class="btn-city">광주광역시<span>72</span></button>
                                                         </li>
                                                         <li>
-                                                            <button type="button" class="btn-city">대전광역시<span>65</span></button>
+                                                            <button type="button"
+                                                                class="btn-city">대전광역시<span>65</span></button>
                                                         </li>
                                                         <li>
-                                                            <button type="button" class="btn-city">울산광역시<span>79</span></button>
+                                                            <button type="button"
+                                                                class="btn-city">울산광역시<span>79</span></button>
                                                         </li>
                                                         <li>
-                                                            <button type="button" class="btn-city">세종특별자치시청<span>5</span></button>
+                                                            <button type="button"
+                                                                class="btn-city">세종특별자치시청<span>5</span></button>
                                                         </li>
                                                         <li>
-                                                            <button type="button" class="btn-city">부산광역시<span>38</span></button>
+                                                            <button type="button"
+                                                                class="btn-city">부산광역시<span>38</span></button>
                                                         </li>
                                                         <li>
-                                                            <button type="button" class="btn-city">대구광역시<span>32</span></button>
+                                                            <button type="button"
+                                                                class="btn-city">대구광역시<span>32</span></button>
                                                         </li>
                                                         <li>
-                                                            <button type="button" class="btn-city">인천광역시<span>56</span></button>
+                                                            <button type="button"
+                                                                class="btn-city">인천광역시<span>56</span></button>
                                                         </li>
                                                         <li>
-                                                            <button type="button" class="btn-city">광주광역시<span>72</span></button>
+                                                            <button type="button"
+                                                                class="btn-city">광주광역시<span>72</span></button>
                                                         </li>
                                                         <li>
-                                                            <button type="button" class="btn-city">대전광역시<span>65</span></button>
+                                                            <button type="button"
+                                                                class="btn-city">대전광역시<span>65</span></button>
                                                         </li>
                                                         <li>
-                                                            <button type="button" class="btn-city">울산광역시<span>79</span></button>
+                                                            <button type="button"
+                                                                class="btn-city">울산광역시<span>79</span></button>
                                                         </li>
                                                         <li>
-                                                            <button type="button" class="btn-city">세종특별자치시청<span>5</span></button>
+                                                            <button type="button"
+                                                                class="btn-city">세종특별자치시청<span>5</span></button>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -930,11 +909,6 @@
                                                             </a>
                                                         </li>
                                                     </ul>
-                                                    <!-- .no-data -->
-                                                    <div class="no-data">
-                                                        <span>검색된 결과가 없습니다.</span>
-                                                    </div>
-                                                    <!-- // .no-data -->
                                                 </div>
                                             </div>
                                         </div><!-- //.list-wrap -->
@@ -1081,6 +1055,7 @@
                                     </div>
                                 </div>
                             </div>
+
                         </div>
 
                         <div class="btn-area bg active">
@@ -1093,12 +1068,12 @@
                             <button type="button" class="btn s01 border-red arr-right">다음으로</button>
                         </div>
 
-
                     </div>
                     <!-- // step 2 -->
 
                     <!-- step 3 -->
-                    <div class="step-area step03"><!-- active 클래스 추가 -->
+                    <div class="step-area step03 active">
+                        <!-- active 클래스 추가 -->
 
                         <div class="result-area active">
                             <!-- active 클래스 추가 -->
@@ -1111,7 +1086,8 @@
                             </div>
                         </div>
 
-                        <div class="main-area"><!-- active 클래스 추가 -->
+                        <div class="main-area active">
+                            <!-- active 클래스 추가 -->
                             <div class="user-info-area">
                                 <h3 class="step-tit">예약자 정보</h3>
                                 <div class="lt">
@@ -1263,59 +1239,69 @@
                             </div>
                         </div>
 
-                        <div class="btn-area center m-hidden"><!-- active 클래스 추가 -->
-                            <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담 예약하기</button>
+                        <div class="btn-area center active">
+                            <!-- active 클래스 추가 -->
+                            <button type="button" class="btn btn-res s01 btnPopOpen" data-href="#popup-certification">상담 예약하기</button>
                         </div>
 
                     </div>
                     <!-- // step 3 -->
                 </section>
+                <!-- // 소모품 구매 예약 스텝 영역 -->
+
             </div>
 
-            <!-- 하단바 -->
-            <div class="bottom-fixed-wrap active">
-                <!-- active 클래스 추가 -->
-                <div class="dimmed"></div>
-                <div class="bar-wrap">
-                    <div class="head-area">
-                        <p class="head-txt">혼수, TV 외 3개, 1개월 내, 강남본점, 12. 15(수), 17시, 김베샵, 01012558484</p>
-                        <button type="button" class="view-more"><span class="blind">펼쳐보기</span></button>
-                    </div>
-                    <div class="body-area">
-                        <div class="my-result">
-                            <ul>
-                                <li>
-                                    <span>상담목적</span>
-                                    <strong>혼수</strong>
-                                </li>
-                                <li>
-                                    <span>상담제품</span>
-                                    <strong>TV, 냉장고, 식기세척기, 세탁기, 스타일러, 공기청정기, 에어컨</strong>
-                                </li>
-                                <li>
-                                    <span>상담매장</span>
-                                    <strong>강남본점, 12. 15(수), 17시</strong>
-                                </li>
-                                <li>
-                                    <span>예약정보</span>
-                                    <strong>김베샵, 01012558484</strong>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="foot-area">
-                        <div class="btn-area active">
-                            <!-- active 클래스 추가 -->
-                            <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담 예약하기</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- // 하단바 -->
         </div>
         <!-- // contents -->
     </div>
     <!-- // container -->
+
+    <!-- 선택한 소모품(장바구니) 영역 -->
+    <div class="bottom-cart-wrap">
+        <!-- active 클래스 추가 -->
+        <div class="bar-wrap care-ex">
+            <div class="head-area">
+                <p class="head-txt">선택한 소모품 <span><em>2</em>/3</span></p>
+                <button type="button" class="view-more"><span class="blind">펼쳐보기</span></button>
+            </div>
+            <div class="body-area">
+                <div class="my-select">
+                    <ul>
+                        <li>
+                            <div class="box">
+                                <div class="img-wrap">
+                                    <img src="../../images/img-filter-01.jpg" alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
+                                </div>
+                                <div class="txt-wrap">
+                                    <p class="tit">V트루 토탈케어 필터 전용 극세 필터</p>
+                                    <p class="code"><span class="blind">제품 코드</span>ADQ75153442</p>
+                                    <p class="price">29,000원</p>
+                                </div>
+                                <button type="button" class="btn-close"><span class="blind">닫기</span></button>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="box no-item">
+                                <p class="no-item-txt">원하는 상담 제품을 추가 하실 수 있습니다.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="box no-item">
+                                <p class="no-item-txt">원하는 상담 제품을 추가 하실 수 있습니다.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="foot-area">
+                <div class="btn-area">
+                    <button type="button" class="btn btn-reset"><span>초기화</span></button>
+                    <button type="button" class="btn btn-res">소모품 구매 예약</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- // 선택한 소모품(장바구니) 영역 -->
 
     <!-- dim -->
     <div class="dim"> </div>
@@ -1379,7 +1365,7 @@
     <script>
         $(document).ready(function () {
             // 상단 예약진행 가이드 영역
-            var resbanner01 = new Swiper(".guide-banner-visit", {
+            var resbanner01 = new Swiper(".guide-banner-care-ex", {
                 slidesPerView: 'auto',
                 scrollbar: {
                     el: ".swiper-scrollbar",
@@ -1388,33 +1374,33 @@
                 },
             })
 
-            // 배너
-            var resbanner01 = new Swiper(".res-banner-01", {
-                spaceBetween: 40,
-                navigation: {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev",
-                },
-                pagination: {
-                    el: '.swiper-pagination',
-                    type: 'bullets',
-                },
-                autoplay: {
-                    delay: 3000,
-                },
+            // 모바일 필터 영역
+            $('.res-main .cate-sticky-wrap .btn-filter').on('click', function () {
+                $('.res-main.care-ex .plp-list-wrap .lay-filter').toggleClass('active');
+                $('html').addClass('scroll-fixed');
             });
-            // play/stop 버튼
-            $('.btn-play').click(function(){
-                if ($(this).hasClass('pause')) {
-                    resbanner01.autoplay.start();
-                    $(this).removeClass('pause');
-                    $(this).find('.blind').text('멈춤');
-                } else {
-                    resbanner01.autoplay.stop();
-                    $(this).addClass('pause');
-                    $(this).find('.blind').text('재생');
-                }
-                return false;
+            $('.lay-filter .plp-filter-wrap .filter-close .btn-close, .res-main.care-ex .plp-list-wrap .lay-filter .dimmed').on('click', function () {
+                $('.res-main.care-ex .plp-list-wrap .lay-filter').removeClass('active');
+                $('html').removeClass('scroll-fixed');
+            });
+
+            // 소모품 목록 영역 > 제품 목록 내 팝업
+            var prdPopOpen = $('.prd-list-area .list-wrap > ul > li .box .info-wrap .btn-info-pop');
+            var prdPopup = $('.prd-list-area .list-wrap > ul > li .box .info-popup');
+            var prdPopClose = $('.prd-list-area .list-wrap > ul > li .box .info-popup .btn-close');
+            prdPopOpen.click(function (e) {
+                e.preventDefault();
+                $(this).parent().siblings(prdPopup).show();
+            });
+            prdPopClose.click(function () {
+                $(this).parent().parent(prdPopup).hide();
+            });
+
+            // 선택한 소모품(장바구니) 영역
+            $('.bottom-cart-wrap .head-area').on('click', function () {
+                $(this).closest('.bottom-cart-wrap').toggleClass('active');
+                $('.bottom-cart-wrap .body-area').stop().slideToggle();
+                $('.bottom-cart-wrap .foot-area').stop().slideToggle();
             });
 
             // step 2 지도/리스트 보기 버튼
@@ -1428,11 +1414,6 @@
                     });
                 })(i);
             }
-
-            // step 3 지도 매장리스트보기 버튼
-            $('.map-list-wrap .btn-view').on('click', function(){
-                $(this).closest('.map-list-wrap').toggleClass('active')
-            })
 
             // step 2 예약일 선택 / 예약시간 선택
             $('.date-wrap .mo-top').next('div').show();
@@ -1465,15 +1446,6 @@
                     $("#agr-all").prop("checked", is_checked);
                 });
             });
-
-            // 모바일 하단바 영역
-            $('.bar-wrap .head-area').on('click', function () {
-                $('html').toggleClass('scroll-fixed');
-                $(this).closest('.bottom-fixed-wrap').toggleClass('active');
-                $('.body-area').stop().slideToggle();
-                $('.bottom-fixed-wrap .dimmed').stop().fadeToggle(200);
-            });
-
         });
     </script>
     <jsp:include page="../../templates/common/footer.jsp" />

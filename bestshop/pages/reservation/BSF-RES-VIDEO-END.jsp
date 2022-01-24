@@ -50,8 +50,8 @@
                     </div>
 
                     <div class="btn-area">
-                        <a href="#" class="btn btn-start">이달의 혜택 안내 보러가기</a>
-                        <em class="btn-info">*LG 베스트샵 사이트 내 이달의 혜택 안내 페이지로 이동됩니다.</em>
+                        <a href="#" class="btn">이달의 혜택 안내 보러가기</a>
+                        <em>*LG 베스트샵 사이트 내 이달의 혜택 안내 페이지로 이동됩니다.</em>
                     </div>
 
                 </div>

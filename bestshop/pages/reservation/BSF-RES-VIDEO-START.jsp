@@ -50,8 +50,8 @@
                     </div>
 
                     <div class="btn-area">
-                        <a href="#" class="btn btn-start">화상 상담 시작하기</a>
-                        <em class="btn-info">*고객님의 화면은 매니저에게 전송되지 않습니다.</em>
+                        <a href="#" class="btn">화상 상담 시작하기</a>
+                        <em>*고객님의 화면은 매니저에게 전송되지 않습니다.</em>
                     </div>
 
                 </div>

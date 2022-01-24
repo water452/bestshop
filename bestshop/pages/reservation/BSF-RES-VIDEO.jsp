@@ -543,7 +543,7 @@
                         </div>
 
                         <div class="btn-area">
-                            <button type="button" class="btn s01 btn-next">다음으로</button>
+                            <button type="button" class="btn s01 border-red arr-right">다음으로</button>
                         </div>
 
                     </div>
@@ -583,7 +583,7 @@
                                 <div class="view-area">
                                     <div class="tit-area">
                                         <h3 class="step-tit">상담하실 매장과 상담일시 선택<sup>*</sup></h3>
-                                        <em>*화상 상담이 가능한 매장만 조회됩니다.</em>
+                                        <em>(화상 상담이 가능한 매장만 조회됩니다.)</em>
                                     </div>
                                     <div class="sort-area">
                                         <button type="button" class="view-map active">지도보기</button>
@@ -1104,7 +1104,7 @@
                                 <!-- <p>상담매장: <span>강남본점</span></p>
                                 <p>방문일시: <span>12.15(수), 17시</span></p> -->
                             </div>
-                            <button type="button" class="btn s01 btn-next">다음으로</button>
+                            <button type="button" class="btn s01 border-red arr-right">다음으로</button>
                         </div>
 
                     </div>

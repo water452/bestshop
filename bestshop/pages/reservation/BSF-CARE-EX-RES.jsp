@@ -489,10 +489,7 @@
                         <div class="main-area active">
                             <!-- active 클래스 추가 -->
 
-                            <div class="tit-area">
-                                <h3 class="step-tit">선택하신 소모품<sup>*</sup></h3>
-                                <em>(최대 3개 선택가능)</em>
-                            </div>
+                            <h3 class="step-tit">선택하신 소모품<sup>*</sup><span>(최대 3개 선택가능)</span></h3>
                             <div class="my-select">
                                 <ul>
                                     <li>
@@ -528,7 +525,7 @@
                         </div>
 
                         <div class="btn-area">
-                            <button type="button" class="btn s01 btn-next">다음으로</button>
+                            <button type="button" class="btn s01 border-red arr-right">다음으로</button>
                         </div>
 
                     </div>
@@ -1104,7 +1101,7 @@
                                 <p>상담매장: <span>강남본점</span></p>
                                 <p>방문일시: <span>12.15(수), 17시</span></p>
                             </div>
-                            <button type="button" class="btn s01 btn-next">다음으로</button>
+                            <button type="button" class="btn s01 border-red arr-right">다음으로</button>
                         </div>
 
                     </div>
@@ -1415,11 +1412,11 @@
 
             // 모바일 필터 영역
             $('.btn-filter').on('click', function () {
-                $('.res-main.care-ex .plp-list-wrap .lay-filter').toggleClass('active');
+                $('.plp-list-wrap .lay-filter').toggleClass('active');
                 $('html').addClass('scroll-fixed');
             });
-            $('.lay-filter .plp-filter-wrap .filter-close .btn-close, .res-main.care-ex .plp-list-wrap .lay-filter .dimmed').on('click', function () {
-                $('.res-main.care-ex .plp-list-wrap .lay-filter').removeClass('active');
+            $('.plp-filter-wrap .filter-close .btn-close, .plp-list-wrap .lay-filter .dimmed').on('click', function () {
+                $('.plp-list-wrap .lay-filter').removeClass('active');
                 $('html').removeClass('scroll-fixed');
             });
 

@@ -538,7 +538,7 @@
                         </div>
 
                         <div class="btn-area">
-                            <button type="button" class="btn s01 btn-next">다음으로</button>
+                            <button type="button" class="btn s01 border-red arr-right">다음으로</button>
                         </div>
 
                     </div>
@@ -1087,7 +1087,7 @@
                                 <p>상담매장: <span>강남본점</span></p>
                                 <p>방문일시: <span>12.15(수), 17시</span></p>
                             </div>
-                            <button type="button" class="btn s01 btn-next">다음으로</button>
+                            <button type="button" class="btn s01 border-red arr-right">다음으로</button>
                         </div>
 
                     </div>
