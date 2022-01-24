@@ -9,7 +9,7 @@
 .btn.full { min-width: 0; width: 100%; }
 .btn.s01 { font-size: 16px; }
 .btn.s02 { padding: 0 16px; line-height: 38px; font-size: 14px; border-radius: 20px; }
-.btn.s02.more { padding: 0 14px 0 35px; min-width: 90px; }
+.btn.s02.more { padding: 0 16px 0 36px; min-width: 92px; }
 .btn.s02.more::before { content: ''; display: block; position: absolute; width: 16px; height: 16px; top: calc(50% - 8px); left: 16px; background: url(../images/icons/btn-plus-16.svg) no-repeat center / contain; }
 .btn.s03 { padding: 0 16px; line-height: 32px; font-size: 14px; border-radius: 17px; }
 
@@ -107,7 +107,7 @@
 
 @media screen and (max-width: 767px){
     /* 기본 */
-    .btn { min-width: 124px; font-size: 14px; line-height: 41px; padding: 0 35px; border-radius: 22px; }
+    .btn { min-width: 124px; font-size: 13px; line-height: 41px; padding: 0 41px; border-radius: 22px; }
 
 	/* size */
     .btn.s01 { font-size: 14px; }
