@@ -514,6 +514,9 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 .block { display: block; }
 .tm-ty01 .block:last-child { margin-top: 26px; }
 
+/* popup - button */
+.popup .btn { padding-left: 34px; padding-right: 34px; }
+
 @media screen and (min-width:768px){
 	.header{border-bottom:1px solid #ddd;}
 	footer .foot-cont .pc-dropdown-wrap .link-wrap .link-section .depth2{display:block !important;}

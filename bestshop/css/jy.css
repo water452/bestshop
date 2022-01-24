@@ -354,6 +354,18 @@ dfn { display: block; font-style: normal; }
 .sec-sd-area > * { display: inline-block; width: calc(50% - 12px); vertical-align: top; }
 .sec-sd-area > * + * { margin-left: 24px; }
 
+/* 이벤트 > 홍보영상 */
+.story-video { display: flex; margin-top: 28px; }
+.sv-view { flex: 1; }
+.video-wrap video { width: 100%; height: auto; background: #333; }
+.sv-tit-area { position: relative; padding: 24px 0 16px 0; border-bottom: 1px solid #ddd; }
+.sv-tit-area .tooltip-wrap { position: absolute; top: 24px; right: 0; }
+.sv-date { display: block; margin-top: 10px; line-height: 26px; font-size: 16px; }
+.sv-txt-area { margin-top: 32px; height: 156px; line-height: 24px; font-size: 16px; white-space: pre-line; overflow-y: auto; }
+.sv-other { margin-left: 80px; width: 327px; }
+.sv-sorting { text-align-last: right; }
+.txt-total { display: inline-block; line-height: 20px; font-size: 14px; vertical-align: middle; }
+
 /* 혜택안내 > 멤버십 혜택 */
 .sec-wrap { position: relative; margin: 0 auto; padding: 48px 40px 52px 40px; max-width: 1460px; }
 .tit-area-sec + * { margin-top: 48px; }
