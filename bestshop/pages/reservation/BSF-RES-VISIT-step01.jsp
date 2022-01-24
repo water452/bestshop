@@ -540,7 +540,7 @@
                         </div>
 
                         <div class="btn-area">
-                            <button type="button" class="btn btn-next">다음으로</button>
+                            <button type="button" class="btn s01 btn-next">다음으로</button>
                         </div>
 
                     </div>
@@ -1094,7 +1094,7 @@
                                 <p>상담매장: <span>강남본점</span></p>
                                 <p>방문일시: <span>12.15(수), 17시</span></p>
                             </div>
-                            <button type="button" class="btn btn-next">다음으로</button>
+                            <button type="button" class="btn s01 btn-next">다음으로</button>
                         </div>
 
                     </div>
@@ -1118,7 +1118,7 @@
                         <div class="main-area">
                             <!-- active 클래스 추가 -->
                             <div class="user-info-area">
-                                <h3 class="step-tit">예약자 정보<sup>*</sup></h3>
+                                <h3 class="step-tit">예약자 정보</h3>
                                 <div class="lt">
                                     <form action="#">
                                         <div class="box-gray">
@@ -1268,8 +1268,8 @@
                             </div>
                         </div>
 
-                        <div class="btn-area m-hidden"><!-- active 클래스 추가 -->
-                            <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담 예약하기</button>
+                        <div class="btn-area center m-hidden"><!-- active 클래스 추가 -->
+                            <button type="button" class="btn btn-res s01 btnPopOpen" data-href="#popup-certification">상담 예약하기</button>
                         </div>
 
                     </div>
@@ -1310,8 +1310,7 @@
                     <div class="foot-area">
                         <div class="btn-area active">
                             <!-- active 클래스 추가 -->
-                            <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담
-                                예약하기</button>
+                            <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담 예약하기</button>
                         </div>
                     </div>
                 </div>

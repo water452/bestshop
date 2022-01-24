@@ -16,17 +16,17 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="banner-box">
-                                <img class="m-hidden" src="../../images/img-careship-banner-01.jpg"
+                                <img class="m-hidden" src="../../images/img-careship-banner-01.png"
                                     alt="케어십 상담 예약 배너 이미지">
-                                <img class="pc-hidden" src="../../images/img-careship-banner-01_mo.jpg"
+                                <img class="pc-hidden" src="../../images/img-careship-banner-01_mo.png"
                                     alt="케어십 상담 예약 배너 이미지">
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="banner-box">
-                                <img class="m-hidden" src="../../images/img-careship-banner-01.jpg"
+                                <img class="m-hidden" src="../../images/img-careship-banner-01.png"
                                     alt="케어십 상담 예약 배너 이미지">
-                                <img class="pc-hidden" src="../../images/img-careship-banner-01_mo.jpg"
+                                <img class="pc-hidden" src="../../images/img-careship-banner-01_mo.png"
                                     alt="케어십 상담 예약 배너 이미지">
                             </div>
                         </div>
@@ -421,7 +421,9 @@
                                                 <dt>출수구 살균</dt>
                                                 <dd>
                                                     국내 최초로 3개월마다 방문해 살균키트를 이용한 출수구 고온/고압 살균을 제공하여 더 위생적으로 사용할 수 있습니다.
-                                                    <em>* 직수형 정수기 업계 동급 모델 기준</em>
+                                                    <ul class="bull">
+                                                        <li>직수형 정수기 업계 동급 모델 기준</li>
+                                                    </ul>
                                                 </dd>
                                             </dl>
                                         </div>
@@ -511,7 +513,7 @@
                             <div class="prd-list-area">
                                 <h4 class="prd-list-count">신청 가능 제품 총<em>8</em>개</h4>
                                 <ul class="prd-list">
-                                    <li class="item">
+                                    <li>
                                         <div class="box">
                                             <div class="img-wrap">
                                                 <img src="../../images/img-water-purifier-01.jpg"
@@ -547,7 +549,7 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="item">
+                                    <li>
                                         <div class="box">
                                             <div class="img-wrap">
                                                 <img src="../../images/img-water-purifier-01.jpg"
@@ -581,7 +583,7 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="item">
+                                    <li>
                                         <div class="box">
                                             <div class="img-wrap">
                                                 <img src="../../images/img-water-purifier-01.jpg"
@@ -615,7 +617,7 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="item">
+                                    <li>
                                         <div class="box">
                                             <div class="img-wrap">
                                                 <img src="../../images/img-water-purifier-01.jpg"
@@ -649,7 +651,7 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="item">
+                                    <li>
                                         <div class="box">
                                             <div class="img-wrap">
                                                 <img src="../../images/img-water-purifier-01.jpg"
@@ -683,7 +685,7 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="item">
+                                    <li>
                                         <div class="box">
                                             <div class="img-wrap">
                                                 <img src="../../images/img-water-purifier-01.jpg"
@@ -717,7 +719,7 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="item">
+                                    <li>
                                         <div class="box">
                                             <div class="img-wrap">
                                                 <img src="../../images/img-water-purifier-01.jpg"
@@ -751,7 +753,7 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="item">
+                                    <li>
                                         <div class="box">
                                             <div class="img-wrap">
                                                 <img src="../../images/img-water-purifier-01.jpg"
@@ -787,7 +789,7 @@
                                     </li>
                                 </ul>
                                 <div class="btn-area center">
-                                    <button type="button" class="btn border s01 more"><span>더보기</span></button>
+                                    <button type="button" class="btn border s02 more"><span>더보기</span></button>
                                 </div>
                             </div>
                         </div>
@@ -846,7 +848,68 @@
 
                                             <!-- api 영역 -->
                                             <div class="api-area">
-                                                <img src="../../images/@img-map.png" alt="지도 임시이미지">
+                                                <div class="map-list-wrap active">
+                                                    <div class="list-inner">
+                                                        <ul class="shop-list">
+                                                            <li>
+                                                                <button type="button" class="btn-shop">강남 본점</button>
+                                                            </li>
+                                                            <li>
+                                                                <button type="button" class="btn-shop active">갤러리아 명품관 WEST점</button><!-- active 클래스 추가 -->
+                                                            </li>
+                                                            <li>
+                                                                <button type="button" class="btn-shop">논현역점</button>
+                                                            </li>
+                                                            <li>
+                                                                <button type="button" class="btn-shop">대치 본점</button>
+                                                            </li>
+                                                            <li>
+                                                                <button type="button" class="btn-shop">논현역점</button>
+                                                            </li>
+                                                            <li>
+                                                                <button type="button" class="btn-shop">대치 본점</button>
+                                                            </li>
+                                                            <li>
+                                                                <button type="button" class="btn-shop">논현역점</button>
+                                                            </li>
+                                                            <li>
+                                                                <button type="button" class="btn-shop">대치 본점</button>
+                                                            </li>
+                                                            <li>
+                                                                <button type="button" class="btn-shop">논현역점</button>
+                                                            </li>
+                                                            <li>
+                                                                <button type="button" class="btn-shop">대치 본점</button>
+                                                            </li>
+                                                            <li>
+                                                                <button type="button" class="btn-shop">논현역점</button>
+                                                            </li>
+                                                            <li>
+                                                                <button type="button" class="btn-shop">대치 본점</button>
+                                                            </li>
+                                                            <li>
+                                                                <button type="button" class="btn-shop">논현역점</button>
+                                                            </li>
+                                                            <li>
+                                                                <button type="button" class="btn-shop">대치 본점</button>
+                                                            </li>
+                                                            <li>
+                                                                <button type="button" class="btn-shop">논현역점</button>
+                                                            </li>
+                                                            <li>
+                                                                <button type="button" class="btn-shop">대치 본점</button>
+                                                            </li>
+                                                            <li>
+                                                                <button type="button" class="btn-shop">논현역점</button>
+                                                            </li>
+                                                            <li>
+                                                                <button type="button" class="btn-shop">대치 본점</button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <button type="button" class="btn-view"><span class="blind">매장 리스트 보기</span></button>
+                                                </div>
+                                                <!-- <img src="../../images/@img-map.png" alt="지도 임시이미지"> -->
                                             </div>
                                             <!-- // api 영역 -->
                                         </div><!-- //.map-wrap -->
@@ -866,7 +929,7 @@
                                             </div>
                                             <div class="view-wrap">
                                                 <div class="lt">
-                                                    <ul>
+                                                    <ul class="shop-list">
                                                         <li>
                                                             <button type="button"
                                                                 class="btn-city">전체<span>530</span></button>
@@ -1120,6 +1183,11 @@
                                                             </a>
                                                         </li>
                                                     </ul>
+                                                    <!-- .no-data -->
+                                                    <div class="no-data">
+                                                        <span>검색된 결과가 없습니다.</span>
+                                                    </div>
+                                                    <!-- // .no-data -->
                                                 </div>
                                             </div>
                                         </div><!-- //.list-wrap -->
@@ -1278,7 +1346,7 @@
                             </div>
 
                             <div class="user-info-area mt60">
-                                <h3 class="step-tit">예약자 정보<sup>*</sup></h3>
+                                <h3 class="step-tit">예약자 정보</h3>
                                 <div class="lt">
                                     <form action="#">
                                         <div class="box-gray">
@@ -1286,7 +1354,7 @@
                                                 <li>
                                                     <div class="tit">
                                                         <label for="user-name">
-                                                            <span class="name">이름</span>
+                                                            <span class="name">이름<sup>*</sup></span>
                                                         </label>
                                                     </div>
                                                     <div class="txt-box">
@@ -1297,7 +1365,7 @@
                                                 <li>
                                                     <div class="tit">
                                                         <label for="user-number">
-                                                            <span class="name">휴대폰번호</span>
+                                                            <span class="name">휴대폰번호<sup>*</sup></span>
                                                         </label>
                                                     </div>
                                                     <div class="txt-box">
@@ -1428,10 +1496,9 @@
                             </div>
                         </div>
 
-                        <div class="btn-area active">
+                        <div class="btn-area center active">
                             <!-- active 클래스 추가 -->
-                            <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">케어십 상담
-                                예약하기</button>
+                            <button type="button" class="btn btn-res s01 btnPopOpen" data-href="#popup-certification">케어십 상담 예약하기</button>
                         </div>
 
                     </div>
@@ -1547,6 +1614,11 @@
                         });
                     })(i);
                 }
+
+                // step 3 지도 매장리스트보기 버튼
+                $('.map-list-wrap .btn-view').on('click', function(){
+                    $(this).closest('.map-list-wrap').toggleClass('active')
+                })
 
                 // step 3 예약일 선택 / 예약시간 선택
                 $('.date-wrap .mo-top').next('div').show();

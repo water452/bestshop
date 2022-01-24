@@ -30,6 +30,7 @@
 .btn.dark-gray:hover { background: #767676; color: #fff; }
 .btn.border-gray { color: #000 !important; border-color: #ddd !important; background: #fff !important; }
 .btn.border-gray:hover, .btn.border-gray:focus, .btn.border-gray:active { color: #da0f47 !important; border-color: #da0f47 !important; }
+.btn.more:hover::before, .btn.more:focus::before, .btn.more:active::before {background: url(../images/icons/btn-plus-16-white.svg) no-repeat center / contain; }
 .btn.border-white { color: #fff !important; border-color: #fff !important; background: transparent !important; }
 
 /* color - mix */
