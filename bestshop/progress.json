@@ -608,7 +608,7 @@
       "worker": "서강원",
       "startdate": "2021-12-13",
       "finishdate": "2021-12-17",
-      "status": "진행중",
+      "status": "완료",
       "filename": "./pages/event/BSF-EVE-BSTAB.jsp",
       "memo": ""
     },
@@ -632,8 +632,8 @@
       "worker": "서강원",
       "startdate": "2022-01-24",
       "finishdate": "2022-01-25",
-      "status": "진행중",
-      "filename": "./pages/event/BSF-EVE-DETAIL-TIME.jsp",
+      "status": "완료",
+      "filename": "./pages/event/BSF-EVE-DETAIL-TIMEDEAL.jsp",
       "memo": ""
     },
     {

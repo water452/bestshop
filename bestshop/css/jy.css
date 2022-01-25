@@ -613,14 +613,16 @@ li[class*="blt"], li > [class*="blt"] { display: block; }
     .belt-area { left: -16px; margin-top: 20px; width: calc(100% + 32px); border-radius: 0; }
     .belt-wrap { padding: 30px; }
     .belt-wrap br { display: none; }
-    .belt-area .belt-wrap .btn-area { margin-top: 20px; }
-    .txt-belt { line-height: 20px; font-size: 12px; }
-    .btn-txt-icon-more-wt { margin-top: 10px; line-height: 20px; font-size: 11px; }
+    .belt-area .belt-wrap .btn-area { margin-top: 15px; }
+    .txt-belt { line-height: 18px; font-size: 12px; }
+    .btn-txt-icon-more-wt { margin-top: 8px; line-height: 20px; font-size: 11px; }
     .btn-txt-icon-more-wt:after { vertical-align: -2px; }
     .belt-area.ty-row { left: auto; width: auto; border-radius: 8px; }
     .belt-area.ty-row .belt-wrap { padding: 25px 60px; }
     .belt-area.ty-row .belt-wrap > .txt-st01 { display: block; }
     .belt-area.ty-row .belt-wrap > .txt-st01 + * { margin: 15px 0 0 0; }
+    .txt-counting + * { margin-top: 10px; }
+    .txt-counting { line-height: 20px; font-size: 14px; }
 
     /******************* contents **********************/
     /* 신규 오픈 매장 */
