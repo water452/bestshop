@@ -159,6 +159,7 @@
         <div class="guide-cont">
             <a href="javascript:void(0);" class="btn">버튼</a>
             <a href="javascript:void(0);" class="btn border">버튼</a>
+            <a href="javascript:void(0);" class="btn border-red">버튼</a>
             <a href="javascript:void(0);" class="btn border-gray">버튼</a>
             <a href="javascript:void(0);" class="btn gray">버튼</a>
             <a href="javascript:void(0);" class="btn dark-gray">버튼</a>
@@ -167,6 +168,7 @@
             <hr>
             <a href="javascript:void(0);" class="btn s01">버튼</a>
             <a href="javascript:void(0);" class="btn border s01">버튼</a>
+            <a href="javascript:void(0);" class="btn border-red s01">버튼</a>
             <a href="javascript:void(0);" class="btn border-gray s01">버튼</a>
             <a href="javascript:void(0);" class="btn gray s01">버튼</a>
             <a href="javascript:void(0);" class="btn dark-gray s01">버튼</a>
@@ -175,6 +177,7 @@
             <hr>
             <a href="javascript:void(0);" class="btn s02">버튼</a>
             <a href="javascript:void(0);" class="btn border s02">버튼</a>
+            <a href="javascript:void(0);" class="btn border-red s02">버튼</a>
             <a href="javascript:void(0);" class="btn border-gray s02">버튼</a>
             <a href="javascript:void(0);" class="btn gray s02">버튼</a>
             <a href="javascript:void(0);" class="btn dark-gray s02">버튼</a>
@@ -183,6 +186,7 @@
             <hr>
             <a href="javascript:void(0);" class="btn s03">버튼</a>
             <a href="javascript:void(0);" class="btn border s03">버튼</a>
+            <a href="javascript:void(0);" class="btn border-red s03">버튼</a>
             <a href="javascript:void(0);" class="btn border-gray s03">버튼</a>
             <a href="javascript:void(0);" class="btn gray s03">버튼</a>
             <a href="javascript:void(0);" class="btn dark-gray s03">버튼</a>

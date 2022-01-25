@@ -185,10 +185,68 @@
                 <p>등록된 기획전이 없습니다.</p>
             </div>
             <!-- //no-data (ty-bg) -->
+            <!-- toastPopup (data-flag="false"시 숨김처리) -->
+            <div class="belt-area bg-tangible02 time-deal-fix toastPopup" data-flag="true">
+                <div class="belt-wrap">
+                    <p class="txt-time-deal"><a href="javascript:void(0);">오전 10시 <strong>&acute;타임딜&acute;</strong>이 시작됩니다</a></p>
+                    <div class="today-close">
+                        <span class="check-box white">
+                            <input type="checkbox" id="chk-today-close" />
+                            <label for="chk-today-close">오늘 하루 보지 않기</label>
+                        </span>
+                        <button type="button" class="btn-today-close">닫기</button>
+                    </div>
+                </div>
+            </div>
+            <!-- //toastPopup (data-flag="false"시 숨김처리) -->
         </div>
     </div>
     <!-- // contents -->
 </div>
 <!-- // container -->
+
+<script>
+
+    // toastPopup
+    $(function(){
+        var winWidth = $(window).width(),
+            mobile = 767,
+            popup = $(".toastPopup"),
+            bar = $(".mobile-status-bar");
+
+        // position: 초기값
+        popup.css("bottom", "-100%");
+
+        // position: load
+        function toastPopupLoad(){
+            var barHeight = bar.outerHeight();
+
+            if ( popup.attr("data-flag") != "false" ){
+                popup.addClass("on");
+
+                if ( winWidth <= mobile ){ popup.css("bottom", barHeight); }
+                else { popup.css("bottom", "0"); };
+            };
+        };
+
+        // close
+        function toastPopupClose(){
+            $(this).parents(".toastPopup").removeClass("on").attr("data-flag", "false").css("bottom", "-100%");
+        };
+        $(document).on("click", ".btn-today-close", toastPopupClose);
+
+        // load
+        $(window).on("load", function(){
+            toastPopupLoad();
+        });
+
+        // resize
+        $(window).on("resize", function(){
+            winWidth = $(window).width();
+            toastPopupLoad();
+        });
+    });
+
+</script>
 
 <jsp:include page="../../templates/common/footer.jsp" />

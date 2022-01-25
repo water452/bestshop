@@ -34,7 +34,7 @@
                             <div class="btn-area">
                                 <a href="javascript:void(0);" class="btn border">혜택 안내 및 상담 예약</a>
                             </div>
-                            <a href="javascript:void(0);" class="btn-txt-icon_more">매장 상세 정보</a>
+                            <a href="javascript:void(0);" class="btn-txt-icon-more">매장 상세 정보</a>
                         </div>
                     </li>
                     <li>
@@ -53,7 +53,7 @@
                             <div class="btn-area">
                                 <a href="javascript:void(0);" class="btn border">혜택 안내</a>
                             </div>
-                            <a href="javascript:void(0);" class="btn-txt-icon_more">매장 상세 정보</a>
+                            <a href="javascript:void(0);" class="btn-txt-icon-more">매장 상세 정보</a>
                         </div>
                     </li>
                     <li>
@@ -73,7 +73,7 @@
                             <div class="btn-area">
                                 <a href="javascript:void(0);" class="btn border disabled">혜택 안내 및 상담 예약</a>
                             </div>
-                            <a href="javascript:void(0);" class="btn-txt-icon_more">매장 상세 정보</a>
+                            <a href="javascript:void(0);" class="btn-txt-icon-more">매장 상세 정보</a>
                         </div>
                     </li>
                     <li>
@@ -93,7 +93,7 @@
                             <div class="btn-area">
                                 <a href="javascript:void(0);" class="btn border disabled">혜택 추후 공지</a>
                             </div>
-                            <a href="javascript:void(0);" class="btn-txt-icon_more">매장 상세 정보</a>
+                            <a href="javascript:void(0);" class="btn-txt-icon-more">매장 상세 정보</a>
                         </div>
                     </li>
                     <li>
@@ -113,7 +113,7 @@
                             <div class="btn-area">
                                 <a href="javascript:void(0);" class="btn border disabled">혜택 추후 공지</a>
                             </div>
-                            <a href="javascript:void(0);" class="btn-txt-icon_more">매장 상세 정보</a>
+                            <a href="javascript:void(0);" class="btn-txt-icon-more">매장 상세 정보</a>
                         </div>
                     </li>
                     <li>
@@ -133,7 +133,7 @@
                             <div class="btn-area">
                                 <a href="javascript:void(0);" class="btn border disabled">혜택 추후 공지</a>
                             </div>
-                            <a href="javascript:void(0);" class="btn-txt-icon_more">매장 상세 정보</a>
+                            <a href="javascript:void(0);" class="btn-txt-icon-more">매장 상세 정보</a>
                         </div>
                     </li>
                 </ul>

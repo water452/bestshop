@@ -24,6 +24,7 @@
 /* color */
 .btn.black { border-color: #000; background: #000; color: #fff; }
 .btn.black:hover { background: #000; color: #fff; }
+.btn.white { border-color: #fff; background: #fff; color: #000; }
 .btn.gray { border-color: #ededed; background: #ededed; color: #666; }
 .btn.gray:hover { background: #ededed; color: #666; }
 .btn.dark-gray { border-color: #767676; background: #767676; color: #fff; }

@@ -39,22 +39,20 @@
                 </div>
                 <div class="component-wrap">
                     <div class="inner">
-                        <div class="tooltip-wrap share active">
-                            <a href="javascript:void(0);" class="tooltip-icon ui_tooltip-target" data-fixed="fixed-right" ui-modules="TooltipTarget"><span class="blind">제품 공유하기</span></a>
-                            <!-- tooltip: 공유하기 -->
-                            <div class="tooltip-box" style="display: none;">
-                                <span class="title">공유하기</span>
+                        <div class="tooltip-wrap share layer-click">
+                            <a href="javascript:void(0);" class="tooltip-icon ui_tooltip-target "><span class="blind">현재 페이지 공유하기</span></a>
+                            <div class="tooltip-box fixed-right layer-detail">
+                                <strong class="title">공유하기</strong>
                                 <div class="sns-wrap">
                                     <ul class="sns-list">
-                                        <li><a href="#none" data-url="" class="ico-btn fb" title="페이스북에 공유하기, 새창열림" data-link-name="facebook">페이스북<span class="blind">으로 페이지 공유하기</span></a></li>
-                                        <li><a href="#none" data-url="" class="ico-btn tw" title="트위터에 공유하기, 새창열림" data-link-name="twitter">트위터<span class="blind">로 페이지 공유하기</span></a></li>
+                                        <li><a href="#none" class="ico-btn fb" title="페이스북에 공유하기, 새창열림" data-link-name="facebook">페이스북<span class="blind">으로 페이지 공유하기</span></a></li>
+                                        <li><a href="#none" class="ico-btn tw" title="트위터에 공유하기, 새창열림" data-link-name="twitter">트위터<span class="blind">로 페이지 공유하기</span></a></li>
                                         <li><a href="#none" data-url="" class="ico-btn kk" title="카카오톡에 공유하기, 새창열림" data-link-name="kakaotalk">카카오톡<span class="blind">으로 페이지 공유하기</span></a></li>
                                         <li><a href="#none" data-url="" class="ico-btn url" data-link-name="copy_url">URL복사<span class="blind">하기</span></a></li>
                                     </ul>
                                 </div>
                                 <button type="button" class="btn-close"><span class="blind">닫기</span></button>
                             </div>
-                            <!-- //tooltip: 공유하기 -->
                         </div>
                     </div>
                 </div>
