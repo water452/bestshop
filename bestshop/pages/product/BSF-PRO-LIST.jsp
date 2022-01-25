@@ -26,7 +26,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-btns">
+                    <div class="banner-btns">
                         <div class="swiper-button-next"></div>
                         <div class="swiper-button-prev"></div>
                     </div>
@@ -160,8 +160,8 @@
                                     </div>
 
                                     <div class="plp-filter-wrap">
-                                        <div class="box">
-                                            <div class="tit-wrap active"><!-- active 클래스 추가 -->
+                                        <div class="box active"><!-- active 클래스 추가 -->
+                                            <div class="tit-wrap">
                                                 <a href="#">
                                                     <div class="tit">사이즈<span class="sel-num">(1)<span class="blind">총 선택 갯수</span></span></div>
                                                 </a>
@@ -201,8 +201,8 @@
                                                 </ul>
                                             </div>
                                         </div>
-                                        <div class="box">
-                                            <div class="tit-wrap active"><!-- active 클래스 추가 -->
+                                        <div class="box active"><!-- active 클래스 추가 -->
+                                            <div class="tit-wrap">
                                                 <a href="#">
                                                     <div class="tit">해상도<span class="sel-num">(1)<span class="blind">총 선택 갯수</span></span></div>
                                                 </a>
@@ -437,7 +437,7 @@
                                 <h3 class="step-tit">상담목적<sup>*</sup></h3>
                                 <ul class="input-icon-type">
                                     <li>
-                                        <div class="radio-btn btn-type2">
+                                        <div class="icon-btn">
                                             <input type="radio" name="purpose" id="wedding">
                                             <label for="wedding">
                                                 <i class="icon wedding"></i><span class="name">혼수</span>
@@ -445,7 +445,7 @@
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="radio-btn btn-type2">
+                                        <div class="icon-btn">
                                             <input type="radio" name="purpose" id="move">
                                             <label for="move">
                                                 <i class="icon move"></i><span class="name">이사</span>
@@ -453,7 +453,7 @@
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="radio-btn btn-type2">
+                                        <div class="icon-btn">
                                             <input type="radio" name="purpose" id="interior">
                                             <label for="interior">
                                                 <i class="icon interior"></i><span class="name">인테리어</span>
@@ -461,7 +461,7 @@
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="radio-btn btn-type2">
+                                        <div class="icon-btn">
                                             <input type="radio" name="purpose" id="broken">
                                             <label for="broken">
                                                 <i class="icon broken"></i><span class="name">고장</span>
@@ -469,7 +469,7 @@
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="radio-btn btn-type2">
+                                        <div class="icon-btn">
                                             <input type="radio" name="purpose" id="etc">
                                             <label for="etc">
                                                 <i class="icon etc"></i><span class="name">기타</span>
@@ -1412,7 +1412,14 @@
                 },
             });
 
-            // 모바일 필터 영역
+            // 필터 영역
+            $('.plp-filter-wrap .box .tit-wrap a').on('click', function(e){
+                e.preventDefault();
+                $(this).parent().parent('.box').toggleClass('active');
+                $(this).parent().next('.list-wrap').slideToggle();
+            });
+
+            // 필터 영역 모바일
             $('.btn-filter').on('click', function () {
                 $('.plp-list-wrap .lay-filter').toggleClass('active');
                 $('html').addClass('scroll-fixed');
@@ -1422,10 +1429,6 @@
                 $('html').removeClass('scroll-fixed');
             });
 
-            $('.plp-filter-wrap .box .tit-wrap a').on('click', function(e){
-                e.preventDefault();
-                $(this).parent().toggleClass('active');
-            });
 
             // 선택한 제품(장바구니) 영역
             $('.bottom-cart-wrap .head-area').on('click', function () {
