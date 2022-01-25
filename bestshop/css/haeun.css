@@ -66,12 +66,7 @@
 /* .res-main .add-area [class*="res-banner"] .swiper-slide > [class^="banner"] {width:100%; height:290px} */
 .res-main .add-area [class*="res-banner"] .swiper-slide > .box {display:flex; align-items:center; width:100%; height:290px; border-radius:16px; overflow:hidden}
 .res-main .add-area [class*="res-banner"] .swiper-slide > .box > img {display:block; width:100%}
-.res-main .add-area [class*="res-banner"] .banner-btns {position:absolute; width:100%; height:40px; top:calc(50% - 25px); left:50%; transform:translate(-50%,-50%); z-index:10}
-.res-main .add-area [class*="res-banner"] .banner-btns [class^="swiper-button"] {width:40px; height:40px; top:0; margin-top:0; border-radius:50%; background-color:#fff; box-shadow:2px 2px 6px 0 rgba(0, 0, 0, 0.16)}
-.res-main .add-area [class*="res-banner"] .banner-btns [class^="swiper-button"]::after {width:100%; height:100%; font-size:0; background:url(../images/icons/icon-carousel-btn.svg) no-repeat center}
-.res-main .add-area [class*="res-banner"] .banner-btns .swiper-button-prev {left:20px}
-.res-main .add-area [class*="res-banner"] .banner-btns .swiper-button-next {right:20px}
-.res-main .add-area [class*="res-banner"] .banner-btns .swiper-button-next::after {transform:rotate(180deg)}
+.res-main .add-area [class*="res-banner"] .banner-btns {top:calc(50% - 25px)}
 .res-main .add-area .banner-indi-wrap {display:flex; align-items:center; justify-content:center; margin:8px 0}
 .res-main .add-area .banner-indi-wrap .swiper-pagination {position:static; width:auto; margin:0 8px; font-size:0}
 .res-main .add-area .banner-indi-wrap .swiper-pagination .swiper-pagination-bullet {width:10px; height:10px; margin:0 8px; background-color:#e4e4e4; opacity:1}
@@ -87,24 +82,33 @@
 .cont-area .step-area .btn-area {display:none}
 .cont-area .step-area.active .btn-area {display:block}
 
+/* swiper button */
+.banner-btns {position:absolute; width:100%; height:40px; left:50%; transform:translate(-50%,-50%); z-index:10}
+.banner-btns [class^="swiper-button"] {width:40px; height:40px; top:0; margin-top:0; border-radius:50%; background-color:#fff; box-shadow:2px 2px 6px 0 rgba(0, 0, 0, 0.16)}
+.banner-btns [class^="swiper-button"]::after {width:100%; height:100%; font-size:0; background:url(../images/icons/icon-carousel-btn.svg) no-repeat center}
+.banner-btns .swiper-button-prev {left:20px}
+.banner-btns .swiper-button-next {right:20px}
+.banner-btns .swiper-button-next::after {transform:rotate(180deg)}
+
 /******** 매장상담예약 input ********/
 /* 상담목적 */
 ul.input-icon-type {justify-content:space-between}
 ul.input-icon-type > li {width:calc(20% - 15px)}
-ul.input-icon-type .radio-btn.btn-type2 {width:100%}
-ul.input-icon-type .radio-btn.btn-type2 label {display:flex; justify-content:center; align-items:center; width:100%; height:80px; border-radius:28px; font-size:18px; font-weight:500; line-height:26px}
-ul.input-icon-type .radio-btn.btn-type2 input:checked + label {border:2px solid #da0f47; color:#da0f47}
-ul.input-icon-type .radio-btn.btn-type2 .icon {display:block; width:48px; height:48px; margin-right:8px}
-ul.input-icon-type .radio-btn.btn-type2 .icon.wedding {background:url(../images/icons/icon-wedding.svg) no-repeat center}
-ul.input-icon-type .radio-btn.btn-type2 .icon.move {background:url(../images/icons/icon-move.svg) no-repeat center}
-ul.input-icon-type .radio-btn.btn-type2 .icon.interior {background:url(../images/icons/icon-interior.svg) no-repeat center}
-ul.input-icon-type .radio-btn.btn-type2 .icon.broken {background:url(../images/icons/icon-broken.svg) no-repeat center}
-ul.input-icon-type .radio-btn.btn-type2 .icon.etc {background:url(../images/icons/icon-etc.svg) no-repeat center}
-ul.input-icon-type .radio-btn.btn-type2 input:checked + label .icon.wedding {background:url(../images/icons/icon-wedding_on.svg) no-repeat center}
-ul.input-icon-type .radio-btn.btn-type2 input:checked + label .icon.move {background:url(../images/icons/icon-move_on.svg) no-repeat center}
-ul.input-icon-type .radio-btn.btn-type2 input:checked + label .icon.interior {background:url(../images/icons/icon-interior_on.svg) no-repeat center}
-ul.input-icon-type .radio-btn.btn-type2 input:checked + label .icon.broken {background:url(../images/icons/icon-broken_on.svg) no-repeat center}
-ul.input-icon-type .radio-btn.btn-type2 input:checked + label .icon.etc {background:url(../images/icons/icon-etc_on.svg) no-repeat center}
+ul.input-icon-type > li .icon-btn {width:100%}
+.icon-btn label {display:flex; justify-content:center; align-items:center; width:100%; height:80px; border:1px solid #ddd; border-radius:28px; font-size:18px; font-weight:500; line-height:26px; cursor:pointer}
+.icon-btn input {position:absolute!important; margin:-1px!important; padding:0!important; width:1px!important; height:1px!important; overflow:hidden!important; clip-path:polygon(0 0, 0 0, 0 0)!important}
+.icon-btn input:checked + label {border:2px solid #da0f47; color:#da0f47}
+.icon-btn .icon {display:block; width:48px; height:48px; margin-right:8px}
+.icon-btn .icon.wedding {background:url(../images/icons/icon-wedding.svg) no-repeat center}
+.icon-btn .icon.move {background:url(../images/icons/icon-move.svg) no-repeat center}
+.icon-btn .icon.interior {background:url(../images/icons/icon-interior.svg) no-repeat center}
+.icon-btn .icon.broken {background:url(../images/icons/icon-broken.svg) no-repeat center}
+.icon-btn .icon.etc {background:url(../images/icons/icon-etc.svg) no-repeat center}
+.icon-btn input:checked + label .icon.wedding {background:url(../images/icons/icon-wedding_on.svg) no-repeat center}
+.icon-btn input:checked + label .icon.move {background:url(../images/icons/icon-move_on.svg) no-repeat center}
+.icon-btn input:checked + label .icon.interior {background:url(../images/icons/icon-interior_on.svg) no-repeat center}
+.icon-btn input:checked + label .icon.broken {background:url(../images/icons/icon-broken_on.svg) no-repeat center}
+.icon-btn input:checked + label .icon.etc {background:url(../images/icons/icon-etc_on.svg) no-repeat center}
 
 /* 제품선택 - 카테고리형 */
 ul.input-cate-type {display:flex; flex-wrap:wrap; justify-content:space-between; margin-top:-12px}
@@ -117,58 +121,55 @@ ul.input-cate-type .cate-tit > .icon.kitchens {background:url(../images/icons/ic
 ul.input-cate-type .cate-tit > .icon.house {background:url(../images/icons/icon-washing-machine.svg) no-repeat center}
 ul.input-cate-type .cate-tit > .icon.mobile {background:url(../images/icons/icon-mobile.svg) no-repeat center}
 ul.input-cate-type .cate-tit > .icon.beauty {background:url(../images/icons/icon-pra_l.svg) no-repeat center}
-ul.input-cate-type .cate-items {display:flex; flex-wrap:wrap; width:calc(100% - 135px); max-width:498px}
-ul.input-cate-type ul.cate-items {margin-top:-10px}
+ul.input-cate-type .cate-items {display:flex; flex-wrap:wrap; width:calc(100% - 135px); max-width:498px; margin-top:-10px}
 ul.input-cate-type .cate-items > li {width:calc(100% / 3); max-width:156px; min-width:112px; height:48px; margin-top:10px; margin-right:10px}
-ul.input-cate-type .cate-items .check-box label {width:100%; height:100%; padding:10px 0; background-color:#fff; border-radius:48px; border:1px solid #ddd; background-color:#fff; font-size:16px; font-weight:500; line-height:24px; box-sizing:border-box; text-align:center}
-ul.input-cate-type .cate-items .check-box input:checked + label {border:1px solid #da0f47; color:#da0f47}
-ul.input-cate-type .cate-items .check-box input + label::after {display:none}
+ul.input-cate-type .cate-items > li .chkrdo-btn {width:100%}
+ul.input-cate-type .cate-items label {width:100%; height:100%; padding:10px 0; background-color:#fff; border-radius:48px; border:1px solid #ddd; background-color:#fff; font-size:16px; font-weight:500; line-height:24px; box-sizing:border-box; text-align:center}
+ul.input-cate-type .cate-items input:checked + label {border:1px solid #da0f47; color:#da0f47}
+ul.input-cate-type .cate-items input + label::after {display:none}
 
 /* 제품선택 - 제품군형 */
 ul.input-pdt-type {display:flex; flex-wrap:wrap; margin:-16px -8px 0}
 ul.input-pdt-type > li {width:calc(100% / 6); min-width:175px; max-width:233px; margin-top:16px; padding:0 8px}
-ul.input-pdt-type > li .check-box {width:100%}
-ul.input-pdt-type > li .check-box input:checked + label {border-color:#da0f47; color:#da0f47}
-ul.input-pdt-type > li .check-box input + label::after {display:none}
-ul.input-pdt-type > li .check-box label {display:flex; justify-content:center; align-items:center; width:100%; height:54px; padding:0; background-color:#fff; border-radius:48px; border:1px solid #ddd; font-size:16px; font-weight:500; line-height:24px; box-sizing:border-box}
-ul.input-pdt-type > li .check-box label .icon {display:block; width:48px; height:48px; margin-right:6px}
-ul.input-pdt-type > li .check-box label .icon.tv {background:url(../images/icons/icon-tv.svg) no-repeat center}
-ul.input-pdt-type > li .check-box label .icon.soundbar {background:url(../images/icons/icon-soundbar.svg) no-repeat center}
-ul.input-pdt-type > li .check-box label .icon.laptop {background:url(../images/icons/icon-laptop.svg) no-repeat center}
-ul.input-pdt-type > li .check-box label .icon.desktop {background:url(../images/icons/icon-desktop.svg) no-repeat center}
-ul.input-pdt-type > li .check-box label .icon.fridge {background:url(../images/icons/icon-refrigerator.svg) no-repeat center}
-ul.input-pdt-type > li .check-box label .icon.washing {background:url(../images/icons/icon-washing-machine.svg) no-repeat center}
-ul.input-pdt-type > li .check-box label .icon.air-con {background:url(../images/icons/icon-air-conditioner.svg) no-repeat center}
-ul.input-pdt-type > li .check-box label .icon.pra-l {background:url(../images/icons/icon-pra_l.svg) no-repeat center}
-ul.input-pdt-type > li .check-box label .icon.vaccum {background:url(../images/icons/icon-vacuum.svg) no-repeat center}
-ul.input-pdt-type > li .check-box label .icon.styler {background:url(../images/icons/icon-styler.svg) no-repeat center}
-ul.input-pdt-type > li .check-box label .icon.air-clean {background:url(../images/icons/icon-air-cleaner.svg) no-repeat center}
-ul.input-pdt-type > li .check-box label .icon.range {background:url(../images/icons/icon-electricrange.svg) no-repeat center}
-ul.input-pdt-type > li .check-box label .icon.ipad {background:url(../images/icons/icon-ipad.svg) no-repeat center}
-ul.input-pdt-type > li .check-box label .icon.projector {background:url(../images/icons/icon-projector.svg) no-repeat center}
-ul.input-pdt-type > li .check-box label .icon.medihair {background:url(../images/icons/icon-medihair.svg) no-repeat center}
-ul.input-pdt-type > li .check-box input:checked + label .icon.tv {background:url(../images/icons/icon-tv_on.svg) no-repeat center}
-ul.input-pdt-type > li .check-box input:checked + label .icon.soundbar {background:url(../images/icons/icon-soundbar_on.svg) no-repeat center}
-ul.input-pdt-type > li .check-box input:checked + label .icon.laptop {background:url(../images/icons/icon-laptop_on.svg) no-repeat center}
-ul.input-pdt-type > li .check-box input:checked + label .icon.desktop {background:url(../images/icons/icon-desktop_on.svg) no-repeat center}
-ul.input-pdt-type > li .check-box input:checked + label .icon.fridge {background:url(../images/icons/icon-refrigerator_on.svg) no-repeat center}
-ul.input-pdt-type > li .check-box input:checked + label .icon.washing {background:url(../images/icons/icon-washing-machine_on.svg) no-repeat center}
-ul.input-pdt-type > li .check-box input:checked + label .icon.air-con {background:url(../images/icons/icon-air-conditioner_on.svg) no-repeat center}
-ul.input-pdt-type > li .check-box input:checked + label .icon.pra-l {background:url(../images/icons/icon-pra_l_on.svg) no-repeat center}
-ul.input-pdt-type > li .check-box input:checked + label .icon.vaccum {background:url(../images/icons/icon-vacuum_on.svg) no-repeat center}
-ul.input-pdt-type > li .check-box input:checked + label .icon.styler {background:url(../images/icons/icon-styler_on.svg) no-repeat center}
-ul.input-pdt-type > li .check-box input:checked + label .icon.air-clean {background:url(../images/icons/icon-air-cleaner_on.svg) no-repeat center}
-ul.input-pdt-type > li .check-box input:checked + label .icon.range {background:url(../images/icons/icon-electricrange_on.svg) no-repeat center}
-ul.input-pdt-type > li .check-box input:checked + label .icon.ipad {background:url(../images/icons/icon-ipad_on.svg) no-repeat center}
-ul.input-pdt-type > li .check-box input:checked + label .icon.projector {background:url(../images/icons/icon-projector_on.svg) no-repeat center}
-ul.input-pdt-type > li .check-box input:checked + label .icon.medihair {background:url(../images/icons/icon-medihair_on.svg) no-repeat center}
+ul.input-pdt-type > li .chkrdo-btn {width:100%}
+.chkrdo-btn.icon label {display:flex; justify-content:center; align-items:center; width:100%; height:54px; padding:0; background-color:#fff; border-radius:48px; border:1px solid #ddd; font-size:16px; font-weight:500; line-height:24px; box-sizing:border-box}
+.chkrdo-btn.icon label .icon {display:block; width:48px; height:48px; margin-right:6px}
+.chkrdo-btn.icon label .icon.tv {background:url(../images/icons/icon-tv.svg) no-repeat center}
+.chkrdo-btn.icon label .icon.soundbar {background:url(../images/icons/icon-soundbar.svg) no-repeat center}
+.chkrdo-btn.icon label .icon.laptop {background:url(../images/icons/icon-laptop.svg) no-repeat center}
+.chkrdo-btn.icon label .icon.desktop {background:url(../images/icons/icon-desktop.svg) no-repeat center}
+.chkrdo-btn.icon label .icon.fridge {background:url(../images/icons/icon-refrigerator.svg) no-repeat center}
+.chkrdo-btn.icon label .icon.washing {background:url(../images/icons/icon-washing-machine.svg) no-repeat center}
+.chkrdo-btn.icon label .icon.air-con {background:url(../images/icons/icon-air-conditioner.svg) no-repeat center}
+.chkrdo-btn.icon label .icon.pra-l {background:url(../images/icons/icon-pra_l.svg) no-repeat center}
+.chkrdo-btn.icon label .icon.vaccum {background:url(../images/icons/icon-vacuum.svg) no-repeat center}
+.chkrdo-btn.icon label .icon.styler {background:url(../images/icons/icon-styler.svg) no-repeat center}
+.chkrdo-btn.icon label .icon.air-clean {background:url(../images/icons/icon-air-cleaner.svg) no-repeat center}
+.chkrdo-btn.icon label .icon.range {background:url(../images/icons/icon-electricrange.svg) no-repeat center}
+.chkrdo-btn.icon label .icon.ipad {background:url(../images/icons/icon-ipad.svg) no-repeat center}
+.chkrdo-btn.icon label .icon.projector {background:url(../images/icons/icon-projector.svg) no-repeat center}
+.chkrdo-btn.icon label .icon.medihair {background:url(../images/icons/icon-medihair.svg) no-repeat center}
+.chkrdo-btn.icon input:checked + label .icon.tv {background:url(../images/icons/icon-tv_on.svg) no-repeat center}
+.chkrdo-btn.icon input:checked + label .icon.soundbar {background:url(../images/icons/icon-soundbar_on.svg) no-repeat center}
+.chkrdo-btn.icon input:checked + label .icon.laptop {background:url(../images/icons/icon-laptop_on.svg) no-repeat center}
+.chkrdo-btn.icon input:checked + label .icon.desktop {background:url(../images/icons/icon-desktop_on.svg) no-repeat center}
+.chkrdo-btn.icon input:checked + label .icon.fridge {background:url(../images/icons/icon-refrigerator_on.svg) no-repeat center}
+.chkrdo-btn.icon input:checked + label .icon.washing {background:url(../images/icons/icon-washing-machine_on.svg) no-repeat center}
+.chkrdo-btn.icon input:checked + label .icon.air-con {background:url(../images/icons/icon-air-conditioner_on.svg) no-repeat center}
+.chkrdo-btn.icon input:checked + label .icon.pra-l {background:url(../images/icons/icon-pra_l_on.svg) no-repeat center}
+.chkrdo-btn.icon input:checked + label .icon.vaccum {background:url(../images/icons/icon-vacuum_on.svg) no-repeat center}
+.chkrdo-btn.icon input:checked + label .icon.styler {background:url(../images/icons/icon-styler_on.svg) no-repeat center}
+.chkrdo-btn.icon input:checked + label .icon.air-clean {background:url(../images/icons/icon-air-cleaner_on.svg) no-repeat center}
+.chkrdo-btn.icon input:checked + label .icon.range {background:url(../images/icons/icon-electricrange_on.svg) no-repeat center}
+.chkrdo-btn.icon input:checked + label .icon.ipad {background:url(../images/icons/icon-ipad_on.svg) no-repeat center}
+.chkrdo-btn.icon input:checked + label .icon.projector {background:url(../images/icons/icon-projector_on.svg) no-repeat center}
+.chkrdo-btn.icon input:checked + label .icon.medihair {background:url(../images/icons/icon-medihair_on.svg) no-repeat center}
 
 /* 구매희망시기 */
 ul.input-base-type {justify-content:space-between; margin:0 -8px}
 ul.input-base-type > li {width:calc(100% / 6); padding:0 8px}
-ul.input-base-type .radio-btn.btn-type2 {width:100%}
-ul.input-base-type .radio-btn.btn-type2 label {display:flex; justify-content:center; align-items:center; width:100%; height:48px; border-radius:28px; font-size:16px; font-weight:500; line-height:24px}
-ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:2px solid #da0f47; color:#da0f47}
+ul.input-base-type .chkrdo-btn {width:100%}
+ul.input-base-type .chkrdo-btn label {width:100%; font-weight:500}
 
 /* 추가전달사항 */
 .text-area .info-msg {float:left; margin-top:10px; margin-left:10px; color:#777; font-size:14px; line-height:22px}
@@ -377,12 +378,7 @@ ul.shop-list li [class^="btn-"] > span {margin-left:3px}
 .res-main .top-wrap .care-banner {width:100%; max-width:1380px; margin:0 auto 50px; padding:0 40px}
 .res-main .top-wrap .care-banner .banner-box {display:flex; align-items:center; width:100%; height:100%}
 .res-main .top-wrap .care-banner .banner-box > img {display:block; width:100%}
-.res-main .top-wrap .care-banner .swiper-btns {position:absolute; width:100%; height:40px; top:50%; left:50%; transform:translate(-50%,-50%); z-index:10}
-.res-main .top-wrap .care-banner .swiper-btns [class^="swiper-button"] {width:40px; height:40px; top:0; margin-top:0; border-radius:50%; background-color:#fff; box-shadow:2px 2px 6px 0 rgba(0, 0, 0, 0.16)}
-.res-main .top-wrap .care-banner .swiper-btns [class^="swiper-button"]::after {width:100%; height:100%; font-size:0; background:url(../images/icons/icon-carousel-btn.svg) no-repeat center}
-.res-main .top-wrap .care-banner .swiper-btns .swiper-button-prev {left:20px}
-.res-main .top-wrap .care-banner .swiper-btns .swiper-button-next {right:20px}
-.res-main .top-wrap .care-banner .swiper-btns .swiper-button-next::after {transform:rotate(180deg)}
+.res-main .top-wrap .care-banner .banner-btns {top:50%}
 
 .res-main .sticky-info-wrap {margin-bottom:70px; background-image:linear-gradient(to right,#a58bee,#f86791)}
 .res-main .sticky-info-wrap .inner {position:relative; max-width:1460px; margin:0 auto; padding:25px 40px}
@@ -424,12 +420,9 @@ ul.shop-list li [class^="btn-"] > span {margin-left:3px}
 .res-main .category-box .category-list > li .box .sub-category .sub-category-list {margin-top:12px; color:#fff; font-size:16px; line-height:24px; text-align:center}
 .res-main .category-box .category-list > li .box .sub-category .sub-category-list > li {white-space:nowrap; text-overflow:ellipsis; overflow:hidden}
 .res-main .category-box .category-list > li .box .sub-category button {position:absolute; bottom:50px; left:50%; transform:translateX(-50%)}
-.res-main .category-box .swiper-btns {position:absolute; width:100%; height:40px; top:50%; left:50%; transform:translate(-50%,-50%); z-index:10}
-.res-main .category-box .swiper-btns [class^="swiper-button"] {width:40px; height:40px; top:0; margin-top:0; border-radius:50%; background-color:#fff; box-shadow:2px 2px 6px 0 rgba(0, 0, 0, 0.16)}
-.res-main .category-box .swiper-btns [class^="swiper-button"]::after {width:100%; height:100%; font-size:0; background:url(../images/icons/icon-carousel-btn.svg) no-repeat center}
-.res-main .category-box .swiper-btns .swiper-button-prev {left:4px}
-.res-main .category-box .swiper-btns .swiper-button-next {right:4px}
-.res-main .category-box .swiper-btns .swiper-button-next::after {transform:rotate(180deg)}
+.res-main .category-box .banner-btns {top:50%}
+.res-main .category-box .banner-btns .swiper-button-prev {left:4px}
+.res-main .category-box .banner-btns .swiper-button-next {right:4px}
 
 .res-main.care .video-area {display:flex; padding:23px; border:1px solid #707070; border-radius:8px}
 .res-main.care .video-area .video-box {width:100%; max-width:700px; height:394px}
@@ -504,9 +497,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 .plp-list-wrap .lay-filter .plp-filter-wrap .box {border-bottom:1px solid #ddd}
 .plp-list-wrap .lay-filter .plp-filter-wrap .box .tit {padding:28px 0 26px; font-size:14px; font-weight:bold; line-height:22px}
 .plp-list-wrap .lay-filter .plp-filter-wrap .box .tit .sel-num {margin-left:2px}
-.plp-list-wrap .lay-filter .plp-filter-wrap .box .list-wrap {display:none; padding-bottom:28px}
-.plp-list-wrap .lay-filter .plp-filter-wrap .box.no-acco .list-wrap {display:block}
-.plp-list-wrap .lay-filter .plp-filter-wrap .box .tit-wrap.active + .list-wrap {display:block}
+.plp-list-wrap .lay-filter .plp-filter-wrap .box .list-wrap {padding-bottom:28px}
 .plp-list-wrap .lay-filter .plp-filter-wrap .box .tit-wrap a {position:relative; display:block}
 .plp-list-wrap .lay-filter .plp-filter-wrap .box .tit-wrap a::after {content:''; display:block; position:absolute; width:16px; height:16px; right:0; top:calc(50% - 8px); background:url(../images/icons/icon-arr-footer-16.svg) no-repeat center / contain; transform:rotate(0)}
 .plp-list-wrap .lay-filter .plp-filter-wrap .box .tit-wrap.active a::after {transform:rotate(180deg); transition:all .3s}
@@ -568,8 +559,6 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select .box.no-item {justify-content:center}
 .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select .box.no-item .no-item-txt {color:#aaa; font-size:16px; font-weight:500; line-height:24px}
 .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select .box .btn-close {position:absolute; width:18px; height:18px; top:12px; right:12px; background:url(../images/icons/btn-close-24-black.svg) no-repeat center / contain}
-/* .bottom-cart-wrap .bar-wrap.care-ex .foot-area {position:relative; padding-bottom:89px} */
-/* .bottom-cart-wrap .bar-wrap.care-ex .foot-area .btn-area {position:absolute; right:0; bottom:24px; display:flex; align-items:center} */
 .bottom-cart-wrap .bar-wrap.care-ex .foot-area {text-align:right}
 .bottom-cart-wrap .bar-wrap.care-ex .foot-area .btn-area {padding:14px 0 24px}
 .bottom-cart-wrap .bar-wrap.care-ex .foot-area .btn-area .btn-reset {min-width:0; padding:0 12px; border-color:transparent; background:transparent!important}
@@ -631,12 +620,8 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 .res-main .top-wrap .pro-banner {width:100%; max-width:1460px; margin:0 auto; padding:0 40px}
 .res-main .top-wrap .pro-banner .banner-box {display:flex; align-items:center; width:100%; height:100%}
 .res-main .top-wrap .pro-banner .banner-box > img {display:block; width:100%}
-.res-main .top-wrap .pro-banner .swiper-btns {position:absolute; width:100%; height:40px; top:50%; left:50%; transform:translate(-50%,-50%); z-index:10}
-.res-main .top-wrap .pro-banner .swiper-btns [class^="swiper-button"] {width:40px; height:40px; top:0; margin-top:0; border-radius:50%; background-color:#fff; box-shadow:2px 2px 6px 0 rgba(0, 0, 0, 0.16)}
-.res-main .top-wrap .pro-banner .swiper-btns [class^="swiper-button"]::after {width:100%; height:100%; font-size:0; background:url(../images/icons/icon-carousel-btn.svg) no-repeat center}
-.res-main .top-wrap .pro-banner .swiper-btns .swiper-button-prev {left:20px}
-.res-main .top-wrap .pro-banner .swiper-btns .swiper-button-next {right:20px}
-.res-main .top-wrap .pro-banner .swiper-btns .swiper-button-next::after {transform:rotate(180deg)}
+.res-main .top-wrap .pro-banner .banner-btns {position:absolute; width:100%; height:40px; top:50%; left:50%; transform:translate(-50%,-50%); z-index:10}
+.res-main .top-wrap .pro-banner .banner-btns [class^="swiper-button"] {top:0}
 
 /* popup - size */
 .popup.alert .pop-wrap {width:calc(100% - 44px); max-width:500px; padding:60px 40px 50px; text-align:center}
@@ -766,14 +751,9 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-main .guide-area [class*="guide-banner"] .swiper-scrollbar {width:calc(100% - 32px); left:16px; bottom:26px; height:2px}
     .res-main .top-wrap .add-area {margin:20px auto}
     .res-main .add-area [class*="res-banner"] {padding:0 16px}
-    /* .res-main .add-area [class*="res-banner"] .swiper-slide > [class^="banner"] {height:180px} */
     .res-main .add-area [class*="res-banner"] .swiper-slide > .box {height:180px; border-radius:8px}
     .res-main .add-area [class*="res-banner"] .swiper-slide > .box > img {width:auto; height:100%; margin:0 auto}
-    .res-main .add-area [class*="res-banner"] .banner-btns {height:28px; top:calc(50% - 16.5px)}
-    .res-main .add-area [class*="res-banner"] .banner-btns .swiper-button-prev {left:4px}
-    .res-main .add-area [class*="res-banner"] .banner-btns .swiper-button-next {right:4px}
-    .res-main .add-area [class*="res-banner"] .banner-btns [class^="swiper-button"] {width:28px; height:28px}
-    .res-main .add-area [class*="res-banner"] .banner-btns [class^="swiper-button"]::after {background-size:6px}
+    .res-main .add-area [class*="res-banner"] .banner-btns {top:calc(50% - 16.5px)}
     .res-main .add-area .banner-indi-wrap {margin:9px 0}
     .res-main .add-area .banner-indi-wrap .btn-play {width:16.5px; height:16.5px}
     .res-main .add-area .banner-indi-wrap .swiper-pagination {margin:0 5px}
@@ -783,76 +763,83 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-main .cont-wrap .cont-area {padding-top:4px}
     .cont-wrap.w100 {padding:0 16px 4px}
     .res-main .step-area.step02 .date-wrap .input-area > .base-type .radio-btn.btn-type2 label {border-radius:4px}
-    /* .res-main .cont-wrap .cont-area .step-area.step03 .btn-area {display:none} */
+
+    /* swiper button */
+    .banner-btns {height:28px}
+    .banner-btns .swiper-button-prev {left:4px}
+    .banner-btns .swiper-button-next {right:4px}
+    .banner-btns [class^="swiper-button"] {width:28px; height:28px}
+    .banner-btns [class^="swiper-button"]::after {background-size:6px}
 
     /******** 매장상담예약 input ********/
     /* 상담목적 */
     ul.input-icon-type {flex-wrap:wrap; margin-top:-12px}
     ul.input-icon-type > li {width:calc(50% - 6px); margin-top:12px}
-    ul.input-icon-type .radio-btn.btn-type2 label {height:49px; border:1.5px solid #ddd; border-radius:14px; font-size:13px; line-height:19px}
-    ul.input-icon-type .radio-btn.btn-type2 input:checked + label {border:1.5px solid #da0f47}
-    ul.input-icon-type .radio-btn.btn-type2 .icon {width:32px; height:32px; margin-right:6px}
-    ul.input-icon-type .radio-btn.btn-type2 .icon.wedding {background:url(../images/icons/icon-wedding_mo.svg) no-repeat center / contain}
-    ul.input-icon-type .radio-btn.btn-type2 .icon.move {background:url(../images/icons/icon-move_mo.svg) no-repeat center / contain}
-    ul.input-icon-type .radio-btn.btn-type2 .icon.interior {background:url(../images/icons/icon-interior_mo.svg) no-repeat center / contain}
-    ul.input-icon-type .radio-btn.btn-type2 .icon.broken {background:url(../images/icons/icon-broken_mo.svg) no-repeat center / contain}
-    ul.input-icon-type .radio-btn.btn-type2 .icon.etc {background:url(../images/icons/icon-etc_mo.svg) no-repeat center / contain}
-    ul.input-icon-type .radio-btn.btn-type2 input:checked + label .icon.wedding {background:url(../images/icons/icon-wedding_mo_on.svg) no-repeat center / contain}
-    ul.input-icon-type .radio-btn.btn-type2 input:checked + label .icon.move {background:url(../images/icons/icon-move_mo_on.svg) no-repeat center / contain}
-    ul.input-icon-type .radio-btn.btn-type2 input:checked + label .icon.interior {background:url(../images/icons/icon-interior_mo_on.svg) no-repeat center / contain}
-    ul.input-icon-type .radio-btn.btn-type2 input:checked + label .icon.broken {background:url(../images/icons/icon-broken_mo_on.svg) no-repeat center / contain}
-    ul.input-icon-type .radio-btn.btn-type2 input:checked + label .icon.etc {background:url(../images/icons/icon-etc_mo_on.svg) no-repeat center / contain}    
+    .icon-btn label {height:49px; border:1.5px solid #ddd; border-radius:14px; font-size:13px; line-height:19px}
+    .icon-btn input:checked + label {border:1.5px solid #da0f47}
+    .icon-btn .icon {width:32px; height:32px; margin-right:6px}
+    .icon-btn .icon.wedding {background:url(../images/icons/icon-wedding_mo.svg) no-repeat center / contain}
+    .icon-btn .icon.move {background:url(../images/icons/icon-move_mo.svg) no-repeat center / contain}
+    .icon-btn .icon.interior {background:url(../images/icons/icon-interior_mo.svg) no-repeat center / contain}
+    .icon-btn .icon.broken {background:url(../images/icons/icon-broken_mo.svg) no-repeat center / contain}
+    .icon-btn .icon.etc {background:url(../images/icons/icon-etc_mo.svg) no-repeat center / contain}
+    .icon-btn input:checked + label .icon.wedding {background:url(../images/icons/icon-wedding_mo_on.svg) no-repeat center / contain}
+    .icon-btn input:checked + label .icon.move {background:url(../images/icons/icon-move_mo_on.svg) no-repeat center / contain}
+    .icon-btn input:checked + label .icon.interior {background:url(../images/icons/icon-interior_mo_on.svg) no-repeat center / contain}
+    .icon-btn input:checked + label .icon.broken {background:url(../images/icons/icon-broken_mo_on.svg) no-repeat center / contain}
+    .icon-btn input:checked + label .icon.etc {background:url(../images/icons/icon-etc_mo_on.svg) no-repeat center / contain}    
 
     /* 제품선택 - 카테고리형 */
     ul.input-cate-type > li {flex-direction:column; align-items:center; width:100%; padding:16px 0}
     ul.input-cate-type .cate-tit {font-size:13px; line-height:19px}
     ul.input-cate-type .cate-tit > .icon {display:none}
-    ul.input-cate-type ul.cate-items {width:100%; max-width:328px; margin-top:3px; padding:0 3px 0 10px}
-    ul.input-cate-type .cate-items > li {width:98px; min-width:98px; height:34px; margin-top:7px; margin-right:7px}
-    ul.input-cate-type .cate-items .check-box label {padding:5.5px 0; font-size:13px; line-height:19px}
+    ul.input-cate-type .cate-items {width:100%; max-width:328px; margin-top:3px; margin-right:-7px; padding:0 10px}
+    ul.input-cate-type .cate-items > li {width:calc((100% / 3) - 7px); min-width:0; height:34px; margin-top:7px; margin-right:7px}
+    ul.input-cate-type .cate-items .chkrdo-btn label {min-width:0; padding:6px 0; border:1.5px solid #ddd; font-size:13px; line-height:19px}
+    ul.input-cate-type .cate-items input:checked + label {border:1.5px solid #da0f47}
 
     /* 제품선택 - 제품군형 */
     ul.input-pdt-type {justify-content:space-between; margin:-12px 0 0}
     ul.input-pdt-type > li {width:calc(50% - 6px); max-width:50%; min-width:0; margin-top:12px; padding:0}
-    ul.input-pdt-type > li .check-box label {height:38px; border:1.5px solid #ddd; font-size:13px; line-height:19px}
-    ul.input-pdt-type > li .check-box input:checked + label {border:1.5px solid #da0f47}
-    ul.input-pdt-type > li .check-box label .icon {width:24px; height:24px}
-    ul.input-pdt-type > li .check-box label .icon.tv {background:url(../images/icons/icon-tv_mo.svg) no-repeat center / contain}
-    ul.input-pdt-type > li .check-box label .icon.soundbar {background:url(../images/icons/icon-soundbar_mo.svg) no-repeat center / contain}
-    ul.input-pdt-type > li .check-box label .icon.laptop {background:url(../images/icons/icon-laptop_mo.svg) no-repeat center / contain}
-    ul.input-pdt-type > li .check-box label .icon.desktop {background:url(../images/icons/icon-desktop_mo.svg) no-repeat center / contain}
-    ul.input-pdt-type > li .check-box label .icon.fridge {background:url(../images/icons/icon-refrigerator_mo.svg) no-repeat center / contain}
-    ul.input-pdt-type > li .check-box label .icon.washing {background:url(../images/icons/icon-washing-machine_mo.svg) no-repeat center / contain}
-    ul.input-pdt-type > li .check-box label .icon.air-con {background:url(../images/icons/icon-air-conditioner_mo.svg) no-repeat center / contain}
-    ul.input-pdt-type > li .check-box label .icon.pra-l {background:url(../images/icons/icon-pra_l_mo.svg) no-repeat center / contain}
-    ul.input-pdt-type > li .check-box label .icon.vaccum {background:url(../images/icons/icon-vacuum_mo.svg) no-repeat center / contain}
-    ul.input-pdt-type > li .check-box label .icon.styler {background:url(../images/icons/icon-styler_mo.svg) no-repeat center / contain}
-    ul.input-pdt-type > li .check-box label .icon.air-clean {background:url(../images/icons/icon-air-cleaner_mo.svg) no-repeat center / contain}
-    ul.input-pdt-type > li .check-box label .icon.range {background:url(../images/icons/icon-electricrange_mo.svg) no-repeat center / contain}
-    ul.input-pdt-type > li .check-box label .icon.ipad {background:url(../images/icons/icon-ipad_mo.svg) no-repeat center / contain}
-    ul.input-pdt-type > li .check-box label .icon.projector {background:url(../images/icons/icon-projector_mo.svg) no-repeat center / contain}
-    ul.input-pdt-type > li .check-box label .icon.medihair {background:url(../images/icons/icon-medihair_mo.svg) no-repeat center / contain}
-    ul.input-pdt-type > li .check-box input:checked + label .icon.tv {background:url(../images/icons/icon-tv_mo_on.svg) no-repeat center / contain}
-    ul.input-pdt-type > li .check-box input:checked + label .icon.soundbar {background:url(../images/icons/icon-soundbar_mo_on.svg) no-repeat center / contain}
-    ul.input-pdt-type > li .check-box input:checked + label .icon.laptop {background:url(../images/icons/icon-laptop_mo_on.svg) no-repeat center / contain}
-    ul.input-pdt-type > li .check-box input:checked + label .icon.desktop {background:url(../images/icons/icon-desktop_mo_on.svg) no-repeat center / contain}
-    ul.input-pdt-type > li .check-box input:checked + label .icon.fridge {background:url(../images/icons/icon-refrigerator_mo_on.svg) no-repeat center / contain}
-    ul.input-pdt-type > li .check-box input:checked + label .icon.washing {background:url(../images/icons/icon-washing-machine_mo_on.svg) no-repeat center / contain}
-    ul.input-pdt-type > li .check-box input:checked + label .icon.air-con {background:url(../images/icons/icon-air-conditioner_mo_on.svg) no-repeat center / contain}
-    ul.input-pdt-type > li .check-box input:checked + label .icon.pra-l {background:url(../images/icons/icon-pra_l_mo_on.svg) no-repeat center / contain}
-    ul.input-pdt-type > li .check-box input:checked + label .icon.vaccum {background:url(../images/icons/icon-vacuum_mo_on.svg) no-repeat center / contain}
-    ul.input-pdt-type > li .check-box input:checked + label .icon.styler {background:url(../images/icons/icon-styler_mo_on.svg) no-repeat center / contain}
-    ul.input-pdt-type > li .check-box input:checked + label .icon.air-clean {background:url(../images/icons/icon-air-cleaner_mo_on.svg) no-repeat center / contain}
-    ul.input-pdt-type > li .check-box input:checked + label .icon.range {background:url(../images/icons/icon-electricrange_mo_on.svg) no-repeat center / contain}
-    ul.input-pdt-type > li .check-box input:checked + label .icon.ipad {background:url(../images/icons/icon-ipad_mo_on.svg) no-repeat center / contain}
-    ul.input-pdt-type > li .check-box input:checked + label .icon.projector {background:url(../images/icons/icon-projector_mo_on.svg) no-repeat center / contain}
-    ul.input-pdt-type > li .check-box input:checked + label .icon.medihair {background:url(../images/icons/icon-medihair_mo_on.svg) no-repeat center / contain}
+    .chkrdo-btn.icon label {height:38px; border:1.5px solid #ddd; font-size:13px; line-height:19px}
+    .chkrdo-btn.icon input:checked + label {border:1.5px solid #da0f47}
+    .chkrdo-btn.icon label .icon {width:24px; height:24px}
+    .chkrdo-btn.icon label .icon.tv {background:url(../images/icons/icon-tv_mo.svg) no-repeat center / contain}
+    .chkrdo-btn.icon label .icon.soundbar {background:url(../images/icons/icon-soundbar_mo.svg) no-repeat center / contain}
+    .chkrdo-btn.icon label .icon.laptop {background:url(../images/icons/icon-laptop_mo.svg) no-repeat center / contain}
+    .chkrdo-btn.icon label .icon.desktop {background:url(../images/icons/icon-desktop_mo.svg) no-repeat center / contain}
+    .chkrdo-btn.icon label .icon.fridge {background:url(../images/icons/icon-refrigerator_mo.svg) no-repeat center / contain}
+    .chkrdo-btn.icon label .icon.washing {background:url(../images/icons/icon-washing-machine_mo.svg) no-repeat center / contain}
+    .chkrdo-btn.icon label .icon.air-con {background:url(../images/icons/icon-air-conditioner_mo.svg) no-repeat center / contain}
+    .chkrdo-btn.icon label .icon.pra-l {background:url(../images/icons/icon-pra_l_mo.svg) no-repeat center / contain}
+    .chkrdo-btn.icon label .icon.vaccum {background:url(../images/icons/icon-vacuum_mo.svg) no-repeat center / contain}
+    .chkrdo-btn.icon label .icon.styler {background:url(../images/icons/icon-styler_mo.svg) no-repeat center / contain}
+    .chkrdo-btn.icon label .icon.air-clean {background:url(../images/icons/icon-air-cleaner_mo.svg) no-repeat center / contain}
+    .chkrdo-btn.icon label .icon.range {background:url(../images/icons/icon-electricrange_mo.svg) no-repeat center / contain}
+    .chkrdo-btn.icon label .icon.ipad {background:url(../images/icons/icon-ipad_mo.svg) no-repeat center / contain}
+    .chkrdo-btn.icon label .icon.projector {background:url(../images/icons/icon-projector_mo.svg) no-repeat center / contain}
+    .chkrdo-btn.icon label .icon.medihair {background:url(../images/icons/icon-medihair_mo.svg) no-repeat center / contain}
+    .chkrdo-btn.icon input:checked + label .icon.tv {background:url(../images/icons/icon-tv_mo_on.svg) no-repeat center / contain}
+    .chkrdo-btn.icon input:checked + label .icon.soundbar {background:url(../images/icons/icon-soundbar_mo_on.svg) no-repeat center / contain}
+    .chkrdo-btn.icon input:checked + label .icon.laptop {background:url(../images/icons/icon-laptop_mo_on.svg) no-repeat center / contain}
+    .chkrdo-btn.icon input:checked + label .icon.desktop {background:url(../images/icons/icon-desktop_mo_on.svg) no-repeat center / contain}
+    .chkrdo-btn.icon input:checked + label .icon.fridge {background:url(../images/icons/icon-refrigerator_mo_on.svg) no-repeat center / contain}
+    .chkrdo-btn.icon input:checked + label .icon.washing {background:url(../images/icons/icon-washing-machine_mo_on.svg) no-repeat center / contain}
+    .chkrdo-btn.icon input:checked + label .icon.air-con {background:url(../images/icons/icon-air-conditioner_mo_on.svg) no-repeat center / contain}
+    .chkrdo-btn.icon input:checked + label .icon.pra-l {background:url(../images/icons/icon-pra_l_mo_on.svg) no-repeat center / contain}
+    .chkrdo-btn.icon input:checked + label .icon.vaccum {background:url(../images/icons/icon-vacuum_mo_on.svg) no-repeat center / contain}
+    .chkrdo-btn.icon input:checked + label .icon.styler {background:url(../images/icons/icon-styler_mo_on.svg) no-repeat center / contain}
+    .chkrdo-btn.icon input:checked + label .icon.air-clean {background:url(../images/icons/icon-air-cleaner_mo_on.svg) no-repeat center / contain}
+    .chkrdo-btn.icon input:checked + label .icon.range {background:url(../images/icons/icon-electricrange_mo_on.svg) no-repeat center / contain}
+    .chkrdo-btn.icon input:checked + label .icon.ipad {background:url(../images/icons/icon-ipad_mo_on.svg) no-repeat center / contain}
+    .chkrdo-btn.icon input:checked + label .icon.projector {background:url(../images/icons/icon-projector_mo_on.svg) no-repeat center / contain}
+    .chkrdo-btn.icon input:checked + label .icon.medihair {background:url(../images/icons/icon-medihair_mo_on.svg) no-repeat center / contain}
 
     /* 구매희망시기 */
     ul.input-base-type {flex-wrap:wrap; margin:-7px -3.5px 0}
     ul.input-base-type > li {width:calc(100% / 3); margin-top:7px; padding:0 3.5px}
-    ul.input-base-type .radio-btn.btn-type2 label {border:1px solid #ddd; font-size:13px; line-height:19px}
-    ul.input-base-type .radio-btn.btn-type2 input:checked + label {border:1px solid #da0f47}
+    ul.input-base-type .chkrdo-btn label {padding:6px 0; border:1.5px solid #ddd; font-size:13px; line-height:19px}
+    ul.input-base-type input:checked + label {border:1.5px solid #da0f47}
 
     /* 추가전달사항 */
     .text-area .info-msg {margin-top:8px; margin-left:8px; font-size:10px; line-height:15px}
@@ -958,13 +945,13 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .step-area .btn-area.bg .result-txt {display:none}
 
     /* 하단바 */
-    .res-main .bottom-fixed-wrap.active {display:block; position:fixed; bottom:69px; left:0; right:0; z-index:1000}
+    .res-main .bottom-fixed-wrap {display:block; position:fixed; bottom:69px; left:0; right:0; z-index:1000}
     .res-main .bottom-fixed-wrap .dimmed {display:none}
     .res-main .bottom-fixed-wrap .bar-wrap {position:relative; border-radius:16px 16px 0 0; box-shadow:0 -3px 6px 0 rgba(0, 0, 0, 0.16); background-color:#fff; z-index:1001}
     .res-main .bottom-fixed-wrap .bar-wrap .head-area {position:relative; padding:11px 44px 11px 16px}
     .res-main .bottom-fixed-wrap .bar-wrap .head-area .head-txt {font-size:11px; font-weight:bold; line-height:16px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden}
-    .res-main .bottom-fixed-wrap .bar-wrap .head-area button.view-more {position:absolute; display:block; width:20px; height:20px; top:calc(50% - 10px); right:14px; background:url(../images/icons/icon-arr-40-bk.svg) no-repeat center / contain}
-    .res-main .bottom-fixed-wrap.active .bar-wrap .head-area button.view-more {transform:rotate(180deg)}
+    .res-main .bottom-fixed-wrap .bar-wrap .head-area button.view-more {position:absolute; display:block; width:20px; height:20px; top:calc(50% - 10px); right:14px; background:url(../images/icons/icon-arr-40-bk.svg) no-repeat center / contain; transform:rotate(180deg)}
+    .res-main .bottom-fixed-wrap.active .bar-wrap .head-area button.view-more {transform:rotate(0)}
     .res-main .bottom-fixed-wrap .bar-wrap .body-area {display:none; padding:12px 16px; border-top:1px solid #ddd}
     .res-main .bottom-fixed-wrap .bar-wrap .body-area .my-result {font-size:13px; line-height:19px}
     .res-main .bottom-fixed-wrap .bar-wrap .body-area .my-result > ul > li {display:flex}
@@ -1009,11 +996,6 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-main.care .cont-wrap .cont-area {padding-top:0}
     .res-main.care .cont-wrap .cont-area .step-area {margin-top:24px}
     .res-main .top-wrap .care-banner {margin:0 auto 40px; padding:0}
-    .res-main .top-wrap .care-banner .swiper-btns .swiper-button-prev {left:4px}
-    .res-main .top-wrap .care-banner .swiper-btns .swiper-button-next {right:4px}
-    .res-main .top-wrap .care-banner .swiper-btns {height:28px}
-    .res-main .top-wrap .care-banner .swiper-btns [class^="swiper-button"] {width:28px; height:28px}
-    .res-main .top-wrap .care-banner .swiper-btns [class^="swiper-button"]::after {background-size:6px}
 
     .res-main .sticky-info-wrap {margin-bottom:35px}
     .res-main .sticky-info-wrap .inner {padding:20px 16px 72px}
@@ -1037,12 +1019,6 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-main .category-box .category-list > li .box .sub-category .category-tit {margin-top:0; font-size:15px; line-height:21px}
     .res-main .category-box .category-list > li .box .sub-category .sub-category-list {margin-top:8px; font-size:11px; line-height:16px}
     .res-main .category-box .category-list > li .box .sub-category button {bottom:20px; min-width:80px; padding:9px 25px; font-size:13px; line-height:19px}
-
-    .res-main .category-box .swiper-btns {height:28px}
-    .res-main .category-box .swiper-btns .swiper-button-prev {left:4px}
-    .res-main .category-box .swiper-btns .swiper-button-next {right:4px}
-    .res-main .category-box .swiper-btns [class^="swiper-button"] {width:28px; height:28px}
-    .res-main .category-box .swiper-btns [class^="swiper-button"]::after {background-size:6px}
 
     .res-main.care .video-area {padding:11px 11px 22px}
     .res-main.care .video-area .video-tit {font-size:16px; line-height:22px}
@@ -1076,7 +1052,6 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 
     .res-main.care .cont-wrap .cont-area .step-area.step03 .btn-area {display:block; margin:10px auto 0}
     .res-main.care .cont-wrap .cont-area .step-area.step03 .btn-area.bg {display:none}
-    .res-main.care .cont-wrap .cont-area .step-area.step03 .btn-res {width:156px; padding:10px 20px}
 
     /* 소모품구매예약페이지 */
     .res-main.care-ex .top-wrap {margin-bottom:28px}
@@ -1201,9 +1176,4 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 
     /* 내게 맞는 제품 찾기 페이지 */
     .res-main .top-wrap .pro-banner {padding:0}
-    .res-main .top-wrap .pro-banner .swiper-btns .swiper-button-prev {left:4px}
-    .res-main .top-wrap .pro-banner .swiper-btns .swiper-button-next {right:4px}
-    .res-main .top-wrap .pro-banner .swiper-btns {height:28px}
-    .res-main .top-wrap .pro-banner .swiper-btns [class^="swiper-button"] {width:28px; height:28px}
-    .res-main .top-wrap .pro-banner .swiper-btns [class^="swiper-button"]::after {background-size:6px}
 }
