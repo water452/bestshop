@@ -75,7 +75,7 @@
                         </dl>
                         <p class="txt-belt color-fff">본 이벤트는 마케팅 수신동의 고객에 한하여 참여 가능합니다.<br /> 마케팅 활용동의(문자필수) 체크 후 이벤트에 참여해주세요.</p>
                         <a href="#none" class="btn-txt-icon-more-wt">마케팅 활용동의 변경하러 가기</a>
-                        <div class="btn-area"><a href="#none" class="btn s02 white">타임딜 할인쿠폰 발급받기</a></div>
+                        <div class="btn-area"><a href="#none" class="btn white">타임딜 할인쿠폰 발급받기</a></div>
                     </div>
                 </div>
                 <div class="notice-wrap">

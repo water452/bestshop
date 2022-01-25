@@ -129,7 +129,7 @@ table{border-collapse:collapse}
 .scroll-fixed{overflow:hidden;position:relative;height:100%;}
 
 /* search */
-.search-box {position:relative; width:100%; max-width:594px}
+.search-box { position: relative; margin: 0 auto; width: 100%; max-width:594px; }
 .search-box > input {width:100%; padding:11px 36px 10px 0; font-size:16px; line-height:26px; border-bottom:2px solid #000}
 .search-box > input:focus {outline:none; border-bottom:2px solid transparent; background: linear-gradient(#ffffff, #ffffff) padding-box, linear-gradient(119deg, #9c86e7 0%, #de64a0 100%) border-box}
 .search-box .btn-search {position:absolute; width:24px; height:48px; top:0; right:0; background:url(../images/icons/icon-search.svg) no-repeat center; text-indent:-9999em}
