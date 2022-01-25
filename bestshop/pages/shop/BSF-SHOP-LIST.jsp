@@ -305,7 +305,17 @@
         <!-- e: shop search head -->
 
         <!-- s: shop search body > map api 들어갈 곳 -->
-        <div class="shop-search-body"></div>
+        <div class="shop-search-body">
+            <p class="btn-area innerMap">
+                <a href="javascript:void(0);" class="btn border-red s02">현 지도에서 매장 찾기</a>
+            </p>
+            <div class="desc-layer">
+                <p class="txt-desc">
+                    아이폰 취급 매장에 한하여 조회됩니다.
+                    <a href="javascript:void(0);" class="close-pop">닫기</a>
+                </p>
+            </div>
+        </div>
         <!-- e: shop search body > map api 들어갈 곳 -->
     </div>
 </div>
@@ -325,13 +335,36 @@
 
             if(_ths.hasClass('active')){
                 _ths.text('지도보기');
-                $('.tab-area .tab-title, .tab-area .tab-content-group').slideDown(500);
-                $('.tab-area-wrap').stop().animate({'height': _winHt}, 200);
+                $('.tab-area .tab-title, .tab-area .tab-content-group').show();
+                $('.tab-area-wrap').addClass('active').stop().animate({'height': _winHt}, 200);
             } else {
                 _ths.text('상세검색')
-                $('.tab-area .tab-title, .tab-area .tab-content-group').slideUp(200);
-                $('.tab-area-wrap').stop().animate({'height': '296px'}, 200);
+                $('.tab-area .tab-title, .tab-area .tab-content-group').hide();
+                $('.tab-area-wrap').removeClass('active').stop().animate({'height': '296px'}, 200);
             }
+        });
+    }
+
+    // tab area
+    function leftMenuTab(){
+        $('.tab-title li a').on('click', function(){
+            var _thsDetail = $(this).parents('.tab-title').siblings('.tab-content-group'),
+                _thsCnt = parseInt($(this).parent('li').index()) + 1;
+
+            $(this).parent('li').addClass('active').siblings('li').removeClass('active');
+            $('.tab-content-group .tab-content:nth-child('+ _thsCnt +')').addClass('active').siblings('.tab-content').removeClass('active')
+        });
+    }
+
+    // tab area > search result > scrollTop + active
+    function leftMenuScrollTop(){
+        $('.result-body a.base-link').on('click', function(e){
+            var _thsTop = $(this).parents('li').position().top;
+
+            setTimeout(function() {
+                $('.result-body .mCustomScrollbar').mCustomScrollbar("scrollTo", _thsTop);
+            }, 200);
+            $(this).parents('li').addClass('active').siblings('li').removeClass('active');
         });
     }
 
@@ -358,37 +391,29 @@
         });
     }
 
-    $(document).ready(function(){
-        $('.result-filter').prepend('<div class="dimmde"></div>')
-
-        // tab area
-        $('.tab-title li a').on('click', function(){
-            var _thsDetail = $(this).parents('.tab-title').siblings('.tab-content-group'),
-                _thsCnt = parseInt($(this).parent('li').index()) + 1;
-
-            $(this).parent('li').addClass('active').siblings('li').removeClass('active');
-            $('.tab-content-group .tab-content:nth-child('+ _thsCnt +')').addClass('active').siblings('.tab-content').removeClass('active')
-        });
-
-        // tab area > search result > scrollTop + active
-        $('.result-body a.base-link').on('click', function(e){
-            var _thsTop = $(this).parents('li').position().top;
-
-            setTimeout(function() {
-                $('.result-body .mCustomScrollbar').mCustomScrollbar("scrollTo", _thsTop);
-            }, 200);
-            $(this).parents('li').addClass('active').siblings('li').removeClass('active');
-        });
-
-        // filter popup > detail > toggle
-        $('.filter-list > em a').on('click', function(){
-            $(this).parents('.filter-list').toggleClass('closed').find('.filter-detail').slideToggle(100);
-        });
-
-        // filter popup > detail > checked reset
+    // filter popup > detail > checked reset
+    function checkReset(){
         $('.btn-reset').on('click', function(){
             $('.filter-list').find('input').prop('checked', false);
         });
+    }
+
+    // filter popup > detail > toggle menu
+    function filterDetailToggleMenu(){
+        $('.filter-list > em a').on('click', function(){
+            $(this).parents('.filter-list').toggleClass('closed').find('.filter-detail').slideToggle(100);
+        });
+    }
+
+    /* inner map > close pop */
+    function descPopClose(){
+        $('.txt-desc .close-pop').on('click', function(){
+            $(this).closest('.txt-desc').fadeOut(100);
+        });
+    }
+
+    $(document).ready(function(){
+        $('.result-filter').prepend('<div class="dimmde"></div>')
 
         if(_winWd > 767){
             filterToggle();
@@ -396,6 +421,12 @@
             mToggle();
             filterToggleM();
         }
+
+        leftMenuTab();
+        leftMenuScrollTop();
+        filterDetailToggleMenu();
+        checkReset();
+        descPopClose();
     });
 
     $(window).resize(function(){
@@ -408,6 +439,6 @@
             mToggle();
             filterToggleM(); // filter popup mobile > toggle
         }
-    })
+    });
 </script>
 <jsp:include page="/bestshop/templates/common/footer.jsp" />
