@@ -285,8 +285,8 @@
       "startdate": "-",
       "finishdate": "-",
       "status": "완료",
-      "filename": "./pages/reservation/BSF-RES-VISIT-step01.jsp",
-      "memo": "step1만 펼침 상태"
+      "filename": "./pages/reservation/BSF-RES-VISIT-STEP01.jsp",
+      "memo": "STEP1만 펼침 상태"
     },
     {
       "dep1": "",
@@ -297,8 +297,8 @@
       "startdate": "-",
       "finishdate": "-",
       "status": "완료",
-      "filename": "./pages/reservation/BSF-RES-VISIT-step02.jsp",
-      "memo": "step2만 펼침 상태"
+      "filename": "./pages/reservation/BSF-RES-VISIT-STEP02.jsp",
+      "memo": "STEP2만 펼침 상태"
     },
     {
       "dep1": "",
@@ -309,8 +309,8 @@
       "startdate": "-",
       "finishdate": "-",
       "status": "완료",
-      "filename": "./pages/reservation/BSF-RES-VISIT-step03.jsp",
-      "memo": "step3만 펼침 상태"
+      "filename": "./pages/reservation/BSF-RES-VISIT-STEP03.jsp",
+      "memo": "STEP3만 펼침 상태"
     },
     {
       "dep1": "",
@@ -788,8 +788,8 @@
       "worker": "안하은",
       "startdate": "2022-01-17",
       "finishdate": "2022-01-18",
-      "status": "진행예정",
-      "filename": "",
+      "status": "완료",
+      "filename": "./pages/product/BSF-PRO-LIST.jsp",
       "memo": ""
     },
     {
@@ -800,8 +800,8 @@
       "worker": "안하은",
       "startdate": "2022-01-19",
       "finishdate": "2022-01-20",
-      "status": "진행예정",
-      "filename": "",
+      "status": "완료",
+      "filename": "./pages/product/BSF-PRO-LIST.jsp",
       "memo": ""
     },
     {
@@ -812,8 +812,8 @@
       "worker": "안하은",
       "startdate": "2022-01-21",
       "finishdate": "2022-01-24",
-      "status": "진행예정",
-      "filename": "",
+      "status": "완료",
+      "filename": "./pages/product/BSF-PRO-LIST.jsp",
       "memo": ""
     },
     {
@@ -824,8 +824,8 @@
       "worker": "안하은",
       "startdate": "2022-01-25",
       "finishdate": "2022-01-25",
-      "status": "진행예정",
-      "filename": "",
+      "status": "완료",
+      "filename": "./pages/product/BSF-PRO-LIST.jsp",
       "memo": ""
     },
     {
@@ -836,8 +836,8 @@
       "worker": "안하은",
       "startdate": "2022-01-25",
       "finishdate": "2022-01-25",
-      "status": "진행예정",
-      "filename": "",
+      "status": "완료",
+      "filename": "./pages/product/BSF-PRO-VISIT-DONE.jsp",
       "memo": ""
     },
     {

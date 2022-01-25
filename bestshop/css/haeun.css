@@ -499,8 +499,8 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 .plp-list-wrap .lay-filter .plp-filter-wrap .box .tit .sel-num {margin-left:2px}
 .plp-list-wrap .lay-filter .plp-filter-wrap .box .list-wrap {padding-bottom:28px}
 .plp-list-wrap .lay-filter .plp-filter-wrap .box .tit-wrap a {position:relative; display:block}
-.plp-list-wrap .lay-filter .plp-filter-wrap .box .tit-wrap a::after {content:''; display:block; position:absolute; width:16px; height:16px; right:0; top:calc(50% - 8px); background:url(../images/icons/icon-arr-footer-16.svg) no-repeat center / contain; transform:rotate(0)}
-.plp-list-wrap .lay-filter .plp-filter-wrap .box .tit-wrap.active a::after {transform:rotate(180deg); transition:all .3s}
+.plp-list-wrap .lay-filter .plp-filter-wrap .box .tit-wrap a::after {content:''; display:block; position:absolute; width:16px; height:16px; right:0; top:calc(50% - 8px); background:url(../images/icons/icon-arr-footer-16.svg) no-repeat center / contain; transform:rotate(0); transition:all .3s}
+.plp-list-wrap .lay-filter .plp-filter-wrap .box.active .tit-wrap a::after {transform:rotate(180deg)}
 .plp-list-wrap .lay-filter .plp-filter-wrap .box .filter-list > li + li {margin-top:16px}
 .plp-list-wrap .lay-filter .plp-filter-wrap .box .filter-list .check-box input + label {font-size:14px; line-height:24px}
 .plp-list-wrap .lay-filter .plp-filter-wrap .filter-close {display:none}

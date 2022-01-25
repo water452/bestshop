@@ -31,7 +31,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-btns">
+                    <div class="banner-btns">
                         <div class="swiper-button-next"></div>
                         <div class="swiper-button-prev"></div>
                     </div>
@@ -382,7 +382,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="swiper-btns">
+                                <div class="banner-btns">
                                     <div class="swiper-button-next"></div>
                                     <div class="swiper-button-prev"></div>
                                 </div>

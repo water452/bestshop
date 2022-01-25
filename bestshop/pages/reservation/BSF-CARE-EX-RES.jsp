@@ -1410,7 +1410,7 @@
                 },
             })
 
-            // 모바일 필터 영역
+            // 필터 영역 모바일
             $('.btn-filter').on('click', function () {
                 $('.plp-list-wrap .lay-filter').toggleClass('active');
                 $('html').addClass('scroll-fixed');
