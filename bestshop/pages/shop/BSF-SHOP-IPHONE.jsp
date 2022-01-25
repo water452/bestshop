@@ -311,7 +311,7 @@
             </p>
             <div class="desc-layer">
                 <p class="txt-desc">
-                    아이폰 취급 매장에 한하여 조회됩니다.
+                    아이폰 취급 매장에 한하여 조회됩니다. <br> 두줄처리
                     <a href="javascript:void(0);" class="close-pop">닫기</a>
                 </p>
             </div>
