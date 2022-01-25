@@ -197,9 +197,9 @@ dfn { display: block; font-style: normal; }
 .event-list ul li .btn-link {position: absolute; bottom: 24px; right: 32px; font-size: 14px; line-height: 20px;}
 .event-list ul li .btn-link:after {top: 4px;}
 
-/* 토스트팝업 */
-.toastPopup { position: fixed; left: 0 !important; width: 100% !important; opacity: 0; transition: all 0.8s cubic-bezier(0.64, 0, 0.78, 0) 0s; z-index: 4; }
-.toastPopup.on { opacity: 1; transition: all 1s cubic-bezier(0.25, 1, 0.5, 1) 0s; }
+/* popupBanner */
+.popupBanner { position: fixed; left: 0 !important; width: 100% !important; opacity: 0; transition: all 0.8s cubic-bezier(0.64, 0, 0.78, 0) 0s; z-index: 4; }
+.popupBanner.on { opacity: 1; transition: all 1s cubic-bezier(0.25, 1, 0.5, 1) 0s; }
 
 /* 이벤트 > 목록 > 타임딜 */
 .time-deal-fix { text-align: left; }
@@ -660,8 +660,8 @@ li[class*="blt"], li > [class*="blt"] { display: block; }
     .event-list ul li > a .info .date { margin-top: 6px; padding-right: 0; font-size: 12px; line-height: 16px;}
     .event-list ul li .btn-link {bottom: 12px; left: 12px; right: auto; font-size: 13px; line-height: 19px;}
 
-    /* 토스트팝업 */
-    .toastPopup { z-index: 1001; }
+    /* popupBanner */
+    .popupBanner { z-index: 1001; }
 
     /* 이벤트 > 목록 > 타임딜 */
     .time-deal-fix .belt-wrap { padding-top: 25px; padding-bottom: 25px; text-align: center; }
