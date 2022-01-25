@@ -241,8 +241,8 @@ dfn { display: block; font-style: normal; }
 .ev-detail-top .finish-txt .btn-link:after { background-image: url("../images/icons/btn-arr-16-white.svg"); } 
 .ev-detail-con .ev-img-box { position: relative; }
 .ev-detail-con .ev-img-box .img img {width: 100%;}
-.time-deal-countdown { display: flex; position: absolute; top: 42px; left: 50%; width: 410px; border-radius: 32px; -webkit-transform: translateX(-50%); transform: translateX(-50%); }
-.time-deal-countdown > * { padding: 12px 30px; line-height: 40px; font-size: 22px; font-weight: bold; border-radius: 32px; overflow: hidden; }
+.time-deal-countdown { position: absolute; top: 42px; left: 0; width: 100%; border-radius: 32px; text-align: center; }
+.time-deal-countdown > * { display: inline-block; padding: 12px 30px; line-height: 40px; font-size: 22px; font-weight: bold; border-radius: 32px; overflow: hidden; vertical-align: middle; }
 .time-deal-countdown > dt { position: relative; padding-left: 24px; color: #fff; background: linear-gradient(80deg, #fa263e 2%, #fb5a72 99%); overflow: hidden; }
 .time-deal-countdown > dt span { display: block; padding-left: 45px; background: url("../images/icons/icon-timedeal.svg") no-repeat 0 center; }
 .time-deal-countdown > dd { margin-left: -60px; padding-left: 90px; background: #fff; }
@@ -697,7 +697,7 @@ li[class*="blt"], li > [class*="blt"] { display: block; }
     .ev-detail-top .finish-txt { padding: 20px 18px; } 
     .ev-detail-top .finish-txt p { display: block; font-size: 14px; line-height: 20px; } 
     .ev-detail-top .finish-txt .btn-link { margin: 5px 0 0 0; font-size: 12px; line-height: 17px; } 
-    .time-deal-countdown { top: 24px; width: 262px; border-radius: 20px; }
+    .time-deal-countdown { top: 24px; border-radius: 20px; }
     .time-deal-countdown > * { padding: 6px 20px; line-height: 28px; font-size: 13px; border-radius: 20px; }
     .time-deal-countdown > dt { padding-left: 16px; }
     .time-deal-countdown > dt span { padding-left: 33px; background-size: 28px auto; }

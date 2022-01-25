@@ -58,6 +58,7 @@
                     <dl class="time-deal-countdown">
                         <dt><span>남은시간</span></dt>
                         <dd>
+                            <div style="display: none;"><span class="days">0</span>일</div>
                             <div><span class="hours">12</span>시간</div>
                             <div><span class="minutes">00</span>분</div>
                             <div><span class="seconds">00</span>초</div>
@@ -131,30 +132,72 @@
     });   
 
     // countdown
-    function dailyMissionTimer(duration) {
-        var timer = duration * 3600;
-        var hours, minutes, seconds;
-        var interval = setInterval(function(){
-            hours	= parseInt(timer / 3600, 10);
-            minutes = parseInt(timer / 60 % 60, 10);
-            seconds = parseInt(timer % 60, 10);
+    $(function(){
+        var countWrap = $(".time-deal-countdown dd");
 
-            hours 	= hours < 10 ? "0" + hours : hours;
-            minutes = minutes < 10 ? "0" + minutes : minutes;
-            seconds = seconds < 10 ? "0" + seconds : seconds;
+        countWrap.each(function() {
+            var obj = this,
+				d = parseInt($(obj).find(".days").text()) * 86400,
+		        h = parseInt($(obj).find(".hours").text()) * 3600,
+			    m = parseInt($(obj).find(".minutes").text()) * 60,
+				s = parseInt($(obj).find(".seconds").text()),
+	            number = d + h + m + s;
 
-            $(".hours").text(hours);
-            $(".minutes").text(minutes);
-            $(".seconds").text(seconds);
+			$(obj).attr("data-sec", number);
 
-            if (--timer < 0) {
-                timer = 0;
-                clearInterval(interval);
+            getDateCount(obj);
+        });
+
+        function getDateCount(obj){
+            var second = $(obj).attr("data-sec");
+
+            $(obj).attr("data-timer", setInterval(function() {
+                setTimeSaleTimer($(obj), second);
+                second -= 1;
+            }, 1000));
+        };
+
+        function setTimeSaleTimer(obj, objSec) {
+            var days = parseInt( objSec / 86400 );
+            var hours = parseInt( objSec / 3600 ) % 24;
+            var minutes = parseInt( objSec / 60 ) % 60;
+            var seconds = objSec % 60;
+
+            if (days == 0 && hours == 0 && minutes == 0 && seconds == 0) {
+                clearInterval($(obj).attr("data-timer"));
+                return false;
+            };
+
+            if (hours == 0) {
+                if (days > 0){
+                    days --;
+                    hours = 24;
+                };
+            };
+
+            if (minutes == 0) {
+                if (hours > 0){
+                    hours --;
+                    minutes = 60;
+                };
+            };
+
+            if (seconds == 0) {
+                if (minutes > 0){
+                    minutes --;
+                    seconds = 59;
+                };
             }
-        }, 1000);
-    };
-    var durationHours = $(".hours").text();
-    dailyMissionTimer(durationHours);
+            else {
+                seconds --;
+            };
+
+            $(obj).find(".days").text(days);
+            $(obj).find(".hours").text(hours);
+            $(obj).find(".minutes").text(minutes);
+            $(obj).find(".seconds").text(seconds);
+        };
+    });
 </script>
 <!-- // container -->
 
