@@ -5,7 +5,7 @@
 <div class="container" id="content">
     <!-- contents -->
     <div class="contents">
-        <div class="cont-wrap">
+        <div class="cont-wrap w100">
             <div class="ev-detail-top">
                 <div class="tit-wrap">
                     <div class="flag-wrap">

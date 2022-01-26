@@ -5,7 +5,7 @@
 <div class="container" id="content">
     <!-- contents -->
     <div class="contents">
-        <div class="cont-wrap">
+        <div class="cont-wrap w100">
             <div class="ev-detail-top">
                 <div class="tit-wrap">
                     <div class="flag-wrap">
@@ -68,8 +68,8 @@
                         <img src="../../images/temp-thum-event.png" alt="event" />
                     </div>
                 </div>
-                <div class="belt-area bg-tangible02">
-                    <div class="belt-wrap">
+                <div class="point-container bg-tangible02">
+                    <div class="point-wrap">
                         <dl class="txt-counting">
                             <dt>참여 인원 :</dt>
                             <dd><strong>100</strong>명</dd>

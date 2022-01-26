@@ -255,8 +255,8 @@
                 </ul>
             </section>
             <!-- //pc용 -->
-            <div class="belt-area ty-row bg-tangible01">
-                <div class="belt-wrap">
+            <div class="point-container bg-tangible01 ty-brief-infor ty-m-radius">
+                <div class="point-wrap">
                     <p class="txt-st01 color-fff">멤버십 포인트 적립 및 사용 내역을 확인하실 수 있어요.</p>
                     <a href="#none" class="btn s01 border-white">내 포인트 확인</a>
                 </div>
