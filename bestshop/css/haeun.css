@@ -626,6 +626,18 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 /* popup - size */
 .popup.alert .pop-wrap {width:calc(100% - 44px); max-width:500px; padding:60px 40px 50px; text-align:center}
 
+/* 제품 카탈로그 페이지 */
+.card-list-area {margin-top:30px}
+.card-list {display:flex; flex-wrap:wrap; margin:-15px -15px 0}
+.card-list li {width:calc(100% / 3); padding:15px}
+.card-list li .box {border:1px solid #ddd; border-radius:8px; overflow:hidden}
+.card-list li .box > a {display:block}
+.card-list li .box .thumb-wrap {padding-top:71px; background-color:#f4f4f4}
+.card-list li .box .thumb-wrap img {display:block; max-width:200px; margin:0 auto; box-shadow:0 0 16px 0 rgba(0, 0, 0, 0.16)}
+.card-list li .box .tit-wrap {padding:24px 31px 33px; background-color:#fff}
+.card-list li .box .tit-wrap .flag {display:inline-block; min-width:38px; padding:2px 7px; border:1px solid #000; border-radius:4px; font-size:12px; line-height:18px; text-align:center}
+.card-list li .box .tit-wrap .tit {display:block; margin-top:10px; font-size:20px; font-weight:bold; line-height:28px}
+
 /* mobile */
 @media screen and (max-width:1440px) {
     /* 예약자 정보 */
@@ -1176,4 +1188,15 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 
     /* 내게 맞는 제품 찾기 페이지 */
     .res-main .top-wrap .pro-banner {padding:0}
+
+    /* 제품 카탈로그 페이지 */
+    .card-list-area {margin-top:0}
+    .card-list {margin:0}
+    .card-list li {width:100%; padding:0}
+    .card-list li + li {margin-top:12px}
+    .card-list li .box .thumb-wrap {padding-top:25px}
+    .card-list li .box .thumb-wrap img {max-width:115px}
+    .card-list li .box .tit-wrap {padding:12px 12px 13px}
+    .card-list li .box .tit-wrap .flag {min-width:33px; padding:2.5px 5.5px; font-size:11px; line-height:16px}
+    .card-list li .box .tit-wrap .tit {margin-top:6px; font-size:14px; line-height:20px}
 }
