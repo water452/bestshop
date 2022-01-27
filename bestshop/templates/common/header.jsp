@@ -182,16 +182,16 @@
                         <ul class="cate-menu">
                         <li><a href="/bestshop/pages/event/BSF-EVE-BSTAB.jsp">베스트샵 이벤트</a></li>
                         <li>
-                            <a href="javascript:void(0);">아파트 입주 이벤트</a>
+                            <a href="/bestshop/pages/event/BSF-EVE-APT-INFO.jsp">아파트 입주 이벤트</a>
                             <ul>
-                            <li><a href="javascript:void(0);">혜택안내</a></li>
-                            <li><a href="javascript:void(0);">행사 아파트 보기</a></li>
-                            <li><a href="javascript:void(0);">박람회 일정</a></li>
+                            <li><a href="/bestshop/pages/event/BSF-EVE-APT-INFO.jsp">혜택안내</a></li>
+                            <li><a href="/bestshop/pages/event/BSF-EVE-APT-LIST.jsp">행사 아파트 보기</a></li>
+                            <li><a href="/bestshop/pages/event/BSF-EVE-FAIR-LIST.jsp">박람회 일정</a></li>
                             </ul>
                         </li>
                         <li class="full"><a href="javascript:void(0);">매장 상담 예약 이벤트</a></li>
-                        <li class="full"><a href="javascript:void(0);">혼수 이벤트</a></li>
-                        <li class="full"><a href="javascript:void(0);">홍보영상</a></li>
+                        <li class="full"><a href="/bestshop/pages/event/BSF-EVE-WED-INFO.jsp">혼수 이벤트</a></li>
+                        <li class="full"><a href="/bestshop/pages/event/BSF-EVE-MEDIA-LIST.jsp">홍보영상</a></li>
                         </ul>
                     </div>
                     </div><!-- //.menu-category-layer -->
@@ -204,7 +204,7 @@
                         <ul class="cate-menu">
                         <li><a href="/bestshop/pages/benefit/BSF-BEN-BESTSHOP.jsp">이달의 혜택</a></li>
                         <li><a href="javascript:void(0);">카드 혜택</a></li>
-                        <li><a href="javascript:void(0);">멤버십 혜택</a></li>
+                        <li><a href="/bestshop/pages/benefit/BSF-BEN-MEMBER.jsp">멤버십 혜택</a></li>
                         <li><a href="javascript:void(0);">LG SIGNATURE 구매혜택</a></li>
                         </ul>
                     </div>
@@ -341,16 +341,16 @@
                     <ul>
                         <li><a href="/bestshop/pages/event/BSF-EVE-BSTAB.jsp">베스트샵 이벤트</a></li>
                         <li><a href="javascript:void(0);">매장 상담 예약 이벤트</a></li>
-                        <li><a href="javascript:void(0);">혼수 이벤트</a></li>
+                        <li><a href="/bestshop/pages/event/BSF-EVE-WED-INFO.jsp">혼수 이벤트</a></li>
                         <li class="depth3">
                         <a href="javascript:void(0);" class="depth3-tit">아파트 입주 이벤트</a>
                         <ul>
-                            <li><a href="javascript:void(0);">혜택안내</a></li>
-                            <li><a href="javascript:void(0);">행사 리스트</a></li>
-                            <li><a href="javascript:void(0);">박람회 일정</a></li>
+                            <li><a href="/bestshop/pages/event/BSF-EVE-APT-INFO.jsp">혜택안내</a></li>
+                            <li><a href="/bestshop/pages/event/BSF-EVE-APT-LIST.jsp">행사 리스트</a></li>
+                            <li><a href="/bestshop/pages/event/BSF-EVE-FAIR-LIST.jsp">박람회 일정</a></li>
                         </ul>
                         </li>
-                        <li><a href="javascript:void(0);">홍보 영상</a></li>
+                        <li><a href="/bestshop/pages/event/BSF-EVE-MEDIA-LIST.jsp">홍보 영상</a></li>
                     </ul>
                     </div>
                 </li>
@@ -360,7 +360,7 @@
                     <ul>
                         <li><a href="/bestshop/pages/benefit/BSF-BEN-BESTSHOP.jsp">이달의 혜택</a></li>
                         <li><a href="javascript:void(0);">카드 혜택</a></li>
-                        <li><a href="javascript:void(0);">멤버십 혜택</a></li>
+                        <li><a href="/bestshop/pages/benefit/BSF-BEN-MEMBER.jsp">멤버십 혜택</a></li>
                         <li><a href="javascript:void(0);">LG SIGNATURE 구매혜택</a></li>
                     </ul>
                     </div>
