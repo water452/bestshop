@@ -517,6 +517,25 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 /* popup - button */
 .popup .btn { padding-left: 34px; padding-right: 34px; }
 
+/* dpi if else */
+.pcOnly{display:block !important;}
+.mobileOnly{display:none !important;}
+
+/* random count slide */
+.random-count-slide{position:relative;width:calc(100% + 48px);max-width:1428px;padding:0 24px;margin-left:-24px;}
+.random-count-slide + *{margin-top:65px;}
+.random-count-slide img{max-width:100%;}
+.random-count-slide .slide-area{overflow:hidden;}
+.random-count-slide .slide-navi button{display:block;position:absolute;top:50%;transform:translateY(-50%);width:48px;height:48px;font-size:0;text-indent:-9999em;background-color:#fff;background-repeat:no-repeat;background-position:50% 50%;border-radius:100%;box-shadow:2px 2px 6px rgba(0,0,0,0.16);z-index:2;}
+.random-count-slide .slide-navi button:before{display:block;content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:url('../images/icons/icon-carousel-btn.svg') no-repeat 50% 50%;}
+.random-count-slide .slide-navi button.btn-prev{right:0;}
+.random-count-slide .slide-navi button.btn-prev:before{transform:rotate(180deg);}
+.random-count-slide .slide-navi button.btn-next{left:0;}
+.random-count-slide .slide-pager{font-size:0;text-align:center;margin-top:34px;}
+.random-count-slide .slide-pager span{display:inline-block;width:12px;height:12px;margin:0;background:#aaa;border-radius:6px;opacity:1;transition:all 0.2s linear;}
+.random-count-slide .slide-pager span + span{margin-left:12px;}
+.random-count-slide .slide-pager span.swiper-pagination-bullet-active{width:28px;background:#da0f47;}
+
 @media screen and (min-width:768px){
 	.header{border-bottom:1px solid #ddd;}
 	footer .foot-cont .pc-dropdown-wrap .link-wrap .link-section .depth2{display:block !important;}
@@ -772,4 +791,8 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
     .popup.confirm .pop-cont { padding: 50px 20px 0 20px; }
     .popup.confirm .btn-area.m-full-flex { left: auto; width: auto; }
     .tm-ty01 .block + .block { margin-top: 18px; }
+
+	/* dpi if else */
+	.pcOnly{display:none !important;}
+	.mobileOnly{display:block !important;}
 }

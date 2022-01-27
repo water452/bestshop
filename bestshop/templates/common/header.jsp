@@ -114,8 +114,8 @@
                         <ul class="cate-menu">
                         <li><a href="/bestshop/pages/shop/BSF-SHOP-LIST.jsp">매장 찾기</a></li>
                         <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">야간 무인 매장 안내</a></li>
-                        <li><a href="javascript:void(0);">신규 오픈 매장</a></li>
-                        <li><a href="javascript:void(0);">아이폰 판매 매장</a></li>
+                        <li><a href="/bestshop/pages/shop/BSF-SHOP-OPEN-LIST.jsp">신규 오픈 매장</a></li>
+                        <li><a href="/bestshop/pages/shop/BSF-SHOP-IPHONE.jsp">아이폰 판매 매장</a></li>
                         </ul>
 
                         <!-- s: bnr -->
@@ -202,7 +202,7 @@
                     <div class="menu-category-inner">
                         <h4>혜택 안내</h4>
                         <ul class="cate-menu">
-                        <li><a href="javascript:void(0);">이달의 혜택</a></li>
+                        <li><a href="/bestshop/pages/benefit/BSF-BEN-BESTSHOP.jsp">이달의 혜택</a></li>
                         <li><a href="javascript:void(0);">카드 혜택</a></li>
                         <li><a href="javascript:void(0);">멤버십 혜택</a></li>
                         <li><a href="javascript:void(0);">LG SIGNATURE 구매혜택</a></li>
@@ -319,8 +319,8 @@
                     <div class="depth2">
                     <ul>
                         <li><a href="/bestshop/pages/shop/BSF-SHOP-LIST.jsp">매장 찾기</a></li>
-                        <li><a href="javascript:void(0);">신규 오픈 매장</a></li>
-                        <li><a href="javascript:void(0);">아이폰 판매 매장</a></li>
+                        <li><a href="/bestshop/pages/shop/BSF-SHOP-OPEN-LIST.jsp">신규 오픈 매장</a></li>
+                        <li><a href="/bestshop/pages/shop/BSF-SHOP-IPHONE.jsp">아이폰 판매 매장</a></li>
                         <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">야간 무인 매장</a></li>
                     </ul>
                     </div>
@@ -358,7 +358,7 @@
                     <div class="depth1"><a href="javascript:void(0);">혜택 안내</a></div>
                     <div class="depth2">
                     <ul>
-                        <li><a href="javascript:void(0);">이달의 혜택</a></li>
+                        <li><a href="/bestshop/pages/benefit/BSF-BEN-BESTSHOP.jsp">이달의 혜택</a></li>
                         <li><a href="javascript:void(0);">카드 혜택</a></li>
                         <li><a href="javascript:void(0);">멤버십 혜택</a></li>
                         <li><a href="javascript:void(0);">LG SIGNATURE 구매혜택</a></li>
@@ -430,7 +430,7 @@
                 <div class="direct-link">
                 <ul>
                     <li><a href="javascript:void(0);">케어십 상담 예약</a></li>
-                    <li><a href="javascript:void(0);">이달의 혜택</a></li>
+                    <li><a href="/bestshop/pages/benefit/BSF-BEN-BESTSHOP.jsp">이달의 혜택</a></li>
                     <li><a href="javascript:void(0);">소모품 구매 예약</a></li>
                     <li><a href="javascript:void(0);">카드 혜택</a></li>
                     <li><a href="javascript:void(0);">상담 예약 조회</a></li>
