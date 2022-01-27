@@ -848,8 +848,8 @@
       "worker": "안하은",
       "startdate": "2022-01-26",
       "finishdate": "2022-01-27",
-      "status": "진행예정",
-      "filename": "",
+      "status": "완료",
+      "filename": "./pages/product/BSF-PRO-CATA-LIST.jsp",
       "memo": ""
     },
     {
@@ -860,8 +860,8 @@
       "worker": "안하은",
       "startdate": "2022-01-27",
       "finishdate": "2022-01-28",
-      "status": "진행예정",
-      "filename": "",
+      "status": "완료",
+      "filename": "./pages/product/BSF-PRO-CATA-LIST.jsp",
       "memo": ""
     },
     {
