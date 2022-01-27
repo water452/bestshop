@@ -203,7 +203,7 @@
                         <h4>혜택 안내</h4>
                         <ul class="cate-menu">
                         <li><a href="/bestshop/pages/benefit/BSF-BEN-BESTSHOP.jsp">이달의 혜택</a></li>
-                        <li><a href="javascript:void(0);">카드 혜택</a></li>
+                        <li><a href="/bestshop/pages/benefit/BSF-BEN-CARD.jsp">카드 혜택</a></li>
                         <li><a href="/bestshop/pages/benefit/BSF-BEN-MEMBER.jsp">멤버십 혜택</a></li>
                         <li><a href="javascript:void(0);">LG SIGNATURE 구매혜택</a></li>
                         </ul>
@@ -359,7 +359,7 @@
                     <div class="depth2">
                     <ul>
                         <li><a href="/bestshop/pages/benefit/BSF-BEN-BESTSHOP.jsp">이달의 혜택</a></li>
-                        <li><a href="javascript:void(0);">카드 혜택</a></li>
+                        <li><a href="/bestshop/pages/benefit/BSF-BEN-CARD.jsp">카드 혜택</a></li>
                         <li><a href="/bestshop/pages/benefit/BSF-BEN-MEMBER.jsp">멤버십 혜택</a></li>
                         <li><a href="javascript:void(0);">LG SIGNATURE 구매혜택</a></li>
                     </ul>
@@ -432,7 +432,7 @@
                     <li><a href="javascript:void(0);">케어십 상담 예약</a></li>
                     <li><a href="/bestshop/pages/benefit/BSF-BEN-BESTSHOP.jsp">이달의 혜택</a></li>
                     <li><a href="javascript:void(0);">소모품 구매 예약</a></li>
-                    <li><a href="javascript:void(0);">카드 혜택</a></li>
+                    <li><a href="/bestshop/pages/benefit/BSF-BEN-CARD.jsp">카드 혜택</a></li>
                     <li><a href="javascript:void(0);">상담 예약 조회</a></li>
                     <li><a href="javascript:void(0);">내게 맞는 제품 찾기</a></li>
                     <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">비즈니스</a></li>

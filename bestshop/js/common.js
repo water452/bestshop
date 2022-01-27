@@ -459,7 +459,7 @@ $(document).ready(function() {
         }
     });
 
-    var megaBnr = new Swiper(".megaMobileBnr", {
+    var megaBnrm = new Swiper(".megaMobileBnr", {
         slidesPerView: 1.5,
         spaceBetween: 12
     });
