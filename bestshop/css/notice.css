@@ -48,9 +48,9 @@
   position: absolute;
   top: 0;
   right: 0;
-  width: 54px;
-  height: 48px;
-  background: url(../images/icons/icon-search-20.svg) no-repeat center / 20px;
+  width: 52px;
+  height: 46px;
+  background: url(../images/icons/icon-search-24.svg) no-repeat center / 24px;
   text-indent: -9999em;
 }
 .notice .keyword-search .search-error {
@@ -411,7 +411,7 @@
 @media screen and (max-width: 767px) {
   /* 공지사항 리스트 */
   .notice .tb_row.board-type tbody tr {
-    padding: 16px 12px;
+    padding: 15px 12px;
   }
   .notice .tb_row.board-type tbody td {
     display: block;
@@ -421,7 +421,10 @@
     border: 0 none;
   }
   .notice .tb_row.board-type tbody td.board-tit {
-    margin-bottom: 4px;
+    margin-bottom: 3px;
+  }
+  .notice .tb_row.board-type tbody td.board-tit p {
+    font-weight: bold;
   }
   /* 서치영역(공통) */
   .notice .search-wrap {
@@ -440,15 +443,16 @@
     width: 100%;
   }
   .notice .keyword-search .search-select input[type=text] {
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 13px;
+    line-height: 18px;
   }
   .notice .btn-clear {
-    right: 68px;
+    right: 50px;
   }
   .notice .btn-search {
-    width: 68px;
-    height: 46px;
+    width: 30px;
+    height: 38px;
+    right: 10px;
   }
   .notice .keyword-search .search-error {
     font-size: 13px;
