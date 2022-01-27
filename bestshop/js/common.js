@@ -147,6 +147,10 @@ function tabCommon(){
         if ( $(this).parents(".tabSlide").length > 0 ){
             tabSlide();
         };
+
+        if($('.detail-block').length){
+            $('.detail-block').find('.detail-box').eq(index).addClass('on').siblings('.detail-box').removeClass('on')
+        }
     };
     $(document).on("click", ".tabOn > ul > li > a", tabOn);
 

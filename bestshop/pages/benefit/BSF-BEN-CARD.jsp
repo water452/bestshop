@@ -14,18 +14,16 @@
         <div class="cont-wrap">
             <div class="tab01 tabOn detail">
                 <ul>
-                    <li class="on">
-                        <a href="javascript:void(0);">카드사별 혜택</a>
-                    </li>
-                    <li class="">
-                        <a href="javascript:void(0);">무이자 혜택</a>
-                    </li>
+                    <li class="on"><a href="javascript:void(0);">카드사별 혜택</a></li>
+                    <li class=""><a href="javascript:void(0);">무이자 혜택</a></li>
                 </ul>
                 <div class="tab02 detail-block">
-                    <div class="detail-box on">1</div>
-                    <div class="detail-box">2</div>
-                    <!-- jsp:include page="/bestshop/pages/benefit/BSF-BEN-CARD-CARD.jsp" / -->
-                    <!-- jsp:include page="/bestshop/pages/benefit/BSF-BEN-CARD-INTERESTFREE.jsp" / -->
+                    <div class="detail-box on">
+                        <jsp:include page="/bestshop/pages/benefit/BSF-BEN-CARD-CARD.jsp" />
+                    </div>
+                    <div class="detail-box">
+                        <jsp:include page="/bestshop/pages/benefit/BSF-BEN-CARD-INTERESTFREE.jsp" />
+                    </div>
                 </div>
             </div><!-- //.tab01 -->
         </div>

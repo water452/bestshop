@@ -182,6 +182,9 @@ table{border-collapse:collapse}
 [class*="tab"].is_depth > ul > li [class*="tab"] { display: none; position: absolute; bottom: 0; left: 0; width: 100%; }
 [class*="tab"].is_depth > ul > .on [class*="tab"] { display: block; }
 
+.tab01 .tab02.detail-block .detail-box{display:none;}
+.tab01 .tab02.detail-block .detail-box.on{display:block;}
+
 /* btn-area */
 .btn-area { line-height: 0; font-size: 0; }
 .btn-area.center {text-align:center!important}

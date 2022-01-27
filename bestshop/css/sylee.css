@@ -111,7 +111,7 @@ html.full-height .wrap #content .shop-search-wrap{position:relative;min-width:13
 .shop-search-wrap .shop-search-body .desc-layer .txt-desc .close-pop{display:block;overflow:hidden;position:absolute;top:17px;right:24px;width:24px;height:24px;font-size:0;text-indent:-9999em;background:url('../images/icons/btn_close_desc_popup.svg') no-repeat 0 0;background-size:contain;}
 
 /* benefit > card */
-.static-type{padding:50px 0;}
+.static-type{padding:0 0 50px;}
 .static-type .static-block{display:flex;width:100%;padding:50px 0;border-bottom:1px solid #ddd;}
 .static-type .static-block .thumb{flex:none;text-align:center;padding:0 50px;}
 .static-type .static-block .thumb img{display:block;}
@@ -165,6 +165,11 @@ html.full-height .wrap #content .shop-search-wrap{position:relative;min-width:13
 @media screen and (min-width:768px) and (max-width:1024px){
     html.full-height,
     html.full-height body{overflow-x:auto;}
+
+    /* benefit > card */
+    .static-type .static-block{display:block;}
+    .static-type .static-block .thumb img{margin:0 auto;}
+    .static-type .static-block .cont-block{padding-left:0;margin-top:50px;}
 }
 
 /* mobile */
@@ -234,4 +239,14 @@ html.full-height .wrap #content .shop-search-wrap{position:relative;min-width:13
 
     .shop-search-wrap .shop-search-body .desc-layer{display:block;position:fixed;bottom:88px;z-index:100;}
     .shop-search-wrap .shop-search-body .desc-layer .txt-desc{min-width:0;width:calc(100% - 32px);font-size:14px;margin:0 auto;}
+
+    /* benefit > card */
+    .detail-block .detail-box{margin-top:-64px;}
+    .static-type .static-block{display:block;padding:50px 0;}
+    .static-type .static-block .thumb{padding:0;}
+    .static-type .static-block .thumb img{width:310px;max-width:100%;margin:0 auto;}
+    .static-type .static-block .thumb .txt-desc{font-size:14px;line-height:20px;}
+    .static-type .static-block .cont-block{padding:0;margin-top:40px;}
+    .static-type .static-block .cont-block .title{font-size:20px;}
+    .waring-block{padding:16px;}
 }
