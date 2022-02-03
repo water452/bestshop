@@ -205,7 +205,7 @@
                         <li><a href="/bestshop/pages/benefit/BSF-BEN-BESTSHOP.jsp">이달의 혜택</a></li>
                         <li><a href="/bestshop/pages/benefit/BSF-BEN-CARD.jsp">카드 혜택</a></li>
                         <li><a href="/bestshop/pages/benefit/BSF-BEN-MEMBER.jsp">멤버십 혜택</a></li>
-                        <li><a href="javascript:void(0);">LG SIGNATURE 구매혜택</a></li>
+                        <li><a href="/bestshop/pages/benefit/BSF-BEN-SIGNATURE.jsp">LG SIGNATURE 구매혜택</a></li>
                         </ul>
                     </div>
                     </div><!-- //.menu-category-layer -->
@@ -361,7 +361,7 @@
                         <li><a href="/bestshop/pages/benefit/BSF-BEN-BESTSHOP.jsp">이달의 혜택</a></li>
                         <li><a href="/bestshop/pages/benefit/BSF-BEN-CARD.jsp">카드 혜택</a></li>
                         <li><a href="/bestshop/pages/benefit/BSF-BEN-MEMBER.jsp">멤버십 혜택</a></li>
-                        <li><a href="javascript:void(0);">LG SIGNATURE 구매혜택</a></li>
+                        <li><a href="/bestshop/pages/benefit/BSF-BEN-SIGNATURE.jsp">LG SIGNATURE 구매혜택</a></li>
                     </ul>
                     </div>
                 </li>
