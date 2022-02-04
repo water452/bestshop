@@ -185,9 +185,14 @@ html.full-height .wrap #content .shop-search-wrap{position:relative;min-width:13
 .signature .service .service-wrap dd ul li strong{font-size:24px;line-height:35px;}
 .signature .service .service-wrap dd ul li img{margin:17px auto 0;}
 .signature .service .service-wrap dd ul li span{font-size:16px;line-height:24px;margin-top:22px;}
+.signature .service .service-wrap .subs-desc-list{margin-top:12px;}
+.signature .service .service-wrap .subs-desc-list li{position:relative;font-size:16px;line-height:28px;padding-left:11px;}
+.signature .service .service-wrap .subs-desc-list li:before{display:block;content:'';position:absolute;top:13px;left:0;width:3px;height:3px;background:#000;border-radius:100%;}
 
 .signature .warnning{padding:40px 0;background:#ddd;}
-.signature .warnning ul{width:1460px;font-size:18px;line-height:30px;padding:0 40px;margin:0 auto;}
+.signature .warnning ul{max-width:1460px;font-size:18px;line-height:30px;padding:0 40px;margin:0 auto;}
+.signature .warnning ul li{position:relative;padding-left:22px;}
+.signature .warnning ul li:before{display:block;content:'※';position:absolute;top:0;left:0;}
 
 /* low dpi */
 @media screen and (max-width:1380px){
@@ -282,4 +287,42 @@ html.full-height .wrap #content .shop-search-wrap{position:relative;min-width:13
     .static-type .static-block .cont-block{padding:0;margin-top:40px;}
     .static-type .static-block .cont-block .title{font-size:20px;}
     .waring-block{padding:16px;}
+
+    /* benefit > signature */
+    .signature,
+    .signature *{word-break:keep-all;}
+    .signature .top-visual{height:360px;padding:45px 0;background-size:auto 100%;}
+    .signature .top-visual h3{font-size:24px;line-height:33px;}
+    .signature .cont-type-full{padding:50px 16px;}
+    .signature .cont-type-full.special{background-color:#000;}
+    .signature .cont-type-full h4{font-size:24px;line-height:33px;}
+    .signature .cont-type-full .head-desc{font-size:14px;line-height:20px;}
+    .signature .service .service-wrap dd ul{display:block;}
+    .signature .special dl{display:block;padding:0;margin-top:32px;}
+    .signature .special dl + dl{margin-top:40px;}
+    .signature .special dl dt{width:100%;font-size:20px;line-height:29px;padding-bottom:20px;margin-bottom:20px;}
+    .signature .special dl dt:after{bottom:-1px;width:24px;height:2px;}
+    .signature .special dl dd{font-size:16px;line-height:22.5px;}
+    .signature .special dl dd strong{font-size:16px;line-height:22.5px;}
+    .signature .special dl dd ul{font-size:14px;line-height:20px;}
+    .signature .special dl dd ul li{padding-left:10px;}
+    .signature .special dl dd ul li:before{width:2px;height:2px;top:9px;}
+    .signature .special dl dd ul li + li{margin-top:6px;}
+    .signature .special dl dd p{font-size:14px;margin-top:10px;}
+    .signature .service .service-wrap{margin-top:32px;padding:0;}
+    .signature .service .service-wrap dt{font-size:20px;text-align:center;line-height:29px;}
+    .signature .service .service-wrap dd ul li{position:relative;width:100%;height:176px;text-align:left;padding:24px 24px 0 140px;}
+    .signature .service .service-wrap dd ul li + li{margin-top:12px;}
+    .signature .service .service-wrap dd ul li img{position:absolute;top:calc(50% - 50px);left:20px;width:100px;height:100px;margin-top:0;}
+    .signature .service .service-wrap dd ul li strong{font-size:20px;line-height:29px;}
+    .signature .service .service-wrap dd ul li span{font-size:14px;line-height:20px;margin-top:5px;}
+    .signature .service .service-wrap dd ul li span br{display:none;}
+    .signature .service .service-wrap .subs-desc-list{margin-top:16px;}
+    .signature .service .service-wrap .subs-desc-list li{font-size:12px;line-height:18px;padding-left:8px;}
+    .signature .service .service-wrap .subs-desc-list li:before{top:8px;width:2px;height:2px;}
+    .signature .service .service-wrap .subs-desc-list li + li{margin-top:8px;}
+    .signature .warnning{padding:25px 16px !important;}
+    .signature .warnning ul{font-size:14px;line-height:19px;padding:0;}
+    .signature .warnning ul li{padding-left:18px;}
+    .signature .warnning ul li + li{margin-top:6px;}
 }
