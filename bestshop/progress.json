@@ -285,7 +285,7 @@
       "startdate": "-",
       "finishdate": "-",
       "status": "완료",
-      "filename": "./pages/reservation/BSF-RES-VISIT-STEP01.jsp",
+      "filename": "./pages/reservation/BSF-RES-VISIT-step01.jsp",
       "memo": "STEP1만 펼침 상태"
     },
     {
@@ -297,7 +297,7 @@
       "startdate": "-",
       "finishdate": "-",
       "status": "완료",
-      "filename": "./pages/reservation/BSF-RES-VISIT-STEP02.jsp",
+      "filename": "./pages/reservation/BSF-RES-VISIT-step02.jsp",
       "memo": "STEP2만 펼침 상태"
     },
     {
@@ -309,7 +309,7 @@
       "startdate": "-",
       "finishdate": "-",
       "status": "완료",
-      "filename": "./pages/reservation/BSF-RES-VISIT-STEP03.jsp",
+      "filename": "./pages/reservation/BSF-RES-VISIT-step03.jsp",
       "memo": "STEP3만 펼침 상태"
     },
     {
