@@ -967,7 +967,7 @@
                                                     </label>
                                                 </div>
                                                 <div class="txt-box">
-                                                    <input class="base-txt" type="text" name="user-name" placeholder="이름 입력">
+                                                    <input class="base-txt" type="text" id="user-name" placeholder="이름 입력">
                                                 </div>
                                             </li>
                                             <li>
@@ -977,7 +977,7 @@
                                                     </label>
                                                 </div>
                                                 <div class="txt-box">
-                                                    <input class="base-txt" type="number" name="user-number" placeholder="휴대폰 번호 입력">
+                                                    <input class="base-txt" type="number" id="user-number" placeholder="휴대폰 번호 입력">
                                                 </div>
                                             </li>
                                         </ul>
@@ -1128,7 +1128,7 @@
                                 </label>
                             </div>
                             <div class="txt-box">
-                                <input class="base-txt" type="text" name="user-name02" placeholder="이름 입력">
+                                <input class="base-txt" type="text" id="user-name02" placeholder="이름 입력">
                             </div>
                           </li>
                         <li class="num-box">
@@ -1139,7 +1139,7 @@
                             </div>
                             <div class="txt-box">
                                 <div class="input-pin-type">
-                                    <input class="base-txt" type="number" name="user-number02" placeholder="휴대전화 번호 입력">
+                                    <input class="base-txt" type="number" id="user-number02" placeholder="휴대전화 번호 입력">
                                     <button type="button" class="btn-send">인증번호 발송</button>
                                 </div>
                                 <input class="base-txt" type="number" placeholder="인증번호를 입력해주세요" disabled>
