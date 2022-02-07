@@ -3,7 +3,7 @@
     <rect id="사각형_811" data-name="사각형 811" width="80" height="80" transform="translate(451 364)" fill="none"/>
     <g id="그룹_1187" data-name="그룹 1187" transform="translate(-16.999 10)">
       <g id="그룹_1186" data-name="그룹 1186" transform="translate(492.81 371.214)">
-        <g id="사각형_257" data-name="사각형 257" transform="translate(0.19 3.766)" fill="#e1d0b6" stroke="#000" stroke-width="1.5">
+        <g id="사각형_257" data-name="사각형 257" transform="translate(0.19 3.766)" fill="#fff" stroke="#000" stroke-width="1.5">
           <rect width="46" height="42" rx="4" stroke="none"/>
           <rect x="0.75" y="0.75" width="44.5" height="40.5" rx="3.25" fill="none"/>
         </g>
@@ -63,8 +63,8 @@
         </g>
       </g>
       <g id="그룹_1185" data-name="그룹 1185" transform="translate(477 386.011)">
-        <path id="합치기_9" data-name="합치기 9" d="M1.467,14.907A9.6,9.6,0,0,1,0,9.8,9.9,9.9,0,0,1,10,0,9.9,9.9,0,0,1,20,9.8,9.613,9.613,0,0,1,18.536,14.9L10,30Z" transform="translate(0 -0.012)" fill="#edcec9" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
-        <g id="타원_42" data-name="타원 42" transform="translate(4.395 3.767)" fill="#5b7d83" stroke="#000" stroke-width="1.5">
+        <path id="합치기_9" data-name="합치기 9" d="M1.467,14.907A9.6,9.6,0,0,1,0,9.8,9.9,9.9,0,0,1,10,0,9.9,9.9,0,0,1,20,9.8,9.613,9.613,0,0,1,18.536,14.9L10,30Z" transform="translate(0 -0.012)" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <g id="타원_42" data-name="타원 42" transform="translate(4.395 3.767)" fill="#fff" stroke="#000" stroke-width="1.5">
           <circle cx="5.65" cy="5.65" r="5.65" stroke="none"/>
           <circle cx="5.65" cy="5.65" r="4.9" fill="none"/>
         </g>

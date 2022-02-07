@@ -12,24 +12,24 @@
       <rect id="사각형_810" data-name="사각형 810" width="80" height="80" transform="translate(-2 -16.371)" fill="none"/>
       <g id="그룹_821" data-name="그룹 821" transform="translate(0 5.496)">
         <g id="그룹_377" data-name="그룹 377" clip-path="url(#clip-path)">
-          <path id="패스_136" data-name="패스 136" d="M.75,17.75H20.94V33.4a1.515,1.515,0,0,1-1.514,1.514H2.264A1.515,1.515,0,0,1,.75,33.4Z" transform="translate(0.007 0.169)" fill="#edcec9" fill-rule="evenodd"/>
+          <path id="패스_136" data-name="패스 136" d="M.75,17.75H20.94V33.4a1.515,1.515,0,0,1-1.514,1.514H2.264A1.515,1.515,0,0,1,.75,33.4Z" transform="translate(0.007 0.169)" fill="#fff" fill-rule="evenodd"/>
           <path id="패스_137" data-name="패스 137" d="M.75,17.75H20.94V33.4a1.515,1.515,0,0,1-1.514,1.514H2.264A1.515,1.515,0,0,1,.75,33.4Z" transform="translate(0.007 0.169)" fill="none" stroke="#000" stroke-width="1.5"/>
-          <path id="패스_138" data-name="패스 138" d="M2.264.75H19.426A1.515,1.515,0,0,1,20.94,2.264V17.912H.75V2.264A1.515,1.515,0,0,1,2.264.75" transform="translate(0.007 0.007)" fill="#5b7d83" fill-rule="evenodd"/>
+          <path id="패스_138" data-name="패스 138" d="M2.264.75H19.426A1.515,1.515,0,0,1,20.94,2.264V17.912H.75V2.264A1.515,1.515,0,0,1,2.264.75" transform="translate(0.007 0.007)" fill="#fff" fill-rule="evenodd"/>
           <path id="패스_139" data-name="패스 139" d="M2.264.75H19.426A1.515,1.515,0,0,1,20.94,2.264V17.912H.75V2.264A1.515,1.515,0,0,1,2.264.75Z" transform="translate(0.007 0.007)" fill="none" stroke="#000" stroke-width="1.5"/>
-          <path id="패스_140" data-name="패스 140" d="M10.788,5.25A4.038,4.038,0,1,1,6.75,9.288,4.038,4.038,0,0,1,10.788,5.25" transform="translate(0.064 0.05)" fill="#333" fill-rule="evenodd"/>
+          <path id="패스_140" data-name="패스 140" d="M10.788,5.25A4.038,4.038,0,1,1,6.75,9.288,4.038,4.038,0,0,1,10.788,5.25" transform="translate(0.064 0.05)" fill="#fff" fill-rule="evenodd"/>
           <circle id="타원_39" data-name="타원 39" cx="4.038" cy="4.038" r="4.038" transform="translate(6.814 5.3)" fill="none" stroke="#000" stroke-width="1.5"/>
-          <path id="패스_141" data-name="패스 141" d="M10.788,22.25A4.038,4.038,0,1,1,6.75,26.288a4.038,4.038,0,0,1,4.038-4.038" transform="translate(0.064 0.212)" fill="#333" fill-rule="evenodd"/>
+          <path id="패스_141" data-name="패스 141" d="M10.788,22.25A4.038,4.038,0,1,1,6.75,26.288a4.038,4.038,0,0,1,4.038-4.038" transform="translate(0.064 0.212)" fill="#fff" fill-rule="evenodd"/>
           <circle id="타원_40" data-name="타원 40" cx="4.038" cy="4.038" r="4.038" transform="translate(6.814 22.462)" fill="none" stroke="#000" stroke-width="1.5"/>
         </g>
       </g>
       <g id="그룹_823" data-name="그룹 823" transform="translate(23.975)">
-        <rect id="사각형_251" data-name="사각형 251" width="13.703" height="23.189" transform="translate(12.486 1.054)"/>
+        <rect id="사각형_251" data-name="사각형 251" width="13.703" height="23.189" transform="translate(12.486 1.054)" fill="#fff"/>
         <g id="그룹_373" data-name="그룹 373">
           <g id="그룹_372" data-name="그룹 372" clip-path="url(#clip-path-2)">
-            <path id="패스_126" data-name="패스 126" d="M15.722,4h4.593a1.723,1.723,0,0,1,1.722,1.722V16.056a1.723,1.723,0,0,1-1.722,1.722H15.722A1.723,1.723,0,0,1,14,16.056V5.722A1.723,1.723,0,0,1,15.722,4" transform="translate(2.074 0.593)" fill="#444" fill-rule="evenodd"/>
-            <rect id="사각형_252" data-name="사각형 252" width="8.455" height="14.091" rx="1.5" transform="translate(15.97 4.697)" fill="none" stroke="#000" stroke-width="1.5"/>
-            <path id="패스_127" data-name="패스 127" d="M1,19H13.63V37.37H1Zm12.63,0h12.63V37.37H13.63Z" transform="translate(0.148 2.815)" fill="#e1d0b6" fill-rule="evenodd"/>
-            <rect id="사각형_253" data-name="사각형 253" width="13.152" height="19.727" transform="translate(0.939 0.939)" fill="#5b7d83"/>
+            <path id="패스_126" data-name="패스 126" d="M15.722,4h4.593a1.723,1.723,0,0,1,1.722,1.722V16.056a1.723,1.723,0,0,1-1.722,1.722H15.722A1.723,1.723,0,0,1,14,16.056V5.722A1.723,1.723,0,0,1,15.722,4" transform="translate(2.074 0.593)" fill="#fff" fill-rule="evenodd"/>
+            <rect id="사각형_252" data-name="사각형 252" width="8.05" height="14.091" rx="1.5" transform="translate(16.325 4.697)" fill="none" stroke="#000" stroke-width="1.5"/>
+            <path id="패스_127" data-name="패스 127" d="M1,19H13.63V37.37H1Zm12.63,0h12.63V37.37H13.63Z" transform="translate(0.148 2.815)" fill="#fff" fill-rule="evenodd"/>
+            <rect id="사각형_253" data-name="사각형 253" width="13.152" height="19.727" transform="translate(0.939 0.939)" fill="#fff"/>
             <path id="패스_128" data-name="패스 128" d="M25.722.75H1.611a.862.862,0,0,0-.861.861V39.5a.862.862,0,0,0,.861.861H25.722a.862.862,0,0,0,.861-.861V1.611A.862.862,0,0,0,25.722.75Z" transform="translate(0.111 0.111)" fill="none" stroke="#000" stroke-width="1.5"/>
             <path id="패스_129" data-name="패스 129" d="M.834,18H25.86a.862.862,0,0,1,0,1.722H.834A.862.862,0,0,1,.834,18" transform="translate(0.861 2.667)" fill-rule="evenodd"/>
             <line id="선_25" data-name="선 25" y2="39.455" transform="translate(14.091 0.939)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
@@ -39,9 +39,9 @@
       <g id="그룹_1192" data-name="그룹 1192" transform="translate(53.758 14.757)">
         <g id="그룹_1188" data-name="그룹 1188" transform="translate(0.527 0)">
           <g id="그룹_1189" data-name="그룹 1189" transform="translate(0 0)">
-            <rect id="사각형_808" data-name="사각형 808" width="21.081" height="25.297" rx="1" fill="#ccc" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+            <rect id="사각형_808" data-name="사각형 808" width="21.081" height="25.297" rx="1" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
             <g id="그룹_1190" data-name="그룹 1190" transform="translate(5.27 10.54)">
-              <g id="타원_160" data-name="타원 160" fill="#333" stroke="#000" stroke-width="1.5">
+              <g id="타원_160" data-name="타원 160" fill="#fff" stroke="#000" stroke-width="1.5">
                 <ellipse cx="5.27" cy="5.27" rx="5.27" ry="5.27" stroke="none"/>
                 <ellipse cx="5.27" cy="5.27" rx="4.52" ry="4.52" fill="none"/>
               </g>

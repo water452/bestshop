@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
-  <g id="그룹_1209" data-name="그룹 1209" transform="translate(-453.001 -370)">
+  <g id="그룹_1282" data-name="그룹 1282" transform="translate(-453.001 -370)">
     <rect id="사각형_812" data-name="사각형 812" width="80" height="80" transform="translate(453.001 370)" fill="none"/>
     <g id="그룹_1184" data-name="그룹 1184" transform="translate(42 30)">
       <g id="그룹_386" data-name="그룹 386">
-        <g id="사각형_278" data-name="사각형 278" transform="translate(466 355) rotate(90)" fill="#edcec9" stroke="#000" stroke-width="1.5">
+        <g id="사각형_278" data-name="사각형 278" transform="translate(466 355) rotate(90)" fill="#fff" stroke="#000" stroke-width="1.5">
           <rect width="52" height="42" rx="4" stroke="none"/>
           <rect x="0.75" y="0.75" width="50.5" height="40.5" rx="3.25" fill="none"/>
         </g>
@@ -27,17 +27,17 @@
           <path id="패스_143" data-name="패스 143" d="M431.667,370l2.667,2.667,4.667-5" transform="translate(2)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
           <path id="패스_144" data-name="패스 144" d="M431.667,370l2.667,2.667,4.667-5" transform="translate(2 18)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
         </g>
-        <g id="사각형_285" data-name="사각형 285" transform="translate(433 352)" fill="#5b7d83" stroke="#000" stroke-width="1.5">
+        <g id="사각형_285" data-name="사각형 285" transform="translate(433 352)" fill="#fff" stroke="#000" stroke-width="1.5">
           <rect width="24" height="8" rx="2" stroke="none"/>
           <rect x="0.75" y="0.75" width="22.5" height="6.5" rx="1.25" fill="none"/>
         </g>
       </g>
       <g id="그룹_385" data-name="그룹 385" transform="translate(1462 788) rotate(180)">
-        <g id="사각형_283" data-name="사각형 283" transform="translate(983 381)" fill="#e1d0b6" stroke="#000" stroke-width="1.5">
+        <g id="사각형_283" data-name="사각형 283" transform="translate(983 381)" fill="#fff" stroke="#000" stroke-width="1.5">
           <path d="M2,0H6A2,2,0,0,1,8,2V29a1,1,0,0,1-1,1H1a1,1,0,0,1-1-1V2A2,2,0,0,1,2,0Z" stroke="none"/>
           <path d="M2,.75H6A1.25,1.25,0,0,1,7.25,2V29a.25.25,0,0,1-.25.25H1A.25.25,0,0,1,.75,29V2A1.25,1.25,0,0,1,2,.75Z" fill="none"/>
         </g>
-        <path id="패스_145" data-name="패스 145" d="M2973.75,410.063l3.031,4.25,3.469-4.25" transform="translate(-1990 0.438)" fill="#ddd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="패스_145" data-name="패스 145" d="M2973.75,410.063l3.031,4.25,3.469-4.25" transform="translate(-1990 0.438)" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
         <g id="사각형_284" data-name="사각형 284" transform="translate(984 385)" fill="#fff" stroke="#000" stroke-width="1">
           <rect width="6" height="1.5" stroke="none"/>
           <rect x="0.5" y="0.5" width="5" height="0.5" fill="none"/>

@@ -65,7 +65,7 @@
                                             <div class="box">
                                                 <div class="tit-wrap">
                                                     <span class="tit">STEP 01</span>
-                                                    <strong>상담 희망 제품 선택</strong>
+                                                    <strong>상담 희망 <br class="pc-hidden">제품 선택</strong>
                                                 </div>
                                                 <span class="icon-wrap">
                                                     <i class="icon01"></i>
@@ -76,7 +76,7 @@
                                             <div class="box">
                                                 <div class="tit-wrap">
                                                     <span class="tit">STEP 02</span>
-                                                    <strong>매장 및 일시 선택</strong>
+                                                    <strong>매장 및 일시 <br class="pc-hidden">선택</strong>
                                                 </div>
                                                 <span class="icon-wrap">
                                                     <i class="icon02"></i>
@@ -87,7 +87,7 @@
                                             <div class="box">
                                                 <div class="tit-wrap">
                                                     <span class="tit">STEP 03</span>
-                                                    <strong>고객 정보 입력 후 예약 완료</strong>
+                                                    <strong>고객 정보 입력 후 <br class="pc-hidden">예약 완료</strong>
                                                 </div>
                                                 <span class="icon-wrap">
                                                     <i class="icon03"></i>
@@ -98,7 +98,7 @@
                                             <div class="box">
                                                 <div class="tit-wrap">
                                                     <span class="tit">STEP 04</span>
-                                                    <strong>사전 전화 안내 후 매장 방문</strong>
+                                                    <strong>사전 전화 안내 후 <br class="pc-hidden">매장 방문</strong>
                                                 </div>
                                                 <span class="icon-wrap">
                                                     <i class="icon04"></i>
@@ -1426,21 +1426,22 @@
                 pagination: {
                     el: '.swiper-pagination',
                     type: 'bullets',
+                    clickable: true,
                 },
-                autoplay: {
-                    delay: 3000,
-                },
+                // autoplay: {
+                //     delay: 3000,
+                // },
             });
             // play/stop 버튼
             $('.btn-play').click(function(){
                 if ($(this).hasClass('pause')) {
                     resbanner01.autoplay.start();
-                    $(this).removeClass('pause');
-                    $(this).find('.blind').text('멈춤');
+                    $(this).removeClass('pause')
+                        .find('.blind').text('멈춤');
                 } else {
                     resbanner01.autoplay.stop();
-                    $(this).addClass('pause');
-                    $(this).find('.blind').text('재생');
+                    $(this).addClass('pause')
+                        .find('.blind').text('재생');
                 }
                 return false;
             });

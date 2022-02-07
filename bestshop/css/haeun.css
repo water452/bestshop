@@ -741,7 +741,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     /* 매장상담예약 상단 공통 영역 */
     /* 탭 있는 경우 */
     .res-main [class*="tab"] + .top-wrap {width:calc(100% + 32px); margin-left:-16px}
-    .res-main [class*="tab"] + .top-wrap .guide-area .guide-process {padding:11px 0 0}
+    .res-main [class*="tab"] + .top-wrap .guide-area .guide-process {padding:21px 0 0}
     .res-main [class*="tab"] + .top-wrap .guide-area [class*="guide-banner"] {padding:0 16px 38px}
     .res-main [class*="tab"] + .top-wrap .add-area {margin:16px auto 0}
 
@@ -761,18 +761,17 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-main .guide-area [class*="guide-banner"] .box .icon-wrap {position:absolute; width:60px; height:60px; bottom:5px; left:calc(50% - 30px)}
     .res-main .guide-area [class*="guide-banner"] .box .tit-wrap {margin-bottom:0}
     .res-main .guide-area [class*="guide-banner"] .box .tit-wrap .tit {font-size:10px; line-height:15px}
-    .res-main .guide-area [class*="guide-banner"] .box .tit-wrap strong {font-size:12px; line-height:17px}
+    .res-main .guide-area [class*="guide-banner"] .box .tit-wrap strong {font-size:13px; line-height:19px}
     .res-main .guide-area [class*="guide-banner"] .box .txt {margin-top:10px; font-size:11px; line-height:16px; white-space:initial; word-break:keep-all}
     .res-main .guide-area [class*="guide-banner"] .swiper-scrollbar {width:calc(100% - 32px); left:16px; bottom:26px; height:2px}
     .res-main .top-wrap .add-area {margin:20px auto}
     .res-main .add-area [class*="res-banner"] {padding:0 16px}
     .res-main .add-area [class*="res-banner"] .swiper-slide > .box {height:180px; border-radius:8px}
     .res-main .add-area [class*="res-banner"] .swiper-slide > .box > img {width:auto; height:100%; margin:0 auto}
-    .res-main .add-area [class*="res-banner"] .banner-btns {top:calc(50% - 16.5px)}
-    .res-main .add-area .banner-indi-wrap {margin:9px 0}
-    .res-main .add-area .banner-indi-wrap .btn-play {width:16.5px; height:16.5px}
+    .res-main .add-area .banner-indi-wrap {bottom:16px; margin:0 16px; padding:0 6px}
+    .res-main .add-area .banner-indi-wrap .btn-play {width:29px; height:29px; right:16px; bottom:12px}
     .res-main .add-area .banner-indi-wrap .swiper-pagination {margin:0 5px}
-    .res-main .add-area .banner-indi-wrap .swiper-pagination .swiper-pagination-bullet {width:6.5px; height:6.5px; margin:0 5px}
+    .res-main .add-area .banner-indi-wrap .swiper-pagination .swiper-pagination-bullet {height:4px; margin:0 5px}
 
     /* 매장상담예약 컨텐츠 영역 */
     .res-main .cont-wrap .cont-area {padding-top:4px}
