@@ -115,7 +115,7 @@
 
 @media screen and (max-width: 767px){
     /* 기본 */
-    .btn { min-width: 124px; font-size: 13px; line-height: 41px; padding: 0 41px; border-radius: 22px; }
+    .btn { min-width: 124px; font-size: 13px; line-height: 41px; padding: 0 38px; border-radius: 22px; }
 
 	/* size */
     .btn.s01 { font-size: 14px; }
