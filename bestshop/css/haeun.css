@@ -788,7 +788,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     /******** 매장상담예약 input ********/
     /* 상담목적 */
     ul.input-icon-type {flex-wrap:wrap; margin-top:-12px}
-    ul.input-icon-type > li {width:calc(50% - 6px); margin-top:12px}
+    ul.input-icon-type > li {width:calc(50% - 6px)!important; margin-top:12px}
     .icon-btn label {height:49px; border:1.5px solid #ddd; border-radius:14px; font-size:13px; line-height:19px}
     .icon-btn input:checked + label {border:1.5px solid #da0f47}
     .icon-btn .icon {width:32px; height:32px; margin-right:6px}
