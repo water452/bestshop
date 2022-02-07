@@ -168,6 +168,20 @@ dfn { display: block; font-style: normal; }
 .btn-txt-icon-more { display: inline-block; line-height: 22px; font-size: 12px; vertical-align: top; }
 .btn-txt-icon-more:after { content: ""; display: inline-block; margin-left: 4px; width: 16px; height: 16px; background: url("../images/icons/btn_arrow_right_16.svg") no-repeat 0 0; background-size: 100% auto; vertical-align: -4px; }
 
+/* 비노출페이지 > 아이폰 상담 예약 */
+ul.input-icon-type.n03 > li { width: calc(100% / 3 - 10px); }
+.icon-btn .icon.change { background: url("../images/icons/icon_change.svg") no-repeat center; }
+.icon-btn input:checked + label .icon.change { background: url("../images/icons/icon_change_on.svg"); }
+.icon-btn .icon.number { background: url("../images/icons/icon_number.svg") no-repeat center; }
+.icon-btn input:checked + label .icon.number { background: url("../images/icons/icon_number_on.svg"); }
+.icon-btn .icon.new { background: url("../images/icons/icon_new.svg") no-repeat center; }
+.icon-btn input:checked + label .icon.new { background: url("../images/icons/icon_new_on.svg"); }
+ul.input-cate-type.full > li { width: 100%; }
+ul.input-cate-type.full .cate-items { max-width: unset; width: calc(100% - 154px); }
+ul.input-cate-type .cate-tit > .icon.iphone { background: url("../images/icons/icon-iphone.svg") no-repeat center; }
+ul.input-cate-type .cate-tit > .icon.ipad { background: url("../images/icons/icon-ipad.svg") no-repeat center; }
+ul.input-cate-type .cate-tit > .icon.apple-watch { background: url("../images/icons/icon-apple-watch.svg") no-repeat center; }
+
 /* 이벤트 > 목록 */
 .event-list + .btn-area { margin-top: 32px; }
 .event-list ul {display: flex; flex-wrap: wrap; margin: 0 -12px;}
@@ -245,6 +259,7 @@ dfn { display: block; font-style: normal; }
 .ev-detail-con .btn-area { margin-top: 64px; }
 
 /* 이벤트 > 혼수이벤트 */
+.detail-thum { padding-bottom: 34px; text-align: center; }
 .detail-thum img { max-width: 100%; }
 
 /* 이벤트 > 아파트 입주 이벤트 */
