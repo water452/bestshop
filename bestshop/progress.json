@@ -1016,7 +1016,7 @@
       "worker": "서강원",
       "startdate": "2022-02-03",
       "finishdate": "2022-02-07",
-      "status": "진행중",
+      "status": "완료",
       "filename": "./pages/reservation/BSF-RES-IPHONE.jsp",
       "memo": ""
     },
@@ -1028,7 +1028,7 @@
       "worker": "서강원",
       "startdate": "2022-02-03",
       "finishdate": "2022-02-07",
-      "status": "진행중",
+      "status": "완료",
       "filename": "./pages/reservation/BSF-RES-IPHONE.jsp",
       "memo": ""
     },

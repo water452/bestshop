@@ -171,11 +171,11 @@ dfn { display: block; font-style: normal; }
 /* 비노출페이지 > 아이폰 상담 예약 */
 ul.input-icon-type.n03 > li { width: calc(100% / 3 - 10px); }
 .icon-btn .icon.change { background: url("../images/icons/icon_change.svg") no-repeat center; }
-.icon-btn input:checked + label .icon.change { background: url("../images/icons/icon_change_on.svg"); }
+.icon-btn input:checked + label .icon.change { background-image: url("../images/icons/icon_change_on.svg"); }
 .icon-btn .icon.number { background: url("../images/icons/icon_number.svg") no-repeat center; }
-.icon-btn input:checked + label .icon.number { background: url("../images/icons/icon_number_on.svg"); }
+.icon-btn input:checked + label .icon.number { background-image: url("../images/icons/icon_number_on.svg"); }
 .icon-btn .icon.new { background: url("../images/icons/icon_new.svg") no-repeat center; }
-.icon-btn input:checked + label .icon.new { background: url("../images/icons/icon_new_on.svg"); }
+.icon-btn input:checked + label .icon.new { background-image: url("../images/icons/icon_new_on.svg"); }
 ul.input-cate-type.full > li { width: 100%; }
 ul.input-cate-type.full .cate-items { max-width: unset; width: calc(100% - 154px); }
 ul.input-cate-type.full .cate-items > li { max-width: 183px }
@@ -636,6 +636,12 @@ li[class*="blt"], li > [class*="blt"] { display: block; }
     .btn-txt-icon-more:after { margin-left: 2px; width: 12px; height: 12px; vertical-align: -3px; }
 
     /* 비노출페이지 > 아이폰 상담 예약 */
+    .icon-btn .icon.change { background: url("../images/icons/icon_change_m.svg") no-repeat center / contain; }
+    .icon-btn input:checked + label .icon.change { background-image: url("../images/icons/icon_change_m_on.svg"); }
+    .icon-btn .icon.number { background: url("../images/icons/icon_number_m.svg") no-repeat center / contain; }
+    .icon-btn input:checked + label .icon.number { background-image: url("../images/icons/icon_number_m_on.svg"); }
+    .icon-btn .icon.new { background: url("../images/icons/icon_new_m.svg") no-repeat center / contain; }
+    .icon-btn input:checked + label .icon.new { background-image: url("../images/icons/icon_new_m_on.svg"); }
     ul.input-cate-type.full .cate-items { width: 100%; max-width: 328px; }
     ul.input-cate-type.full .cate-items > li { width: calc(50% - 7px); }
 
