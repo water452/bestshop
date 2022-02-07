@@ -178,6 +178,7 @@ ul.input-icon-type.n03 > li { width: calc(100% / 3 - 10px); }
 .icon-btn input:checked + label .icon.new { background: url("../images/icons/icon_new_on.svg"); }
 ul.input-cate-type.full > li { width: 100%; }
 ul.input-cate-type.full .cate-items { max-width: unset; width: calc(100% - 154px); }
+ul.input-cate-type.full .cate-items > li { max-width: 183px }
 ul.input-cate-type .cate-tit > .icon.iphone { background: url("../images/icons/icon-iphone.svg") no-repeat center; }
 ul.input-cate-type .cate-tit > .icon.ipad { background: url("../images/icons/icon-ipad.svg") no-repeat center; }
 ul.input-cate-type .cate-tit > .icon.apple-watch { background: url("../images/icons/icon-apple-watch.svg") no-repeat center; }
@@ -633,6 +634,10 @@ li[class*="blt"], li > [class*="blt"] { display: block; }
     .flag-item span { line-height: 16px; font-size: 11px; }
     .btn-txt-icon-more { line-height: 21px; font-size: 11px; }
     .btn-txt-icon-more:after { margin-left: 2px; width: 12px; height: 12px; vertical-align: -3px; }
+
+    /* 비노출페이지 > 아이폰 상담 예약 */
+    ul.input-cate-type.full .cate-items { width: 100%; max-width: 328px; }
+    ul.input-cate-type.full .cate-items > li { width: calc(50% - 7px); }
 
     /* 이벤트 > 목록 */
     .event-list + .btn-area { margin-top: 40px; }
