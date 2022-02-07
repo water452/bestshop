@@ -337,13 +337,14 @@ ul.shop-list li [class^="btn-"] > span {margin-left:3px}
 /* 완료페이지 */
 .done-msg-area {padding:0 40px; text-align:center}
 .done-msg-area.pt100 {padding-top:66px}
-.done-msg-area .done-msg-big > strong {display:block; font-size:36px; font-weight:500; line-height:44px}
-.done-msg-area .done-msg-big > span {display:block; font-size:36px; font-weight:500; line-height:44px}
-.done-msg-area .done-msg-small {margin-top:27px}
+.done-msg-area .done-msg-big > strong {display:block; font-size:32px; font-weight:bold; line-height:40px}
+.done-msg-area .done-msg-big > span {display:block; margin-top:6px; font-size:22px; font-weight:500; line-height:30px}
+.done-msg-area .done-msg-small {margin-top:32px}
 .done-msg-area .done-msg-small ul li {font-size:16px; line-height:24px}
-.res-info-area {width:100%; margin-top:54px; padding:32px; background-image:linear-gradient(96deg,#9a7fed 0%,#ff6489 100%,#ff6489 100%); text-align:center}
+.res-info-area {width:100%; margin-top:52px; padding:36px; background-image:linear-gradient(96deg,#9a7fed 0%,#ff6489 100%,#ff6489 100%); text-align:center}
 .res-info-area .info-box {display:inline-block; text-align:left}
 .res-info-area .info-box ul li {display:flex; color:#fff; font-size:20px; line-height:28px}
+.res-info-area .info-box ul li + li {margin-top:6px}
 .res-info-area .info-box ul li > span {display:block; min-width:209px}
 .res-info-area .info-box ul li > strong {display:block; font-weight:500}
 
@@ -983,15 +984,16 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     /* 완료페이지 */
     .done-msg-area {padding:0 16px}
     .done-msg-area.pt100 {padding-top:16px}
-    .done-msg-area .done-msg-big > strong {font-size:18px; font-weight:bold; line-height:24px}
-    .done-msg-area .done-msg-big > span {margin-top:4px; font-size:11px; line-height:16px}
-    .done-msg-area .done-msg-small {margin-top:16px}
+    .done-msg-area .done-msg-big > strong {font-size:24px; line-height:30px}
+    .done-msg-area .done-msg-big > span {margin-top:4px; font-size:18px; line-height:24px}
+    .done-msg-area .done-msg-small {margin-top:14px}
     .done-msg-area .done-msg-small ul li {font-size:10px; line-height:15px}
-    .done-msg-area .done-msg-small ul li + li {margin-top:4px}
-    .res-info-area {width:calc(100% + 32px); margin-top:39px; margin-left:-16px; padding:30px 30px 43px}
+    .done-msg-area .done-msg-small ul li + li {margin-top:7px}
+    .res-info-area {width:calc(100% + 32px); margin-top:30px; margin-left:-16px; padding:32px 30px}
     .res-info-area .info-box ul li {font-size:14px; line-height:20px}
-    .res-info-area .info-box ul li + li {margin-top:2px}
+    .res-info-area .info-box ul li + li {margin-top:4px}
     .res-info-area .info-box ul li > span {min-width:109px}
+    .res-info-area .info-box ul li > strong {font-weight:bold}
 
     /* 방문상담예약페이지 */
     .res-main .guide-area .guide-banner-visit .box .icon-wrap .icon01 {background:url(../images/icons/icon-res-guide-visit-01_mo.svg) no-repeat center / 100%}

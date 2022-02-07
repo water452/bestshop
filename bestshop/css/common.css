@@ -189,7 +189,7 @@ table{border-collapse:collapse}
 .btn-area { line-height: 0; font-size: 0; }
 .btn-area.center {text-align:center!important}
 .btn-area.m64 {margin-top:64px}
-.btn-area [class*="btn"] + [class*="btn"] {margin-left:13px}
+.btn-area [class*="btn"] + [class*="btn"] {margin-left:12px}
 
 /* bullet list */
 ul.bull > li {position:relative; padding-left:10px; font-size:14px; line-height:22px}
@@ -622,7 +622,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	/* btn-area */
 	.btn-area.m64 {margin-top:30px}
 	.btn-area.mo50 > [class*="btn"] {width:calc(50% - 4.5px)}
-	.btn-area [class*="btn"] + [class*="btn"] {margin-left:5px}
+	.btn-area [class*="btn"] + [class*="btn"] {margin-left:8px}
 	.btn-area.full-size-m{display:flex;width:100%;}
 	.btn-area.full-size-m > [class*="btn"]{flex:1;}
 	.btn-area.full-size-m > [class*="btn"] + [class*="btn"]{margin-left:10px;}
