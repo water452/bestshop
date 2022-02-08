@@ -1064,8 +1064,8 @@
       "worker": "서강원",
       "startdate": "2022-02-09",
       "finishdate": "2022-02-10",
-      "status": "진행예정",
-      "filename": "./pages/reservation/BSF-EVE-SHOP-INFO.jsp",
+      "status": "완료",
+      "filename": "./pages/event/BSF-EVE-SHOP-INFO.jsp",
       "memo": ""
     },
     {
@@ -1076,8 +1076,8 @@
       "worker": "서강원",
       "startdate": "2022-02-09",
       "finishdate": "2022-02-10",
-      "status": "진행예정",
-      "filename": "./pages/reservation/BSF-EVE-SHOP-INFO.jsp",
+      "status": "완료",
+      "filename": "./pages/event/BSF-EVE-SHOP-INFO.jsp",
       "memo": ""
     },
     {
@@ -1088,8 +1088,8 @@
       "worker": "서강원",
       "startdate": "2022-02-09",
       "finishdate": "2022-02-10",
-      "status": "진행예정",
-      "filename": "./pages/reservation/BSF-EVE-SHOP-INFO.jsp",
+      "status": "완료",
+      "filename": "./pages/event/BSF-EVE-SHOP-INFO.jsp",
       "memo": ""
     },
     {
@@ -1100,8 +1100,8 @@
       "worker": "서강원",
       "startdate": "2022-02-09",
       "finishdate": "2022-02-10",
-      "status": "진행예정",
-      "filename": "./pages/reservation/BSF-EVE-SHOP-RES-DONE.jsp",
+      "status": "완료",
+      "filename": "./pages/event/BSF-EVE-SHOP-RES-DONE.jsp",
       "memo": ""
     },
     {

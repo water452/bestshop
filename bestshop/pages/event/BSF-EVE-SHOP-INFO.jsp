@@ -4,23 +4,28 @@
 <!-- container -->
 <div class="container" id="content">
     <div class="page-header">
-        <h2 class="title">혼수 이벤트</h2>
+        <h2 class="title">매장상담 예약 이벤트</h2>
     </div>
     <!-- contents -->
     <div class="contents res-main">
         <div class="cont-wrap">
             <div class="detail-thum">
-                <img src="../../images/temp_img_event.jpg" alt="해당 이미지 ALT" />
+                <img src="../../images/temp_img_event_reservation.jpg" alt="해당 이미지 ALT" />
             </div>
             <section class="cont-area">
                 <p class="step-top-note"><sup>*</sup>필수입력항목</p>
                 <!-- step 1 -->
                 <div class="step-area step01 active"><!-- active 클래스 추가 -->
+
                     <div class="result-area active"><!-- active 클래스 추가 -->
                         <div class="info-step01">
                             <div class="info-txt-com active"><!-- active 클래스 추가 -->
                                 <a href="#">
-                                    <span class="pc-tit">제품 :</span>
+                                    <span class="mo-tit">상담목적 및 제품선택</span>
+                                    <span class="pc-tit">상담목적 :</span>
+                                    <span class="txt">혼수</span>
+
+                                    <span class="pc-tit">상담제품 :</span>
                                     <span class="txt">TV, 냉장고, 식기세척기, 세탁기, 스타일러, 공기청정기, 에어컨</span>
 
                                     <span class="pc-tit">구매시기 :</span>
@@ -29,413 +34,462 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="main-area active"><!-- active 클래스 추가 -->
                         <form action="#">
+                            <h3 class="step-tit">상담목적<sup>*</sup></h3>
+                            <ul class="input-icon-type">
+                                <li>
+                                    <div class="icon-btn">
+                                        <input type="radio" name="purpose" id="wedding">
+                                        <label for="wedding">
+                                            <i class="icon wedding"></i><span class="name">혼수</span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon-btn">
+                                        <input type="radio" name="purpose" id="move">
+                                        <label for="move">
+                                            <i class="icon move"></i><span class="name">이사</span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon-btn">
+                                        <input type="radio" name="purpose" id="interior">
+                                        <label for="interior">
+                                            <i class="icon interior"></i><span class="name">인테리어</span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon-btn">
+                                        <input type="radio" name="purpose" id="broken">
+                                        <label for="broken">
+                                            <i class="icon broken"></i><span class="name">고장</span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon-btn">
+                                        <input type="radio" name="purpose" id="etc">
+                                        <label for="etc">
+                                            <i class="icon etc"></i><span class="name">기타</span>
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+
                             <h3 class="step-tit">제품선택<sup>*</sup><span>(다중선택)</span></h3>
-                                <!-- 제품선택 카테고리형 -->
-                                <ul class="input-cate-type">
-                                    <li>
-                                        <p class="cate-tit"><i class="icon tv-audio"></i>TV/오디오</p>
-                                        <ul class="cate-items">
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="tv" id="tv">
-                                                    <label for="tv">
-                                                        <span class="name">TV</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="projector" id="projector">
-                                                    <label for="projector">
-                                                        <span class="name">프로젝터</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="soundbar" id="soundbar">
-                                                    <label for="soundbar">
-                                                        <span class="name">사운드바</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <p class="cate-tit"><i class="icon pc"></i>PC</p>
-                                        <ul class="cate-items">
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="laptop" id="laptop">
-                                                    <label for="laptop">
-                                                        <span class="name">노트북</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="desktop" id="desktop">
-                                                    <label for="desktop">
-                                                        <span class="name">데스크탑</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="monitor" id="monitor">
-                                                    <label for="monitor">
-                                                        <span class="name">모니터</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <p class="cate-tit"><i class="icon kitchens"></i>주방가전</p>
-                                        <ul class="cate-items">
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="kitchens" id="fridge">
-                                                    <label for="fridge">
-                                                        <span class="name">냉장고</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="dish-washer" id="dish-washer">
-                                                    <label for="dish-washer">
-                                                        <span class="name">식기세척기</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="oven" id="oven">
-                                                    <label for="oven">
-                                                        <span class="name">광파오븐</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="range" id="range">
-                                                    <label for="range">
-                                                        <span class="name">전기레인지</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="etc-kitchens" id="etc-kitchens">
-                                                    <label for="etc-kitchens">
-                                                        <span class="name">기타 주방가전</span>
-                                                    </label>
+                            <!-- 제품선택 카테고리형 -->
+                            <ul class="input-cate-type">
+                                <li>
+                                    <p class="cate-tit"><i class="icon tv-audio"></i>TV/오디오</p>
+                                    <ul class="cate-items">
+                                        <li>
+                                            <div class="chkrdo-btn">
+                                                <input type="checkbox" name="tv" id="tv">
+                                                <label for="tv">
+                                                    <span class="name">TV</span>
+                                                </label>
                                             </div>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <p class="cate-tit"><i class="icon house"></i>생활가전</p>
-                                        <ul class="cate-items">
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="washing" id="washing">
-                                                    <label for="washing">
-                                                        <span class="name">세탁기/건조기</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="styler" id="styler">
-                                                    <label for="styler">
-                                                        <span class="name">스타일러</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="air-con" id="air-con">
-                                                    <label for="air-con">
-                                                        <span class="name">에어컨</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="vaccum" id="vaccum">
-                                                    <label for="vaccum">
-                                                        <span class="name">청소기</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="air-clean" id="air-clean">
-                                                    <label for="air-clean">
-                                                        <span class="name">공기청정기</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="etc-house" id="etc-house">
-                                                    <label for="etc-house">
-                                                        <span class="name">기타 생활가전</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <p class="cate-tit"><i class="icon mobile"></i>모바일</p>
-                                        <ul class="cate-items">
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="iphone" id="iphone">
-                                                    <label for="iphone">
-                                                        <span class="name">아이폰</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="ipad" id="ipad">
-                                                    <label for="ipad">
-                                                        <span class="name">아이패드</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="watch" id="watch">
-                                                    <label for="watch">
-                                                        <span class="name">애플워치</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <p class="cate-tit"><i class="icon beauty"></i>뷰티</p>
-                                        <ul class="cate-items">
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="pra-l" id="pra-l">
-                                                    <label for="pra-l">
-                                                        <span class="name">프라엘</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="medihair" id="medihair">
-                                                    <label for="medihair">
-                                                        <span class="name">메디헤어</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                                <!-- // 제품선택 카테고리형 -->
+                                        </li>
+                                        <li>
+                                            <div class="chkrdo-btn">
+                                                <input type="checkbox" name="projector" id="projector">
+                                                <label for="projector">
+                                                    <span class="name">프로젝터</span>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="chkrdo-btn">
+                                                <input type="checkbox" name="soundbar" id="soundbar">
+                                                <label for="soundbar">
+                                                    <span class="name">사운드바</span>
+                                                </label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="cate-tit"><i class="icon pc"></i>PC</p>
+                                    <ul class="cate-items">
+                                        <li>
+                                            <div class="chkrdo-btn">
+                                                <input type="checkbox" name="laptop" id="laptop">
+                                                <label for="laptop">
+                                                    <span class="name">노트북</span>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="chkrdo-btn">
+                                                <input type="checkbox" name="desktop" id="desktop">
+                                                <label for="desktop">
+                                                    <span class="name">데스크탑</span>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="chkrdo-btn">
+                                                <input type="checkbox" name="monitor" id="monitor">
+                                                <label for="monitor">
+                                                    <span class="name">모니터</span>
+                                                </label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="cate-tit"><i class="icon kitchens"></i>주방가전</p>
+                                    <ul class="cate-items">
+                                        <li>
+                                            <div class="chkrdo-btn">
+                                                <input type="checkbox" name="kitchens" id="fridge">
+                                                <label for="fridge">
+                                                    <span class="name">냉장고</span>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="chkrdo-btn">
+                                                <input type="checkbox" name="dish-washer" id="dish-washer">
+                                                <label for="dish-washer">
+                                                    <span class="name">식기세척기</span>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="chkrdo-btn">
+                                                <input type="checkbox" name="oven" id="oven">
+                                                <label for="oven">
+                                                    <span class="name">광파오븐</span>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="chkrdo-btn">
+                                                <input type="checkbox" name="range" id="range">
+                                                <label for="range">
+                                                    <span class="name">전기레인지</span>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="chkrdo-btn">
+                                                <input type="checkbox" name="etc-kitchens" id="etc-kitchens">
+                                                <label for="etc-kitchens">
+                                                    <span class="name">기타 주방가전</span>
+                                                </label>
+                                        </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="cate-tit"><i class="icon house"></i>생활가전</p>
+                                    <ul class="cate-items">
+                                        <li>
+                                            <div class="chkrdo-btn">
+                                                <input type="checkbox" name="washing" id="washing">
+                                                <label for="washing">
+                                                    <span class="name">세탁기/건조기</span>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="chkrdo-btn">
+                                                <input type="checkbox" name="styler" id="styler">
+                                                <label for="styler">
+                                                    <span class="name">스타일러</span>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="chkrdo-btn">
+                                                <input type="checkbox" name="air-con" id="air-con">
+                                                <label for="air-con">
+                                                    <span class="name">에어컨</span>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="chkrdo-btn">
+                                                <input type="checkbox" name="vaccum" id="vaccum">
+                                                <label for="vaccum">
+                                                    <span class="name">청소기</span>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="chkrdo-btn">
+                                                <input type="checkbox" name="air-clean" id="air-clean">
+                                                <label for="air-clean">
+                                                    <span class="name">공기청정기</span>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="chkrdo-btn">
+                                                <input type="checkbox" name="etc-house" id="etc-house">
+                                                <label for="etc-house">
+                                                    <span class="name">기타 생활가전</span>
+                                                </label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="cate-tit"><i class="icon mobile"></i>모바일</p>
+                                    <ul class="cate-items">
+                                        <li>
+                                            <div class="chkrdo-btn">
+                                                <input type="checkbox" name="iphone" id="iphone">
+                                                <label for="iphone">
+                                                    <span class="name">아이폰</span>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="chkrdo-btn">
+                                                <input type="checkbox" name="ipad" id="ipad">
+                                                <label for="ipad">
+                                                    <span class="name">아이패드</span>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="chkrdo-btn">
+                                                <input type="checkbox" name="watch" id="watch">
+                                                <label for="watch">
+                                                    <span class="name">애플워치</span>
+                                                </label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="cate-tit"><i class="icon beauty"></i>뷰티</p>
+                                    <ul class="cate-items">
+                                        <li>
+                                            <div class="chkrdo-btn">
+                                                <input type="checkbox" name="pra-l" id="pra-l">
+                                                <label for="pra-l">
+                                                    <span class="name">프라엘</span>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="chkrdo-btn">
+                                                <input type="checkbox" name="medihair" id="medihair">
+                                                <label for="medihair">
+                                                    <span class="name">메디헤어</span>
+                                                </label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <!-- // 제품선택 카테고리형 -->
 
-                                <!-- 제품선택 제품군형 -->
-                                <!-- <ul class="input-pdt-type">
-                                    <li>
-                                        <div class="chkrdo-btn icon">
-                                            <input type="checkbox" name="tv" id="tv">
-                                            <label for="tv">
-                                                <i class="icon tv"></i><span class="name">TV</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn icon">
-                                            <input type="checkbox" name="soundbar" id="soundbar">
-                                            <label for="soundbar">
-                                                <i class="icon soundbar"></i><span class="name">사운드바</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn icon">
-                                            <input type="checkbox" name="laptop" id="laptop">
-                                            <label for="laptop">
-                                                <i class="icon laptop"></i><span class="name">노트북</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn icon">
-                                            <input type="checkbox" name="desktop" id="desktop">
-                                            <label for="desktop">
-                                                <i class="icon desktop"></i><span class="name">데스크탑</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn icon">
-                                            <input type="checkbox" name="fridge" id="fridge">
-                                            <label for="fridge">
-                                                <i class="icon fridge"></i><span class="name">냉장고</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn icon">
-                                            <input type="checkbox" name="washing" id="washing">
-                                            <label for="washing">
-                                                <i class="icon washing"></i><span class="name">세탁기/건조기</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn icon">
-                                            <input type="checkbox" name="air-con" id="air-con">
-                                            <label for="air-con">
-                                                <i class="icon air-con"></i><span class="name">에어컨</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn icon">
-                                            <input type="checkbox" name="pra-l" id="pra-l">
-                                            <label for="pra-l">
-                                                <i class="icon pra-l"></i><span class="name">프라엘</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn icon">
-                                            <input type="checkbox" name="vaccum" id="vaccum">
-                                            <label for="vaccum">
-                                                <i class="icon vaccum"></i><span class="name">청소기</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn icon">
-                                            <input type="checkbox" name="styler" id="styler">
-                                            <label for="styler">
-                                                <i class="icon styler"></i><span class="name">스타일러</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn icon">
-                                            <input type="checkbox" name="air-clean" id="air-clean">
-                                            <label for="air-clean">
-                                                <i class="icon air-clean"></i><span class="name">공기청정기</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn icon">
-                                            <input type="checkbox" name="range" id="range">
-                                            <label for="range">
-                                                <i class="icon range"></i><span class="name">전기레인지</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn icon">
-                                            <input type="checkbox" name="ipad" id="ipad">
-                                            <label for="ipad">
-                                                <i class="icon ipad"></i><span class="name">아이패드</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn icon">
-                                            <input type="checkbox" name="projector" id="projector">
-                                            <label for="projector">
-                                                <i class="icon projector"></i><span class="name">프로젝터</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn icon">
-                                            <input type="checkbox" name="medihair" id="medihair">
-                                            <label for="medihair">
-                                                <i class="icon medihair"></i><span class="name">메디헤어</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                </ul> -->
-                                <!-- // 제품선택 제품군형 -->
+                            <!-- 제품선택 제품군형 -->
+                            <!-- <ul class="input-pdt-type">
+                                <li>
+                                    <div class="chkrdo-btn icon">
+                                        <input type="checkbox" name="tv" id="tv">
+                                        <label for="tv">
+                                            <i class="icon tv"></i><span class="name">TV</span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="chkrdo-btn icon">
+                                        <input type="checkbox" name="soundbar" id="soundbar">
+                                        <label for="soundbar">
+                                            <i class="icon soundbar"></i><span class="name">사운드바</span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="chkrdo-btn icon">
+                                        <input type="checkbox" name="laptop" id="laptop">
+                                        <label for="laptop">
+                                            <i class="icon laptop"></i><span class="name">노트북</span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="chkrdo-btn icon">
+                                        <input type="checkbox" name="desktop" id="desktop">
+                                        <label for="desktop">
+                                            <i class="icon desktop"></i><span class="name">데스크탑</span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="chkrdo-btn icon">
+                                        <input type="checkbox" name="fridge" id="fridge">
+                                        <label for="fridge">
+                                            <i class="icon fridge"></i><span class="name">냉장고</span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="chkrdo-btn icon">
+                                        <input type="checkbox" name="washing" id="washing">
+                                        <label for="washing">
+                                            <i class="icon washing"></i><span class="name">세탁기/건조기</span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="chkrdo-btn icon">
+                                        <input type="checkbox" name="air-con" id="air-con">
+                                        <label for="air-con">
+                                            <i class="icon air-con"></i><span class="name">에어컨</span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="chkrdo-btn icon">
+                                        <input type="checkbox" name="pra-l" id="pra-l">
+                                        <label for="pra-l">
+                                            <i class="icon pra-l"></i><span class="name">프라엘</span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="chkrdo-btn icon">
+                                        <input type="checkbox" name="vaccum" id="vaccum">
+                                        <label for="vaccum">
+                                            <i class="icon vaccum"></i><span class="name">청소기</span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="chkrdo-btn icon">
+                                        <input type="checkbox" name="styler" id="styler">
+                                        <label for="styler">
+                                            <i class="icon styler"></i><span class="name">스타일러</span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="chkrdo-btn icon">
+                                        <input type="checkbox" name="air-clean" id="air-clean">
+                                        <label for="air-clean">
+                                            <i class="icon air-clean"></i><span class="name">공기청정기</span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="chkrdo-btn icon">
+                                        <input type="checkbox" name="range" id="range">
+                                        <label for="range">
+                                            <i class="icon range"></i><span class="name">전기레인지</span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="chkrdo-btn icon">
+                                        <input type="checkbox" name="ipad" id="ipad">
+                                        <label for="ipad">
+                                            <i class="icon ipad"></i><span class="name">아이패드</span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="chkrdo-btn icon">
+                                        <input type="checkbox" name="projector" id="projector">
+                                        <label for="projector">
+                                            <i class="icon projector"></i><span class="name">프로젝터</span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="chkrdo-btn icon">
+                                        <input type="checkbox" name="medihair" id="medihair">
+                                        <label for="medihair">
+                                            <i class="icon medihair"></i><span class="name">메디헤어</span>
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul> -->
+                            <!-- // 제품선택 제품군형 -->
 
-                                <h3 class="step-tit">구매 희망 시기<sup>*</sup></h3>
-                                <ul class="input-base-type">
-                                    <li>
-                                        <div class="chkrdo-btn">
-                                            <input type="radio" name="period" id="weeks01">
-                                            <label for="weeks01">
-                                                <span class="name">1주 내</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn">
-                                            <input type="radio" name="period" id="weeks02">
-                                            <label for="weeks02">
-                                                <span class="name">2주 내</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn">
-                                            <input type="radio" name="period" id="weeks03">
-                                            <label for="weeks03">
-                                                <span class="name">3주 내</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn">
-                                            <input type="radio" name="period" id="month01">
-                                            <label for="month01">
-                                                <span class="name">1개월 내</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn">
-                                            <input type="radio" name="period" id="month02">
-                                            <label for="month02">
-                                                <span class="name">2개월 내</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn">
-                                            <input type="radio" name="period" id="month03">
-                                            <label for="month03">
-                                                <span class="name">3개월 내</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                </ul>
+                            <h3 class="step-tit">구매 희망 시기<sup>*</sup></h3>
+                            <ul class="input-base-type">
+                                <li>
+                                    <div class="chkrdo-btn">
+                                        <input type="radio" name="period" id="weeks01">
+                                        <label for="weeks01">
+                                            <span class="name">1주 내</span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="chkrdo-btn">
+                                        <input type="radio" name="period" id="weeks02">
+                                        <label for="weeks02">
+                                            <span class="name">2주 내</span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="chkrdo-btn">
+                                        <input type="radio" name="period" id="weeks03">
+                                        <label for="weeks03">
+                                            <span class="name">3주 내</span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="chkrdo-btn">
+                                        <input type="radio" name="period" id="month01">
+                                        <label for="month01">
+                                            <span class="name">1개월 내</span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="chkrdo-btn">
+                                        <input type="radio" name="period" id="month02">
+                                        <label for="month02">
+                                            <span class="name">2개월 내</span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="chkrdo-btn">
+                                        <input type="radio" name="period" id="month03">
+                                        <label for="month03">
+                                            <span class="name">3개월 내</span>
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
 
                             <h3 class="step-tit">추가 전달사항<span>(선택)</span></span></h3>
                             <div class="text-area">
-                                <textarea title="추가 전달사항 입력" maxlength="100" placeholder="원하시는 제품의 기능이나 가격대, 기타 문의사항을 남겨주시면 원활한 상담이 가능합니다."></textarea>
+                                <textarea title="추가 전달사항 입력" maxlength="100"
+                                    placeholder="원하시는 제품의 기능이나 가격대, 기타 문의사항을 남겨주시면 원활한 상담이 가능합니다."></textarea>
                                 <p class="info-msg">* 텍스트는 100자까지 입력가능합니다.</p>
                                 <p class="txt-count"><span>0</span>/100</p>
                             </div>
                         </form>
                     </div>
+
                     <div class="btn-area">
                         <button type="button" class="btn s01 border-red arr-right">다음으로</button>
                     </div>
+
                 </div>
                 <!-- // step 1 -->
 
                 <!-- step 2 -->
                 <div class="step-area step02 active"><!-- active 클래스 추가 -->
+
                     <div class="result-area active"><!-- active 클래스 추가 -->
                         <div class="info-step02">
                             <div class="info-txt-com active"><!-- active 클래스 추가 -->
@@ -449,13 +503,15 @@
                                 </a>
                             </div>
 
-                            <div class="info-txt-uncom active"><!-- active 클래스 추가 --> 
+                            <div class="info-txt-uncom active"><!-- active 클래스 추가 -->
                                 <p class="page-num">STEP02</p>
                                 <p class="txt">방문하실 매장과 일시를 선택해주세요.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="main-area active"><!-- active 클래스 추가 -->                 
+
+                    <div class="main-area active"><!-- active 클래스 추가 -->
+
                         <div class="shop-date-wrap">
                             <div class="view-area">
                                 <h3 class="step-tit">상담하실 매장과 상담일시 선택<sup>*</sup></h3>
@@ -463,6 +519,7 @@
                                     <button type="button" class="view-map active">지도보기</button><!-- active 클래스 추가 -->
                                     <button type="button" class="view-list">리스트보기</button>
                                 </div>
+
                                 <div class="sort-block">
                                     <!-- 지도보기 영역 -->
                                     <div class="map-wrap active"><!-- active 클래스 추가 -->
@@ -568,7 +625,8 @@
                                         <div class="search-wrap">
                                             <form action="#">
                                                 <div class="search-box">
-                                                    <input type="text" placeholder="매장명을 검색해주세요." title="매장명을 검색해주세요." required="required">
+                                                    <input type="text" placeholder="매장명을 검색해주세요."
+                                                        title="매장명을 검색해주세요." required="required">
                                                     <button type="button" class="btn-clear">검색어 삭제</button>
                                                     <button type="button" class="btn-search">검색</button>
                                                 </div>
@@ -577,22 +635,54 @@
                                         <div class="view-wrap">
                                             <div class="lt">
                                                 <ul class="shop-list">
-                                                    <li><button type="button" class="btn-city">전체<span>530</span></button></li>
-                                                    <li><button type="button" class="btn-city active">서울특별시<span>7</span></button><!-- active 클래스 추가 --></li>
-                                                    <li><button type="button" class="btn-city">부산광역시<span>38</span></button></li>
-                                                    <li><button type="button" class="btn-city">대구광역시<span>32</span></button></li>
-                                                    <li><button type="button" class="btn-city">인천광역시<span>56</span></button></li>
-                                                    <li><button type="button" class="btn-city">광주광역시<span>72</span></button></li>
-                                                    <li><button type="button" class="btn-city">대전광역시<span>65</span></button></li>
-                                                    <li><button type="button" class="btn-city">울산광역시<span>79</span></button></li>
-                                                    <li><button type="button" class="btn-city">세종특별자치시청<span>5</span></button></li>
-                                                    <li><button type="button" class="btn-city">부산광역시<span>38</span></button></li>
-                                                    <li><button type="button" class="btn-city">대구광역시<span>32</span></button></li>
-                                                    <li><button type="button" class="btn-city">인천광역시<span>56</span></button></li>
-                                                    <li><button type="button" class="btn-city">광주광역시<span>72</span></button></li>
-                                                    <li><button type="button" class="btn-city">대전광역시<span>65</span></button></li>
-                                                    <li><button type="button" class="btn-city">울산광역시<span>79</span></button></li>
-                                                    <li><button type="button" class="btn-city">세종특별자치시청<span>5</span></button></li>
+                                                    <li>
+                                                        <button type="button" class="btn-city">전체<span>530</span></button>
+                                                    </li>
+                                                    <li>
+                                                        <button type="button" class="btn-city active">서울특별시<span>7</span></button><!-- active 클래스 추가 -->
+                                                    </li>
+                                                    <li>
+                                                        <button type="button" class="btn-city">부산광역시<span>38</span></button>
+                                                    </li>
+                                                    <li>
+                                                        <button type="button" class="btn-city">대구광역시<span>32</span></button>
+                                                    </li>
+                                                    <li>
+                                                        <button type="button" class="btn-city">인천광역시<span>56</span></button>
+                                                    </li>
+                                                    <li>
+                                                        <button type="button" class="btn-city">광주광역시<span>72</span></button>
+                                                    </li>
+                                                    <li>
+                                                        <button type="button" class="btn-city">대전광역시<span>65</span></button>
+                                                    </li>
+                                                    <li>
+                                                        <button type="button" class="btn-city">울산광역시<span>79</span></button>
+                                                    </li>
+                                                    <li>
+                                                        <button type="button" class="btn-city">세종특별자치시청<span>5</span></button>
+                                                    </li>
+                                                    <li>
+                                                        <button type="button" class="btn-city">부산광역시<span>38</span></button>
+                                                    </li>
+                                                    <li>
+                                                        <button type="button" class="btn-city">대구광역시<span>32</span></button>
+                                                    </li>
+                                                    <li>
+                                                        <button type="button" class="btn-city">인천광역시<span>56</span></button>
+                                                    </li>
+                                                    <li>
+                                                        <button type="button" class="btn-city">광주광역시<span>72</span></button>
+                                                    </li>
+                                                    <li>
+                                                        <button type="button" class="btn-city">대전광역시<span>65</span></button>
+                                                    </li>
+                                                    <li>
+                                                        <button type="button" class="btn-city">울산광역시<span>79</span></button>
+                                                    </li>
+                                                    <li>
+                                                        <button type="button" class="btn-city">세종특별자치시청<span>5</span></button>
+                                                    </li>
                                                 </ul>
                                             </div>
                                             <div class="mo-select">
@@ -622,7 +712,9 @@
                                                                     <li>야간무인</li>
                                                                 </ul>
                                                             </div>
-                                                            <p class="info-txt">서울특별시 강남구 도산대로 403 (청담동 86-1)</p>
+                                                            <p class="info-txt">
+                                                                서울특별시 강남구 도산대로 403 (청담동 86-1)
+                                                            </p>
                                                         </a>
                                                     </li>
                                                     <li>
@@ -637,7 +729,9 @@
                                                                     <li>야간무인</li>
                                                                 </ul>
                                                             </div>
-                                                            <p class="info-txt">서울특별시 강남구 도산대로 403 (청담동 86-1)</p>
+                                                            <p class="info-txt">
+                                                                서울특별시 강남구 도산대로 403 (청담동 86-1)
+                                                            </p>
                                                         </a>
                                                     </li>
                                                     <li>
@@ -652,7 +746,9 @@
                                                                     <li>야간무인</li>
                                                                 </ul>
                                                             </div>
-                                                            <p class="info-txt">서울특별시 강남구 도산대로 403 (청담동 86-1)</p>
+                                                            <p class="info-txt">
+                                                                서울특별시 강남구 도산대로 403 (청담동 86-1)
+                                                            </p>
                                                         </a>
                                                     </li>
                                                     <li>
@@ -667,7 +763,9 @@
                                                                     <li>야간무인</li>
                                                                 </ul>
                                                             </div>
-                                                            <p class="info-txt">서울특별시 강남구 도산대로 403 (청담동 86-1)</p>
+                                                            <p class="info-txt">
+                                                                서울특별시 강남구 도산대로 403 (청담동 86-1)
+                                                            </p>
                                                         </a>
                                                     </li>
                                                     <li>
@@ -682,7 +780,9 @@
                                                                     <li>야간무인</li>
                                                                 </ul>
                                                             </div>
-                                                            <p class="info-txt">서울특별시 강남구 도산대로 403 (청담동 86-1)</p>
+                                                            <p class="info-txt">
+                                                                서울특별시 강남구 도산대로 403 (청담동 86-1)
+                                                            </p>
                                                         </a>
                                                     </li>
                                                     <li>
@@ -697,7 +797,9 @@
                                                                     <li>야간무인</li>
                                                                 </ul>
                                                             </div>
-                                                            <p class="info-txt">서울특별시 강남구 도산대로 403 (청담동 86-1)</p>
+                                                            <p class="info-txt">
+                                                                서울특별시 강남구 도산대로 403 (청담동 86-1)
+                                                            </p>
                                                         </a>
                                                     </li>
                                                     <li>
@@ -712,7 +814,9 @@
                                                                     <li>야간무인</li>
                                                                 </ul>
                                                             </div>
-                                                            <p class="info-txt">서울특별시 강남구 도산대로 403 (청담동 86-1)</p>
+                                                            <p class="info-txt">
+                                                                서울특별시 강남구 도산대로 403 (청담동 86-1)
+                                                            </p>
                                                         </a>
                                                     </li>
                                                     <li>
@@ -727,7 +831,9 @@
                                                                     <li>야간무인</li>
                                                                 </ul>
                                                             </div>
-                                                            <p class="info-txt">서울특별시 강남구 도산대로 403 (청담동 86-1)</p>
+                                                            <p class="info-txt">
+                                                                서울특별시 강남구 도산대로 403 (청담동 86-1)
+                                                            </p>
                                                         </a>
                                                     </li>
                                                     <li>
@@ -742,7 +848,9 @@
                                                                     <li>야간무인</li>
                                                                 </ul>
                                                             </div>
-                                                            <p class="info-txt">서울특별시 강남구 도산대로 403 (청담동 86-1)</p>
+                                                            <p class="info-txt">
+                                                                서울특별시 강남구 도산대로 403 (청담동 86-1)
+                                                            </p>
                                                         </a>
                                                     </li>
                                                     <li>
@@ -757,7 +865,9 @@
                                                                     <li>야간무인</li>
                                                                 </ul>
                                                             </div>
-                                                            <p class="info-txt">서울특별시 강남구 도산대로 403 (청담동 86-1)</p>
+                                                            <p class="info-txt">
+                                                                서울특별시 강남구 도산대로 403 (청담동 86-1)
+                                                            </p>
                                                         </a>
                                                     </li>
                                                 </ul>
@@ -769,8 +879,10 @@
                                             </div>
                                         </div>
                                     </div><!-- //.list-wrap -->
+
                                 </div><!-- //.sort-block -->
                             </div>
+
                             <div class="bottom-area">
                                 <div class="shop-info-wrap">
                                     <div class="box">
@@ -816,13 +928,15 @@
                                     </div>
                                 </div>
                                 <div class="date-wrap">
-                                    <div class="calendar active"><!-- active 클래스 추가(mo) -->
+                                    <div class="calendar active">
+                                        <!-- active 클래스 추가(mo) -->
                                         <div class="mo-top">
                                             <p class="mo-tit">예약일 선택</p>
                                         </div>
                                         <div id="calendar" class="cal-cont"></div> <!-- #calendar 로 달력호출 -->
                                     </div>
-                                    <div class="time active"><!-- active 클래스 추가(mo) -->
+                                    <div class="time active">
+                                        <!-- active 클래스 추가(mo) -->
                                         <div class="mo-top">
                                             <p class="mo-tit">예약시간 선택</p>
                                         </div>
@@ -909,6 +1023,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="btn-area bg active"><!-- active 클래스 추가 -->
                         <div class="result-txt">
                             <!-- <p>상담하실 매장과 일시를 선택해주세요.</p> -->
@@ -917,22 +1032,25 @@
                         </div>
                         <button type="button" class="btn s01 border-red arr-right">다음으로</button>
                     </div>
+
                 </div>
                 <!-- // step 2 -->
 
                 <!-- step 3 -->
                 <div class="step-area step03 active"><!-- active 클래스 추가 -->
+
                     <div class="result-area active"><!-- active 클래스 추가 -->
                         <div class="info-step03">
-                            <div class="info-txt-uncom active"><!-- active 클래스 추가 --> 
+                            <div class="info-txt-uncom active"><!-- active 클래스 추가 -->
                                 <p class="page-num">STEP03</p>
                                 <p class="txt">예약자 정보를 입력해주세요.</p>
                             </div>
                         </div>
                     </div>
+
                     <div class="main-area active"><!-- active 클래스 추가 -->
                         <div class="user-info-area">
-                            <h3 class="step-tit">예약자 정보<sup>*</sup></h3>
+                            <h3 class="step-tit">예약자 정보</h3>
                             <div class="lt">
                                 <form action="#">
                                     <div class="box-gray">
@@ -984,24 +1102,26 @@
                                                         <ul>
                                                             <li>
                                                                 <span>1. 수집하는 개인정보의 항목</span>
-                                                                <p>1) 필수사항 : 이름, 휴대폰번호, 매장 방문 가능일, 구매 희망 제품, 방문 예정 매장, 구매 희망 시기</p>
+                                                                <p>1) 필수사항 : 이름, 휴대폰번호, 매장 방문 가능일, 구매 희망 제품, 방문 예정
+                                                                    매장, 구매 희망 시기</p>
                                                             </li>
                                                             <li>
                                                                 <span>2. 개인정보 이용목적</span>
                                                                 <p>
-                                                                - BEST SHOP 미리미리 페스티벌 경품 응모<br>
-                                                                - 매장 상담 예약 확인 TM
+                                                                    - BEST SHOP 미리미리 페스티벌 경품 응모<br>
+                                                                    - 매장 상담 예약 확인 TM
                                                                 </p>
                                                             </li>
                                                             <li>
                                                                 <span>1. 수집하는 개인정보의 항목</span>
-                                                                <p>1) 필수사항 : 이름, 휴대폰번호, 매장 방문 가능일, 구매 희망 제품, 방문 예정 매장, 구매 희망 시기</p>
+                                                                <p>1) 필수사항 : 이름, 휴대폰번호, 매장 방문 가능일, 구매 희망 제품, 방문 예정
+                                                                    매장, 구매 희망 시기</p>
                                                             </li>
                                                             <li>
                                                                 <span>2. 개인정보 이용목적</span>
                                                                 <p>
-                                                                - BEST SHOP 미리미리 페스티벌 경품 응모<br>
-                                                                - 매장 상담 예약 확인 TM
+                                                                    - BEST SHOP 미리미리 페스티벌 경품 응모<br>
+                                                                    - 매장 상담 예약 확인 TM
                                                                 </p>
                                                             </li>
                                                         </ul>
@@ -1021,7 +1141,8 @@
                                                         <ul>
                                                             <li>
                                                                 <span>1. 마케팅 정보활용 동의</span>
-                                                                <p>1) 필수 : 이름, 휴대번호, 매장방문일, 구매 희망 제품, 방문 예정 매장, 구매 희망 시기</p>
+                                                                <p>1) 필수 : 이름, 휴대번호, 매장방문일, 구매 희망 제품, 방문 예정 매장, 구매
+                                                                    희망 시기</p>
                                                             </li>
                                                             <li>
                                                                 <span>2. 개인정보 이용목적</span>
@@ -1037,7 +1158,8 @@
                             </div>
                             <div class="bottom-area">
                                 <h4 class="tit">필수 위탁 고지</h4>
-                                <p class="desc">LG전자는 개인정보 취급업무 중 서비스 제공에 필요한 필수적 업무를 아래와 같이 외부 전문업체에 위탁하여 운영하고 있으며, 해당 업체는 서비스 이행을 위한 목적으로만 사용됩니다.</p>
+                                <p class="desc">LG전자는 개인정보 취급업무 중 서비스 제공에 필요한 필수적 업무를 아래와 같이 외부 전문업체에 위탁하여 운영하고 있으며,
+                                    해당 업체는 서비스 이행을 위한 목적으로만 사용됩니다.</p>
                                 <div class="tb_row tb-row-bl white size-s">
                                     <table>
                                         <caption>필수 위탁 고지 표</caption>
@@ -1070,10 +1192,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="btn-area center active"><!-- active 클래스 추가 -->
-                        <!-- <a href="#popup-certification" class="btn btn-res btnPopOpen">상담 예약하기</a> -->
-                        <button type="button" data-href="#popup-certification" class="btn btn-res btnPopOpen">상담 예약하기</button>
+
+                    <div class="btn-area center m-hidden active"><!-- active 클래스 추가 -->
+                        <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담 예약하기</button>
                     </div>
+
                 </div>
                 <!-- // step 3 -->
             </section>
