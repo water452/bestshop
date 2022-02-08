@@ -756,12 +756,12 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-main .guide-area [class*="guide-banner"] {padding:0 16px 38px}
     .res-main .guide-area [class*="guide-banner"] .swiper-slide {width:calc(25% - 12.375px); min-width:125px}
     .res-main .guide-area [class*="guide-banner"] .swiper-slide + .swiper-slide {margin-left:16px}
-    .res-main .guide-area [class*="guide-banner"] .box {position:relative; min-height:125px; padding:11px 12px 5px; border-radius:8px; border-width:1.5px}
+    .res-main .guide-area [class*="guide-banner"] .box {position:relative; min-height:125px; padding:11px 7px 3px; border-radius:8px; border-width:1.5px}
     .res-main .guide-area [class*="guide-banner"] .box::before {width:16px!important; left:-18px!important; background-size:5px!important}
-    .res-main .guide-area [class*="guide-banner"] .box .icon-wrap {position:absolute; width:60px; height:60px; bottom:5px; left:calc(50% - 30px)}
+    .res-main .guide-area [class*="guide-banner"] .box .icon-wrap {position:absolute; width:60px; height:60px; bottom:3px; left:calc(50% - 30px)}
     .res-main .guide-area [class*="guide-banner"] .box .tit-wrap {margin-bottom:0}
     .res-main .guide-area [class*="guide-banner"] .box .tit-wrap .tit {font-size:10px; line-height:15px}
-    .res-main .guide-area [class*="guide-banner"] .box .tit-wrap strong {font-size:13px; line-height:19px}
+    .res-main .guide-area [class*="guide-banner"] .box .tit-wrap strong {font-size:12px; line-height:17px}
     .res-main .guide-area [class*="guide-banner"] .box .txt {margin-top:10px; font-size:11px; line-height:16px; white-space:initial; word-break:keep-all}
     .res-main .guide-area [class*="guide-banner"] .swiper-scrollbar {width:calc(100% - 32px); left:16px; bottom:26px; height:2px}
     .res-main .top-wrap .add-area {margin:20px auto}

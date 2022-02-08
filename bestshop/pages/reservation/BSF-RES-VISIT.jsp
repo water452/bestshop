@@ -1428,9 +1428,9 @@
                     type: 'bullets',
                     clickable: true,
                 },
-                // autoplay: {
-                //     delay: 3000,
-                // },
+                autoplay: {
+                    delay: 3000,
+                },
             });
             // play/stop 버튼
             $('.btn-play').click(function(){

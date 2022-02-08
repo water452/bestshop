@@ -66,7 +66,7 @@
                                             <div class="box">
                                                 <div class="tit-wrap">
                                                     <span class="tit">STEP 01</span>
-                                                    <strong>상담 희망 제품 선택</strong>
+                                                    <strong>화상 상담 예약</strong>
                                                 </div>
                                                 <span class="icon-wrap">
                                                     <i class="icon01"></i>
@@ -77,7 +77,7 @@
                                             <div class="box">
                                                 <div class="tit-wrap">
                                                     <span class="tit">STEP 02</span>
-                                                    <strong>매장 및 일시 선택</strong>
+                                                    <strong>사전 전화 안내 후 문자 전송</strong>
                                                 </div>
                                                 <span class="icon-wrap">
                                                     <i class="icon02"></i>
@@ -88,7 +88,7 @@
                                             <div class="box">
                                                 <div class="tit-wrap">
                                                     <span class="tit">STEP 03</span>
-                                                    <strong>고객 정보 입력 후 예약 완료</strong>
+                                                    <strong>화상 상담 URL 접속</strong>
                                                 </div>
                                                 <span class="icon-wrap">
                                                     <i class="icon03"></i>
@@ -99,7 +99,7 @@
                                             <div class="box">
                                                 <div class="tit-wrap">
                                                     <span class="tit">STEP 04</span>
-                                                    <strong>사전 전화 안내 후 매장 방문</strong>
+                                                    <strong>상담 진행 및 완료</strong>
                                                 </div>
                                                 <span class="icon-wrap">
                                                     <i class="icon04"></i>
