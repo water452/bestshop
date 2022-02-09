@@ -433,11 +433,8 @@
         var _winWd = $(window).width(),
             _winHt = parseInt($(window).height()) - 146;
 
-        if(_winWd > 767){
-            filterToggle(); // filter popup > toggle
-        } else {
+        if(_winWd <= 767){
             mToggle();
-            filterToggleM(); // filter popup mobile > toggle
         }
     });
 </script>

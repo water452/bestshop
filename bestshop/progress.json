@@ -728,7 +728,7 @@
       "worker": "이수용",
       "startdate": "2022-01-19",
       "finishdate": "2022-01-26",
-      "status": "진행예정",
+      "status": "완료",
       "filename": "./pages/benefit/BSF-BEN-BESTSHOP.jsp",
       "memo": ""
     },
@@ -740,7 +740,7 @@
       "worker": "이수용",
       "startdate": "2022-01-19",
       "finishdate": "2022-01-26",
-      "status": "진행예정",
+      "status": "완료",
       "filename": "./pages/benefit/BSF-BEN-CARD.jsp",
       "memo": ""
     },
@@ -752,7 +752,7 @@
       "worker": "이수용",
       "startdate": "2022-01-19",
       "finishdate": "2022-01-26",
-      "status": "진행예정",
+      "status": "완료",
       "filename": "./pages/benefit/BSF-BEN-CARD-FREE.jsp",
       "memo": ""
     },
@@ -776,8 +776,8 @@
       "worker": "이수용",
       "startdate": "2022-01-19",
       "finishdate": "2022-01-26",
-      "status": "진행예정",
-      "filename": "",
+      "status": "완료",
+      "filename": "./pages/benefit/BSF-BEN-SIGNATURE.jsp",
       "memo": ""
     },
     {
