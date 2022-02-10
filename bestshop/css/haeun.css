@@ -67,12 +67,12 @@
 .res-main .add-area [class*="res-banner"] .swiper-slide > .box {display:flex; align-items:center; width:100%; height:290px; border-radius:16px; overflow:hidden}
 .res-main .add-area [class*="res-banner"] .swiper-slide > .box > img {display:block; width:100%}
 .res-main .add-area [class*="res-banner"] .banner-btns {top:50%}
-.res-main .add-area .banner-indi-wrap {position:absolute; left:0; right:0; bottom:24px; display:flex; align-items:center; justify-content:center; margin:0 40px; padding:0 45px; z-index:10}
-.res-main .add-area .banner-indi-wrap .swiper-pagination {position:static; display:flex; width:100%; font-size:0}
-.res-main .add-area .banner-indi-wrap .swiper-pagination .swiper-pagination-bullet {display:block; flex:1; height:4px; margin:0 15px; border-radius:0; background-color:#fff; opacity:0.5}
-.res-main .add-area .banner-indi-wrap .swiper-pagination .swiper-pagination-bullet-active {opacity:1}
-.res-main .add-area .banner-indi-wrap .btn-play {position:absolute; bottom:16px; right:60px; width:25px; height:25px; background:url(../images/icons/btn-stop.svg) no-repeat center / contain}
-.res-main .add-area .banner-indi-wrap .btn-play.pause {background:url(../images/icons/btn-play.svg) no-repeat center / contain}
+.res-main .add-area .banner-indi-wrap {position:absolute; right:0; bottom:24px; display:flex; align-items:center; justify-content:center; z-index:10}
+.res-main .add-area .banner-indi-wrap .swiper-pagination {position:static; height:46px; border-radius:46px; background-color:rgba(0,0,0,0.3); color:#fff; font-size:16px; font-weight:300; line-height:46px}
+.res-main .add-area .banner-indi-wrap .swiper-pagination .swiper-pagination-current {margin-right:6px; font-weight:normal}
+.res-main .add-area .banner-indi-wrap .swiper-pagination .swiper-pagination-total {margin-left:6px}
+.res-main .add-area .banner-indi-wrap .btn-play {width:46px; height:46px; background:url(../images/icons/btn_pause.svg) no-repeat center / contain}
+.res-main .add-area .banner-indi-wrap .btn-play.pause {background:url(../images/icons/btn_start.svg) no-repeat center / contain}
 
 /* 매장상담예약 컨텐츠 영역 */
 .cont-area {padding-top:8px}
@@ -332,7 +332,9 @@ ul.shop-list li [class^="btn-"] > span {margin-left:3px}
 .popup .phone-check-wrap ul.input-list-type {max-width:630px; margin-top:50px}
 .popup .phone-check-wrap ul.input-list-type .tit {width:180px}
 .popup .phone-check-wrap ul.input-list-type .txt-box {width:calc(100% - 180px)}
-.popup .pop-wrap .pop-cont .caution-box {padding:20px 0 10px; border-top:2px solid #ddd}
+.popup .pop-wrap .pop-cont .caution-area {padding:20px 0 10px; border-top:2px solid #ddd}
+.popup .pop-wrap .pop-cont .caution-area .bull > li {font-weight:normal}
+.popup .pop-wrap .pop-cont .caution-area .bull > li + li {margin-top:6px}
 
 /* 완료페이지 */
 .done-msg-area {padding:0 40px; text-align:center}
@@ -361,6 +363,8 @@ ul.shop-list li [class^="btn-"] > span {margin-left:3px}
 .res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon04 {background:url(../images/icons/icon-res-guide-video-04.svg) no-repeat center / contain}
 .res-main .top-wrap .guide-area .guide-info-list {max-width:1460px; margin:0 auto}
 .res-main .top-wrap .guide-area .guide-info-list .inner {padding:0 40px 30px}
+.res-main .top-wrap .guide-area .guide-info-list .bull > li {font-weight:normal}
+.res-main .top-wrap .guide-area .guide-info-list .bull > li + li {margin-top:8px}
 
 /* 화상상담예약 - 모바일 최초접속페이지 / 상담종료페이지 */
 .res-video-mobile {position:fixed; left:0; right:0; top:0; bottom:0; padding:0 16px}
@@ -466,6 +470,8 @@ ul.prd-list > li .box .price-wrap dl {display:flex; justify-content:space-betwee
 ul.prd-list > li .box .price-wrap dl dt {color:#767676; font-size:14px; line-height:22px}
 ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-height:28px}
 .res-main.care .prd-list-area .btn-area {display:block!important; margin:20px auto 0!important}
+
+.res-main.care .caution-box {margin-top:-10px}
 
 /* 소모품구매예약페이지 */
 .res-main .guide-area .guide-process .guide-banner-care-ex .box .icon-wrap .icon01 {background:url(../images/icons/icon-res-guide-ex-01.svg) no-repeat center / contain}
@@ -589,15 +595,17 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 .inq-area .top-area {padding-bottom:16px; border-bottom:1px solid #000}
 .inq-area .top-area .tit {font-size:22px; font-weight:500; line-height:30px}
 .inq-area .inq-box-area .inq-box .body-area {padding-top:12px}
+.inq-area .inq-box-area .inq-box .body-area ul.info {margin-top:8px}
+.inq-area .inq-box-area .inq-box .body-area ul.info li {font-weight:normal}
+.inq-area .inq-box-area .inq-box .body-area ul.info li + li {margin-top:6px}
 .inq-area .inq-box-area .inq-box .btn-area {position:absolute; bottom:70px; left:0; right:0; text-align:center}
 .inq-area .inq-box-area .inq-box .btn-area .btn {display:inline-block}
 
 .inq-area .inq-box-area .inq-box .phone-check-wrap {padding-bottom:44px}
-.inq-area .inq-box-area .inq-box .phone-check-wrap sup {color:#e81953; font-size:14px; line-height:22px}
 .inq-area .inq-box-area .inq-box .phone-check-wrap ul.input-list-type {margin-top:30px}
 
-.inq-area .caution-box {margin-top:40px; padding:40px 40px 34px; border-radius:8px; background-color:#f4f4f4}
-.inq-area .caution-box .tit {margin-bottom:8px; font-size:14px; font-weight:500; line-height:22px}
+.caution-box {margin-top:40px; padding:42px 40px; border-radius:8px; background-color:#f4f4f4}
+.caution-box .tit {margin-bottom:10px; font-size:14px; font-weight:500; line-height:20px}
 
 /* 상담예약조회 - 탭페이지 */
 .inq-area .res-his-area {padding-top:48px}
@@ -618,6 +626,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 .inq-area .res-his-area .btn-area {margin-top:8px}
 .inq-area .res-his-area .res-history a[target="_blank"] {position:relative}
 .inq-area .res-his-area .res-history a[target="_blank"]::after {content:''; display:inline-block; position:absolute; width:16px; height:16px; bottom:2px; background:url(../images/icons/btn-outlink-16.svg) no-repeat center / contain}
+.inq-area .res-his-area .res-cancel {padding:0 16px; font-size:14px; font-weight:500; line-height:30px}
 
 /* 내게 맞는 제품 찾기 페이지 */
 .res-main .top-wrap .pro-banner {width:100%; max-width:1460px; margin:0 auto; padding:0 40px}
@@ -708,6 +717,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     /* 상담예약조회 - 탭페이지 */
     .inq-area .res-his-area .res-history .his-info-area .box-wrap dl {width:50%; min-width:0}
     .inq-area .res-his-area .res-history .his-info-area .box-wrap dl:nth-of-type(3n) {max-width:100%}
+    .inq-area .res-his-area .res-cancel {min-width:79px; padding:0 10px; font-size:10px; line-height:22px}
 }
 @media screen and (max-width:996px) {
     /* 제품선택 - 제품군형 */
@@ -978,7 +988,10 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .popup .phone-check-wrap ul.input-list-type {max-width:100%; margin-top:41px}
     .popup .phone-check-wrap ul.input-list-type .tit {width:auto}
     .popup .phone-check-wrap ul.input-list-type .txt-box {width:100%; margin-top:13px}
-    .popup .pop-wrap .pop-cont .caution-box {padding:25px 0 13px; border-top:1px solid #ddd}
+    .popup .pop-wrap .pop-cont .caution-area {padding:25px 0 13px; border-top:1px solid #ddd}
+    .popup .pop-wrap .pop-cont .caution-area .bull > li {font-size:13px; font-weight:500; line-height:19px}
+    .popup .pop-wrap .pop-cont .caution-area .bull > li::before {top:8.5px}
+    .popup .pop-wrap .pop-cont .caution-area .bull > li + li {margin-top:2px}
 
     /* 완료페이지 */
     .done-msg-area {padding:0 16px}
@@ -1006,6 +1019,9 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon03 {background:url(../images/icons/icon-res-guide-video-03_mo.svg) no-repeat center / 100%}
     .res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon04 {background:url(../images/icons/icon-res-guide-video-04_mo.svg) no-repeat center / 100%}
     .res-main .top-wrap .guide-area .guide-info-list .inner {padding:0 16px 28px}
+    .res-main .top-wrap .guide-area .guide-info-list .bull > li {font-size:12px; line-height:17px}
+    .res-main .top-wrap .guide-area .guide-info-list .bull > li:before {top:7.5px}
+    .res-main .top-wrap .guide-area .guide-info-list .bull > li + li {margin-top:6px}
 
     /* 케어십상담예약페이지 */
     .res-main.care .cont-wrap .cont-area {padding-top:0}
@@ -1067,6 +1083,8 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 
     .res-main.care .cont-wrap .cont-area .step-area.step03 .btn-area {display:block; margin:10px auto 0}
     .res-main.care .cont-wrap .cont-area .step-area.step03 .btn-area.bg {display:none}
+
+    .res-main.care .caution-box {margin-top:50px}
 
     /* 소모품구매예약페이지 */
     .res-main.care-ex .top-wrap {margin-bottom:28px}
@@ -1156,17 +1174,13 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-main .inq-area .top-area {padding-bottom:12px}
     .res-main .inq-area .top-area .tit {font-size:16px; line-height:22px}
     .res-main .inq-area .inq-box-area .inq-box .body-area ul.info > li {font-size:14px; line-height:20px}
-    .res-main .inq-area .inq-box-area .inq-box .body-area ul.info > li::before {top:9.5px}
     .res-main .inq-area .inq-box-area .inq-box .btn-area {position:static; margin-top:55px}
     .res-main .inq-area .inq-box-area .inq-box .btn-area .btn {font-size:13px}
 
     .res-main .inq-area .inq-box-area .inq-box .phone-check-wrap {padding-bottom:0}
     .res-main .inq-area .inq-box-area .inq-box .phone-check-wrap .input-list-type {margin-top:40px}
 
-    .res-main .inq-area .caution-box {margin-top:24px; padding:20px}
-    .res-main .inq-area .caution-box ul li {padding-left:6px; font-size:14px; line-height:20px}
-    .res-main .inq-area .caution-box ul li::before {top:9.5px}
-    .res-main .inq-area .caution-box ul li + li {margin-top:5px}
+    .caution-box {margin-top:24px; padding:20px}
 
     /* 상담예약조회 - 탭페이지 */
     .inq-area .res-his-area {padding-top:19px}
