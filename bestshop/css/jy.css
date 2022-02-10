@@ -346,10 +346,9 @@ ul.input-cate-type .cate-tit > .icon.apple-watch { background: url("../images/ic
 .list-apt.ty-col { left: auto; width: auto; }
 .list-apt.ty-col > li { padding: 0; width: 100%; }
 .list-apt.ty-col > li + li { margin-top: 14px; }
-.img-slide-wrap { position: relative; left: -24px; width: calc(100% + 48px); }
-.img-slide-wrap .img-slide { padding: 0 24px; }
 .img-slide img { width: 100%; }
 .img-slide .slide-navi { position: absolute; bottom: 25px; left: 0; width: 100%; }
+.img-slide-wrap + .cont-area { margin-top: 40px; }
 .schedule-map-list { table-layout: fixed; display: table; margin-top: 80px; width: 100%; }
 .schedule-map-list > * { display: table-cell; vertical-align: top; }
 .sd-map { padding: 16px 0 0 17px; width: calc(512px + 17px); }
@@ -717,8 +716,8 @@ li[class*="blt"], li > [class*="blt"] { display: block; }
     .list-apt > li .branch li:before { right: -7px; margin-top: -4px; height: 8px; }
     .list-apt > li .btn-area { right: 12px; }
     .list-apt.ty-btn > li .li-wrap { padding-right: 116px; }
-    .img-slide-wrap { left: -16px; width: calc(100% + 32px); }
-    .img-slide-wrap .img-slide { padding: 0; }
+    .img-slide-wrap + .cont-area { margin-top: 20px; }
+    .img-slide-wrap { position: relative; left: -16px; width: calc(100% + 32px); }
     .img-slide .slide-navi { bottom: 20px; }
     .schedule-map-list { display: block; margin-top: 24px; }
     .schedule-map-list > * { display: block; }

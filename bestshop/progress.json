@@ -656,7 +656,7 @@
       "worker": "서강원",
       "startdate": "2022-01-21",
       "finishdate": "2022-01-21",
-      "status": "진행중",
+      "status": "완료",
       "filename": "./pages/event/BSF-EVE-APT-RES.jsp",
       "memo": ""
     },
@@ -668,7 +668,7 @@
       "worker": "서강원",
       "startdate": "2022-01-24",
       "finishdate": "2022-01-24",
-      "status": "진행중",
+      "status": "완료",
       "filename": "./pages/event/BSF-EVE-APT-RES.jsp",
       "memo": ""
     },

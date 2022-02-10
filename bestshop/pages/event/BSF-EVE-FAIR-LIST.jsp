@@ -172,7 +172,7 @@
 <!-- // container -->
 
 <script>
-    // 박람회 일정 슬라이드
+    // 슬라이드
     var imgSwiper = new Swiper(".img-slide", {
         speed : 800,
         slidesPerView: 1,
@@ -189,7 +189,7 @@
         }
     });
 
-    // 박람회 일정 슬라이드 (autoplay control)
+    // 슬라이드 (autoplay control)
     $('.img-slide .swiper-auto > button').on('click', function(){
         $('.img-slide .swiper-auto > button').toggleClass('active');
 

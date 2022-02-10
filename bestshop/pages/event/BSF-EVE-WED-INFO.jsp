@@ -1277,7 +1277,6 @@
             $('.body-area').stop().slideToggle();
             $('.bottom-fixed-wrap .dimmed').stop().fadeToggle(200);
         });
-
     });
 </script>
 

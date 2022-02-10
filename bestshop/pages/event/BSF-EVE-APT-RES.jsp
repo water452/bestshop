@@ -10,27 +10,33 @@
         </div>
     </div>
     <!-- contents -->
-    <div class="contents">
+    <div class="contents res-main">
         <div class="cont-wrap">
             <!-- 이벤트배너 -->
             <div class="img-slide-wrap">
                 <div class="swiper img-slide">
                     <ul class="swiper-wrapper">
                         <li class="swiper-slide">
-                            <img class="m-hidden" src="../../images/img-event-schedule01.png" alt="&nbsp;" /><!-- pc용 -->
-                            <img class="pc-hidden" src="../../images/img-event-schedule01-m.png" alt="&nbsp;" /><!-- mobile용 -->
+                            <img class="m-hidden" src="../../images/img-event-apt.png" alt="&nbsp;" /><!-- pc용 -->
+                            <img class="pc-hidden" src="../../images/img-event-apt-m.png" alt="&nbsp;" /><!-- mobile용 -->
                         </li>
                         <li class="swiper-slide">
-                            <img class="m-hidden" src="../../images/img-event-schedule02.png" alt="&nbsp;" /><!-- pc용 -->
-                            <img class="pc-hidden" src="../../images/img-event-schedule02-m.png" alt="&nbsp;" /><!-- mobile용 -->
+                            <img class="m-hidden" src="../../images/img-event-apt.png" alt="&nbsp;" /><!-- pc용 -->
+                            <img class="pc-hidden" src="../../images/img-event-apt-m.png" alt="&nbsp;" /><!-- mobile용 -->
                         </li>
                     </ul>
-                    <button type="button" class="swiper-button-next">다음 슬라이드</button>
-                    <button type="button" class="swiper-button-prev">이전 슬라이드</button>
-                    <div class="btn-area-ps">
-                        <div class="swiper-pagination"></div>
-                        <button type="button" class="btn-slide-stop">슬라이드 일시정지</button>
-                        <button type="button" class="btn-slide-play">슬라이드 재생</button>
+                    <div class="slide-navi">
+                        <div class="slide-navi-detail">
+                            <div class="swiper-pager">
+                                <button type="button" class="slideBtn btn-prev">이전 슬라이드</button>
+                                <div class="pager-fraction"></div>
+                                <button type="button" class="slideBtn btn-next">다음 슬라이드</button>
+                            </div>
+                            <div class="swiper-auto">
+                                <button type="button" class="slideBtn btn-play">슬라이드 재생</button>
+                                <button type="button" class="slideBtn btn-stop active">슬라이드 일시정지</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1101,6 +1107,44 @@
                 <!-- // step 3 -->
             </section>
         </div>
+        <!-- 하단바 -->
+        <div class="bottom-fixed-wrap"><!-- active 클래스 추가 -->
+            <div class="dimmed"></div>
+            <div class="bar-wrap">
+                <div class="head-area">
+                    <p class="head-txt">혼수, TV 외 3개, 1개월 내, 강남본점, 12. 15(수), 17시, 김베샵, 01012558484</p>
+                    <button type="button" class="view-more"><span class="blind">펼쳐보기</span></button>
+                </div>
+                <div class="body-area">
+                    <div class="my-result">
+                        <ul>
+                            <li>
+                                <span>상담목적</span>
+                                <strong>혼수</strong>
+                            </li>
+                            <li>
+                                <span>상담제품</span>
+                                <strong>TV, 냉장고, 식기세척기, 세탁기, 스타일러, 공기청정기, 에어컨</strong>
+                            </li>
+                            <li>
+                                <span>상담매장</span>
+                                <strong>강남본점, 12. 15(수), 17시</strong>
+                            </li>
+                            <li>
+                                <span>예약정보</span>
+                                <strong>김베샵, 01012558484</strong>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="foot-area">
+                    <div class="btn-area active"><!-- active 클래스 추가 -->
+                        <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담 예약하기</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- // 하단바 -->
     </div>
     <!-- // contents -->
 </div>
@@ -1165,109 +1209,133 @@
 <!-- 팝업: 휴대전화 인증 -->
 
 <script>
-    // 이벤트배너
+    // 슬라이드
     var imgSwiper = new Swiper(".img-slide", {
-        spaceBetween: 24,
+        speed : 800,
+        slidesPerView: 1,
         autoplay: {
-            delay: 5000
+            delay:5000
         },
-        pagination : {
-            el : '.swiper-pagination',
-            clickable : true,
+        pagination: {
+            el: ".img-slide .slide-navi .pager-fraction",
+            type: "fraction"
         },
         navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
+            nextEl: ".img-slide .slide-navi .slideBtn.btn-next",
+            prevEl: ".img-slide .slide-navi .slideBtn.btn-prev"
+        }
     });
 
-    // 이벤트배너 (autoplay control)
-    $(document).on("click", ".btn-area-ps > [class*='btn']", function(){
-        if ( $(this).is("[class*='stop']") ){
-            imgSwiper.autoplay.stop();
-        }
-        else if ( $(this).is("[class*='play']") ){
+    // 슬라이드 (autoplay control)
+    $('.img-slide .swiper-auto > button').on('click', function(){
+        $('.img-slide .swiper-auto > button').toggleClass('active');
+
+        if ($(this).hasClass('btn-play')){
             imgSwiper.autoplay.start();
+        } 
+        else {
+            imgSwiper.autoplay.stop();
         };
     });
 
-  $(document).ready(function(){
-    // 상단 예약진행 가이드 영역
-    var resbanner01 = new Swiper(".guide-banner-visit", {
-      slidesPerView: 'auto',
-      scrollbar: {
-        el: ".swiper-scrollbar",
-        draggable: true,
-        // hide: true,
-      },
-    })
+    $(document).ready(function () {
+        // 상단 예약진행 가이드 영역
+        var resbanner01 = new Swiper(".guide-banner-visit", {
+            slidesPerView: 'auto',
+            scrollbar: {
+                el: ".swiper-scrollbar",
+                draggable: true,
+                // hide: true,
+            },
+        })
 
-    // 배너
-    var resbanner01 = new Swiper(".res-banner-01", {
-      spaceBetween: 40,
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-
-    // step 2 지도/리스트 보기 버튼
-    for(i = 1; i<5; i++) {
-      (function(i2){
-        $('.sort-area button:nth-child('+ i2 +')').click(function(){
-          $('.sort-area button').removeClass('active');
-          $('.sort-block > div').removeClass('active');
-          $(this).addClass('active')
-          $('.sort-block > div:nth-child('+ i2 +')').addClass('active');
+        // 배너
+        var resbanner01 = new Swiper(".res-banner-01", {
+            spaceBetween: 40,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+                clickable: true,
+            },
+            autoplay: {
+                delay: 3000,
+            },
         });
-      })(i);
-    }
-    
-    // step 2 지도 매장리스트보기 버튼
-    $('.map-list-wrap .btn-view').on('click', function(){
-        $(this).closest('.map-list-wrap').toggleClass('active')
-    })
-
-    // step 2 예약일 선택 / 예약시간 선택
-    $('.date-wrap .mo-top').next('div').show();
-    if($(window).width() < 768) {
-      $('.date-wrap .mo-tit').on('click',function(){
-        $(this).parent().parent('div').toggleClass('active');
-        $(this).closest('.mo-top').next('div').slideToggle(200);
-      });
-    }
-
-    // step 2 약관
-    $(function(){
-      // step 2 약관 > 더보기 버튼
-      $('.check-box .agr-more').on('click',function(){
-        $(this).toggleClass('active').siblings('.agr-txt-wrap').slideToggle(200);
-      });
-      // step 2 약관 > 모두 동의
-      $(".agr-wrap").on("click", "#agr-all", function () {
-        $(this).parents(".agr-wrap").find('input').prop("checked", $(this).is(":checked"));
-      });
-
-      // 약관 개별 선택
-      $(".agr-wrap").on("click", ".agr-check", function() {
-        var is_checked = true;
-
-        $(".agr-wrap .agr-check").each(function(){
-          is_checked = is_checked && $(this).is(":checked");
+        // play/stop 버튼
+        $('.btn-play').click(function(){
+            if ($(this).hasClass('pause')) {
+                resbanner01.autoplay.start();
+                $(this).removeClass('pause')
+                    .find('.blind').text('멈춤');
+            } else {
+                resbanner01.autoplay.stop();
+                $(this).addClass('pause')
+                    .find('.blind').text('재생');
+            }
+            return false;
         });
 
-        $("#agr-all").prop("checked", is_checked);
-      });
-    });
+        // step 2 지도/리스트 보기 버튼
+        for (i = 1; i < 5; i++) {
+            (function (i2) {
+                $('.sort-area button:nth-child(' + i2 + ')').click(function () {
+                    $('.sort-area button').removeClass('active');
+                    $('.sort-block > div').removeClass('active');
+                    $(this).addClass('active')
+                    $('.sort-block > div:nth-child(' + i2 + ')').addClass('active');
+                });
+            })(i);
+        }
 
-    // 모바일 하단바 영역
-    $('.bar-wrap .head-area').on('click',function(){
-      $('html').toggleClass('scroll-fixed');
-      $(this).closest('.bottom-fixed-wrap').toggleClass('active');
-      $('.body-area').stop().slideToggle();
-      $('.bottom-fixed-wrap .dimmed').stop().fadeToggle(200);
+        // step 3 지도 매장리스트보기 버튼
+        $('.map-list-wrap .btn-view').on('click', function(){
+            $(this).closest('.map-list-wrap').toggleClass('active')
+        })
+
+        // step 2 예약일 선택 / 예약시간 선택
+        $('.date-wrap .mo-top').next('div').show();
+        if ($(window).width() < 768) {
+            $('.date-wrap .mo-tit').on('click', function () {
+                $(this).parent().parent('div').toggleClass('active');
+                $(this).closest('.mo-top').next('div').slideToggle(200);
+            });
+        }
+
+        // step 2 약관
+        $(function () {
+            // step 2 약관 > 더보기 버튼
+            $('.check-box .agr-more').on('click', function () {
+                $(this).toggleClass('active').siblings('.agr-txt-wrap').slideToggle(200);
+            });
+            // step 2 약관 > 모두 동의
+            $(".agr-wrap").on("click", "#agr-all", function () {
+                $(this).parents(".agr-wrap").find('input').prop("checked", $(this).is(":checked"));
+            });
+
+            // 약관 개별 선택
+            $(".agr-wrap").on("click", ".agr-check", function () {
+                var is_checked = true;
+
+                $(".agr-wrap .agr-check").each(function () {
+                    is_checked = is_checked && $(this).is(":checked");
+                });
+
+                $("#agr-all").prop("checked", is_checked);
+            });
+        });
+
+        // 모바일 하단바 영역
+        $('.bar-wrap .head-area').on('click', function () {
+            $('html').toggleClass('scroll-fixed');
+            $(this).closest('.bottom-fixed-wrap').toggleClass('active');
+            $('.body-area').stop().slideToggle();
+            $('.bottom-fixed-wrap .dimmed').stop().fadeToggle(200);
+        });
     });
-  });
 </script>
 
 <jsp:include page="../../templates/common/footer.jsp" />
