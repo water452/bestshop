@@ -1163,8 +1163,8 @@
                     </ul>
                 </form>
             </div>
-            <div class="caution-box">
-                <ul class="bull sm">
+            <div class="caution-area">
+                <ul class="bull">
                     <li>휴대전화 인증을 한 정보(이름, 휴대전화)로 접수됩니다.</li>
                     <li>인증번호가 수신되지 않은 경우 1544-7777이 스팸처리 되지 않았는지 확인해주시기 바랍니다.</li>
                 </ul>

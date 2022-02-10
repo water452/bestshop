@@ -20,7 +20,7 @@
     <rect id="사각형_831" data-name="사각형 831" width="120" height="120" transform="translate(407 343)" fill="none"/>
     <g id="그룹_387" data-name="그룹 387" transform="translate(434.143 369.857)">
       <g id="그룹_386" data-name="그룹 386" transform="translate(-0.143 0.143)">
-        <g id="사각형_278" data-name="사각형 278" transform="translate(51 3) rotate(90)" fill="#fff" stroke="#000" stroke-width="3">
+        <g id="사각형_278" data-name="사각형 278" transform="translate(51 3) rotate(90)" fill="#edcec9" stroke="#000" stroke-width="3">
           <rect width="63" height="51" rx="4" stroke="none"/>
           <rect x="1.5" y="1.5" width="60" height="48" rx="2.5" fill="none"/>
         </g>
@@ -44,14 +44,14 @@
           <path id="패스_143" data-name="패스 143" d="M431.667,370.474l3.209,3.209,5.616-6.017" transform="translate(-431.667 -364.458)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
           <path id="패스_144" data-name="패스 144" d="M431.667,370.474l3.209,3.209,5.616-6.017" transform="translate(-431.667 -342.798)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
         </g>
-        <g id="사각형_285" data-name="사각형 285" transform="translate(11)" fill="#fff" stroke="#000" stroke-width="3">
+        <g id="사각형_285" data-name="사각형 285" transform="translate(11)" fill="#5b7d83" stroke="#000" stroke-width="3">
           <rect width="29" height="9" rx="2" stroke="none"/>
           <rect x="1.5" y="1.5" width="26" height="6" rx="0.5" fill="none"/>
         </g>
       </g>
       <g id="그룹_385" data-name="그룹 385" transform="translate(66.191 66.477) rotate(180)">
         <path id="패스_145" data-name="패스 145" d="M-.088-.75l2.58,4.167L5.541-.75" transform="translate(2.043 37.167)" fill="#ddd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-        <g id="사각형_283" data-name="사각형 283" transform="translate(0.333 0.334)" fill="#fff" stroke="#000" stroke-width="3">
+        <g id="사각형_283" data-name="사각형 283" transform="translate(0.333 0.334)" fill="#e1d0b6" stroke="#000" stroke-width="3">
           <path d="M2,0H7A2,2,0,0,1,9,2V36a1,1,0,0,1-1,1H1a1,1,0,0,1-1-1V2A2,2,0,0,1,2,0Z" stroke="none"/>
           <rect x="1.5" y="1.5" width="6" height="34" rx="0.5" fill="none"/>
         </g>

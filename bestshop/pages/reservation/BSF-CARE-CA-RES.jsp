@@ -1498,6 +1498,15 @@
                             <!-- active 클래스 추가 -->
                             <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">케어십 상담 예약하기</button>
                         </div>
+                        
+                        <div class="caution-box">
+                            <p class="tit">[유의사항]</p>
+                            <ul class="bull">
+                                <li>케어십 가입기간은 12개월이며 계약해지 의사가 없을 시 자동 연장됩니다.</li>
+                                <li>케어십 비용은 제품 모델 및 방문주기에 따라 다릅니다.</li>
+                                <li>제품을 구매하며 동시에 케어십 서비스를 신청하는 경우, 케어십 청약 단계 이 후 제품 주문이 진행됩니다.</li>
+                            </ul>
+                        </div>
 
                     </div>
                     <!-- // step 3 -->
@@ -1550,8 +1559,8 @@
                             </ul>
                         </form>
                     </div>
-                    <div class="caution-box">
-                        <ul class="bull sm">
+                    <div class="caution-area">
+                        <ul class="bull">
                             <li>휴대전화 인증을 한 정보(이름, 휴대전화)로 접수됩니다.</li>
                             <li>인증번호가 수신되지 않은 경우 1544-7777이 스팸처리 되지 않았는지 확인해주시기 바랍니다.</li>
                         </ul>

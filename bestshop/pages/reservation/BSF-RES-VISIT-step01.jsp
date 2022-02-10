@@ -24,34 +24,35 @@
     
                 <div class="top-wrap">
                     <div class="add-area">
-                        <div class="swiper res-banner-01">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="box">
-                                        <img class="m-hidden" src="../../images/img-res-visit-banner-01.png" alt="">
-                                        <img class="pc-hidden" src="../../images/img-res-visit-banner-01_mo.png" alt="">
+                        <div class="img-slide-wrap">
+                            <div class="swiper img-slide">
+                                <ul class="swiper-wrapper">
+                                    <li class="swiper-slide">
+                                        <img class="m-hidden" src="../../images/img-res-visit-banner-01.png" alt="&nbsp;" /><!-- pc용 -->
+                                        <img class="pc-hidden" src="../../images/img-res-visit-banner-01_mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                                    </li>
+                                    <li class="swiper-slide">
+                                        <img class="m-hidden" src="../../images/img-res-visit-banner-02.png" alt="&nbsp;" /><!-- pc용 -->
+                                        <img class="pc-hidden" src="../../images/img-res-visit-banner-02_mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                                    </li>
+                                    <li class="swiper-slide">
+                                        <img class="m-hidden" src="../../images/img-res-visit-banner-03.png" alt="&nbsp;" /><!-- pc용 -->
+                                        <img class="pc-hidden" src="../../images/img-res-visit-banner-03_mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                                    </li>
+                                </ul>
+                                <div class="slide-navi">
+                                    <div class="slide-navi-detail">
+                                        <div class="swiper-pager">
+                                            <button type="button" class="slideBtn btn-prev">이전 슬라이드</button>
+                                            <div class="pager-fraction"></div>
+                                            <button type="button" class="slideBtn btn-next">다음 슬라이드</button>
+                                        </div>
+                                        <div class="swiper-auto">
+                                            <button type="button" class="slideBtn btn-play">슬라이드 재생</button>
+                                            <button type="button" class="slideBtn btn-stop active">슬라이드 일시정지</button>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="box">
-                                        <img class="m-hidden" src="../../images/img-res-visit-banner-02.png" alt="">
-                                        <img class="pc-hidden" src="../../images/img-res-visit-banner-02_mo.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="box">
-                                        <img class="m-hidden" src="../../images/img-res-visit-banner-03.png" alt="">
-                                        <img class="pc-hidden" src="../../images/img-res-visit-banner-03_mo.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="banner-btns">
-                                <div class="swiper-button-next"></div>
-                                <div class="swiper-button-prev"></div>
-                            </div>
-                            <div class="banner-indi-wrap">
-                                <div class="swiper-pagination"></div>
-                                <button type="button" class="btn-play"><span class="blind">재생</span></button>
                             </div>
                         </div>
                     </div>
@@ -399,122 +400,122 @@
                                 <!-- 제품선택 제품군형 -->
                                 <!-- <ul class="input-pdt-type">
                                     <li>
-                                        <div class="chkrdo-btn icon">
+                                        <div class="chkrdo-btn">
                                             <input type="checkbox" name="tv" id="tv">
                                             <label for="tv">
-                                                <i class="icon tv"></i><span class="name">TV</span>
+                                                <span class="name">TV</span>
                                             </label>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="chkrdo-btn icon">
+                                        <div class="chkrdo-btn">
                                             <input type="checkbox" name="soundbar" id="soundbar">
                                             <label for="soundbar">
-                                                <i class="icon soundbar"></i><span class="name">사운드바</span>
+                                                <span class="name">사운드바</span>
                                             </label>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="chkrdo-btn icon">
+                                        <div class="chkrdo-btn">
                                             <input type="checkbox" name="laptop" id="laptop">
                                             <label for="laptop">
-                                                <i class="icon laptop"></i><span class="name">노트북</span>
+                                                <span class="name">노트북</span>
                                             </label>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="chkrdo-btn icon">
+                                        <div class="chkrdo-btn">
                                             <input type="checkbox" name="desktop" id="desktop">
                                             <label for="desktop">
-                                                <i class="icon desktop"></i><span class="name">데스크탑</span>
+                                                <span class="name">데스크탑</span>
                                             </label>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="chkrdo-btn icon">
+                                        <div class="chkrdo-btn">
                                             <input type="checkbox" name="fridge" id="fridge">
                                             <label for="fridge">
-                                                <i class="icon fridge"></i><span class="name">냉장고</span>
+                                                <span class="name">냉장고</span>
                                             </label>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="chkrdo-btn icon">
+                                        <div class="chkrdo-btn">
                                             <input type="checkbox" name="washing" id="washing">
                                             <label for="washing">
-                                                <i class="icon washing"></i><span class="name">세탁기/건조기</span>
+                                                <span class="name">세탁기/건조기</span>
                                             </label>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="chkrdo-btn icon">
+                                        <div class="chkrdo-btn">
                                             <input type="checkbox" name="air-con" id="air-con">
                                             <label for="air-con">
-                                                <i class="icon air-con"></i><span class="name">에어컨</span>
+                                                <span class="name">에어컨</span>
                                             </label>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="chkrdo-btn icon">
+                                        <div class="chkrdo-btn">
                                             <input type="checkbox" name="pra-l" id="pra-l">
                                             <label for="pra-l">
-                                                <i class="icon pra-l"></i><span class="name">프라엘</span>
+                                                <span class="name">프라엘</span>
                                             </label>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="chkrdo-btn icon">
+                                        <div class="chkrdo-btn">
                                             <input type="checkbox" name="vaccum" id="vaccum">
                                             <label for="vaccum">
-                                                <i class="icon vaccum"></i><span class="name">청소기</span>
+                                                <span class="name">청소기</span>
                                             </label>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="chkrdo-btn icon">
+                                        <div class="chkrdo-btn">
                                             <input type="checkbox" name="styler" id="styler">
                                             <label for="styler">
-                                                <i class="icon styler"></i><span class="name">스타일러</span>
+                                                <span class="name">스타일러</span>
                                             </label>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="chkrdo-btn icon">
+                                        <div class="chkrdo-btn">
                                             <input type="checkbox" name="air-clean" id="air-clean">
                                             <label for="air-clean">
-                                                <i class="icon air-clean"></i><span class="name">공기청정기</span>
+                                                <span class="name">공기청정기</span>
                                             </label>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="chkrdo-btn icon">
+                                        <div class="chkrdo-btn">
                                             <input type="checkbox" name="range" id="range">
                                             <label for="range">
-                                                <i class="icon range"></i><span class="name">전기레인지</span>
+                                                <span class="name">전기레인지</span>
                                             </label>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="chkrdo-btn icon">
+                                        <div class="chkrdo-btn">
                                             <input type="checkbox" name="ipad" id="ipad">
                                             <label for="ipad">
-                                                <i class="icon ipad"></i><span class="name">아이패드</span>
+                                                <span class="name">아이패드</span>
                                             </label>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="chkrdo-btn icon">
+                                        <div class="chkrdo-btn">
                                             <input type="checkbox" name="projector" id="projector">
                                             <label for="projector">
-                                                <i class="icon projector"></i><span class="name">프로젝터</span>
+                                                <span class="name">프로젝터</span>
                                             </label>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="chkrdo-btn icon">
+                                        <div class="chkrdo-btn">
                                             <input type="checkbox" name="medihair" id="medihair">
                                             <label for="medihair">
-                                                <i class="icon medihair"></i><span class="name">메디헤어</span>
+                                                <span class="name">메디헤어</span>
                                             </label>
                                         </div>
                                     </li>
@@ -1405,8 +1406,8 @@
                         </ul>
                     </form>
                 </div>
-                <div class="caution-box">
-                    <ul class="bull sm">
+                <div class="caution-area">
+                    <ul class="bull">
                         <li>휴대전화 인증을 한 정보(이름, 휴대전화)로 접수됩니다.</li>
                         <li>인증번호가 수신되지 않은 경우 1544-7777이 스팸처리 되지 않았는지 확인해주시기 바랍니다.</li>
                     </ul>
@@ -1433,33 +1434,33 @@
                 },
             })
 
-            // 배너
-            var resbanner01 = new Swiper(".res-banner-01", {
-                spaceBetween: 40,
-                navigation: {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev",
+            // 방문상담 배너 슬라이드
+            var imgSwiper = new Swiper(".img-slide", {
+                speed : 800,
+                slidesPerView: 1,
+                autoplay: {
+                    delay:5000
                 },
                 pagination: {
-                    el: '.swiper-pagination',
-                    type: 'bullets',
+                    el: ".img-slide .slide-navi .pager-fraction",
+                    type: "fraction"
                 },
-                autoplay: {
-                    delay: 3000,
-                },
-            });
-            // play/stop 버튼
-            $('.btn-play').click(function(){
-                if ($(this).hasClass('pause')) {
-                    resbanner01.autoplay.start();
-                    $(this).removeClass('pause');
-                    $(this).find('.blind').text('멈춤');
-                } else {
-                    resbanner01.autoplay.stop();
-                    $(this).addClass('pause');
-                    $(this).find('.blind').text('재생');
+                navigation: {
+                    nextEl: ".img-slide .slide-navi .slideBtn.btn-next",
+                    prevEl: ".img-slide .slide-navi .slideBtn.btn-prev"
                 }
-                return false;
+            });
+
+            // 방문상담 배너 슬라이드 (autoplay control)
+            $('.img-slide .swiper-auto > button').on('click', function(){
+                $('.img-slide .swiper-auto > button').toggleClass('active');
+
+                if ($(this).hasClass('btn-play')){
+                    imgSwiper.autoplay.start();
+                } 
+                else {
+                    imgSwiper.autoplay.stop();
+                };
             });
 
             // step 2 지도/리스트 보기 버튼
