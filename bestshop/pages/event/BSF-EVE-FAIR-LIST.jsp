@@ -14,20 +14,26 @@
                 <div class="swiper img-slide">
                     <ul class="swiper-wrapper">
                         <li class="swiper-slide">
-                            <img class="m-hidden" src="../../images/img-event-schedule01.png" alt="&nbsp;" /><!-- pc용 -->
-                            <img class="pc-hidden" src="../../images/img-event-schedule01-m.png" alt="&nbsp;" /><!-- mobile용 -->
+                            <img class="m-hidden" src="../../images/img-event-schedule.png" alt="&nbsp;" /><!-- pc용 -->
+                            <img class="pc-hidden" src="../../images/img-event-schedule-m.png" alt="&nbsp;" /><!-- mobile용 -->
                         </li>
                         <li class="swiper-slide">
-                            <img class="m-hidden" src="../../images/img-event-schedule02.png" alt="&nbsp;" /><!-- pc용 -->
-                            <img class="pc-hidden" src="../../images/img-event-schedule02-m.png" alt="&nbsp;" /><!-- mobile용 -->
+                            <img class="m-hidden" src="../../images/img-event-schedule.png" alt="&nbsp;" /><!-- pc용 -->
+                            <img class="pc-hidden" src="../../images/img-event-schedule-m.png" alt="&nbsp;" /><!-- mobile용 -->
                         </li>
                     </ul>
-                    <button type="button" class="swiper-button-next">다음 슬라이드</button>
-                    <button type="button" class="swiper-button-prev">이전 슬라이드</button>
-                    <div class="btn-area-ps">
-                        <div class="swiper-pagination"></div>
-                        <button type="button" class="btn-slide-stop">슬라이드 일시정지</button>
-                        <button type="button" class="btn-slide-play">슬라이드 재생</button>
+                    <div class="slide-navi">
+                        <div class="slide-navi-detail">
+                            <div class="swiper-pager">
+                                <button type="button" class="slideBtn btn-prev">이전 슬라이드</button>
+                                <div class="pager-fraction"></div>
+                                <button type="button" class="slideBtn btn-next">다음 슬라이드</button>
+                            </div>
+                            <div class="swiper-auto">
+                                <button type="button" class="slideBtn btn-play">슬라이드 재생</button>
+                                <button type="button" class="slideBtn btn-stop active">슬라이드 일시정지</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -168,27 +174,30 @@
 <script>
     // 박람회 일정 슬라이드
     var imgSwiper = new Swiper(".img-slide", {
-        spaceBetween: 24,
+        speed : 800,
+        slidesPerView: 1,
         autoplay: {
-            delay: 5000
+            delay:5000
         },
-        pagination : {
-            el : '.swiper-pagination',
-            clickable : true,
+        pagination: {
+            el: ".img-slide .slide-navi .pager-fraction",
+            type: "fraction"
         },
         navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
+            nextEl: ".img-slide .slide-navi .slideBtn.btn-next",
+            prevEl: ".img-slide .slide-navi .slideBtn.btn-prev"
+        }
     });
 
     // 박람회 일정 슬라이드 (autoplay control)
-    $(document).on("click", ".btn-area-ps > [class*='btn']", function(){
-        if ( $(this).is("[class*='stop']") ){
-            imgSwiper.autoplay.stop();
-        }
-        else if ( $(this).is("[class*='play']") ){
+    $('.img-slide .swiper-auto > button').on('click', function(){
+        $('.img-slide .swiper-auto > button').toggleClass('active');
+
+        if ($(this).hasClass('btn-play')){
             imgSwiper.autoplay.start();
+        } 
+        else {
+            imgSwiper.autoplay.stop();
         };
     });
 
