@@ -531,6 +531,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 .popup.small .pop-wrap { max-width: 444px; }
 .popup.medium .pop-wrap { max-width: 912px; }
 .popup.large .pop-wrap { max-width: 1146px; }
+.popup.alert .pop-wrap {width:calc(100% - 44px); max-width:500px; padding:60px 40px 50px; text-align:center}
 
 /* popup - confirm */
 .popup.confirm .pop-wrap { padding: 60px 30px 50px 30px; max-width: 500px; text-align: center; }
@@ -634,7 +635,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	ul.bull > li + li {margin-top:6px}
 
 	/* input */
-	.text-area textarea {padding:13px 16px; font-size:14px; line-height:19px}
+	.text-area textarea {height:120px; padding:13px 16px; font-size:14px; line-height:19px}
     .text-area textarea::placeholder {font-size:14px; line-height:19px}
 	/* 휴대폰인증 input */
     input.base-txt {height:auto; padding:11px 12px; font-size:14px; line-height:22px}
@@ -816,6 +817,11 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
     .btn-area.m-full-flex > * + * { margin: 0 !important; }
     .btn-area.m-full-flex > .btn { width: 100%; line-height: 54px; border-radius: 0; }
     .btn-pop-close { top: 25px; right: 13px; width: 26px; height: 26px; background-size: 20px auto; }
+
+	/* popup - size */
+	.popup.alert .pop-wrap {padding:0}
+    .popup.alert .pop-cont {padding:55px 20px 0}
+    .popup.alert .btn-area.m-full-flex {width:auto; left:auto}
     
     /* popup - 모바일 full */
     .popup.m-full .pop-wrap { height: 100%; border-radius: 0; }

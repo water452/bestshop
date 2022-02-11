@@ -28,9 +28,7 @@
 
 /* 매장상담예약 상단 공통 영역 */
 /* 탭 있는 경우 */
-/* .res-main [class*="tab"] + .top-wrap {width:calc(100% + 80px); margin-left:-40px} */
 .res-main [class*="tab"] + .top-wrap .guide-area .guide-process {padding:24px 0 0}
-/* .res-main [class*="tab"] + .top-wrap .guide-area [class*="guide-banner"] {padding:0 40px 34px} */
 .res-main [class*="tab"] + .top-wrap .guide-area [class*="guide-banner"] {padding:0 0 34px}
 .res-main [class*="tab"] + .top-wrap .add-area {margin-top:32px}
 
@@ -42,7 +40,6 @@
 .res-main .guide-area [class*="guide-banner"] .swiper-slide {width:auto; min-width:calc((100% - 48px) / 4)}
 .res-main .guide-area [class*="guide-banner"] .swiper-slide + .swiper-slide {margin-left:16px}
 .res-main .guide-area [class*="guide-banner"] .box {position:relative; width:100%; padding:15px 0 9px; box-sizing:border-box; border:1px solid #ddd; border-radius:16px; background-color:#fff}
-/* .res-main .guide-area [class*="guide-banner"] .box::before {content:''; display:block; position:absolute; width:32.5px; height:20px; top:calc(50% - 10px); left:-35.5px; background:url(../images/icons/icon-arr-11-gray.svg) no-repeat center} */
 .res-main .guide-area [class*="guide-banner"] .swiper-slide:first-child .box::before {display:none}
 .res-main .guide-area [class*="guide-banner"] .box .icon-wrap {display:block; width:80px; height:80px; margin:0 auto}
 .res-main .guide-area [class*="guide-banner"] .box .icon-wrap i[class^="icon"] {display:block; width:100%; height:100%}
@@ -50,7 +47,6 @@
 .res-main .guide-area [class*="guide-banner"] .box .tit-wrap .tit {display:block; font-size:14px; line-height:22px; text-align:center}
 .res-main .guide-area [class*="guide-banner"] .box .tit-wrap strong {display:block; font-size:18px; font-weight:bold; line-height:26px; text-align:center}
 .res-main .guide-area [class*="guide-banner"] .box .txt {display:block; margin-top:19px; font-size:16px; line-height:24px; text-align:center}
-/* .res-main .guide-area [class*="guide-banner"] .swiper-scrollbar {width:calc(100% - 80px); left:40px; bottom:11px; height:8px; background-color:#ddd} */
 .res-main .guide-area [class*="guide-banner"] .swiper-scrollbar {width:100%; left:0; bottom:11px; height:8px; background-color:#ddd}
 .res-main .guide-area [class*="guide-banner"] .swiper-scrollbar .swiper-scrollbar-drag {background-color:#ccc}
 
@@ -63,11 +59,6 @@
 .res-main .guide-area.bg [class*="guide-banner"] .swiper-scrollbar .swiper-scrollbar-drag {background-color:rgba(255,255,255,0.6)}
 
 .res-main .top-wrap .add-area {margin:40px auto 0}
-/* .res-main .add-area .img-slide {padding:0 40px} */
-/* .res-main .add-area .img-slide .swiper-slide > [class^="banner"] {width:100%; height:290px} */
-/* .res-main .add-area .img-slide .swiper-slide > .box {display:flex; align-items:center; width:100%; height:290px; border-radius:16px; overflow:hidden} */
-/* .res-main .add-area .img-slide .swiper-slide > .box > img {display:block; width:100%} */
-/* .res-main .add-area .img-slide .banner-btns {top:50%} */
 .res-main .add-area .banner-indi-wrap {position:absolute; right:0; bottom:24px; display:flex; align-items:center; justify-content:center; z-index:10}
 .res-main .add-area .banner-indi-wrap .swiper-pagination {position:static; height:46px; border-radius:46px; background-color:rgba(0,0,0,0.3); color:#fff; font-size:16px; font-weight:300; line-height:46px}
 .res-main .add-area .banner-indi-wrap .swiper-pagination .swiper-pagination-current {margin-right:6px; font-weight:normal}
@@ -126,7 +117,6 @@ ul.input-cate-type .cate-tit > .icon.beauty {background:url(../images/icons/icon
 ul.input-cate-type .cate-items {display:flex; flex-wrap:wrap; width:calc(100% - 135px); max-width:498px; margin-top:-10px}
 ul.input-cate-type .cate-items > li {width:calc(100% / 3); max-width:156px; min-width:112px; height:48px; margin-top:10px; margin-right:10px}
 ul.input-cate-type .cate-items > li .chkrdo-btn {width:100%}
-/* ul.input-cate-type .cate-items label {width:100%; height:100%; padding:10px 0; background-color:#fff; border-radius:48px; border:1px solid #ddd; background-color:#fff; font-size:16px; font-weight:500; line-height:24px; box-sizing:border-box; text-align:center} */
 ul.input-cate-type .cate-items label {width:100%; height:100%; padding:0}
 ul.input-cate-type .cate-items input:checked + label {border:1px solid #da0f47; color:#da0f47}
 ul.input-cate-type .cate-items input + label::after {display:none}
@@ -190,7 +180,6 @@ ul.input-base-type .chkrdo-btn input:checked + label {border-width:2px; line-hei
 .step-area .shop-date-wrap .map-wrap .api-area .map-list-wrap .shop-list {width:100%; background-color:rgba(255,255,255,0.7)}
 .step-area .shop-date-wrap .map-wrap .api-area .map-list-wrap .btn-view {position:absolute; width:40px; height:60px; right:0; top:180px; border-radius:8px 0 0 8px; background:#ddd url(../images/icons/icon-carousel-btn.svg) no-repeat center / 10px; transform:rotate(180deg)}
 .step-area .shop-date-wrap .map-wrap .api-area .map-list-wrap.active .btn-view {border-radius:0 8px 8px 0; transform:rotate(0)}
-/* .step-area .shop-date-wrap .map-wrap .api-area > img {width:100%} */
 
 .step-area .shop-date-wrap .list-wrap {display:none; border:1px solid #000; border-radius:8px; overflow:hidden}
 .step-area .shop-date-wrap .list-wrap.active {display:block}
@@ -455,16 +444,6 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 .res-main.care-ex .top-wrap .guide-area .guide-bottom dl {display:flex; flex-wrap:wrap; padding:34px 0; font-size:18px; line-height:26px}
 .res-main.care-ex .top-wrap .guide-area .guide-bottom dl dt {margin-right:5px; font-weight:bold}
 
-/* .res-main .cate-sticky-wrap .cate-wrap {border-bottom:1px solid #ddd; text-align:center}
-.res-main .cate-sticky-wrap .cate-wrap .cate-list {display:inline-block; width:100%; padding:8px 0 15px; overflow:hidden}
-.res-main .cate-sticky-wrap .cate-wrap .cate-list > ul {display:flex; margin-left:240px; overflow-x:auto}
-.res-main .cate-sticky-wrap .cate-wrap .cate-list .radio-btn.tab-type {margin:0 4px}
-.res-main .cate-sticky-wrap .cate-wrap .cate-list .radio-btn.tab-type input {left:0}
-.res-main .cate-sticky-wrap .cate-wrap .cate-list .radio-btn.tab-type label {display:block; padding:0 16px; border-radius:44px; font-size:18px; font-weight:bold; line-height:44px; cursor:pointer; white-space:nowrap}
-.res-main .cate-sticky-wrap .cate-wrap .cate-list .radio-btn.tab-type label:hover {background-color:#e4e4e4}
-.res-main .cate-sticky-wrap .cate-wrap .cate-list .radio-btn.tab-type label::after {display:none}
-.res-main .cate-sticky-wrap .cate-wrap .cate-list .radio-btn.tab-type input:checked + label {background-color:#e4e4e4} */
-
 .tab01.filter {margin-top:52px}
 .tab01.filter .btn-filter {display:none}
 .tab01.is_depth + .cont-area .plp-list-wrap {margin-top:28px}
@@ -607,9 +586,6 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 .res-main .top-wrap .pro-banner .banner-btns {position:absolute; width:100%; height:40px; top:50%; left:50%; transform:translate(-50%,-50%); z-index:10}
 .res-main .top-wrap .pro-banner .banner-btns [class^="swiper-button"] {top:0}
 
-/* popup - size */
-.popup.alert .pop-wrap {width:calc(100% - 44px); max-width:500px; padding:60px 40px 50px; text-align:center}
-
 /* 제품 카탈로그 페이지 */
 .card-list-area {margin-top:30px}
 .card-list {display:flex; flex-wrap:wrap; margin:-15px -15px 0}
@@ -654,10 +630,6 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-main.care .service-detail-area > ul.col-3 > li {width:calc(50% - 54px)}
 
     /* 소모품구매예약페이지 */
-    /* .res-main .cate-sticky-wrap {position:relative}
-    .res-main .cate-sticky-wrap .cate-wrap {padding-left:42px}
-    .res-main .cate-sticky-wrap .cate-wrap .cate-list > ul {margin-left:0} */
-    
     .tab01.filter {position:relative; margin-top:40px; padding-left:40px}
     .tab01.filter .tab02 > ul {padding-left:40px}
     .tab01.filter .btn-filter {display:block; position:absolute; left:0; top:10px; width:25px; height:25px; background:url(../images/icons/btn-filter-50.svg) no-repeat center / contain}
@@ -722,10 +694,8 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     
     /* 매장상담예약 상단 공통 영역 */
     /* 탭 있는 경우 */
-    /* .res-main [class*="tab"] + .top-wrap {width:calc(100% + 32px); margin-left:-16px} */
     .res-main [class*="tab"] + .top-wrap .img-slide-wrap {width:100%; left:0}
     .res-main [class*="tab"] + .top-wrap .guide-area .guide-process {padding:21px 0 0}
-    /* .res-main [class*="tab"] + .top-wrap .guide-area [class*="guide-banner"] {padding:0 16px 38px} */
     .res-main [class*="tab"] + .top-wrap .guide-area [class*="guide-banner"] {padding:0 0 38px}
     .res-main [class*="tab"] + .top-wrap .add-area {margin:16px auto 0}
 
@@ -741,18 +711,13 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-main .guide-area [class*="guide-banner"] .swiper-slide {width:calc((100% - 27px) / 4); min-width:125px}
     .res-main .guide-area [class*="guide-banner"] .swiper-slide + .swiper-slide {margin-left:9px}
     .res-main .guide-area [class*="guide-banner"] .box {position:relative; min-height:125px; padding:11px 7px 3px; border-radius:8px; border-width:1.5px}
-    /* .res-main .guide-area [class*="guide-banner"] .box::before {width:16px!important; left:-18px!important; background-size:5px!important} */
     .res-main .guide-area [class*="guide-banner"] .box .icon-wrap {position:absolute; width:60px; height:60px; bottom:3px; left:calc(50% - 30px)}
     .res-main .guide-area [class*="guide-banner"] .box .tit-wrap {margin-bottom:0}
     .res-main .guide-area [class*="guide-banner"] .box .tit-wrap .tit {font-size:10px; line-height:15px}
     .res-main .guide-area [class*="guide-banner"] .box .tit-wrap strong {font-size:12px; line-height:17px}
     .res-main .guide-area [class*="guide-banner"] .box .txt {margin-top:10px; font-size:11px; line-height:16px; white-space:initial; word-break:keep-all}
-    /* .res-main .guide-area [class*="guide-banner"] .swiper-scrollbar {width:calc(100% - 32px); left:16px; bottom:26px; height:2px} */
     .res-main .guide-area [class*="guide-banner"] .swiper-scrollbar {width:100%; left:0; bottom:26px; height:2px}
     .res-main .top-wrap .add-area {margin:20px auto}
-    /* .res-main .add-area .img-slide {padding:0 16px} */
-    /* .res-main .add-area .img-slide .swiper-slide > .box {height:180px; border-radius:8px} */
-    /* .res-main .add-area .img-slide .swiper-slide > .box > img {width:auto; height:100%; margin:0 auto} */
     .res-main .add-area .banner-indi-wrap {bottom:16px; margin:0 16px; padding:0 6px}
     .res-main .add-area .banner-indi-wrap .btn-play {width:29px; height:29px; right:16px; bottom:12px}
     .res-main .add-area .banner-indi-wrap .swiper-pagination {margin:0 5px}
@@ -1042,13 +1007,6 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-main.care-ex .top-wrap .guide-area .guide-bottom dl dt {font-size:13px; line-height:19px}
     .res-main.care-ex .top-wrap .guide-area .guide-bottom dl dd {font-size:12px; line-height:17px}
 
-    /* .res-main .cate-sticky-wrap {width:calc(100% + 32px); margin:-4px 0 0 -16px}
-    .res-main .cate-sticky-wrap .cate-wrap {margin-bottom:-1px; padding-left:57px}
-    .res-main .cate-sticky-wrap .cate-wrap .cate-list {padding:12px 0 11px}
-    .res-main .cate-sticky-wrap .cate-wrap .cate-list .radio-btn.tab-type {width:auto; left:0; padding:0}
-    .res-main .cate-sticky-wrap .cate-wrap .cate-list .radio-btn.tab-type label {padding:0 12px; font-size:16px; line-height:40px} */
-    
-    /* .tab01.filter .btn-filter {left:14.5px} */
     .tab01.filter {margin-top:22px; padding-left:56px}
     .tab01.filter .btn-filter {left:16px; top:11.5px}
     .tab01.filter.is_depth .btn-filter {top:67.5px}
@@ -1141,11 +1099,6 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .inq-area .res-his-area .res-history .btn-area {top:16px}
     .inq-area .res-his-area .btn-area {margin-top:16px}
     .inq-area .res-his-area .res-history a[target="_blank"]::after {bottom:0; background-size:14px 14px!important}
-
-    /* popup - size */
-    .popup.alert .pop-wrap {padding:0}
-    .popup.alert .pop-cont {padding:55px 20px 0}
-    .popup.alert .btn-area.m-full-flex {width:auto; left:auto}
 
     /* 내게 맞는 제품 찾기 페이지 */
     .res-main .top-wrap .pro-banner {padding:0}
