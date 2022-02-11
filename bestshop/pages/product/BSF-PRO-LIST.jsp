@@ -1275,14 +1275,15 @@
                                 </div>
                             </div>
                         </div>
-
-                        <div class="btn-area center active">
-                            <!-- active 클래스 추가 -->
-                            <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담 예약하기</button>
-                        </div>
-
+        
                     </div>
                     <!-- // step 3 -->
+
+                    <div class="btn-area center active">
+                        <!-- active 클래스 추가 -->
+                        <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담 예약하기</button>
+                    </div>
+                    
                 </section>
                 <!-- // 제품찾기 상담 스텝 영역 -->
 

@@ -1099,12 +1099,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="btn-area center active"><!-- active 클래스 추가 -->
-                        <!-- <a href="#popup-certification" class="btn btn-res btnPopOpen">상담 예약하기</a> -->
-                        <button type="button" data-href="#popup-certification" class="btn btn-res btnPopOpen">상담 예약하기</button>
-                    </div>
                 </div>
                 <!-- // step 3 -->
+
+                <div class="btn-area center active"><!-- active 클래스 추가 -->
+                    <!-- <a href="#popup-certification" class="btn btn-res btnPopOpen">상담 예약하기</a> -->
+                    <button type="button" data-href="#popup-certification" class="btn btn-res btnPopOpen">상담 예약하기</button>
+                </div>
+                
             </section>
         </div>
         <!-- 하단바 -->
