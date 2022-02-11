@@ -823,7 +823,7 @@
                                                                 <div class="name-area">
                                                                     <p class="shop-name">강남 본점</p>
                                                                     <ul class="key-words">
-                                                                        <li>NEW</li>
+                                                                        <li class="new">NEW</li>
                                                                         <li>화상상담</li>
                                                                         <li>아이폰</li>
                                                                         <li>LX지인</li>
@@ -840,7 +840,7 @@
                                                                 <div class="name-area">
                                                                     <p class="shop-name">강남 본점</p>
                                                                     <ul class="key-words">
-                                                                        <li>NEW</li>
+                                                                        <li class="new">NEW</li>
                                                                         <li>화상상담</li>
                                                                         <li>아이폰</li>
                                                                         <li>LX지인</li>
@@ -857,7 +857,7 @@
                                                                 <div class="name-area">
                                                                     <p class="shop-name">강남 본점</p>
                                                                     <ul class="key-words">
-                                                                        <li>NEW</li>
+                                                                        <li class="new">NEW</li>
                                                                         <li>화상상담</li>
                                                                         <li>아이폰</li>
                                                                         <li>LX지인</li>
@@ -874,7 +874,7 @@
                                                                 <div class="name-area">
                                                                     <p class="shop-name">강남 본점</p>
                                                                     <ul class="key-words">
-                                                                        <li>NEW</li>
+                                                                        <li class="new">NEW</li>
                                                                         <li>화상상담</li>
                                                                         <li>아이폰</li>
                                                                         <li>LX지인</li>
@@ -891,7 +891,7 @@
                                                                 <div class="name-area">
                                                                     <p class="shop-name">강남 본점</p>
                                                                     <ul class="key-words">
-                                                                        <li>NEW</li>
+                                                                        <li class="new">NEW</li>
                                                                         <li>화상상담</li>
                                                                         <li>아이폰</li>
                                                                         <li>LX지인</li>
@@ -908,7 +908,7 @@
                                                                 <div class="name-area">
                                                                     <p class="shop-name">강남 본점</p>
                                                                     <ul class="key-words">
-                                                                        <li>NEW</li>
+                                                                        <li class="new">NEW</li>
                                                                         <li>화상상담</li>
                                                                         <li>아이폰</li>
                                                                         <li>LX지인</li>
@@ -925,7 +925,7 @@
                                                                 <div class="name-area">
                                                                     <p class="shop-name">강남 본점</p>
                                                                     <ul class="key-words">
-                                                                        <li>NEW</li>
+                                                                        <li class="new">NEW</li>
                                                                         <li>화상상담</li>
                                                                         <li>아이폰</li>
                                                                         <li>LX지인</li>
@@ -942,7 +942,7 @@
                                                                 <div class="name-area">
                                                                     <p class="shop-name">강남 본점</p>
                                                                     <ul class="key-words">
-                                                                        <li>NEW</li>
+                                                                        <li class="new">NEW</li>
                                                                         <li>화상상담</li>
                                                                         <li>아이폰</li>
                                                                         <li>LX지인</li>
@@ -959,7 +959,7 @@
                                                                 <div class="name-area">
                                                                     <p class="shop-name">강남 본점</p>
                                                                     <ul class="key-words">
-                                                                        <li>NEW</li>
+                                                                        <li class="new">NEW</li>
                                                                         <li>화상상담</li>
                                                                         <li>아이폰</li>
                                                                         <li>LX지인</li>
@@ -976,7 +976,7 @@
                                                                 <div class="name-area">
                                                                     <p class="shop-name">강남 본점</p>
                                                                     <ul class="key-words">
-                                                                        <li>NEW</li>
+                                                                        <li class="new">NEW</li>
                                                                         <li>화상상담</li>
                                                                         <li>아이폰</li>
                                                                         <li>LX지인</li>
@@ -1007,7 +1007,7 @@
                                             <div class="top-area">
                                                 <p class="shop-name">강남 본점</p>
                                                 <ul class="key-words">
-                                                    <li>NEW</li>
+                                                    <li class="new">NEW</li>
                                                     <li>화상상담</li>
                                                     <li>아이폰</li>
                                                     <li>LX지인</li>
@@ -1149,7 +1149,7 @@
                                 <!-- <p>상담매장: <span>강남본점</span></p>
                                 <p>방문일시: <span>12.15(수), 17시</span></p> -->
                             </div>
-                            <button type="button" class="btn s01 border-red arr-right">다음으로</button>
+                            <button type="button" class="btn s01 border-red arr-right" disabled>다음으로</button>
                         </div>
 
                     </div>
@@ -1311,7 +1311,7 @@
                                                     <td>콜센터 상담업무 (고객문의응대)</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>스캣 커뮤니케이션, 이지인 커뮤니케이션, 피알원, 서브원</td>
+                                                    <td>KPR, 스캣 커뮤니케이션, 이지인 커뮤니케이션, 에코앤컴퍼니, 서브원</td>
                                                     <td>이벤트 당첨자 전화 안내 및 경품, 사은품 발송</td>
                                                 </tr>
                                             </tbody>
@@ -1321,12 +1321,23 @@
                             </div>
                         </div>
 
-                        <div class="btn-area center m-hidden active"><!-- active 클래스 추가 -->
-                            <button type="button" class="btn btn-res btnPopOpen m-hidden" data-href="#popup-certification">상담 예약하기</button>
-                        </div>
-
+                        
                     </div>
                     <!-- // step 3 -->
+
+                    <div class="btn-area center m-hidden active"><!-- active 클래스 추가 -->
+                        <button type="button" class="btn btn-res btnPopOpen m-hidden" data-href="#popup-certification">상담 예약하기</button>
+                    </div>
+
+                    <div class="caution-box">
+                        <p class="tit">[유의사항]</p>
+                        <ul class="bull">
+                            <li>정확한 개인정보를 입력하셔야 매장 상담 예약 서비스 이용 가능합니다.</li>
+                            <li>매장 상담 예약은 제품구입 관련 상담만 가능합니다.</li>
+                            <li>서비스 관련 문의는 LG전자 서비스(1544-7777)로 문의 부탁드립니다.</li>
+                        </ul>
+                    </div>
+
                 </section>
             </div>
 
