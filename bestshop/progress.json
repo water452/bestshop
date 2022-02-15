@@ -57,7 +57,7 @@
       "startdate": "2022-02-14",
       "finishdate": "2022-02-14",
       "status": "진행예정",
-      "filename": "",
+      "filename": "./pages/common/BSF-COMM-EMAIL.jsp",
       "memo": ""
     },
     {
@@ -69,7 +69,7 @@
       "startdate": "2022-02-14",
       "finishdate": "2022-02-14",
       "status": "진행예정",
-      "filename": "",
+      "filename": "./pages/common/BSF-COMM-CCTV.jsp",
       "memo": ""
     },
     {

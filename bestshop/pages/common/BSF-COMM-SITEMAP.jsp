@@ -1,5 +1,6 @@
 <%@ page contentType="text/html; charset=utf-8" %>
 <jsp:include page="../../templates/common/header.jsp" />
+<!-- container -->
 <div class="container" id="content">
 
   <div class="page-header">
@@ -209,4 +210,5 @@
         </div>
     </div>
 </div>
+<!-- // container -->
 <jsp:include page="../../templates/common/footer.jsp" />

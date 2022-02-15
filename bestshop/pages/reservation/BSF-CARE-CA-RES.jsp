@@ -47,6 +47,7 @@
                         <!-- <span class="no-cate">제품을 선택하세요.</span> -->
                         <span class="cate-name">LG퓨리케어 슬림스윙정수기 / WU800AS</span>
                     </div>
+                    <button type="button" class="btn-reselect">재선택</button>
                 </div>
             </div>
 
@@ -59,10 +60,10 @@
                         <p class="step-num">STEP<em>01</em><span>/ 03</span></p>
 
                         <!-- <p class="tit">제품 선택</p>
-          <p class="step-num">STEP<em>02</em><span>/ 03</span></p> -->
+                        <p class="step-num">STEP<em>02</em><span>/ 03</span></p> -->
 
                         <!-- <p class="tit">예약 정보 입력</p>
-          <p class="step-num">STEP<em>03</em><span>/ 03</span></p> -->
+                        <p class="step-num">STEP<em>03</em><span>/ 03</span></p> -->
 
                     </div>
                     <!-- // step count -->
