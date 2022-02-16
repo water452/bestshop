@@ -6,7 +6,7 @@
   <div class="page-header">
     <h2 class="title">영상정보처리기기 운영&middot;관리 방침</h2>
     <div class="desc">
-        <p class="txt">LG전자 주식회사(이하 &ldquo;당사&rdquo;)는 영상정보처리기기 운영&middot;관리 방침을 통해 당사(서비스센터 내) 에서 처리하는 영상정보가 <br class="m-hidden">어떠한 용도와 방식으로 이용&middot;관리되고 있는지알려드립니다.</p>
+        <p class="txt">LG전자 주식회사(이하 &ldquo;당사&rdquo;)는 영상정보처리기기 운영&middot;관리 방침을 통해 당사(서비스센터 내) 에서 처리하는 영상정보가 <br class="m-hidden">어떠한 용도와 방식으로 이용&middot;관리되고 있는지 알려드립니다.</p>
     </div>
   </div>
 

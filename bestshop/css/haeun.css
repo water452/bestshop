@@ -598,8 +598,8 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 /* 영상정보처리기기 운영 관리방침 페이지 */
 .cctv-wrap .tit {margin-bottom:12px; font-size:16px; line-height:24px}
 .cctv-wrap .tit ~ .tit {margin-top:48px}
-.cctv-wrap .txt {margin-bottom:12px; font-size:16px; line-height:24px; word-break:keep-all}
-.cctv-wrap ul li {font-size:16px; line-height:24px; word-break:keep-all}
+.cctv-wrap .txt {margin-bottom:12px; font-size:16px; line-height:24px}
+.cctv-wrap ul li {font-size:16px; line-height:24px}
 .cctv-wrap ul li + li {margin-top:4px}
 .cctv-wrap ul.ver {margin-top:48px}
 .cctv-wrap ul.ver li {color:#666; font-size:14px; line-height:20px}
@@ -1125,11 +1125,11 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     /* 영상정보처리기기 운영 관리방침 페이지 */
     .cctv-wrap .tit {font-size:14px; line-height:20px}
     .cctv-wrap .tit ~ .tit {margin-top:40px}
-    .cctv-wrap .txt {margin-bottom:10px; font-size:13px; line-height:19px}
-    .cctv-wrap ul li {font-size:13px; line-height:19px}
-    .cctv-wrap ul li + li {margin-top:5px}
+    .cctv-wrap .txt {margin-bottom:10px; font-size:14px; line-height:20px}
+    .cctv-wrap ul li {font-size:14px; line-height:20px}
+    .cctv-wrap ul li + li {margin-top:7px}
     .cctv-wrap ul.ver {margin-top:40px}
-    .cctv-wrap ul.ver li {font-size:12px; line-height:17px}
+    .cctv-wrap ul.ver li {font-size:11px; line-height:16px}
     .cctv-wrap ul.ver li + li {margin-top:3px}
-    .cctv-wrap .tb_row .info {margin-top:10px; font-size:11px; line-height:16px}
+    .cctv-wrap .tb_row .info {margin-top:10px; font-size:14px; line-height:20px}
 }

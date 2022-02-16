@@ -62,8 +62,8 @@
 	.tb_row .btm_info .btm-desc-more { font-size: 13px; line-height: 19px; }
 	.tb_row .btm_info { margin-top: 20px; font-size: 14px; line-height: 20px; }
   
-  /* 세로형 테이블 */
-  .tb-col table th, .tb-col table td { padding: 16px 12px; font-size: 13px; line-height: 19px; }
+	/* 세로형 테이블 */
+	.tb-col table th, .tb-col table td { padding: 16px 12px; font-size: 13px; line-height: 19px; }
 
 	/* board-type */
 	.tb_row.board-type .board-tit p { font-size: 14px; line-height: 20px; }
