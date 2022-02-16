@@ -15,7 +15,7 @@ dfn { display: block; font-style: normal; }
 .page-header { max-width: 1460px; margin: 0 auto; padding: 15px 40px 34px; text-align: center; } 
 .page-header .title { font-weight: bold; font-size: 24px; line-height: 36px; color: #000; } 
 .page-header .desc { margin-top: 8px; } 
-.page-header .desc .txt { display: inline-block; font-size: 16px; line-height: 26px; vertical-align: middle; } 
+.page-header .desc .txt { display: inline-block; font-size: 16px; line-height: 24px; vertical-align: middle; } 
 .bullet-list { color: #000; font-size: 14px; line-height: 22px; } 
 .bullet-list .b-tit { margin-bottom: 2px; color: #767676; font-size: 0; font-weight: bold; line-height: 0; } 
 .bullet-list .b-txt { position: relative; display: block; margin-top: 2px; padding-left: 11px; word-break: keep-all; } 
@@ -572,7 +572,7 @@ li[class*="blt"], li > [class*="blt"] { display: block; }
     .page-header { padding: 26px 16px 32px; } 
     .page-header .desc { margin-top: 12px; } 
     .page-header .title { line-height: 26px; font-size: 20px; } 
-    .page-header .desc .txt { font-size: 14px; line-height: 22px; } 
+    .page-header .desc .txt { font-size: 14px; line-height: 20px; } 
     .bullet-list { font-size: 12px; line-height: 20px; } 
     .bullet-list .b-txt { margin-top: 7px; } 
     .bullet-list .b-txt::before { width: 2px; height: 2px; }
