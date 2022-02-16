@@ -124,122 +124,123 @@
                             <li class="active"> <!-- 활성화 class = acitve -->
                                 <a href="javascript:void(0);" class="base-link">
                                     <strong>강남본점</strong>
+                                    <span class="interval">300m</span>
                                     <span class="option-list">
                                         <span class="col01">NEW</span>
-                                        <span class="col02">화상상담</span>
-                                        <span class="col03">아이폰</span>
-                                        <span class="col04">LX지인</span>
-                                        <span class="col05">야간무인</span>
+                                        <span>화상상담</span>
+                                        <span>아이폰</span>
+                                        <span>LX지인</span>
+                                        <span>야간무인</span>
                                     </span>
                                     <em>서울특별시 강남구 도산대로 403 LG전자 베스트샵 강남본점</em>
                                 </a>
                                 <p class="sub-info">
                                     <a href="tel:02-3448-5191" class="call-num">02-3448-5191</a>
                                     <a href="javascript:void(0);">상세보기</a>
-                                    <a href="javascript:void(0);" class="active">매장 상담 예약</a>
+                                    <a href="javascript:void(0);" class="active">상담 예약</a>
                                 </p>
                             </li>
                             <li>
                                 <a href="javascript:void(0);" class="base-link">
                                     <strong>강남본점</strong>
+                                    <span class="interval">300m</span>
                                     <span class="option-list">
-                                        <span class="col01">NEW</span>
-                                        <span class="col02">화상상담</span>
-                                        <span class="col03">아이폰</span>
+                                        <span>화상상담</span>
+                                        <span>아이폰</span>
                                     </span>
                                     <em>서울특별시 강남구 도산대로 403 LG전자 베스트샵 강남본점</em>
                                 </a>
                                 <p class="sub-info">
                                     <a href="tel:02-3448-5191" class="call-num">02-3448-5191</a>
                                     <a href="javascript:void(0);">상세보기</a>
-                                    <a href="javascript:void(0);" class="active">매장 상담 예약</a>
+                                    <a href="javascript:void(0);" class="active">상담 예약</a>
                                 </p>
                             </li>
                             <li>
                                 <a href="javascript:void(0);" class="base-link">
                                     <strong>강남본점</strong>
+                                    <span class="interval">300m</span>
                                     <span class="option-list">
-                                        <span class="col01">NEW</span>
-                                        <span class="col05">야간무인</span>
+                                        <span>야간무인</span>
                                     </span>
                                     <em>서울특별시 강남구 도산대로 403 LG전자 베스트샵 강남본점</em>
                                 </a>
                                 <p class="sub-info">
                                     <a href="tel:02-3448-5191" class="call-num">02-3448-5191</a>
                                     <a href="javascript:void(0);">상세보기</a>
-                                    <a href="javascript:void(0);" class="active">매장 상담 예약</a>
+                                    <a href="javascript:void(0);" class="active">상담 예약</a>
                                 </p>
                             </li>
                             <li>
                                 <a href="javascript:void(0);" class="base-link">
                                     <strong>강남본점</strong>
+                                    <span class="interval">300m</span>
                                     <span class="option-list">
-                                        <span class="col01">NEW</span>
-                                        <span class="col02">화상상담</span>
-                                        <span class="col03">아이폰</span>
-                                        <span class="col04">LX지인</span>
-                                        <span class="col05">야간무인</span>
+                                        <span>화상상담</span>
+                                        <span>아이폰</span>
+                                        <span>LX지인</span>
+                                        <span>야간무인</span>
                                     </span>
                                     <em>서울특별시 강남구 도산대로 403 LG전자 베스트샵 강남본점</em>
                                 </a>
                                 <p class="sub-info">
                                     <a href="tel:02-3448-5191" class="call-num">02-3448-5191</a>
                                     <a href="javascript:void(0);">상세보기</a>
-                                    <a href="javascript:void(0);" class="active">매장 상담 예약</a>
+                                    <a href="javascript:void(0);" class="active">상담 예약</a>
                                 </p>
                             </li>
                             <li>
                                 <a href="javascript:void(0);" class="base-link">
                                     <strong>강남본점</strong>
+                                    <span class="interval">300m</span>
                                     <span class="option-list">
-                                        <span class="col01">NEW</span>
-                                        <span class="col02">화상상담</span>
-                                        <span class="col03">아이폰</span>
-                                        <span class="col04">LX지인</span>
-                                        <span class="col05">야간무인</span>
+                                        <span>화상상담</span>
+                                        <span>아이폰</span>
+                                        <span>LX지인</span>
+                                        <span>야간무인</span>
                                     </span>
                                     <em>서울특별시 강남구 도산대로 403 LG전자 베스트샵 강남본점</em>
                                 </a>
                                 <p class="sub-info">
                                     <a href="tel:02-3448-5191" class="call-num">02-3448-5191</a>
                                     <a href="javascript:void(0);">상세보기</a>
-                                    <a href="javascript:void(0);" class="active">매장 상담 예약</a>
+                                    <a href="javascript:void(0);" class="active">상담 예약</a>
                                 </p>
                             </li>
                             <li>
                                 <a href="javascript:void(0);" class="base-link">
                                     <strong>강남본점</strong>
+                                    <span class="interval">300m</span>
                                     <span class="option-list">
-                                        <span class="col01">NEW</span>
-                                        <span class="col02">화상상담</span>
-                                        <span class="col03">아이폰</span>
-                                        <span class="col04">LX지인</span>
-                                        <span class="col05">야간무인</span>
+                                        <span>화상상담</span>
+                                        <span>아이폰</span>
+                                        <span>LX지인</span>
+                                        <span>야간무인</span>
                                     </span>
                                     <em>서울특별시 강남구 도산대로 403 LG전자 베스트샵 강남본점</em>
                                 </a>
                                 <p class="sub-info">
                                     <a href="tel:02-3448-5191" class="call-num">02-3448-5191</a>
                                     <a href="javascript:void(0);">상세보기</a>
-                                    <a href="javascript:void(0);" class="active">매장 상담 예약</a>
+                                    <a href="javascript:void(0);" class="active">상담 예약</a>
                                 </p>
                             </li>
                             <li>
                                 <a href="javascript:void(0);" class="base-link">
                                     <strong>강남본점</strong>
+                                    <span class="interval">300m</span>
                                     <span class="option-list">
-                                        <span class="col01">NEW</span>
-                                        <span class="col02">화상상담</span>
-                                        <span class="col03">아이폰</span>
-                                        <span class="col04">LX지인</span>
-                                        <span class="col05">야간무인</span>
+                                        <span>화상상담</span>
+                                        <span>아이폰</span>
+                                        <span>LX지인</span>
+                                        <span>야간무인</span>
                                     </span>
                                     <em>서울특별시 강남구 도산대로 403 LG전자 베스트샵 강남본점</em>
                                 </a>
                                 <p class="sub-info">
                                     <a href="tel:02-3448-5191" class="call-num">02-3448-5191</a>
                                     <a href="javascript:void(0);">상세보기</a>
-                                    <a href="javascript:void(0);" class="active">매장 상담 예약</a>
+                                    <a href="javascript:void(0);" class="active">상담 예약</a>
                                 </p>
                             </li>
                         </ul>

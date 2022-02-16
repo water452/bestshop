@@ -19,6 +19,10 @@
     <jsp:include page="./templates/main/store.jsp" />
     <!-- e: info store -->
 
+    <!-- s: near store -->
+    <jsp:include page="./templates/main/store-near.jsp" />
+    <!-- e: near store -->
+
     <!-- s: store benefit -->
     <jsp:include page="./templates/main/benefit.jsp" />
     <!-- s: store benefit -->
