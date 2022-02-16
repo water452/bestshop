@@ -134,6 +134,18 @@
     },
     {
       "dep1": "",
+      "dep2": "",
+      "dep3": "매장상세",
+      "dep4": "",
+      "worker": "서강원",
+      "startdate": "2022-02-17",
+      "finishdate": "2022-02-18",
+      "status": "진행중",
+      "filename": "./pages/shop/BSF-SHOP-DEATIL.jsp",
+      "memo": ""
+    },
+    {
+      "dep1": "",
       "dep2": "신규 오픈 매장",
       "dep3": "목록",
       "dep4": "",
