@@ -623,7 +623,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	/* btn-area */
 	.btn-area.m64 {margin-top:30px}
 	.btn-area.mo50 > [class*="btn"] {width:calc(50% - 4.5px)}
-	.btn-area [class*="btn"] + [class*="btn"] {margin-left:8px}
+	.btn-area [class*="btn"] + [class*="btn"] {margin-left:7px}
 	.btn-area.full-size-m{display:flex;width:100%;}
 	.btn-area.full-size-m > [class*="btn"]{flex:1;}
 	.btn-area.full-size-m > [class*="btn"] + [class*="btn"]{margin-left:10px;}
