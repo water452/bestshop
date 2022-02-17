@@ -1122,10 +1122,10 @@
       "dep3": "",
       "dep4": "",
       "worker": "안하은",
-      "startdate": "2022-02-03",
-      "finishdate": "2022-02-03",
-      "status": "진행예정",
-      "filename": "",
+      "startdate": "2022-02-17",
+      "finishdate": "2022-02-17",
+      "status": "완료",
+      "filename": "./pages/error/BSF-ERROR-SYSTEMCHECK.jsp",
       "memo": ""
     },
     {
@@ -1134,10 +1134,10 @@
       "dep3": "",
       "dep4": "",
       "worker": "안하은",
-      "startdate": "2022-02-04",
-      "finishdate": "2022-02-04",
-      "status": "진행예정",
-      "filename": "",
+      "startdate": "2022-02-17",
+      "finishdate": "2022-02-17",
+      "status": "완료",
+      "filename": "./pages/error/BSF-ERROR-SYSTEMERROR.jsp",
       "memo": ""
     },
     {
@@ -1146,22 +1146,10 @@
       "dep3": "",
       "dep4": "",
       "worker": "안하은",
-      "startdate": "2022-02-07",
-      "finishdate": "2022-02-07",
-      "status": "진행예정",
-      "filename": "",
-      "memo": ""
-    },
-    {
-      "dep1": "",
-      "dep2": "이벤트 종료 안내",
-      "dep3": "",
-      "dep4": "",
-      "worker": "안하은",
-      "startdate": "2022-02-08",
-      "finishdate": "2022-02-08",
-      "status": "진행예정",
-      "filename": "",
+      "startdate": "2022-02-17",
+      "finishdate": "2022-02-17",
+      "status": "완료",
+      "filename": "./pages/error/BSF-ERROR-404.jsp",
       "memo": ""
     }
   ]
