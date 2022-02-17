@@ -12,14 +12,13 @@
 
             <div class="cont-wrap w100">
                 <div class="done-msg-area">
-                    <p class="done-msg-big">
+                    <div class="done-msg-big">
                         <strong>상담 예약이 완료되었습니다.</strong>
                         <span>매장에서 전문 매니저가 고객님께 딱 맞는 제품을 안내드리겠습니다.</span>
-                    </p>
+                    </div>
                     <div class="done-msg-small">
                         <ul>
-                            <li>* 담당 매니저가 선정된 후, 매장 방문일 확인을 위해 <br class="pc-hidden">입력하신 휴대폰 번호로 연락드릴 예정이니 참고 부탁드립니다.
-                            </li>
+                            <li>* 담당 매니저가 선정된 후, 매장 방문일 확인을 위해 <br class="pc-hidden">입력하신 휴대폰 번호로 연락드릴 예정이니 참고 부탁드립니다.</li>
                             <li>* 상담 예약 내역 조회는'매장 상담 예약 > 상담예약 조회' 화면에서 <br class="pc-hidden">확인하실 수 있습니다.</li>
                         </ul>
                     </div>
