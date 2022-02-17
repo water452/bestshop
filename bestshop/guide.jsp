@@ -196,6 +196,11 @@
             <a href="javascript:void(0);" class="btn dark-gray s03">버튼</a>
             <a href="javascript:void(0);" class="btn black s03">버튼</a>
             <a href="javascript:void(0);" class="btn mix s03">버튼</a>
+            <hr>
+            <h3 class="tit-guide">모바일에서 full-size일 경우</h3>
+            <div class="btn-area full-size-m">
+                <a href="javascript:void(0);" class="btn">버튼</a>
+            </div>
         </div>
     </div> 
     <!-- //buttons -->
