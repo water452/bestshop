@@ -139,11 +139,11 @@ function tabCommon(){
         var target = $(this).attr("href");
         var index = $(this).parent().index();
         $(this).parent().addClass("on").siblings().removeClass("on");
-        /*
+
         if ( target != "#" && target != "#none" && target != "" ){
             $(target).addClass("on").siblings().removeClass("on");
         };
-        */
+
         if ( $(this).parents(".tabSlide").length > 0 ){
             tabSlide();
         };
@@ -274,16 +274,20 @@ $(function(){
 
 /* custom scrollbar toggle */
 function customScroll(){
-    $('.custom-scroll').mCustomScrollbar({
-        mouseWheelPixels: 140, // 한번에 스크롤 되는양
-        scrollInertia: 300, // 부드러움 (값이 작을수록 속도가 빨라짐)
-        /* ajax 적용시
-        advanced:{ updateOnContentResize: true }
-        */
-    });
+	if ( $('.custom-scroll').length > 0 ){
+	    $('.custom-scroll').mCustomScrollbar({
+			mouseWheelPixels: 140, // 한번에 스크롤 되는양
+			scrollInertia: 300, // 부드러움 (값이 작을수록 속도가 빨라짐)
+			/* ajax 적용시
+			advanced:{ updateOnContentResize: true }
+			*/
+		});
+	};
 }
 function customScrollBreak(){
-    $('.custom-scroll').mCustomScrollbar('disable');
+	if ( $('.custom-scroll').length > 0 ){
+		$('.custom-scroll').mCustomScrollbar('disable');
+	};
 }
 
 // popup
@@ -439,15 +443,19 @@ $(document).ready(function() {
 
     // scroll custom
     if(_thsW > 767){
-        $('.custom-scroll').mCustomScrollbar({
-			mouseWheelPixels: 140, // 한번에 스크롤 되는양
-			scrollInertia: 300, // 부드러움 (값이 작을수록 속도가 빨라짐)
-			/* ajax 적용시
-			advanced:{ updateOnContentResize: true }
-			*/
-		});
+		if ( $('.custom-scroll').length > 0 ){
+			$('.custom-scroll').mCustomScrollbar({
+				mouseWheelPixels: 140, // 한번에 스크롤 되는양
+				scrollInertia: 300, // 부드러움 (값이 작을수록 속도가 빨라짐)
+				/* ajax 적용시
+				advanced:{ updateOnContentResize: true }
+				*/
+			});
+		};
     } else {
-        $('.custom-scroll').mCustomScrollbar('disable');
+		if ( $('.custom-scroll').length > 0 ){
+	        $('.custom-scroll').mCustomScrollbar('disable');
+		};
     }
 
     //mega-gnb > banner
@@ -493,22 +501,24 @@ $(document).ready(function() {
 
     // calendar
     $(function(){
-        $("#calendar").datepicker({
-            closeText:'닫기',
-            currentText:'오늘',
-            prevText:'이전 달',
-            nextText:'다음 달',
-            monthNames:['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
-            monthNamesShort:['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
-            dayNames:['일', '월', '화', '수', '목', '금', '토'],
-            dayNamesShort:['일', '월', '화', '수', '목', '금', '토'],
-            dayNamesMin:['일', '월', '화', '수', '목', '금', '토'],
-            weekHeader:'주',
-            yearSuffix:'.',
-            showMonthAfterYear:true,
-            showOtherMonths:true
-        });
-        $('.ui-widget-header a').attr('href','javascript:void(0);');
+		if ( $("#calendar").length > 0 ){
+			$("#calendar").datepicker({
+				closeText:'닫기',
+				currentText:'오늘',
+				prevText:'이전 달',
+				nextText:'다음 달',
+				monthNames:['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+				monthNamesShort:['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+				dayNames:['일', '월', '화', '수', '목', '금', '토'],
+				dayNamesShort:['일', '월', '화', '수', '목', '금', '토'],
+				dayNamesMin:['일', '월', '화', '수', '목', '금', '토'],
+				weekHeader:'주',
+				yearSuffix:'.',
+				showMonthAfterYear:true,
+				showOtherMonths:true
+			});
+			$('.ui-widget-header a').attr('href','javascript:void(0);');
+		};
     });
 
     // search clear

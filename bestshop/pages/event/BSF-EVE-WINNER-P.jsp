@@ -2,7 +2,6 @@
 
 <!DOCTYPE html>
 <html lang="ko" class="mdevice">
-  <!-- popup header include 필요-->
 <head>
     <meta charset="utf-8" />
     <title>LG전자 베스트샵</title>
@@ -27,11 +26,12 @@
     <header class="pop-header">
         <h1 class="tit"><span>당첨자 발표</span></h1>
     </header>
-    <section class="pop-conts">
+    <div class="pop-conts">
         <div class="ev-detail-top">
             <div class="tit-wrap">
                 <div class="flag-wrap">
                     <span class="flag">당첨자 발표</span>
+                    <span class="flag">SNS</span>
                 </div>
                 <h2 class="tit">LGE.COM 오픈 기념 응원 댓글 이벤트</h2>
                 <p class="date">2021.05.03~2021.05.31</p>
@@ -183,6 +183,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <button type="button" class="win-btn-close ui_modal_close" onclick="if($('#event-modal').length == 0) javascript:self.close();"><span class="blind">닫기</span></button>
 </article>
+
+</body>
+</html>
