@@ -336,11 +336,11 @@ ul.shop-list li [class^="btn-"] > span {margin-left:3px}
 .res-video-mobile .title .logo > img {width:101.5px}
 .res-video-mobile .title .logo > span {display:inline-block; margin-bottom:2px; padding-left:9px; color:#706E71; font-size:22px; font-weight:bold; line-height:30px; letter-spacing:-2px}
 .res-video-mobile .title > em {display:block; margin-top:4px; color:#666; font-size:12px; font-weight:500; line-height:18px; text-align:center}
-.res-video-mobile .cont-area {position:absolute; left:0; right:0; top:50%; transform:translateY(-50%)}
+.res-video-mobile .cont-area {position:absolute; left:16px; right:16px; top:50%; transform:translateY(-50%)}
 .res-video-mobile .cont-area .txt {text-align:center}
 .res-video-mobile .cont-area .txt > strong {display:block; font-size:16px; font-weight:500; line-height:24px}
 .res-video-mobile .cont-area .txt > span {display:block; margin-top:30px; font-size:12px; line-height:18px}
-.res-video-mobile .btn-area {position:fixed; left:0; right:0; bottom:0; padding:0 16px 50px; text-align:center}
+.res-video-mobile .btn-area {position:fixed; left:16px; right:16px; bottom:0; padding:0 0 50px; text-align:center}
 .res-video-mobile .btn-area .btn {width:100%; max-width:328px; font-size:14px; line-height:41px}
 .res-video-mobile .btn-area em {display:block; margin-top:10px; color:#999; font-size:10px; line-height:15px}
 
@@ -409,6 +409,7 @@ ul.shop-list li [class^="btn-"] > span {margin-left:3px}
 .res-main.care .service-detail-area > ul > li .desc-wrap dl dt {font-size:16px; font-weight:bold; line-height:24px}
 .res-main.care .service-detail-area > ul > li .desc-wrap dl dd {margin-top:5px; font-size:16px; line-height:24px}
 .res-main.care .service-detail-area > ul > li .desc-wrap dl dd > ul {margin-top:12px}
+.res-main.care .service-detail-area > ul > li .desc-wrap dl dd > ul li {font-weight:normal}
 
 .res-main.care .prd-list-area {margin-top:70px}
 .res-main.care .prd-list-area .prd-list-count {font-size:18px; font-weight:bold; line-height:26px}
@@ -604,6 +605,25 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 .cctv-wrap ul.ver {margin-top:48px}
 .cctv-wrap ul.ver li {color:#666; font-size:14px; line-height:20px}
 .cctv-wrap .tb_row .info {display:block; margin-top:12px; font-size:16px; line-height:24px}
+
+/* 에러페이지 */
+.err-msg-area {padding-top:100px; text-align:center}
+.err-msg-area .icon-wrap {display:block; width:64px; height:64px; margin:0 auto}
+.err-msg-area .icon-wrap .icon {display:block; width:100%; height:100%; background-repeat:no-repeat; background-position:center; background-size:contain}
+.err-msg-area .icon-wrap .icon.system {background-image:url(../images/icons/icon-error-system-check.svg)}
+.err-msg-area .icon-wrap .icon.error {background-image:url(../images/icons/icon-error-system-error.svg)}
+.err-msg-area .icon-wrap .icon.p-404 {background-image:url(../images/icons/icon-error-404.svg)}
+.err-msg-area .err-msg-big {margin-top:36px; font-size:32px; font-weight:bold; line-height:40px}
+.err-msg-area .err-msg-small {margin-top:14px; font-size:20px; font-weight:500; line-height:28px}
+.err-msg-area .err-msg-small > span {display:block}
+.err-msg-area .err-msg-gray {margin-top:40px; color:#666; font-size:16px; line-height:24px}
+.err-msg-area .err-msg-gray > span {display:block}
+.err-msg-area .logo-wrap {width:275px; margin:58px auto 0}
+.err-msg-area .logo-wrap img {display:block; width:100%}
+.err-msg-area .btn-area {margin-top:80px}
+.contents.no-header {position:fixed; left:0; right:0; top:0; bottom:0}
+.contents.no-header .cont-wrap {position:relative; height:100%}
+.contents.no-header .err-msg-area {position:absolute; left:0; right:0; top:50%; transform:translateY(-50%); padding-top:0}
 
 /* mobile */
 @media screen and (max-width:1440px) {
@@ -1132,4 +1152,16 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .cctv-wrap ul.ver li {font-size:11px; line-height:16px}
     .cctv-wrap ul.ver li + li {margin-top:3px}
     .cctv-wrap .tb_row .info {margin-top:10px; font-size:14px; line-height:20px}
+
+    /* 에러페이지 */
+    .err-msg-area {padding-top:66px}
+    .err-msg-area .icon-wrap {width:60px; height:60px}
+    .err-msg-area .icon-wrap .icon.system {background-image:url(../images/icons/icon-error-system-check_mo.svg)}
+    .err-msg-area .icon-wrap .icon.error {background-image:url(../images/icons/icon-error-system-error.svg)}
+    .err-msg-area .icon-wrap .icon.p-404 {background-image:url(../images/icons/icon-error-404_mo.svg)}
+    .err-msg-area .err-msg-big {margin-top:30px; font-size:24px; line-height:30px}
+    .err-msg-area .err-msg-small {margin-top:10px; font-size:14px; line-height:20px}
+    .err-msg-area .err-msg-gray {margin-top:30px; font-size:13px; line-height:19px}
+    .err-msg-area .logo-wrap {width:183px; margin-top:50px}
+    .contents.no-header {padding:0 16px}
 }
