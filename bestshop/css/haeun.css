@@ -187,6 +187,7 @@ ul.input-base-type .chkrdo-btn input:checked + label {border-width:2px; line-hei
 .step-area .shop-date-wrap .list-wrap {display:none; border:1px solid #000; border-radius:8px; overflow:hidden}
 .step-area .shop-date-wrap .list-wrap.active {display:block}
 .step-area .shop-date-wrap .list-wrap .search-wrap {width:100%; padding:16px 24px; box-shadow:0 3px 6px 0 rgba(0, 0, 0, 0.16)}
+.step-area .shop-date-wrap .list-wrap .search-wrap .search-box {margin:0 auto 0 0}
 .step-area .shop-date-wrap .list-wrap .view-wrap {display:flex; height:514px}
 .step-area .shop-date-wrap .list-wrap .view-wrap .lt {width:220px; height:100%; border-right:1px solid #ddd; overflow-y:auto}
 ul.shop-list {width:100%; padding:16px 0}
@@ -227,6 +228,7 @@ ul.shop-list li [class^="btn-"] > span {margin-left:3px}
 .step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl + dl {margin-top:18px}
 .step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl dt {min-width:83px; font-size:16px; font-weight:500; line-height:24px}
 .step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl dd {margin-left:24px; font-size:16px; line-height:24px}
+.step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl dd > ul li + li {margin-top:6px}
 .step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl dd > ul li span + span {margin-left:10px}
 .step-area .shop-date-wrap .bottom-area .date-wrap {display:flex; width:40%; height:auto; min-height:386px; margin-left:16px}
 .step-area .shop-date-wrap .bottom-area .date-wrap .mo-top {display:none}
@@ -644,7 +646,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 @media screen and (max-width:1023px) { /* Tablet */
     /* 매장/상담일시 선택 */
     .step-area .shop-date-wrap .bottom-area .shop-info-wrap {width:50%}
-    .step-area .shop-date-wrap .bottom-area .shop-info-wrap .box {padding:24px}
+    .step-area .shop-date-wrap .bottom-area .shop-info-wrap .box {padding:23px}
     .step-area .shop-date-wrap .bottom-area .date-wrap {width:50%}
 
     /* 예약자 정보 */
@@ -869,8 +871,10 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .top-area .shop-name {font-size:14px; line-height:20px}
     .step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .top-area .key-words {margin-left:0; margin-top:6px}
     .step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .top-area .key-words > li {font-size:10px; line-height:15px}
+    .step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl + dl {margin-top:13px}
     .step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl dt {min-width:45px; font-size:12px; line-height:17px}
     .step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl dd {margin-left:20px; font-size:12px; line-height:17px}
+    .step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl dd > ul li + li {margin-top:2px}
     .step-area .shop-date-wrap .bottom-area .date-wrap {flex-direction:column; width:100%; min-height:0; margin-left:0; margin-top:12px}
     .step-area .shop-date-wrap .bottom-area .date-wrap .mo-top {display:block; padding:11px}
     .step-area .shop-date-wrap .bottom-area .date-wrap .mo-top .mo-tit {color:#666; font-size:14px; line-height:20px}
