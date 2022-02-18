@@ -913,7 +913,7 @@
                         <div class="result-txt">
                             <!-- <p>상담하실 매장과 일시를 선택해주세요.</p> -->
                             <p>상담매장: <span>강남본점</span></p>
-                            <p>방문일시: <span>12.15(수), 17시</span></p>
+                            <p>방문일시: <span>21년12월15일, 17시</span></p>
                         </div>
                         <button type="button" class="btn s01 border-red arr-right">다음으로</button>
                     </div>
@@ -932,7 +932,7 @@
                     </div>
                     <div class="main-area active"><!-- active 클래스 추가 -->
                         <div class="user-info-area">
-                            <h3 class="step-tit">예약자 정보<sup>*</sup></h3>
+                            <h3 class="step-tit">예약자 정보</h3>
                             <div class="lt">
                                 <form action="#">
                                     <div class="box-gray">
@@ -940,7 +940,7 @@
                                             <li>
                                                 <div class="tit">
                                                     <label for="user-name">
-                                                        <span class="name">이름</span>
+                                                        <span class="name">이름<sup>*</sup></span>
                                                     </label>
                                                 </div>
                                                 <div class="txt-box">
@@ -950,7 +950,7 @@
                                             <li>
                                                 <div class="tit">
                                                     <label for="user-number">
-                                                        <span class="name">휴대폰번호</span>
+                                                        <span class="name">휴대폰번호<sup>*</sup></span>
                                                     </label>
                                                 </div>
                                                 <div class="txt-box">

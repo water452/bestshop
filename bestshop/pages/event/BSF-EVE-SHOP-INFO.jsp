@@ -1028,7 +1028,7 @@
                         <div class="result-txt">
                             <!-- <p>상담하실 매장과 일시를 선택해주세요.</p> -->
                             <p>상담매장: <span>강남본점</span></p>
-                            <p>방문일시: <span>12.15(수), 17시</span></p>
+                            <p>방문일시: <span>21년12월15일, 17시</span></p>
                         </div>
                         <button type="button" class="btn s01 border-red arr-right">다음으로</button>
                     </div>
@@ -1058,7 +1058,7 @@
                                             <li>
                                                 <div class="tit">
                                                     <label for="user-name">
-                                                        <span class="name">이름</span>
+                                                        <span class="name">이름<sup>*</sup></span>
                                                     </label>
                                                 </div>
                                                 <div class="txt-box">
@@ -1068,7 +1068,7 @@
                                             <li>
                                                 <div class="tit">
                                                     <label for="user-number">
-                                                        <span class="name">휴대폰번호</span>
+                                                        <span class="name">휴대폰번호<sup>*</sup></span>
                                                     </label>
                                                 </div>
                                                 <div class="txt-box">

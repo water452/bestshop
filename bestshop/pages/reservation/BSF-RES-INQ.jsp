@@ -6,7 +6,7 @@
         <div class="page-header">
             <h2 class="title">상담 예약 조회</h2>
             <div class="desc">
-                <p class="txt">고객님께서 예약하신 상담 예약 내역을 조회하실 수 있습니다.</p>
+                <p class="txt">고객님께서 예약하신 예약 내역을 조회하실 수 있습니다.</p>
             </div>
         </div>
 

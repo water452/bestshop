@@ -14,7 +14,7 @@
                 <div class="done-msg-area pt100">
                     <div class="done-msg-big">
                         <strong>매장 <em>상담</em> 예약 취소가 <br class="pc-hidden">완료되었습니다.</strong>
-                        <!-- <strong>매장 <em>구매</em> 예약 취소가 완료되었습니다.</strong> -->
+                        <!-- <strong>매장 <em>구매</em> 예약 취소가 <br class="pc-hidden">완료되었습니다.</strong> -->
                     </div>
                     <div class="done-msg-small">
                         <ul>

@@ -18,9 +18,8 @@
                     </div>
                     <div class="done-msg-small">
                         <ul>
-                            <li>* 담당 매니저가 선정된 후, 매장 방문일 확인을 위해 <br class="pc-hidden">입력하신 휴대폰 번호로 연락드릴 예정이니 참고 부탁드립니다.
-                            </li>
-                            <li>* 상담 예약 내역 조회는'매장 상담 예약 > 상담예약 조회' 화면에서 <br class="pc-hidden">확인하실 수 있습니다.</li>
+                            <li>* 담당 매니저가 선정된 후, 매장 방문일 확인을 위해 <br class="pc-hidden">입력하신 휴대폰 번호로 연락드릴 예정이니 참고 부탁드립니다.</li>
+                            <li>* 상담 예약 내역 조회는'매장 상담 예약 > 상담 예약 조회' 화면에서 <br class="pc-hidden">확인하실 수 있습니다.</li>
                         </ul>
                     </div>
                 </div>
@@ -28,20 +27,20 @@
                     <div class="info-box">
                         <ul>
                             <li>
-                                <span>방문 매장</span>
+                                <span>상담 매장</span>
                                 <strong>강남 본점</strong>
                             </li>
                             <li>
                                 <span>예약 일시</span>
-                                <strong>12.15(수), 17시</strong>
+                                <strong>21년12월15일, 17시</strong>
                             </li>
                             <li>
-                                <span>구매 희망 제품</span>
-                                <strong>TV, 냉장고, 식기세척기, 세탁기, 스타일러, 공기청정기, 에어컨</strong>
+                                <span>상담 희망 제품</span>
+                                <strong>LG 퓨리케어 슬림스윙정수기 (WD302AS)</strong>
                             </li>
                             <li>
                                 <span>예약자 정보</span>
-                                <strong>김베샵, 01012345678</strong>
+                                <strong>김베샵, 010-1234-5678</strong>
                             </li>
                         </ul>
                     </div>
