@@ -544,7 +544,7 @@
       "dep1": "",
       "dep2": "",
       "dep3": "",
-      "dep4": "베스트샵 이벤트 상세",
+      "dep4": "베스트샵 이벤트 상세 (설문형)",
       "worker": "서강원",
       "startdate": "2021-12-13",
       "finishdate": "2021-12-17",
@@ -556,12 +556,24 @@
       "dep1": "",
       "dep2": "",
       "dep3": "",
-      "dep4": "베스트샵 이벤트 상세 (타임딜)",
+      "dep4": "베스트샵 이벤트 상세 (쿠폰형)",
       "worker": "서강원",
       "startdate": "2022-01-24",
       "finishdate": "2022-01-25",
       "status": "완료",
-      "filename": "./pages/event/BSF-EVE-DETAIL-TIMEDEAL.jsp",
+      "filename": "./pages/event/BSF-EVE-DETAIL-COUPON.jsp",
+      "memo": ""
+    },
+    {
+      "dep1": "",
+      "dep2": "",
+      "dep3": "",
+      "dep4": "베스트샵 이벤트 상세 (종료형)",
+      "worker": "서강원",
+      "startdate": "2022-01-24",
+      "finishdate": "2022-01-25",
+      "status": "완료",
+      "filename": "./pages/event/BSF-EVE-DETAIL-END.jsp",
       "memo": ""
     },
     {
@@ -723,13 +735,13 @@
     {
       "dep1": "",
       "dep2": "",
-      "dep3": "상세",
+      "dep3": "목록 (라이브방송)",
       "dep4": "",
       "worker": "서강원",
       "startdate": "2022-01-27",
       "finishdate": "2022-01-28",
       "status": "완료",
-      "filename": "./pages/event/BSF-EVE-MEDIA-LIST.jsp",
+      "filename": "./pages/event/BSF-EVE-MEDIA-LIST-LIVE.jsp",
       "memo": ""
     },
     {

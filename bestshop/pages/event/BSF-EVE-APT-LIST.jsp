@@ -223,7 +223,7 @@
                         </dd>
                     </dl>
                     <div class="btn-area">
-                        <a href="#javascript:void(0);" class="btn-txt-icon_more-line">외부 박람회 확인하기</a>
+                        <a href="BSF-EVE-FAIR-LIST.jsp" class="btn-txt-more">외부 박람회 확인하기</a>
                     </div>
                 </div>
                 <!-- //결과 header -->
@@ -250,7 +250,7 @@
                                 <li>미아사거리점</li>
                             </ul>
                             <div class="btn-area">
-                                <a href="#javascript:void(0);" class="btn border-gray s03 b01">방문 상담 예약</a>
+                                <a href="BSF-EVE-APT-RES.jsp" class="btn border-gray s03 b01">방문 상담 예약</a>
                             </div>
                         </div>
                     </li>
@@ -266,7 +266,7 @@
                                 <li>미아사거리점</li>
                             </ul>
                             <div class="btn-area">
-                                <a href="#javascript:void(0);" class="btn border-gray s03 b01">방문 상담 예약</a>
+                                <a href="BSF-EVE-APT-RES.jsp" class="btn border-gray s03 b01">방문 상담 예약</a>
                             </div>
                         </div>
                     </li>
@@ -282,7 +282,7 @@
                                 <li>미아사거리점</li>
                             </ul>
                             <div class="btn-area">
-                                <a href="#javascript:void(0);" class="btn border-gray s03 b01">방문 상담 예약</a>
+                                <a href="BSF-EVE-APT-RES.jsp" class="btn border-gray s03 b01">방문 상담 예약</a>
                             </div>
                         </div>
                     </li>
@@ -298,15 +298,12 @@
                                 <li>미아사거리점</li>
                             </ul>
                             <div class="btn-area">
-                                <a href="#javascript:void(0);" class="btn border-gray s03 b01">방문 상담 예약</a>
+                                <a href="BSF-EVE-APT-RES.jsp" class="btn border-gray s03 b01">방문 상담 예약</a>
                             </div>
                         </div>
                     </li>
                 </ul>
                 <!-- //목록 -->
-                <div class="btn-area center">
-                    <button type="button" class="btn border s02 more"><span>더보기</span></button>
-                </div>
             </div>
             <!-- //결과 -->
         </div>

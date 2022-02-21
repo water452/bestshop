@@ -27,7 +27,7 @@
                         </div>
                     </li>
                     <li>
-                        <a href="javascript:void(0);">제품별 이벤트</a>
+                        <a href="javascript:void(0);">제품 구매 혜택</a>
                         <div class="tab02 tabOn tabSlide">
                             <ul>
                                 <li class="on"><a href="javascript:void(0);">전체</a></li>
@@ -86,8 +86,56 @@
             <!-- event-list -->
             <div class="event-list">
                 <ul>
+                    <li>
+                        <a href="BSF-EVE-DETAIL.jsp">
+                            <span class="thumb">
+                                <img src="../../images/@box-list-thumb-01.jpg" alt="스타일러 이미지">
+                            </span>
+                            <div class="info">
+                                <div class="flag-wrap">
+                                    <span class="flag"><span class="blind">이벤트 구분</span>매장</span>
+                                    <span class="flag"><span class="blind">이벤트 유형</span>구매혜택</span>
+                                </div>
+                                <p class="tit"><span class="blind">이벤트 제목</span>스타일러 케어솔루션 고객감사 이벤트</p>
+                                <p class="date"><span class="blind">이벤트 기간</span>2021.12.01~2021.12.31</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="BSF-EVE-DETAIL-COUPON.jsp">
+                            <span class="thumb">
+                                <span class="icon-timedeal"><img src="../../images/icons/icon-timedeal.svg" alt="타임딜"></span>
+                                <img src="../../images/@box-list-thumb-01.jpg" alt="스타일러 이미지">
+                            </span>
+                            <div class="info">
+                                <div class="flag-wrap">
+                                    <span class="flag"><span class="blind">이벤트 구분</span>매장</span>
+                                    <span class="flag"><span class="blind">이벤트 유형</span>구매혜택</span>
+                                </div>
+                                <p class="tit"><span class="blind">이벤트 제목</span>스타일러 케어솔루션 고객감사 이벤트</p>
+                                <p class="date"><span class="blind">이벤트 기간</span>2021.12.01~2021.12.31</p>
+                            </div>
+                        </a>
+                    </li>
                     <li class="end-event">
-                        <a href="#">
+                        <a href="BSF-EVE-DETAIL-END.jsp">
+                            <span class="thumb">
+                                <span class="end-msg"><em>종료된 이벤트</em></span>
+                                <img src="../../images/@box-list-thumb-01.jpg" alt="스타일러 이미지">
+                            </span>
+                            <div class="info">
+                                <div class="flag-wrap">
+                                    <span class="flag"><span class="blind">이벤트 구분</span>매장</span>
+                                    <span class="flag"><span class="blind">이벤트 유형</span>구매혜택</span>
+                                </div>
+                                <p class="tit"><span class="blind">이벤트 제목</span>스타일러 케어솔루션 고객감사 이벤트</p>
+                                <p class="date"><span class="blind">이벤트 기간</span>2021.12.01~2021.12.31</p>
+                            </div>
+                        </a>
+                        <a href="#" onclick="window.open('../event/BSF-EVE-WINNER-P.jsp','new','scrollbars=yes,resizable=no');return false"class="btn-link"><span>당첨자 발표</span></a>
+                    </li>
+                    <li class="end-event">
+                        <a href="BSF-EVE-DETAIL-END.jsp">
                             <span class="thumb">
                                 <span class="end-msg"><em>종료된 이벤트</em></span>
                                 <span class="icon-timedeal"><img src="../../images/icons/icon-timedeal.svg" alt="타임딜"></span>
@@ -103,69 +151,6 @@
                             </div>
                         </a>
                         <a href="#" onclick="window.open('../event/BSF-EVE-WINNER-P.jsp','new','scrollbars=yes,resizable=no');return false"class="btn-link"><span>당첨자 발표</span></a>
-                    </li>
-                    <li class="end-event">
-                        <a href="#">
-                            <span class="thumb">
-                                <span class="end-msg"><em>종료된 이벤트</em></span>
-                                <img src="../../images/@box-list-thumb-01.jpg" alt="스타일러 이미지">
-                            </span>
-                            <div class="info">
-                                <div class="flag-wrap">
-                                    <span class="flag"><span class="blind">이벤트 구분</span>매장</span>
-                                    <span class="flag"><span class="blind">이벤트 유형</span>구매혜택</span>
-                                </div>
-                                <p class="tit"><span class="blind">이벤트 제목</span>스타일러 케어솔루션 고객감사 이벤트</p>
-                                <p class="date"><span class="blind">이벤트 기간</span>2021.12.01~2021.12.31</p>
-                            </div>
-                        </a>
-                        <a href="#" class="btn-link"><span>당첨자 발표</span></a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="thumb">
-                                <span class="icon-timedeal"><img src="../../images/icons/icon-timedeal.svg" alt="타임딜"></span>
-                                <img src="../../images/@box-list-thumb-01.jpg" alt="스타일러 이미지">
-                            </span>
-                            <div class="info">
-                                <div class="flag-wrap">
-                                    <span class="flag"><span class="blind">이벤트 구분</span>매장</span>
-                                    <span class="flag"><span class="blind">이벤트 유형</span>구매혜택</span>
-                                </div>
-                                <p class="tit"><span class="blind">이벤트 제목</span>스타일러 케어솔루션 고객감사 이벤트</p>
-                                <p class="date"><span class="blind">이벤트 기간</span>2021.12.01~2021.12.31</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="thumb">
-                                <img src="../../images/@box-list-thumb-01.jpg" alt="스타일러 이미지">
-                            </span>
-                            <div class="info">
-                                <div class="flag-wrap">
-                                    <span class="flag"><span class="blind">이벤트 구분</span>매장</span>
-                                    <span class="flag"><span class="blind">이벤트 유형</span>구매혜택</span>
-                                </div>
-                                <p class="tit"><span class="blind">이벤트 제목</span>스타일러 케어솔루션 고객감사 이벤트</p>
-                                <p class="date"><span class="blind">이벤트 기간</span>2021.12.01~2021.12.31</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="thumb">
-                                <img src="../../images/@box-list-thumb-01.jpg" alt="스타일러 이미지">
-                            </span>
-                            <div class="info">
-                                <div class="flag-wrap">
-                                    <span class="flag"><span class="blind">이벤트 구분</span>매장</span>
-                                    <span class="flag"><span class="blind">이벤트 유형</span>구매혜택</span>
-                                </div>
-                                <p class="tit"><span class="blind">이벤트 제목</span>스타일러 케어솔루션 고객감사 이벤트</p>
-                                <p class="date"><span class="blind">이벤트 기간</span>2021.12.01~2021.12.31</p>
-                            </div>
-                        </a>
                     </li>
                 </ul>
             </div>

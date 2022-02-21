@@ -135,7 +135,7 @@ function tabCommon(){
 
     // tab
     function tabOn(e){
-        e.preventDefault();
+        //e.preventDefault();
         var target = $(this).attr("href");
         var index = $(this).parent().index();
         $(this).parent().addClass("on").siblings().removeClass("on");

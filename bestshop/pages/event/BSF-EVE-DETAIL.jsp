@@ -32,10 +32,6 @@
                             <dd>LG전자 통합 회원이라면 누구나</dd>
                         </dl>
                     </div>
-                    <div class="finish-txt Y">
-                        <p>이벤트가 종료되었습니다.</p>
-                        <a href="#" class="btn-link">당첨자 발표</a>
-                    </div>
                 </div>
                 <div class="component-wrap">
                     <div class="inner">
@@ -78,17 +74,27 @@
                     <dl class="form">
                         <dt class="tit"><label for="shortAnswer" class="req">설문방식 주관식 단답형<span class="blind">필수입력</span></label></dt>
                         <dd class="conts">
-                            <span class="input-wrap">
-                                <input type="text" id="shortAnswer" placeholder="단답형 입력">
-                            </span>
+                            <div class="input-wrap limit-box">
+                                <input type="text" id="shortAnswer" placeholder="답변 입력">
+                                <div class="limit-txt-box">
+                                    <span class="number">0</span>
+                                    <span class="slash">/</span>
+                                    <strong class="total">50자</strong>
+                                </div>
+                            </div>
                         </dd>
                     </dl>
                     <dl class="form">
                         <dt class="tit"><label for="longAnswer" class="req">설문방식 주관식 서술형<span class="blind">필수입력</span></label></dt>
                         <dd class="conts">
-                            <span class="input-wrap">
-                                <textarea id="longAnswer" cols="30" rows="10" placeholder="서술형 입력"></textarea>
-                            </span>
+                            <div class="input-wrap limit-box">
+                                <textarea id="longAnswer" cols="30" rows="10" placeholder="답변 입력"></textarea>
+                                <div class="limit-txt-box">
+                                    <span class="number">0</span>
+                                    <span class="slash">/</span>
+                                    <strong class="total">500자</strong>
+                                </div>
+                            </div>
                         </dd>
                     </dl>
                     <dl class="form">
@@ -200,22 +206,9 @@
                                         <input type="text" class="name" placeholder="파일선택" disabled>
                                     </div>
                                 </div>
-                                <div class="file-item">
-                                    <div class="file-image">
-                                        <div class="file-preview"></div>
-                                        <div class="file-btns">
-                                            <input type="file" name="imageFile4" id="imageFile4" accept="image/*">
-                                            <label for="imageFile4" class="btn-upload"><span class="blind">업로드</span></label>
-                                            <button type="button" class="btn-del"><span class="blind">삭제</span></button>
-                                        </div>
-                                    </div>
-                                    <div class="file-name">
-                                        <input type="text" class="name" placeholder="파일선택" disabled>
-                                    </div>
-                                </div>
                             </div>
                             <ul class="bullet-list">
-                                <li class="b-txt">첨부파일은 최대 5개까지 가능하며, 전체 용량은 000MB 이하까지 업로드 가능합니다.</li>
+                                <li class="b-txt">첨부파일은 최대 3개까지 가능하며, 전체 용량은 100MB 이하까지 업로드 가능합니다.</li>
                                 <li class="b-txt">이미지명은 특수기호( ? ! , . &amp; ^ ~ )를 제외해주세요. (첨부 가능 확장자 jpg, jpeg, png, gif)</li>
                             </ul>
                         </dd>

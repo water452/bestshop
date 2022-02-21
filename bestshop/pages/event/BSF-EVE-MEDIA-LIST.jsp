@@ -24,73 +24,27 @@
                         </div>
                     </li>
                     <li>
-                        <a href="javascript:void(0);">IT</a>
+                        <a href="javascript:void(0);">제품 소개</a>
                         <div class="tab02 tabOn tabSlide">
                             <ul>
                                 <li class="on"><a href="javascript:void(0);">전체</a></li>
-                                <li><a href="javascript:void(0);">노트북</a></li>
+                                <li><a href="javascript:void(0);">사용 방법</a></li>
+                                <li><a href="javascript:void(0);">제품 리뷰</a></li>
                             </ul>
                         </div>
                     </li>
                     <li>
-                        <a href="javascript:void(0);">주방가전</a>
+                        <a href="javascript:void(0);">베스트샵 Story</a>
                         <div class="tab02 tabOn tabSlide">
                             <ul>
                                 <li class="on"><a href="javascript:void(0);">전체</a></li>
-                                <li><a href="javascript:void(0);">냉장고</a></li>
-                                <li><a href="javascript:void(0);">김치냉장고</a></li>
-                                <li><a href="javascript:void(0);">식기세척기</a></li>
-                                <li><a href="javascript:void(0);">전기레인지</a></li>
-                                <li><a href="javascript:void(0);">광파오픈/전자레인지</a></li>
-                                <li><a href="javascript:void(0);">정수기</a></li>
+                                <li><a href="javascript:void(0);">구매 혜택</a></li>
+                                <li><a href="javascript:void(0);">매장 소개</a></li>
                             </ul>
                         </div>
                     </li>
                     <li>
-                        <a href="javascript:void(0);">생활가전</a>
-                        <div class="tab02 tabOn tabSlide">
-                            <ul>
-                                <li class="on"><a href="javascript:void(0);">전체</a></li>
-                                <li><a href="javascript:void(0);">워시타워</a></li>
-                                <li><a href="javascript:void(0);">세탁기</a></li>
-                                <li><a href="javascript:void(0);">의류건조기</a></li>
-                                <li><a href="javascript:void(0);">스타일러</a></li>
-                                <li><a href="javascript:void(0);">청소기</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0);">에어컨/에어케어</a>
-                        <div class="tab02 tabOn tabSlide">
-                            <ul>
-                                <li class="on"><a href="javascript:void(0);">전체</a></li>
-                                <li><a href="javascript:void(0);">에어컨</a></li>
-                                <li><a href="javascript:void(0);">시스템 에어컨</a></li>
-                                <li><a href="javascript:void(0);">공기청정기</a></li>
-                                <li><a href="javascript:void(0);">공기청정팬</a></li>
-                                <li><a href="javascript:void(0);">제습/가습기</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0);">모바일</a>
-                        <div class="tab02 tabOn tabSlide">
-                            <ul>
-                                <li class="on"><a href="javascript:void(0);">전체</a></li>
-                                <li><a href="javascript:void(0);">스마트폰</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0);">뷰티/의료기기</a>
-                        <div class="tab02 tabOn tabSlide">
-                            <ul>
-                                <li class="on"><a href="javascript:void(0);">전체</a></li>
-                                <li><a href="javascript:void(0);">뷰티 디바이스</a></li>
-                                <li><a href="javascript:void(0);">스마트액세서리</a></li>
-                                <li><a href="javascript:void(0);">IoT기기</a></li>
-                            </ul>
-                        </div>
+                        <a href="BSF-EVE-MEDIA-LIST-LIVE.jsp">라이브방송</a>
                     </li>
                 </ul>
             </div>
@@ -99,9 +53,9 @@
                 <div class="sv-view">
                     <div class="sv-video-area mScrollSticky">
                         <div class="video-wrap">
-                            <video controls="" autoplay="" muted="" loop="">
-                                <source src="/kr/videos/2021/12/Aerotower_high_no tap_1222.mp4" type="video/mp4">
-                            </video>
+                            <div class="iframe-wrap">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/PKELCx-C_Og" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
                         </div>
                     </div>
                     <div class="sv-tit-area">
@@ -124,8 +78,7 @@
                         </div>
                     </div>
                     <div class="sv-txt-area">
-                        <button type="button" class="btn-arrow-toggle bold btnTargetToggle" data-target="#sv-txt-wrap" data-class="on">열기/닫기</button>
-                        <div class="sv-txt-wrap" id="sv-txt-wrap">LG 퓨리케어 에어로타워 오브제컬렉션 - 세상에 없던 에어로타워 편
+                        <div class="sv-txt-wrap">LG 퓨리케어 에어로타워 오브제컬렉션 - 세상에 없던 에어로타워 편
                         
                         [자막]
                         설렐거예요 처음이니까 이건 바로 에어로타워

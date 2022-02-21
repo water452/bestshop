@@ -13,8 +13,8 @@
                 <img src="../../images/temp_img_event_apt.jpg" alt="해당 이미지 ALT" />
             </div>
             <div class="btn-area center m-full">
-                <a href="#javascript:void(0);" class="btn s01">행사 아파트 리스트 확인하기</a>
-                <a href="#javascript:void(0);" class="btn s01 border">외부 박람회 일정 확인하기</a>
+                <a href="BSF-EVE-APT-LIST.jsp" class="btn s01">행사 아파트 리스트 확인하기</a>
+                <a href="BSF-EVE-FAIR-LIST.jsp" class="btn s01 border">외부 박람회 일정 확인하기</a>
             </div>
         </div>
     </div>
