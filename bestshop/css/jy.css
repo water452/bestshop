@@ -131,7 +131,7 @@ dfn { display: block; font-style: normal; }
 .sltBox select { position: absolute; margin: -1px; width: 1px; height: 1px; overflow: hidden; clip-path: polygon(0 0, 0 0, 0 0); }
 
 /* sorting-area */
-.sorting-area { padding: 42px 0 6px; }
+.sorting-area { padding: 32px 0 6px; }
 .sorting-area:after { content: ""; display: block; clear: both; }
 .sorting-area > .lt { float: left; }
 .sorting-area > .rt { float: right; }

@@ -170,21 +170,16 @@
                 </ul>
             </div>
             <!-- //event-list -->
-            <!-- 더보기 -->
-            <div class="btn-area center">
-                <a href="javascript:void(0);" class="btn border s02"><span>이벤트 더보기</span></a>
-            </div>
-            <!-- //더보기 -->
             <!-- no-data -->
             <div class="no-data">
                 <p>설정하신 필터에 맞는 이벤트가 없습니다.</p>
             </div>
             <!-- //no-data -->
-            <!-- no-data (ty-bg) -->
+            <!-- no-data (ty-bg)
             <div class="no-data ty-bg">
                 <p>등록된 기획전이 없습니다.</p>
             </div>
-            <!-- //no-data (ty-bg) -->
+            //no-data (ty-bg) -->
             <!-- time-deal (data-flag="false"시 숨김처리) -->
             <div class="point-container bg-tangible02 time-deal" data-flag="true">
                 <div class="point-wrap">
