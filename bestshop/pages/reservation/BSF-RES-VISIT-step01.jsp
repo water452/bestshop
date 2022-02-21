@@ -1043,6 +1043,7 @@
                                             <!-- active 클래스 추가(mo) -->
                                             <div class="mo-top">
                                                 <p class="mo-tit">예약일 선택</p>
+                                                <!-- <p class="mo-tit active">21년 12월 15일</p> --><!-- active 클래스 추가(mo) -->
                                             </div>
                                             <div id="calendar" class="cal-cont"></div> <!-- #calendar 로 달력호출 -->
                                         </div>
@@ -1050,6 +1051,7 @@
                                             <!-- active 클래스 추가(mo) -->
                                             <div class="mo-top">
                                                 <p class="mo-tit">예약시간 선택</p>
+                                                <!-- <p class="mo-tit active">17시</p> --><!-- active 클래스 추가(mo) -->
                                             </div>
                                             <div class="time-cont">
                                                 <form action="#">
@@ -1216,7 +1218,7 @@
                                                             내용 보기</span></button><!-- active 클래스 추가 -->
                                                     <div class="agr-txt-wrap size-l active">
                                                         <!-- active 클래스 추가 -->
-                                                        <div class="inner">
+                                                        <div class="inner custom-scroll">
                                                             <ul>
                                                                 <li>
                                                                     <span>1. 수집하는 개인정보의 항목</span>
@@ -1257,7 +1259,7 @@
                                                             내용 보기</span></button><!-- active 클래스 추가 -->
                                                     <div class="agr-txt-wrap active">
                                                         <!-- active 클래스 추가 -->
-                                                        <div class="inner">
+                                                        <div class="inner custom-scroll">
                                                             <ul>
                                                                 <li>
                                                                     <span>1. 마케팅 정보활용 동의</span>
@@ -1457,7 +1459,9 @@
                 navigation: {
                     nextEl: ".img-slide .slide-navi .slideBtn.btn-next",
                     prevEl: ".img-slide .slide-navi .slideBtn.btn-prev"
-                }
+                },
+                loop : true,
+                loopAdditionalSlides: 1,
             });
 
             // 방문상담 배너 슬라이드 (autoplay control)

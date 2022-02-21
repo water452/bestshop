@@ -135,7 +135,7 @@ ul.input-pdt-type .chkrdo-btn input:checked + label {border-width:2px; line-heig
 ul.input-base-type {justify-content:space-between; margin:0 -6px}
 ul.input-base-type > li {width:calc(100% / 6); padding:0 6px}
 ul.input-base-type .chkrdo-btn {width:100%}
-ul.input-base-type .chkrdo-btn label {width:100%; font-weight:500}
+ul.input-base-type .chkrdo-btn label {width:100%; padding:0 10px; font-weight:500}
 ul.input-base-type .chkrdo-btn input:checked + label {border-width:2px; line-height:44px}
 
 /* 추가전달사항 */
@@ -179,11 +179,11 @@ ul.input-base-type .chkrdo-btn input:checked + label {border-width:2px; line-hei
 .map-wrap .api-area {position:relative; height:494px; margin-top:14px; border-radius:8px; overflow:hidden; background:url(../images/@img-map.png) no-repeat center / cover}
 .map-wrap .api-area .map-list-wrap {position:absolute; width:290px; height:100%; top:0; left:-250px; bottom:0; transition:all ease .4s}
 .map-wrap .api-area .map-list-wrap.active {left:0}
-.map-wrap .api-area .map-list-wrap .list-inner {position:relative; width:250px; height:100%; overflow-y:auto}
-.map-wrap .api-area .map-list-wrap .list-inner .mCSB_inside > .mCSB_container {margin-right:0}
-.map-wrap .api-area .map-list-wrap .list-inner .mCSB_scrollTools {width:20px}
-.map-wrap .api-area .map-list-wrap .list-inner .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {background:#ccc}
-.map-wrap .api-area .map-list-wrap .shop-list {width:100%; background-color:rgba(255,255,255,0.7)}
+.map-wrap .api-area .map-list-wrap .list-inner {position:relative; width:250px; height:100%; background-color:rgba(255,255,255,0.7); overflow-y:auto}
+.map-wrap .api-area .map-list-wrap .list-inner .mCSB_scrollTools {top:12px; right:6px; bottom:12px; width:8px; border-radius:8px; background:#e8e8e8; opacity:1}
+.map-wrap .api-area .map-list-wrap .list-inner .mCSB_scrollTools .mCSB_draggerContainer {top:2px; bottom:2px}
+.map-wrap .api-area .map-list-wrap .list-inner .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {background:#ccc!important}
+.map-wrap .api-area .map-list-wrap .shop-list {width:100%}
 .map-wrap .api-area .map-list-wrap .btn-view {position:absolute; width:40px; height:60px; right:0; top:180px; border-radius:0 8px 8px 0; background-color:#ddd}
 .map-wrap .api-area .map-list-wrap .btn-view::after {content:''; display:block; position:absolute; left:0; right:0; top:0; bottom:0; background:url(../images/icons/icon-carousel-btn.svg) no-repeat center / 10px; transform:rotate(180deg)}
 .map-wrap .api-area .map-list-wrap.active .btn-view::after {transform:rotate(0)}
@@ -194,8 +194,11 @@ ul.input-base-type .chkrdo-btn input:checked + label {border-width:2px; line-hei
 .shop-date-wrap .list-wrap .search-wrap {width:100%; padding:16px 24px; box-shadow:0 3px 6px 0 rgba(0, 0, 0, 0.16)}
 .shop-date-wrap .list-wrap .search-wrap .search-box {margin:0 auto 0 0}
 .shop-date-wrap .list-wrap .view-wrap {display:flex; height:514px}
-.shop-date-wrap .list-wrap .view-wrap .lt {width:220px; height:100%; border-right:1px solid #ddd}
-.shop-date-wrap .list-wrap .view-wrap .lt .list-inner {overflow-y:auto}
+.shop-date-wrap .list-wrap .view-wrap .lt {width:220px; height:100%; border-right:1px solid #ddd; overflow-y:auto}
+.shop-date-wrap .list-wrap .view-wrap .lt .mCSB_scrollTools {top:12px; right:4px; bottom:12px; width:8px; border-radius:8px; background:#f4f4f4; opacity:1}
+.shop-date-wrap .list-wrap .view-wrap .lt .mCSB_scrollTools .mCSB_draggerContainer {top:2px; bottom:2px}
+.shop-date-wrap .list-wrap .view-wrap .lt .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {background:#ccc!important}
+
 ul.shop-list {width:100%; padding:16px 0}
 ul.shop-list li [class^="btn-"] {position:relative; width:100%; padding:15px 24px; font-size:16px; font-weight:500; line-height:24px; text-align:left}
 ul.shop-list li [class^="btn-"].active {color:#da0f47}
@@ -204,6 +207,11 @@ ul.shop-list li [class^="btn-"] > span {margin-left:3px}
 
 .shop-date-wrap .list-wrap .view-wrap .mo-select {display:none}
 .shop-date-wrap .list-wrap .view-wrap .rt {width:calc(100% - 220px); height:100%; padding:12px 30px 26px; overflow-y:auto}
+.shop-date-wrap .list-wrap .view-wrap .rt .mCustomScrollBox {width:calc(100% + 30px); max-width:calc(100% + 30px)}
+.shop-date-wrap .list-wrap .view-wrap .rt .mCSB_scrollTools {top:0; right:6px; bottom:0; width:8px; border-radius:8px; background:#f4f4f4; opacity:1}
+.shop-date-wrap .list-wrap .view-wrap .rt .mCSB_scrollTools .mCSB_draggerContainer {top:2px; bottom:2px}
+.shop-date-wrap .list-wrap .view-wrap .rt .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {background:#ccc!important}
+
 .shop-date-wrap .list-wrap .view-wrap .rt .no-data {display:flex; align-items:center; justify-content:center; width:100%; min-height:476px; font-size:16px; line-height:24px}
 .shop-date-wrap .list-wrap .view-wrap .rt .detail-list {display:flex; flex-wrap:wrap}
 .shop-date-wrap .list-wrap .view-wrap .rt .detail-list > li {width:calc(50% - 7px); margin-top:14px}
@@ -249,43 +257,48 @@ ul.shop-list li [class^="btn-"] > span {margin-left:3px}
 .time ul[class*="input"] li .radio-btn.btn-type2 input:disabled + label {border:0; background-color:#eee; color:#aaa}
 
 /* 예약자 정보 */
-.step-area .user-info-area::after {content:''; display:block; clear:both}
-.step-area .user-info-area .lt {float:left; width:540px}
-.step-area .user-info-area .rt {float:right; width:calc(100% - 540px); margin-bottom:-4px; padding-left:32px}
-.step-area .user-info-area .box-gray {height:348px; padding:60px; border-radius:8px; background-color:#f4f4f4}
-.step-area .user-info-area ul.input-list-type .tit {font-weight:500}
-.step-area .user-info-area ul.input-list-type > li + li {margin-top:50px}
-.step-area .user-info-area ul.input-acco-type {flex-direction:column}
-.step-area .user-info-area ul.input-acco-type > li {padding:4px 0}
-.step-area .user-info-area ul.input-acco-type > li + li {margin-top:3px}
-.step-area .user-info-area ul.input-acco-type .check-box {position:relative; display:block}
-.step-area .user-info-area ul.input-acco-type .check-box input {height:0}
-.step-area .user-info-area ul.input-acco-type .check-box label {padding-right:16px; font-size:16px; line-height:24px}
-.step-area .user-info-area ul.input-acco-type .check-box label .name > em {margin-right:2px}
-.step-area .user-info-area ul.input-acco-type .check-box label .name > em.red {color:#da0f47}
-.step-area .user-info-area ul.input-acco-type .check-box button.agr-more {position:absolute; width:24px; height:24px; top:1px; right:0; background:url(../images/icons/btn-plus-48.svg) no-repeat center / contain}
-.step-area .user-info-area ul.input-acco-type .check-box button.agr-more.active {background:url(../images/icons/btn-minus-48.svg) no-repeat center / contain}
-.step-area .user-info-area ul.input-acco-type .check-box .agr-txt-wrap {display:none; width:100%; height:106px; margin-top:10px; padding:16px 0 16px 16px; border:1px solid #ddd; border-radius:8px; font-size:12px; line-height:18px; overflow:hidden}
-.step-area .user-info-area ul.input-acco-type .check-box .agr-txt-wrap .inner {height:100%; overflow-y:auto}
-.step-area .user-info-area ul.input-acco-type .check-box .agr-txt-wrap.active {display:block}
-.step-area .user-info-area ul.input-acco-type .check-box .agr-txt-wrap.size-l {height:124px}
-.step-area .user-info-area ul.input-acco-type .check-box .agr-txt-wrap .inner > ul > li > span {display:block}
-.step-area .user-info-area ul.input-acco-type .check-box .agr-txt-wrap .inner > ul > li > p {padding-left:10px}
-.step-area .user-info-area .bottom-area {float:left; width:100%}
-.step-area .user-info-area .bottom-area .tit {margin-top:22px; font-size:16px; font-weight:500; line-height:24px}
-.step-area .user-info-area .bottom-area .desc {margin-top:8px; font-size:14px; line-height:20px}
-.step-area .user-info-area .bottom-area .tb_row {margin-top:16px}
+.user-info-area::after {content:''; display:block; clear:both}
+.user-info-area .lt {float:left; width:540px}
+.user-info-area .rt {float:right; width:calc(100% - 540px); margin-bottom:-4px; padding-left:32px}
+.user-info-area .box-gray {height:348px; padding:60px; border-radius:8px; background-color:#f4f4f4}
+.user-info-area ul.input-list-type .tit {font-weight:500}
+.user-info-area ul.input-list-type > li + li {margin-top:50px}
+ul.input-acco-type {flex-direction:column}
+ul.input-acco-type > li {padding:4px 0}
+ul.input-acco-type > li + li {margin-top:3px}
+ul.input-acco-type .check-box {position:relative; display:block}
+ul.input-acco-type .check-box input {height:0}
+ul.input-acco-type .check-box label {padding-right:16px; font-size:16px; line-height:24px}
+ul.input-acco-type .check-box label .name > em {margin-right:2px}
+ul.input-acco-type .check-box label .name > em.red {color:#da0f47}
+ul.input-acco-type .check-box button.agr-more {position:absolute; width:24px; height:24px; top:1px; right:0; background:url(../images/icons/btn-plus-48.svg) no-repeat center / contain}
+ul.input-acco-type .check-box button.agr-more.active {background:url(../images/icons/btn-minus-48.svg) no-repeat center / contain}
+ul.input-acco-type .check-box .agr-txt-wrap {display:none; width:100%; height:106px; margin-top:10px; padding:16px 0 16px 16px; border:1px solid #ddd; border-radius:8px; font-size:12px; line-height:18px; overflow:hidden}
+ul.input-acco-type .check-box .agr-txt-wrap .inner {height:100%; overflow-y:auto}
+ul.input-acco-type .check-box .agr-txt-wrap .mCSB_scrollTools {top:0; right:4px; bottom:0; width:8px; border-radius:8px; background:#f4f4f4; opacity:1}
+ul.input-acco-type .check-box .agr-txt-wrap .mCSB_scrollTools .mCSB_draggerContainer {top:2px; bottom:2px}
+ul.input-acco-type .check-box .agr-txt-wrap .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {background:#ccc!important}
+
+ul.input-acco-type .check-box .agr-txt-wrap.active {display:block}
+ul.input-acco-type .check-box .agr-txt-wrap.size-l {height:124px}
+ul.input-acco-type .check-box .agr-txt-wrap .inner > ul > li > span {display:block}
+ul.input-acco-type .check-box .agr-txt-wrap .inner > ul > li > p {padding-left:10px}
+.user-info-area .bottom-area {float:left; width:100%}
+.user-info-area .bottom-area .tit {margin-top:22px; font-size:16px; font-weight:500; line-height:24px}
+.user-info-area .bottom-area .desc {margin-top:8px; font-size:14px; line-height:20px}
+.user-info-area .bottom-area .tb_row {margin-top:16px}
 
 /* 스텝 btn-area */
 .step-area .btn-area {margin-top:20px; margin-bottom:70px; text-align:right}
 .step-area.step03 .btn-area {margin-top:50px; margin-bottom:60px}
 .step-area + .btn-area {margin-top:50px}
 .step-area .btn-area .btn-res:disabled {border:0; background-color:#f3b7c7; color:#fff}
-.step-area .btn-area.bg {position:relative; min-height:130px; margin-top:0; padding:37px 50px; background-color:#f6f6f6; border-radius:8px}
+.step-area .btn-area.bg {position:relative; min-height:130px; margin-top:0; padding:34px 50px; background-color:#f6f6f6; border-radius:8px}
 .step-area .btn-area.bg.active {background-image:linear-gradient(98deg,#9a7fed 1%,#ff6489 100%,#ff6489 100%)}
 .step-area .btn-area.bg .btn {position:absolute; right:50px; top:calc(50% - 25px)}
 .step-area .btn-area.bg .result-txt {font-size:20px; line-height:28px; text-align:left}
-.step-area .btn-area.bg .result-txt p:only-of-type {line-height:56px}
+.step-area .btn-area.bg .result-txt p + p {margin-top:6px}
+.step-area .btn-area.bg .result-txt p:only-of-type {line-height:62px}
 .step-area .btn-area.bg.active .result-txt {color:#fff}
 
 /* 유의사항 */
@@ -355,10 +368,7 @@ ul.shop-list li [class^="btn-"] > span {margin-left:3px}
 .res-video-mobile .btn-area em {display:block; margin-top:10px; color:#999; font-size:10px; line-height:15px}
 
 /* 케어십상담예약페이지 */
-.res-main .top-wrap .care-banner {width:100%; max-width:1460px; margin:0 auto 50px; padding:0 40px}
-.res-main .top-wrap .care-banner .banner-box {display:flex; align-items:center; width:100%; height:100%}
-.res-main .top-wrap .care-banner .banner-box > img {display:block; width:100%}
-.res-main .top-wrap .care-banner .banner-btns {top:50%}
+.res-main.care .top-wrap {width:100%; max-width:1460px; margin:0 auto 50px; padding:0 40px}
 
 .res-main .sticky-info-wrap {margin-bottom:70px; background-image:linear-gradient(to right,#a58bee,#f86791)}
 .res-main .sticky-info-wrap .inner {position:relative; max-width:1460px; margin:0 auto; padding:25px 40px}
@@ -501,11 +511,16 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 .pdt-list-area .pdt-list > li .box .info-popup {display:none; position:absolute; left:0; right:0; top:0; bottom:0; padding:30px; border-radius:8px; background-color:#fff}
 .pdt-list-area .pdt-list > li .box .info-popup .inner {height:100%}
 .pdt-list-area .pdt-list > li .box .info-popup .head-area {padding-bottom:14px; border-bottom:2px solid #000}
-.pdt-list-area .pdt-list > li .box .info-popup .head-area .pop-tit {font-size:18px; line-height:26px}
+.pdt-list-area .pdt-list > li .box .info-popup .head-area .pop-tit {font-size:18px; font-weight:500; line-height:26px}
 .pdt-list-area .pdt-list > li .box .info-popup .head-area .pop-tit > span {margin-left:12px; font-weight:bold}
-.pdt-list-area .pdt-list > li .box .info-popup .body-area {height:calc(100% - 44px); padding:10px; overflow-y:auto}
-.pdt-list-area .pdt-list > li .box .info-popup .body-area .model-list {column-count:2; column-gap:20px}
-.pdt-list-area .pdt-list > li .box .info-popup .body-area .model-list > li {padding:6px 0; font-size:14px; line-height:20px}
+.pdt-list-area .pdt-list > li .box .info-popup .body-area {height:calc(100% - 42px); padding:8px 0}
+.pdt-list-area .pdt-list > li .box .info-popup .body-area .list-inner {width:100%; height:100%; overflow-y:auto}
+.pdt-list-area .pdt-list > li .box .info-popup .body-area .list-inner .mCSB_inside > .mCSB_container {margin-right:0}
+.pdt-list-area .pdt-list > li .box .info-popup .body-area .list-inner .mCSB_scrollTools {top:2px; right:0; bottom:2px; width:8px; border-radius:8px; background:#f4f4f4; opacity:1}
+.pdt-list-area .pdt-list > li .box .info-popup .body-area .list-inner .mCSB_scrollTools .mCSB_draggerContainer {top:2px; bottom:2px}
+.pdt-list-area .pdt-list > li .box .info-popup .body-area .list-inner .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {background:#ccc!important}
+.pdt-list-area .pdt-list > li .box .info-popup .body-area .model-list {display:flex; flex-wrap:wrap}
+.pdt-list-area .pdt-list > li .box .info-popup .body-area .model-list > li {width:50%; padding:6px 10px; font-size:14px; line-height:20px}
 .pdt-list-area .pdt-list > li .box .info-popup .btn-close {position:absolute; width:24px; height:24px; top:27px; right:26px; background:url(../images/icons/btn-close-24-black.svg) no-repeat center / contain}
 .pdt-list-area .list-wrap .pdt-list + .btn-area {display:block!important; margin:25px auto 0!important}
 
@@ -587,13 +602,6 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 .inq-area .res-his-area .res-history a[target="_blank"]::after {content:''; display:inline-block; position:absolute; width:16px; height:16px; bottom:2px; background:url(../images/icons/btn-outlink-16.svg) no-repeat center / contain}
 .inq-area .res-his-area .res-cancel {padding:0 16px; font-size:14px; font-weight:500; line-height:30px}
 
-/* 내게 맞는 제품 찾기 페이지 */
-.res-main .top-wrap .pro-banner {width:100%; max-width:1460px; margin:0 auto; padding:0 40px}
-.res-main .top-wrap .pro-banner .banner-box {display:flex; align-items:center; width:100%; height:100%}
-.res-main .top-wrap .pro-banner .banner-box > img {display:block; width:100%}
-.res-main .top-wrap .pro-banner .banner-btns {position:absolute; width:100%; height:40px; top:50%; left:50%; transform:translate(-50%,-50%); z-index:10}
-.res-main .top-wrap .pro-banner .banner-btns [class^="swiper-button"] {top:0}
-
 /* 제품 카탈로그 페이지 */
 .card-list-area {margin-top:30px}
 .card-list {display:flex; flex-wrap:wrap; margin:-15px -15px 0}
@@ -638,8 +646,8 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 /* mobile */
 @media screen and (max-width:1440px) {
     /* 예약자 정보 */
-    .step-area .user-info-area .lt {width:40%}
-    .step-area .user-info-area .rt {width:60%}
+    .user-info-area .lt {width:40%}
+    .user-info-area .rt {width:60%}
 }
 @media screen and (max-width:1284px) {
     /* 소모품구매예약페이지 */
@@ -656,7 +664,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .shop-date-wrap .bottom-area .date-wrap {width:50%}
 
     /* 예약자 정보 */
-    .step-area .user-info-area .box-gray {padding:25px}
+    .user-info-area .box-gray {padding:25px}
 
     /* 케어십상담예약페이지 */
     .res-main.care .video-area {flex-direction:column}
@@ -842,8 +850,8 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .map-wrap .api-area {height:333px; margin-top:8px}
     .map-wrap .api-area .map-list-wrap {width:100%!important; left:0; right:0; top:auto; bottom:-202px; height:220px; padding-top:26px; border-radius:8px 8px 0 0; background-color:rgba(255,255,255,0.7); overflow:hidden}
     .map-wrap .api-area .map-list-wrap.active {bottom:0}
-    .map-wrap .api-area .map-list-wrap .list-inner {width:100%!important; height:100%}
-    .map-wrap .api-area .map-list-wrap .shop-list {padding:0; background-color:transparent}
+    .map-wrap .api-area .map-list-wrap .list-inner {width:100%!important; height:100%; background-color:transparent}
+    .map-wrap .api-area .map-list-wrap .shop-list {padding:0}
     .map-wrap .api-area .map-list-wrap .btn-view {width:100%; height:18px; background:none; left:0; right:0; top:0}
     .map-wrap .api-area .map-list-wrap .btn-view::after {content:''; display:block; position:absolute; width:40px; height:5px; border-radius:5px; background-color:#ccc; background-image:none; top:9px; left:calc(50% - 20px)}
     .map-wrap .api-area .btn-area.innerMap {bottom:auto; top:12px; right:12px}
@@ -884,6 +892,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .shop-date-wrap .bottom-area .date-wrap {flex-direction:column; width:100%; min-height:0; margin-left:0; margin-top:12px}
     .shop-date-wrap .bottom-area .date-wrap .mo-top {display:block; padding:11px}
     .shop-date-wrap .bottom-area .date-wrap .mo-top .mo-tit {color:#666; font-size:14px; line-height:20px}
+    .shop-date-wrap .bottom-area .date-wrap .mo-top .mo-tit.active {color:#000}
     .shop-date-wrap .bottom-area .date-wrap .calendar {position:relative; width:100%}
     .shop-date-wrap .bottom-area .date-wrap .calendar::after {content:''; display:block; position:absolute; width:16px; height:16px; top:15px; right:16px; background:url(../images/icons/icon-arr-down-16.svg) no-repeat center}
     .shop-date-wrap .bottom-area .date-wrap .calendar.active::after {transform:rotate(180deg)}
@@ -897,21 +906,21 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .time ul[class*="input"] li .radio-btn.btn-type2 label {border-radius:4px; font-size:11px}
 
     /* 예약자 정보 */
-    .step-area .user-info-area .lt {float:none; width:100%}
-    .step-area .user-info-area .rt {float:none; width:100%; padding-left:0; margin-top:12px; margin-bottom:0}
-    .step-area .user-info-area .box-gray {height:auto}
-    .step-area .user-info-area ul.input-list-type > li + li {margin-top:32px}
-    .step-area .user-info-area ul.input-acco-type {padding-bottom:4px; border:1px solid #ddd; border-radius:8px}
-    .step-area .user-info-area ul.input-acco-type > li {padding:12px 16px}
-    .step-area .user-info-area ul.input-acco-type > li + li {margin-top:0; border-top:1px solid #ddd}
-    .step-area .user-info-area ul.input-acco-type .check-box label {padding-left:28px; font-size:14px; line-height:20px}
-    .step-area .user-info-area ul.input-acco-type .check-box label::after {background-image:url(../images/icons/btn-checkbox-off-48-mo.svg)}
-    .step-area .user-info-area ul.input-acco-type .check-box input:checked + label::after {background-image:url(../images/icons/btn-checkbox-on-48-mo.svg)}
-    .step-area .user-info-area ul.input-acco-type .check-box .agr-txt-wrap {height:107px; padding:12px}
-    .step-area .user-info-area ul.input-acco-type .check-box .agr-txt-wrap.size-l {height:121px}
-    .step-area .user-info-area ul.input-acco-type .check-box button.agr-more {width:20px; height:20px}
-    .step-area .user-info-area .bottom-area .tit {margin-top:12px; font-size:13px; line-height:19px}
-    .step-area .user-info-area .bottom-area .desc {margin-top:6px; font-size:11px; line-height:16px}
+    .user-info-area .lt {float:none; width:100%}
+    .user-info-area .rt {float:none; width:100%; padding-left:0; margin-top:12px; margin-bottom:0}
+    .user-info-area .box-gray {height:auto}
+    .user-info-area ul.input-list-type > li + li {margin-top:32px}
+    ul.input-acco-type {padding-bottom:4px; border:1px solid #ddd; border-radius:8px}
+    ul.input-acco-type > li {padding:12px 16px}
+    ul.input-acco-type > li + li {margin-top:0; border-top:1px solid #ddd}
+    ul.input-acco-type .check-box label {padding-left:28px; font-size:14px; line-height:20px}
+    ul.input-acco-type .check-box label::after {background-image:url(../images/icons/btn-checkbox-off-48-mo.svg)}
+    ul.input-acco-type .check-box input:checked + label::after {background-image:url(../images/icons/btn-checkbox-on-48-mo.svg)}
+    ul.input-acco-type .check-box .agr-txt-wrap {height:107px; padding:12px}
+    ul.input-acco-type .check-box .agr-txt-wrap.size-l {height:121px}
+    ul.input-acco-type .check-box button.agr-more {width:20px; height:20px}
+    .user-info-area .bottom-area .tit {margin-top:12px; font-size:13px; line-height:19px}
+    .user-info-area .bottom-area .desc {margin-top:6px; font-size:11px; line-height:16px}
 
     /* 스텝 btn-area */
     .step-area.step03 .btn-area {margin-top:30px; margin-bottom:50px}
@@ -983,7 +992,6 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     /* 케어십상담예약페이지 */
     .res-main.care .cont-wrap .cont-area {padding-top:0}
     .res-main.care .cont-wrap .cont-area .step-area {margin-top:24px}
-    .res-main .top-wrap .care-banner {margin:0 auto 40px; padding:0}
 
     .res-main .sticky-info-wrap {margin-bottom:35px}
     .res-main .sticky-info-wrap .inner {padding:20px 16px 74px}
@@ -1075,7 +1083,9 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .pdt-list-area .pdt-list > li .box .info-popup .head-area {padding-bottom:15px; border-bottom:1px solid #000}
     .pdt-list-area .pdt-list > li .box .info-popup .head-area .pop-tit {font-size:16px; line-height:22px}
     .pdt-list-area .pdt-list > li .box .info-popup .head-area .pop-tit > span {margin-left:8px}
-    .pdt-list-area .pdt-list > li .box .info-popup .body-area .model-list > li {margin:0; font-size:12px; line-height:17px}
+    .pdt-list-area .pdt-list > li .box .info-popup .body-area {height:calc(100% - 38px); padding:13px 4px}
+    .pdt-list-area .pdt-list > li .box .info-popup .body-area .model-list > li {width:calc(50% - 8.5px); padding:4px 0; font-size:12px; line-height:17px}
+    .pdt-list-area .pdt-list > li .box .info-popup .body-area .model-list > li:nth-child(2n) {margin-left:17px}
     .pdt-list-area .pdt-list > li .box .info-popup .btn-close {top:28px; right:34px}
     .pdt-list-area .pdt-list > li .box .btn-area {position:static; margin-top:14px}
     .pdt-list-area .pdt-list > li .box .btn-area .btn-select {padding:11px 30px; font-size:13px; line-height:19px}
@@ -1141,9 +1151,6 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .inq-area .res-his-area .res-history .btn-area {top:16px}
     .inq-area .res-his-area .btn-area {margin-top:16px}
     .inq-area .res-his-area .res-history a[target="_blank"]::after {bottom:0; background-size:14px 14px!important}
-
-    /* 내게 맞는 제품 찾기 페이지 */
-    .res-main .top-wrap .pro-banner {padding:0}
 
     /* 제품 카탈로그 페이지 */
     .card-list-area {margin-top:0}

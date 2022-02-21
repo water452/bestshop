@@ -10,30 +10,41 @@
         <!-- contents -->
         <div class="contents res-main">
 
-            <div class="top-wrap">
-                <div class="swiper pro-banner">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="banner-box">
-                                <img class="m-hidden" src="../../images/img-product-list-banner-01.png" alt="내게 맞는 제품 찾기 배너 이미지">
-                                <img class="pc-hidden" src="../../images/img-product-list-banner-01_mo.png" alt="내게 맞는 제품 찾기 배너 이미지">
+            <div class="cont-wrap">
+                <div class="top-wrap">
+                    <div class="img-slide-wrap">
+                        <div class="swiper img-slide">
+                            <ul class="swiper-wrapper">
+                                <li class="swiper-slide">
+                                    <img class="m-hidden" src="../../images/img-product-list-banner-01.png" alt="&nbsp;" /><!-- pc용 -->
+                                    <img class="pc-hidden" src="../../images/img-product-list-banner-01_mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                                </li>
+                                <li class="swiper-slide">
+                                    <img class="m-hidden" src="../../images/img-product-list-banner-01.png" alt="&nbsp;" /><!-- pc용 -->
+                                    <img class="pc-hidden" src="../../images/img-product-list-banner-01_mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                                </li>
+                                <li class="swiper-slide">
+                                    <img class="m-hidden" src="../../images/img-product-list-banner-01.png" alt="&nbsp;" /><!-- pc용 -->
+                                    <img class="pc-hidden" src="../../images/img-product-list-banner-01_mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                                </li>
+                            </ul>
+                            <div class="slide-navi">
+                                <div class="slide-navi-detail">
+                                    <div class="swiper-pager">
+                                        <button type="button" class="slideBtn btn-prev">이전 슬라이드</button>
+                                        <div class="pager-fraction"></div>
+                                        <button type="button" class="slideBtn btn-next">다음 슬라이드</button>
+                                    </div>
+                                    <div class="swiper-auto">
+                                        <button type="button" class="slideBtn btn-play">슬라이드 재생</button>
+                                        <button type="button" class="slideBtn btn-stop active">슬라이드 일시정지</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="banner-box">
-                                <img class="m-hidden" src="../../images/img-product-list-banner-01.png" alt="내게 맞는 제품 찾기 배너 이미지">
-                                <img class="pc-hidden" src="../../images/img-product-list-banner-01_mo.png" alt="내게 맞는 제품 찾기 배너 이미지">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="banner-btns">
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
                     </div>
                 </div>
-            </div>
 
-            <div class="cont-wrap">
                 <!-- tab -->
                 <div class="tab01 tabOn tabSlide filter">
                     <div class="btn-filter">
@@ -1006,6 +1017,7 @@
                                             <!-- active 클래스 추가(mo) -->
                                             <div class="mo-top">
                                                 <p class="mo-tit">예약일 선택</p>
+                                                <!-- <p class="mo-tit active">21년 12월 15일</p> --><!-- active 클래스 추가(mo) -->
                                             </div>
                                             <div id="calendar" class="cal-cont"></div> <!-- #calendar 로 달력호출 -->
                                         </div>
@@ -1013,6 +1025,7 @@
                                             <!-- active 클래스 추가(mo) -->
                                             <div class="mo-top">
                                                 <p class="mo-tit">예약시간 선택</p>
+                                                <!-- <p class="mo-tit active">17시</p> --><!-- active 클래스 추가(mo) -->
                                             </div>
                                             <div class="time-cont">
                                                 <form action="#">
@@ -1181,7 +1194,7 @@
                                                             내용 보기</span></button><!-- active 클래스 추가 -->
                                                     <div class="agr-txt-wrap size-l active">
                                                         <!-- active 클래스 추가 -->
-                                                        <div class="inner">
+                                                        <div class="inner custom-scroll">
                                                             <ul>
                                                                 <li>
                                                                     <span>1. 수집하는 개인정보의 항목</span>
@@ -1222,7 +1235,7 @@
                                                             내용 보기</span></button><!-- active 클래스 추가 -->
                                                     <div class="agr-txt-wrap active">
                                                         <!-- active 클래스 추가 -->
-                                                        <div class="inner">
+                                                        <div class="inner custom-scroll">
                                                             <ul>
                                                                 <li>
                                                                     <span>1. 마케팅 정보활용 동의</span>
@@ -1403,13 +1416,35 @@
 
     <script>
         $(document).ready(function () {
-            // 배너
-            var careBanner = new Swiper(".pro-banner", {
-                spaceBetween: 40,
-                navigation: {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev",
+            // 내게맞는제품찾기 배너 슬라이드
+            var imgSwiper = new Swiper(".img-slide", {
+                speed : 800,
+                slidesPerView: 1,
+                autoplay: {
+                    delay:5000
                 },
+                pagination: {
+                    el: ".img-slide .slide-navi .pager-fraction",
+                    type: "fraction"
+                },
+                navigation: {
+                    nextEl: ".img-slide .slide-navi .slideBtn.btn-next",
+                    prevEl: ".img-slide .slide-navi .slideBtn.btn-prev"
+                },
+                loop : true,
+                loopAdditionalSlides: 1,
+            });
+
+            // 내게맞는제품찾기 배너 슬라이드 (autoplay control)
+            $('.img-slide .swiper-auto > button').on('click', function(){
+                $('.img-slide .swiper-auto > button').toggleClass('active');
+
+                if ($(this).hasClass('btn-play')){
+                    imgSwiper.autoplay.start();
+                } 
+                else {
+                    imgSwiper.autoplay.stop();
+                };
             });
 
             // 필터 영역

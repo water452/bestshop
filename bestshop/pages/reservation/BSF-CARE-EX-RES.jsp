@@ -167,8 +167,7 @@
                                         <li>
                                             <div class="box">
                                                 <div class="img-wrap">
-                                                    <img src="../../images/img-filter-01.jpg"
-                                                        alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
+                                                    <img src="../../images/img-filter-01.jpg" alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
                                                 </div>
                                                 <div class="tit-wrap">
                                                     <p class="tit">V트루 토탈케어 필터 전용 극세 필터 V트루 토탈케어 필터 전용 극세 필터</p>
@@ -187,6 +186,7 @@
                                                             <div class="pop-tit">적용 가능 모델<span><em>16</em>개</span></div>
                                                         </div>
                                                         <div class="body-area">
+                                                            <div class="list-inner custom-scroll">
                                                             <ul class="model-list">
                                                                 <li>AS191NNFCNDDDCE</li>
                                                                 <li>AS191NNFCNDDDCE</li>
@@ -226,8 +226,8 @@
                                                                 <li>AS191NNFCNDDDCE</li>
                                                             </ul>
                                                         </div>
-                                                        <button type="button" class="btn-close"><span
-                                                                class="blind">닫기</span></button>
+                                                        </div>
+                                                        <button type="button" class="btn-close"><span class="blind">닫기</span></button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -235,8 +235,7 @@
                                         <li>
                                             <div class="box">
                                                 <div class="img-wrap">
-                                                    <img src="../../images/img-filter-01.jpg"
-                                                        alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
+                                                    <img src="../../images/img-filter-01.jpg" alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
                                                 </div>
                                                 <div class="tit-wrap">
                                                     <p class="tit">V트루 토탈케어 필터 전용 극세 필터</p>
@@ -255,23 +254,23 @@
                                                             <div class="pop-tit">적용 가능 모델<span><em>16</em>개</span></div>
                                                         </div>
                                                         <div class="body-area">
-                                                            <ul class="model-list">
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                            </ul>
+                                                            <div class="list-inner custom-scroll">
+                                                                <ul class="model-list">
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                </ul>
+                                                            </div>
                                                         </div>
-                                                        <button type="button" class="btn-close"><span
-                                                                class="blind">닫기</span></button>
+                                                        <button type="button" class="btn-close"><span class="blind">닫기</span></button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -279,8 +278,7 @@
                                         <li>
                                             <div class="box">
                                                 <div class="img-wrap">
-                                                    <img src="../../images/img-filter-01.jpg"
-                                                        alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
+                                                    <img src="../../images/img-filter-01.jpg" alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
                                                 </div>
                                                 <div class="tit-wrap">
                                                     <p class="tit">V트루 토탈케어 필터 전용 극세 필터</p>
@@ -299,23 +297,23 @@
                                                             <div class="pop-tit">적용 가능 모델<span><em>16</em>개</span></div>
                                                         </div>
                                                         <div class="body-area">
-                                                            <ul class="model-list">
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                            </ul>
+                                                            <div class="list-inner custom-scroll">
+                                                                <ul class="model-list">
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                </ul>
+                                                            </div>
                                                         </div>
-                                                        <button type="button" class="btn-close"><span
-                                                                class="blind">닫기</span></button>
+                                                        <button type="button" class="btn-close"><span class="blind">닫기</span></button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -323,8 +321,7 @@
                                         <li>
                                             <div class="box">
                                                 <div class="img-wrap">
-                                                    <img src="../../images/img-filter-01.jpg"
-                                                        alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
+                                                    <img src="../../images/img-filter-01.jpg" alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
                                                 </div>
                                                 <div class="tit-wrap">
                                                     <p class="tit">V트루 토탈케어 필터 전용 극세 필터</p>
@@ -343,23 +340,23 @@
                                                             <div class="pop-tit">적용 가능 모델<span><em>16</em>개</span></div>
                                                         </div>
                                                         <div class="body-area">
-                                                            <ul class="model-list">
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                            </ul>
+                                                            <div class="list-inner custom-scroll">
+                                                                <ul class="model-list">
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                </ul>
+                                                            </div>
                                                         </div>
-                                                        <button type="button" class="btn-close"><span
-                                                                class="blind">닫기</span></button>
+                                                        <button type="button" class="btn-close"><span class="blind">닫기</span></button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -367,8 +364,7 @@
                                         <li>
                                             <div class="box">
                                                 <div class="img-wrap">
-                                                    <img src="../../images/img-filter-01.jpg"
-                                                        alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
+                                                    <img src="../../images/img-filter-01.jpg" alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
                                                 </div>
                                                 <div class="tit-wrap">
                                                     <p class="tit">V트루 토탈케어 필터 전용 극세 필터</p>
@@ -387,23 +383,23 @@
                                                             <div class="pop-tit">적용 가능 모델<span><em>16</em>개</span></div>
                                                         </div>
                                                         <div class="body-area">
-                                                            <ul class="model-list">
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                            </ul>
+                                                            <div class="list-inner custom-scroll">
+                                                                <ul class="model-list">
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                </ul>
+                                                            </div>
                                                         </div>
-                                                        <button type="button" class="btn-close"><span
-                                                                class="blind">닫기</span></button>
+                                                        <button type="button" class="btn-close"><span class="blind">닫기</span></button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -411,8 +407,7 @@
                                         <li>
                                             <div class="box">
                                                 <div class="img-wrap">
-                                                    <img src="../../images/img-filter-01.jpg"
-                                                        alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
+                                                    <img src="../../images/img-filter-01.jpg" alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
                                                 </div>
                                                 <div class="tit-wrap">
                                                     <p class="tit">V트루 토탈케어 필터 전용 극세 필터</p>
@@ -431,23 +426,23 @@
                                                             <div class="pop-tit">적용 가능 모델<span><em>16</em>개</span></div>
                                                         </div>
                                                         <div class="body-area">
-                                                            <ul class="model-list">
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                                <li>AS191NNFCNDDDCE</li>
-                                                            </ul>
+                                                            <div class="list-inner custom-scroll">
+                                                                <ul class="model-list">
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                    <li>AS191NNFCNDDDCE</li>
+                                                                </ul>
+                                                            </div>
                                                         </div>
-                                                        <button type="button" class="btn-close"><span
-                                                                class="blind">닫기</span></button>
+                                                        <button type="button" class="btn-close"><span class="blind">닫기</span></button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1003,6 +998,7 @@
                                             <!-- active 클래스 추가(mo) -->
                                             <div class="mo-top">
                                                 <p class="mo-tit">예약일 선택</p>
+                                                <!-- <p class="mo-tit active">21년 12월 15일</p> --><!-- active 클래스 추가(mo) -->
                                             </div>
                                             <div id="calendar" class="cal-cont"></div> <!-- #calendar 로 달력호출 -->
                                         </div>
@@ -1010,6 +1006,7 @@
                                             <!-- active 클래스 추가(mo) -->
                                             <div class="mo-top">
                                                 <p class="mo-tit">예약시간 선택</p>
+                                                <!-- <p class="mo-tit active">17시</p> --><!-- active 클래스 추가(mo) -->
                                             </div>
                                             <div class="time-cont">
                                                 <form action="#">
@@ -1178,7 +1175,7 @@
                                                             내용 보기</span></button><!-- active 클래스 추가 -->
                                                     <div class="agr-txt-wrap size-l active">
                                                         <!-- active 클래스 추가 -->
-                                                        <div class="inner">
+                                                        <div class="inner custom-scroll">
                                                             <ul>
                                                                 <li>
                                                                     <span>1. 수집하는 개인정보의 항목</span>
@@ -1219,7 +1216,7 @@
                                                             내용 보기</span></button><!-- active 클래스 추가 -->
                                                     <div class="agr-txt-wrap active">
                                                         <!-- active 클래스 추가 -->
-                                                        <div class="inner">
+                                                        <div class="inner custom-scroll">
                                                             <ul>
                                                                 <li>
                                                                     <span>1. 마케팅 정보활용 동의</span>
