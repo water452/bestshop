@@ -16,7 +16,7 @@
                         <li>신규매장</li>
                         <li>아이폰판매점</li>
                         <li>LX지인인테리어</li>
-                        <li>화상상담매장</li>
+                        <li>화상상담 매장</li>
                         <li>야간무인매장</li>
                     </ul>
                     <a href="javascript:void(0);">상세보기</a>
@@ -30,7 +30,7 @@
                         <li>신규매장</li>
                         <li>아이폰판매점</li>
                         <li>LX지인인테리어</li>
-                        <li>화상상담매장</li>
+                        <li>화상상담 매장</li>
                         <li>야간무인매장</li>
                     </ul>
                     <a href="javascript:void(0);">상세보기</a>

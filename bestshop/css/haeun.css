@@ -44,8 +44,8 @@
 .res-main .guide-area [class*="guide-banner"] .box .icon-wrap {display:block; width:80px; height:80px; margin:0 auto}
 .res-main .guide-area [class*="guide-banner"] .box .icon-wrap i[class^="icon"] {display:block; width:100%; height:100%}
 .res-main .guide-area [class*="guide-banner"] .box .tit-wrap {margin-bottom:6px}
-.res-main .guide-area [class*="guide-banner"] .box .tit-wrap .tit {display:block; font-size:14px; line-height:22px; text-align:center}
-.res-main .guide-area [class*="guide-banner"] .box .tit-wrap strong {display:block; font-size:18px; font-weight:bold; line-height:26px; text-align:center}
+.res-main .guide-area [class*="guide-banner"] .box .tit-wrap .tit {display:block; font-size:14px; line-height:20px; text-align:center}
+.res-main .guide-area [class*="guide-banner"] .box .tit-wrap strong {display:block; font-size:20px; font-weight:bold; line-height:28px; text-align:center}
 .res-main .guide-area [class*="guide-banner"] .box .txt {display:block; margin-top:19px; font-size:16px; line-height:24px; text-align:center}
 .res-main .guide-area [class*="guide-banner"] .swiper-scrollbar {width:100%; left:0; bottom:11px; height:8px; background-color:#ddd}
 .res-main .guide-area [class*="guide-banner"] .swiper-scrollbar .swiper-scrollbar-drag {background-color:#ccc}
@@ -173,68 +173,74 @@ ul.input-base-type .chkrdo-btn input:checked + label {border-width:2px; line-hei
 .step-area .shop-date-wrap .sort-area button.view-list {background:url(../images/icons/icon-view-list.svg) no-repeat 0 center}
 .step-area .shop-date-wrap .sort-area button.view-list.active {background:url(../images/icons/icon-view-list_on.svg) no-repeat 0 center}
 
-.step-area .shop-date-wrap .map-wrap {display:none; padding:19px; border:1px solid #000; border-radius:8px}
-.step-area .shop-date-wrap .map-wrap.active {display:block}
+.shop-date-wrap .map-wrap {display:none; padding:19px; border:1px solid #000; border-radius:8px}
+.shop-date-wrap .map-wrap.active {display:block}
 .map-wrap ul[class*="input"] > li + li {margin-left:8px}
-.step-area .shop-date-wrap .map-wrap .api-area {position:relative; height:494px; margin-top:14px; border-radius:8px; overflow:hidden; background:url(../images/@img-map.png) no-repeat center / cover}
-.step-area .shop-date-wrap .map-wrap .api-area .map-list-wrap {position:absolute; width:290px; height:100%; top:0; left:-250px; bottom:0; transition:all ease .4s}
-.step-area .shop-date-wrap .map-wrap .api-area .map-list-wrap.active {left:0}
-.step-area .shop-date-wrap .map-wrap .api-area .map-list-wrap .list-inner {position:relative; width:250px; height:100%; overflow-y:auto}
-.step-area .shop-date-wrap .map-wrap .api-area .map-list-wrap .shop-list {width:100%; background-color:rgba(255,255,255,0.7)}
-.step-area .shop-date-wrap .map-wrap .api-area .map-list-wrap .btn-view {position:absolute; width:40px; height:60px; right:0; top:180px; border-radius:8px 0 0 8px; background:#ddd url(../images/icons/icon-carousel-btn.svg) no-repeat center / 10px; transform:rotate(180deg)}
-.step-area .shop-date-wrap .map-wrap .api-area .map-list-wrap.active .btn-view {border-radius:0 8px 8px 0; transform:rotate(0)}
+.map-wrap .api-area {position:relative; height:494px; margin-top:14px; border-radius:8px; overflow:hidden; background:url(../images/@img-map.png) no-repeat center / cover}
+.map-wrap .api-area .map-list-wrap {position:absolute; width:290px; height:100%; top:0; left:-250px; bottom:0; transition:all ease .4s}
+.map-wrap .api-area .map-list-wrap.active {left:0}
+.map-wrap .api-area .map-list-wrap .list-inner {position:relative; width:250px; height:100%; overflow-y:auto}
+.map-wrap .api-area .map-list-wrap .list-inner .mCSB_inside > .mCSB_container {margin-right:0}
+.map-wrap .api-area .map-list-wrap .list-inner .mCSB_scrollTools {width:20px}
+.map-wrap .api-area .map-list-wrap .list-inner .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {background:#ccc}
+.map-wrap .api-area .map-list-wrap .shop-list {width:100%; background-color:rgba(255,255,255,0.7)}
+.map-wrap .api-area .map-list-wrap .btn-view {position:absolute; width:40px; height:60px; right:0; top:180px; border-radius:0 8px 8px 0; background-color:#ddd}
+.map-wrap .api-area .map-list-wrap .btn-view::after {content:''; display:block; position:absolute; left:0; right:0; top:0; bottom:0; background:url(../images/icons/icon-carousel-btn.svg) no-repeat center / 10px; transform:rotate(180deg)}
+.map-wrap .api-area .map-list-wrap.active .btn-view::after {transform:rotate(0)}
+.map-wrap .api-area .btn-area.innerMap {position:absolute; display:block; bottom:20px; right:20px; margin:0}
 
-.step-area .shop-date-wrap .list-wrap {display:none; border:1px solid #000; border-radius:8px; overflow:hidden}
-.step-area .shop-date-wrap .list-wrap.active {display:block}
-.step-area .shop-date-wrap .list-wrap .search-wrap {width:100%; padding:16px 24px; box-shadow:0 3px 6px 0 rgba(0, 0, 0, 0.16)}
-.step-area .shop-date-wrap .list-wrap .search-wrap .search-box {margin:0 auto 0 0}
-.step-area .shop-date-wrap .list-wrap .view-wrap {display:flex; height:514px}
-.step-area .shop-date-wrap .list-wrap .view-wrap .lt {width:220px; height:100%; border-right:1px solid #ddd; overflow-y:auto}
+.shop-date-wrap .list-wrap {display:none; border:1px solid #000; border-radius:8px; overflow:hidden}
+.shop-date-wrap .list-wrap.active {display:block}
+.shop-date-wrap .list-wrap .search-wrap {width:100%; padding:16px 24px; box-shadow:0 3px 6px 0 rgba(0, 0, 0, 0.16)}
+.shop-date-wrap .list-wrap .search-wrap .search-box {margin:0 auto 0 0}
+.shop-date-wrap .list-wrap .view-wrap {display:flex; height:514px}
+.shop-date-wrap .list-wrap .view-wrap .lt {width:220px; height:100%; border-right:1px solid #ddd}
+.shop-date-wrap .list-wrap .view-wrap .lt .list-inner {overflow-y:auto}
 ul.shop-list {width:100%; padding:16px 0}
 ul.shop-list li [class^="btn-"] {position:relative; width:100%; padding:15px 24px; font-size:16px; font-weight:500; line-height:24px; text-align:left}
 ul.shop-list li [class^="btn-"].active {color:#da0f47}
 ul.shop-list li [class^="btn-"].active::before {content:''; display:block; position:absolute; width:10px; height:16px; top:calc(50% - 8px); left:0; background-color:#da0f47}
 ul.shop-list li [class^="btn-"] > span {margin-left:3px}
 
-.step-area .shop-date-wrap .list-wrap .view-wrap .mo-select {display:none}
-.step-area .shop-date-wrap .list-wrap .view-wrap .rt {width:calc(100% - 220px); height:100%; padding:12px 30px 26px; overflow-y:auto}
-.step-area .shop-date-wrap .list-wrap .view-wrap .rt .no-data {display:flex; align-items:center; justify-content:center; width:100%; height:100%; font-size:16px; line-height:24px}
-.step-area .shop-date-wrap .list-wrap .view-wrap .rt > ul {display:flex; flex-wrap:wrap}
-.step-area .shop-date-wrap .list-wrap .view-wrap .rt > ul > li {width:calc(50% - 7px); margin-top:14px}
-.step-area .shop-date-wrap .list-wrap .view-wrap .rt > ul > li:nth-child(2n) {margin-left:14px}
-.step-area .shop-date-wrap .list-wrap .view-wrap .rt > ul > li .shop-box {display:block;width:100%; padding:24px 22px 21px; border:1px solid #ddd; border-radius:8px}
-.step-area .shop-date-wrap .list-wrap .view-wrap .rt > ul > li .shop-box .name-area {display:flex; flex-wrap:wrap; align-items:center}
-.step-area .shop-date-wrap .list-wrap .view-wrap .rt > ul > li .shop-box .name-area .shop-name {margin-right:10px; font-size:18px; font-weight:bold; line-height:26px; white-space:nowrap}
-.step-area .shop-date-wrap .list-wrap .view-wrap .rt > ul > li .shop-box .name-area .key-words {display:flex; flex-wrap:wrap}
-.step-area .shop-date-wrap .list-wrap .view-wrap .rt > ul > li .shop-box .name-area .key-words > li {position:relative; margin-right:14px; font-size:12px; font-weight:bold; line-height:20px}
-.step-area .shop-date-wrap .list-wrap .view-wrap .rt > ul > li .shop-box .name-area .key-words > li:after {content:''; display:block; position:absolute; width:1px; height:10px; top:calc(50% - 5px); right:-7px; background-color:#ddd}
-.step-area .shop-date-wrap .list-wrap .view-wrap .rt > ul > li .shop-box .name-area .key-words > li:last-child:after {display:none}
-.step-area .shop-date-wrap .list-wrap .view-wrap .rt > ul > li .shop-box .name-area .key-words > li.new {color:#da0f47}
-.step-area .shop-date-wrap .list-wrap .view-wrap .rt > ul > li .shop-box .info-txt {margin-top:7px; font-size:16px; line-height:24px}
+.shop-date-wrap .list-wrap .view-wrap .mo-select {display:none}
+.shop-date-wrap .list-wrap .view-wrap .rt {width:calc(100% - 220px); height:100%; padding:12px 30px 26px; overflow-y:auto}
+.shop-date-wrap .list-wrap .view-wrap .rt .no-data {display:flex; align-items:center; justify-content:center; width:100%; min-height:476px; font-size:16px; line-height:24px}
+.shop-date-wrap .list-wrap .view-wrap .rt .detail-list {display:flex; flex-wrap:wrap}
+.shop-date-wrap .list-wrap .view-wrap .rt .detail-list > li {width:calc(50% - 7px); margin-top:14px}
+.shop-date-wrap .list-wrap .view-wrap .rt .detail-list > li:nth-child(2n) {margin-left:14px}
+.shop-date-wrap .list-wrap .view-wrap .rt .detail-list > li .shop-box {display:block;width:100%; padding:24px 22px 21px; border:1px solid #ddd; border-radius:8px}
+.shop-date-wrap .list-wrap .view-wrap .rt .detail-list > li .shop-box .name-area {display:flex; flex-wrap:wrap; align-items:center}
+.shop-date-wrap .list-wrap .view-wrap .rt .detail-list > li .shop-box .name-area .shop-name {margin-right:10px; font-size:18px; font-weight:bold; line-height:26px; white-space:nowrap}
+.shop-date-wrap .list-wrap .view-wrap .rt .detail-list > li .shop-box .name-area .key-words {display:flex; flex-wrap:wrap}
+.shop-date-wrap .list-wrap .view-wrap .rt .detail-list > li .shop-box .name-area .key-words > li {position:relative; margin-right:14px; font-size:12px; font-weight:bold; line-height:20px}
+.shop-date-wrap .list-wrap .view-wrap .rt .detail-list > li .shop-box .name-area .key-words > li:after {content:''; display:block; position:absolute; width:1px; height:10px; top:calc(50% - 5px); right:-7px; background-color:#ddd}
+.shop-date-wrap .list-wrap .view-wrap .rt .detail-list > li .shop-box .name-area .key-words > li:last-child:after {display:none}
+.shop-date-wrap .list-wrap .view-wrap .rt .detail-list > li .shop-box .name-area .key-words > li.new {color:#da0f47}
+.shop-date-wrap .list-wrap .view-wrap .rt .detail-list > li .shop-box .info-txt {margin-top:7px; font-size:16px; line-height:24px}
 
-.step-area .shop-date-wrap .bottom-area {display:flex; margin-top:20px}
-.step-area .shop-date-wrap .bottom-area .shop-info-wrap {width:61%; max-width:820px; height:auto; min-height:386px}
-.step-area .shop-date-wrap .bottom-area .shop-info-wrap .box {height:100%; padding:50px 42px; border:1px solid #ddd; border-radius:8px}
-.step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .top-area {display:flex; flex-wrap:wrap; align-items:center}
-.step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .top-area .shop-name {margin-right:20px; font-size:24px; font-weight:500; line-height:32px; white-space:nowrap}
-.step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .top-area .key-words {display:flex; flex-wrap:wrap}
-.step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .top-area .key-words > li {position:relative; margin-right:14px; font-size:12px; font-weight:bold; line-height:18px}
-.step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .top-area .key-words > li:last-child {margin-right:0}
-.step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .top-area .key-words > li::after {content:''; display:block; position:absolute; width:1px; height:10px; top:calc(50% - 5px); right:-7px; background-color:#ddd}
-.step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .top-area .key-words > li:last-child:after {display:none}
-.step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .top-area .key-words > li.new {color:#da0f47}
-.step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .info-area {margin-top:24px}
-.step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl {display:flex}
-.step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl + dl {margin-top:18px}
-.step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl dt {min-width:83px; font-size:16px; font-weight:500; line-height:24px}
-.step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl dd {margin-left:24px; font-size:16px; line-height:24px}
-.step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl dd > ul li + li {margin-top:6px}
-.step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl dd > ul li span + span {margin-left:10px}
-.step-area .shop-date-wrap .bottom-area .date-wrap {display:flex; width:40%; height:auto; min-height:386px; margin-left:16px}
-.step-area .shop-date-wrap .bottom-area .date-wrap .mo-top {display:none}
-.step-area .shop-date-wrap .bottom-area .date-wrap .calendar {width:414px; height:100%; border:1px solid #ddd; border-radius:8px}
-.step-area .shop-date-wrap .bottom-area .date-wrap .calendar .cal-cont {height:100%}
-.step-area .shop-date-wrap .bottom-area .date-wrap .time {width:118px; height:100%; margin-left:12px}
+.shop-date-wrap .bottom-area {display:flex; margin-top:20px}
+.shop-date-wrap .bottom-area .shop-info-wrap {width:61%; max-width:820px; height:auto; min-height:386px}
+.shop-date-wrap .bottom-area .shop-info-wrap .box {height:100%; padding:50px 42px; border:1px solid #ddd; border-radius:8px}
+.shop-date-wrap .bottom-area .shop-info-wrap .box .top-area {display:flex; flex-wrap:wrap; align-items:center}
+.shop-date-wrap .bottom-area .shop-info-wrap .box .top-area .shop-name {margin-right:20px; font-size:24px; font-weight:500; line-height:32px; white-space:nowrap}
+.shop-date-wrap .bottom-area .shop-info-wrap .box .top-area .key-words {display:flex; flex-wrap:wrap}
+.shop-date-wrap .bottom-area .shop-info-wrap .box .top-area .key-words > li {position:relative; margin-right:14px; font-size:12px; font-weight:bold; line-height:18px}
+.shop-date-wrap .bottom-area .shop-info-wrap .box .top-area .key-words > li:last-child {margin-right:0}
+.shop-date-wrap .bottom-area .shop-info-wrap .box .top-area .key-words > li::after {content:''; display:block; position:absolute; width:1px; height:10px; top:calc(50% - 5px); right:-7px; background-color:#ddd}
+.shop-date-wrap .bottom-area .shop-info-wrap .box .top-area .key-words > li:last-child:after {display:none}
+.shop-date-wrap .bottom-area .shop-info-wrap .box .top-area .key-words > li.new {color:#da0f47}
+.shop-date-wrap .bottom-area .shop-info-wrap .box .info-area {margin-top:24px}
+.shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl {display:flex}
+.shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl + dl {margin-top:18px}
+.shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl dt {min-width:83px; font-size:16px; font-weight:500; line-height:24px}
+.shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl dd {margin-left:24px; font-size:16px; line-height:24px}
+.shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl dd > ul li + li {margin-top:6px}
+.shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl dd > ul li span + span {margin-left:10px}
+.shop-date-wrap .bottom-area .date-wrap {display:flex; width:40%; height:auto; min-height:386px; margin-left:16px}
+.shop-date-wrap .bottom-area .date-wrap .mo-top {display:none}
+.shop-date-wrap .bottom-area .date-wrap .calendar {width:414px; height:100%; border:1px solid #ddd; border-radius:8px}
+.shop-date-wrap .bottom-area .date-wrap .calendar .cal-cont {height:100%}
+.shop-date-wrap .bottom-area .date-wrap .time {width:118px; height:100%; margin-left:12px}
 .time ul[class*="input"] {flex-direction:column; flex-wrap:wrap; margin-top:-10px}
 .time ul[class*="input"] li {height:calc(100% / 6); margin-left:0; margin-top:10px}
 .time ul[class*="input"] li .radio-btn.btn-type2 {width:100%}
@@ -645,9 +651,9 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 }
 @media screen and (max-width:1023px) { /* Tablet */
     /* 매장/상담일시 선택 */
-    .step-area .shop-date-wrap .bottom-area .shop-info-wrap {width:50%}
-    .step-area .shop-date-wrap .bottom-area .shop-info-wrap .box {padding:23px}
-    .step-area .shop-date-wrap .bottom-area .date-wrap {width:50%}
+    .shop-date-wrap .bottom-area .shop-info-wrap {width:50%}
+    .shop-date-wrap .bottom-area .shop-info-wrap .box {padding:23px}
+    .shop-date-wrap .bottom-area .date-wrap {width:50%}
 
     /* 예약자 정보 */
     .step-area .user-info-area .box-gray {padding:25px}
@@ -747,7 +753,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-main .guide-area [class*="guide-banner"] .box .icon-wrap {position:absolute; width:60px; height:60px; bottom:3px; left:calc(50% - 30px)}
     .res-main .guide-area [class*="guide-banner"] .box .tit-wrap {margin-bottom:0}
     .res-main .guide-area [class*="guide-banner"] .box .tit-wrap .tit {font-size:10px; line-height:15px}
-    .res-main .guide-area [class*="guide-banner"] .box .tit-wrap strong {font-size:12px; line-height:17px}
+    .res-main .guide-area [class*="guide-banner"] .box .tit-wrap strong {font-size:13px; line-height:19px}
     .res-main .guide-area [class*="guide-banner"] .box .txt {margin-top:10px; font-size:11px; line-height:16px; white-space:initial; word-break:keep-all}
     .res-main .guide-area [class*="guide-banner"] .swiper-scrollbar {width:100%; left:0; bottom:26px; height:2px}
     .res-main .top-wrap .add-area {margin:20px auto}
@@ -832,60 +838,60 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .step-area .shop-date-wrap .sort-area button.view-list {background:url(../images/icons/icon-view-list-mo.svg) no-repeat 0 center / contain}
     .step-area .shop-date-wrap .sort-area button.view-list.active {background:url(../images/icons/icon-view-list-mo_on.svg) no-repeat 0 center / contain}
     
-    .step-area .shop-date-wrap .map-wrap {padding:11px}
-    .step-area .shop-date-wrap .map-wrap .api-area {height:333px; margin-top:8px}
-    .step-area .shop-date-wrap .map-wrap .api-area .map-list-wrap {width:100%!important; left:0; right:0; top:auto; bottom:-202px; height:220px; padding-top:18px; border-radius:8px 8px 0 0; background-color:rgba(255,255,255,0.7); overflow:hidden}
-    .step-area .shop-date-wrap .map-wrap .api-area .map-list-wrap.active {bottom:0}
-    .step-area .shop-date-wrap .map-wrap .api-area .map-list-wrap .list-inner {width:100%!important; height:100%}
-    .step-area .shop-date-wrap .map-wrap .api-area .map-list-wrap .shop-list {padding:0; background-color:transparent}
-    .step-area .shop-date-wrap .map-wrap .api-area .map-list-wrap .btn-view {width:100%; height:18px; background:none; left:0; right:0; top:0; transform:rotate(0)}
-    .step-area .shop-date-wrap .map-wrap .api-area .map-list-wrap.active .btn-view {transform:rotate(0)}
-    .step-area .shop-date-wrap .map-wrap .api-area .map-list-wrap .btn-view::after {content:''; display:block; position:absolute; width:40px; height:5px; border-radius:5px; background-color:#ccc; top:9px; left:calc(50% - 20px)}
+    .shop-date-wrap .map-wrap {padding:11px}
+    .map-wrap .api-area {height:333px; margin-top:8px}
+    .map-wrap .api-area .map-list-wrap {width:100%!important; left:0; right:0; top:auto; bottom:-202px; height:220px; padding-top:26px; border-radius:8px 8px 0 0; background-color:rgba(255,255,255,0.7); overflow:hidden}
+    .map-wrap .api-area .map-list-wrap.active {bottom:0}
+    .map-wrap .api-area .map-list-wrap .list-inner {width:100%!important; height:100%}
+    .map-wrap .api-area .map-list-wrap .shop-list {padding:0; background-color:transparent}
+    .map-wrap .api-area .map-list-wrap .btn-view {width:100%; height:18px; background:none; left:0; right:0; top:0}
+    .map-wrap .api-area .map-list-wrap .btn-view::after {content:''; display:block; position:absolute; width:40px; height:5px; border-radius:5px; background-color:#ccc; background-image:none; top:9px; left:calc(50% - 20px)}
+    .map-wrap .api-area .btn-area.innerMap {bottom:auto; top:12px; right:12px}
 
-    ul.shop-list li [class^="btn-"] {padding:8px 16px; font-size:13px; line-height:19px; text-align:center}
+    ul.shop-list li [class^="btn-"] {padding:8.5px 16px; font-size:13px; line-height:19px; text-align:center}
     ul.shop-list li [class^="btn-"].active::before {display:none}
 
     .map-wrap > ul[class*="input"] > li {width:50%}
     .map-wrap > ul[class*="input"] > li:nth-child(2) {min-width:190px}
     .map-wrap > ul[class*="input"] > li .slt {width:100%}
     .map-wrap [class*="input"] > li + li {margin-left:6px}
-    .step-area .shop-date-wrap .list-wrap .search-wrap {padding:0 23px 11px}
-    .step-area .shop-date-wrap .list-wrap .view-wrap {flex-direction:column}
-    .step-area .shop-date-wrap .list-wrap .view-wrap .lt {display:none}
-    .step-area .shop-date-wrap .list-wrap .view-wrap .mo-select {display:block; padding:16px 12px 8px}
-    .step-area .shop-date-wrap .list-wrap .view-wrap .mo-select .slt {width:100%; font-size:14px; line-height:20px}
-    .step-area .shop-date-wrap .list-wrap .view-wrap .rt {width:100%; padding:0 12px 12px}
-    .step-area .shop-date-wrap .list-wrap .view-wrap .rt .no-data {font-size:13px; line-height:19px}
-    .step-area .shop-date-wrap .list-wrap .view-wrap .rt > ul > li {width:100%; margin-top:0}
-    .step-area .shop-date-wrap .list-wrap .view-wrap .rt > ul > li:nth-child(2n) {margin-left:0}
-    .step-area .shop-date-wrap .list-wrap .view-wrap .rt > ul > li + li {margin-top:7px}
-    .step-area .shop-date-wrap .list-wrap .view-wrap .rt > ul > li .shop-box {padding:14px 12px; border-radius:4px}
-    .step-area .shop-date-wrap .list-wrap .view-wrap .rt > ul > li .shop-box .name-area {flex-direction:column; align-items:flex-start}
-    .step-area .shop-date-wrap .list-wrap .view-wrap .rt > ul > li .shop-box .name-area .shop-name {margin-top:0; font-size:13px; line-height:19px}
-    .step-area .shop-date-wrap .list-wrap .view-wrap .rt > ul > li .shop-box .name-area .key-words {margin-top:2px}
-    .step-area .shop-date-wrap .list-wrap .view-wrap .rt > ul > li .shop-box .name-area .key-words > li {font-size:10px; line-height:15px}
-    .step-area .shop-date-wrap .list-wrap .view-wrap .rt > ul > li .shop-box .info-txt {margin-top:6px; font-size:11px; line-height:16px}
-    .step-area .shop-date-wrap .bottom-area {flex-direction:column; margin-top:12px}
-    .step-area .shop-date-wrap .bottom-area .shop-info-wrap {width:100%; min-height:0}
-    .step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .top-area {flex-direction:column; align-items:flex-start}
-    .step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .top-area .shop-name {font-size:14px; line-height:20px}
-    .step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .top-area .key-words {margin-left:0; margin-top:6px}
-    .step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .top-area .key-words > li {font-size:10px; line-height:15px}
-    .step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl + dl {margin-top:13px}
-    .step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl dt {min-width:45px; font-size:12px; line-height:17px}
-    .step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl dd {margin-left:20px; font-size:12px; line-height:17px}
-    .step-area .shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl dd > ul li + li {margin-top:2px}
-    .step-area .shop-date-wrap .bottom-area .date-wrap {flex-direction:column; width:100%; min-height:0; margin-left:0; margin-top:12px}
-    .step-area .shop-date-wrap .bottom-area .date-wrap .mo-top {display:block; padding:11px}
-    .step-area .shop-date-wrap .bottom-area .date-wrap .mo-top .mo-tit {color:#666; font-size:14px; line-height:20px}
-    .step-area .shop-date-wrap .bottom-area .date-wrap .calendar {position:relative; width:100%}
-    .step-area .shop-date-wrap .bottom-area .date-wrap .calendar::after {content:''; display:block; position:absolute; width:16px; height:16px; top:15px; right:16px; background:url(../images/icons/icon-arr-down-16.svg) no-repeat center}
-    .step-area .shop-date-wrap .bottom-area .date-wrap .calendar.active::after {transform:rotate(180deg)}
-    .step-area .shop-date-wrap .bottom-area .date-wrap .calendar .cal-cont {display:none; height:257px}
-    .step-area .shop-date-wrap .bottom-area .date-wrap .time {position:relative; width:100%; margin-top:12px; margin-left:0; border:1px solid #ddd; border-radius:8px}
-    .step-area .shop-date-wrap .bottom-area .date-wrap .time::after {content:''; display:block; position:absolute; width:16px; height:16px; top:15px; right:16px; background:url(../images/icons/icon-arr-down-16.svg) no-repeat center}
-    .step-area .shop-date-wrap .bottom-area .date-wrap .time.active::after {transform:rotate(180deg)}
-    .step-area .shop-date-wrap .bottom-area .date-wrap .time .time-cont {display:none}
+    .shop-date-wrap .list-wrap .search-wrap {padding:0 23px 11px}
+    .shop-date-wrap .list-wrap .view-wrap {flex-direction:column}
+    .shop-date-wrap .list-wrap .view-wrap .lt {display:none}
+    .shop-date-wrap .list-wrap .view-wrap .mo-select {display:block; padding:16px 12px 8px}
+    .shop-date-wrap .list-wrap .view-wrap .mo-select .slt {width:100%; font-size:14px; line-height:20px}
+    .shop-date-wrap .list-wrap .view-wrap .rt {width:100%; padding:0 12px 12px}
+    .shop-date-wrap .list-wrap .view-wrap .rt .no-data {min-height:auto; font-size:13px; line-height:19px}
+    .shop-date-wrap .list-wrap .view-wrap .rt .detail-list > li {width:100%; margin-top:0}
+    .shop-date-wrap .list-wrap .view-wrap .rt .detail-list > li:nth-child(2n) {margin-left:0}
+    .shop-date-wrap .list-wrap .view-wrap .rt .detail-list > li + li {margin-top:7px}
+    .shop-date-wrap .list-wrap .view-wrap .rt .detail-list > li .shop-box {padding:14px 12px; border-radius:4px}
+    .shop-date-wrap .list-wrap .view-wrap .rt .detail-list > li .shop-box .name-area {flex-direction:column; align-items:flex-start}
+    .shop-date-wrap .list-wrap .view-wrap .rt .detail-list > li .shop-box .name-area .shop-name {margin-top:0; font-size:13px; line-height:19px}
+    .shop-date-wrap .list-wrap .view-wrap .rt .detail-list > li .shop-box .name-area .key-words {margin-top:2px}
+    .shop-date-wrap .list-wrap .view-wrap .rt .detail-list > li .shop-box .name-area .key-words > li {font-size:10px; line-height:15px}
+    .shop-date-wrap .list-wrap .view-wrap .rt .detail-list > li .shop-box .info-txt {margin-top:6px; font-size:11px; line-height:16px}
+    .shop-date-wrap .bottom-area {flex-direction:column; margin-top:12px}
+    .shop-date-wrap .bottom-area .shop-info-wrap {width:100%; min-height:0}
+    .shop-date-wrap .bottom-area .shop-info-wrap .box .top-area {flex-direction:column; align-items:flex-start}
+    .shop-date-wrap .bottom-area .shop-info-wrap .box .top-area .shop-name {font-size:14px; line-height:20px}
+    .shop-date-wrap .bottom-area .shop-info-wrap .box .top-area .key-words {margin-left:0; margin-top:6px}
+    .shop-date-wrap .bottom-area .shop-info-wrap .box .top-area .key-words > li {font-size:10px; line-height:15px}
+    .shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl + dl {margin-top:13px}
+    .shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl dt {min-width:45px; font-size:12px; line-height:17px}
+    .shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl dd {margin-left:20px; font-size:12px; line-height:17px}
+    .shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl dd > ul li + li {margin-top:2px}
+    .shop-date-wrap .bottom-area .date-wrap {flex-direction:column; width:100%; min-height:0; margin-left:0; margin-top:12px}
+    .shop-date-wrap .bottom-area .date-wrap .mo-top {display:block; padding:11px}
+    .shop-date-wrap .bottom-area .date-wrap .mo-top .mo-tit {color:#666; font-size:14px; line-height:20px}
+    .shop-date-wrap .bottom-area .date-wrap .calendar {position:relative; width:100%}
+    .shop-date-wrap .bottom-area .date-wrap .calendar::after {content:''; display:block; position:absolute; width:16px; height:16px; top:15px; right:16px; background:url(../images/icons/icon-arr-down-16.svg) no-repeat center}
+    .shop-date-wrap .bottom-area .date-wrap .calendar.active::after {transform:rotate(180deg)}
+    .shop-date-wrap .bottom-area .date-wrap .calendar .cal-cont {display:none; height:257px}
+    .shop-date-wrap .bottom-area .date-wrap .time {position:relative; width:100%; margin-top:12px; margin-left:0; border:1px solid #ddd; border-radius:8px}
+    .shop-date-wrap .bottom-area .date-wrap .time::after {content:''; display:block; position:absolute; width:16px; height:16px; top:15px; right:16px; background:url(../images/icons/icon-arr-down-16.svg) no-repeat center}
+    .shop-date-wrap .bottom-area .date-wrap .time.active::after {transform:rotate(180deg)}
+    .shop-date-wrap .bottom-area .date-wrap .time .time-cont {display:none}
     .time ul[class*="input"] {flex-direction:row; justify-content:flex-start; margin-top:-6.5px; padding:4px 12.75px 16px}
     .time ul[class*="input"] li {width:20%; min-width:54px; margin-top:6.5px; padding:0 3.25px}
     .time ul[class*="input"] li .radio-btn.btn-type2 label {border-radius:4px; font-size:11px}

@@ -330,7 +330,7 @@
 		</div>
 
 		<div class="step-list">
-			<img class="list-02" src="../../images/@step_list_02.png" alt="STEP02 방문하실 매장과 일시를 선택해주세요.">
+			<img class="list-02" src="../../images/@step_list_02.png" alt="STEP02 상담하실 매장과 일시를 선택해주세요.">
 			<img class="list-03" src="../../images/@step_list_03.png" alt="STEP03 예약자 정보를 입력해주세요.">
 		</div>
 

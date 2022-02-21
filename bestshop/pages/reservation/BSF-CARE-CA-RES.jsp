@@ -1127,7 +1127,7 @@
 
                             <div class="shop-date-wrap">
                                 <div class="view-area">
-                                    <h3 class="step-tit">상담하실 매장과 상담일시 선택<sup>*</sup></h3>
+                                    <h3 class="step-tit">상담하실 매장과 예약 일시 선택<sup>*</sup></h3>
                                     <div class="sort-area">
                                         <button type="button" class="view-map active">지도보기</button>
                                         <!-- active 클래스 추가 -->
@@ -1170,10 +1170,10 @@
                                             <!-- api 영역 -->
                                             <div class="api-area">
                                                 <div class="map-list-wrap active">
-                                                    <div class="list-inner">
+                                                    <div class="list-inner custom-scroll">
                                                         <ul class="shop-list">
                                                             <li>
-                                                                <button type="button" class="btn-shop">강남 본점</button>
+                                                                <button type="button" class="btn-shop">강남본점</button>
                                                             </li>
                                                             <li>
                                                                 <button type="button" class="btn-shop active">갤러리아 명품관 WEST점</button><!-- active 클래스 추가 -->
@@ -1182,55 +1182,57 @@
                                                                 <button type="button" class="btn-shop">논현역점</button>
                                                             </li>
                                                             <li>
-                                                                <button type="button" class="btn-shop">대치 본점</button>
+                                                                <button type="button" class="btn-shop">대치본점</button>
                                                             </li>
                                                             <li>
                                                                 <button type="button" class="btn-shop">논현역점</button>
                                                             </li>
                                                             <li>
-                                                                <button type="button" class="btn-shop">대치 본점</button>
+                                                                <button type="button" class="btn-shop">대치본점</button>
                                                             </li>
                                                             <li>
                                                                 <button type="button" class="btn-shop">논현역점</button>
                                                             </li>
                                                             <li>
-                                                                <button type="button" class="btn-shop">대치 본점</button>
+                                                                <button type="button" class="btn-shop">대치본점</button>
                                                             </li>
                                                             <li>
                                                                 <button type="button" class="btn-shop">논현역점</button>
                                                             </li>
                                                             <li>
-                                                                <button type="button" class="btn-shop">대치 본점</button>
+                                                                <button type="button" class="btn-shop">대치본점</button>
                                                             </li>
                                                             <li>
                                                                 <button type="button" class="btn-shop">논현역점</button>
                                                             </li>
                                                             <li>
-                                                                <button type="button" class="btn-shop">대치 본점</button>
+                                                                <button type="button" class="btn-shop">대치본점</button>
                                                             </li>
                                                             <li>
                                                                 <button type="button" class="btn-shop">논현역점</button>
                                                             </li>
                                                             <li>
-                                                                <button type="button" class="btn-shop">대치 본점</button>
+                                                                <button type="button" class="btn-shop">대치본점</button>
                                                             </li>
                                                             <li>
                                                                 <button type="button" class="btn-shop">논현역점</button>
                                                             </li>
                                                             <li>
-                                                                <button type="button" class="btn-shop">대치 본점</button>
+                                                                <button type="button" class="btn-shop">대치본점</button>
                                                             </li>
                                                             <li>
                                                                 <button type="button" class="btn-shop">논현역점</button>
                                                             </li>
                                                             <li>
-                                                                <button type="button" class="btn-shop">대치 본점</button>
+                                                                <button type="button" class="btn-shop">대치본점</button>
                                                             </li>
                                                         </ul>
                                                     </div>
                                                     <button type="button" class="btn-view"><span class="blind">매장 리스트 보기</span></button>
                                                 </div>
-                                                <!-- <img src="../../images/@img-map.png" alt="지도 임시이미지"> -->
+                                                <div class="btn-area innerMap">
+                                                    <a href="javascript:void(0);" class="btn purple gps">가까운 매장찾기</a>
+                                                </div>
                                             </div>
                                             <!-- // api 영역 -->
                                         </div><!-- //.map-wrap -->
@@ -1249,7 +1251,7 @@
                                                 </form>
                                             </div>
                                             <div class="view-wrap">
-                                                <div class="lt">
+                                                <div class="lt custom-scroll">
                                                     <ul class="shop-list">
                                                         <li>
                                                             <button type="button"
@@ -1331,12 +1333,12 @@
                                                         </select>
                                                     </div>
                                                 </div>
-                                                <div class="rt">
-                                                    <ul>
+                                                <div class="rt custom-scroll">
+                                                    <ul class="detail-list">
                                                         <li>
                                                             <a href="#" class="shop-box">
                                                                 <div class="name-area">
-                                                                    <p class="shop-name">강남 본점</p>
+                                                                    <p class="shop-name">강남본점</p>
                                                                     <ul class="key-words">
                                                                         <li class="new">NEW</li>
                                                                         <li>화상상담</li>
@@ -1353,7 +1355,7 @@
                                                         <li>
                                                             <a href="#" class="shop-box">
                                                                 <div class="name-area">
-                                                                    <p class="shop-name">강남 본점</p>
+                                                                    <p class="shop-name">강남본점</p>
                                                                     <ul class="key-words">
                                                                         <li class="new">NEW</li>
                                                                         <li>화상상담</li>
@@ -1370,7 +1372,7 @@
                                                         <li>
                                                             <a href="#" class="shop-box">
                                                                 <div class="name-area">
-                                                                    <p class="shop-name">강남 본점</p>
+                                                                    <p class="shop-name">강남본점</p>
                                                                     <ul class="key-words">
                                                                         <li class="new">NEW</li>
                                                                         <li>화상상담</li>
@@ -1387,7 +1389,7 @@
                                                         <li>
                                                             <a href="#" class="shop-box">
                                                                 <div class="name-area">
-                                                                    <p class="shop-name">강남 본점</p>
+                                                                    <p class="shop-name">강남본점</p>
                                                                     <ul class="key-words">
                                                                         <li class="new">NEW</li>
                                                                         <li>화상상담</li>
@@ -1404,7 +1406,7 @@
                                                         <li>
                                                             <a href="#" class="shop-box">
                                                                 <div class="name-area">
-                                                                    <p class="shop-name">강남 본점</p>
+                                                                    <p class="shop-name">강남본점</p>
                                                                     <ul class="key-words">
                                                                         <li class="new">NEW</li>
                                                                         <li>화상상담</li>
@@ -1421,7 +1423,7 @@
                                                         <li>
                                                             <a href="#" class="shop-box">
                                                                 <div class="name-area">
-                                                                    <p class="shop-name">강남 본점</p>
+                                                                    <p class="shop-name">강남본점</p>
                                                                     <ul class="key-words">
                                                                         <li class="new">NEW</li>
                                                                         <li>화상상담</li>
@@ -1438,7 +1440,7 @@
                                                         <li>
                                                             <a href="#" class="shop-box">
                                                                 <div class="name-area">
-                                                                    <p class="shop-name">강남 본점</p>
+                                                                    <p class="shop-name">강남본점</p>
                                                                     <ul class="key-words">
                                                                         <li class="new">NEW</li>
                                                                         <li>화상상담</li>
@@ -1455,7 +1457,7 @@
                                                         <li>
                                                             <a href="#" class="shop-box">
                                                                 <div class="name-area">
-                                                                    <p class="shop-name">강남 본점</p>
+                                                                    <p class="shop-name">강남본점</p>
                                                                     <ul class="key-words">
                                                                         <li class="new">NEW</li>
                                                                         <li>화상상담</li>
@@ -1472,7 +1474,7 @@
                                                         <li>
                                                             <a href="#" class="shop-box">
                                                                 <div class="name-area">
-                                                                    <p class="shop-name">강남 본점</p>
+                                                                    <p class="shop-name">강남본점</p>
                                                                     <ul class="key-words">
                                                                         <li class="new">NEW</li>
                                                                         <li>화상상담</li>
@@ -1489,7 +1491,7 @@
                                                         <li>
                                                             <a href="#" class="shop-box">
                                                                 <div class="name-area">
-                                                                    <p class="shop-name">강남 본점</p>
+                                                                    <p class="shop-name">강남본점</p>
                                                                     <ul class="key-words">
                                                                         <li class="new">NEW</li>
                                                                         <li>화상상담</li>
@@ -1520,7 +1522,7 @@
                                     <div class="shop-info-wrap">
                                         <div class="box">
                                             <div class="top-area">
-                                                <p class="shop-name">강남 본점</p>
+                                                <p class="shop-name">강남본점</p>
                                                 <ul class="key-words">
                                                     <li class="new">NEW</li>
                                                     <li>화상상담</li>
@@ -1659,8 +1661,8 @@
                                     <!-- active 클래스 추가 -->
                                     <div class="result-txt">
                                         <!-- <p>상담하실 매장과 일시를 선택해주세요.</p> -->
-                                        <p>상담매장: <span>강남본점</span></p>
-                                        <p>방문일시: <span>21년12월15일, 17시</span></p>
+                                        <p>상담 매장: <span>강남본점</span></p>
+                                        <p>예약 일시: <span>21년12월15일, 17시</span></p>
                                     </div>
                                 </div>
 

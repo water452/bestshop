@@ -57,7 +57,7 @@
                                         <dd>오브제컬렉션 냉장고 외 4개</dd>
                                     </dl>
                                     <dl>
-                                        <dt>상담매장</dt>
+                                        <dt>상담 매장</dt>
                                         <dd><a href="#" target="_blank" title="새 창 열림">양주옥정점</a></dd>
                                     </dl>
                                     <dl>
@@ -98,7 +98,7 @@
                                         <dd>오브제컬렉션 냉장고 외 4개</dd>
                                     </dl>
                                     <dl>
-                                        <dt>상담매장</dt>
+                                        <dt>상담 매장</dt>
                                         <dd><a href="#" target="_blank" title="새 창 열림">양주옥정점</a></dd>
                                     </dl>
                                     <dl>
@@ -139,7 +139,7 @@
                                         <dd>오브제컬렉션 냉장고 외 4개</dd>
                                     </dl>
                                     <dl>
-                                        <dt>상담매장</dt>
+                                        <dt>상담 매장</dt>
                                         <dd><a href="#" target="_blank" title="새 창 열림">양주옥정점</a></dd>
                                     </dl>
                                     <dl>
@@ -179,7 +179,7 @@
                                         <dd>오브제컬렉션 냉장고 외 4개</dd>
                                     </dl>
                                     <dl>
-                                        <dt>상담매장</dt>
+                                        <dt>상담 매장</dt>
                                         <dd><a href="#" target="_blank" title="새 창 열림">양주옥정점</a></dd>
                                     </dl>
                                     <dl>
@@ -219,7 +219,7 @@
                                         <dd>오브제컬렉션 냉장고 외 4개</dd>
                                     </dl>
                                     <dl>
-                                        <dt>상담매장</dt>
+                                        <dt>상담 매장</dt>
                                         <dd><a href="#" target="_blank" title="새 창 열림">양주옥정점</a></dd>
                                     </dl>
                                     <dl>

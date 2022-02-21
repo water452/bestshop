@@ -26,7 +26,7 @@
                     <ul>
                         <li>
                             <span>상담 매장</span>
-                            <strong>강남 본점</strong>
+                            <strong>강남본점</strong>
                         </li>
                         <li>
                             <span>예약 일시</span>

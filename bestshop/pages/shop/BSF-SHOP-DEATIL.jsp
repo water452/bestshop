@@ -178,7 +178,7 @@
         <!-- //상담 예약 바로가기 -->
         <!-- 진행중인 이벤트 -->
         <section class="sec-shop">
-            <h2 class="tit08">강남 본점에서 진행중인 이벤트</h2>
+            <h2 class="tit08">강남본점에서 진행중인 이벤트</h2>
             <div class="swiper event-slide">
                 <ul class="swiper-wrapper">
                     <li class="swiper-slide">
