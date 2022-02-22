@@ -168,7 +168,7 @@
             <!-- time-deal (data-flag="false"시 숨김처리) -->
             <div class="point-container bg-tangible02 time-deal" data-flag="true">
                 <div class="point-wrap">
-                    <p class="txt-time-deal"><a href="javascript:void(0);">오전 10시 <strong>&acute;타임딜&acute;</strong>이 시작됩니다</a></p>
+                    <p class="txt-time-deal"><a href="BSF-EVE-DETAIL-COUPON.jsp">오전 10시 <strong>&acute;타임딜&acute;</strong>이 시작됩니다</a></p>
                     <div class="today-close">
                         <span class="check-box white">
                             <input type="checkbox" id="chk-today-close" />
