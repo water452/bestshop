@@ -176,6 +176,7 @@
     var imgSwiper = new Swiper(".img-slide", {
         speed : 800,
         slidesPerView: 1,
+        loop: true,
         autoplay: {
             delay:5000
         },

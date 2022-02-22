@@ -26,7 +26,7 @@
                                 <dd class="date">2021.01.01 OPEN</span></dd>
                                 <dd class="event-date">
                                     <dl>
-                                        <dt>행사 참여 기간</dt>
+                                        <dt>행사 기간</dt>
                                         <dd>01.01(월) - 01.05(금)</dd>
                                     </dl>
                                 </dd>
@@ -45,7 +45,7 @@
                                 <dd class="date">2021.01.01 OPEN</span></dd>
                                 <dd class="event-date">
                                     <dl>
-                                        <dt>행사 참여 기간</dt>
+                                        <dt>행사 기간</dt>
                                         <dd>01.01(월) - 01.05(금)</dd>
                                     </dl>
                                 </dd>
@@ -64,7 +64,7 @@
                                 <dd class="date">2021.01.01 OPEN</span></dd>
                                 <dd class="event-date">
                                     <dl>
-                                        <dt>행사 참여 기간</dt>
+                                        <dt>행사 기간</dt>
                                         <dd>01.01(월) - 01.05(금)</dd>
                                         <dd>01.01(월) - 01.05(금)</dd>
                                     </dl>
@@ -84,7 +84,7 @@
                                 <dd class="date">2021.01.01 OPEN</span></dd>
                                 <dd class="event-date">
                                     <dl>
-                                        <dt>행사 참여 기간</dt>
+                                        <dt>행사 기간</dt>
                                         <dd>01.01(월) - 01.05(금)</dd>
                                         <dd>01.01(월) - 01.05(금)</dd>
                                     </dl>
@@ -104,7 +104,7 @@
                                 <dd class="date">2021.01.01 OPEN</span></dd>
                                 <dd class="event-date">
                                     <dl>
-                                        <dt>행사 참여 기간</dt>
+                                        <dt>행사 기간</dt>
                                         <dd>01.01(월) - 01.05(금)</dd>
                                         <dd>01.01(월) - 01.05(금)</dd>
                                     </dl>
@@ -124,7 +124,7 @@
                                 <dd class="date">2021.01.01 OPEN</span></dd>
                                 <dd class="event-date">
                                     <dl>
-                                        <dt>행사 참여 기간</dt>
+                                        <dt>행사 기간</dt>
                                         <dd>01.01(월) - 01.05(금)</dd>
                                         <dd>01.01(월) - 01.05(금)</dd>
                                     </dl>

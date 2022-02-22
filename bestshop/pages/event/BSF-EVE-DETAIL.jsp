@@ -77,9 +77,10 @@
                             <div class="input-wrap limit-box">
                                 <input type="text" id="shortAnswer" placeholder="답변 입력">
                                 <div class="limit-txt-box">
+                                    <p class="txt-dsc"><span class="blt-star">텍스트는 50자까지 입력가능합니다.</span></p>
                                     <span class="number">0</span>
                                     <span class="slash">/</span>
-                                    <strong class="total">50자</strong>
+                                    <strong class="total">50</strong>
                                 </div>
                             </div>
                         </dd>
@@ -90,43 +91,11 @@
                             <div class="input-wrap limit-box">
                                 <textarea id="longAnswer" cols="30" rows="10" placeholder="답변 입력"></textarea>
                                 <div class="limit-txt-box">
+                                    <p class="txt-dsc"><span class="blt-star">텍스트는 500자까지 입력가능합니다.</span></p>
                                     <span class="number">0</span>
                                     <span class="slash">/</span>
-                                    <strong class="total">500자</strong>
+                                    <strong class="total">500</strong>
                                 </div>
-                            </div>
-                        </dd>
-                    </dl>
-                    <dl class="form">
-                        <dt class="tit req">설문방식 객관식 다중선택형 <span class="blind">필수입력</span></dt>
-                        <dd class="conts">
-                            <div class="select-list-wrap w-auto">
-                                <ul>
-                                    <li class="lists">
-                                        <span class="check-box">
-                                            <input type="checkbox" id="chk01" name="chk1" value="올레드 TV (OLED77**) 이상">
-                                            <label for="chk01">올레드 TV (OLED77**) 이상</label>
-                                        </span>
-                                    </li>
-                                    <li class="lists">
-                                        <span class="check-box">
-                                            <input type="checkbox" id="chk02" name="chk1" value="올레드 TV (OLED77**) 이상">
-                                            <label for="chk02">올레드 TV (OLED77**) 이상</label>
-                                        </span>
-                                    </li>
-                                    <li class="lists">
-                                        <span class="check-box">
-                                            <input type="checkbox" id="chk03" name="chk1" value="올레드 TV (OLED77**) 이상">
-                                            <label for="chk03">올레드 TV (OLED77**) 이상</label>
-                                        </span>
-                                    </li>
-                                    <li class="lists">
-                                        <span class="check-box">
-                                            <input type="checkbox" id="chk04" name="chk1" value="올레드 TV (OLED77**) 이상">
-                                            <label for="chk04">올레드 TV (OLED77**) 이상</label>
-                                        </span>
-                                    </li>
-                                </ul>
                             </div>
                         </dd>
                     </dl>
@@ -137,26 +106,59 @@
                                 <ul>
                                     <li class="lists">
                                         <span class="radio-btn">
-                                            <input type="radio" id="rdo01" name="rdo1" value="올레드 TV (OLED77**) 이상">
-                                            <label for="rdo01">올레드 TV (OLED77**) 이상</label>
+                                            <input type="radio" id="rdo01" name="rdo1" checked>
+                                            <label for="rdo01">단일선택 01</label>
                                         </span>
                                     </li>
                                     <li class="lists">
                                         <span class="radio-btn">
-                                            <input type="radio" id="rdo02" name="rdo1" value="올레드 TV (OLED77**) 이상">
-                                            <label for="rdo02">올레드 TV (OLED77**) 이상</label>
+                                            <input type="radio" id="rdo02" name="rdo1">
+                                            <label for="rdo02">단일선택 02</label>
                                         </span>
                                     </li>
                                     <li class="lists">
                                         <span class="radio-btn">
-                                            <input type="radio" id="rdo03" name="rdo1" value="올레드 TV (OLED77**) 이상">
-                                            <label for="rdo03">올레드 TV (OLED77**) 이상</label>
+                                            <input type="radio" id="rdo03" name="rdo1">
+                                            <label for="rdo03">단일선택 03</label>
                                         </span>
                                     </li>
                                     <li class="lists">
                                         <span class="radio-btn">
-                                            <input type="radio" id="rdo04" name="rdo1" value="올레드 TV (OLED77**) 이상">
-                                            <label for="rdo04">올레드 TV (OLED77**) 이상</label>
+                                            <input type="radio" id="rdo04" name="rdo1>
+                                            <label for="rdo04">단일선택 04</label>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl class="form">
+                        <dt class="tit req">설문방식 객관식 다중선택형 <span class="blind">필수입력</span></dt>
+                        <dd class="conts">
+                            <div class="select-list-wrap w-auto">
+                                <ul>
+                                    <li class="lists">
+                                        <span class="check-box">
+                                            <input type="checkbox" id="chk01">
+                                            <label for="chk01">다중선택 01</label>
+                                        </span>
+                                    </li>
+                                    <li class="lists">
+                                        <span class="check-box">
+                                            <input type="checkbox" id="chk02">
+                                            <label for="chk02">다중선택 02</label>
+                                        </span>
+                                    </li>
+                                    <li class="lists">
+                                        <span class="check-box">
+                                            <input type="checkbox" id="chk03">
+                                            <label for="chk03">다중선택 03</label>
+                                        </span>
+                                    </li>
+                                    <li class="lists">
+                                        <span class="check-box">
+                                            <input type="checkbox" id="chk04">
+                                            <label for="chk04">다중선택 04</label>
                                         </span>
                                     </li>
                                 </ul>
@@ -223,7 +225,6 @@
                             <input type="checkbox" id="allCheck">
                             <label for="allCheck">전체동의</label>
                         </span>
-                        <p class="desc">개인정보 수집 및 이용동의(필수), 마케팅 수신동의(선택)에 모두 동의합니다.</p>
                     </div>
                     <dl class="form">
                         <dt class="tit req">개인정보 활용 동의 <span class="blind">필수입력</span></dt>
@@ -321,18 +322,13 @@
                                     </span>
                                 </div>
                             </div>
-                            <dl class="bullet-list">
-                                <dt class="b-tit">유의사항</dt>
-                                <dd class="b-txt">고객님은 개인정보 수집 활용에 동의하지 않을 수 있습니다. 다만, 동의 거부 시 본 이벤트 응모 및 경품 증정이 제한됩니다.</dd>
-                                <dd class="b-txt">비회원의 경우 작성 완료 후 휴대폰 번호 간편 인증절차가 진행됩니다.</dd>
-                            </dl>
                         </dd>
                     </dl>
                     <dl class="form row">
                         <dt class="tit"><label for="buyerName" class="req">이름<span class="blind">필수입력</span></label></dt>
                         <dd class="conts">
                             <span class="input-wrap">
-                            <input type="text" id="buyerName" placeholder="이름을 입력해 주세요.">
+                            <input type="text" id="buyerName" placeholder="이름 입력">
                             </span>
                         </dd>
                     </dl>
@@ -342,7 +338,7 @@
                         </dt>
                         <dd class="conts">
                             <div class="input-wrap">
-                            <input type="number" id="buyerPhone" placeholder="‘-’없이 숫자만 입력" >
+                            <input type="number" id="buyerPhone" placeholder="‘-’ 없이 숫자만 입력" >
                             </div>
                             <!--
                             <ul class="bullet-list">
@@ -352,18 +348,23 @@
                         </dd>
                     </dl>
                 </div>
-                <div class="btn-area center full-size-m">
+                <div class="btn-area center"><!-- 모바일 버튼 풀사이즈 class="full-size-m" -->
                     <a href="javascript:void(0);" class="btn"><span>참여하기</span></a>
                 </div>
                 <div class="notice-wrap">
-                    <dl class="bullet-list">
+                    <div class="btn-area center full-size-block-m">
+                        <a href="javascript:void(0);" class="btn border"><span>가까운 베스트샵 매장 찾기</span></a>
+                        <a href="javascript:void(0);" class="btn border"><span>웨딩페어 방문 상담 예약</span></a>
+                    </div>
+                    <dl class="bullet-list ty-box">
                         <dt class="b-tit">유의사항</dt>
-                        <dd class="b-txt">본 이벤트는 LG전자 회원 및 멤버십 가입자 대상 이벤트로 LG전자 회원가입 및 로그인 후 참여하실 수 있습니다.</dd>
-                        <dd class="b-txt">타인 계정 또는 타인의 사진을 도용하여 참여 시, 경품 지급 대상에서 제외됩니다.</dd>
-                        <dd class="b-txt">LG전자 멤버십 고객에 한하여 당첨 시 멤버십 포인트가 적립됩니다.</dd>
+                        <dd class="b-txt">LG 오브제 웨딩페어 참여하신 예비부부 대상이며, 부정, 중복참여 확인 시 당첨이 취소될 수 있습니다.</dd>
+                        <dd class="b-txt">LG 오브제 웨딩페어 참여 여부 확인을 위해, 웨딩 페어 신청 시 기입한 연락처로 이벤트 참여해 주셔야 합니다.</dd>
+                        <dd class="b-txt">본 이벤트는 본인 소유 SNS에서만 응모 가능하며, 전체공개로 설정되어야 합니다.</dd>
+                        <dd class="b-txt">필수 해시태그 모두 삽입, 유요한 게시글 URL을 입력하셔야 정상 참여로 간주합니다.</dd>
                     </dl>
                 </div>
-                <div class="btn-area center full-size-m">
+                <div class="btn-area center"><!-- 모바일 버튼 풀사이즈 class="full-size-m" -->
                     <a href="javascript:void(0);" class="btn border"><span>목록</span></a>
                 </div>
             </div>
