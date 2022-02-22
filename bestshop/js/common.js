@@ -140,7 +140,7 @@ function tabCommon(){
         var index = $(this).parent().index();
         $(this).parent().addClass("on").siblings().removeClass("on");
 
-        if ( target != "#" && target != "#none" && target != "" ){
+        if ( target != "#" && target != "#none" && target != "" && target != "undefined" && target != "javascript:void(0);" ){
             $(target).addClass("on").siblings().removeClass("on");
         };
 
