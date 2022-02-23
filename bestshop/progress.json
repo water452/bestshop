@@ -483,13 +483,13 @@
     {
       "dep1": "",
       "dep2": "",
-      "dep3": "렌탈/케어상담 조회",
+      "dep3": "케어십 상담 조회",
       "dep4": "",
       "worker": "안하은",
       "startdate": "2022-01-11",
       "finishdate": "2022-01-14",
       "status": "완료",
-      "filename": "./pages/reservation/BSF-RES-INQ-LIST.jsp",
+      "filename": "./pages/reservation/BSF-CARE-CA-INQ-LIST.jsp",
       "memo": "탭"
     },
     {
@@ -501,7 +501,7 @@
       "startdate": "2022-01-11",
       "finishdate": "2022-01-14",
       "status": "완료",
-      "filename": "./pages/reservation/BSF-RES-INQ-LIST.jsp",
+      "filename": "./pages/reservation/BSF-CARE-EX-INQ-LIST.jsp",
       "memo": "탭"
     },
     {

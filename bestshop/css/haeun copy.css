@@ -584,47 +584,40 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 
 /* 상담예약조회 - 탭페이지 */
 .inq-area .no-data {margin-bottom:110px; padding:62px 0 100px; border-bottom:1px solid #ddd; border-radius:0}
-.inq-area .res-his-area {padding-top:24px}
-.inq-area .res-his-area .res-history > li {position:relative; padding:24px 0}
-.inq-area .res-his-area .res-history > li + li {border-top:1px solid #ddd}
+.inq-area .res-his-area {padding-top:38px}
+.inq-area .res-his-area .res-history > li {position:relative; padding:12px 0}
 .inq-area .res-his-area .res-history > li.disabled {opacity:0.5}
-.inq-area .res-his-area .res-history > li.disabled .btn-area {display:none}
+.inq-area .res-his-area .res-history.col-3 {display:flex; flex-wrap:wrap; margin:0 -12px 0 -12px}
+.inq-area .res-his-area .res-history.col-3 > li {width:calc(100% / 3); padding:12px}
 .inq-area .res-his-area .res-history .his-tit-area {display:flex; align-items:center}
 .inq-area .res-his-area .res-history .his-tit-area .tit {font-size:18px; line-height:26px}
-.inq-area .res-his-area .res-history .his-tit-area .flag {display:block; width:54px; margin-left:10px; margin-top:1.5px; border:1px solid #ff3723; border-radius:2px; color:#ff3723; font-size:12px; font-weight:500; line-height:18px; text-align:center}
-.inq-area .res-his-area .res-history .his-info-area {margin-top:16px}
+.inq-area .res-his-area .res-history .his-tit-area .flag {display:block; width:54px; margin-left:38px; border:1px solid #ff3723; border-radius:2px; color:#ff3723; font-size:12px; font-weight:500; line-height:18px; text-align:center}
+.inq-area .res-his-area .res-history .his-info-area {margin-top:17px; padding:32px; border:1px solid #ddd; border-radius:8px}
 .inq-area .res-his-area .res-history .his-info-area dl {display:flex; font-size:16px; line-height:24px}
 .inq-area .res-his-area .res-history .his-info-area dl dt {min-width:90px; font-weight:500}
-.inq-area .res-his-area .res-history .his-info-area dl dd {margin-left:10px}
-.inq-area .res-his-area .res-history .his-info-area dl dd > ul li + li {margin-top:6px}
-.inq-area .res-his-area .res-history .his-info-area dl dd > ul li em {display:inline-block; color:#666}
-.inq-area .res-his-area .res-history .his-info-area dl dd > ul li span {position:relative; display:inline-block; padding-left:24px}
-.inq-area .res-his-area .res-history .his-info-area dl dd > ul li span::before {content:''; display:block; position:absolute; width:16px; height:16px; top:calc(50% - 8px); left:4px; background:url(../images/icons/btn_arrow_right_16_gray.svg) no-repeat center / contain}
-.inq-area .res-his-area .res-history .his-info-area dl + dl {margin-top:2px}
-.inq-area .res-his-area .res-history .his-info-area .box-wrap {display:flex; flex-wrap:wrap; margin-top:14px; padding:24px 32px; border-radius:8px; background-color:#f4f4f4}
-.inq-area .res-his-area .res-history .his-info-area .box-wrap .col {width:calc(100% / 3); padding-right:24px}
-.inq-area .res-his-area .res-history .his-info-area .box-wrap .col + .col {margin-top:2px}
-.inq-area .res-his-area .res-history .btn-area {position:absolute; top:24px; right:0; margin-top:0}
-.inq-area .res-his-area .btn-area {margin-top:8px}
-.inq-area .res-his-area .res-history a[target="_blank"],
-.inq-area .res-his-area .res-history .pop-link {position:relative}
-.inq-area .res-his-area .res-history a[target="_blank"]::after,
-.inq-area .res-his-area .res-history .pop-link::after {content:''; display:inline-block; position:absolute; width:16px; height:16px; bottom:2px; background:url(../images/icons/btn-outlink-16.svg) no-repeat center / contain}
+.inq-area .res-his-area .res-history .his-info-area dl + dl {margin-top:8px}
+.inq-area .res-his-area .res-history .btn-area {position:absolute; top:13px; right:0; margin-top:0}
+.inq-area .res-his-area .res-history.col-3 .btn-area {right:12px}
+.inq-area .res-his-area .btn-area {margin-top:20px}
+.inq-area .res-his-area .res-history a[target="_blank"] {position:relative}
+.inq-area .res-his-area .res-history a[target="_blank"]::after {content:''; display:inline-block; position:absolute; width:16px; height:16px; bottom:2px; background:url(../images/icons/btn-outlink-16.svg) no-repeat center / contain}
+.inq-area .res-his-area .res-history a.pop-link {position:relative}
+.inq-area .res-his-area .res-history a.pop-link::after {content:''; display:inline-block; position:absolute; width:16px; height:16px; bottom:2px; background:url(../images/icons/btn-outlink-16.svg) no-repeat center / contain}
 .inq-area .res-his-area .res-cancel {padding:0 16px; font-size:14px; font-weight:500; line-height:30px}
 .inq-area .res-his-area + .caution-box {margin-top:90px}
 
-.pop-cont .pdt-info-box .img-wrap {width:100%; max-width:226px; height:226px; margin:48px auto 0}
+.pop-cont .pdt-info-box .img-wrap {width:100%; max-width:226px; height:226px; margin:0 auto}
 .pop-cont .pdt-info-box .img-wrap > img {display:block; width:100%}
-.pop-cont .pdt-info-box .tit-wrap {margin-top:16px}
+.pop-cont .pdt-info-box .tit-wrap {height:80px; margin-top:16px}
 .pop-cont .pdt-info-box .tit-wrap .tit {font-size:18px; font-weight:bold; line-height:26px}
 .pop-cont .pdt-info-box .tit-wrap .code {margin-top:4px; color:#767676; font-size:14px; line-height:20px}
 .pop-cont .pdt-info-box .info-wrap {margin-top:16px}
-.pop-cont .pdt-info-box .info-wrap .opt-info {padding:0 11px; border-radius:8px; background-color:#ededed}
-.pop-cont .pdt-info-box .info-wrap .opt-info dl {display:flex; justify-content:space-between; color:#767676; font-size:14px; line-height:40px}
-.pop-cont .pdt-info-box .price-wrap {margin-top:12px}
+.pop-cont .pdt-info-box .info-wrap .opt-info {padding:9px 43px 9px 15px}
+.pop-cont .pdt-info-box .info-wrap .opt-info dl {display:flex; font-size:14px; line-height:20px}
+.pop-cont .pdt-info-box .price-wrap {margin-top:30px}
 .pop-cont .pdt-info-box .price-wrap dl {display:flex; justify-content:space-between; align-items:center}
 .pop-cont .pdt-info-box .price-wrap dl dt {color:#767676; font-size:14px; line-height:20px}
-.pop-cont .pdt-info-box .price-wrap dl dd {font-size:20px; font-weight:bold; line-height:32px}
+.pop-cont .pdt-info-box .price-wrap dl dd {font-size:20px; font-weight:bold; line-height:28px}
 
 /* 제품 카탈로그 페이지 */
 .card-list-area {margin-top:30px}
@@ -728,7 +721,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .step-area .my-select > ul > li {width:50%}
 
     /* 상담예약조회 - 탭페이지 */
-    .inq-area .res-his-area .res-history .his-info-area .box-wrap .col {width:100%; min-width:0; padding-right:0}
+    .inq-area .res-his-area .res-history.col-3 > li {width:calc(100% / 2)}
 }
 @media screen and (max-width:996px) {
     /* 제품선택 - 제품군형 */
@@ -1161,34 +1154,20 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     
     /* 상담예약조회 - 탭페이지 */
     .inq-area .no-data {margin-bottom:50px; padding:56px 0 80px}
-    .inq-area .res-his-area {padding-top:19px}
-    .inq-area .res-his-area .res-history > li {padding:16px 0}
+    .inq-area .res-his-area {padding-top:20px}
+    .inq-area .res-his-area .res-history > li {padding:10.5px 0}
+    .inq-area .res-his-area .res-history.col-3 {margin:0}
+    .inq-area .res-his-area .res-history.col-3 > li {width:100%; padding:10.5px 0}
     .inq-area .res-his-area .res-history .his-tit-area .tit {font-size:14px; line-height:20px}
-    .inq-area .res-his-area .res-history .his-tit-area .flag {width:45px; margin-left:5px; border-radius:1px; font-size:10px; line-height:15px}
-    .inq-area .res-his-area .res-history .his-info-area {margin-top:11px}
+    .inq-area .res-his-area .res-history .his-tit-area .flag {width:45px; margin-left:5px; margin-top:1.5px; border-radius:1px; font-size:10px; line-height:15px}
+    .inq-area .res-his-area .res-history .his-info-area {margin-top:8px; padding:16px}
     .inq-area .res-his-area .res-history .his-info-area dl {font-size:13px; line-height:19px}
-    .inq-area .res-his-area .res-history .his-info-area dl + dl {margin-top:5px}
-    .inq-area .res-his-area .res-history .his-info-area .box-wrap {margin-top:11px; padding:17px 16px}
-    .inq-area .res-his-area .res-history .his-info-area .box-wrap .col + .col {margin-top:8px}
-    .inq-area .res-his-area .res-history .his-info-area .box-wrap dl + dl {margin-top:8px}
-    .inq-area .res-his-area .res-history .his-info-area .box-wrap dl dt {min-width:78px}
-    .inq-area .res-his-area .res-history .his-info-area dl dd > ul li span {padding-left:16px}
-    .inq-area .res-his-area .res-history .his-info-area dl dd > ul li span::before {width:12px; height:12px; top:calc(50% - 6px); left:2px; background:url(../images/icons/btn_arrow_right_24_gray.svg) no-repeat center / contain}
-    .inq-area .res-his-area .res-history .btn-area {top:16px}
-    .inq-area .res-his-area .btn-area {margin-top:16px}
-    .inq-area .res-his-area .res-history a[target="_blank"]::after,
-    .inq-area .res-his-area .res-history .pop-link::after {bottom:0; background-size:14px 14px!important}
+    .inq-area .res-his-area .res-history .btn-area {top:10.5px}
+    .inq-area .res-his-area .btn-area {margin-top:13.5px}
+    .inq-area .res-his-area .res-history.col-3 .btn-area {right:0}
+    .inq-area .res-his-area .res-history a[target="_blank"]::after {bottom:0; background-size:14px 14px!important}
+    .inq-area .res-his-area .res-history a.pop-link::after {bottom:0; background-size:14px 14px!important}
     .inq-area .res-his-area + .caution-box {margin-top:60px}
-
-    .pop-cont .pdt-info-box .img-wrap {max-width:232px; height:232px; margin:40px auto 0}
-    .pop-cont .pdt-info-box .tit-wrap {margin-top:12px}
-    .pop-cont .pdt-info-box .tit-wrap .tit {line-height:24px}
-    .pop-cont .pdt-info-box .tit-wrap .code {margin-top:6px}
-    .pop-cont .pdt-info-box .info-wrap .opt-info {border-radius:4px}
-    .pop-cont .pdt-info-box .info-wrap .opt-info dl {font-size:13px; line-height:46px}
-    .pop-cont .pdt-info-box .price-wrap dl dt {font-size:13px; line-height:19px}
-    .pop-cont .pdt-info-box .price-wrap dl dd {font-size:16px; line-height:22px}
-    .pop-cont .pdt-info-box .price-wrap {margin-top:18px}
 
     /* 제품 카탈로그 페이지 */
     .card-list-area {margin-top:0}

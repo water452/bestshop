@@ -528,6 +528,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 .btn-pop-close { position: absolute; top: 34px; right: 40px; width: 30px; height: 30px; background: url("../images/icons/btn-close-24-black.svg") no-repeat center; }
 
 /* popup - size */
+.popup.x-small .pop-wrap { max-width: 327px; }
 .popup.small .pop-wrap { max-width: 444px; }
 .popup.medium .pop-wrap { max-width: 912px; }
 .popup.large .pop-wrap { max-width: 1146px; }
@@ -818,6 +819,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
     .btn-pop-close { top: 25px; right: 13px; width: 26px; height: 26px; background-size: 20px auto; }
 
 	/* popup - size */
+	.popup.x-small .pop-wrap { max-width: 444px; }
 	.popup.alert .pop-wrap {padding:0}
     .popup.alert .pop-cont {padding:55px 20px 0}
     .popup.alert .btn-area.m-full-flex {width:auto; left:auto}

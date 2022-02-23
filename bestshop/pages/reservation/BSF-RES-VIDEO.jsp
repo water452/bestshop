@@ -1334,7 +1334,7 @@
                     </div>
 
                     <div class="caution-box">
-                        <p class="tit">[유의사항]</p>
+                        <p class="tit">&lsqb;유의사항&rsqb;</p>
                         <ul class="bull">
                             <li>정확한 개인정보를 입력하셔야 매장 상담 예약 서비스 이용 가능합니다.</li>
                             <li>매장 상담 예약은 제품구입 관련 상담만 가능합니다.</li>

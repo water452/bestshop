@@ -1832,7 +1832,7 @@
                         </div>
                         
                         <div class="caution-box">
-                            <p class="tit">[유의사항]</p>
+                            <p class="tit">&lsqb;유의사항&rsqb;</p>
                             <ul class="bull">
                                 <li>케어십 가입기간은 12개월이며 계약해지 의사가 없을 시 자동 연장됩니다.</li>
                                 <li>케어십 비용은 제품 모델 및 방문주기에 따라 다릅니다.</li>

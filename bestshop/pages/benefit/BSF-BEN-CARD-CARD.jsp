@@ -235,7 +235,7 @@
 </div><!-- //.static-type -->
 
 <div class="waring-block">
-    <strong>[유의사항]</strong>
+    <strong>&lsqb;유의사항&rsqb;</strong>
     <ul>
         <li>카드 발급 후 직접 납부 정보를 해당 카드로 변경해야 청구할인 혜택을 받을 수 있습니다.</li>
         <li>카드 상품별 연회비 및 서비스 등에 상게 사항은 각 카드사의 홈페이지를 참조해 주시기 바랍니다.</li>

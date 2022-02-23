@@ -14,10 +14,10 @@
 
             <div class="tab01 tabOn tabSlide">
                 <ul>
-                    <li class="on">
+                    <li>
                         <a href="javascript:void(0);">방문상담/화상상담 <span class="num">5</span></a>
                     </li>
-                    <li>
+                    <li class="on">
                         <a href="javascript:void(0);">케어십 상담 <span class="num">5</span></a>
                     </li>
                     <li>
@@ -32,13 +32,13 @@
                     <ul class="res-history">
                         <li>
                             <div class="his-tit-area">
-                                <strong class="tit">방문 상담 예약</strong>
+                                <strong class="tit">케어십 상담예약</strong>
                                 <!-- <span class="flag">고객취소</span> -->
                             </div>
                             <div class="his-info-area">
                                 <dl>
                                     <dt>신청페이지</dt>
-                                    <dd><a href="#" target="_blank" title="새 창 열림">경기도 이벤트홀 진열제품 대방출 행사 참여 이벤트 2021년 12월 한달 진행 2021년 12월 한달 진행 경기도 이벤트홀 진열제품</a></dd>
+                                    <dd>케어십 상담예약</dd>
                                 </dl>
                                 <dl>
                                     <dt>등록일자</dt>
@@ -48,7 +48,11 @@
                                     <div class="col">
                                         <dl>
                                             <dt>상담제품</dt>
-                                            <dd>오브제컬렉션 냉장고 외 4개</dd>
+                                            <dd><a href="#popup-product-info" class="pop-link btnPopOpen">듀얼 인버터 히트펌프 전기식 건조기 14kg (WD302AS)</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>방문주기</dt>
+                                            <dd>3개월/1회</dd>
                                         </dl>
                                     </div>
                                     <div class="col">
@@ -79,13 +83,13 @@
                         </li>
                         <li>
                             <div class="his-tit-area">
-                                <strong class="tit">방문 상담 예약</strong>
+                                <strong class="tit">케어십 상담예약</strong>
                                 <!-- <span class="flag">고객취소</span> -->
                             </div>
                             <div class="his-info-area">
                                 <dl>
                                     <dt>신청페이지</dt>
-                                    <dd><a href="#" target="_blank" title="새 창 열림">경기도 이벤트홀 진열제품 대방출 행사 참여 이벤트 2021년 12월 한달 진행 2021년 12월 한달 진행 경기도 이벤트홀 진열제품</a></dd>
+                                    <dd>케어십 상담예약</dd>
                                 </dl>
                                 <dl>
                                     <dt>등록일자</dt>
@@ -95,7 +99,11 @@
                                     <div class="col">
                                         <dl>
                                             <dt>상담제품</dt>
-                                            <dd>오브제컬렉션 냉장고 외 4개</dd>
+                                            <dd><a href="#popup-product-info" class="pop-link btnPopOpen">듀얼 인버터 히트펌프 전기식 건조기 14kg (WD302AS)</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>방문주기</dt>
+                                            <dd>3개월/1회</dd>
                                         </dl>
                                     </div>
                                     <div class="col">
@@ -126,13 +134,13 @@
                         </li>
                         <li>
                             <div class="his-tit-area">
-                                <strong class="tit">방문 상담 예약</strong>
+                                <strong class="tit">케어십 상담예약</strong>
                                 <!-- <span class="flag">고객취소</span> -->
                             </div>
                             <div class="his-info-area">
                                 <dl>
                                     <dt>신청페이지</dt>
-                                    <dd><a href="#" target="_blank" title="새 창 열림">경기도 이벤트홀 진열제품 대방출 행사 참여 이벤트 2021년 12월 한달 진행 2021년 12월 한달 진행 경기도 이벤트홀 진열제품</a></dd>
+                                    <dd>케어십 상담예약</dd>
                                 </dl>
                                 <dl>
                                     <dt>등록일자</dt>
@@ -142,7 +150,11 @@
                                     <div class="col">
                                         <dl>
                                             <dt>상담제품</dt>
-                                            <dd>오브제컬렉션 냉장고 외 4개</dd>
+                                            <dd><a href="#popup-product-info" class="pop-link btnPopOpen">듀얼 인버터 히트펌프 전기식 건조기 14kg (WD302AS)</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>방문주기</dt>
+                                            <dd>3개월/1회</dd>
                                         </dl>
                                     </div>
                                     <div class="col">
@@ -173,13 +185,13 @@
                         </li>
                         <li class="disabled">
                             <div class="his-tit-area">
-                                <strong class="tit">방문 상담 예약</strong>
+                                <strong class="tit">케어십 상담예약</strong>
                                 <span class="flag">고객취소</span>
                             </div>
                             <div class="his-info-area">
                                 <dl>
                                     <dt>신청페이지</dt>
-                                    <dd><a href="#" target="_blank" title="새 창 열림">경기도 이벤트홀 진열제품 대방출 행사 참여 이벤트 2021년 12월 한달 진행 2021년 12월 한달 진행 경기도 이벤트홀 진열제품</a></dd>
+                                    <dd>케어십 상담예약</dd>
                                 </dl>
                                 <dl>
                                     <dt>등록일자</dt>
@@ -189,7 +201,11 @@
                                     <div class="col">
                                         <dl>
                                             <dt>상담제품</dt>
-                                            <dd>오브제컬렉션 냉장고 외 4개</dd>
+                                            <dd><a href="#popup-product-info" class="pop-link btnPopOpen">듀얼 인버터 히트펌프 전기식 건조기 14kg (WD302AS)</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>방문주기</dt>
+                                            <dd>3개월/1회</dd>
                                         </dl>
                                     </div>
                                     <div class="col">
@@ -220,13 +236,13 @@
                         </li>
                         <li class="disabled">
                             <div class="his-tit-area">
-                                <strong class="tit">방문 상담 예약</strong>
+                                <strong class="tit">케어십 상담예약</strong>
                                 <span class="flag">고객취소</span>
                             </div>
                             <div class="his-info-area">
                                 <dl>
                                     <dt>신청페이지</dt>
-                                    <dd><a href="#" target="_blank" title="새 창 열림">경기도 이벤트홀 진열제품 대방출 행사 참여 이벤트 2021년 12월 한달 진행 2021년 12월 한달 진행 경기도 이벤트홀 진열제품</a></dd>
+                                    <dd>케어십 상담예약</dd>
                                 </dl>
                                 <dl>
                                     <dt>등록일자</dt>
@@ -236,7 +252,11 @@
                                     <div class="col">
                                         <dl>
                                             <dt>상담제품</dt>
-                                            <dd>오브제컬렉션 냉장고 외 4개</dd>
+                                            <dd><a href="#popup-product-info" class="pop-link btnPopOpen">듀얼 인버터 히트펌프 전기식 건조기 14kg (WD302AS)</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>방문주기</dt>
+                                            <dd>3개월/1회</dd>
                                         </dl>
                                     </div>
                                     <div class="col">
@@ -264,6 +284,60 @@
                             <!-- <div class="btn-area">
                                 <button type="button" class="btn-txt-more btnPopOpen" data-href="#popup-reservation-cancel">상담예약취소</button>
                             </div> -->
+                        </li>
+                        
+                        <li>
+                            <div class="his-tit-area">
+                                <strong class="tit">케어십 상담예약</strong>
+                                <!-- <span class="flag">고객취소</span> -->
+                            </div>
+                            <div class="his-info-area">
+                                <dl>
+                                    <dt>신청페이지</dt>
+                                    <dd>케어십 상담예약</dd>
+                                </dl>
+                                <dl>
+                                    <dt>등록일자</dt>
+                                    <dd>21년12월09일</dd>
+                                </dl>
+                                <div class="box-wrap">
+                                    <div class="col">
+                                        <dl>
+                                            <dt>구매예약제품</dt>
+                                            <dd>
+                                                <ul>
+                                                    <li>프라엘 > 딥클렌징</li>
+                                                    <li>프라엘 > 딥클렌징</li>
+                                                    <li>프라엘 > 딥클렌징</li>
+                                                </ul>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                    <div class="col">
+                                        <dl>
+                                            <dt>예약매장</dt>
+                                            <dd><a href="#" target="_blank" title="새 창 열림">양주옥정점</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>예약일시</dt>
+                                            <dd>21년12월09일, 15시</dd>
+                                        </dl>
+                                    </div>
+                                    <div class="col">
+                                        <dl>
+                                            <dt>신청자</dt>
+                                            <dd>김*샵</dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>휴대폰번호</dt>
+                                            <dd>010-****-5678</dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btn-area">
+                                <button type="button" class="btn-txt-more btnPopOpen" data-href="#popup-reservation-cancel">상담예약취소</button>
+                            </div>
                         </li>
                     </ul>
                     
@@ -314,5 +388,44 @@
     </div>
 </div>
 <!-- 팝업: 상담예약취소 -->
+
+<!-- 팝업: 제품정보 -->
+<div class="popup x-small m-full" id="popup-product-info">
+    <div class="pop-wrap">
+        <div class="pop-head">
+            <h2 class="tit-pop">제품정보</h2>
+        </div>
+        <div class="pop-cont">
+            <div class="pdt-info-box">
+                <div class="img-wrap">
+                    <img src="../../images/img-water-purifier-01.jpg" alt="LG 퓨리케어 슬림스윙정수기 제품 이미지">
+                </div>
+                <div class="tit-wrap">
+                    <p class="tit"><span class="blind">제품 디스플레이 네임</span>LG 퓨리케어 슬림스윙정수기 LG 퓨리케어 슬림스윙정수기</p>
+                    <p class="code"><span class="blind">제품 코드</span>WD302AS</p>
+                </div>
+                <div class="info-wrap">
+                    <div class="opt-info">
+                        <dl>
+                            <dt>방문 주기</dt>
+                            <dd>3개월</dd>
+                        </dl>
+                    </div>
+                    <div class="price-wrap">
+                        <dl>
+                            <dt>이용 요금</dt>
+                            <dd>월 10,000원</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="btn-area m-full-flex">
+            <button type="button" class="btn s01 btnPopClose">확인</button>
+        </div>
+        <button type="button" class="btn-pop-close btnPopClose"><span class="blind">닫기</span></button>
+    </div>
+</div>
+<!-- 팝업: 제품정보 -->
 
 <jsp:include page="../../templates/common/footer.jsp" />

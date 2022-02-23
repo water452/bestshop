@@ -14,13 +14,13 @@
 
             <div class="tab01 tabOn tabSlide">
                 <ul>
-                    <li class="on">
+                    <li>
                         <a href="javascript:void(0);">방문상담/화상상담 <span class="num">5</span></a>
                     </li>
                     <li>
                         <a href="javascript:void(0);">케어십 상담 <span class="num">5</span></a>
                     </li>
-                    <li>
+                    <li class="on">
                         <a href="javascript:void(0);">소모품 구매 예약 <span class="num">5</span></a>
                     </li>
                 </ul>
@@ -32,13 +32,13 @@
                     <ul class="res-history">
                         <li>
                             <div class="his-tit-area">
-                                <strong class="tit">방문 상담 예약</strong>
+                                <strong class="tit">소모품 구매 예약</strong>
                                 <!-- <span class="flag">고객취소</span> -->
                             </div>
                             <div class="his-info-area">
                                 <dl>
                                     <dt>신청페이지</dt>
-                                    <dd><a href="#" target="_blank" title="새 창 열림">경기도 이벤트홀 진열제품 대방출 행사 참여 이벤트 2021년 12월 한달 진행 2021년 12월 한달 진행 경기도 이벤트홀 진열제품</a></dd>
+                                    <dd>소모품 구매 예약</dd>
                                 </dl>
                                 <dl>
                                     <dt>등록일자</dt>
@@ -47,13 +47,19 @@
                                 <div class="box-wrap">
                                     <div class="col">
                                         <dl>
-                                            <dt>상담제품</dt>
-                                            <dd>오브제컬렉션 냉장고 외 4개</dd>
+                                            <dt>구매예약제품</dt>
+                                            <dd>
+                                                <ul>
+                                                    <li><em>프라엘</em><span>딥클렌징</span></li>
+                                                    <li><em>프라엘</em><span>거름망</span></li>
+                                                    <li><em>프라엘</em><span>원형필터</span></li>
+                                                </ul>
+                                            </dd>
                                         </dl>
                                     </div>
                                     <div class="col">
                                         <dl>
-                                            <dt>상담매장</dt>
+                                            <dt>예약매장</dt>
                                             <dd><a href="#" target="_blank" title="새 창 열림">양주옥정점</a></dd>
                                         </dl>
                                         <dl>
@@ -79,13 +85,13 @@
                         </li>
                         <li>
                             <div class="his-tit-area">
-                                <strong class="tit">방문 상담 예약</strong>
+                                <strong class="tit">소모품 구매 예약</strong>
                                 <!-- <span class="flag">고객취소</span> -->
                             </div>
                             <div class="his-info-area">
                                 <dl>
                                     <dt>신청페이지</dt>
-                                    <dd><a href="#" target="_blank" title="새 창 열림">경기도 이벤트홀 진열제품 대방출 행사 참여 이벤트 2021년 12월 한달 진행 2021년 12월 한달 진행 경기도 이벤트홀 진열제품</a></dd>
+                                    <dd>소모품 구매 예약</dd>
                                 </dl>
                                 <dl>
                                     <dt>등록일자</dt>
@@ -94,13 +100,18 @@
                                 <div class="box-wrap">
                                     <div class="col">
                                         <dl>
-                                            <dt>상담제품</dt>
-                                            <dd>오브제컬렉션 냉장고 외 4개</dd>
+                                            <dt>구매예약제품</dt>
+                                            <dd>
+                                                <ul>
+                                                    <li><em>프라엘</em><span>딥클렌징</span></li>
+                                                    <li><em>프라엘</em><span>거름망</span></li>
+                                                </ul>
+                                            </dd>
                                         </dl>
                                     </div>
                                     <div class="col">
                                         <dl>
-                                            <dt>상담매장</dt>
+                                            <dt>예약매장</dt>
                                             <dd><a href="#" target="_blank" title="새 창 열림">양주옥정점</a></dd>
                                         </dl>
                                         <dl>
@@ -126,13 +137,13 @@
                         </li>
                         <li>
                             <div class="his-tit-area">
-                                <strong class="tit">방문 상담 예약</strong>
+                                <strong class="tit">소모품 구매 예약</strong>
                                 <!-- <span class="flag">고객취소</span> -->
                             </div>
                             <div class="his-info-area">
                                 <dl>
                                     <dt>신청페이지</dt>
-                                    <dd><a href="#" target="_blank" title="새 창 열림">경기도 이벤트홀 진열제품 대방출 행사 참여 이벤트 2021년 12월 한달 진행 2021년 12월 한달 진행 경기도 이벤트홀 진열제품</a></dd>
+                                    <dd>소모품 구매 예약</dd>
                                 </dl>
                                 <dl>
                                     <dt>등록일자</dt>
@@ -141,13 +152,17 @@
                                 <div class="box-wrap">
                                     <div class="col">
                                         <dl>
-                                            <dt>상담제품</dt>
-                                            <dd>오브제컬렉션 냉장고 외 4개</dd>
+                                            <dt>구매예약제품</dt>
+                                            <dd>
+                                                <ul>
+                                                    <li><em>프라엘</em><span>딥클렌징</span></li>
+                                                </ul>
+                                            </dd>
                                         </dl>
                                     </div>
                                     <div class="col">
                                         <dl>
-                                            <dt>상담매장</dt>
+                                            <dt>예약매장</dt>
                                             <dd><a href="#" target="_blank" title="새 창 열림">양주옥정점</a></dd>
                                         </dl>
                                         <dl>
@@ -171,15 +186,15 @@
                                 <button type="button" class="btn-txt-more btnPopOpen" data-href="#popup-reservation-cancel">상담예약취소</button>
                             </div>
                         </li>
-                        <li class="disabled">
+                        <li>
                             <div class="his-tit-area">
-                                <strong class="tit">방문 상담 예약</strong>
-                                <span class="flag">고객취소</span>
+                                <strong class="tit">소모품 구매 예약</strong>
+                                <!-- <span class="flag">고객취소</span> -->
                             </div>
                             <div class="his-info-area">
                                 <dl>
                                     <dt>신청페이지</dt>
-                                    <dd><a href="#" target="_blank" title="새 창 열림">경기도 이벤트홀 진열제품 대방출 행사 참여 이벤트 2021년 12월 한달 진행 2021년 12월 한달 진행 경기도 이벤트홀 진열제품</a></dd>
+                                    <dd>소모품 구매 예약</dd>
                                 </dl>
                                 <dl>
                                     <dt>등록일자</dt>
@@ -188,13 +203,19 @@
                                 <div class="box-wrap">
                                     <div class="col">
                                         <dl>
-                                            <dt>상담제품</dt>
-                                            <dd>오브제컬렉션 냉장고 외 4개</dd>
+                                            <dt>구매예약제품</dt>
+                                            <dd>
+                                                <ul>
+                                                    <li><em>프라엘</em><span>딥클렌징</span></li>
+                                                    <li><em>프라엘</em><span>거름망</span></li>
+                                                    <li><em>프라엘</em><span>원형필터</span></li>
+                                                </ul>
+                                            </dd>
                                         </dl>
                                     </div>
                                     <div class="col">
                                         <dl>
-                                            <dt>상담매장</dt>
+                                            <dt>예약매장</dt>
                                             <dd><a href="#" target="_blank" title="새 창 열림">양주옥정점</a></dd>
                                         </dl>
                                         <dl>
@@ -214,19 +235,19 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- <div class="btn-area">
+                            <div class="btn-area">
                                 <button type="button" class="btn-txt-more btnPopOpen" data-href="#popup-reservation-cancel">상담예약취소</button>
-                            </div> -->
+                            </div>
                         </li>
-                        <li class="disabled">
+                        <li>
                             <div class="his-tit-area">
-                                <strong class="tit">방문 상담 예약</strong>
-                                <span class="flag">고객취소</span>
+                                <strong class="tit">소모품 구매 예약</strong>
+                                <!-- <span class="flag">고객취소</span> -->
                             </div>
                             <div class="his-info-area">
                                 <dl>
                                     <dt>신청페이지</dt>
-                                    <dd><a href="#" target="_blank" title="새 창 열림">경기도 이벤트홀 진열제품 대방출 행사 참여 이벤트 2021년 12월 한달 진행 2021년 12월 한달 진행 경기도 이벤트홀 진열제품</a></dd>
+                                    <dd>소모품 구매 예약</dd>
                                 </dl>
                                 <dl>
                                     <dt>등록일자</dt>
@@ -235,13 +256,18 @@
                                 <div class="box-wrap">
                                     <div class="col">
                                         <dl>
-                                            <dt>상담제품</dt>
-                                            <dd>오브제컬렉션 냉장고 외 4개</dd>
+                                            <dt>구매예약제품</dt>
+                                            <dd>
+                                                <ul>
+                                                    <li><em>프라엘</em><span>딥클렌징</span></li>
+                                                    <li><em>프라엘</em><span>거름망</span></li>
+                                                </ul>
+                                            </dd>
                                         </dl>
                                     </div>
                                     <div class="col">
                                         <dl>
-                                            <dt>상담매장</dt>
+                                            <dt>예약매장</dt>
                                             <dd><a href="#" target="_blank" title="새 창 열림">양주옥정점</a></dd>
                                         </dl>
                                         <dl>
@@ -261,9 +287,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- <div class="btn-area">
+                            <div class="btn-area">
                                 <button type="button" class="btn-txt-more btnPopOpen" data-href="#popup-reservation-cancel">상담예약취소</button>
-                            </div> -->
+                            </div>
                         </li>
                     </ul>
                     
@@ -314,5 +340,44 @@
     </div>
 </div>
 <!-- 팝업: 상담예약취소 -->
+
+<!-- 팝업: 제품정보 -->
+<div class="popup x-small m-full" id="popup-product-info">
+    <div class="pop-wrap">
+        <div class="pop-head">
+            <h2 class="tit-pop">제품정보</h2>
+        </div>
+        <div class="pop-cont">
+            <div class="pdt-info-box">
+                <div class="img-wrap">
+                    <img src="../../images/img-water-purifier-01.jpg" alt="LG 퓨리케어 슬림스윙정수기 제품 이미지">
+                </div>
+                <div class="tit-wrap">
+                    <p class="tit"><span class="blind">제품 디스플레이 네임</span>LG 퓨리케어 슬림스윙정수기 LG 퓨리케어 슬림스윙정수기</p>
+                    <p class="code"><span class="blind">제품 코드</span>WD302AS</p>
+                </div>
+                <div class="info-wrap">
+                    <div class="opt-info">
+                        <dl>
+                            <dt>방문 주기</dt>
+                            <dd>3개월</dd>
+                        </dl>
+                    </div>
+                    <div class="price-wrap">
+                        <dl>
+                            <dt>이용 요금</dt>
+                            <dd>월 10,000원</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="btn-area m-full-flex">
+            <button type="button" class="btn s01 btnPopClose">확인</button>
+        </div>
+        <button type="button" class="btn-pop-close btnPopClose"><span class="blind">닫기</span></button>
+    </div>
+</div>
+<!-- 팝업: 제품정보 -->
 
 <jsp:include page="../../templates/common/footer.jsp" />
