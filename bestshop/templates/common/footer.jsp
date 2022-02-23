@@ -19,10 +19,11 @@
                   <div class="depth1 active"><a href="javascript:void(0);">매장안내</a></div>
                   <div class="depth2" style="display:block;">
                     <ul>
-                      <li><a href="javascript:void(0);">매장 찾기</a></li>
-                      <li><a href="javascript:void(0);">신규 오픈 매장</a></li>
-                      <li><a href="javascript:void(0);">아이폰 판매 매장</a></li>
-                      <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">야간 무인 매장</a></li>
+                      <li><a href="/bestshop/pages/shop/BSF-SHOP-LIST.jsp">매장 찾기</a></li>
+                      <li><a href="/bestshop/pages/shop/BSF-SHOP-OPEN-LIST.jsp">신규 오픈 매장</a></li>
+                      <li><a href="/bestshop/pages/shop/BSF-SHOP-IPHONE.jsp">아이폰 판매 매장</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">야간 무인 매장 안내</a></li>
+                      <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">서비스 센터 찾기</a></li>
                     </ul>
                   </div>
                 </li>
@@ -32,7 +33,9 @@
                     <ul>
                       <li><a href="/bestshop/pages/reservation/BSF-RES-VISIT.jsp">방문 상담 예약</a></li>
                       <li><a href="/bestshop/pages/reservation/BSF-RES-VIDEO.jsp">화상 상담 예약</a></li>
-                      <li><a href="javascript:void(0);">상담 예약 조회</a></li>
+                      <li><a href="/bestshop/pages/reservation/BSF-CARE-CA-RES.jsp">케어십 상담 예약</a></li>
+                      <li><a href="/bestshop/pages/reservation/BSF-CARE-EX-RES.jsp">소모품 구매 예약</a></li>
+                      <li><a href="/bestshop/pages/reservation/BSF-RES-INQ.jsp">상담 예약 조회</a></li>
                     </ul>
                   </div>
                 </li>
@@ -40,18 +43,17 @@
                   <div class="depth1"><a href="javascript:void(0);">이벤트</a></div>
                   <div class="depth2">
                     <ul>
-                      <li><a href="/bestshop/pages/event/BSF-EVE-BSTAB.jsp">베스트샵 이벤트</a></li>
-                      <li><a href="javascript:void(0);">매장 상담 예약 이벤트</a></li>
-                      <li><a href="javascript:void(0);">혼수 이벤트</a></li>
+                      <li><a href="/bestshop/pages/event/BSF-EVE-BSTAB.jsp">이벤트 전체 보기</a></li>
+                      <li><a href="/bestshop/pages/event/BSF-EVE-WED-INFO.jsp">혼수 이벤트</a></li>
                       <li class="depth3">
                         <span class="depth3-tit">아파트 입주 이벤트</span>
                         <ul>
-                          <li><a href="javascript:void(0);">혜택안내</a></li>
-                          <li><a href="javascript:void(0);">행사 리스트</a></li>
-                          <li><a href="javascript:void(0);">박람회 일정</a></li>
+                          <li><a href="/bestshop/pages/event/BSF-EVE-APT-INFO.jsp">혜택안내</a></li>
+                          <li><a href="/bestshop/pages/event/BSF-EVE-APT-LIST.jsp">행사 아파트 리스트</a></li>
+                          <li><a href="/bestshop/pages/event/BSF-EVE-FAIR-LIST.jsp">박람회 일정</a></li>
                         </ul>
                       </li>
-                      <li><a href="javascript:void(0);">홍보 영상</a></li>
+                      <li><a href="/bestshop/pages/event/BSF-EVE-MEDIA-LIST.jsp">홍보 영상</a></li>
                     </ul>
                   </div>
                 </li>
@@ -59,22 +61,10 @@
                   <div class="depth1"><a href="javascript:void(0);">혜택 안내</a></div>
                   <div class="depth2">
                     <ul>
-                      <li><a href="javascript:void(0);">이달의 혜택</a></li>
-                      <li><a href="javascript:void(0);">카드 혜택</a></li>
-                      <li><a href="javascript:void(0);">멤버십 혜택</a></li>
-                      <li><a href="javascript:void(0);">LG SIGNATURE 구매혜택</a></li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="link-section">
-                  <div class="depth1"><a href="javascript:void(0);">케어솔루션</a></div>
-                  <div class="depth2">
-                    <ul>
-                      <li><a href="javascript:void(0);">케어십 상담 예약</a></li>
-                      <li><a href="javascript:void(0);">케어십 상담 예약 조회</a></li>
-                      <li><a href="javascript:void(0);">소모품 구매 예약</a></li>
-                      <li><a href="javascript:void(0);">소모품 예약 조회</a></li>
-                      <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">케어솔루션 계약 현황</a></li>
+                      <li><a href="/bestshop/pages/benefit/BSF-BEN-BESTSHOP.jsp">이달의 혜택</a></li>
+                      <li><a href="/bestshop/pages/benefit/BSF-BEN-CARD.jsp">카드 혜택</a></li>
+                      <li><a href="/bestshop/pages/benefit/BSF-BEN-MEMBER.jsp">멤버십 혜택</a></li>
+                      <li><a href="/bestshop/pages/benefit/BSF-BEN-SIGNATURE.jsp">LG SIGNATURE 구매혜택</a></li>
                     </ul>
                   </div>
                 </li>
@@ -82,22 +72,9 @@
                   <div class="depth1"><a href="javascript:void(0);">제품정보</a></div>
                   <div class="depth2">
                     <ul>
-                      <li><a href="javascript:void(0);">내게 맞는 제품 찾기</a></li>
-                      <li><a href="javascript:void(0);">제품 카탈로그</a></li>
+                      <li><a href="/bestshop/pages/product/BSF-PRO-LIST.jsp">내게 맞는 제품 찾기</a></li>
+                      <li><a href="/bestshop/pages/product/BSF-PRO-CATA-LIST.jsp">제품 카탈로그</a></li>
                       <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">제품 사용 설명서</a></li>
-                      <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">제품 뉴스</a></li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="link-section">
-                  <div class="depth1"><a href="javascript:void(0);">고객지원</a></div>
-                  <div class="depth2">
-                    <ul>
-                      <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">제품 문제 해결</a></li>
-                      <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">서비스 센터 찾기</a></li>
-                      <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">센터 방문 예약</a></li>
-                      <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">출장 서비스 예약</a></li>
-                      <li><a href="javascript:void(0);">공지사항</a></li>
                     </ul>
                   </div>
                 </li>
@@ -196,9 +173,9 @@
       <!-- 푸터 스티키 하단바 -->
       <div class="mobile-status-bar">
         <ul class="mobile-status-list">
-          <li class="list-item shop"><a href="javascript:void(0);"><span>매장찾기</span></a></li>
+          <li class="list-item shop"><a href="/bestshop/pages/shop/BSF-SHOP-LIST.jsp"><span>매장찾기</span></a></li>
           <li class="list-item reserv"><a href="/bestshop/templates/counsel/index.jsp"><span>상담예약</span></a></li>
-          <li class="list-item home"><a href="javascript:void(0);"><span>홈</span></a></li>
+          <li class="list-item home"><a href="/bestshop"><span>홈</span></a></li>
           <li class="list-item event"><a href="https://cloud.protopie.io/p/d098e32a42" target="_blank" title="새 창 열림"><span>이벤트</span></a></li>
           <li class="list-item nav-anchor"><a href="javascript:void(0);"><span>메뉴</span></a></li>
         </ul>
