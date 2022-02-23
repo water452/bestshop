@@ -619,7 +619,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 .pop-cont .pdt-info-box .tit-wrap .tit {font-size:18px; font-weight:bold; line-height:26px}
 .pop-cont .pdt-info-box .tit-wrap .code {margin-top:4px; color:#767676; font-size:14px; line-height:20px}
 .pop-cont .pdt-info-box .info-wrap {margin-top:16px}
-.pop-cont .pdt-info-box .info-wrap .opt-info {padding:0 11px; border-radius:8px; background-color:#ededed}
+.pop-cont .pdt-info-box .info-wrap .opt-info {padding:0 12px; border-radius:8px; background-color:#ededed}
 .pop-cont .pdt-info-box .info-wrap .opt-info dl {display:flex; justify-content:space-between; color:#767676; font-size:14px; line-height:40px}
 .pop-cont .pdt-info-box .price-wrap {margin-top:12px}
 .pop-cont .pdt-info-box .price-wrap dl {display:flex; justify-content:space-between; align-items:center}
@@ -1168,7 +1168,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .inq-area .res-his-area .res-history .his-info-area {margin-top:11px}
     .inq-area .res-his-area .res-history .his-info-area dl {font-size:13px; line-height:19px}
     .inq-area .res-his-area .res-history .his-info-area dl + dl {margin-top:5px}
-    .inq-area .res-his-area .res-history .his-info-area .box-wrap {margin-top:11px; padding:17px 16px}
+    .inq-area .res-his-area .res-history .his-info-area .box-wrap {margin-top:11px; padding:17px 16px; border-radius:4px}
     .inq-area .res-his-area .res-history .his-info-area .box-wrap .col + .col {margin-top:8px}
     .inq-area .res-his-area .res-history .his-info-area .box-wrap dl + dl {margin-top:8px}
     .inq-area .res-his-area .res-history .his-info-area .box-wrap dl dt {min-width:78px}
