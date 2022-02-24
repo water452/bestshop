@@ -15,13 +15,13 @@
             <div class="tab01 tabOn tabSlide">
                 <ul>
                     <li>
-                        <a href="javascript:void(0);">방문상담/화상상담 <span class="num">5</span></a>
+                        <a href="/bestshop/pages/reservation/BSF-RES-INQ-LIST.jsp">방문상담/화상상담 <span class="num">5</span></a>
                     </li>
                     <li>
-                        <a href="javascript:void(0);">케어십 상담 <span class="num">5</span></a>
+                        <a href="/bestshop/pages/reservation/BSF-CARE-CA-INQ-LIST.jsp">케어십 상담 <span class="num">5</span></a>
                     </li>
                     <li class="on">
-                        <a href="javascript:void(0);">소모품 구매 예약 <span class="num">5</span></a>
+                        <a href="/bestshop/pages/reservation/BSF-CARE-EX-INQ-LIST.jsp">소모품 구매 예약 <span class="num">5</span></a>
                     </li>
                 </ul>
             </div>

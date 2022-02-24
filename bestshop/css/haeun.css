@@ -603,7 +603,6 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 .inq-area .res-his-area .res-history .his-info-area dl + dl {margin-top:2px}
 .inq-area .res-his-area .res-history .his-info-area .box-wrap {display:flex; flex-wrap:wrap; margin-top:14px; padding:24px 32px; border-radius:8px; background-color:#f4f4f4}
 .inq-area .res-his-area .res-history .his-info-area .box-wrap .col {width:calc(100% / 3); padding-right:24px}
-.inq-area .res-his-area .res-history .his-info-area .box-wrap .col + .col {margin-top:2px}
 .inq-area .res-his-area .res-history .btn-area {position:absolute; top:24px; right:0; margin-top:0}
 .inq-area .res-his-area .btn-area {margin-top:8px}
 .inq-area .res-his-area .res-history a[target="_blank"],
