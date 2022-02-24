@@ -19,8 +19,8 @@
       <div class="content-wrap swiper-slide" style="background-image:url('./images/@img-main-hero-pc01.jpg');">
           <div class="hero-tit left top"><!-- left / center / right --> <!-- mobile : top / bottom -->
               <div class="hero-tit-detail">
-                  <em>Bestshop에서만 만날 수 있는 특별한 기회! </em>
-                  <strong>당신의 생활공간을 잘 아는 <br>LG 베스트샵 맞춤컨설팅</strong>
+                  <em>상담 예약하고 매장 방문하면 경품이 쏟아진다!</em>
+                  <strong>LG전자 베스트샵<br>매장 상담 예약 이벤트</strong>
                   <p><span>자세히 보기</span></p>
                   <a href="pages/event/BSF-PAGE-LIVE.jsp">바로가기</a>
               </div>
@@ -29,8 +29,8 @@
       <div class="content-wrap swiper-slide" style="background-image:url('./images/@img-main-hero-pc02.jpg');">
           <div class="hero-tit left top"><!-- left / center / right --> <!-- mobile : top / bottom -->
               <div class="hero-tit-detail">
-                  <em>Bestshop에서만 만날 수 있는 특별한 기회! </em>
-                  <strong>당신의 생활공간을 잘 아는 <br>LG 베스트샵 맞춤컨설팅</strong>
+                  <em>입주 아파트별 행사 매장을 안내해드립니다.</em>
+                  <strong>LG전자 BEST SHOP<br>아파트 입주 이벤트</strong>
                   <p><span>자세히 보기</span></p>
                   <a href="javascript:void(0);">바로가기</a>
               </div>
