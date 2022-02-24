@@ -174,7 +174,7 @@
       <div class="mobile-status-bar">
         <ul class="mobile-status-list">
           <li class="list-item shop"><a href="/bestshop/pages/shop/BSF-SHOP-LIST.jsp"><span>매장찾기</span></a></li>
-          <li class="list-item reserv"><a href="/bestshop/templates/counsel/index.jsp"><span>상담예약</span></a></li>
+          <li class="list-item reserv"><a href="/bestshop/pages/reservation/BSF-RES-VISIT.jsp"><span>상담예약</span></a></li>
           <li class="list-item home"><a href="/bestshop"><span>홈</span></a></li>
           <li class="list-item event"><a href="https://cloud.protopie.io/p/d098e32a42" target="_blank" title="새 창 열림"><span>이벤트</span></a></li>
           <li class="list-item nav-anchor"><a href="javascript:void(0);"><span>메뉴</span></a></li>
