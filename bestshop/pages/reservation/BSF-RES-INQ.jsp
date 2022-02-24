@@ -26,7 +26,7 @@
                                 </ul>
                             </div>
                             <div class="btn-area">
-                                <button type="button" class="btn btn-inq">로그인 후 상담 내역 조회</button>
+                                <a class="btn btn-inq" href="/bestshop/pages/reservation/BSF-RES-INQ-LIST.jsp">로그인 후 상담 내역 조회</a>
                             </div>
                         </div>
 
@@ -56,11 +56,12 @@
                                                     </label>
                                                 </div>
                                                 <div class="txt-box">
-                                                    <div class="input-pin-type">
+                                                    <!-- <div class="input-pin-type">
                                                         <input class="base-txt" type="number" id="user-number02" placeholder="휴대전화 번호 입력">
                                                         <button type="button" class="btn-send">인증번호 발송</button>
                                                     </div>
-                                                    <input class="base-txt" type="number" placeholder="인증번호를 입력해주세요" disabled>
+                                                    <input class="base-txt" type="number" placeholder="인증번호를 입력해주세요" disabled> -->
+                                                    <input class="base-txt" type="number" id="user-number02" placeholder="휴대전화 번호 입력">
                                                 </div>
                                             </li>
                                         </ul>
@@ -68,7 +69,7 @@
                                 </div>
                             </div>
                             <div class="btn-area">
-                                <button type="button" class="btn btn-inq">상담 내역 조회</button>
+                                <a class="btn btn-inq" href="/bestshop/pages/reservation/BSF-RES-INQ-LIST.jsp">상담 내역 조회</a>
                             </div>
                         </div>
                     </div>
