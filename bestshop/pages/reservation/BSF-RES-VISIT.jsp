@@ -122,7 +122,7 @@
                         <div class="result-area active"><!-- active 클래스 추가 -->
                             <div class="info-step01">
                                 <div class="info-txt-com active"><!-- active 클래스 추가 -->
-                                    <a href="#">
+                                    <a href="javascript:void(0);">
                                         <span class="mo-tit">상담목적 및 제품선택</span>
                                         <span class="pc-tit">상담 목적 :</span>
                                         <span class="txt">혼수</span>
@@ -138,7 +138,7 @@
                         </div>
 
                         <div class="main-area active"><!-- active 클래스 추가 -->
-                            <form action="#">
+                            <form action="">
                                 <h3 class="step-tit">상담목적<sup>*</sup></h3>
                                 <ul class="input-icon-type">
                                     <li>
@@ -583,7 +583,7 @@
                         </div>
 
                         <div class="btn-area">
-                            <button type="button" class="btn s01 border-red arr-right">다음으로</button>
+                            <button type="button" data-href="#popup-confirm" class="btn s01 border-red arr-right btnPopOpen">다음으로</button>
                         </div>
 
                     </div>
@@ -595,7 +595,7 @@
                         <div class="result-area active"><!-- active 클래스 추가 -->
                             <div class="info-step02">
                                 <div class="info-txt-com active"><!-- active 클래스 추가 -->
-                                    <a href="#">
+                                    <a href="javascript:void(0);">
                                         <span class="mo-tit">상담 매장 및 예약일시</span>
                                         <span class="pc-tit">상담 매장 :</span>
                                         <span class="txt">강남본점</span>
@@ -727,7 +727,7 @@
                                         <!-- 리스트 보기 영역 -->
                                         <div class="list-wrap"><!-- active 클래스 추가 -->
                                             <div class="search-wrap">
-                                                <form action="#">
+                                                <form action="">
                                                     <div class="search-box">
                                                         <input type="text" placeholder="매장명을 검색해주세요."
                                                             title="매장명을 검색해주세요." required="required">
@@ -805,7 +805,7 @@
                                                 <div class="rt custom-scroll">
                                                     <ul class="detail-list">
                                                         <li>
-                                                            <a href="#" class="shop-box">
+                                                            <a href="javascript:void(0);" class="shop-box">
                                                                 <div class="name-area">
                                                                     <p class="shop-name">강남본점</p>
                                                                     <ul class="key-words">
@@ -822,7 +822,7 @@
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a href="#" class="shop-box">
+                                                            <a href="javascript:void(0);" class="shop-box">
                                                                 <div class="name-area">
                                                                     <p class="shop-name">강남본점</p>
                                                                     <ul class="key-words">
@@ -839,7 +839,7 @@
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a href="#" class="shop-box">
+                                                            <a href="javascript:void(0);" class="shop-box">
                                                                 <div class="name-area">
                                                                     <p class="shop-name">강남본점</p>
                                                                     <ul class="key-words">
@@ -856,7 +856,7 @@
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a href="#" class="shop-box">
+                                                            <a href="javascript:void(0);" class="shop-box">
                                                                 <div class="name-area">
                                                                     <p class="shop-name">강남본점</p>
                                                                     <ul class="key-words">
@@ -873,7 +873,7 @@
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a href="#" class="shop-box">
+                                                            <a href="javascript:void(0);" class="shop-box">
                                                                 <div class="name-area">
                                                                     <p class="shop-name">강남본점</p>
                                                                     <ul class="key-words">
@@ -890,7 +890,7 @@
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a href="#" class="shop-box">
+                                                            <a href="javascript:void(0);" class="shop-box">
                                                                 <div class="name-area">
                                                                     <p class="shop-name">강남본점</p>
                                                                     <ul class="key-words">
@@ -907,7 +907,7 @@
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a href="#" class="shop-box">
+                                                            <a href="javascript:void(0);" class="shop-box">
                                                                 <div class="name-area">
                                                                     <p class="shop-name">강남본점</p>
                                                                     <ul class="key-words">
@@ -924,7 +924,7 @@
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a href="#" class="shop-box">
+                                                            <a href="javascript:void(0);" class="shop-box">
                                                                 <div class="name-area">
                                                                     <p class="shop-name">강남본점</p>
                                                                     <ul class="key-words">
@@ -941,7 +941,7 @@
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a href="#" class="shop-box">
+                                                            <a href="javascript:void(0);" class="shop-box">
                                                                 <div class="name-area">
                                                                     <p class="shop-name">강남본점</p>
                                                                     <ul class="key-words">
@@ -958,7 +958,7 @@
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a href="#" class="shop-box">
+                                                            <a href="javascript:void(0);" class="shop-box">
                                                                 <div class="name-area">
                                                                     <p class="shop-name">강남본점</p>
                                                                     <ul class="key-words">
@@ -1047,7 +1047,7 @@
                                                 <!-- <p class="mo-tit active">17시</p> --><!-- active 클래스 추가(mo) -->
                                             </div>
                                             <div class="time-cont">
-                                                <form action="#">
+                                                <form action="">
                                                     <ul class="input-time">
                                                         <li>
                                                             <div class="radio-btn btn-type2">
@@ -1147,6 +1147,9 @@
 
                         <div class="result-area active"><!-- active 클래스 추가 -->
                             <div class="info-step03">
+                                <div class="info-txt-com active"><!-- active 클래스 추가 -->
+                                    <a href="javascript:void(0);">&nbsp;</a>
+                                </div>
                                 <div class="info-txt-uncom active"><!-- active 클래스 추가 -->
                                     <p class="page-num">STEP03</p>
                                     <p class="txt">예약자 정보를 입력해주세요.</p>
@@ -1158,7 +1161,7 @@
                             <div class="user-info-area">
                                 <h3 class="step-tit">예약자 정보</h3>
                                 <div class="lt">
-                                    <form action="#">
+                                    <form action="">
                                         <div class="box-gray">
                                             <ul class="input-list-type">
                                                 <li>
@@ -1346,7 +1349,8 @@
                     </div>
                     <div class="foot-area">
                         <div class="btn-area active"><!-- active 클래스 추가 -->
-                            <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담 예약하기</button>
+                            <a href="/bestshop/pages/reservation/BSF-RES-VISIT-DONE.jsp" class="btn btn-res">상담 예약하기</a>
+                            <!-- <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담 예약하기</button> -->
                         </div>
                     </div>
                 </div>
@@ -1370,7 +1374,7 @@
             <div class="pop-cont">
                 <div class="phone-check-wrap">
                     <p class="note"><sup>*</sup>필수 입력 사항</p>
-                    <form action="#">
+                    <form action="">
                         <ul class="input-list-type pc-row">
                             <li class="name-box">
                                 <div class="tit">
@@ -1408,7 +1412,7 @@
             </div>
             <div class="btn-area m-full-flex">
                 <!-- <button type="button" class="btn gray btnPopCancel">취소</button> -->
-                <button type="button" class="btn">인증하기</button>
+                <a href="/bestshop/pages/reservation/BSF-RES-VISIT-DONE.jsp" class="btn">인증하기</a>
             </div>
             <button type="button" class="btn-pop-close btnPopClose"><span class="blind">닫기</span></button>
         </div>
@@ -1518,3 +1522,50 @@
         });
     </script>
     <jsp:include page="../../templates/common/footer.jsp" />
+    <jsp:include page="../../templates/popup/popup-gps-agree.jsp" />
+
+
+    <style>
+        .step-area .result-area .info-txt-com.active{display:none;}
+        .step-area .result-area.on .info-txt-com.active{display:block;}
+        .step-area .main-area.active{display:none;}
+        .step-area.on .main-area.active{display:block;}
+        .step-area .main-area.active + .btn-area{display:none;}
+        .step-area.on .main-area.active + .btn-area{display:block;}
+    </style>
+
+    <script>
+        $(document).ready(function(){
+            $('.step-area.step01').addClass('on');
+            $('.step01 .btn-area button').click(function(){
+                $('.res-main .bottom-fixed-wrap').css('z-index', '1');
+            })
+            $('.popup .btn-area button').click(function(){
+                if($(this).hasClass('btnPopCancel')){
+                    console.log('123')
+                } else {
+                    $('.step-area.step01 .result-area').addClass('on')
+                    $('.step-area.step01 .btn-area').fadeOut().siblings('.main-area').slideUp(1000);
+                    $('.popup.confirm, .dim').fadeOut();
+                    $('html').css('overflow', 'visible');
+                    $('.step-area.step02').find('.info-txt-uncom').fadeOut();
+                    $('.step-area.step02 .main-area').slideDown();
+                    $('.res-main .bottom-fixed-wrap').css('z-index', '1000');
+                    $('.step02 .btn-area').css('display', 'block')
+                }
+            });
+            $('.info-txt-com > a').click(function(e){
+                $('.step-area .main-area').slideUp(500);
+                $(this).closest('.step-area').find('.main-area').slideDown(500);
+            });
+            $('.step02 .btn-area').click(function(){
+                $('.step-area.step02 .result-area').addClass('on')
+                $('.step-area.step02 .btn-area').fadeOut().siblings('.main-area').slideUp(1000);
+                $('.step-area.step03').find('.info-txt-uncom').fadeOut();
+                $('.step-area.step03 .main-area').slideDown();
+            });
+            $('.info-txt-com a').click(function(){
+                $('.step-area.step03').find('.info-txt-uncom').fadeIn();
+            });
+        });
+    </script>
