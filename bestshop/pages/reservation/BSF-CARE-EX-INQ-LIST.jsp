@@ -335,7 +335,7 @@
         </div>
         <div class="btn-area m-full-flex">
             <button type="button" class="btn gray btnPopCancel">취소</button>
-            <button type="button" class="btn">확인</button>
+            <a class="btn" href="/bestshop/pages/reservation/BSF-RES-CANCEL-DONE.jsp">확인</a>
         </div>
     </div>
 </div>
