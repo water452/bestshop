@@ -87,21 +87,6 @@
             <div class="event-list">
                 <ul>
                     <li>
-                        <a href="BSF-EVE-DETAIL.jsp">
-                            <span class="thumb">
-                                <img src="../../images/@box-list-thumb-01.jpg" alt="스타일러 이미지">
-                            </span>
-                            <div class="info">
-                                <div class="flag-wrap">
-                                    <span class="flag"><span class="blind">이벤트 구분</span>매장</span>
-                                    <span class="flag"><span class="blind">이벤트 유형</span>구매혜택</span>
-                                </div>
-                                <p class="tit"><span class="blind">이벤트 제목</span>스타일러 케어솔루션 고객감사 이벤트</p>
-                                <p class="date"><span class="blind">이벤트 기간</span>2021.12.01~2021.12.31</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
                         <a href="BSF-EVE-DETAIL-COUPON.jsp">
                             <span class="thumb">
                                 <span class="icon-timedeal"><img src="../../images/icons/icon-timedeal.svg" alt="타임딜"></span>
@@ -109,11 +94,26 @@
                             </span>
                             <div class="info">
                                 <div class="flag-wrap">
-                                    <span class="flag"><span class="blind">이벤트 구분</span>매장</span>
-                                    <span class="flag"><span class="blind">이벤트 유형</span>구매혜택</span>
+                                    <span class="flag">구매혜택</span>
+                                    <span class="flag">타임딜</span>
                                 </div>
-                                <p class="tit"><span class="blind">이벤트 제목</span>스타일러 케어솔루션 고객감사 이벤트</p>
-                                <p class="date"><span class="blind">이벤트 기간</span>2021.12.01~2021.12.31</p>
+                                <p class="tit"><span class="blind">이벤트 제목</span>스타일러 5% 할인 쿠폰 24시간 타임딜!</p>
+                                <p class="date"><span class="blind">이벤트 기간</span>2022.02.25 ~ 2022.02.26</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="BSF-EVE-DETAIL.jsp">
+                            <span class="thumb">
+                                <img src="../../images/@box-list-thumb-02.jpg" alt="스타일러 이미지">
+                            </span>
+                            <div class="info">
+                                <div class="flag-wrap">
+                                    <span class="flag">사은품</span>
+                                    <span class="flag">SNS</span>
+                                </div>
+                                <p class="tit"><span class="blind">이벤트 제목</span>3월 방문 상담 후기 이벤트</p>
+                                <p class="date"><span class="blind">이벤트 기간</span>2022.03.10 ~ 2022.10.31</p>
                             </div>
                         </a>
                     </li>
@@ -121,15 +121,15 @@
                         <a href="BSF-EVE-DETAIL-END.jsp">
                             <span class="thumb">
                                 <span class="end-msg"><em>종료된 이벤트</em></span>
-                                <img src="../../images/@box-list-thumb-01.jpg" alt="스타일러 이미지">
+                                <img src="../../images/@box-list-thumb-03.jpg" alt="스타일러 이미지">
                             </span>
                             <div class="info">
                                 <div class="flag-wrap">
-                                    <span class="flag"><span class="blind">이벤트 구분</span>매장</span>
-                                    <span class="flag"><span class="blind">이벤트 유형</span>구매혜택</span>
+                                    <span class="flag">사은품</span>
+                                    <span class="flag">선착순</span>
                                 </div>
-                                <p class="tit"><span class="blind">이벤트 제목</span>스타일러 케어솔루션 고객감사 이벤트</p>
-                                <p class="date"><span class="blind">이벤트 기간</span>2021.12.01~2021.12.31</p>
+                                <p class="tit"><span class="blind">이벤트 제목</span>LG 틔움 신상품 출시 제품증정 이벤트!</p>
+                                <p class="date"><span class="blind">이벤트 기간</span>2021.11.15 ~ 2021.11.16</p>
                             </div>
                         </a>
                         <a href="javascript:void(0);" onclick="window.open('../event/BSF-EVE-WINNER-P.jsp', 'new', 'scrollbars=yes, resizable=no, width=912, height=760'); return false" class="btn-link"><span>당첨자 발표</span></a>
@@ -139,15 +139,15 @@
                             <span class="thumb">
                                 <span class="end-msg"><em>종료된 이벤트</em></span>
                                 <span class="icon-timedeal"><img src="../../images/icons/icon-timedeal.svg" alt="타임딜"></span>
-                                <img src="../../images/@box-list-thumb-01.jpg" alt="스타일러 이미지">
+                                <img src="../../images/@box-list-thumb-04.jpg" alt="스타일러 이미지">
                             </span>
                             <div class="info">
                                 <div class="flag-wrap">
-                                    <span class="flag"><span class="blind">이벤트 구분</span>매장</span>
-                                    <span class="flag"><span class="blind">이벤트 유형</span>구매혜택</span>
+                                    <span class="flag">구매혜택</span>
+                                    <span class="flag">방문후기</span>
                                 </div>
-                                <p class="tit"><span class="blind">이벤트 제목</span>스타일러 케어솔루션 고객감사 이벤트</p>
-                                <p class="date"><span class="blind">이벤트 기간</span>2021.12.01~2021.12.31</p>
+                                <p class="tit"><span class="blind">이벤트 제목</span>LG 베스트샵 방문후기 이벤트!</p>
+                                <p class="date"><span class="blind">이벤트 기간</span>2021.11.15 ~ 2021.11.16</p>
                             </div>
                         </a>
                         <a href="javascript:void(0);" onclick="window.open('../event/BSF-EVE-WINNER-P.jsp', 'new', 'scrollbars=yes, resizable=no, width=912, height=760'); return false" class="btn-link"><span>당첨자 발표</span></a>

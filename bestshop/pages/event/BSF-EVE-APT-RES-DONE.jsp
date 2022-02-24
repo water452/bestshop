@@ -47,8 +47,8 @@
                 </div>
             </div>
             <div class="btn-area center m64">
-                <button type="button" class="btn">상담 예약 조회</button>
-                <button type="button" class="btn border">메인 화면으로</button>
+                <a href="#none" class="btn">상담 예약 조회</a>
+                <a href="/bestshop" class="btn border">메인 화면으로</a>
             </div>
         </div>
     </div>

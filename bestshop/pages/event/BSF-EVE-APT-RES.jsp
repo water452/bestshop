@@ -1130,7 +1130,10 @@
 
                 <div class="btn-area center active"><!-- active 클래스 추가 -->
                     <!-- <a href="#popup-certification" class="btn btn-res btnPopOpen">상담 예약하기</a> -->
-                    <button type="button" data-href="#popup-certification" class="btn btn-res btnPopOpen">상담 예약하기</button>
+                    <!-- <button type="button" data-href="#popup-certification" class="btn btn-res btnPopOpen">상담 예약하기</button> -->
+                    <!-- 시연용 -->
+                    <a href="BSF-EVE-APT-RES-DONE.jsp" class="btn btn-res">상담 예약하기</a>
+                    <!-- //시연용 -->
                 </div>
                 
             </section>
@@ -1163,7 +1166,10 @@
                 </div>
                 <div class="foot-area">
                     <div class="btn-area active"><!-- active 클래스 추가 -->
-                        <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담 예약하기</button>
+                        <!-- <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담 예약하기</button> -->
+                        <!-- 시연용 -->
+                        <a href="BSF-EVE-APT-RES-DONE.jsp" class="btn btn-res">상담 예약하기</a>
+                        <!-- //시연용 -->
                     </div>
                 </div>
             </div>

@@ -28,7 +28,7 @@
                 </div>
                 <div class="swiper-slide">
                     <a href="javascript:void(0);">
-                        <span class="thumb"><img src="/bestshop/images/img_main_event01.jpg" alt=""></span>
+                        <span class="thumb"><img src="/bestshop/images/img_main_event03.jpg" alt=""></span>
                         <span class="txtBox">
                             <span class="date">2021.10.01~2021.10.31</span>
                             <strong>LG 코드제로 M9 출시 기념</strong>

@@ -9,11 +9,11 @@
             <div class="ev-detail-top">
                 <div class="tit-wrap">
                     <div class="flag-wrap">
-                        <span class="flag">온라인</span>
-                        <span class="flag">경품</span>
+                        <span class="flag">사은품</span>
+                        <span class="flag">타임딜</span>
                     </div>
-                    <h2 class="tit">LGE.COM 오픈 기념 응원 댓글 이벤트</h2>
-                    <span class="sub-tit"><span class="blind">서브 제목</span>LGE.COM 홈페이지가 오픈 되었습니다! 함께 응원해주세요!</span>
+                    <h2 class="tit">스타일러 할인 쿠폰 발급 24시간 타임딜!</h2>
+                    <span class="sub-tit">24시간 동안 발급되는 할인쿠폰의 기회, 놓치지 마세요!</span>
                 </div>
                 <div class="info-wrap">
                     <div class="schedule">
@@ -21,10 +21,12 @@
                             <dt>이벤트 기간</dt>
                             <dd>2021.10.01 ~ 2021.10.31</dd>
                         </dl>
+                        <!--
                         <dl>
                             <dt>당첨자 발표</dt>
                             <dd>2021.10.31</dd>
                         </dl>
+                        -->
                     </div>
                     <div class="target">
                         <dl>
@@ -65,7 +67,7 @@
                         </dd>
                     </dl>
                     <div class="img">
-                        <img src="../../images/temp-thum-event.png" alt="event" />
+                        <img src="../../images/temp-thum-event-coupon.jpg" alt="event" />
                     </div>
                 </div>
                 <div class="point-container bg-tangible02">
@@ -80,14 +82,14 @@
                     </div>
                 </div>
                 <div class="notice-wrap">
-                    <dl class="bullet-list">
+                    <dl class="bullet-list ty-box">
                         <dt class="b-tit">유의사항</dt>
                         <dd class="b-txt">본 이벤트는 LG전자 회원 및 멤버십 가입자 대상 이벤트로 LG전자 회원가입 및 로그인 후 참여하실 수 있습니다.</dd>
                         <dd class="b-txt">타인 계정 또는 타인의 사진을 도용하여 참여 시, 경품 지급 대상에서 제외됩니다.</dd>
                         <dd class="b-txt">LG전자 멤버십 고객에 한하여 당첨 시 멤버십 포인트가 적립됩니다.</dd>
                     </dl>
                 </div>
-                <div class="btn-area center full-size-m">
+                <div class="btn-area center"><!-- 모바일 버튼 풀사이즈 class="full-size-m" -->
                     <a href="BSF-EVE-BSTAB.jsp" class="btn border"><span>목록</span></a>
                 </div>
             </div>

@@ -16,8 +16,8 @@
               <p>LG전자 회사소개 동영상</p>
           </video>
       </div><!-- //.swiper-slide -->
-      <div class="content-wrap swiper-slide" style="background-image:url('./images/@img-main-hero-pc.jpg');">
-          <div class="hero-tit center bottom"><!-- left / center / right --> <!-- mobile : top / bottom -->
+      <div class="content-wrap swiper-slide" style="background-image:url('./images/@img-main-hero-pc01.jpg');">
+          <div class="hero-tit left top"><!-- left / center / right --> <!-- mobile : top / bottom -->
               <div class="hero-tit-detail">
                   <em>Bestshop에서만 만날 수 있는 특별한 기회! </em>
                   <strong>당신의 생활공간을 잘 아는 <br>LG 베스트샵 맞춤컨설팅</strong>
@@ -26,8 +26,8 @@
               </div>
           </div>
       </div><!-- //.swiper-slide -->
-      <div class="content-wrap swiper-slide" style="background-image:url('./images/@img-main-hero-pc.jpg');">
-          <div class="hero-tit right top"><!-- left / center / right --> <!-- mobile : top / bottom -->
+      <div class="content-wrap swiper-slide" style="background-image:url('./images/@img-main-hero-pc02.jpg');">
+          <div class="hero-tit left top"><!-- left / center / right --> <!-- mobile : top / bottom -->
               <div class="hero-tit-detail">
                   <em>Bestshop에서만 만날 수 있는 특별한 기회! </em>
                   <strong>당신의 생활공간을 잘 아는 <br>LG 베스트샵 맞춤컨설팅</strong>

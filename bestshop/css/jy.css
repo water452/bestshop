@@ -303,6 +303,7 @@ ul.input-cate-type .cate-tit > .icon.apple-watch { background: url("../images/ic
 .agree-cont-wrap .agree-cont-box { max-height: 98px; font-weight: normal; }
 .agree-cont-wrap .agree-cont-box * { font-weight: normal; }
 .bullet-list.ty-box { margin-top: 60px; padding: 40px; background: #f4f4f4; }
+.bullet-list.ty-box:first-child { margin: 0; }
 .limit-box { position: relative; padding-bottom: 30px; }
 .limit-txt-box { position: absolute; bottom: 0; right: 0; padding: 0 10px; width: 100%; color: #777; line-height: 20px; font-size: 14px; text-align: right; }
 .limit-txt-box > * { display: inline-block; font-weight: normal; vertical-align: top; }
@@ -714,7 +715,7 @@ li[class*="blt"], li > [class*="blt"] { display: block; }
 
     /* point-container */
     .point-container { margin-top: 20px; }
-    .point-wrap { padding: 30px; }
+    .point-wrap { padding: 30px 14px; }
     .point-wrap br { display: none; }
     .point-container .point-wrap .btn-area { margin-top: 15px; }
     .point-container.ty-m-radius { border-radius: 8px; }

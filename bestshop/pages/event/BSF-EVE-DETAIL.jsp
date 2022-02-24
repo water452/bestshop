@@ -9,11 +9,11 @@
             <div class="ev-detail-top">
                 <div class="tit-wrap">
                     <div class="flag-wrap">
-                        <span class="flag">온라인</span>
-                        <span class="flag">경품</span>
+                        <span class="flag">사은품</span>
+                        <span class="flag">SNS</span>
                     </div>
-                    <h2 class="tit">LGE.COM 오픈 기념 응원 댓글 이벤트</h2>
-                    <span class="sub-tit"><span class="blind">서브 제목</span>LGE.COM 홈페이지가 오픈 되었습니다! 함께 응원해주세요!</span>
+                    <h2 class="tit">3월 방문 상담 후기 이벤트</h2>
+                    <span class="sub-tit">3월 상담을 진행 하신 분들의 후기 참여를 기다립니다!</span>
                 </div>
                 <div class="info-wrap">
                     <div class="schedule">
@@ -29,7 +29,7 @@
                     <div class="target">
                         <dl>
                             <dt>대상고객</dt>
-                            <dd>LG전자 통합 회원이라면 누구나</dd>
+                            <dd>상담예약을 통해 3월 상담을 진행한 모든 고객</dd>
                         </dl>
                     </div>
                 </div>
@@ -56,23 +56,16 @@
             <div class="ev-detail-con">
                 <div class="ev-img-box">
                     <div class="img">
-                        <img src="../../images/temp-thum-event.png" alt="event" />
-                    </div>
-                    <div class="blind">
-                        <p>꿈의 가전으로 트리를 꾸며요!</p>
-                        <p>꿈이 현실이 되는 트리</p>
-                        <p><strong>Dreams Come 트리</strong></p>
-                        <p>참여기간 : 2021.12.01(수) - 12.31(금)</p> 
-                        <p>당첨자 발표 : 2022.01.17(월)</p> 
+                        <img src="../../images/temp-thum-event.jpg" alt="event" />
                     </div>
                 </div>
                 <div class="survey-box">
                     <div class="tit-box">
-                        <h3 class="tit">이벤트 설문 정보 입력</h3>
+                        <h3 class="tit">상담예약 후기 이벤트 참여</h3>
                         <p class="req" aria-disabled="true">필수 입력 항목</p>
                     </div>
                     <dl class="form">
-                        <dt class="tit"><label for="shortAnswer" class="req">설문방식 주관식 단답형<span class="blind">필수입력</span></label></dt>
+                        <dt class="tit"><label for="shortAnswer" class="req">상담 지점명을 입력해주세요 <span class="blind">필수입력</span></label></dt>
                         <dd class="conts">
                             <div class="input-wrap limit-box">
                                 <input type="text" id="shortAnswer" placeholder="답변 입력">
@@ -86,7 +79,7 @@
                         </dd>
                     </dl>
                     <dl class="form">
-                        <dt class="tit"><label for="longAnswer" class="req">설문방식 주관식 서술형<span class="blind">필수입력</span></label></dt>
+                        <dt class="tit"><label for="longAnswer" class="req">상담 후기를 남겨주세요 <span class="blind">필수입력</span></label></dt>
                         <dd class="conts">
                             <div class="input-wrap limit-box">
                                 <textarea id="longAnswer" cols="30" rows="10" placeholder="답변 입력"></textarea>
@@ -100,38 +93,45 @@
                         </dd>
                     </dl>
                     <dl class="form">
-                        <dt class="tit req">설문방식 객관식 단일선택형 <span class="blind">필수입력</span></dt>
+                        <dt class="tit req">방문일자를 선택해주세요 <span class="blind">필수입력</span></dt>
                         <dd class="conts">
                             <div class="select-list-wrap w-auto">
                                 <ul>
                                     <li class="lists">
                                         <span class="radio-btn">
                                             <input type="radio" id="rdo01" name="rdo1" checked>
-                                            <label for="rdo01">단일선택 01</label>
+                                            <label for="rdo01">3월 1주차 (2022.03.01~2022.03.05)</label>
                                         </span>
                                     </li>
                                     <li class="lists">
                                         <span class="radio-btn">
                                             <input type="radio" id="rdo02" name="rdo1">
-                                            <label for="rdo02">단일선택 02</label>
+                                            <label for="rdo02">3월 2주차 (2022.03.06~2022.03.12)</label>
                                         </span>
                                     </li>
                                     <li class="lists">
                                         <span class="radio-btn">
                                             <input type="radio" id="rdo03" name="rdo1">
-                                            <label for="rdo03">단일선택 03</label>
+                                            <label for="rdo03">3월 3주차 (2022.03.13~2022.03.19)</label>
                                         </span>
                                     </li>
                                     <li class="lists">
                                         <span class="radio-btn">
-                                            <input type="radio" id="rdo04" name="rdo1>
-                                            <label for="rdo04">단일선택 04</label>
+                                            <input type="radio" id="rdo04" name="rdo1">
+                                            <label for="rdo04">3월 4주차 (2022.03.20~2022.03.26)</label>
+                                        </span>
+                                    </li>
+                                    <li class="lists">
+                                        <span class="radio-btn">
+                                            <input type="radio" id="rdo05" name="rdo1">
+                                            <label for="rdo05">3월 5주차 (2022.03.27~2022.03.31)</label>
                                         </span>
                                     </li>
                                 </ul>
                             </div>
                         </dd>
                     </dl>
+                    <!--
                     <dl class="form">
                         <dt class="tit req">설문방식 객관식 다중선택형 <span class="blind">필수입력</span></dt>
                         <dd class="conts">
@@ -165,6 +165,8 @@
                             </div>
                         </dd>
                     </dl>
+                    -->
+                    <!--
                     <dl class="form">
                         <dt class="tit">설문방식 첨부파일 선택형</dt>
                         <dd class="conts">
@@ -215,6 +217,7 @@
                             </ul>
                         </dd>
                     </dl>
+                    -->
                 </div>
                 <div class="agree-box">
                     <div class="tit-box">
