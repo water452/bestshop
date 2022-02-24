@@ -23,7 +23,7 @@
                     </div>
                 </div>
                 <div class="btn-area center m64">
-                    <a class="btn" href="/bestshop/pages/reservation/BSF-RES-INQ-LIST.jsp">상담 예약 조회</a>
+                    <a class="btn" href="/bestshop/pages/reservation/BSF-RES-INQ.jsp">상담 예약 조회</a>
                     <a class="btn border" href="/bestshop/">메인 화면으로</a>
                 </div>
             </div>
