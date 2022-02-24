@@ -487,9 +487,9 @@
                             <!-- // 케어서비스 상세 - 정수기(2열) -->
 
                             <!-- 케어서비스 상세 - 얼음정수기냉장고(3열) -->
-                            <div class="service-detail-area">
+                            <!-- <div class="service-detail-area">
                                 <h3 class="blind">얼음정수기냉장고 케어서비스 상세</h3>
-                                <ul class="col-3"><!-- 3열일 경우 col-3 클래스 추가 -->
+                                <ul class="col-3">
                                     <li>
                                         <div class="icon-wrap">
                                             <img class="m-hidden" src="../../images/icons/icon-care-refrigerator-01.svg" alt="">
@@ -537,13 +537,13 @@
                                         </div>
                                     </li>
                                 </ul>
-                            </div>
+                            </div> -->
                             <!-- // 케어서비스 상세 - 얼음정수기냉장고(3열) -->
 
                             <!-- 케어서비스 상세 - 공기청정기(3열) -->
-                            <div class="service-detail-area">
+                            <!-- <div class="service-detail-area">
                                 <h3 class="blind">공기청정기 케어서비스 상세</h3>
-                                <ul class="col-3"><!-- 3열일 경우 col-3 클래스 추가 -->
+                                <ul class="col-3">
                                     <li>
                                         <div class="icon-wrap">
                                             <img class="m-hidden" src="../../images/icons/icon-care-air-01.svg" alt="">
@@ -592,13 +592,13 @@
                                         </div>
                                     </li>
                                 </ul>
-                            </div>
+                            </div> -->
                             <!-- // 케어서비스 상세 - 공기청정기(3열) -->
 
                             <!-- 케어서비스 상세 - 공기청정팬(2열) -->
-                            <div class="service-detail-area">
+                            <!-- <div class="service-detail-area">
                                 <h3 class="blind">공기청정팬 케어서비스 상세</h3>
-                                <ul class="col-2"><!-- 2열일 경우 col-2 클래스 추가 -->
+                                <ul class="col-2">
                                     <li>
                                         <div class="icon-wrap">
                                             <img class="m-hidden" src="../../images/icons/icon-care-air-01.svg" alt="">
@@ -630,13 +630,13 @@
                                         </div>
                                     </li>
                                 </ul>
-                            </div>
+                            </div> -->
                             <!-- // 케어서비스 상세 - 공기청정팬(2열) -->
 
                             <!-- 케어서비스 상세 - 건조기(3열) -->
-                            <div class="service-detail-area">
+                            <!-- <div class="service-detail-area">
                                 <h3 class="blind">건조기 케어서비스 상세</h3>
-                                <ul class="col-3"><!-- 3열일 경우 col-3 클래스 추가 -->
+                                <ul class="col-3">
                                     <li>
                                         <div class="icon-wrap">
                                             <img class="m-hidden" src="../../images/icons/icon-care-dryer-01.svg" alt="">
@@ -674,13 +674,13 @@
                                         </div>
                                     </li>
                                 </ul>
-                            </div>
+                            </div> -->
                             <!-- // 케어서비스 상세 - 건조기(3열) -->
 
                             <!-- 케어서비스 상세 - 전기레인지(3열) -->
-                            <div class="service-detail-area">
+                            <!-- <div class="service-detail-area">
                                 <h3 class="blind">전기레인지 케어서비스 상세</h3>
-                                <ul class="col-3"><!-- 3열일 경우 col-3 클래스 추가 -->
+                                <ul class="col-3">
                                     <li>
                                         <div class="icon-wrap">
                                             <img class="m-hidden" src="../../images/icons/icon-care-stove-01.svg" alt="">
@@ -723,13 +723,13 @@
                                         </div>
                                     </li>
                                 </ul>
-                            </div>
+                            </div> -->
                             <!-- // 케어서비스 상세 - 전기레인지(3열) -->
 
                             <!-- 케어서비스 상세 - 식기세척기(2열) -->
-                            <div class="service-detail-area">
+                            <!-- <div class="service-detail-area">
                                 <h3 class="blind">식기세척기 케어서비스 상세</h3>
-                                <ul class="col-2"><!-- 2열일 경우 col-2 클래스 추가 -->
+                                <ul class="col-2">
                                     <li>
                                         <div class="icon-wrap">
                                             <img class="m-hidden" src="../../images/icons/icon-care-dishwasher-01.svg" alt="">
@@ -779,13 +779,13 @@
                                         </div>
                                     </li>
                                 </ul>
-                            </div>
+                            </div> -->
                             <!-- // 케어서비스 상세 - 식기세척기(2열) -->
 
                             <!-- 케어서비스 상세 - 식물생활가전(2열) -->
-                            <div class="service-detail-area">
+                            <!-- <div class="service-detail-area">
                                 <h3 class="blind">식물생활가전 케어서비스 상세</h3>
-                                <ul class="col-2"><!-- 2열일 경우 col-2 클래스 추가 -->
+                                <ul class="col-2">
                                     <li>
                                         <div class="icon-wrap">
                                             <img class="m-hidden" src="../../images/icons/icon-care-tiiun-01.svg" alt="">
@@ -835,7 +835,7 @@
                                         </div>
                                     </li>
                                 </ul>
-                            </div>
+                            </div> -->
                             <!-- // 케어서비스 상세 - 식물생활가전(2열) -->
 
                             <div class="prd-list-area">
