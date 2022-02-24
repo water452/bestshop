@@ -22,7 +22,7 @@
                   <em>Bestshop에서만 만날 수 있는 특별한 기회! </em>
                   <strong>당신의 생활공간을 잘 아는 <br>LG 베스트샵 맞춤컨설팅</strong>
                   <p><span>자세히 보기</span></p>
-                  <a href="javascript:void(0);">바로가기</a>
+                  <a href="pages/event/BSF-PAGE-LIVE.jsp">바로가기</a>
               </div>
           </div>
       </div><!-- //.swiper-slide -->

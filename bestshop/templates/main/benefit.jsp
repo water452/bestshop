@@ -19,28 +19,28 @@
                     <a href="javascript:void(0);">
                         <img src="./images/img_main_benefit02.jpg" class="pc" alt="">
                         <img src="./images/img_main_benefit02_m.jpg" class="mobile" alt="">
-                        <strong>이달의 베스트샵</strong>
+                        <strong>제품별 이벤트</strong>
                     </a>
                 </li>
                 <li>
                     <a href="javascript:void(0);">
                         <img src="./images/img_main_benefit03.jpg" class="pc" alt="">
                         <img src="./images/img_main_benefit03_m.jpg" class="mobile" alt="">
-                        <strong>이달의 베스트샵</strong>
+                        <strong>렌탈/케어</strong>
                     </a>
                 </li>
                 <li>
                     <a href="javascript:void(0);">
                         <img src="./images/img_main_benefit04.jpg" class="pc" alt="">
                         <img src="./images/img_main_benefit04_m.jpg" class="mobile" alt="">
-                        <strong>이달의 베스트샵</strong>
+                        <strong>멤버십혜택</strong>
                     </a>
                 </li>
                 <li>
                     <a href="javascript:void(0);">
                         <img src="./images/img_main_benefit05.jpg" class="pc" alt="">
                         <img src="./images/img_main_benefit05_m.jpg" class="mobile" alt="">
-                        <strong>이달의 베스트샵</strong>
+                        <strong>이달의 카드혜택</strong>
                     </a>
                 </li>
             </ul>

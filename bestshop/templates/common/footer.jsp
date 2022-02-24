@@ -78,6 +78,7 @@
                     </ul>
                   </div>
                 </li>
+                <!--
                 <li class="link-section">
                   <div class="depth1"><a href="javascript:void(0);">마이페이지</a></div>
                   <div class="depth2">
@@ -103,6 +104,7 @@
                     </ul>
                   </div>
                 </li>
+                -->
               </ul>
 
             </div>

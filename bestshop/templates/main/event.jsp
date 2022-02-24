@@ -38,7 +38,7 @@
             </div>
         </div>
         <div class="btn-area">
-            <a href="javascript:void(0);">이벤트 전체보기</a>
+            <a href="pages/event/BSF-EVE-BSTAB.jsp">이벤트 전체보기</a>
         </div>
     </div><!-- //.content-group-detail -->
 </div>

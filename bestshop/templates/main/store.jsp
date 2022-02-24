@@ -14,7 +14,7 @@
                             <em>GRAND OPEN</em>
                             <strong>갤러리아 명품관 WEST점</strong>
                             <p>
-                                <a href="javascript:void(0);">매장상담예약하기</a>
+                                <a href="pages/reservation/BSF-RES-VISIT.jsp">매장상담예약하기</a>
                                 <a href="javascript:void(0);"><img src="./images/icons/main_icon_map.svg" alt="위치보기 아이콘">매장위치보기</a>
                             </p>
                         </div>
@@ -35,7 +35,7 @@
                             <em>GRAND OPEN</em>
                             <strong>신세계 Art & Sience점</strong>
                             <p>
-                                <a href="javascript:void(0);">매장상담예약하기</a>
+                                <a href="pages/reservation/BSF-RES-VISIT.jsp">매장상담예약하기</a>
                                 <a href="javascript:void(0);"><img src="./images/icons/main_icon_map.svg" alt="위치보기 아이콘">매장위치보기</a>
                             </p>
                         </div>
@@ -56,7 +56,7 @@
                             <em>GRAND OPEN</em>
                             <strong>강남본점</strong>
                             <p>
-                                <a href="javascript:void(0);">매장상담예약하기</a>
+                                <a href="pages/reservation/BSF-RES-VISIT.jsp">매장상담예약하기</a>
                                 <a href="javascript:void(0);"><img src="./images/icons/main_icon_map.svg" alt="위치보기 아이콘">매장위치보기</a>
                             </p>
                         </div>
@@ -77,7 +77,7 @@
                             <em>GRAND OPEN</em>
                             <strong>양재점</strong>
                             <p>
-                                <a href="javascript:void(0);">매장상담예약하기</a>
+                                <a href="pages/reservation/BSF-RES-VISIT.jsp">매장상담예약하기</a>
                                 <a href="javascript:void(0);"><img src="./images/icons/main_icon_map.svg" alt="위치보기 아이콘">매장위치보기</a>
                             </p>
                         </div>
@@ -98,7 +98,7 @@
                             <em>GRAND OPEN</em>
                             <strong>센트럴파크점</strong>
                             <p>
-                                <a href="javascript:void(0);">매장상담예약하기</a>
+                                <a href="pages/reservation/BSF-RES-VISIT.jsp">매장상담예약하기</a>
                                 <a href="javascript:void(0);"><img src="./images/icons/main_icon_map.svg" alt="위치보기 아이콘">매장위치보기</a>
                             </p>
                         </div>
@@ -119,7 +119,7 @@
                             <em>GRAND OPEN</em>
                             <strong>송파본점</strong>
                             <p>
-                                <a href="javascript:void(0);">매장상담예약하기</a>
+                                <a href="pages/reservation/BSF-RES-VISIT.jsp">매장상담예약하기</a>
                                 <a href="javascript:void(0);"><img src="./images/icons/main_icon_map.svg" alt="위치보기 아이콘">매장위치보기</a>
                             </p>
                         </div>
