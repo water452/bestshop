@@ -90,7 +90,7 @@ dfn { display: block; font-style: normal; }
 
 /* time-deal */
 .time-deal { position: fixed; left: 0; margin: 0; width: 100%; opacity: 0; -webkit-transition: all 0.8s cubic-bezier(0.64, 0, 0.78, 0) 0s; transition: all 0.8s cubic-bezier(0.64, 0, 0.78, 0) 0s; z-index: 4; }
-.time-deal.on { opacity: 1; -webkit-transition: all 1s cubic-bezier(0.25, 1, 0.5, 1) 0s; transition: all 1s cubic-bezier(0.25, 1, 0.5, 1) 0s; }
+.time-deal.on { opacity: 1; -webkit-transition: all 0s cubic-bezier(0.25, 1, 0.5, 1) 0s; transition: all 0s cubic-bezier(0.25, 1, 0.5, 1) 0s; }
 .time-deal .point-wrap { padding-top: 22px; padding-bottom: 22px; text-align: left; }
 .time-deal .today-close { position: absolute; top: 50%; right: 40px; margin-top: -13px; }
 .txt-time-deal { display: inline-block; vertical-align: top; }

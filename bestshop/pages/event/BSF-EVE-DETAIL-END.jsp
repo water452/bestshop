@@ -83,7 +83,7 @@
                     </dl>
                 </div>
                 <div class="btn-area center full-size-m">
-                    <a href="javascript:void(0);" class="btn border"><span>목록</span></a>
+                    <a href="BSF-EVE-BSTAB.jsp" class="btn border"><span>목록</span></a>
                 </div>
             </div>
         </div>
