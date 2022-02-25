@@ -388,12 +388,12 @@ footer .foot-cont .foot-bottom .bottom-head .sns-link{float:left;display:flex;fl
 footer .foot-cont .foot-bottom .bottom-head .sns-link li + li{margin-left:20px}
 footer .foot-cont .foot-bottom .bottom-head .sns-link li a{display:flex;align-items:center;font-weight:500;font-size:12px;line-height:16px;color:#666}
 footer .foot-cont .foot-bottom .bottom-head .sns-link li a:before{display:inline-block;margin-right:4px;width:28px;height:28px;background:no-repeat center center;background-size:100%;content:''}
-footer .foot-cont .foot-bottom .bottom-head .sns-link li a.blog:before{background:url(../images/icons/icon-naver.svg)}
-footer .foot-cont .foot-bottom .bottom-head .sns-link li a.naverTv:before{background:url(../images/icons/icon-naver.svg)}
-footer .foot-cont .foot-bottom .bottom-head .sns-link li a.naverPost:before{background:url(../images/icons/icon-naver.svg)}
-footer .foot-cont .foot-bottom .bottom-head .sns-link li a.facebook:before{background:url(../images/icons/icon-facebook.svg)}
-footer .foot-cont .foot-bottom .bottom-head .sns-link li a.instagram:before{background:url(../images/icons/icon-instagram.svg)}
-footer .foot-cont .foot-bottom .bottom-head .sns-link li a.youtube:before{background:url(../images/icons/icon-youtube.svg)}
+footer .foot-cont .foot-bottom .bottom-head .sns-link li a.blog:before{background-image:url(../images/icons/icon-blog.svg)}
+footer .foot-cont .foot-bottom .bottom-head .sns-link li a.facebook:before{background-image:url(../images/icons/icon-facebook.svg)}
+footer .foot-cont .foot-bottom .bottom-head .sns-link li a.instagram:before{background-image:url(../images/icons/icon-instagram.svg)}
+footer .foot-cont .foot-bottom .bottom-head .sns-link li a.youtube:before{background-image:url(../images/icons/icon-youtube.svg)}
+footer .foot-cont .foot-bottom .bottom-head .sns-link li a.naverTv:before{background-image:url(../images/icons/icon-naver-tv.svg)}
+footer .foot-cont .foot-bottom .bottom-head .sns-link li a.naverPost:before{background-image:url(../images/icons/icon-naver-post.svg)}
 
 footer .foot-cont .foot-bottom .bottom-body{position:relative;padding-top:16px;border-top:1px solid #ddd}
 footer .foot-cont .foot-bottom .bottom-body a:hover,
