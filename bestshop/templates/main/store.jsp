@@ -2,8 +2,8 @@
 
 <div class="info-store content-group">
     <div class="content-group-tit">
-        <h3>베스트샵 매장소개</h3>
-        <p>단골매장과 주소근처 매장소식을 빠르게 확인하세요!</p>
+        <h3>오픈 매장 소개</h3>
+        <!-- <p>단골매장과 주소근처 매장소식을 빠르게 확인하세요!</p> -->
     </div><!-- //.content-group-tit -->
     <div class="content-group-detail">
         <div class="slide-store">
