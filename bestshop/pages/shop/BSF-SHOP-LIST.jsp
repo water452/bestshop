@@ -244,6 +244,11 @@
                                 </p>
                             </li>
                         </ul>
+                        <!-- 검색 결과 없는경우 -->
+                        <div class="no-data" style="display: none;">
+                            <p>검색된 결과가 없습니다.</p>
+                        </div>
+                        <!-- //검색 결과 없는경우 -->
                     </div><!-- //.result-body -->
 
                     <div class="result-filter">
