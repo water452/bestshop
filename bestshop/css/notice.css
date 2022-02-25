@@ -96,20 +96,23 @@
 .notice .pagination .next {
   background-image: url(../images/icons/icon-arr-pagination-next.svg);
 }
+.notice .pagination .next.disabled {
+  background-image: url(../images/icons/icon-arr-pagination-next-gray.svg);
+}
 .notice .pagination .next-last {
   background-image: url(../images/icons/icon-double-arr-pagination-next.svg);
+}
+.notice .pagination .next-last.disabled {
+  background-image: url(../images/icons/icon-double-arr-pagination-next-gray.svg);
 }
 .notice .pagination .prev.disabled {
   background-image: url(../images/icons/icon-arr-pagination-prev-gray.svg);
 }
+.notice .pagination .prev-first {
+  background-image: url(../images/icons/icon-double-arr-pagination-prev.svg);
+}
 .notice .pagination .prev-first.disabled {
   background-image: url(../images/icons/icon-double-arr-pagination-prev-gray.svg);
-}
-.notice .pagination .next.disabled {
-  background-image: url(../images/icons/icon-arr-pagination-next-gray.svg);
-}
-.notice .pagination .next-last.disabled {
-  background-image: url(../images/icons/icon-double-arr-pagination-next-gray.svg);
 }
 .notice .pagination .page_num {
   display: inline-block;
