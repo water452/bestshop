@@ -333,9 +333,24 @@
     <div id="guide-form">
         <h2>form요소</h2>
         <div class="guide-cont">
-            <input type="text" class="base-txt" title="입력" placeholder="" style="width: 200px;" />
-            <input type="text" class="base-txt" title="입력" placeholder="" style="width: 200px;" readonly />
-            <input type="text" class="base-txt" title="입력" placeholder="" style="width: 200px;" disabled />
+            <div class="input-wrap">
+                <input type="text" class="base-txt" title="입력" placeholder="" style="width: 200px;" />
+            </div>
+            <div class="btm-more err-block" style="display: block;">
+                <p class="err-msg">인증번호를 입력해주세요.</p>
+            </div>
+            <div class="input-wrap">
+                <input type="text" class="base-txt" title="입력" placeholder="" style="width: 200px;" readonly />
+            </div>
+            <div class="btm-more err-block" style="display: block;">
+                <p class="err-msg">인증번호를 입력해주세요.</p>
+            </div>
+            <div class="input-wrap">
+                <input type="text" class="base-txt" title="입력" placeholder="" style="width: 200px;" disabled />
+            </div>
+            <div class="btm-more err-block" style="display: block;">
+                <p class="err-msg">인증번호를 입력해주세요.</p>
+            </div>
             <hr>
             <select class="base-slt" style="width: 200px;">
                 <option>선택</option>
@@ -404,7 +419,7 @@
                         <h2 class="tit-pop">타이틀</h2>
                     </div>
                     <div class="pop-cont">
-                        컨텐츠영역
+                        컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역 컨텐츠영역
                     </div>
                     <div class="btn-area m-full-flex">
                         <button type="button" class="btn s01 gray btnPopCancel">아니요</button>

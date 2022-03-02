@@ -330,7 +330,7 @@
  }
 
 .agree-cont-wrap .btm-more { margin-top: 4px; } 
-.agree-cont-wrap .btm-more.err-block { display: none; } 
+.agree-cont-wrap .btm-more.err-block { display: none } 
 .agree-all-chk { font-weight: 700; } 
 .agree-all-chk .desc { margin-left: 12px; font-weight: 400; } 
 @media screen and (max-width: 767px){
@@ -824,7 +824,7 @@
 
 .ui-calendar-container .ui-calendar-date .ui-calendar-table tbody .ui-calendar-cell .ui-calendar-day.disabled { color: #aaa; } 
 .ui-calendar-container .ui-calendar-date .ui-calendar-table tbody .ui-calendar-cell.ui-calendar-active .ui-calendar-day { background: #e51346; color: #fff; font-weight: 700; } 
-.err-block { display: none; } /* button */.btn-group { margin: 64px auto 0; } 
+.err-block { display: none; margin-top: 8px; } /* button */.btn-group { margin: 64px auto 0; } 
 @media screen and (max-width: 767px){
  .btn-group { margin-top: 32px; padding: 0 16px; } 
  }

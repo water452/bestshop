@@ -210,6 +210,7 @@ input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {-webkit-appearance:none; margin:0}
 input.base-txt {width:100%; height:48px; padding:10px 15px; border:1px solid #ddd; border-radius:8px; font-size:16px; line-height:26px}
 input:disabled {border-color:#ededed; background-color:#ededed}
+input:focus {outline:none; border-color:#EC455A}
 ul.input-list-type {flex-direction:column}
 ul.input-list-type li + li {margin-top:32px}
 ul.input-list-type.pc-row > li {display:flex}
@@ -220,10 +221,13 @@ ul.input-list-type .tit {margin-bottom:8px; font-size:16px; font-weight:bold; li
 ul.input-list-type .tit label .name {display:flex}
 ul.input-list-type .tit label .name sup {color:#e81953; margin-left:4px; font-size:16px; font-weight:bold; line-height:26px}
 ul.input-list-type .txt-box {position:relative}
-ul.input-list-type .txt-box .btm-more {position:absolute; top:48px; left:0; margin-top:8px}
+ul.input-list-type .input-wrap {display:block; margin-top:8px}
+ul.input-list-type .input-wrap:first-of-type {margin-top:0}
+.box-gray ul.input-list-type .txt-box .btm-more.err-block {position:absolute; top:48px; left:0}
 .input-pin-type {display:flex; margin-bottom:12px}
 .input-pin-type input {width:calc(100% - 112px)}
 .input-pin-type .btn-send {width:104px; margin-left:8px; padding:12px 10px; border:1px solid #000; border-radius:8px; background-color:#fff; font-size:14px; font-weight:bold; line-height:20px; white-space:nowrap}
+.input-pin-type + .btm-more.err-block {margin-top:-4px}
 .base-slt { padding: 0 38px 0 15px; width: 100%; height: 48px; line-height: 46px; font-size: 16px; border-radius: 8px; border: 1px solid #ddd; background: #fff url("../images/icons/btn-down-16-black.svg") no-repeat top 50% right 11px; }
 
 /* 필수 입력 사항 */
@@ -522,6 +526,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 .popup { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 101; }
 .pop-wrap { position: absolute; top: 50%; left: 50%; width: 100%; padding: 34px 40px 50px; max-width: 678px; border-radius: 8px; background: #fff; overflow: hidden; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
 .pop-head { padding-bottom: 15px; border-bottom: 2px solid #000; }
+.pop-cont { min-height: 249px; max-height: 589px; overflow-y: auto; }
 .tit-pop { line-height: 30px; font-size: 20px; font-weight: 500; }
 .tit-pop + .txt-pop01 { margin-top: 10px; }
 .txt-pop01 { line-height: 24px; font-size: 16px; }
@@ -646,8 +651,8 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
     ul.input-list-type.pc-row .tit > label {line-height:20px}
     ul.input-list-type .tit label .name sup {font-size:14px; line-height:20px}
     ul.input-list-type.pc-row .tit label .name sup {font-size:14px; line-height:20px}
-	ul.input-list-type .txt-box .btm-more {position:static}
-    .input-pin-type {margin-bottom:7px}
+	.box-gray ul.input-list-type .txt-box .btm-more.err-block {position:static}
+    .input-pin-type {margin-bottom:8px}
     .input-pin-type input {width:calc(100% - 105.5px)}
     .input-pin-type .btn-send {width:99px; margin-left:6.5px; font-size:13px; font-weight:500}
 
@@ -829,7 +834,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
     
     /* popup - 모바일 full */
     .popup.m-full .pop-wrap { height: 100%; border-radius: 0; }
-    .popup.m-full .pop-cont { height: calc(100% - 62px - 56px) !important; overflow-y: auto; }
+    .popup.m-full .pop-cont { height: calc(100% - 62px - 56px) !important; min-height: auto; max-height: 100%; overflow-y: auto; }
     .popup.m-full .btn-area.m-full-flex { position: absolute; bottom: 0; left: 0; margin: 0; width: 100%; }
 
     /* popup - confirm */
