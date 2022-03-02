@@ -400,9 +400,9 @@ function popup(){
 			};
 		});
 		if ( $(".popup.on").length < 1 ){
-			$(".dim").stop().fadeOut(100);
 			$("html").removeAttr("style");
 		};
+        $(".dim").stop().fadeOut(100);
 	};
 	$(document).on("click", ".btnPopClose, .btnPopCancel", popOff);
 
