@@ -698,7 +698,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-main.care .service-detail-area > ul.col-3 > li {width:calc(50% - 54px)}
 
     /* 소모품구매예약페이지 */
-    .tab01.filter {position:relative; margin-top:40px; padding-left:40px}
+    .tab01.filter {position:relative; margin-top:40px}
     .tab01.filter .tab02 > ul {padding-left:40px}
     .tab01.filter .btn-filter {display:block; position:absolute; left:0; top:10px; width:25px; height:25px; background:url(../images/icons/btn-filter-50.svg) no-repeat center / contain}
     .tab01.filter.is_depth .btn-filter {top:64.5px; z-index:10}
@@ -1082,9 +1082,10 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-main.care-ex .top-wrap .guide-area .guide-bottom dl dt {font-size:13px; line-height:19px}
     .res-main.care-ex .top-wrap .guide-area .guide-bottom dl dd {font-size:12px; line-height:17px}
 
-    .tab01.filter {margin-top:22px; padding-left:56px}
+    .tab01.filter {margin-top:22px}
     .tab01.filter .btn-filter {left:16px; top:11.5px}
-    .tab01.filter.is_depth .btn-filter {top:67.5px}
+    .tab01.filter.is_depth .btn-filter {top:57px}
+    .tab01.is_depth + .cont-area .plp-list-wrap {margin-top:16px}
     .plp-list-wrap {margin-top:40px}
     .pdt-list-area .list-info {margin-bottom:19px}
     .pdt-list-area .list-info .list-count {font-size:13px; line-height:19px}

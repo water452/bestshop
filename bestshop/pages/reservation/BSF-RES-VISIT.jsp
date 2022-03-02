@@ -1171,7 +1171,12 @@
                                                         </label>
                                                     </div>
                                                     <div class="txt-box">
-                                                        <input class="base-txt" type="text" id="user-name" placeholder="이름 입력">
+                                                        <div class="txt-wrap">
+                                                            <input class="base-txt" type="text" id="user-name" placeholder="이름 입력">
+                                                        </div>
+                                                        <div class="btm-more err-block">
+                                                            <p class="err-msg">이름을 입력해주세요.</p>
+                                                        </div>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -1181,7 +1186,12 @@
                                                         </label>
                                                     </div>
                                                     <div class="txt-box">
-                                                        <input class="base-txt" type="number" id="user-number" placeholder="휴대폰 번호 입력">
+                                                        <div class="txt-wrap">
+                                                            <input class="base-txt" type="number" id="user-number" placeholder="휴대폰 번호 입력">
+                                                        </div>
+                                                        <div class="btm-more err-block">
+                                                            <p class="err-msg">이름을 입력해주세요.</p>
+                                                        </div>
                                                     </div>
                                                 </li>
                                             </ul>
