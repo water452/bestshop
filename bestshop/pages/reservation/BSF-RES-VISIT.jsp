@@ -192,7 +192,9 @@
                         </div>
                     </div>
 
-                    <jsp:include page="../../templates/reservation/map.jsp" /> <!-- //map.jsp -->
+                    <div class="main-area"> <!-- 노출여부 : active -->
+                        <jsp:include page="../../templates/reservation/map.jsp" /> <!-- //map.jsp -->
+                    </div>
 
                     <div class="btn-area bg active"><!-- active 클래스 추가 -->
                         <div class="result-txt">
