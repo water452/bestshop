@@ -489,7 +489,7 @@
                                     </li>
                                 </ul>
 
-                                <h3 class="step-tit">선택하신 제품<sup>*</sup><span>(최대 3개 선택가능)</span></h3>
+                                <h3 class="step-tit">선택 제품<sup>*</sup><span>(최대 3개 선택가능)</span></h3>
                                 <div class="my-select">
                                     <ul>
                                         <li>

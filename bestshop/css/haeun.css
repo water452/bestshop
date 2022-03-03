@@ -80,6 +80,7 @@
 .step-area .main-area.active {display:block}
 .step-area .btn-area {display:none}
 .step-area .main-area.active + .btn-area {display:block}
+.step-area .main-area.active .btn-area {display:block}
 
 /* swiper button */
 .banner-btns {position:absolute; width:100%; height:40px; left:50%; transform:translate(-50%,-50%); z-index:10}
@@ -305,6 +306,8 @@ ul.input-acco-type .check-box .agr-txt-wrap .inner > ul > li > p {padding-left:1
 .step-area .btn-area.bg .result-txt p + p {margin-top:6px}
 .step-area .btn-area.bg .result-txt p:only-of-type {line-height:62px}
 .step-area .btn-area.bg.active .result-txt {color:#fff}
+.step-area .btn-area.no-btn {margin-top:20px}
+.step-area .btn-area.no-btn .result-txt {text-align:center}
 
 /* 유의사항 */
 .caution-box {margin-top:40px; padding:42px 40px; border-radius:8px; background-color:#f4f4f4}
@@ -386,7 +389,7 @@ ul.input-acco-type .check-box .agr-txt-wrap .inner > ul > li > p {padding-left:1
 .res-main .sticky-info-wrap .btn-reselect {position:absolute; display:block; right:40px; top:calc(50% - 20px); width:90px; padding:0 14px 0 35px; border:1px solid #fff; border-radius:34px; background:url(../images/icons/icon-reset-white.svg) no-repeat 13px center / 20px; color:#fff; font-size:14px; line-height:38px}
 
 .res-main.care .cont-wrap .cont-area {padding-top:0}
-.res-main.care .cont-wrap .cont-area .step-area {margin-top:40px; border-top:0}
+.res-main.care .cont-wrap .cont-area .step-area {margin-top:40px; border:0}
 .res-main.care .cont-wrap .cont-area .step-area.step03 {margin-top:0; border-top:1px solid #707070}
 .res-main.care .cont-wrap .cont-area .step-area .main-area {padding-top:0}
 .res-main.care .cont-wrap .cont-area .step-area.step03 .main-area {padding-top:20px}

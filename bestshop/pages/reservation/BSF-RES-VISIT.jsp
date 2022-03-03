@@ -196,13 +196,13 @@
                         <jsp:include page="../../templates/reservation/map.jsp" /> <!-- //map.jsp -->
                     </div>
 
-                    <div class="btn-area bg active"><!-- active 클래스 추가 -->
+                    <div class="btn-area bg active"><!-- bg 활성화 : active -->
                         <div class="result-txt">
                             <!-- <p>상담하실 매장과 일시를 선택해주세요.</p> -->
                             <p>상담 매장: <span>강남본점</span></p>
                             <p>예약 일시: <span>21년12월15일, 17시</span></p>
                         </div>
-                        <button type="button" class="btn s01 border-red arr-right">다음으로</button>
+                        <button type="button" class="btn s01 border-red arr-right">다음으로</button><!-- 버튼 비활성화 : disabled -->
                     </div>
                 </div>
                 <!-- // step 2 -->
