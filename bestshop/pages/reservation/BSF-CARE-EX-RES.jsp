@@ -464,8 +464,7 @@
             <section class="cont-area">
                 <p class="step-top-note"><sup>*</sup>필수입력항목</p>
                 <!-- step 1 -->
-                <div class="step-area step01 active">
-                    <!-- active 클래스 추가 -->
+                <div class="step-area step01">
 
                     <div class="result-area active">
                         <!-- active 클래스 추가 -->
@@ -481,41 +480,10 @@
                         </div>
                     </div>
 
-                    <div class="main-area active">
-                        <!-- active 클래스 추가 -->
+                    <div class="main-area active"><!-- active 클래스 추가 -->
 
                         <h3 class="step-tit">선택 제품<sup>*</sup><span>(최대 3개 선택가능)</span></h3>
-                        <div class="my-select">
-                            <ul>
-                                <li>
-                                    <div class="box">
-                                        <div class="img-wrap">
-                                            <img src="../../images/img-filter-01.jpg"
-                                                alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
-                                        </div>
-                                        <div class="txt-wrap">
-                                            <p class="tit">V트루 토탈케어 필터 전용 극세 필터</p>
-                                            <p class="code"><span class="blind">제품 코드</span>ADQ75153442</p>
-                                            <p class="price">29,000원</p>
-                                        </div>
-                                        <button type="button" class="btn-close"><span
-                                                class="blind">닫기</span></button>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="box no-item">
-                                        <p class="no-item-txt">구매 예약하실 소모품을 추가 하실 수 있습니다.</p>
-                                        <button type="button" class="btn border btn-add">소모품 추가 하기</button>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="box no-item">
-                                        <p class="no-item-txt">구매 예약하실 소모품을 추가 하실 수 있습니다.</p>
-                                        <button type="button" class="btn border btn-add">소모품 추가 하기</button>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
+                        <jsp:include page="../../templates/reservation/input-myselect.jsp" /> <!-- //input-myselect.jsp -->
 
                     </div>
 
@@ -527,8 +495,7 @@
                 <!-- // step 1 -->
 
                 <!-- step 2 -->
-                <div class="step-area step02 active">
-                    <!-- active 클래스 추가 -->
+                <div class="step-area step02">
 
                     <div class="result-area active">
                         <!-- active 클래스 추가 -->
@@ -574,8 +541,7 @@
                 <!-- // step 2 -->
 
                 <!-- step 3 -->
-                <div class="step-area step03 active">
-                    <!-- active 클래스 추가 -->
+                <div class="step-area step03">
 
                     <div class="result-area active">
                         <!-- active 클래스 추가 -->
@@ -593,7 +559,7 @@
                         <div class="user-info-area">
                             <h3 class="step-tit">예약자 정보</h3>
                             <div class="lt">
-                                <form action="#">
+                                <form action="">
                                     <div class="box-gray">
                                         <ul class="input-list-type">
                                             <li>
@@ -603,7 +569,12 @@
                                                     </label>
                                                 </div>
                                                 <div class="txt-box">
-                                                    <input class="base-txt" type="text" id="user-name" placeholder="이름 입력">
+                                                    <div class="input-wrap">
+                                                        <input class="base-txt" type="text" id="user-name" placeholder="이름 입력">
+                                                    </div>
+                                                    <div class="btm-more err-block">
+                                                        <p class="err-msg">이름을 입력해주세요.</p>
+                                                    </div>
                                                 </div>
                                             </li>
                                             <li>
@@ -613,7 +584,12 @@
                                                     </label>
                                                 </div>
                                                 <div class="txt-box">
-                                                    <input class="base-txt" type="number" id="user-number" placeholder="휴대폰 번호 입력">
+                                                    <div class="input-wrap">
+                                                        <input class="base-txt" type="number" id="user-number" placeholder="휴대폰 번호 입력">
+                                                    </div>
+                                                    <div class="btm-more err-block">
+                                                        <p class="err-msg">정확한 휴대폰번호를 입력해주세요.</p>
+                                                    </div>
                                                 </div>
                                             </li>
                                         </ul>
@@ -758,50 +734,7 @@
 <!-- // container -->
 
 <!-- 선택한 소모품(장바구니) 영역 -->
-<div class="bottom-cart-wrap">
-    <!-- active 클래스 추가 -->
-    <div class="bar-wrap care-ex">
-        <div class="head-area">
-            <p class="head-txt">선택한 소모품 <span><em>2</em>/3</span></p>
-            <button type="button" class="view-more"><span class="blind">펼쳐보기</span></button>
-        </div>
-        <div class="body-area">
-            <div class="my-select">
-                <ul>
-                    <li>
-                        <div class="box">
-                            <div class="img-wrap">
-                                <img src="../../images/img-filter-01.jpg" alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
-                            </div>
-                            <div class="txt-wrap">
-                                <p class="tit">V트루 토탈케어 필터 전용 극세 필터</p>
-                                <p class="code"><span class="blind">제품 코드</span>ADQ75153442</p>
-                                <p class="price">29,000원</p>
-                            </div>
-                            <button type="button" class="btn-close"><span class="blind">닫기</span></button>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="box no-item">
-                            <p class="no-item-txt">원하는 상담 제품을 추가 하실 수 있습니다.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="box no-item">
-                            <p class="no-item-txt">원하는 상담 제품을 추가 하실 수 있습니다.</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="foot-area">
-            <div class="btn-area">
-                <button type="button" class="btn btn-reset"><span>초기화</span></button>
-                <button type="button" class="btn btn-res">소모품 구매 예약</button>
-            </div>
-        </div>
-    </div>
-</div>
+<jsp:include page="../../templates/reservation/input-myselect-cart.jsp" /> <!-- //input-myselect-cart.jsp -->
 <!-- // 선택한 소모품(장바구니) 영역 -->
 
 <!-- dim -->
@@ -817,7 +750,7 @@
         <div class="pop-cont">
             <div class="phone-check-wrap">
                 <p class="note"><sup>*</sup>필수 입력 사항</p>
-                <form action="#">
+                <form action="">
                     <ul class="input-list-type pc-row">
                         <li class="name-box">
                             <div class="tit">
@@ -826,7 +759,12 @@
                                 </label>
                             </div>
                             <div class="txt-box">
-                                <input class="base-txt" type="text" id="user-name02" placeholder="이름 입력">
+                                <div class="input-wrap">
+                                    <input class="base-txt" type="text" id="user-name02" placeholder="이름 입력">
+                                </div>
+                                <div class="btm-more err-block">
+                                    <p class="err-msg">이름을 입력해주세요.</p>
+                                </div>
                             </div>
                         </li>
                         <li class="num-box">
@@ -840,7 +778,15 @@
                                     <input class="base-txt" type="number" id="user-number02" placeholder="휴대전화 번호 입력">
                                     <button type="button" class="btn-send">인증번호 발송</button>
                                 </div>
-                                <input class="base-txt" type="number" placeholder="인증번호를 입력해주세요" disabled>
+                                <div class="btm-more err-block">
+                                    <p class="err-msg">정확한 휴대폰번호를 입력해주세요.</p>
+                                </div>
+                                <div class="input-wrap">
+                                    <input class="base-txt" type="number" placeholder="인증번호를 입력해주세요" disabled>
+                                </div>
+                                <div class="btm-more err-block">
+                                    <p class="err-msg">인증번호를 입력해주세요.</p>
+                                </div>
                             </div>
                         </li>
                     </ul>
@@ -855,12 +801,13 @@
         </div>
         <div class="btn-area m-full-flex">
             <!-- <button type="button" class="btn gray btnPopCancel">취소</button> -->
-            <button type="button" class="btn">인증하기</button>
+            <a href="/bestshop/pages/reservation/BSF-RES-VISIT-DONE.jsp" class="btn">인증하기</a>
         </div>
         <button type="button" class="btn-pop-close btnPopClose"><span class="blind">닫기</span></button>
     </div>
 </div>
 <!-- 팝업: 휴대전화 인증 -->
+
 
 <script>
     $(document).ready(function () {
@@ -954,3 +901,55 @@
     });
 </script>
 <jsp:include page="../../templates/common/footer.jsp" />
+<jsp:include page="../../templates/popup/popup-gps-agree.jsp" />
+
+
+<script>
+    /* 위치정보제공동의 팝업 추가 STEP01 > STEP02 */
+    $('#popup-confirm button').on('click', function(){
+        if(!$(this).hasClass('btnPopCancel')){ // '네' 누를경우
+            $('html').css('overflow', 'visible');
+
+            /* step01 effect */
+            $('#popup-confirm, .dim').fadeOut(200); // 팝업 + dim 처리 히든
+            $('.step01 .main-area, .step01 .btn-area').stop().slideUp(400); // 내용과 버튼영역 히든
+            $('.step01 .info-txt-com').addClass('active'); // 요약정보 노출
+            $('.step01').removeClass('border'); // border 삭제
+
+            /* step02 effect */
+            $('.step02 .main-area, .step02 .btn-area').stop().slideDown(400);
+            $('.step02 .info-txt-uncom').slideUp(400);
+            $('.step02').addClass('border');
+        }
+    });
+
+    /* STEP02 > STEP03 */
+    $('.step02 .btn-area button').on('click', function(){
+        $('.step02 .main-area, .step02 .btn-area').stop().slideUp(400); // 내용과 버튼영역 히든
+        $('.step02 .info-txt-com').addClass('active'); // 요약정보 노출
+        $('.step02').removeClass('border');
+
+        /* step03 effect */
+        $('.step03 .main-area').stop().slideDown(400);
+        $('.step03 .info-txt-uncom').slideUp(400);
+        $('.step03').addClass('border').find('.info-txt-com').addClass('active');
+    });
+
+    /* TOGGLE STEP */
+    $('.info-txt-com a').on('click', function(){
+        var _with = $(this).closest('.step-area').siblings('.step-area');
+
+        _with.removeClass('border').find('.main-area, .btn-area').slideUp(400);
+        $(this).closest('.step-area').toggleClass('border').find('.main-area').slideToggle(400);
+
+        if($('.step02 .btn-area').is(':visible')){ // step02 상태에서 펼칠때
+            $('.step02 .info-txt-com').addClass('active');
+            $('.step02').addClass('middle');
+        }
+
+        if($(this).closest('.step-area').hasClass('middle')){ // 위의 상황이 지나고 다시 펼칠때
+            $('.step02 .btn-area').slideDown(400);
+            $('.step02').removeClass('middle');
+        }
+    });
+</script>

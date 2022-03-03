@@ -178,7 +178,7 @@ table{border-collapse:collapse}
 .tab02 > ul > .on:after { width: 100%; background: #000; }
 .tab02 > ul > li > a { display: block; color: #666; line-height: 24px; font-size: 16px; font-weight: 500; }
 .tab02 > ul > .on > a { color: #000; font-weight: 700; }
-.tab01.is_depth > ul { padding-bottom: 60px; }
+.tab01.is_depth { padding-bottom: 60px; }
 [class*="tab"].is_depth > ul > li [class*="tab"] { display: none; position: absolute; bottom: 0; left: 0; width: 100%; }
 [class*="tab"].is_depth > ul > .on [class*="tab"] { display: block; }
 
