@@ -896,20 +896,8 @@
       "worker": "이수인",
       "startdate": "2022-03-02",
       "finishdate": "2022-03-03",
-      "status": "진행예정",
-      "filename": "",
-      "memo": ""
-    },
-    {
-      "dep1": "",
-      "dep2": "",
-      "dep3": "",
-      "dep4": "완료",
-      "worker": "이수인",
-      "startdate": "2022-03-02",
-      "finishdate": "2022-03-03",
-      "status": "진행예정",
-      "filename": "",
+      "status": "완료",
+      "filename": "./pages/reservation/BSF-PAGE-OFFICE.jsp",
       "memo": ""
     },
     {
@@ -920,20 +908,8 @@
       "worker": "이수인",
       "startdate": "2022-03-02",
       "finishdate": "2022-03-03",
-      "status": "진행예정",
-      "filename": "",
-      "memo": ""
-    },
-    {
-      "dep1": "",
-      "dep2": "",
-      "dep3": "",
-      "dep4": "완료",
-      "worker": "이수인",
-      "startdate": "2022-03-02",
-      "finishdate": "2022-03-03",
-      "status": "진행예정",
-      "filename": "",
+      "status": "완료",
+      "filename": "./pages/reservation/BSF-PAGE-OFFICE.jsp",
       "memo": ""
     },
     {
@@ -944,20 +920,8 @@
       "worker": "이수인",
       "startdate": "2022-03-02",
       "finishdate": "2022-03-03",
-      "status": "진행예정",
-      "filename": "",
-      "memo": ""
-    },
-    {
-      "dep1": "",
-      "dep2": "",
-      "dep3": "",
-      "dep4": "완료",
-      "worker": "이수인",
-      "startdate": "2022-03-02",
-      "finishdate": "2022-03-03",
-      "status": "진행예정",
-      "filename": "",
+      "status": "완료",
+      "filename": "./pages/reservation/BSF-PAGE-OFFICE.jsp",
       "memo": ""
     },
     {
@@ -968,20 +932,8 @@
       "worker": "안하은",
       "startdate": "2022-03-02",
       "finishdate": "2022-03-03",
-      "status": "진행예정",
-      "filename": "",
-      "memo": ""
-    },
-    {
-      "dep1": "",
-      "dep2": "",
-      "dep3": "",
-      "dep4": "완료",
-      "worker": "안하은",
-      "startdate": "2022-03-02",
-      "finishdate": "2022-03-03",
-      "status": "진행예정",
-      "filename": "",
+      "status": "완료",
+      "filename": "./pages/reservation/BSF-PAGE-MOU.jsp",
       "memo": ""
     },
     {
@@ -992,20 +944,8 @@
       "worker": "안하은",
       "startdate": "2022-03-02",
       "finishdate": "2022-03-03",
-      "status": "진행예정",
-      "filename": "",
-      "memo": ""
-    },
-    {
-      "dep1": "",
-      "dep2": "",
-      "dep3": "",
-      "dep4": "완료",
-      "worker": "안하은",
-      "startdate": "2022-03-02",
-      "finishdate": "2022-03-03",
-      "status": "진행예정",
-      "filename": "",
+      "status": "완료",
+      "filename": "./pages/reservation/BSF-PAGE-WEDDING.jsp",
       "memo": ""
     },
     {
@@ -1016,20 +956,8 @@
       "worker": "안하은",
       "startdate": "2022-03-02",
       "finishdate": "2022-03-03",
-      "status": "진행예정",
-      "filename": "",
-      "memo": ""
-    },
-    {
-      "dep1": "",
-      "dep2": "",
-      "dep3": "",
-      "dep4": "완료",
-      "worker": "안하은",
-      "startdate": "2022-03-02",
-      "finishdate": "2022-03-03",
-      "status": "진행예정",
-      "filename": "",
+      "status": "완료",
+      "filename": "./pages/reservation/BSF-PAGE-MOU.jsp",
       "memo": ""
     },
     {

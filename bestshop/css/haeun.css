@@ -5,6 +5,7 @@
 .only_pc {display:block!important}
 .only_mo {display:none!important}
 .mt60 {margin-top:60px!important}
+.mt48 {margin-top:48px!important}
 .mt20 {margin-top:20px!important}
 
 /* 사이트맵 */
@@ -269,6 +270,13 @@ ul.shop-list li [class^="btn-"] > span {margin-left:3px}
 .user-info-area .box-gray {height:348px; padding:60px; border-radius:8px; background-color:#f4f4f4}
 .user-info-area ul.input-list-type .tit {font-weight:500}
 .user-info-area ul.input-list-type > li + li {margin-top:50px}
+.user-info-area.info-type .box-gray {height:auto; padding:30px 60px}
+.user-info-area.info-type ul.input-list-type .row {display:flex; justify-content:space-between}
+.user-info-area.info-type ul.input-list-type .row .inner {width:100%;}
+.user-info-area.info-type ul.input-btn-type {margin:34px 0 0; padding-left:8px}
+.user-info-area.info-type ul.input-btn-type > li + li {margin:0 0 0 8px}
+.user-info-area.info-type ul.input-btn-type .chkrdo-btn label {min-width:auto; padding:0 23px; border-radius:8px}
+.user-info-area.info-type .slt.border-type {width:100%; background-color:#fff}
 ul.input-acco-type {flex-direction:column}
 ul.input-acco-type > li {padding:4px 0}
 ul.input-acco-type > li + li {margin-top:3px}
@@ -696,6 +704,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 
     /* 예약자 정보 */
     .user-info-area .box-gray {padding:25px}
+    .user-info-area.info-type .box-gray {padding:25px}
 
     /* 케어십상담예약페이지 */
     .res-main.care .video-area {flex-direction:column}
@@ -753,6 +762,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .only_pc {display:none!important}
     .only_mo {display:block!important}
     .mt60 {margin-top:40px!important}
+    .mt48 {margin-top:35px!important}
 
     /* 사이트맵 */
     .sitemap {margin-top:0}
@@ -940,6 +950,9 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .user-info-area .rt {float:none; width:100%; padding-left:0; margin-top:12px; margin-bottom:0}
     .user-info-area .box-gray {height:auto}
     .user-info-area ul.input-list-type > li + li {margin-top:32px}
+    .user-info-area.info-type ul.input-btn-type {margin:26px 0 0; padding-left:6px}
+    .user-info-area.info-type ul.input-btn-type > li + li {margin:0 0 0 6px}
+    .user-info-area.info-type ul.input-btn-type .chkrdo-btn label {padding:0 19px; border-radius:8px}
     ul.input-acco-type {padding-bottom:4px; border:1px solid #ddd; border-radius:8px}
     ul.input-acco-type > li {padding:12px 16px}
     ul.input-acco-type > li + li {margin-top:0; border-top:1px solid #ddd}
