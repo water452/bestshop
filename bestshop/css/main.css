@@ -163,6 +163,7 @@
 .main-notice .notice-slide{flex:1;overflow:hidden;height:72px;}
 .main-notice .notice-slide .swiper-slide{padding:24px 0;}
 .main-notice .notice-slide .swiper-slide a{display:block;overflow:hidden;font-size:16px;font-weight:400;color:#333;text-overflow:ellipsis;line-height:24px;letter-spacing:-0.4px;white-space:nowrap;padding:0 15px;}
+.main-notice .notice-slide .swiper-slide a i{font-style:normal;color:#da0f47;margin-right:5px;}
 .main-notice .slide-navi .slide-navi-detail{padding:0 0 0 20px;}
 .main-notice .slide-navi .swiper-pager{padding:0;background:none;}
 .main-notice .slide-navi .swiper-pager .slideBtn{width:20px;height:20px;background-color:#999;background-image:url('../images/icons/bul_arrow_down_white.svg');background-position:48% 50%;background-size:auto 11px;border-radius:100%;}

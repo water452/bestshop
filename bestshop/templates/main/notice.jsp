@@ -5,7 +5,7 @@
     <div class="notice-slide">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <a href="javascript:void(0);">LG전자 서비스 이용약관 및 개인 정보 처리방침 개정 안내</a>
+                <a href="javascript:void(0);"><i>NEW</i> LG전자 서비스 이용약관 및 개인 정보 처리방침 개정 안내</a>
             </div>
             <div class="swiper-slide">
                 <a href="javascript:void(0);">TEST</a>
