@@ -449,11 +449,15 @@
     width: 100%;
   }
   .notice .keyword-search .search-select input[type=text] {
+    padding: 10px 54px 10px 36px;
     font-size: 13px;
     line-height: 18px;
   }
+  .notice .btn-back {
+    left: 15px;
+  }
   .notice .btn-clear {
-    right: 50px;
+    right: 45px;
   }
   .notice .btn-search {
     width: 30px;

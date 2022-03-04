@@ -598,6 +598,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
     .search-box > input {background-color:#fff; font-size:13px; line-height:24px}
 		.search-box .btn-back {width:16px; background:url(../images/icons/icon-arrow-back-32.svg) no-repeat 0 0 / 100%}
     .search-box .btn-search {width:16px; background:url(../images/icons/icon-search_mo.svg) no-repeat center / contain}
+		.search-box .btn-clear {right:30px}
 
 	/* select */
 	.slt.border-type > a,
