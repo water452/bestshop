@@ -80,6 +80,7 @@ html.full-height .wrap #content .shop-search-wrap{position:relative;min-width:13
 .search-result .result-body ul li .sub-info a:not(.call-num){height:24px;font-size:16px;text-decoration:underline;text-underline-position:under;line-height:24px;padding-right:17px;background-image:url('../images/icons/bul-direct-link.svg');background-repeat:no-repeat;background-position:100% 50%;}
 .search-result .result-body ul li .sub-info a.active{color:#da0f47;background-image:url('../images/icons/bul-direct-link-active.svg');}
 .search-result .result-body ul li .sub-info a + a{margin-left:12px;}
+.search-result .result-body ul li.nullList{text-align:center;padding:25px 0 50px;}
 .search-result .mCSB_outside + .mCS-minimal-dark.mCSB_scrollTools_vertical{right:-32px;margin:0;}
 
 .mCSB_scrollTools{width:10px;}
@@ -209,9 +210,6 @@ html.full-height .wrap #content .shop-search-wrap{position:relative;min-width:13
 .step-cont .step-detail .detail-block + .detail-block{margin-top:50px;}
 .step-cont .step-detail .input-icon-type > li{flex:1;}
 .step-cont .step-detail .input-icon-type > li + li{margin-left:15px;}
-.step-cont .step-detail .full .input-cate-type > li{width:100%;}
-.step-cont .step-detail .full .input-cate-type .cate-items{max-width:unset;width:calc(100% - 154px);}
-.step-cont .step-detail .full .input-cate-type .cate-items > li{max-width:183px}
 .step-cont .step-detail .btn-area{margin:20px 0;}
 .step-cont .step-detail .btn-area.right{text-align:right;}
 .detail-block.step-area{border-top:0 none;}

@@ -285,8 +285,7 @@
                                                         <ul>
                                                             <li>
                                                                 <span>1. 수집하는 개인정보의 항목</span>
-                                                                <p>1) 필수사항 : 이름, 휴대폰번호, 매장 방문 가능일, 구매 희망 제품, 방문 예정
-                                                                    매장, 구매 희망 시기</p>
+                                                                <p>1) 필수사항 : 이름, 휴대폰번호, 매장 방문 가능일, 구매 희망 제품, 방문 예정 매장, 구매 희망 시기</p>
                                                             </li>
                                                             <li>
                                                                 <span>2. 개인정보 이용목적</span>
@@ -341,8 +340,7 @@
                             </div>
                             <div class="bottom-area">
                                 <h4 class="tit">필수 위탁 고지</h4>
-                                <p class="desc">LG전자는 개인정보 취급업무 중 서비스 제공에 필요한 필수적 업무를 아래와 같이 외부 전문업체에 위탁하여 운영하고 있으며,
-                                    해당 업체는 서비스 이행을 위한 목적으로만 사용됩니다.</p>
+                                <p class="desc">LG전자는 개인정보 취급업무 중 서비스 제공에 필요한 필수적 업무를 아래와 같이 외부 전문업체에 위탁하여 운영하고 있으며, 해당 업체는 서비스 이행을 위한 목적으로만 사용됩니다.</p>
                                 <div class="tb_row tb-row-bl white size-s">
                                     <table>
                                         <caption>필수 위탁 고지 표</caption>
@@ -423,8 +421,7 @@
                 </div>
                 <div class="foot-area">
                     <div class="btn-area active"><!-- active 클래스 추가 -->
-                        <a href="/bestshop/pages/reservation/BSF-RES-VISIT-DONE.jsp" class="btn btn-res">상담 예약하기</a>
-                        <!-- <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담 예약하기</button> -->
+                        <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담 예약하기</button>
                     </div>
                 </div>
             </div>

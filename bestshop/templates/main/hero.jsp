@@ -11,8 +11,30 @@
                   <a href="javascript:void(0);">바로가기</a>
               </div>
           </div>
-          <video autoplay="" playsinline="" muted="" poster="./images/@img-main-hero-pc.jpg" class="videoPoster" loop>
-              <source src="./images/pc_movie01.mp4" type="video/mp4">
+          <video class="pcOnly" autoplay="" playsinline="" muted="" poster="./images/@img-main-hero-pc.jpg" class="videoPoster" loop> <!-- pc only -->
+              <source src="./images/main_carousel_video_01.mp4" type="video/mp4">
+              <p>LG전자 회사소개 동영상</p>
+          </video>
+          <video class="mobileOnly" autoplay="" playsinline="" muted="" poster="./images/@img-main-hero-pc.jpg" class="videoPoster" loop> <!-- mobile only -->
+              <source src="./images/main_carousel_video_01.mp4" type="video/mp4">
+              <p>LG전자 회사소개 동영상</p>
+          </video>
+      </div><!-- //.swiper-slide -->
+      <div class="content-wrap video swiper-slide">
+          <div class="hero-tit center bottom"><!-- pc : left / center / right --> <!-- mobile : top / bottom -->
+              <div class="hero-tit-detail">
+                  <em>Bestshop에서만 만날 수 있는 특별한 기회! </em>
+                  <strong>당신의 생활공간을 잘 아는 <br>LG 베스트샵 맞춤컨설팅</strong>
+                  <p><span>자세히 보기</span></p>
+                  <a href="javascript:void(0);">바로가기</a>
+              </div>
+          </div>
+          <video class="pcOnly" playsinline="" muted="" poster="./images/@img-main-hero-pc.jpg" class="videoPoster" loop> <!-- pc only -->
+              <source src="./images/main_carousel_video_02.mp4" type="video/mp4">
+              <p>LG전자 회사소개 동영상</p>
+          </video>
+          <video class="mobileOnly" playsinline="" muted="" poster="./images/@img-main-hero-pc.jpg" class="videoPoster" loop> <!-- mobile only -->
+              <source src="./images/main_carousel_video_02.mp4" type="video/mp4">
               <p>LG전자 회사소개 동영상</p>
           </video>
       </div><!-- //.swiper-slide -->

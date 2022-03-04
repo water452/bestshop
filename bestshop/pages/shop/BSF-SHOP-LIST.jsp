@@ -243,6 +243,9 @@
                                     <a href="javascript:void(0);" class="active">상담 예약</a>
                                 </p>
                             </li>
+                            <li class="nullList">
+                                <p>검색 결과가 없습니다.</p>
+                            </li>
                         </ul>
                         <!-- 검색 결과 없는경우 -->
                         <div class="no-data" style="display: none;">

@@ -155,9 +155,9 @@
                 </ul>
             </div>
             <!-- 제품찾기 목록 영역 -->
+
             <section class="cont-area">
                 <div class="main-area">
-                    
                     <!-- 제품 목록 전체 -->
                     <div class="plp-list-wrap">
                         <!-- active 클래스 추가 -->
@@ -422,14 +422,12 @@
             <section class="cont-area">
                 <p class="step-top-note"><sup>*</sup>필수입력항목</p>
                 <!-- step 1 -->
-                <div class="step-area step01">
-
-                    <div class="result-area active">
-                        <!-- active 클래스 추가 -->
+                <div class="step-area step01 border"><!-- border 활성화시 border-color 진하게 -->
+                    <div class="result-area">
                         <div class="info-step01">
-                            <div class="info-txt-com active">
-                                <!-- active 클래스 추가 -->
-                                <a href="#">
+                            <!-- s: 요약정보 -->
+                            <div class="info-txt-com"><!-- 노출여부 : active -->
+                                <a href="javascript:void(0);">
                                     <span class="mo-tit">상담목적 및 제품선택</span>
                                     <span class="pc-tit">상담 목적 :</span>
                                     <span class="txt">기타</span>
@@ -437,18 +435,20 @@
                                     <span class="txt">LG 올레드 evo 오브제컬렉션 (65ART90EKPB), LG 디오스 얼음정수기냉장고 오브제컬렉션</span>
                                 </a>
                             </div>
+                            <!-- e: 요약정보 -->
                         </div>
                     </div>
 
-                    <div class="main-area active">
-                        <!-- active 클래스 추가 -->
-
-                        <form action="#">
+                    <div class="main-area active"><!-- active 클래스 추가 -->
+                        <form action="">
                             <h3 class="step-tit">상담목적<sup>*</sup></h3>
                             <jsp:include page="../../templates/reservation/input-icon-type.jsp" /> <!-- //input-icon-type.jsp -->
 
                             <h3 class="step-tit">선택 제품<sup>*</sup><span>(최대 3개 선택가능)</span></h3>
                             <jsp:include page="../../templates/reservation/input-myselect.jsp" /> <!-- //input-myselect.jsp -->
+
+                            <h3 class="step-tit">구매 희망 시기<sup>*</sup></h3>
+                            <jsp:include page="../../templates/reservation/input-base-type.jsp" /> <!-- //input-base-type.jsp -->
 
                             <h3 class="step-tit">추가 전달사항</span></h3>
                             <div class="text-area">
@@ -458,11 +458,10 @@
                                 <p class="txt-count"><span>0</span>/100</p>
                             </div>
                         </form>
-
                     </div>
 
                     <div class="btn-area">
-                        <button type="button" class="btn s01 border-red arr-right">다음으로</button>
+                        <button type="button" data-href="#popup-confirm" class="btn s01 border-red arr-right btnPopOpen">다음으로</button>
                     </div>
 
                 </div>
@@ -470,13 +469,11 @@
 
                 <!-- step 2 -->
                 <div class="step-area step02">
-
-                    <div class="result-area active">
-                        <!-- active 클래스 추가 -->
+                    <div class="result-area">
                         <div class="info-step02">
-                            <div class="info-txt-com active">
-                                <!-- active 클래스 추가 -->
-                                <a href="#">
+                            <!-- s: 요약정보 -->
+                            <div class="info-txt-com"> <!-- 노출여부 : active -->
+                                <a href="javascript:void(0);">
                                     <span class="mo-tit">상담 매장 및 예약일시</span>
                                     <span class="pc-tit">상담 매장 :</span>
                                     <span class="txt">강남본점</span>
@@ -485,51 +482,47 @@
                                     <span class="txt">21년12월15일, 17시</span>
                                 </a>
                             </div>
+                            <!-- e: 요약정보 -->
 
-                            <div class="info-txt-uncom active">
-                                <!-- active 클래스 추가 -->
+                            <!-- s: step count -->
+                            <div class="info-txt-uncom active"> <!-- 노출여부 : active -->
                                 <p class="page-num">STEP02</p>
                                 <p class="txt">상담하실 매장과 일시를 선택해주세요.</p>
                             </div>
+                            <!-- e: step count -->
                         </div>
                     </div>
 
-                    <div class="main-area active">
-                        <!-- active 클래스 추가 -->
-
+                    <div class="main-area"> <!-- 노출여부 : active -->
                         <jsp:include page="../../templates/reservation/map.jsp" /> <!-- //map.jsp -->
-
                     </div>
 
-                    <div class="btn-area bg active">
-                        <!-- active 클래스 추가 -->
+                    <div class="btn-area bg active"><!-- bg 활성화 : active -->
                         <div class="result-txt">
                             <!-- <p>상담하실 매장과 일시를 선택해주세요.</p> -->
                             <p>상담 매장: <span>강남본점</span></p>
                             <p>예약 일시: <span>21년12월15일, 17시</span></p>
                         </div>
-                        <button type="button" class="btn s01 border-red arr-right">다음으로</button>
+                        <button type="button" class="btn s01 border-red arr-right">다음으로</button><!-- 버튼 비활성화 : disabled -->
                     </div>
-
                 </div>
                 <!-- // step 2 -->
 
                 <!-- step 3 -->
-                <div class="step-area step03">
-
-                    <div class="result-area active">
-                        <!-- active 클래스 추가 -->
+                <div class="step-area step03"><!-- active 클래스 추가 -->
+                    <div class="result-area"><!-- active 클래스 추가 -->
                         <div class="info-step03">
-                            <div class="info-txt-uncom active">
-                                <!-- active 클래스 추가 -->
+                            <div class="info-txt-com"><!-- active 클래스 추가 -->
+                                <a href="javascript:void(0);">&nbsp;</a>
+                            </div>
+                            <div class="info-txt-uncom active"><!-- active 클래스 추가 -->
                                 <p class="page-num">STEP03</p>
                                 <p class="txt">예약자 정보를 입력해주세요.</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="main-area active">
-                        <!-- active 클래스 추가 -->
+                    <div class="main-area">
                         <div class="user-info-area">
                             <h3 class="step-tit">예약자 정보</h3>
                             <div class="lt">
@@ -585,19 +578,15 @@
                                             <div class="check-box">
                                                 <input type="checkbox" class="agr-check" id="agr-required">
                                                 <label for="agr-required">
-                                                    <span class="name"><em class="red">(필수)</em>개인정보 수집 및 이용에
-                                                        동의합니다.</span>
+                                                    <span class="name"><em class="red">(필수)</em>개인정보 수집 및 이용에 동의합니다.</span>
                                                 </label>
-                                                <button type="button" class="agr-more active"><span class="blind">약관
-                                                        내용 보기</span></button><!-- active 클래스 추가 -->
-                                                <div class="agr-txt-wrap size-l active">
-                                                    <!-- active 클래스 추가 -->
+                                                <button type="button" class="agr-more active"><span class="blind">약관 내용 보기</span></button><!-- active 클래스 추가 -->
+                                                <div class="agr-txt-wrap size-l active"><!-- active 클래스 추가 -->
                                                     <div class="inner custom-scroll">
                                                         <ul>
                                                             <li>
                                                                 <span>1. 수집하는 개인정보의 항목</span>
-                                                                <p>1) 필수사항 : 이름, 휴대폰번호, 매장 방문 가능일, 구매 희망 제품, 방문 예정
-                                                                    매장, 구매 희망 시기</p>
+                                                                <p>1) 필수사항 : 이름, 휴대폰번호, 매장 방문 가능일, 구매 희망 제품, 방문 예정 매장, 구매 희망 시기</p>
                                                             </li>
                                                             <li>
                                                                 <span>2. 개인정보 이용목적</span>
@@ -629,10 +618,8 @@
                                                 <label for="agr-optional">
                                                     <span class="name"><em>(선택)</em>마케팅 정보활용에 동의합니다.</span>
                                                 </label>
-                                                <button type="button" class="agr-more active"><span class="blind">약관
-                                                        내용 보기</span></button><!-- active 클래스 추가 -->
-                                                <div class="agr-txt-wrap active">
-                                                    <!-- active 클래스 추가 -->
+                                                <button type="button" class="agr-more active"><span class="blind">약관 내용 보기</span></button><!-- active 클래스 추가 -->
+                                                <div class="agr-txt-wrap active"><!-- active 클래스 추가 -->
                                                     <div class="inner custom-scroll">
                                                         <ul>
                                                             <li>
@@ -654,8 +641,7 @@
                             </div>
                             <div class="bottom-area">
                                 <h4 class="tit">필수 위탁 고지</h4>
-                                <p class="desc">LG전자는 개인정보 취급업무 중 서비스 제공에 필요한 필수적 업무를 아래와 같이 외부 전문업체에 위탁하여 운영하고 있으며,
-                                    해당 업체는 서비스 이행을 위한 목적으로만 사용됩니다.</p>
+                                <p class="desc">LG전자는 개인정보 취급업무 중 서비스 제공에 필요한 필수적 업무를 아래와 같이 외부 전문업체에 위탁하여 운영하고 있으며, 해당 업체는 서비스 이행을 위한 목적으로만 사용됩니다.</p>
                                 <div class="tb_row tb-row-bl white size-s">
                                     <table>
                                         <caption>필수 위탁 고지 표</caption>
@@ -688,7 +674,7 @@
                             </div>
                         </div>
                     </div>
-    
+
                 </div>
                 <!-- // step 3 -->
 
@@ -818,7 +804,7 @@
         </div>
         <div class="btn-area m-full-flex">
             <!-- <button type="button" class="btn gray btnPopCancel">취소</button> -->
-            <a href="/bestshop/pages/reservation/BSF-RES-VISIT-DONE.jsp" class="btn">인증하기</a>
+            <a href="BSF-PRO-VISIT-DONE.jsp" class="btn">인증하기</a>
         </div>
         <button type="button" class="btn-pop-close btnPopClose"><span class="blind">닫기</span></button>
     </div>

@@ -743,8 +743,8 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	footer .foot-cont .pc-dropdown-wrap .link-wrap .link-section .depth1.active a:after{transform:rotate(-90deg);}
 	footer .foot-cont .pc-dropdown-wrap .link-wrap .link-section .depth2{display:none;padding:0 16px;margin-top:0;border-top:1px solid #ddd;}
 	footer .foot-cont .pc-dropdown-wrap .link-wrap .link-section .depth2 > ul > li + li{margin-top:0;border-top:1px solid #ddd;}
-	footer .foot-cont .pc-dropdown-wrap .link-wrap .link-section .depth2 > ul > li > a{display:block;font-size:11px;font-weight:500;color:#000;line-height:19px;padding:12px 0;}
-	footer .foot-cont .pc-dropdown-wrap .link-wrap .link-section .depth2 li a[target="_blank"]::after{display:none;}
+	footer .foot-cont .pc-dropdown-wrap .link-wrap .link-section .depth2 > ul > li > a{display:block;font-size:11px;font-weight:500;color:#666;line-height:19px;padding:12px 0;}
+	footer .foot-cont .pc-dropdown-wrap .link-wrap .link-section .depth2 li a[target="_blank"]::after{display:inline-block;width:14px;height:14px;vertical-align:-3px;}
 	footer .foot-cont .pc-dropdown-wrap .link-wrap .link-section .depth3 .depth3-tit{display:block;position:relative;line-height:19px;padding:12px 0;}
 	footer .foot-cont .pc-dropdown-wrap .link-wrap .link-section .depth3 .depth3-tit:before{display:block;content:'';position:absolute;top:calc(50% - 8px);right:2px;width:16px;height:16px;background:url('../images/icons/btn-plus-16.svg') no-repeat 50% 50%;background-size:100%;transition:all 0.3s;}
 	footer .foot-cont .pc-dropdown-wrap .link-wrap .link-section .depth3 .depth3-tit.active:before{transform:rotate(135deg);}

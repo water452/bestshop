@@ -81,7 +81,6 @@
             <div class="detail-block step-area">
                 <h3 class="step-tit">상담하실 매장과 예약 일시 선택<sup>*</sup><span>(아이폰 상담이 가능한 매장만 조회됩니다.)</span></h3>
                 <jsp:include page="../../templates/reservation/map.jsp" /> <!-- map -->
-                <jsp:include page="../../templates/reservation/schedule.jsp" /> <!-- schedule -->
                 <div class="btn-area bg active"><!-- active 클래스 추가 -->
                     <div class="result-txt">
                         <!-- <p>상담하실 매장과 일시를 선택해주세요.</p> -->

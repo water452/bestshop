@@ -15,11 +15,12 @@
             <section class="cont-area">
                 <p class="step-top-note"><sup>*</sup>필수입력항목</p>
                 <!-- step 1 -->
-                <div class="step-area step01 active"><!-- active 클래스 추가 -->
-                    <div class="result-area active"><!-- active 클래스 추가 -->
+                <div class="step-area step01 border"><!-- border 활성화시 border-color 진하게 -->
+                    <div class="result-area">
                         <div class="info-step01">
-                            <div class="info-txt-com active"><!-- active 클래스 추가 -->
-                                <a href="#">
+                            <!-- s: 요약정보 -->
+                            <div class="info-txt-com"><!-- 노출여부 : active -->
+                                <a href="javascript:void(0);">
                                     <span class="pc-tit">제품 :</span>
                                     <span class="txt">TV, 냉장고, 식기세척기, 세탁기, 스타일러, 공기청정기, 에어컨</span>
 
@@ -27,398 +28,16 @@
                                     <span class="txt">3개월 내</span>
                                 </a>
                             </div>
+                            <!-- e: 요약정보 -->
                         </div>
                     </div>
                     <div class="main-area active"><!-- active 클래스 추가 -->
-                        <form action="#">
+                        <form action="">
                             <h3 class="step-tit">제품선택<sup>*</sup><span>(다중선택)</span></h3>
-                                <!-- 제품선택 카테고리형 -->
-                                <ul class="input-cate-type">
-                                    <li>
-                                        <p class="cate-tit"><i class="icon tv-audio"></i>TV/오디오</p>
-                                        <ul class="cate-items">
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="tv" id="tv">
-                                                    <label for="tv">
-                                                        <span class="name">TV</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="projector" id="projector">
-                                                    <label for="projector">
-                                                        <span class="name">프로젝터</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="soundbar" id="soundbar">
-                                                    <label for="soundbar">
-                                                        <span class="name">사운드바</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <p class="cate-tit"><i class="icon pc"></i>PC</p>
-                                        <ul class="cate-items">
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="laptop" id="laptop">
-                                                    <label for="laptop">
-                                                        <span class="name">노트북</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="desktop" id="desktop">
-                                                    <label for="desktop">
-                                                        <span class="name">데스크탑</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="monitor" id="monitor">
-                                                    <label for="monitor">
-                                                        <span class="name">모니터</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <p class="cate-tit"><i class="icon kitchens"></i>주방가전</p>
-                                        <ul class="cate-items">
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="kitchens" id="fridge">
-                                                    <label for="fridge">
-                                                        <span class="name">냉장고</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="dish-washer" id="dish-washer">
-                                                    <label for="dish-washer">
-                                                        <span class="name">식기세척기</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="oven" id="oven">
-                                                    <label for="oven">
-                                                        <span class="name">광파오븐</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="range" id="range">
-                                                    <label for="range">
-                                                        <span class="name">전기레인지</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="etc-kitchens" id="etc-kitchens">
-                                                    <label for="etc-kitchens">
-                                                        <span class="name">기타 주방가전</span>
-                                                    </label>
-                                            </div>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <p class="cate-tit"><i class="icon house"></i>생활가전</p>
-                                        <ul class="cate-items">
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="washing" id="washing">
-                                                    <label for="washing">
-                                                        <span class="name">세탁기/건조기</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="styler" id="styler">
-                                                    <label for="styler">
-                                                        <span class="name">스타일러</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="air-con" id="air-con">
-                                                    <label for="air-con">
-                                                        <span class="name">에어컨</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="vaccum" id="vaccum">
-                                                    <label for="vaccum">
-                                                        <span class="name">청소기</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="air-clean" id="air-clean">
-                                                    <label for="air-clean">
-                                                        <span class="name">공기청정기</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="etc-house" id="etc-house">
-                                                    <label for="etc-house">
-                                                        <span class="name">기타 생활가전</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <p class="cate-tit"><i class="icon mobile"></i>모바일</p>
-                                        <ul class="cate-items">
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="iphone" id="iphone">
-                                                    <label for="iphone">
-                                                        <span class="name">아이폰</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="ipad" id="ipad">
-                                                    <label for="ipad">
-                                                        <span class="name">아이패드</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="watch" id="watch">
-                                                    <label for="watch">
-                                                        <span class="name">애플워치</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <p class="cate-tit"><i class="icon beauty"></i>뷰티</p>
-                                        <ul class="cate-items">
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="pra-l" id="pra-l">
-                                                    <label for="pra-l">
-                                                        <span class="name">프라엘</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="chkrdo-btn">
-                                                    <input type="checkbox" name="medihair" id="medihair">
-                                                    <label for="medihair">
-                                                        <span class="name">메디헤어</span>
-                                                    </label>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                                <!-- // 제품선택 카테고리형 -->
+                            <jsp:include page="../../templates/reservation/input-cate-type.jsp" /> <!-- //input-cate-type.jsp -->
 
-                                <!-- 제품선택 제품군형 -->
-                                <!-- <ul class="input-pdt-type">
-                                    <li>
-                                        <div class="chkrdo-btn icon">
-                                            <input type="checkbox" name="tv" id="tv">
-                                            <label for="tv">
-                                                <i class="icon tv"></i><span class="name">TV</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn icon">
-                                            <input type="checkbox" name="soundbar" id="soundbar">
-                                            <label for="soundbar">
-                                                <i class="icon soundbar"></i><span class="name">사운드바</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn icon">
-                                            <input type="checkbox" name="laptop" id="laptop">
-                                            <label for="laptop">
-                                                <i class="icon laptop"></i><span class="name">노트북</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn icon">
-                                            <input type="checkbox" name="desktop" id="desktop">
-                                            <label for="desktop">
-                                                <i class="icon desktop"></i><span class="name">데스크탑</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn icon">
-                                            <input type="checkbox" name="fridge" id="fridge">
-                                            <label for="fridge">
-                                                <i class="icon fridge"></i><span class="name">냉장고</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn icon">
-                                            <input type="checkbox" name="washing" id="washing">
-                                            <label for="washing">
-                                                <i class="icon washing"></i><span class="name">세탁기/건조기</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn icon">
-                                            <input type="checkbox" name="air-con" id="air-con">
-                                            <label for="air-con">
-                                                <i class="icon air-con"></i><span class="name">에어컨</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn icon">
-                                            <input type="checkbox" name="pra-l" id="pra-l">
-                                            <label for="pra-l">
-                                                <i class="icon pra-l"></i><span class="name">프라엘</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn icon">
-                                            <input type="checkbox" name="vaccum" id="vaccum">
-                                            <label for="vaccum">
-                                                <i class="icon vaccum"></i><span class="name">청소기</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn icon">
-                                            <input type="checkbox" name="styler" id="styler">
-                                            <label for="styler">
-                                                <i class="icon styler"></i><span class="name">스타일러</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn icon">
-                                            <input type="checkbox" name="air-clean" id="air-clean">
-                                            <label for="air-clean">
-                                                <i class="icon air-clean"></i><span class="name">공기청정기</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn icon">
-                                            <input type="checkbox" name="range" id="range">
-                                            <label for="range">
-                                                <i class="icon range"></i><span class="name">전기레인지</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn icon">
-                                            <input type="checkbox" name="ipad" id="ipad">
-                                            <label for="ipad">
-                                                <i class="icon ipad"></i><span class="name">아이패드</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn icon">
-                                            <input type="checkbox" name="projector" id="projector">
-                                            <label for="projector">
-                                                <i class="icon projector"></i><span class="name">프로젝터</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn icon">
-                                            <input type="checkbox" name="medihair" id="medihair">
-                                            <label for="medihair">
-                                                <i class="icon medihair"></i><span class="name">메디헤어</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                </ul> -->
-                                <!-- // 제품선택 제품군형 -->
-
-                                <h3 class="step-tit">구매 희망 시기<sup>*</sup></h3>
-                                <ul class="input-base-type">
-                                    <li>
-                                        <div class="chkrdo-btn">
-                                            <input type="radio" name="period" id="weeks01">
-                                            <label for="weeks01">
-                                                <span class="name">1주 내</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn">
-                                            <input type="radio" name="period" id="weeks02">
-                                            <label for="weeks02">
-                                                <span class="name">2주 내</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn">
-                                            <input type="radio" name="period" id="weeks03">
-                                            <label for="weeks03">
-                                                <span class="name">3주 내</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn">
-                                            <input type="radio" name="period" id="month01">
-                                            <label for="month01">
-                                                <span class="name">1개월 내</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn">
-                                            <input type="radio" name="period" id="month02">
-                                            <label for="month02">
-                                                <span class="name">2개월 내</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="chkrdo-btn">
-                                            <input type="radio" name="period" id="month03">
-                                            <label for="month03">
-                                                <span class="name">3개월 내</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                </ul>
+                            <h3 class="step-tit">구매 희망 시기<sup>*</sup></h3>
+                            <jsp:include page="../../templates/reservation/input-base-type.jsp" /> <!-- //input-base-type.jsp -->
 
                             <h3 class="step-tit">추가 전달사항</span></h3>
                             <div class="text-area">
@@ -429,17 +48,18 @@
                         </form>
                     </div>
                     <div class="btn-area">
-                        <button type="button" class="btn s01 border-red arr-right">다음으로</button>
+                        <button type="button" data-href="#popup-confirm" class="btn s01 border-red arr-right btnPopOpen">다음으로</button>
                     </div>
                 </div>
                 <!-- // step 1 -->
 
                 <!-- step 2 -->
-                <div class="step-area step02 active"><!-- active 클래스 추가 -->
-                    <div class="result-area active"><!-- active 클래스 추가 -->
+                <div class="step-area step02">
+                    <div class="result-area">
                         <div class="info-step02">
-                            <div class="info-txt-com active"><!-- active 클래스 추가 -->
-                                <a href="#">
+                            <!-- s: 요약정보 -->
+                            <div class="info-txt-com"> <!-- 노출여부 : active -->
+                                <a href="javascript:void(0);">
                                     <span class="mo-tit">상담 매장 및 예약일시</span>
                                     <span class="pc-tit">상담 매장 :</span>
                                     <span class="txt">강남본점</span>
@@ -448,519 +68,51 @@
                                     <span class="txt">21년12월15일, 17시</span>
                                 </a>
                             </div>
+                            <!-- e: 요약정보 -->
 
-                            <div class="info-txt-uncom active"><!-- active 클래스 추가 --> 
+                            <!-- s: step count -->
+                            <div class="info-txt-uncom active"> <!-- 노출여부 : active -->
                                 <p class="page-num">STEP02</p>
                                 <p class="txt">상담하실 매장과 일시를 선택해주세요.</p>
                             </div>
+                            <!-- e: step count -->
                         </div>
                     </div>
-                    <div class="main-area active"><!-- active 클래스 추가 -->                 
-                        <div class="shop-date-wrap">
-                            <div class="view-area">
-                                <h3 class="step-tit">상담하실 매장과 예약 일시 선택<sup>*</sup></h3>
-                                <div class="sort-area">
-                                    <button type="button" class="view-map active">지도보기</button><!-- active 클래스 추가 -->
-                                    <button type="button" class="view-list">리스트보기</button>
-                                </div>
-                                <div class="sort-block">
-                                    <!-- 지도보기 영역 -->
-                                    <div class="map-wrap active"><!-- active 클래스 추가 -->
-                                        <ul class="input-select-type">
-                                            <li>
-                                                <div class="slt sltBox border-type" data-txt-change="true">
-                                                    <a href="javascript:void(0);" class="btn-slt">선택</a>
-                                                    <ul>
-                                                        <li><a href="javascript:void(0);">선택</a></li>
-                                                        <li><a href="javascript:void(0);">서울특별시</a></li>
-                                                    </ul>
-                                                    <select title="시/도 선택">
-                                                        <option selected>선택</option>
-                                                        <option>서울특별시</option>
-                                                    </select>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="slt sltBox border-type" data-txt-change="true">
-                                                    <a href="javascript:void(0);" class="btn-slt">선택</a>
-                                                    <ul>
-                                                        <li><a href="javascript:void(0);">선택</a></li>
-                                                        <li><a href="javascript:void(0);">강남구</a></li>
-                                                    </ul>
-                                                    <select title="구 선택">
-                                                        <option selected>선택</option>
-                                                        <option>강남구</option>
-                                                    </select>
-                                                </div>
-                                            </li>
-                                        </ul>
 
-                                        <!-- api 영역 -->
-                                        <div class="api-area">
-                                            <div class="map-list-wrap active">
-                                                <div class="list-inner custom-scroll">
-                                                    <ul class="shop-list">
-                                                        <li>
-                                                            <button type="button" class="btn-shop">강남본점</button>
-                                                        </li>
-                                                        <li>
-                                                            <button type="button" class="btn-shop active">갤러리아 명품관 WEST점</button><!-- active 클래스 추가 -->
-                                                        </li>
-                                                        <li>
-                                                            <button type="button" class="btn-shop">논현역점</button>
-                                                        </li>
-                                                        <li>
-                                                            <button type="button" class="btn-shop">대치본점</button>
-                                                        </li>
-                                                        <li>
-                                                            <button type="button" class="btn-shop">논현역점</button>
-                                                        </li>
-                                                        <li>
-                                                            <button type="button" class="btn-shop">대치본점</button>
-                                                        </li>
-                                                        <li>
-                                                            <button type="button" class="btn-shop">논현역점</button>
-                                                        </li>
-                                                        <li>
-                                                            <button type="button" class="btn-shop">대치본점</button>
-                                                        </li>
-                                                        <li>
-                                                            <button type="button" class="btn-shop">논현역점</button>
-                                                        </li>
-                                                        <li>
-                                                            <button type="button" class="btn-shop">대치본점</button>
-                                                        </li>
-                                                        <li>
-                                                            <button type="button" class="btn-shop">논현역점</button>
-                                                        </li>
-                                                        <li>
-                                                            <button type="button" class="btn-shop">대치본점</button>
-                                                        </li>
-                                                        <li>
-                                                            <button type="button" class="btn-shop">논현역점</button>
-                                                        </li>
-                                                        <li>
-                                                            <button type="button" class="btn-shop">대치본점</button>
-                                                        </li>
-                                                        <li>
-                                                            <button type="button" class="btn-shop">논현역점</button>
-                                                        </li>
-                                                        <li>
-                                                            <button type="button" class="btn-shop">대치본점</button>
-                                                        </li>
-                                                        <li>
-                                                            <button type="button" class="btn-shop">논현역점</button>
-                                                        </li>
-                                                        <li>
-                                                            <button type="button" class="btn-shop">대치본점</button>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <button type="button" class="btn-view"><span class="blind">매장 리스트 보기</span></button>
-                                            </div>
-                                            <div class="btn-area innerMap">
-                                                <a href="javascript:void(0);" class="btn purple gps">가까운 매장찾기</a>
-                                            </div>
-                                        </div>
-                                        <!-- // api 영역 -->
-                                    </div><!-- //.map-wrap -->
-
-                                    <!-- 리스트 보기 영역 -->
-                                    <div class="list-wrap"><!-- active 클래스 추가 -->
-                                        <div class="search-wrap">
-                                            <form action="#">
-                                                <div class="search-box">
-                                                    <input type="text" placeholder="매장명을 검색해주세요." title="매장명을 검색해주세요." required="required">
-                                                    <button type="button" class="btn-clear">검색어 삭제</button>
-                                                    <button type="button" class="btn-search">검색</button>
-                                                </div>
-                                            </form>
-                                        </div>
-                                        <div class="view-wrap">
-                                            <div class="lt custom-scroll">
-                                                <ul class="shop-list">
-                                                    <li><button type="button" class="btn-city">전체<span>530</span></button></li>
-                                                    <li><button type="button" class="btn-city active">서울특별시<span>7</span></button><!-- active 클래스 추가 --></li>
-                                                    <li><button type="button" class="btn-city">부산광역시<span>38</span></button></li>
-                                                    <li><button type="button" class="btn-city">대구광역시<span>32</span></button></li>
-                                                    <li><button type="button" class="btn-city">인천광역시<span>56</span></button></li>
-                                                    <li><button type="button" class="btn-city">광주광역시<span>72</span></button></li>
-                                                    <li><button type="button" class="btn-city">대전광역시<span>65</span></button></li>
-                                                    <li><button type="button" class="btn-city">울산광역시<span>79</span></button></li>
-                                                    <li><button type="button" class="btn-city">세종특별자치시청<span>5</span></button></li>
-                                                    <li><button type="button" class="btn-city">부산광역시<span>38</span></button></li>
-                                                    <li><button type="button" class="btn-city">대구광역시<span>32</span></button></li>
-                                                    <li><button type="button" class="btn-city">인천광역시<span>56</span></button></li>
-                                                    <li><button type="button" class="btn-city">광주광역시<span>72</span></button></li>
-                                                    <li><button type="button" class="btn-city">대전광역시<span>65</span></button></li>
-                                                    <li><button type="button" class="btn-city">울산광역시<span>79</span></button></li>
-                                                    <li><button type="button" class="btn-city">세종특별자치시청<span>5</span></button></li>
-                                                </ul>
-                                            </div>
-                                            <div class="mo-select">
-                                                <div class="slt sltBox border-type" data-txt-change="true">
-                                                    <a href="javascript:void(0);" class="btn-slt">선택</a>
-                                                    <ul>
-                                                        <li><a href="javascript:void(0);">선택</a></li>
-                                                        <li><a href="javascript:void(0);">서울특별시</a></li>
-                                                    </ul>
-                                                    <select title="시/도 선택">
-                                                        <option selected>선택</option>
-                                                        <option>서울특별시</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div class="rt custom-scroll">
-                                                <ul class="detail-list">
-                                                    <li>
-                                                        <a href="#" class="shop-box">
-                                                            <div class="name-area">
-                                                                <p class="shop-name">강남본점</p>
-                                                                <ul class="key-words">
-                                                                    <li class="new">NEW</li>
-                                                                    <li>화상상담</li>
-                                                                    <li>아이폰</li>
-                                                                    <li>LX지인</li>
-                                                                    <li>야간무인</li>
-                                                                </ul>
-                                                            </div>
-                                                            <p class="info-txt">
-                                                                서울특별시 강남구 도산대로 403 (청담동 86-1)
-                                                            </p>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" class="shop-box">
-                                                            <div class="name-area">
-                                                                <p class="shop-name">강남본점</p>
-                                                                <ul class="key-words">
-                                                                    <li class="new">NEW</li>
-                                                                    <li>화상상담</li>
-                                                                    <li>아이폰</li>
-                                                                    <li>LX지인</li>
-                                                                    <li>야간무인</li>
-                                                                </ul>
-                                                            </div>
-                                                            <p class="info-txt">
-                                                                서울특별시 강남구 도산대로 403 (청담동 86-1)
-                                                            </p>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" class="shop-box">
-                                                            <div class="name-area">
-                                                                <p class="shop-name">강남본점</p>
-                                                                <ul class="key-words">
-                                                                    <li class="new">NEW</li>
-                                                                    <li>화상상담</li>
-                                                                    <li>아이폰</li>
-                                                                    <li>LX지인</li>
-                                                                    <li>야간무인</li>
-                                                                </ul>
-                                                            </div>
-                                                            <p class="info-txt">
-                                                                서울특별시 강남구 도산대로 403 (청담동 86-1)
-                                                            </p>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" class="shop-box">
-                                                            <div class="name-area">
-                                                                <p class="shop-name">강남본점</p>
-                                                                <ul class="key-words">
-                                                                    <li class="new">NEW</li>
-                                                                    <li>화상상담</li>
-                                                                    <li>아이폰</li>
-                                                                    <li>LX지인</li>
-                                                                    <li>야간무인</li>
-                                                                </ul>
-                                                            </div>
-                                                            <p class="info-txt">
-                                                                서울특별시 강남구 도산대로 403 (청담동 86-1)
-                                                            </p>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" class="shop-box">
-                                                            <div class="name-area">
-                                                                <p class="shop-name">강남본점</p>
-                                                                <ul class="key-words">
-                                                                    <li class="new">NEW</li>
-                                                                    <li>화상상담</li>
-                                                                    <li>아이폰</li>
-                                                                    <li>LX지인</li>
-                                                                    <li>야간무인</li>
-                                                                </ul>
-                                                            </div>
-                                                            <p class="info-txt">
-                                                                서울특별시 강남구 도산대로 403 (청담동 86-1)
-                                                            </p>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" class="shop-box">
-                                                            <div class="name-area">
-                                                                <p class="shop-name">강남본점</p>
-                                                                <ul class="key-words">
-                                                                    <li class="new">NEW</li>
-                                                                    <li>화상상담</li>
-                                                                    <li>아이폰</li>
-                                                                    <li>LX지인</li>
-                                                                    <li>야간무인</li>
-                                                                </ul>
-                                                            </div>
-                                                            <p class="info-txt">
-                                                                서울특별시 강남구 도산대로 403 (청담동 86-1)
-                                                            </p>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" class="shop-box">
-                                                            <div class="name-area">
-                                                                <p class="shop-name">강남본점</p>
-                                                                <ul class="key-words">
-                                                                    <li class="new">NEW</li>
-                                                                    <li>화상상담</li>
-                                                                    <li>아이폰</li>
-                                                                    <li>LX지인</li>
-                                                                    <li>야간무인</li>
-                                                                </ul>
-                                                            </div>
-                                                            <p class="info-txt">
-                                                                서울특별시 강남구 도산대로 403 (청담동 86-1)
-                                                            </p>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" class="shop-box">
-                                                            <div class="name-area">
-                                                                <p class="shop-name">강남본점</p>
-                                                                <ul class="key-words">
-                                                                    <li class="new">NEW</li>
-                                                                    <li>화상상담</li>
-                                                                    <li>아이폰</li>
-                                                                    <li>LX지인</li>
-                                                                    <li>야간무인</li>
-                                                                </ul>
-                                                            </div>
-                                                            <p class="info-txt">
-                                                                서울특별시 강남구 도산대로 403 (청담동 86-1)
-                                                            </p>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" class="shop-box">
-                                                            <div class="name-area">
-                                                                <p class="shop-name">강남본점</p>
-                                                                <ul class="key-words">
-                                                                    <li class="new">NEW</li>
-                                                                    <li>화상상담</li>
-                                                                    <li>아이폰</li>
-                                                                    <li>LX지인</li>
-                                                                    <li>야간무인</li>
-                                                                </ul>
-                                                            </div>
-                                                            <p class="info-txt">
-                                                                서울특별시 강남구 도산대로 403 (청담동 86-1)
-                                                            </p>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#" class="shop-box">
-                                                            <div class="name-area">
-                                                                <p class="shop-name">강남본점</p>
-                                                                <ul class="key-words">
-                                                                    <li class="new">NEW</li>
-                                                                    <li>화상상담</li>
-                                                                    <li>아이폰</li>
-                                                                    <li>LX지인</li>
-                                                                    <li>야간무인</li>
-                                                                </ul>
-                                                            </div>
-                                                            <p class="info-txt">
-                                                                서울특별시 강남구 도산대로 403 (청담동 86-1)
-                                                            </p>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                                <!-- .no-data -->
-                                                <div class="no-data">
-                                                    <span>검색된 결과가 없습니다.</span>
-                                                </div>
-                                                <!-- // .no-data -->
-                                            </div>
-                                        </div>
-                                    </div><!-- //.list-wrap -->
-                                </div><!-- //.sort-block -->
-                            </div>
-                            <div class="bottom-area">
-                                <div class="shop-info-wrap">
-                                    <div class="box">
-                                        <div class="top-area">
-                                            <p class="shop-name">강남본점</p>
-                                            <ul class="key-words">
-                                                <li>NEW</li>
-                                                <li>화상상담</li>
-                                                <li>아이폰</li>
-                                                <li>LX지인</li>
-                                                <li>야간무인</li>
-                                            </ul>
-                                        </div>
-                                        <div class="info-area">
-                                            <dl>
-                                                <dt>주소</dt>
-                                                <dd>서울 특별시 강남구 도산대로 403 (청담동 86-1)<br>LG전자 베스트샵 강남본점</dd>
-                                            </dl>
-                                            <dl>
-                                                <dt>전화번호</dt>
-                                                <dd>02-3448-5191</dd>
-                                            </dl>
-                                            <dl>
-                                                <dt>영업시간</dt>
-                                                <dd>
-                                                    <ul>
-                                                        <li>
-                                                            <span>평&nbsp;&nbsp;&nbsp;&nbsp;일</span>
-                                                            <span>10:30 - 20:30</span>
-                                                        </li>
-                                                        <li>
-                                                            <span>토요일</span>
-                                                            <span>10:30 - 20:30</span>
-                                                        </li>
-                                                        <li>
-                                                            <span>일요일</span>
-                                                            <span>11:00 - 20:30</span>
-                                                        </li>
-                                                    </ul>
-                                                </dd>
-                                            </dl>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="date-wrap">
-                                    <div class="calendar active">
-                                        <!-- active 클래스 추가(mo) -->
-                                        <div class="mo-top">
-                                            <p class="mo-tit">예약일 선택</p>
-                                            <!-- <p class="mo-tit active">21년 12월 15일</p> --><!-- active 클래스 추가(mo) -->
-                                        </div>
-                                        <div id="calendar" class="cal-cont"></div> <!-- #calendar 로 달력호출 -->
-                                    </div>
-                                    <div class="time active">
-                                        <!-- active 클래스 추가(mo) -->
-                                        <div class="mo-top">
-                                            <p class="mo-tit">예약시간 선택</p>
-                                            <!-- <p class="mo-tit active">17시</p> --><!-- active 클래스 추가(mo) -->
-                                        </div>
-                                        <div class="time-cont">
-                                            <form action="#">
-                                                <ul class="input-time">
-                                                    <li>
-                                                        <div class="radio-btn btn-type2">
-                                                            <input type="radio" id="am11" name="time">
-                                                            <label for="am11">
-                                                                <span class="name">11시</span>
-                                                            </label>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="radio-btn btn-type2">
-                                                            <input type="radio" id="pm12" name="time">
-                                                            <label for="pm12">
-                                                                <span class="name">12시</span>
-                                                            </label>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="radio-btn btn-type2">
-                                                            <input type="radio" id="pm13" name="time">
-                                                            <label for="pm13">
-                                                                <span class="name">13시</span>
-                                                            </label>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="radio-btn btn-type2">
-                                                            <input type="radio" id="pm14" name="time">
-                                                            <label for="pm14">
-                                                                <span class="name">14시</span>
-                                                            </label>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="radio-btn btn-type2">
-                                                            <input type="radio" id="pm15" name="time">
-                                                            <label for="pm15">
-                                                                <span class="name">15시</span>
-                                                            </label>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="radio-btn btn-type2">
-                                                            <input type="radio" id="pm16" name="time">
-                                                            <label for="pm16">
-                                                                <span class="name">16시</span>
-                                                            </label>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="radio-btn btn-type2">
-                                                            <input type="radio" id="pm17" name="time">
-                                                            <label for="pm17">
-                                                                <span class="name">17시</span>
-                                                            </label>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="radio-btn btn-type2">
-                                                            <input type="radio" id="pm18" name="time">
-                                                            <label for="pm18">
-                                                                <span class="name">18시</span>
-                                                            </label>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="radio-btn btn-type2">
-                                                            <input type="radio" id="pm19" name="time">
-                                                            <label for="pm19">
-                                                                <span class="name">19시</span>
-                                                            </label>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="main-area"> <!-- 노출여부 : active -->
+                        <jsp:include page="../../templates/reservation/map.jsp" /> <!-- //map.jsp -->
                     </div>
-                    <div class="btn-area bg active"><!-- active 클래스 추가 -->
+
+                    <div class="btn-area bg active"><!-- bg 활성화 : active -->
                         <div class="result-txt">
                             <!-- <p>상담하실 매장과 일시를 선택해주세요.</p> -->
                             <p>상담 매장: <span>강남본점</span></p>
                             <p>예약 일시: <span>21년12월15일, 17시</span></p>
                         </div>
-                        <button type="button" class="btn s01 border-red arr-right">다음으로</button>
+                        <button type="button" class="btn s01 border-red arr-right">다음으로</button><!-- 버튼 비활성화 : disabled -->
                     </div>
                 </div>
                 <!-- // step 2 -->
 
                 <!-- step 3 -->
-                <div class="step-area step03 active"><!-- active 클래스 추가 -->
-                    <div class="result-area active"><!-- active 클래스 추가 -->
+                <div class="step-area step03"><!-- active 클래스 추가 -->
+                    <div class="result-area"><!-- active 클래스 추가 -->
                         <div class="info-step03">
-                            <div class="info-txt-uncom active"><!-- active 클래스 추가 --> 
+                            <div class="info-txt-com"><!-- active 클래스 추가 -->
+                                <a href="javascript:void(0);">&nbsp;</a>
+                            </div>
+                            <div class="info-txt-uncom active"><!-- active 클래스 추가 -->
                                 <p class="page-num">STEP03</p>
                                 <p class="txt">예약자 정보를 입력해주세요.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="main-area active"><!-- active 클래스 추가 -->
+
+                    <div class="main-area">
                         <div class="user-info-area">
                             <h3 class="step-tit">예약자 정보</h3>
                             <div class="lt">
-                                <form action="#">
+                                <form action="">
                                     <div class="box-gray">
                                         <ul class="input-list-type">
                                             <li>
@@ -970,7 +122,12 @@
                                                     </label>
                                                 </div>
                                                 <div class="txt-box">
-                                                    <input class="base-txt" type="text" id="user-name" placeholder="이름 입력">
+                                                    <div class="input-wrap">
+                                                        <input class="base-txt" type="text" id="user-name" placeholder="이름 입력">
+                                                    </div>
+                                                    <div class="btm-more err-block">
+                                                        <p class="err-msg">이름을 입력해주세요.</p>
+                                                    </div>
                                                 </div>
                                             </li>
                                             <li>
@@ -980,7 +137,12 @@
                                                     </label>
                                                 </div>
                                                 <div class="txt-box">
-                                                    <input class="base-txt" type="number" id="user-number" placeholder="휴대폰 번호 입력">
+                                                    <div class="input-wrap">
+                                                        <input class="base-txt" type="number" id="user-number" placeholder="휴대폰 번호 입력">
+                                                    </div>
+                                                    <div class="btm-more err-block">
+                                                        <p class="err-msg">정확한 휴대폰번호를 입력해주세요.</p>
+                                                    </div>
                                                 </div>
                                             </li>
                                         </ul>
@@ -1015,8 +177,8 @@
                                                             <li>
                                                                 <span>2. 개인정보 이용목적</span>
                                                                 <p>
-                                                                - BEST SHOP 미리미리 페스티벌 경품 응모<br>
-                                                                - 매장 상담 예약 확인 TM
+                                                                    - BEST SHOP 미리미리 페스티벌 경품 응모<br>
+                                                                    - 매장 상담 예약 확인 TM
                                                                 </p>
                                                             </li>
                                                             <li>
@@ -1026,8 +188,8 @@
                                                             <li>
                                                                 <span>2. 개인정보 이용목적</span>
                                                                 <p>
-                                                                - BEST SHOP 미리미리 페스티벌 경품 응모<br>
-                                                                - 매장 상담 예약 확인 TM
+                                                                    - BEST SHOP 미리미리 페스티벌 경품 응모<br>
+                                                                    - 매장 상담 예약 확인 TM
                                                                 </p>
                                                             </li>
                                                         </ul>
@@ -1099,16 +261,13 @@
                 </div>
                 <!-- // step 3 -->
 
-                <div class="btn-area center active"><!-- active 클래스 추가 -->
-                    <!-- <a href="#popup-certification" class="btn btn-res btnPopOpen">상담 예약하기</a> -->
-                    <!-- <button type="button" data-href="#popup-certification" class="btn btn-res btnPopOpen">상담 예약하기</button> -->
-                    <!-- 시연용 -->
-                    <a href="BSF-EVE-WED-RES-DONE.jsp" class="btn btn-res">상담 예약하기</a>
-                    <!-- //시연용 -->
+                <div class="btn-area center m-hidden active"><!-- active 클래스 추가 -->
+                    <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담 예약하기</button>
                 </div>
                 
             </section>
         </div>
+
         <!-- 하단바 -->
         <div class="bottom-fixed-wrap"><!-- active 클래스 추가 -->
             <div class="dimmed"></div>
@@ -1137,10 +296,8 @@
                 </div>
                 <div class="foot-area">
                     <div class="btn-area active"><!-- active 클래스 추가 -->
-                        <!-- <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담 예약하기</button> -->
-                        <!-- 시연용 -->
                         <a href="BSF-EVE-WED-RES-DONE.jsp" class="btn btn-res">상담 예약하기</a>
-                        <!-- //시연용 -->
+                        <!-- <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담 예약하기</button> -->
                     </div>
                 </div>
             </div>
@@ -1202,7 +359,7 @@
         </div>
         <div class="btn-area m-full-flex">
             <!-- <button type="button" class="btn gray btnPopCancel">취소</button> -->
-            <button type="button" class="btn">인증하기</button>
+            <a href="BSF-EVE-WED-RES-DONE.jsp" class="btn">인증하기</a>
         </div>
         <button type="button" class="btn-pop-close btnPopClose"><span class="blind">닫기</span></button>
     </div>
@@ -1311,3 +468,54 @@
 </script>
 
 <jsp:include page="../../templates/common/footer.jsp" />
+<jsp:include page="../../templates/popup/popup-gps-agree.jsp" />
+
+<script>
+    /* 위치정보제공동의 팝업 추가 STEP01 > STEP02 */
+    $('#popup-confirm button').on('click', function(){
+        if(!$(this).hasClass('btnPopCancel')){ // '네' 누를경우
+            $('html').css('overflow', 'visible');
+
+            /* step01 effect */
+            $('#popup-confirm, .dim').fadeOut(200); // 팝업 + dim 처리 히든
+            $('.step01 .main-area, .step01 .btn-area').stop().slideUp(400); // 내용과 버튼영역 히든
+            $('.step01 .info-txt-com').addClass('active'); // 요약정보 노출
+            $('.step01').removeClass('border'); // border 삭제
+
+            /* step02 effect */
+            $('.step02 .main-area, .step02 .btn-area').stop().slideDown(400);
+            $('.step02 .info-txt-uncom').slideUp(400);
+            $('.step02').addClass('border');
+        }
+    });
+
+    /* STEP02 > STEP03 */
+    $('.step02 .btn-area button').on('click', function(){
+        $('.step02 .main-area, .step02 .btn-area').stop().slideUp(400); // 내용과 버튼영역 히든
+        $('.step02 .info-txt-com').addClass('active'); // 요약정보 노출
+        $('.step02').removeClass('border');
+
+        /* step03 effect */
+        $('.step03 .main-area').stop().slideDown(400);
+        $('.step03 .info-txt-uncom').slideUp(400);
+        $('.step03').addClass('border').find('.info-txt-com').addClass('active');
+    });
+
+    /* TOGGLE STEP */
+    $('.info-txt-com a').on('click', function(){
+        var _with = $(this).closest('.step-area').siblings('.step-area');
+
+        _with.removeClass('border').find('.main-area, .btn-area').slideUp(400);
+        $(this).closest('.step-area').toggleClass('border').find('.main-area').slideToggle(400);
+
+        if($('.step02 .btn-area').is(':visible')){ // step02 상태에서 펼칠때
+            $('.step02 .info-txt-com').addClass('active');
+            $('.step02').addClass('middle');
+        }
+
+        if($(this).closest('.step-area').hasClass('middle')){ // 위의 상황이 지나고 다시 펼칠때
+            $('.step02 .btn-area').slideDown(400);
+            $('.step02').removeClass('middle');
+        }
+    });
+</script>
