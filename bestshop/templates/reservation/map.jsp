@@ -116,6 +116,7 @@
                         <div class="search-box">
                             <input type="text" placeholder="매장명을 검색해주세요."
                                 title="매장명을 검색해주세요." required="required">
+                            <button type="button" class="btn-back">뒤로가기</button> <!-- .btn-back 뒤로가기 버튼 추가 -->
                             <button type="button" class="btn-clear">검색어 삭제</button>
                             <button type="button" class="btn-search">검색</button>
                         </div>

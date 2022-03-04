@@ -1,0 +1,7 @@
+<svg id="btn_arrow_right_32" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <rect id="Rectangle" width="16" height="16" fill="none"/>
+  <g id="ic" transform="translate(3.999 4)">
+    <path id="Path" d="M8,0,4,4,0,0" transform="translate(4) rotate(90)" fill="none" stroke="#222" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill-rule="evenodd"/>
+    <path id="패스_3484" data-name="패스 3484" d="M0,4H7.525" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+  </g>
+</svg>

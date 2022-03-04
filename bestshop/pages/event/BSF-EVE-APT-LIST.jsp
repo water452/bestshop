@@ -231,6 +231,7 @@
                 <form action="#none" class="sorting-form">
                     <div class="search-box">
                         <input type="text" placeholder="지역 선택 후 아파트 명을 입력해주세요." title="아파트명 입력" required="required" />
+                        <button type="button" class="btn-back">뒤로가기</button> <!-- .btn-back 뒤로가기 버튼 추가 -->
                         <button type="button" class="btn-clear">검색어 삭제</button>
                         <button type="button" class="btn-search">검색</button>
                         <p class="search-error">검색어를 2자리 이상 입력해주세요.</p>

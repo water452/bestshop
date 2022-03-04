@@ -16,6 +16,7 @@
                     <div class="search-box">
                         <div class="search-select">
                             <input type="text" placeholder="검색어 입력" title="검색어 입력" required="required">
+                            <button type="button" class="btn-back">뒤로가기</button> <!-- .btn-back 뒤로가기 버튼 추가 -->
                             <button type="button" class="btn-clear">검색어 삭제</button>
                             <button type="button" class="btn-search">검색</button>
                         </div>
