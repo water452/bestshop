@@ -399,6 +399,42 @@
     {
       "dep1": "",
       "dep2": "",
+      "dep3": "상담예약 STEP-01",
+      "dep4": "",
+      "worker": "안하은",
+      "startdate": "2021-12-29",
+      "finishdate": "2021-12-30",
+      "status": "완료",
+      "filename": "./pages/reservation/BSF-CARE-CA-RES-STEP01.jsp",
+      "memo": ""
+    },
+    {
+      "dep1": "",
+      "dep2": "",
+      "dep3": "상담예약 STEP-02",
+      "dep4": "",
+      "worker": "안하은",
+      "startdate": "2021-12-29",
+      "finishdate": "2021-12-30",
+      "status": "완료",
+      "filename": "./pages/reservation/BSF-CARE-CA-RES-STEP02.jsp",
+      "memo": ""
+    },
+    {
+      "dep1": "",
+      "dep2": "",
+      "dep3": "상담예약 STEP-03",
+      "dep4": "",
+      "worker": "안하은",
+      "startdate": "2021-12-29",
+      "finishdate": "2021-12-30",
+      "status": "완료",
+      "filename": "./pages/reservation/BSF-CARE-CA-RES-STEP03.jsp",
+      "memo": ""
+    },
+    {
+      "dep1": "",
+      "dep2": "",
       "dep3": "휴대폰인증",
       "dep4": "",
       "worker": "안하은",
