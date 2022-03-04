@@ -498,6 +498,10 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 .calendar .ui-datepicker td{padding:5px 0;}
 .calendar .ui-datepicker th span{display:block;height:32px;font-size:14px;font-weight:500;text-align:center;line-height:32px;}
 
+/* slide video */
+.video-wrap {position:relative; width:100%; height:100%}
+.video-wrap video {position:absolute; width:100%; min-width:100%; height:auto; min-height:100%; top:50%; left:0; transform: translateY(-50%)}
+
 /* slide navi */
 .slide-navi{display:flex;align-items:center;justify-content:center;z-index:2;}
 .slide-navi .slide-navi-detail{position:relative;width:100%;max-width:1480px;font-size:0;text-align:right;padding:0 40px;}
@@ -548,6 +552,11 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 .inblock { display: inline-block; }
 .block { display: block; }
 .tm-ty01 .block:last-child { margin-top: 26px; }
+
+/* popup - toast */
+.popup.toast .pop-wrap { max-width:444px; padding: 17px; background-color: rgba(0,0,0,0.7); border-radius: 80px}
+.popup.toast .pop-wrap .pop-cont { height: auto; min-height: 0; overflow-y: hidden; color: #fff; font-size: 16px; font-weight: bold; line-height: 24px; text-align: center; }
+.popup.toast .btn-pop-close { top:14px; right:21px; background: url("../images/icons/btn-close-24-white.svg") no-repeat center }
 
 /* popup - button */
 .popup .btn { padding-left: 34px; padding-right: 34px; }

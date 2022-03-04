@@ -29,16 +29,28 @@
                         <div class="swiper img-slide">
                             <ul class="swiper-wrapper">
                                 <li class="swiper-slide">
-                                    <img class="m-hidden" src="../../images/img-res-visit-banner-01.png" alt="&nbsp;" /><!-- pc용 -->
-                                    <img class="pc-hidden" src="../../images/img-res-visit-banner-01_mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                                    <div class="img-wrap">
+                                        <img class="m-hidden" src="../../images/img-res-visit-banner-01.png" alt="&nbsp;" /><!-- pc용 -->
+                                        <img class="pc-hidden" src="../../images/img-res-visit-banner-01_mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                                    </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <img class="m-hidden" src="../../images/img-res-visit-banner-02.png" alt="&nbsp;" /><!-- pc용 -->
-                                    <img class="pc-hidden" src="../../images/img-res-visit-banner-02_mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                                    <div class="img-wrap">
+                                        <img class="m-hidden" src="../../images/img-res-visit-banner-02.png" alt="&nbsp;" /><!-- pc용 -->
+                                        <img class="pc-hidden" src="../../images/img-res-visit-banner-02_mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                                    </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <img class="m-hidden" src="../../images/img-res-visit-banner-03.png" alt="&nbsp;" /><!-- pc용 -->
-                                    <img class="pc-hidden" src="../../images/img-res-visit-banner-03_mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                                    <div class="video-wrap">
+                                        <video class="pcOnly" autoplay="" playsinline="" muted="" poster="./images/@img-main-hero-pc.jpg" class="videoPoster" loop> <!-- pc only -->
+                                            <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
+                                            <p>LG전자 회사소개 동영상</p>
+                                        </video>
+                                        <video class="mobileOnly" autoplay="" playsinline="" muted="" poster="./images/@img-main-hero-pc.jpg" class="videoPoster" loop> <!-- mobile only -->
+                                            <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
+                                            <p>LG전자 회사소개 동영상</p>
+                                        </video>
+                                    </div>
                                 </li>
                             </ul>
                             <div class="slide-navi">
@@ -520,9 +532,9 @@
         var imgSwiper = new Swiper(".img-slide", {
             speed : 800,
             slidesPerView: 1,
-            autoplay: {
-                delay:5000
-            },
+            // autoplay: {
+            //     delay:5000
+            // },
             pagination: {
                 el: ".img-slide .slide-navi .pager-fraction",
                 type: "fraction"
