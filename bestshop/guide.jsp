@@ -575,6 +575,18 @@
         <h2>토스트팝업</h2>
         <div class="guide-cont">
             
+            <a href="#popup-sample-toast" class="btn btnPopOpen">토스트팝업</a>
+
+            <div class="popup toast" id="popup-sample-toast">
+                <div class="pop-wrap">
+                    <div class="pop-cont">
+                        <span class="block">동일한 제품이 장바구니에 담겨있습니다.</span>
+                        <span class="block">수량을 확인해주세요</span>
+                    </div>
+                    <button type="button" class="btn-pop-close btnPopClose"><span class="blind">닫기</span></button>
+                </div>
+            </div>
+
         </div>
     </div> 
     <!-- //토스트팝업 -->

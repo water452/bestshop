@@ -113,8 +113,8 @@ ul.input-icon-type > li .icon-btn {width:100%}
 
 /* 제품선택 - 카테고리형 */
 ul.input-cate-type {display:flex; flex-wrap:wrap; justify-content:space-between; margin-top:-12px}
-ul.input-cate-type > li {display:flex; flex-wrap:wrap; justify-content:space-between; align-items:flex-start; width:calc(50% - 6px); margin-top:12px; padding:16px 14px 16px 18px; border-radius:8px; background-color:#fcfcfc}
-ul.input-cate-type .cate-tit {display:flex; align-items:center; font-size:16px; line-height:24px}
+ul.input-cate-type > li {display:flex; flex-wrap:wrap; justify-content:space-between; align-items:flex-start; width:calc(50% - 6px); margin-top:12px; padding:11px 19px 11px 18px; border-radius:8px; background-color:#fcfcfc}
+ul.input-cate-type .cate-tit {display:flex; align-items:center; padding:5px 0; font-size:16px; line-height:24px}
 ul.input-cate-type .cate-tit > .icon {display:block; width:48px; height:48px; margin-right:6px}
 ul.input-cate-type .cate-tit > .icon.tv-audio {background:url(../images/icons/icon-tv.svg) no-repeat center}
 ul.input-cate-type .cate-tit > .icon.pc {background:url(../images/icons/icon-desktop.svg) no-repeat center}
@@ -122,8 +122,8 @@ ul.input-cate-type .cate-tit > .icon.kitchens {background:url(../images/icons/ic
 ul.input-cate-type .cate-tit > .icon.house {background:url(../images/icons/icon-washing-machine.svg) no-repeat center}
 ul.input-cate-type .cate-tit > .icon.mobile {background:url(../images/icons/icon-mobile.svg) no-repeat center}
 ul.input-cate-type .cate-tit > .icon.beauty {background:url(../images/icons/icon-pra_l.svg) no-repeat center}
-ul.input-cate-type .cate-items {display:flex; flex-wrap:wrap; width:calc(100% - 135px); max-width:498px; margin-top:-10px}
-ul.input-cate-type .cate-items > li {width:calc(100% / 3); max-width:156px; min-width:112px; height:48px; margin-top:10px; margin-right:10px}
+ul.input-cate-type .cate-items {display:flex; flex-wrap:wrap; width:calc(100% - 135px); max-width:498px}
+ul.input-cate-type .cate-items > li {width:calc(100% / 3); min-width:156px; padding:5px}
 ul.input-cate-type .cate-items > li .chkrdo-btn {width:100%}
 ul.input-cate-type .cate-items label {width:100%; height:100%; padding:0}
 ul.input-cate-type .cate-items input:checked + label {border:1px solid #da0f47; color:#da0f47}
@@ -841,12 +841,14 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .icon-btn input:checked + label .icon.etc {background:url(../images/icons/icon-etc_mo_on.svg) no-repeat center / contain}    
 
     /* 제품선택 - 카테고리형 */
-    ul.input-cate-type > li {flex-direction:column; align-items:center; width:100%; padding:16px 0}
-    ul.input-cate-type .cate-tit {font-size:13px; line-height:19px}
+    ul.input-cate-type {margin-top:-9px}
+    ul.input-cate-type > li {flex-direction:column; align-items:center; width:100%; margin-top:9px; padding:16px 6.5px 12.5px}
+    ul.input-cate-type .cate-tit {padding:0; font-size:13px; line-height:20px}
     ul.input-cate-type .cate-tit > .icon {display:none}
-    ul.input-cate-type .cate-items {width:100%; max-width:328px; margin-top:3px; margin-right:-7px; padding:0 10px}
-    ul.input-cate-type .cate-items > li {width:calc((100% / 3) - 7px); min-width:0; height:34px; margin-top:7px; margin-right:7px}
+    ul.input-cate-type .cate-items {width:100%; max-width:100%; margin-top:6.5px; padding:0 10px}
+    ul.input-cate-type .cate-items > li {min-width:0; padding:3.5px}
     ul.input-cate-type .cate-items .chkrdo-btn label {min-width:0; padding:6px 0; border:1.5px solid #ddd; font-size:13px; line-height:19px}
+    ul.input-cate-type .cate-items .chkrdo-btn.sm label {font-size:12px}
     ul.input-cate-type .cate-items input:checked + label {border:1.5px solid #da0f47}
 
     /* 제품선택 - 제품군형 */
