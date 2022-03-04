@@ -146,7 +146,6 @@
 
                             <h3 class="step-tit">제품선택<sup>*</sup><span>(다중선택)</span></h3>
                             <jsp:include page="../../templates/reservation/input-pdt-type.jsp" /> <!-- //input-pdt-type.jsp -->
-                            <!-- <jsp:include page="../../templates/reservation/input-cate-type.jsp" />--> <!-- //input-cate-type.jsp -->
 
                             <h3 class="step-tit">구매 희망 시기<sup>*</sup></h3>
                             <jsp:include page="../../templates/reservation/input-base-type.jsp" /> <!-- //input-base-type.jsp -->
@@ -547,7 +546,7 @@
                 imgSwiper.autoplay.stop();
             };
         });
-        
+
         // step 2 지도/리스트 보기 버튼
         for (i = 1; i < 5; i++) {
             (function (i2) {
