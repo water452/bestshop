@@ -87,6 +87,8 @@ dfn { display: block; font-style: normal; }
 .point-container.ty-brief-infor .point-wrap { padding-top: 15px; padding-bottom: 15px; }
 .point-container.ty-brief-infor .point-wrap > * { display: inline-block; vertical-align: middle; }
 .point-container.ty-brief-infor .point-wrap > .txt-st01 + * { margin-left: 16px; }
+.point-container .icon-timedeal { display:inline-block }
+.point-container .icon-timedeal > img { width: 56px; height: 56px }
 
 /* time-deal */
 .time-deal { position: fixed; left: 0; margin: 0; width: 100%; opacity: 0; -webkit-transition: all 0.8s cubic-bezier(0.64, 0, 0.78, 0) 0s; transition: all 0.8s cubic-bezier(0.64, 0, 0.78, 0) 0s; z-index: 4; }
@@ -94,8 +96,7 @@ dfn { display: block; font-style: normal; }
 .time-deal .point-wrap { padding-top: 22px; padding-bottom: 22px; text-align: left; }
 .time-deal .today-close { position: absolute; top: 50%; right: 40px; margin-top: -13px; }
 .txt-time-deal { display: inline-block; vertical-align: top; }
-.txt-time-deal a { display: block; position: relative; padding: 14px 30px 14px 76px; color: #fff; line-height: 28px; font-size: 20px; }
-.txt-time-deal a:before { content: ""; position: absolute; top: 0; left: 0; width: 56px; height: 56px; background: url("../images/icons/icon-timedeal.svg") no-repeat 0 center; background-size: 100% auto; }
+.txt-time-deal a { display: block; position: relative; padding: 14px 30px 14px 20px; color: #fff; line-height: 28px; font-size: 20px; }
 .txt-time-deal a:after { content: ""; position: absolute; bottom: 16px; right: 0; width: 24px; height: 24px; background: url("../images/icons/icon-arrow-timedeal.svg") no-repeat 0 center; background-size: 100% auto; }
 .today-close { line-height: 0; font-size: 0; }
 .today-close > * { vertical-align: top; }
@@ -723,13 +724,13 @@ li[class*="blt"], li > [class*="blt"] { display: block; }
     .point-container.ty-brief-infor .point-wrap { padding: 25px 60px; }
     .point-container.ty-brief-infor .point-wrap > .txt-st01 { display: block; }
     .point-container.ty-brief-infor .point-wrap > .txt-st01 + * { margin: 15px 0 0 0; }
+    .point-container .icon-timedeal { display:block }
 
     /* time-deal */
     .time-deal { z-index: 1001; }
     .time-deal .point-wrap { padding-top: 25px; padding-bottom: 25px; text-align: center; }
     .time-deal .today-close { position: static; margin-top: 20px; }
-    .txt-time-deal a { padding: 48px 24px 0 24px; line-height: 22px; font-size: 16px; }
-    .txt-time-deal a:before { left: 50%; margin-left: -20px; width: 40px; height: 40px; }
+    .txt-time-deal a { padding: 15px 24px 0 24px; line-height: 22px; font-size: 16px; }
     .txt-time-deal a:after { bottom: 0; width: 20px; height: 20px; }
     .today-close > .btn-today-close { position: absolute; top: 11px; right: 11px; margin: 0; }
     .btn-today-close { width: 30px; height: 30px; background-size: 20px auto; }
