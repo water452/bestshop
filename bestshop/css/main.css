@@ -252,6 +252,12 @@
 /* tablet pc + mobile */
 @media screen and (max-width:1024px){
     .hero-slide .content-wrap .hero-tit .hero-tit-detail p{display:none;}
+
+    /* near shop */
+    .store-search{font-size:12px;text-align:left;padding:0 16px;margin-top:0;}
+    .store-search-btn{right:16px;}
+    .store-search-btn > .btn{font-size:11px;}
+    .store-search-btn > .btn img{width:14px;}
 }
 /* mobile */
 @media screen and (max-width:767px){
