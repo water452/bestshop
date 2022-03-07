@@ -488,6 +488,9 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 .tab01.filter {margin-top:52px}
 .tab01.filter .btn-filter {display:none}
 .tab01.is_depth + .cont-area .plp-list-wrap {margin-top:28px}
+.tab-wrap{height:105px;margin-top:52px;}
+.tab-wrap .tab01.filter{margin-top:0;}
+.tab-wrap.fixed .tab01{position:fixed;top:0;left:calc(50% - 690px);width:100%;max-width:1380px;background:#fff;z-index:5;}
 .plp-list-wrap {margin-top:48px}
 .plp-list-wrap::after {content:''; display:block; clear:both}
 .plp-list-wrap .lay-filter {float:left; width:215px; margin-right:25px}
@@ -1111,7 +1114,9 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-main.care-ex .top-wrap .guide-area .guide-bottom dl dd {font-size:12px; line-height:17px}
 
     .tab01.filter {margin-top:22px}
+    .tab-wrap.fixed .tab01{left:0;}
     .tab01.filter .btn-filter {left:16px; top:11.5px}
+    .tab-wrap.fixed .tab01.filter .btn-filter{position:fixed;}
     .tab01.filter.is_depth .btn-filter {top:57px}
     .tab01.is_depth + .cont-area .plp-list-wrap {margin-top:16px}
     .plp-list-wrap {margin-top:40px}

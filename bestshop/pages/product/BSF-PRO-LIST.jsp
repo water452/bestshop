@@ -46,113 +46,115 @@
             </div>
 
             <!-- tab -->
-            <div class="tab01 tabOn tabSlide filter">
-                <div class="btn-filter">
-                    <a href="#"><span class="blind">옵션필터</span></a>
+            <div class="tab-wrap">
+                <div class="tab01 tabOn tabSlide filter">
+                    <div class="btn-filter">
+                        <a href="#"><span class="blind">옵션필터</span></a>
+                    </div>
+                    <ul>
+                        <li class="on">
+                            <a href="javascript:void(0);">TV/AV</a>
+                            <div class="tab02 tabOn tabSlide">
+                                <ul>
+                                    <li class="on"><a href="javascript:void(0);">TV</a></li>
+                                    <li><a href="javascript:void(0);">프로젝터</a></li>
+                                    <li><a href="javascript:void(0);">AV</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">IT</a>
+                            <div class="tab02 tabOn tabSlide">
+                                <ul>
+                                    <li class="on"><a href="javascript:void(0);">노트북</a></li>
+                                    <li><a href="javascript:void(0);">일체형/데스크톱</a></li>
+                                    <li><a href="javascript:void(0);">모니터</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">주방가전</a>
+                            <div class="tab02 tabOn tabSlide">
+                                <ul>
+                                    <li class="on"><a href="javascript:void(0);">냉장고</a></li>
+                                    <li><a href="javascript:void(0);">김치냉장고</a></li>
+                                    <li><a href="javascript:void(0);">광파오븐/전자레인지</a></li>
+                                    <li><a href="javascript:void(0);">전기레인지</a></li>
+                                    <li><a href="javascript:void(0);">식기세척기</a></li>
+                                    <li><a href="javascript:void(0);">정수기</a></li>
+                                    <li><a href="javascript:void(0);">맥주제조기</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">생활가전</a>
+                            <div class="tab02 tabOn tabSlide">
+                                <ul>
+                                    <li class="on"><a href="javascript:void(0);">워시타워</a></li>
+                                    <li><a href="javascript:void(0);">세탁기</a></li>
+                                    <li><a href="javascript:void(0);">건조기</a></li>
+                                    <li><a href="javascript:void(0);">스타일러</a></li>
+                                    <li><a href="javascript:void(0);">청소기</a></li>
+                                    <li><a href="javascript:void(0);">안마의자</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">에어컨/에어케어</a>
+                            <div class="tab02 tabOn tabSlide">
+                                <ul>
+                                    <li class="on"><a href="javascript:void(0);">에어컨</a></li>
+                                    <li><a href="javascript:void(0);">공기청정기</a></li>
+                                    <li><a href="javascript:void(0);">제습/가습기</a></li>
+                                    <li><a href="javascript:void(0);">실링팬</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">뷰티/의료기기</a>
+                            <div class="tab02 tabOn tabSlide">
+                                <ul>
+                                    <li class="on"><a href="javascript:void(0);">뷰티 디바이스</a></li>
+                                    <li><a href="javascript:void(0);">의료기기</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">LG SIGNATURE</a>
+                            <div class="tab02 tabOn tabSlide">
+                                <ul>
+                                    <li class="on"><a href="javascript:void(0);">올레드 TV</a></li>
+                                    <li><a href="javascript:void(0);">냉장고</a></li>
+                                    <li><a href="javascript:void(0);">세탁기</a></li>
+                                    <li><a href="javascript:void(0);">에어컨</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">LG Objet Collection</a>
+                            <div class="tab02 tabOn tabSlide">
+                                <ul>
+                                    <li class="on"><a href="javascript:void(0);">TV</a></li>
+                                    <li><a href="javascript:void(0);">냉장고</a></li>
+                                    <li><a href="javascript:void(0);">컨버터블 패키지</a></li>
+                                    <li><a href="javascript:void(0);">김치냉장고</a></li>
+                                    <li><a href="javascript:void(0);">식기세척기</a></li>
+                                    <li><a href="javascript:void(0);">광파오븐</a></li>
+                                    <li><a href="javascript:void(0);">정수기</a></li>
+                                    <li><a href="javascript:void(0);">워시타워</a></li>
+                                    <li><a href="javascript:void(0);">세탁기</a></li>
+                                    <li><a href="javascript:void(0);">의류건조기</a></li>
+                                    <li><a href="javascript:void(0);">스타일러</a></li>
+                                    <li><a href="javascript:void(0);">청소기</a></li>
+                                    <li><a href="javascript:void(0);">식물생활가전</a></li>
+                                    <li><a href="javascript:void(0);">에어컨</a></li>
+                                    <li><a href="javascript:void(0);">공기청정기</a></li>
+                                    <li><a href="javascript:void(0);">공기청정팬</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                <ul>
-                    <li class="on">
-                        <a href="javascript:void(0);">TV/AV</a>
-                        <div class="tab02 tabOn tabSlide">
-                            <ul>
-                                <li class="on"><a href="javascript:void(0);">TV</a></li>
-                                <li><a href="javascript:void(0);">프로젝터</a></li>
-                                <li><a href="javascript:void(0);">AV</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0);">IT</a>
-                        <div class="tab02 tabOn tabSlide">
-                            <ul>
-                                <li class="on"><a href="javascript:void(0);">노트북</a></li>
-                                <li><a href="javascript:void(0);">일체형/데스크톱</a></li>
-                                <li><a href="javascript:void(0);">모니터</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0);">주방가전</a>
-                        <div class="tab02 tabOn tabSlide">
-                            <ul>
-                                <li class="on"><a href="javascript:void(0);">냉장고</a></li>
-                                <li><a href="javascript:void(0);">김치냉장고</a></li>
-                                <li><a href="javascript:void(0);">광파오븐/전자레인지</a></li>
-                                <li><a href="javascript:void(0);">전기레인지</a></li>
-                                <li><a href="javascript:void(0);">식기세척기</a></li>
-                                <li><a href="javascript:void(0);">정수기</a></li>
-                                <li><a href="javascript:void(0);">맥주제조기</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0);">생활가전</a>
-                        <div class="tab02 tabOn tabSlide">
-                            <ul>
-                                <li class="on"><a href="javascript:void(0);">워시타워</a></li>
-                                <li><a href="javascript:void(0);">세탁기</a></li>
-                                <li><a href="javascript:void(0);">건조기</a></li>
-                                <li><a href="javascript:void(0);">스타일러</a></li>
-                                <li><a href="javascript:void(0);">청소기</a></li>
-                                <li><a href="javascript:void(0);">안마의자</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0);">에어컨/에어케어</a>
-                        <div class="tab02 tabOn tabSlide">
-                            <ul>
-                                <li class="on"><a href="javascript:void(0);">에어컨</a></li>
-                                <li><a href="javascript:void(0);">공기청정기</a></li>
-                                <li><a href="javascript:void(0);">제습/가습기</a></li>
-                                <li><a href="javascript:void(0);">실링팬</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0);">뷰티/의료기기</a>
-                        <div class="tab02 tabOn tabSlide">
-                            <ul>
-                                <li class="on"><a href="javascript:void(0);">뷰티 디바이스</a></li>
-                                <li><a href="javascript:void(0);">의료기기</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0);">LG SIGNATURE</a>
-                        <div class="tab02 tabOn tabSlide">
-                            <ul>
-                                <li class="on"><a href="javascript:void(0);">올레드 TV</a></li>
-                                <li><a href="javascript:void(0);">냉장고</a></li>
-                                <li><a href="javascript:void(0);">세탁기</a></li>
-                                <li><a href="javascript:void(0);">에어컨</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0);">LG Objet Collection</a>
-                        <div class="tab02 tabOn tabSlide">
-                            <ul>
-                                <li class="on"><a href="javascript:void(0);">TV</a></li>
-                                <li><a href="javascript:void(0);">냉장고</a></li>
-                                <li><a href="javascript:void(0);">컨버터블 패키지</a></li>
-                                <li><a href="javascript:void(0);">김치냉장고</a></li>
-                                <li><a href="javascript:void(0);">식기세척기</a></li>
-                                <li><a href="javascript:void(0);">광파오븐</a></li>
-                                <li><a href="javascript:void(0);">정수기</a></li>
-                                <li><a href="javascript:void(0);">워시타워</a></li>
-                                <li><a href="javascript:void(0);">세탁기</a></li>
-                                <li><a href="javascript:void(0);">의류건조기</a></li>
-                                <li><a href="javascript:void(0);">스타일러</a></li>
-                                <li><a href="javascript:void(0);">청소기</a></li>
-                                <li><a href="javascript:void(0);">식물생활가전</a></li>
-                                <li><a href="javascript:void(0);">에어컨</a></li>
-                                <li><a href="javascript:void(0);">공기청정기</a></li>
-                                <li><a href="javascript:void(0);">공기청정팬</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
             </div>
             <!-- 제품찾기 목록 영역 -->
 
@@ -970,5 +972,24 @@
             $('.step02 .btn-area').slideDown(400);
             $('.step02').removeClass('middle');
         }
+    });
+
+    /* sticky 처리 */
+    $(function(){
+        var _stickyBar = $('.tab-wrap').offset().top;
+
+        $(window).scroll(function(){
+            var scrollTop = $(this).scrollTop();
+
+            if(scrollTop > _stickyBar){
+                $('.tab-wrap').addClass('fixed');
+            } else {
+                $('.tab-wrap').removeClass('fixed');
+            }
+        });
+
+        $(window).resize(function(){
+            var _stickyBar = $('.tab-wrap').offset().top;
+        })
     });
 </script>
