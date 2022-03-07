@@ -7,6 +7,7 @@
               <div class="hero-tit-detail">
                   <em>Bestshop에서만 만날 수 있는 특별한 기회! </em>
                   <strong>당신의 생활공간을 잘 아는 <br>LG 베스트샵 맞춤컨설팅</strong>
+                  <span>행사기간 22.02.12~행사 종료 시까지</span>
                   <p><span>자세히 보기</span></p>
                   <a href="javascript:void(0);">바로가기</a>
               </div>
@@ -25,6 +26,7 @@
               <div class="hero-tit-detail">
                   <em>Bestshop에서만 만날 수 있는 특별한 기회! </em>
                   <strong>당신의 생활공간을 잘 아는 <br>LG 베스트샵 맞춤컨설팅</strong>
+                  <span>행사기간 22.02.12~행사 종료 시까지</span>
                   <p><span>자세히 보기</span></p>
                   <a href="javascript:void(0);">바로가기</a>
               </div>
@@ -43,18 +45,19 @@
             <div class="hero-tit-detail">
                 <em>상담 예약하고 매장 방문하면 경품이 쏟아진다!</em>
                 <strong>LG전자 베스트샵<br>매장 상담 예약 이벤트</strong>
+                <span>행사기간 22.02.12~행사 종료 시까지</span>
                 <p> <!-- default(class 없음) : 자세히 보기 / btn-view : 자세히 보기 / btn-video-view : 영상보기 -->
                     <span class="btn-view">자세히 보기</span>
-                    <span class="btn-video-view">영상보기</span>
+                    <button type="button" class="btn-video-view">영상보기</button>
                 </p>
                 <a href="pages/event/BSF-PAGE-LIVE.jsp">바로가기</a>
             </div>
         </div>
-        <video class="pcOnly" autoplay="" playsinline="" muted="" poster="./images/@img-main-hero-pc.jpg" class="videoPoster" loop> <!-- pc only -->
+        <video class="pcOnly" playsinline="" muted="" poster="./images/@img-main-hero-pc.jpg" class="videoPoster" loop> <!-- pc only -->
             <source src="./images/main_carousel_video_01.mp4" type="video/mp4">
             <p>LG전자 회사소개 동영상</p>
         </video>
-        <video class="mobileOnly" autoplay="" playsinline="" muted="" poster="./images/@img-main-hero-pc.jpg" class="videoPoster" loop> <!-- mobile only -->
+        <video class="mobileOnly" playsinline="" muted="" poster="./images/@img-main-hero-pc.jpg" class="videoPoster" loop> <!-- mobile only -->
             <source src="./images/main_carousel_video_01.mp4" type="video/mp4">
             <p>LG전자 회사소개 동영상</p>
         </video>
@@ -64,6 +67,7 @@
               <div class="hero-tit-detail">
                   <em>상담 예약하고 매장 방문하면 경품이 쏟아진다!</em>
                   <strong>LG전자 베스트샵<br>매장 상담 예약 이벤트</strong>
+                  <span>행사기간 22.02.12~행사 종료 시까지</span>
                   <p><span>자세히 보기</span></p>
                   <a href="pages/event/BSF-PAGE-LIVE.jsp">바로가기</a>
               </div>
@@ -74,6 +78,7 @@
               <div class="hero-tit-detail">
                   <em>입주 아파트별 행사 매장을 안내해드립니다.</em>
                   <strong>LG전자 BEST SHOP<br>아파트 입주 이벤트</strong>
+                  <span>행사기간 22.02.12~행사 종료 시까지</span>
                   <p><span>자세히 보기</span></p>
                   <a href="javascript:void(0);">바로가기</a>
               </div>
@@ -112,6 +117,7 @@
               prevEl: ".hero-slide .slide-navi .slideBtn.btn-prev"
           }
       });
+      var _winW = $(window).width();
 
       // autoplay control
       $('.hero-slide .swiper-auto > button').on('click', function(){
@@ -122,6 +128,15 @@
           } else {
               heroSlide.autoplay.stop();
           }
+      });
+
+      // video control
+      $('.btn-video-view').on('click', function(){
+        if(_winW < 1025){
+            $(this).hide().closest('.content-wrap').find('video.mobileOnly').get(0).play();
+        } else {
+            $(this).hide().closest('.content-wrap').find('video.pcOnly').get(0).play();
+        }
       });
   });
 </script>
