@@ -44,7 +44,7 @@
                         </div>
                     </li>
                     <li>
-                        <a href="BSF-EVE-MEDIA-LIST-LIVE.jsp">라이브방송</a>
+                        <a href="javascript:void(0);" class="etc-type">라이브방송</a>
                     </li>
                 </ul>
             </div>
@@ -186,6 +186,112 @@
                         </section>
                     </div>
                 </div>
+            </div>
+            <div class="story-video etc-type">
+                <!-- live-list -->
+                <div class="live-list">
+                    <div class="total-list-area">
+                        <p class="txt-total-list"><strong>총 6개</strong></p>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <div class="thum">
+                                    <dl class="play-time"><dt class="blind">재생시간</dt><dd>01:30</dd></dl>
+                                    <img src="../../images/temp-live-list.png" alt="&nbsp;" />
+                                </div>
+                                <div class="infor"><strong class="tit">[더현대 서울] 1주년 기념 매장 소개 Live! 1주년 기념 매장 소개 Live! 기념 매장 소개 Live!</strong></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <div class="thum">
+                                    <dl class="play-time"><dt class="blind">재생시간</dt><dd>01:30</dd></dl>
+                                    <img src="../../images/temp-live-list.png" alt="&nbsp;" />
+                                </div>
+                                <div class="infor"><strong class="tit">[더현대 서울] 1주년 기념 매장 소개 Live! 1주년 기념 매장 소개 Live! 기념 매장 소개 Live!</strong></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <div class="thum">
+                                    <dl class="play-time"><dt class="blind">재생시간</dt><dd>01:30</dd></dl>
+                                    <img src="../../images/temp-live-list.png" alt="&nbsp;" />
+                                </div>
+                                <div class="infor"><strong class="tit">[더현대 서울] 1주년 기념 매장 소개 Live! 1주년 기념 매장 소개 Live! 기념 매장 소개 Live!</strong></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <div class="thum">
+                                    <dl class="play-time"><dt class="blind">재생시간</dt><dd>01:30</dd></dl>
+                                    <img src="../../images/temp-live-list.png" alt="&nbsp;" />
+                                </div>
+                                <div class="infor"><strong class="tit">[더현대 서울] 1주년 기념 매장 소개 Live! 1주년 기념 매장 소개 Live! 기념 매장 소개 Live!</strong></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <div class="thum">
+                                    <dl class="play-time"><dt class="blind">재생시간</dt><dd>01:30</dd></dl>
+                                    <img src="../../images/temp-live-list.png" alt="&nbsp;" />
+                                </div>
+                                <div class="infor"><strong class="tit">[더현대 서울] 1주년 기념 매장 소개 Live! 1주년 기념 매장 소개 Live! 기념 매장 소개 Live!</strong></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <div class="thum">
+                                    <dl class="play-time"><dt class="blind">재생시간</dt><dd>01:30</dd></dl>
+                                    <img src="../../images/temp-live-list.png" alt="&nbsp;" />
+                                </div>
+                                <div class="infor"><strong class="tit">[더현대 서울] 1주년 기념 매장 소개 Live! 1주년 기념 매장 소개 Live! 기념 매장 소개 Live!</strong></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <div class="thum">
+                                    <dl class="play-time"><dt class="blind">재생시간</dt><dd>01:30</dd></dl>
+                                    <img src="../../images/temp-live-list.png" alt="&nbsp;" />
+                                </div>
+                                <div class="infor"><strong class="tit">[더현대 서울] 1주년 기념 매장 소개 Live! 1주년 기념 매장 소개 Live! 기념 매장 소개 Live!</strong></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <div class="thum">
+                                    <dl class="play-time"><dt class="blind">재생시간</dt><dd>01:30</dd></dl>
+                                    <img src="../../images/temp-live-list.png" alt="&nbsp;" />
+                                </div>
+                                <div class="infor"><strong class="tit">[더현대 서울] 1주년 기념 매장 소개 Live! 1주년 기념 매장 소개 Live! 기념 매장 소개 Live!</strong></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <div class="thum">
+                                    <dl class="play-time"><dt class="blind">재생시간</dt><dd>01:30</dd></dl>
+                                    <img src="../../images/temp-live-list.png" alt="&nbsp;" />
+                                </div>
+                                <div class="infor"><strong class="tit">[더현대 서울] 1주년 기념 매장 소개 Live! 1주년 기념 매장 소개 Live! 기념 매장 소개 Live!</strong></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <div class="thum">
+                                    <dl class="play-time"><dt class="blind">재생시간</dt><dd>01:30</dd></dl>
+                                    <img src="../../images/temp-live-list.png" alt="&nbsp;" />
+                                </div>
+                                <div class="infor"><strong class="tit">[더현대 서울] 1주년 기념 매장 소개 Live! 1주년 기념 매장 소개 Live! 기념 매장 소개 Live!</strong></div>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- 더보기 -->
+                    <div class="btn-area center">
+                        <a href="javascript:void(0);" class="btn border s02 more"><span>더보기</span></a>
+                    </div>
+                    <!-- //더보기 -->
+                </div>
+                <!-- //live-list -->
             </div>
         </div>
     </div>
