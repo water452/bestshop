@@ -159,6 +159,8 @@ function tabCommon(){
                 $('div.etc-type').removeClass('active').siblings('.story-video').show();
             }
         }
+
+        $('.slt ul li:first-child a').click(); // 셀렉트 박스 초기화
     };
     $(document).on("click", ".tabOn > ul > li > a", tabOn);
 
