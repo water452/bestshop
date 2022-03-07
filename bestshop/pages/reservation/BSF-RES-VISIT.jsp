@@ -42,11 +42,12 @@
                                 </li>
                                 <li class="swiper-slide">
                                     <div class="video-wrap">
-                                        <video class="pcOnly" autoplay="" playsinline="" muted="" poster="./images/@img-main-hero-pc.jpg" class="videoPoster" loop> <!-- pc only -->
+                                        <button type="button" class="btn-video-view">영상보기</button>
+                                        <video class="pcOnly" playsinline="" muted="" poster="../../images/@img-main-hero-pc.jpg" class="videoPoster" loop> <!-- pc only -->
                                             <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
                                             <p>LG전자 회사소개 동영상</p>
                                         </video>
-                                        <video class="mobileOnly" autoplay="" playsinline="" muted="" poster="./images/@img-main-hero-pc.jpg" class="videoPoster" loop> <!-- mobile only -->
+                                        <video class="mobileOnly" playsinline="" muted="" poster="../../images/@img-main-hero-pc.jpg" class="videoPoster" loop> <!-- mobile only -->
                                             <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
                                             <p>LG전자 회사소개 동영상</p>
                                         </video>
@@ -623,6 +624,8 @@
 
 
 <script>
+    var _winW = $(window).width();
+
     /* 위치정보제공동의 팝업 추가 STEP01 > STEP02 */
     $('#popup-confirm button').on('click', function(){
         if(!$(this).hasClass('btnPopCancel')){ // '네' 누를경우
@@ -668,6 +671,16 @@
         if($(this).closest('.step-area').hasClass('middle')){ // 위의 상황이 지나고 다시 펼칠때
             $('.step02 .btn-area').slideDown(400);
             $('.step02').removeClass('middle');
+        }
+    });
+
+    
+    // video control
+    $('.btn-video-view').on('click', function(){
+        if(_winW < 1025){
+            $(this).hide().siblings('video.mobileOnly').get(0).play();
+        } else {
+            $(this).hide().siblings('video.pcOnly').get(0).play();
         }
     });
 </script>

@@ -221,6 +221,10 @@ html.full-height .wrap #content .shop-search-wrap{position:relative;min-width:13
 
 ul.input-list-type .txt-box .input-wrap{width:100%;}
 
+/* bsf res visit */
+.img-slide-wrap .swiper-slide{overflow:hidden;position:relative;border-radius:10px;}
+.img-slide-wrap .btn-video-view{position:absolute;top:25px;left:25px;height:46px;font-size:16px;color:#fff;line-height:46px;padding:0 23px;background:rgba(0,0,0,0.3);border-radius:23px;z-index:10;}
+
 /* high dpi */
 @media screen and (min-width:1025px){
     .search-result .result-filter .result-filter-detail{position:relative;padding-top:45px;}
@@ -244,6 +248,9 @@ ul.input-list-type .txt-box .input-wrap{width:100%;}
 
     /* shop > shop search */
     .search-result .result-body ul.mCS_no_scrollbar{padding-right:0;}
+
+    /* reservation > visit */
+    .img-slide-wrap .btn-video-view{top:10px;left:10px;height:29px;font-size:14px;line-height:29px;border-radius:14px;}
 }
 
 /* mobile */
@@ -379,4 +386,7 @@ ul.input-list-type .txt-box .input-wrap{width:100%;}
     .step-cont .step-detail .full .input-cate-type .cate-items > li{width:calc(50% - 7px);}
 
     .res-main .bottom-fixed-wrap .bar-wrap .foot-area .btn-area a{display:block;width:100%;max-width:328px;margin:0 auto;height:43px;padding:10px 25px;font-size:13px;line-height:21px;}
+
+    /* reservation > visit */
+    .img-slide-wrap .btn-video-view{top:10px;left:10px;height:29px;font-size:14px;line-height:29px;border-radius:14px;}
 }
