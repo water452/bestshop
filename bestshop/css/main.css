@@ -111,7 +111,7 @@
 .bestshop-sns .swiper-wrapper{display:flex;width:calc(100% - 100px);margin-left:-100px;}
 .bestshop-sns .swiper-slide{position:relative;width:320px;opacity:0;transition:all 0.1s ease;}
 .bestshop-sns .swiper-slide,
-.bestshop-sns .swiper-slide * {transition:all 0.3s ease;}
+.bestshop-sns .swiper-slide *{transition:all 0.3s ease;}
 .bestshop-sns .swiper-slide + .swiper-slide{margin-left:50px;}
 .bestshop-sns .swiper-slide img{display:block;width:320px;height:320px;margin:0 auto;border-radius:15px;}
 .bestshop-sns .swiper-slide strong{display:block;overflow:hidden;font-size:18px;text-overflow:ellipsis;line-height:28px;letter-spacing:-0.9px;white-space:nowrap;margin-top:12px;}
@@ -175,12 +175,14 @@
 .main-notice .slide-navi .swiper-auto .slideBtn{width:20px;height:20px;margin-left:10px;}
 
 /* store search */
-.store-search {position:relative; margin:0 auto; padding:13px 0 14px; background-color:#f4f4f4; text-align:center;}
-.store-search-btn {position:absolute; top:0; right:0;}
-.store-search-btn > .btn {color:#000; border:transparent; background-color:transparent; background-image:none;}
+.store-search{position:relative;max-width:1240px;height:47px;font-size:14px;line-height:47px;margin:50px auto 0;background-color:#f4f4f4;text-align:center;}
+.store-search-btn{position:absolute;top:calc(50% - 10px);right:32px;line-height:16px;}
+.store-search-btn > .btn{width:auto;min-width:0;height:20px;color:#000;line-height:16px;padding:0;border:transparent;background-color:transparent;background-image:none;}
+.store-search-btn > .btn span:after{display:inline-block;content:'';width:16px;height:16px;background:url('../images/icons/icon-arrow-down-48.svg') no-repeat 0 0;transform:rotate(270deg);vertical-align:-3px;}
+.store-search-btn > .btn img{vertical-align:-3px;margin-right:3px;}
 
 /* store near */
-.store-near{overflow:hidden;padding-bottom:30px;margin-bottom:-30px;}
+.store-near{display:none;overflow:hidden;padding-bottom:30px;margin-bottom:-30px;}
 .store-near .near-slide{max-width:1460px;padding:0 40px;margin:0 auto;}
 .store-near .near-slide .swiper-slide{max-width:448px;min-height:128px;border-radius:8px;box-shadow:2px 4px 14px rgba(0,0,0,0.16);}
 .store-near .near-slide .swiper-slide + .swiper-slide{margin-left:18px;}

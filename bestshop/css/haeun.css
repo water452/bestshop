@@ -1113,6 +1113,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-main.care-ex .top-wrap .guide-area .guide-bottom dl dt {font-size:13px; line-height:19px}
     .res-main.care-ex .top-wrap .guide-area .guide-bottom dl dd {font-size:12px; line-height:17px}
 
+    .tab-wrap{height:99px;}
     .tab01.filter {margin-top:22px}
     .tab-wrap.fixed .tab01{left:0;}
     .tab01.filter .btn-filter {left:16px; top:11.5px}

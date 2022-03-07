@@ -3,9 +3,12 @@
 <div class="store-search">
     <p class="text">내 위치에서 가까운 매장을 찾아드립니다.</p>
     <div class="store-search-btn">
-        <button type="button"data-href="#popup-confirm" class="btn btnPopOpen"><span>매장찾기</span></button>
+        <button type="button"data-href="#popup-confirm" class="btn btnPopOpen"><img src="./images/icons/btn_search_pink.svg"><span>매장찾기</span></button>
     </div>
 </div>
+
+<div class="dim"></div>
+<jsp:include page="../../templates/popup/popup-gps-agree.jsp" />
 
 <div class="store-near content-group">
     <div class="content-group-tit">
@@ -62,6 +65,15 @@
     $(function(){
         var eventList = new Swiper(".near-slide", {
             slidesPerView: 'auto'
+        });
+
+        $('.pop-wrap button').not('.btnPopCancel').click(function(){
+            $('html').css('overflow', 'visible');
+            $('.dim, #popup-confirm').fadeOut(500);
+            $('#popup-confirm').removeClass('on');
+
+            $('.store-search').hide();
+            $('.store-near').show();
         });
     });
 </script>
