@@ -494,6 +494,9 @@ $(document).ready(function() {
     // page custom > if not main breadcrumb show
     $('#content').not('.main').parents('body').find('.breadcrumb-wrap').addClass('active');
 
+    // mobile > menu : sub del
+    $('#content').not('.main').parents('body').find('.header-bottom').hide();
+
     // scroll top
     $('.top-btn').on('click', function(){
         $(window).scrollTop(0);

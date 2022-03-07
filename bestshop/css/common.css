@@ -289,9 +289,9 @@ ul.input-list-type .input-wrap:first-of-type {margin-top:0}
 .header-bottom .menu-wrap > ul > li.active > a::after{content:'';display:block;position:absolute;left:0;right:0;bottom:0;height:4px;background-color:#000}
 .header-bottom .menu-wrap > ul > li .menu-category-layer .menu-category-inner{display:flex;position:relative;max-width:1760px;padding:70px 42px 80px;margin:0 auto;}
 .header-bottom .menu-wrap > ul > li .menu-category-layer .menu-category-inner > h4{position:absolute;top:28px;left:42px;font-size:20px;line-height:30px;}
-.header-bottom .menu-wrap > ul > li .menu-category-layer .menu-category-inner .cate-menu{flex:1;max-width:50%;font-size:16px;}
+.header-bottom .menu-wrap > ul > li .menu-category-layer .menu-category-inner .cate-menu{flex:1;max-width:25%;font-size:16px;}
 .header-bottom .menu-wrap > ul > li .menu-category-layer .menu-category-inner .cate-menu:after{display:block;content:'';clear:both;}
-.header-bottom .menu-wrap > ul > li .menu-category-layer .menu-category-inner .cate-menu > li{float:left;position:relative;width:50%;padding:15px 0;}
+.header-bottom .menu-wrap > ul > li .menu-category-layer .menu-category-inner .cate-menu > li{position:relative;padding:15px 0;}
 .header-bottom .menu-wrap > ul > li .menu-category-layer .menu-category-inner .cate-menu > li.full{width:100%;}
 .header-bottom .menu-wrap > ul > li .menu-category-layer .menu-category-inner .cate-menu > li > a{display:inline-block;padding-right:20px;background:url(../images/icons/btn-arr-16-black-sm.svg) no-repeat right center;font-size:16px;font-weight:700;line-height:26px}
 .header-bottom .menu-wrap > ul > li .menu-category-layer .menu-category-inner .cate-menu > li > a:hover{text-decoration:underline;}
@@ -592,6 +592,8 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	.header-bottom .menu-wrap > ul > li .menu-category-layer .menu-category-inner .bnr-box .bnr-block{font-size:13px;}
 }
 @media screen and (max-width:1024px){
+	.header-bottom{width:calc(100% + 32px);margin-left:-16px;}
+	.header-bottom .menu-wrap > ul{overflow-x:auto;padding:0 16px;}
 	.header-bottom .menu-wrap > ul > li .menu-category-layer .menu-category-inner .bnr-box{display:none;}
 }
 @media screen and (max-width:1024px) and (min-width:768px){
@@ -689,7 +691,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	.header-wrap .logo a span{padding-left:7.5px;}
 	.header-bottom{padding:0;margin-bottom:0;}
 	.header-bottom .menu-wrap{display:block;}
-	.header-bottom .menu-wrap > ul{overflow:hidden;font-size:0;white-space:nowrap;margin-left:0;padding:0 2px;}
+	.header-bottom .menu-wrap > ul{font-size:0;white-space:nowrap;margin-left:0;padding:0 16px;}
 	.header-bottom .menu-wrap > ul > li{display:inline-block;padding:0;}
 	.header-bottom .menu-wrap > ul > li + li{margin-left:20px;}
 	.header-bottom .menu-wrap > ul > li .menu-category-layer{display:none !important;}
