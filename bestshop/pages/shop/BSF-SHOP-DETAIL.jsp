@@ -43,7 +43,7 @@
                 <div class="su-infor">
                     <h2 class="tit-su">강남본점 지점장 <strong>이동휘</strong></h2>
                     <p class="txt01">LG전자 베스트샵 강남본점을 찾아주셔서 감사합니다.<br /> [ Z:IN 지인 인테리어 입점 ] 친철하고 편안하게 모시겠습니다.</p>
-                    <div class="btn-area">
+                    <!-- <div class="btn-area">
                         <span class="chk-favorite">
                             <input type="checkbox" id="chk-favorite" />
                             <label for="chk-favorite">단골매장등록</label>
@@ -63,7 +63,7 @@
                                 <button type="button" class="btn-close"><span class="blind">닫기</span></button>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
@@ -237,7 +237,7 @@
                     </li>
                 </ul>
             </div>
-            <a href="javascript:void(0);" class="btn-txt-more"><span>전체보기</span></a>
+            <!-- <a href="javascript:void(0);" class="btn-txt-more"><span>전체보기</span></a> -->
         </section>
         <!-- //진행중인 이벤트 -->
         <!-- 오시는 길 -->
@@ -260,16 +260,16 @@
             <!-- //tab -->
             <div class="tab-cont">
                 <div id="tab-cont01" class="on">
-                    <dl class="bullet-list">
-                        <dt class="b-tit-s">일지아트홀 · 압구정동노인복지센터</dt>
-                        <dd class="b-txt">지선 4312</dd>
-                        <dd class="b-txt">간선 145, 301, 440, 472</dd>
-                        <dd class="b-txt">직행 9407, 9507, 9607</dd>
+                    <dl class="dash-list">
+                        <dt class="d-tit-s">일지아트홀 &middot; 압구정동노인복지센터</dt>
+                        <dd class="d-txt">- 지선 4312</dd>
+                        <dd class="d-txt">- 간선 145, 301, 440, 472</dd>
+                        <dd class="d-txt">- 직행 9407, 9507, 9607</dd>
                     </dl>
-                    <dl class="bullet-list">
-                        <dt class="b-tit-s">씨네시티 앞</dt>
-                        <dd class="b-txt">지선 3011, 4212, 4419</dd>
-                        <dd class="b-txt">간선 145, 342</dd>
+                    <dl class="dash-list">
+                        <dt class="d-tit-s">씨네시티 앞</dt>
+                        <dd class="d-txt">- 지선 3011, 4212, 4419</dd>
+                        <dd class="d-txt">- 간선 145, 342</dd>
                     </dl>
                 </div>
                 <div id="tab-cont02" class="">
@@ -310,16 +310,24 @@
     $(function(){
         var storSlide = new Swiper(".event-slide", {
             speed: 800,
+            slidesPerView: 2,
+            slidesPerColumn: 2,
+            spaceBetween: 16,
+            paginationClickable: true,
+            breakpoints: {
+                768: {
+                    slidesPerView: "auto",
+                    slidesPerColumn: 1,
+                },
+            },
+        });
+    });
+    $(function(){
+        var storImg = new Swiper(".list-shop-detail", {
+            speed: 800,
             slidesPerView: "auto",
             spaceBetween: 16,
             paginationClickable: true,
-            /*
-            breakpoints: {
-                768: {
-                    slidesPerView: 1.3,
-                },
-            },
-            */
         });
     });
 </script>
