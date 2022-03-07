@@ -14,13 +14,15 @@
 .sitemap .inner > ul {max-width:1227px; margin:0 auto; padding:0 40px}
 .sitemap .inner > ul .category-cluster {width:100%; margin-top:80px}
 .sitemap .inner > ul .category-cluster:first-child {margin-top:0}
-.sitemap .inner > ul .category-cluster .category-column {display:flex; flex-wrap:wrap; width:100%}
-.sitemap .inner > ul .category-cluster .category-column > li {width:25%; margin-top:40px}
-.sitemap .inner > ul .category-cluster .category-depth.mgt {margin-top:-75px}
+.sitemap .inner > ul .category-cluster > ul::after {content:''; display:block; clear:both}
+.sitemap .inner > ul .category-cluster > ul:only-child .category-column.upperframe {display:flex; float:left; width:50%}
+.sitemap .inner > ul .category-cluster .category-column {width:50%}
+.sitemap .inner > ul .category-cluster .category-column > li {margin-top:40px}
 .sitemap .inner > ul .category-cluster .level-1 {padding-bottom:12px; border-bottom:2px solid #222}
 .sitemap .inner > ul .category-cluster .level-1 a {display:inline-block; color:#000; font-size:22px; line-height:30px; font-weight:700; vertical-align:top}
 .sitemap .inner > ul .category-cluster .level-2 a {display:inline-block; color:#000; font-size:16px; font-weight:700; line-height:24px; vertical-align:top}
-.sitemap .inner > ul .category-cluster .level-3 {margin-top:19px}
+.sitemap .inner > ul .category-cluster .category-column > .level-2 + .level-3 {margin-top:19px}
+.sitemap .inner > ul .category-cluster .category-column > .level-3 {margin-top:8px}
 .sitemap .inner > ul .category-cluster .level-3 a {color:#000; font-size:16px; font-weight:normal; line-height:24px; vertical-align:top}
 .sitemap .inner > ul .category-cluster .level-3 li + li {margin-top:12px}
 .sitemap .inner > ul .category-cluster .category-depth.level-2 a[target="_blank"] {position:relative; padding-right:20px}
@@ -759,10 +761,10 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 @media screen and (max-width:991px) {
     /* 사이트맵 */
     .sitemap .inner > ul .category-cluster {margin-top:80px; font-size:0}
-    .sitemap .inner > ul .category-cluster .category-column {display:block; width:100%; margin-top:20px}
-    .sitemap .inner > ul .category-cluster .category-column > li {margin-top:33px}
+    .sitemap .inner > ul .category-cluster > ul:only-child .category-column.upperframe {float:none; display:block; width:100%; margin-top:32px}
+    .sitemap .inner > ul .category-cluster .category-column {display:block; width:100%; margin-top:32px}
+    .sitemap .inner > ul .category-cluster .category-column > li {margin-top:32px}
     .sitemap .inner > ul .category-cluster .category-column > li:first-child {margin-top:0}
-    .sitemap .inner > ul .category-cluster .category-depth.mgt {margin-top:33px}
 }
 @media screen and (max-width:767px) {
     .only_pc {display:none!important}
@@ -774,11 +776,13 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .sitemap {margin-top:0}
     .sitemap .inner {padding-bottom:0}
     .sitemap .inner > ul {padding:0}
-    .sitemap .inner > ul .category-cluster {margin-top:0; border-top:10px solid #f4f4f4; padding:25px 16px 55px}
+    .sitemap .inner > ul .category-cluster {margin-top:0; border-top:10px solid #f4f4f4; padding:25px 16px 50px}
     .sitemap .inner > ul .category-cluster:first-child {border-top:none}
+    .sitemap .inner > ul .category-cluster .category-column:first-child {margin-top:0}
     .sitemap .inner > ul .category-cluster .category-column > li {width:100%}
+    .sitemap .inner > ul .category-cluster .level-1 + .upperframe {margin-top:20px!important}
     .sitemap .inner > ul .category-cluster .level-1 {padding-bottom:20px}
-    .sitemap .inner > ul .category-cluster .level-1 a {font-size:18px; line-height:22px}
+    .sitemap .inner > ul .category-cluster .level-1 a {font-size:16px; line-height:22px}
     .sitemap .inner > ul .category-cluster .level-2 a {font-size:14px; line-height:20px}
     .sitemap .inner > ul .category-cluster .level-3 a {font-size:12px; line-height:17px}
     .sitemap .inner > ul .category-cluster .level-3 li + li {margin-top:8px}
