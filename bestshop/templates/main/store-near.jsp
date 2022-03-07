@@ -1,5 +1,12 @@
 <%@ page contentType="text/html; charset=utf-8" %>
 
+<div class="store-search">
+    <p class="text">내 위치에서 가까운 매장을 찾아드립니다.</p>
+    <div class="store-search-btn">
+        <button type="button"data-href="#popup-confirm" class="btn btnPopOpen"><span>매장찾기</span></button>
+    </div>
+</div>
+
 <div class="store-near content-group">
     <div class="content-group-tit">
         <h3>현재 고객님의 위치에서 가까운 매장</h3>
