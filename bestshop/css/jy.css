@@ -807,7 +807,7 @@ li[class*="blt"], li > [class*="blt"] { display: block; }
     .play-time { padding: 0 5px; line-height: 17px; font-size: 11px; }
 
     /* 이벤트 > 목록 */
-    .event-list + .btn-area { margin-top: 40px; }
+    .event-list + .btn-area { margin-top: 40px; }d
     .event-list ul {margin: 0 -4px;}
     .event-list ul li {margin:0 4px; width: calc((100% / 2) - 8px); box-shadow: 1px 2px 8px 0 rgba(0, 0, 0, 0.16);}
     .event-list ul li:nth-child(n+3) {margin-top: 8px;}

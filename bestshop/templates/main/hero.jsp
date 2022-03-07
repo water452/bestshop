@@ -3,7 +3,7 @@
 <div class="hero-slide">
   <div class="swiper-wrapper">
       <div class="content-wrap video swiper-slide">
-          <div class="hero-tit left top"><!-- pc : left / center / right --> <!-- mobile : top / bottom -->
+          <div class="hero-tit left top black"><!-- pc : left / center / right --> <!-- mobile : top / bottom --> <!-- default(white) : #fff / .black : #000 -->
               <div class="hero-tit-detail">
                   <em>Bestshop에서만 만날 수 있는 특별한 기회! </em>
                   <strong>당신의 생활공간을 잘 아는 <br>LG 베스트샵 맞춤컨설팅</strong>
@@ -37,6 +37,27 @@
               <source src="./images/main_carousel_video_02.mp4" type="video/mp4">
               <p>LG전자 회사소개 동영상</p>
           </video>
+      </div><!-- //.swiper-slide -->
+      <div class="content-wrap swiper-slide">
+        <div class="hero-tit left top"><!-- left / center / right --> <!-- mobile : top / bottom -->
+            <div class="hero-tit-detail">
+                <em>상담 예약하고 매장 방문하면 경품이 쏟아진다!</em>
+                <strong>LG전자 베스트샵<br>매장 상담 예약 이벤트</strong>
+                <p> <!-- default(class 없음) : 자세히 보기 / btn-view : 자세히 보기 / btn-video-view : 영상보기 -->
+                    <span class="btn-view">자세히 보기</span>
+                    <span class="btn-video-view">영상보기</span>
+                </p>
+                <a href="pages/event/BSF-PAGE-LIVE.jsp">바로가기</a>
+            </div>
+        </div>
+        <video class="pcOnly" autoplay="" playsinline="" muted="" poster="./images/@img-main-hero-pc.jpg" class="videoPoster" loop> <!-- pc only -->
+            <source src="./images/main_carousel_video_01.mp4" type="video/mp4">
+            <p>LG전자 회사소개 동영상</p>
+        </video>
+        <video class="mobileOnly" autoplay="" playsinline="" muted="" poster="./images/@img-main-hero-pc.jpg" class="videoPoster" loop> <!-- mobile only -->
+            <source src="./images/main_carousel_video_01.mp4" type="video/mp4">
+            <p>LG전자 회사소개 동영상</p>
+        </video>
       </div><!-- //.swiper-slide -->
       <div class="content-wrap swiper-slide" style="background-image:url('./images/@img-main-hero-pc01.jpg');">
           <div class="hero-tit left top"><!-- left / center / right --> <!-- mobile : top / bottom -->
