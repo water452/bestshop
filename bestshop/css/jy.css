@@ -370,7 +370,7 @@ ul.input-cate-type .cate-tit > .icon.apple-watch { background: url("../images/ic
 .list-cp-map > .li15 { top: 70%; left: 21%; } /* 전남 */
 .list-cp-map > .li16 { top: 65%; left: 22%; } /* 광주 */
 .list-cp-map > .li17 { bottom: 5.5%; left: 14.5%; } /* 제주 */
-.list-chkrdo-btn { max-width: 514px; width: 100%; line-height: 0; font-size: 0; text-align: center; }
+.list-chkrdo-btn { max-width: 514px; min-width: 514px; width: 100%; line-height: 0; font-size: 0; text-align: center; }
 .list-chkrdo-btn > li { display: inline-block; padding: 5px; vertical-align: top; }
 .chkrdo-btn { display: inline-block; position: relative; vertical-align: middle; }
 .chkrdo-btn input { position: absolute !important; margin: -1px !important; padding: 0 !important; width: 1px !important; height: 1px !important; overflow: hidden !important; clip-path: polygon(0 0, 0 0, 0 0) !important; }
@@ -651,7 +651,7 @@ li[class*="blt"], li > [class*="blt"] { display: block; }
     /* 이벤트 > 아파트 입주 이벤트 */
     .sorting-cp > .cp-list { margin: 0; }
     .sorting-cp > .cp-list:before { left: -60px; }
-    .list-chkrdo-btn { max-width: 450px; }
+    .list-chkrdo-btn { max-width: 450px; min-width: 450px; }
 }
 @media screen and (max-width: 1024px){ /* Tablet */
     /******************* contents **********************/
@@ -662,7 +662,7 @@ li[class*="blt"], li > [class*="blt"] { display: block; }
     .sorting-cp > * { display: block; margin: 0 auto; }
     .sorting-cp > .cp-list { margin-top: 80px; padding-bottom: 30px; }
     .sorting-cp > .cp-list:before { left: 50%; top: -55px; -webkit-transform: translateX(-50%) rotate(90deg); transform: translateX(-50%) rotate(90deg); }
-    .list-chkrdo-btn { max-width: 100%; }
+    .list-chkrdo-btn { max-width: 100%; min-width: 100%; }
 
     /* 이벤트 > 홍보영상 */
     .tab01 > ul > li { margin-right: 28px; }
