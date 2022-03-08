@@ -168,7 +168,7 @@
                 <!-- // step 1 -->
 
                 <!-- step 2 -->
-                <div class="step-area step02">
+                <div class="step-area step02 null">
                     <div class="result-area">
                         <div class="info-step02">
                             <!-- s: 요약정보 -->
@@ -379,7 +379,7 @@
                 <!-- // step 3 -->
 
                 <div class="btn-area center m-hidden active"><!-- active 클래스 추가 -->
-                    <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담 예약하기</button>
+                    <button type="button" class="btn btn-res errorBtn">상담 예약하기</button>
                 </div>
 
                 <div class="caution-box">
@@ -422,7 +422,7 @@
                 </div>
                 <div class="foot-area">
                     <div class="btn-area active"><!-- active 클래스 추가 -->
-                        <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담 예약하기</button>
+                        <button type="button" class="btn btn-res">상담 예약하기</button>
                     </div>
                 </div>
             </div>
@@ -657,5 +657,9 @@
             $('.step02 .btn-area').slideDown(400);
             $('.step02').removeClass('middle');
         }
+    });
+
+    $('.errorBtn').on('click', function(){
+        $('.null').find('.main-area').stop().slideDown()
     });
 </script>
