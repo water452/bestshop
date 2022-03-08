@@ -19,14 +19,16 @@
         <div class="sns-slide">
             <ul class="swiper-wrapper">
                 <li class="swiper-slide">
-                    <img src="./images/img_main_sns01.jpg" alt="">
+                    <img src="./images/img_main_sns01.jpg" alt="" class="pcOnly">
+                    <img src="./images/img_main_sns01.jpg" alt="" class="mobileOnly">
                     <em>INSTAGRAM</em>
                     <strong>LG Objet Collection - 가전테리어 구매 후기 서울 상도동 편(30초)</strong>
                     <span>LG 오브제컬렉션으로 완성한 가전테리어, 소중한 구매 후기 서울 상도동 편 LG 오브제컬렉션으로 완성한 가전테리어를 영상으로 감상해보세요!</span>
                     <p class="btn-area"><a href="javascript:void(0);">자세히 보기</a></p>
                 </li>
                 <li class="swiper-slide">
-                    <img src="./images/img_main_sns02.jpg" alt="">
+                    <img src="./images/img_main_sns02.jpg" alt="" class="pcOnly">
+                    <img src="./images/img_main_sns02.jpg" alt="" class="mobileOnly">
                     <em>BLOG</em>
                     <strong>LG Objet Collection</strong>
                     <span>LG 오브제컬렉션으로 완성한 가전테리어, 소중한 구매 후기 서울 상도동 편 LG 오브제컬렉션으로 완성한 가전테리어를 영상으로 감상해보세요!</span>
