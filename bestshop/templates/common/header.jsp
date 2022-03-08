@@ -62,6 +62,12 @@
                     <li><a href="javascript:void(0);">회원가입</a></li>
                     <li><a href="javascript:void(0);">멤버십 혜택</a></li>
                     </ul>
+                    <ul>
+                    <li><a href="javascript:void(0);">상담 예약 조회</a></li>
+                    <li><a href="javascript:void(0);">주문/배송 조회</a></li>
+                    <li><a href="javascript:void(0);">베스트샵 쿠폰</a></li>
+                    <li><a href="javascript:void(0);">멤버십 포인트 조회</a></li>
+                    </ul>
                     e: 로그인 전 -->
 
                     <!-- s: 로그인 후 -->
@@ -69,10 +75,10 @@
                     <li><a href="javascript:void(0);">로그아웃</a></li>
                     </ul>
                     <ul>
-                    <li><a href="javascript:void(0);">매장 상담 예약 조회</a></li>
-                    <li><a href="javascript:void(0);">제품 배송 조회</a></li>
-                    <li><a href="javascript:void(0);">보유 쿠폰 조회</a></li>
-                    <li><a href="javascript:void(0);">포인트 조회</a></li>
+                    <li><a href="javascript:void(0);">상담 예약 조회</a></li>
+                    <li><a href="javascript:void(0);">주문/배송 조회</a></li>
+                    <li><a href="javascript:void(0);">베스트샵 쿠폰</a></li>
+                    <li><a href="javascript:void(0);">멤버십 포인트 조회</a></li>
                     </ul>
                     <!-- e: 로그인 후 -->
                 </div>
@@ -81,6 +87,7 @@
 
             <!-- s: utility -->
             <div class="util">
+                <!-- 20220308 삭제
                 <div class="about-company layer-wrap">
                 <a href="https://www.lge.co.kr/company/main">회사소개</a>
                 <div class="about-company-layer layer-detail">
@@ -90,7 +97,8 @@
                     <li><a href="https://www.lge.co.kr/company/info/philosophy">경영이념</a></li>
                     </ul>
                 </div>
-                </div>
+                </div> 
+                -->
                 <div class="outer-link">
                 <ul>
                     <li><a href="https://www.lge.co.kr/kr/business" class="business" target="_blank" title="새 창 열림">비즈니스</a></li>

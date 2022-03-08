@@ -143,6 +143,7 @@
                   <li><a href="https://member.lge.co.kr/auth/deviceClause.do" target="_blank" style="font-weight: bold;">영상정보처리기기운영관리방침</a></li>
                   <li><a href="https://www.lge.co.kr/acceptable-use-policy">이메일 무단수집 거부</a></li>
                   <li><a href="http://blog.naver.com/lg-bestshop" target="_blank">공식블로그</a></li>
+                  <li><a href="/bestshop/pages/common/BSF-CS-NOTICE-LIST.jsp" target="_blank">공지사항</a></li>
                 </ul>
                 <div class="comp-info">
                   <p><span>대표이사 : 권봉석, 배두용</span><span>사업자등록번호 : 107-86-14075</span><span><a href="javascript:void(0);" target="_blank" class="footerBtn">사업자 정보확인</a></span><span>통신판매업신고번호 : 제1997-00084호</span><span>대표번호 : <a href="tel:02-3777-1114">02-3777-1114</a></span></p>

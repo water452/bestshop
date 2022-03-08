@@ -272,8 +272,7 @@ ul.input-list-type .input-wrap:first-of-type {margin-top:0}
 .header-wrap .utility .util .about-company .about-company-layer ul li a:hover,
 .header-wrap .utility .util .about-company .about-company-layer ul li a:focus,
 .header-wrap .utility .util .about-company .about-company-layer ul li a:active{background-color:#f4f4f4}
-.header-wrap .utility .util .outer-link{position:relative;margin-left:24px;padding-left:24px}
-.header-wrap .utility .util .outer-link::before{content:'';display:block;position:absolute;width:1px;height:14px;top:calc(50% - 7px);left:0;border-left:1px solid #ddd}
+.header-wrap .utility .util .outer-link{position:relative;}
 .header-wrap .utility .util .outer-link ul{display:flex}
 .header-wrap .utility .util .outer-link ul li + li{margin-left:24px}
 .header-wrap .utility .util .outer-link ul li a{display:block;padding-right:18px;background:url(../images/icons/btn-outlink-16.svg) no-repeat right center;font-size:14px;line-height:24px}
