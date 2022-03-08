@@ -1069,10 +1069,13 @@ li[class*="blt"], li > [class*="blt"] { display: block; }
     .list-advice-reservation > li a { border-radius: 3px; text-align: left; }
     .list-advice-reservation > li span { padding: 20px 5px 20px 57px; letter-spacing: -1px; }
     .list-advice-reservation > li span:before { top: 50%; left: 6px; margin: -24px 0 0 0; width: 48px; height: 48px; }
-    .event-slide li { width: 50%; }
+    .event-slide .swiper-wrapper { flex-wrap: wrap; }
+    .event-slide { margin: -4px -4px 0; }
+    .event-slide li { max-width: 50%; padding: 4px; }
     .event-slide li .infor { padding: 8px 12px 13px 12px; }
     .event-slide li .date { line-height: 17px; font-size: 11px; }
     .event-slide li .tit { margin-top: 2px; height: 40px; line-height: 20px; font-size: 14px; }
+    .sec-shop .shop-map { height: 270px; }
     .icon-naver-map { padding-left: 0; }
     .icon-naver-map:before { display: none; }
     .sec-shop .tab01 { margin-top: 4px; }

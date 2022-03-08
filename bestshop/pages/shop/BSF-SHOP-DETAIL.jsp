@@ -152,7 +152,6 @@
                                         <dd>
                                             <div class="txt-utill">
                                                 <span class="txt">02-3448-5190</span>
-                                                <a href="tel:02-3448-5190" class="btn-txt-utill pc-hidden">전화걸기</a>
                                             </div>
                                         </dd>
                                     </dl>
@@ -181,15 +180,6 @@
             <h2 class="tit08">강남본점에서 진행중인 이벤트</h2>
             <div class="swiper event-slide">
                 <ul class="swiper-wrapper">
-                    <li class="swiper-slide">
-                        <a href="javascript:void(0);">
-                            <div class="thum"><img src="/bestshop/images/img_main_event01.jpg" alt="&nbsp;" /></div>
-                            <div class="infor">
-                                <span class="date">2021.10.01~2021.10.31</span>
-                                <strong class="tit">스타일러 5% 할인 쿠폰 24시간 타임딜! LG전자 베스트샵 iPhone 상담예약 이벤트</strong>
-                            </div>
-                        </a>
-                    </li>
                     <li class="swiper-slide">
                         <a href="javascript:void(0);">
                             <div class="thum"><img src="/bestshop/images/img_main_event01.jpg" alt="&nbsp;" /></div>
@@ -273,15 +263,15 @@
                     </dl>
                 </div>
                 <div id="tab-cont02" class="">
-                    <dl class="bullet-list">
-                        <dt class="b-tit">지하철로 오시는길</dt>
-                        <dd class="b-txt">지하철 1,4호선 서울역 10번 출구 130m</dd>
+                    <dl class="dash-list">
+                        <dt class="d-tit">지하철로 오시는길</dt>
+                        <dd class="d-txt">- 지하철 1,4호선 서울역 10번 출구 130m</dd>
                     </dl>
                 </div>
                 <div id="tab-cont03" class="">
-                    <dl class="bullet-list">
-                        <dt class="b-tit">자가용으로 오시는길</dt>
-                        <dd class="b-txt">네비게이션에 '베스트샵 서울역빌딩점(서울 중구 후암로 98)' 검색 후 방문</dd>
+                    <dl class="dash-list">
+                        <dt class="d-tit">자가용으로 오시는길</dt>
+                        <dd class="d-txt">- 네비게이션에 '베스트샵 서울역빌딩점(서울 중구 후암로 98)' 검색 후 방문</dd>
                     </dl>
                 </div>
             </div>
@@ -312,12 +302,13 @@
             speed: 800,
             slidesPerView: 2,
             slidesPerColumn: 2,
-            spaceBetween: 16,
+            spaceBetween: 0,
             paginationClickable: true,
             breakpoints: {
                 768: {
                     slidesPerView: "auto",
                     slidesPerColumn: 1,
+                    spaceBetween: 16,
                 },
             },
         });
