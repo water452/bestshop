@@ -744,6 +744,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .plp-list-wrap .lay-filter .plp-filter-wrap .filter-close .btn-close {width:100%; height:100%; background:url(../images/icons/btn-close-24-black.svg) no-repeat center / 24px 24px}
 
     .plp-list-wrap .pdt-list-area {width:100%}
+    .plp-list-wrap .pdt-list-area .no-data {padding:80px 0}
 
     .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select > ul {flex-wrap:wrap}
     .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select > ul > li {width:50%}
