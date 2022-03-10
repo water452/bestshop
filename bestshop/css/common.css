@@ -548,6 +548,8 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 .popup.medium .pop-wrap { max-width: 912px; }
 .popup.large .pop-wrap { max-width: 1146px; }
 .popup.alert .pop-wrap {width:calc(100% - 44px); max-width:500px; padding:60px 40px 50px; text-align:center}
+.popup.v-large .pop-wrap {top:336px; transform:translateX(-50%); max-width:1460px; padding:0 40px; border-radius:0}
+.popup.full .pop-wrap {top:106px; transform:translateX(-50%); max-width:100%; padding:0; border-radius:0}
 
 /* popup - confirm */
 .popup.confirm .pop-wrap { padding: 60px 30px 50px 30px; max-width: 500px; text-align: center; }
@@ -559,6 +561,18 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 .popup.toast .pop-wrap { max-width:444px; padding: 17px 54px; background-color: rgba(0,0,0,0.7); border-radius: 80px}
 .popup.toast .pop-wrap .pop-cont { height: auto; min-height: 0; overflow-y: hidden; color: #fff; font-size: 16px; font-weight: bold; line-height: 24px; text-align: center; }
 .popup.toast .btn-pop-close { top:14px; right:21px; background: url("../images/icons/btn-close-24-white.svg") no-repeat center / contain; }
+
+/* popup - video */
+.popup.video {position:absolute}
+.popup.video .pop-wrap .pop-cont {overflow:hidden; max-height:100%; min-height:auto; height:640px}
+.popup.video .video-auto {position:absolute; bottom:30px; right:30px}
+.popup.video .video-auto .videoBtn {display:none; overflow:hidden; width:46px; height:46px; font-size:0; text-indent:-9999em; background-repeat:no-repeat; background-position:50% 50%; background-size:contain}
+.popup.video .video-auto .videoBtn.active{display:block}
+.popup.video .video-auto .videoBtn.btn-play{background-image:url('../images/icons/btn_start.svg')}
+.popup.video .video-auto .videoBtn.btn-stop{background-image:url('../images/icons/btn_pause.svg')}
+.popup.v-large .pop-wrap .pop-cont {height:290px}
+.popup.v-large .pop-wrap .btn-pop-close {right:70px}
+.popup.v-large .pop-wrap .video-auto {right:60px}
 
 /* popup - button */
 .popup .btn { padding-left: 34px; padding-right: 34px; }
@@ -849,6 +863,8 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	.popup.alert .pop-wrap {padding:0}
     .popup.alert .pop-cont {padding:55px 20px 0}
     .popup.alert .btn-area.m-full-flex {width:auto; left:auto}
+		.popup.full .pop-wrap {top:93px}
+		.popup.v-large .pop-wrap {top:230px; padding:0 16px 4px}
     
     /* popup - 모바일 full */
     .popup.m-full .pop-wrap { height: 100%; border-radius: 0; }
@@ -865,6 +881,16 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	.popup.toast .pop-wrap { top: auto; bottom: 16px; width: calc(100% - 32px); padding: 19px 44px; }
 	.popup.toast .pop-wrap .pop-cont { font-size: 14px; line-height: 20px; }
 	.popup.toast .btn-pop-close { width: 24px; height: 24px; top: 18px; right: 16px; }
+
+	/* popup - video */
+	.popup.video .video-auto {right:13px}
+	.popup.video .video-auto .videoBtn {width:26px; height:26px}
+	.popup.full .pop-wrap .pop-cont {height:390px}
+	.popup.v-large .pop-wrap .pop-cont {height:180px}
+	.popup.v-large .pop-wrap .video-auto {right:40px}
+	.popup.v-large .pop-wrap .btn-pop-close {right:40px}
+
+
 
 	/* dpi if else */
 	.pcOnly{display:none !important;}
