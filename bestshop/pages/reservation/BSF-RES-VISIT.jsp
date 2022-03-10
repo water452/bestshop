@@ -531,11 +531,6 @@
                     <p>LG전자 회사소개 동영상</p>
                 </video>
             </div>
-
-            <div class="video-auto">
-                <button type="button" class="videoBtn btn-play">영상 재생</button>
-                <button type="button" class="videoBtn btn-stop active">영상 일시정지</button>
-            </div>
         </div>
         <button type="button" class="btn-pop-close btnPopClose"><span class="blind">닫기</span></button>
     </div>
