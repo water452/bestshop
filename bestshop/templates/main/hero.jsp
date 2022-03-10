@@ -102,7 +102,7 @@
 
 <!-- 팝업 : 영상 팝업 s -->
 <div class="popup full video" id="popup-video">
-    <div class="pop-wrap">
+    <div class="pop-wrap white">
         <div class="pop-cont">
             <video class="pcOnly" autoplay="" playsinline="" muted="" poster="./images/@img-main-hero-pc.jpg" class="videoPoster" loop> <!-- pc only -->
                 <source src="./images/main_carousel_video_01.mp4" type="video/mp4">
@@ -160,22 +160,6 @@
         } else {
             $('#popup-video').css('display', 'block').find('video.pcOnly').get(0).play();
         }
-      });
-
-      $('.popup.video .video-auto > button').on('click', function(){
-        $('.popup.video .video-auto > button').toggleClass('active');
-        
-        var _pcOnly = $('.popup.video video.mobileOnly').get(0);
-        var _moOnly = $('.popup.video video.pcOnly').get(0);
-
-        if ($(this).hasClass('btn-play')){
-            _pcOnly.play();
-            _moOnly.play();
-        } 
-        else {
-            _pcOnly.pause();
-            _moOnly.pause();
-        };
       });
   });
 </script>
