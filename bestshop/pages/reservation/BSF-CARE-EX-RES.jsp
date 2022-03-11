@@ -938,7 +938,8 @@
     });
 
     /* TOGGLE STEP */
-    $('.info-txt-com a').on('click', function(){
+    $('.info-txt-com a').on('click', function(e){
+        e.preventDefault();
         var _with = $(this).closest('.step-area').siblings('.step-area');
 
         _with.removeClass('border').find('.main-area, .btn-area').slideUp(400);

@@ -36,7 +36,7 @@
     <!-- e: bestshop notice -->
 
     <!-- s: main popup -->
-    <jsp:include page="./templates/popup/BSF-MAIN-P.jsp" />
+    <!-- <jsp:include page="./templates/popup/BSF-MAIN-P.jsp" /> -->
     <!-- e: main popup -->
     
 </div>

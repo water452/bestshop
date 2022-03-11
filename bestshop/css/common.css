@@ -190,7 +190,7 @@ table{border-collapse:collapse}
 .btn-area { line-height: 0; font-size: 0; }
 .btn-area.center {text-align:center!important}
 .btn-area.m64 {margin-top:64px}
-.btn-area [class*="btn"] + [class*="btn"] {margin-left:12px}
+.btn-area [class*="btn"] + [class*="btn"] {margin-left:16px}
 
 /* bullet list */
 ul.bull > li {position:relative; padding-left:10px; font-size:14px; font-weight:500; line-height:20px}
@@ -579,22 +579,32 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 .popup .btn { padding-left: 34px; padding-right: 34px; }
 
 /* popup - 메인 슬라이드 팝업 */
-.pop-wrap.main {padding:34px 10px 50px}
+.pop-wrap.main {padding:34px 10px 10px}
+.pop-wrap.main .pop-cont {max-height:598px}
 .pop-wrap.main .pop-head {margin:0 30px}
+
+.pop-slide-wrap.txt {padding:30px 0}
+.pop-slide-wrap.image {padding-bottom:30px}
 .pop-slide-wrap .swiper-slide {padding:0 30px}
-
-.pop-slide-wrap .txt-wrap {padding:30px 0}
-.pop-slide-wrap .txt-wrap .tit {font-size:22px; line-height:30px; text-align:center}
-.pop-slide-wrap .txt-wrap .txt {padding:20px 32px; border:1px solid #ddd; border-radius:8px; font-size:16px; line-height:24px}
+.pop-slide-wrap .img-wrap {padding-bottom:60px}
+.pop-slide-wrap .txt-wrap {padding-bottom:60px}
+.pop-slide-wrap .txt-wrap .tit {margin-bottom:27px; font-size:22px; line-height:30px; text-align:center}
+.pop-slide-wrap .txt-wrap .txt {padding:19px 31px; border:1px solid #ddd; border-radius:8px; font-size:16px; line-height:24px}
 .pop-slide-wrap .txt-wrap .txt p + p {margin-top:16px}
-.pop-slide-wrap .txt-wrap .btn-area {border-top:0!important; text-align:center}
+.pop-slide-wrap .btn-area {text-align:center}
+.pop-slide-wrap .btn-area .btn {padding:0 41px}
 
+.pop-slide-wrap .slide-navi {bottom:30px!important}
 .pop-slide-wrap .swiper-pager {width:100%; padding:0; background:none; text-align:center}
 .pop-slide-wrap .banner-btns {top:50%; width:100%}
+.pop-slide-wrap.image .banner-btns {top:calc(50% - 30px)}
 .pop-slide-wrap .banner-btns .swiper-button-prev {left:10px}
 .pop-slide-wrap .banner-btns .swiper-button-next {right:10px}
 
-.pop-wrap.main .btn-area {border-top:1px solid #ddd}
+.pop-wrap.main .pop-cont + .btn-area {margin:0 30px; padding:30px 0; border-top:1px solid #ddd}
+.pop-wrap .btn-area.chk-box {position:relative; text-align:right}
+.pop-wrap .btn-area.chk-box .check-box {position:absolute; left:0; top:calc(50% - 13px)}
+.pop-wrap .btn-area.chk-box .check-box input + label {font-weight:500}
 
 /* dpi if else */
 .pcOnly{display:block !important;}
@@ -908,7 +918,31 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	.popup.v-large .pop-wrap .pop-cont {height:180px}
 	.popup.v-large .pop-wrap .btn-pop-close {right:30px}
 
+	/* popup - 메인 슬라이드 팝업 */
+	.pop-wrap.main {width:calc(100% - 32px); padding:0}
+	.pop-wrap.main .pop-cont {max-height:475px}
+	.pop-wrap.main .pop-head {margin:0 16px}
+	.pop-wrap.main .tit-pop {font-weight:bold}
 
+	.pop-slide-wrap.txt {padding:17px 0 30px}
+	.pop-slide-wrap .swiper-slide {padding:0 16px}
+	.pop-slide-wrap .img-wrap {padding-bottom:40px}
+	.pop-slide-wrap .txt-wrap {padding-bottom:40px}
+	.pop-slide-wrap .txt-wrap .tit {margin-bottom:17px; font-size:18px; line-height:24px}
+	.pop-slide-wrap .txt-wrap .txt {padding:16px; font-size:14px; line-height:20px}
+	.pop-slide-wrap .txt-wrap .txt p + p {margin-top:12px}
+	.pop-slide-wrap .btn-area {margin-top:10px; padding:0 16px}
+
+	.pop-slide-wrap .slide-navi {bottom:13px!important}
+	.pop-slide-wrap .banner-btns {height:24px}
+	.pop-slide-wrap.image .banner-btns {top:calc(50% - 20px)}
+	.pop-slide-wrap .banner-btns [class^="swiper-button"] {width:24px; height:24px}
+	.pop-slide-wrap .banner-btns .swiper-button-prev {left:4px}
+	.pop-slide-wrap .banner-btns .swiper-button-next {right:4px}
+	
+	.pop-wrap.main .pop-cont + .btn-area {width:100%; left:0; margin:0; padding:54px 0 0; border-top:0}
+	.pop-wrap.main .pop-cont + .btn-area::before {content:''; display:block; position:absolute; top:0; left:16px; right:16px; height:1px; background-color:#ddd}
+	.pop-wrap.main .btn-area.chk-box .check-box {top:16px; left:14px}
 
 	/* dpi if else */
 	.pcOnly{display:none !important;}

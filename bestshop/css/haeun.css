@@ -258,8 +258,8 @@ ul.shop-list li [class^="btn-"] > span {margin-left:3px}
 .shop-date-wrap .bottom-area .date-wrap .calendar {width:414px; height:100%; border:1px solid #ddd; border-radius:8px}
 .shop-date-wrap .bottom-area .date-wrap .calendar .cal-cont {height:100%}
 .shop-date-wrap .bottom-area .date-wrap .time {width:118px; height:100%; margin-left:12px}
-.time ul[class*="input"] {flex-direction:column; flex-wrap:wrap; margin-top:-10px}
-.time ul[class*="input"] li {height:calc(100% / 6); margin-left:0; margin-top:10px}
+.time ul[class*="input"] {flex-direction:column; flex-wrap:wrap; margin-top:-5px}
+.time ul[class*="input"] li {height:calc(100% / 6); margin-left:0; margin-top:5px}
 .time ul[class*="input"] li .radio-btn.btn-type2 {width:100%}
 .time ul[class*="input"] li .radio-btn.btn-type2 label {width:100%; max-height:34px; padding:6px 0; border-radius:8px; font-size:14px; line-height:20px}
 .time ul[class*="input"] li .radio-btn.btn-type2 input:checked + label {border-width:1px}
@@ -723,7 +723,8 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-main.care .service-detail-area > ul.col-3 > li {width:calc(50% - 54px)}
 
     /* 소모품구매예약페이지 */
-    .tab01.filter {position:relative; margin-top:40px}
+    .tab01.filter {position:relative; margin-top:40px; padding-left:57px}
+    .tab01.filter.is_depth {padding-left:16px}
     .tab01.filter .tab02 > ul {padding-left:40px}
     .tab01.filter .btn-filter {display:block; position:absolute; left:0; top:10px; width:25px; height:25px; background:url(../images/icons/btn-filter-50.svg) no-repeat center / contain}
     .tab01.filter.is_depth .btn-filter {top:64.5px; z-index:10}
@@ -1111,7 +1112,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-main.care .cont-wrap .cont-area .step-area.step03 .btn-area.bg {display:none}
 
     /* 소모품구매예약페이지 */
-    .res-main.care-ex .top-wrap {margin-bottom:28px}
+    .res-main.care-ex .top-wrap {margin-bottom:22px}
     .res-main .guide-area .guide-process .guide-banner-care-ex .box .icon-wrap .icon01 {background:url(../images/icons/icon-res-guide-ex-01_mo.svg) no-repeat center / contain}
     .res-main .guide-area .guide-process .guide-banner-care-ex .box .icon-wrap .icon02 {background:url(../images/icons/icon-res-guide-ex-02_mo.svg) no-repeat center / contain}
     .res-main .guide-area .guide-process .guide-banner-care-ex .box .icon-wrap .icon03 {background:url(../images/icons/icon-res-guide-ex-03_mo.svg) no-repeat center / contain}
@@ -1124,7 +1125,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .tab-wrap{height:99px;}
     .tab01.filter {margin-top:22px}
     .tab-wrap.fixed .tab01{left:0;}
-    .tab01.filter .btn-filter {left:16px; top:11.5px}
+    .tab01.filter .btn-filter {left:16px; top:7px}
     .tab-wrap.fixed .tab01.filter .btn-filter{position:fixed;}
     .tab01.filter.is_depth .btn-filter {top:57px}
     .tab01.is_depth + .cont-area .plp-list-wrap {margin-top:16px}
