@@ -87,7 +87,7 @@
 
 /* swiper button */
 .banner-btns {position:absolute; width:100%; height:40px; left:50%; transform:translate(-50%,-50%); z-index:10}
-.banner-btns [class^="swiper-button"] {width:40px; height:40px; top:0; margin-top:0; border-radius:50%; background-color:#fff; box-shadow:2px 2px 6px 0 rgba(0, 0, 0, 0.16)}
+.banner-btns [class^="swiper-button"] {width:40px; height:40px; top:0; margin-top:0; border-radius:50%; background-color:#fff; box-shadow:2px 2px 6px 0 rgba(0, 0, 0, 0.16); font-size:0}
 .banner-btns [class^="swiper-button"]::after {width:100%; height:100%; font-size:0; background:url(../images/icons/icon-carousel-btn.svg) no-repeat center}
 .banner-btns .swiper-button-prev {left:20px}
 .banner-btns .swiper-button-next {right:20px}
@@ -125,9 +125,9 @@ ul.input-cate-type .cate-tit > .icon.house {background:url(../images/icons/icon-
 ul.input-cate-type .cate-tit > .icon.mobile {background:url(../images/icons/icon-mobile.svg) no-repeat center}
 ul.input-cate-type .cate-tit > .icon.beauty {background:url(../images/icons/icon-pra_l.svg) no-repeat center}
 ul.input-cate-type .cate-items {display:flex; flex-wrap:wrap; width:calc(100% - 135px); max-width:498px}
-ul.input-cate-type .cate-items > li {width:calc(100% / 3); min-width:156px; padding:5px}
+ul.input-cate-type .cate-items > li {min-width:calc(100% / 3); padding:5px}
 ul.input-cate-type .cate-items > li .chkrdo-btn {width:100%}
-ul.input-cate-type .cate-items label {width:100%; height:100%; padding:0}
+ul.input-cate-type .cate-items label {width:100%; height:100%; padding:0 10px}
 ul.input-cate-type .cate-items input:checked + label {border:1px solid #da0f47; color:#da0f47}
 ul.input-cate-type .cate-items input + label::after {display:none}
 
@@ -135,7 +135,7 @@ ul.input-cate-type .cate-items input + label::after {display:none}
 ul.input-pdt-type {display:flex; flex-wrap:wrap; margin:-12px -6px 0}
 ul.input-pdt-type > li {width:calc(100% / 6); min-width:174px; margin-top:12px; padding:0 6px}
 ul.input-pdt-type .chkrdo-btn {width:100%}
-ul.input-pdt-type .chkrdo-btn label {width:100%; font-weight:500}
+ul.input-pdt-type .chkrdo-btn label {width:100%; padding:0 20px; font-weight:500}
 ul.input-pdt-type .chkrdo-btn input:checked + label {border-width:2px; line-height:44px}
 
 /* 구매희망시기 */
@@ -549,7 +549,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 .pdt-list-area .pdt-list > li .box .info-popup .btn-close {position:absolute; width:24px; height:24px; top:27px; right:26px; background:url(../images/icons/btn-close-24-black.svg) no-repeat center / contain}
 .pdt-list-area .list-wrap .pdt-list + .btn-area {display:block!important; margin:25px auto 0!important}
 
-.bottom-cart-wrap {position:fixed; bottom:0; left:0; right:0; background-color:#fff; box-shadow:0 -3px 6px 0 rgba(0, 0, 0, 0.16); z-index:1000}
+.bottom-cart-wrap {position:fixed; bottom:0; left:0; right:0; background-color:#fff; box-shadow:0 -3px 6px 0 rgba(0, 0, 0, 0.16); z-index:100}
 .bottom-cart-wrap .bar-wrap.care-ex {width:100%; max-width:1460px; margin:0 auto; padding:0 40px 5px}
 .bottom-cart-wrap .bar-wrap.care-ex .head-area {position:relative; padding:37px 0 30px}
 .bottom-cart-wrap .bar-wrap.care-ex .head-area .head-txt {font-size:18px; font-weight:bold; line-height:26px}
@@ -702,7 +702,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 }
 @media screen and (max-width:1230px) {
     /* 제품선택 - 제품군형 */
-    ul.input-pdt-type > li {width:20%}
+    ul.input-pdt-type > li {width:25%}
 }
 @media screen and (max-width:1023px) { /* Tablet */
     /* 매장/상담일시 선택 */
@@ -756,8 +756,11 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .inq-area .res-his-area .res-history .his-info-area .box-wrap .col {width:100%; min-width:0; padding-right:0}
 }
 @media screen and (max-width:996px) {
+    /* 제품선택 - 카테고리형 */
+    ul.input-cate-type .cate-items {width:100%; max-width:100%}
+
     /* 제품선택 - 제품군형 */
-    ul.input-pdt-type > li {width:25%}
+    ul.input-pdt-type > li {width:50%}
 }
 @media screen and (max-width:991px) {
     /* 사이트맵 */
@@ -857,15 +860,15 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     ul.input-cate-type .cate-tit {padding:0; font-size:13px; line-height:20px}
     ul.input-cate-type .cate-tit > .icon {display:none}
     ul.input-cate-type .cate-items {width:100%; max-width:100%; margin-top:6.5px; padding:0 10px}
-    ul.input-cate-type .cate-items > li {min-width:0; padding:3.5px}
-    ul.input-cate-type .cate-items .chkrdo-btn label {min-width:0; padding:6px 0; border:1.5px solid #ddd; font-size:13px; line-height:19px}
+    ul.input-cate-type .cate-items > li {padding:3.5px}
+    ul.input-cate-type .cate-items .chkrdo-btn label {min-width:0; padding:6px 3px; border:1.5px solid #ddd; font-size:13px; line-height:19px}
     ul.input-cate-type .cate-items .chkrdo-btn.sm label {font-size:12px}
     ul.input-cate-type .cate-items input:checked + label {border:1.5px solid #da0f47}
 
     /* 제품선택 - 제품군형 */
     ul.input-pdt-type {justify-content:space-between; margin:-6px -3px 0}
-    ul.input-pdt-type > li {width:50%; min-width:0; margin-top:6px; padding:0 3px}
-    ul.input-pdt-type .chkrdo-btn label {padding:6px 0; border:1.5px solid #ddd; font-size:13px; line-height:19px}
+    ul.input-pdt-type > li {width:auto; min-width:50%; margin-top:6px; padding:0 3px}
+    ul.input-pdt-type .chkrdo-btn label {padding:6px 3px; border:1.5px solid #ddd; font-size:13px; line-height:19px}
     ul.input-pdt-type .chkrdo-btn input:checked + label {border:1.5px solid #da0f47; line-height:19px}
 
     /* 구매희망시기 */

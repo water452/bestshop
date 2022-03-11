@@ -1,7 +1,10 @@
 <%@ page contentType="text/html; charset=utf-8" %>
 <div class="shop-date-wrap">
     <div class="view-area">
-        <h3 class="step-tit">상담하실 매장과 예약 일시 선택<sup>*</sup></h3>
+        <h3 class="step-tit">
+            상담하실 매장과 예약 일시 선택<sup>*</sup>
+            <span>(화상 상담이 가능한 매장만 조회됩니다.)</span>
+        </h3>
         <div class="sort-area">
             <button type="button" class="view-map active">지도보기</button><!-- active 클래스 추가 -->
             <button type="button" class="view-list">리스트보기</button>

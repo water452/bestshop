@@ -571,7 +571,7 @@
     </div> 
     <!-- //레이어팝업 -->
     <!-- 토스트팝업 -->
-    <div id="guide-popup-toast">
+    <div id="guide-popup-toast"><!-- 토스트팝업을 장바구니보다 위로 띄울 시 float 클래스 추가-->
         <h2>토스트팝업</h2>
         <div class="guide-cont">
             

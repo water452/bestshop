@@ -2,9 +2,9 @@
 <ul class="input-pdt-type">
     <li>
         <div class="chkrdo-btn">
-            <input type="checkbox" name="tv" id="tv">
-            <label for="tv">
-                <span class="name">TV</span>
+            <input type="checkbox" name="kitchens" id="fridge">
+            <label for="fridge">
+                <span class="name">시그니처가습공기청정기</span>
             </label>
         </div>
     </li>

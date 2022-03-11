@@ -25,15 +25,20 @@
 
     <!-- s: store benefit -->
     <jsp:include page="./templates/main/benefit.jsp" />
-    <!-- s: store benefit -->
+    <!-- e: store benefit -->
 
     <!-- s: bestshop SNS -->
     <jsp:include page="./templates/main/sns.jsp" />
-    <!-- s: bestshop SNS -->
+    <!-- e: bestshop SNS -->
 
-    <!-- s: bestshop SNS -->
+    <!-- s: bestshop notice -->
     <jsp:include page="./templates/main/notice.jsp" />
-    <!-- s: bestshop SNS -->
+    <!-- e: bestshop notice -->
+
+    <!-- s: main popup -->
+    <jsp:include page="./templates/popup/BSF-MAIN-P.jsp" />
+    <!-- e: main popup -->
+    
 </div>
 
 <jsp:include page="./templates/common/footer.jsp" />

@@ -62,10 +62,10 @@
         <p class="cate-tit"><i class="icon kitchens"></i>주방가전</p>
         <ul class="cate-items">
             <li>
-                <div class="chkrdo-btn sm"><!-- 제품명 7글자 넘어갈시 sm 클래스 추가 -->
+                <div class="chkrdo-btn sm"><!-- 제품명 7글자 넘어갈시 sm 클래스 추가(mobile) -->
                     <input type="checkbox" name="kitchens" id="fridge">
                     <label for="fridge">
-                        <span class="name">얼음정수기냉장고</span>
+                        <span class="name">시그니처가습공기청정기</span>
                     </label>
                 </div>
             </li>

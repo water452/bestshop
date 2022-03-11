@@ -104,7 +104,7 @@ html.full-height .wrap #content .shop-search-wrap{position:relative;min-width:13
 .tab-area .tab-content .result-body ul li.active a.base-link:before{background-image:url('../images/icons/icon_map_select.svg');}
 
 .shop-search-wrap .shop-search-body{flex:1;position:relative;background:lightgray;}
-.shop-search-wrap .shop-search-body .btn-area.innerMap{display:flex;position:absolute;bottom:16px;left:0;width:100%;height:58px;justify-content:center;align-items:center;}
+.shop-search-wrap .shop-search-body .btn-area.innerMap{display:flex;position:absolute;bottom:16px;left:0;width:100%;height:58px;justify-content:center;align-items:center;z-index:1000}
 .shop-search-wrap .shop-search-body .desc-layer{display:flex;position:absolute;bottom:16px;left:0;width:100%;justify-content:center;align-items:center;}
 .shop-search-wrap .shop-search-body .desc-layer .txt-desc{flex:none;position:relative;min-width:450px;max-width:calc(100% - 32px);font-size:16px;color:#fff;text-align:center;line-height:24px;padding:17px 30px;background:rgba(0,0,0,0.7);border-radius:29px;}
 .shop-search-wrap .shop-search-body .desc-layer .txt-desc .close-pop{display:block;overflow:hidden;position:absolute;top:17px;right:24px;width:24px;height:24px;font-size:0;text-indent:-9999em;background:url('../images/icons/btn_close_desc_popup.svg') no-repeat 0 0;background-size:contain;}
@@ -314,8 +314,9 @@ ul.input-list-type .txt-box .input-wrap{width:100%;}
     .search-result .result-body ul li .sub-info .call-num:after{content:'통화';font-size:11px !important;}
     .search-result .result-body ul li .sub-info a{height:17px !important;font-size:11px !important;line-height:17px !important;padding-right:12px !important;background-size:12px 12px;}
 
-    .shop-search-wrap .shop-search-body{position:relative;top:0;left:0;width:100%;height:calc(100% - 320px);}
-    .shop-search-wrap .shop-search-body .btn-area.innerMap{bottom:30px;}
+    .shop-search-wrap .shop-search-body{position:relative;top:0;left:0;width:100%;height:calc(100% - 358px);}
+    .shop-search-wrap .shop-search-body .btn-area.innerMap{height:auto; bottom:12px}
+    .shop-search-wrap .shop-search-body .btn-area.innerMap .btn{padding:0 20px; font-size:10px; line-height:30px}
 
     .search-result .result-filter{display:block;overflow:hidden;position:fixed;top:0;bottom:auto;left:auto;right:0;width:100%;height:100%;padding:0;margin-right:-100%;background:transparent;box-shadow:none;z-index:9999;}
     .search-result .result-filter .result-filter-detail{position:absolute;top:0;right:0;width:250px;height:100%;padding:20px 40px;background:#fff;z-index:1;}

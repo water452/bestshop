@@ -816,7 +816,19 @@
         <button type="button" class="btn-pop-close btnPopClose"><span class="blind">닫기</span></button>
     </div>
 </div>
-<!-- 팝업: 휴대전화 인증 -->
+<!-- // 팝업: 휴대전화 인증 -->
+
+<!-- 팝업: 토스트팝업 -->
+<div class="popup toast float"><!-- 토스트팝업을 장바구니보다 위로 띄울 시 float 클래스 추가-->
+    <div class="pop-wrap">
+        <div class="pop-cont">
+            <span class="block">선택한 필터 항목이 초기화 되었습니다.</span>
+        </div>
+        <button type="button" class="btn-pop-close btnPopClose"><span class="blind">닫기</span></button>
+    </div>
+</div>
+<!-- // 팝업: 토스트팝업 -->
+
 
 <script>
     $(document).ready(function () {
