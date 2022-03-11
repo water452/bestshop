@@ -52,7 +52,7 @@
             <div class="story-video">
                 <div class="sv-view">
                     <div class="sv-video-area mScrollSticky">
-                        <div class="video-wrap">
+                        <div class="video-wrap media">
                             <div class="iframe-wrap">
                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/PKELCx-C_Og" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
