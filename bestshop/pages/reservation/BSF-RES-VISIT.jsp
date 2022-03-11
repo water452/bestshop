@@ -126,6 +126,26 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- 팝업 : 영상 팝업 s -->
+                <div class="popup v-large video" id="popup-video">
+                    <div class="pop-wrap white">
+                        <div class="pop-cont">
+                            <div class="video-wrap">
+                                <video class="pcOnly" playsinline="" muted="" poster="../../images/@img-main-hero-pc.jpg" class="videoPoster" loop> <!-- pc only -->
+                                    <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
+                                    <p>LG전자 회사소개 동영상</p>
+                                </video>
+                                <video class="mobileOnly" playsinline="" muted="" poster="../../images/@img-main-hero-pc.jpg" class="videoPoster" loop> <!-- mobile only -->
+                                    <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
+                                    <p>LG전자 회사소개 동영상</p>
+                                </video>
+                            </div>
+                        </div>
+                        <button type="button" class="btn-pop-close btnPopClose"><span class="blind">닫기</span></button>
+                    </div>
+                </div>
+                <!-- 팝업 : 영상 팝업 e -->
             </div>
 
             <section class="cont-area">
@@ -516,26 +536,6 @@
     </div>
 </div>
 <!-- 팝업: 휴대전화 인증 -->
-
-<!-- 팝업 : 영상 팝업 s -->
-<div class="popup v-large video" id="popup-video">
-    <div class="pop-wrap white">
-        <div class="pop-cont">
-            <div class="video-wrap">
-                <video class="pcOnly" playsinline="" muted="" poster="../../images/@img-main-hero-pc.jpg" class="videoPoster" loop> <!-- pc only -->
-                    <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
-                    <p>LG전자 회사소개 동영상</p>
-                </video>
-                <video class="mobileOnly" playsinline="" muted="" poster="../../images/@img-main-hero-pc.jpg" class="videoPoster" loop> <!-- mobile only -->
-                    <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
-                    <p>LG전자 회사소개 동영상</p>
-                </video>
-            </div>
-        </div>
-        <button type="button" class="btn-pop-close btnPopClose"><span class="blind">닫기</span></button>
-    </div>
-</div>
-<!-- 팝업 : 영상 팝업 e -->
 
 <script>
     $(document).ready(function () {

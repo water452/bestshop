@@ -552,8 +552,8 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 .popup.medium .pop-wrap { max-width: 912px; }
 .popup.large .pop-wrap { max-width: 1146px; }
 .popup.alert .pop-wrap {width:calc(100% - 44px); max-width:500px; padding:60px 40px 50px; text-align:center}
-.popup.v-large .pop-wrap {top:336px; transform:translateX(-50%); max-width:1460px; padding:0 40px; border-radius:0}
-.popup.full .pop-wrap {top:106px; transform:translateX(-50%); max-width:100%; padding:0; border-radius:0}
+.popup.v-large .pop-wrap {top:0; transform:translateX(-50%); max-width:1460px; padding:0}
+.popup.full .pop-wrap {top:106px; transform:translateX(-50%); max-width:100%; padding:0}
 
 /* popup - confirm */
 .popup.confirm .pop-wrap { padding: 60px 30px 50px 30px; max-width: 500px; text-align: center; }
@@ -893,7 +893,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
     .popup.alert .pop-cont {padding:55px 20px 0}
     .popup.alert .btn-area.m-full-flex {width:auto; left:auto}
 		.popup.full .pop-wrap {top:93px}
-		.popup.v-large .pop-wrap {top:230px; padding:0 16px 4px}
+		.popup.v-large .pop-wrap {width:calc(100% + 32px)}
     
     /* popup - 모바일 full */
     .popup.m-full .pop-wrap { height: 100%; border-radius: 0; }
@@ -943,6 +943,9 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	.pop-wrap.main .pop-cont + .btn-area {width:100%; left:0; margin:0; padding:54px 0 0; border-top:0}
 	.pop-wrap.main .pop-cont + .btn-area::before {content:''; display:block; position:absolute; top:0; left:16px; right:16px; height:1px; background-color:#ddd}
 	.pop-wrap.main .btn-area.chk-box .check-box {top:16px; left:14px}
+
+	/* 매장 상담 예약 - 탭이 있는 경우(영상 팝업) */
+	.res-main [class*="tab"] + .top-wrap .popup.v-large .pop-wrap {width:100%;}
 
 	/* dpi if else */
 	.pcOnly{display:none !important;}

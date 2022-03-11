@@ -35,6 +35,7 @@
 .res-main [class*="tab"] + .top-wrap .guide-area [class*="guide-banner"] {padding:0 0 34px}
 .res-main [class*="tab"] + .top-wrap .add-area {margin-top:32px}
 
+.res-main .top-wrap {position:relative}
 .res-main .guide-area .guide-process {padding:50px 0 0}
 .res-main .guide-area .guide-process .inner {max-width:1460px; margin:0 auto}
 .res-main .guide-area .guide-process .desc {margin:10px 0 30px; padding:0 40px; font-size:24px; font-weight:bold; line-height:32px}
