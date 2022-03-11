@@ -327,6 +327,9 @@
             <p class="btn-area innerMap">
                 <a href="javascript:void(0);" class="btn border-red s02">현 지도에서 매장 찾기</a>
             </p>
+            <p class="btn-area innerMap gps">
+                <a href="javascript:void(0);" class="btn purple gps">현재 위치</a>
+            </p>
         </div>
         <!-- e: shop search body > map api 들어갈 곳 -->
     </div>
