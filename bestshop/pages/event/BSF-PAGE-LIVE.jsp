@@ -260,7 +260,7 @@
 <!-- 팝업: (로그인) -->
 <div class="popup alert" id="popup-alert-login">
     <div class="pop-wrap">
-        <div class="pop-cont">
+        <div class="pop-cont min-auto"> <!-- .min-auto : min-height:auto -->
             <p class="txt-pop01">
                 <span class="block">로그인하시겠습니까?</span>
             </p>
@@ -276,7 +276,7 @@
 <!-- 팝업: (알림 신청 완료) -->
 <div class="popup alert" id="popup-alert-notice-apply-complete">
     <div class="pop-wrap">
-        <div class="pop-cont">
+        <div class="pop-cont min-auto">
             <p class="txt-pop01">
                 <span class="block">알림 신청이 완료되었습니다.<br /> 방송 10분 전 SMS가 발송됩니다.</span>
             </p>
@@ -291,7 +291,7 @@
 <!-- 팝업: (알림 신청 취소) -->
 <div class="popup alert" id="popup-alert-notice-apply-cancel">
     <div class="pop-wrap">
-        <div class="pop-cont">
+        <div class="pop-cont min-auto">
             <p class="txt-pop01">
                 <span class="block">알림 신청을 취소하시겠습니까?</span>
             </p>

@@ -326,7 +326,6 @@ ul.input-list-type .txt-box .input-wrap{width:100%;}
     .shop-search-wrap .shop-search-body .desc-layer .txt-desc{min-width:0;width:calc(100% - 32px);font-size:14px;margin:0 auto;}
 
     /* benefit > card */
-    .detail-block .detail-box{margin-top:-64px;}
     .static-type .static-block{display:block;padding:50px 0;}
     .static-type .static-block .thumb{padding:0;}
     .static-type .static-block .thumb img{width:310px;max-width:100%;margin:0 auto;}

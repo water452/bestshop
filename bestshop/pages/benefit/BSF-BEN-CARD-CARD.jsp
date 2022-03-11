@@ -94,10 +94,11 @@
     <div class="static-block">
         <div class="thumb">
             <img src="/bestshop/images/img_benefit_card03.png" alt="현대카드">
+            <!-- 20220311 삭제
             <p class="btn-area">
                 <a href="javascript:void(0);" class="btn border grad">카드 신청하기</a>
             </p>
-            <p class="txt-desc">대표번호 1544-7000</p>
+            <p class="txt-desc">대표번호 1544-7000</p> -->
         </div>
         <div class="cont-block">
             <div class="title">현대카드</div>
@@ -116,10 +117,11 @@
     <div class="static-block">
         <div class="thumb">
             <img src="/bestshop/images/img_benefit_card04.png" alt="농협카드">
+            <!-- 20220311 삭제
             <p class="btn-area">
                 <a href="javascript:void(0);" class="btn border grad">카드 신청하기</a>
             </p>
-            <p class="txt-desc">대표번호 1544-7000</p>
+            <p class="txt-desc">대표번호 1544-7000</p> -->
         </div>
         <div class="cont-block">
             <div class="title">농협카드</div>
@@ -135,10 +137,11 @@
     <div class="static-block">
         <div class="thumb">
             <img src="/bestshop/images/img_benefit_card05.png" alt="KB국민카드">
+            <!-- 20220311 삭제
             <p class="btn-area">
                 <a href="javascript:void(0);" class="btn border grad">카드 신청하기</a>
             </p>
-            <p class="txt-desc">대표번호 1544-7000</p>
+            <p class="txt-desc">대표번호 1544-7000</p> -->
         </div>
         <div class="cont-block">
             <div class="title">KB국민카드</div>
@@ -234,6 +237,7 @@
     </div><!-- //.static-block -->
 </div><!-- //.static-type -->
 
+<!-- 20220311 삭제
 <div class="waring-block">
     <strong>&lsqb;유의사항&rsqb;</strong>
     <ul>
@@ -243,4 +247,4 @@
         <li>연체 이자율은 연체일 수 및 약정금리에 따라 상이하게 적용됩니다.</li>
         <li>신용카드 남용은 가계경제에 위협이 됩니다.</li>
     </ul>
-</div>
+</div> -->

@@ -535,6 +535,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 .pop-wrap { position: absolute; top: 50%; left: 50%; width: 100%; padding: 34px 40px 50px; max-width: 678px; border-radius: 8px; background: #fff; overflow: hidden; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
 .pop-head { padding-bottom: 15px; border-bottom: 2px solid #000; }
 .pop-cont { min-height: 249px; max-height: 589px; overflow-y: auto; }
+.pop-cont.min-auto {min-height:auto}
 .tit-pop { line-height: 30px; font-size: 20px; font-weight: 500; }
 .tit-pop + .txt-pop01 { margin-top: 10px; }
 .txt-pop01 { line-height: 24px; font-size: 16px; }
