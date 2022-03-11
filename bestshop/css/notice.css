@@ -411,6 +411,111 @@
 .notice .btn-area .btn {
   font-weight: bold;
 }
+
+
+/* 공유하기 툴팁영역(공통) */
+.tooltip-wrap .tooltip-icon {
+  display: block;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: url(../images/icons/icon-tooltip.svg) center no-repeat;
+  background-size: 100%;
+  font-size: 0;
+  line-height: 16px;
+  cursor: pointer;
+}
+.tooltip-wrap.share .tooltip-icon {
+  width: 24px;
+  height: 24px;
+  background: url(../images/icons/icon-share-24.svg) no-repeat 0 0;
+  line-height: 32px;
+}
+.tooltip-wrap .tooltip-box {
+  display: none;
+  position: absolute;
+  left: -8px;
+  top: 28px;
+  min-width: 460px;
+  padding: 32px;
+  border-radius: 8px;
+  background: #fff;
+  text-align: left;
+  box-shadow: 1px 2px 10px 0 rgb(0 0 0 / 22%);
+  z-index: 90;
+}
+.tooltip-wrap .tooltip-box.fixed-right {
+  left: auto;
+  right: 0;
+}
+.tooltip-wrap.share .tooltip-box {
+  top: 34px;
+  min-width: 348px;
+  border-radius: 8px;
+  box-shadow: 2px 4px 16px 0 rgb(0 0 0 / 16%);
+  line-height: 0;
+}
+.tooltip-wrap.share .title {
+  display: block;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+.tooltip-wrap.share .sns-wrap {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 2px solid #000;
+  text-align: center;
+}
+.sns-wrap .sns-list {
+  display: inline-block;
+}
+.tooltip-wrap.share .sns-wrap .sns-list>li {
+  display: inline-block;
+}
+.sns-wrap .sns-list li:first-child {
+  margin-left: 0;
+}
+.sns-wrap .sns-list li .ico-btn {
+  display: block;
+  min-width: 56px;
+  padding-top: 36px;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+}
+.sns-wrap .sns-list li .ico-btn.fb {
+  background: url(../images/icons/icon-facebook-black.svg) center 0 no-repeat;
+  background-size: 32px 32px;
+}
+.sns-wrap .sns-list li .ico-btn.tw {
+  background: url(../images/icons/icon-twitter-black.svg) center 0 no-repeat;
+  background-size: 32px 32px;
+}
+.sns-wrap .sns-list li .ico-btn.kk {
+  background: url(../images/icons/icon-kakao-black.svg) center 0 no-repeat;
+  background-size: 32px 32px;
+}
+.sns-wrap .sns-list li .ico-btn.url {
+  background: url(../images/icons/icon-url-black.svg) center 0 no-repeat;
+  background-size: 32px 32px;
+}
+.tooltip-wrap .btn-close {
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  width: 32px;
+  height: 32px;
+}
+.tooltip-wrap .btn-close {
+  top: 10px;
+  right: 10px;
+}
+.tooltip-wrap.share .btn-close {
+  top: 32px;
+  right: 32px;
+}
+
 /* // 공지사항 상세 */
 
 /* mobile */
