@@ -315,6 +315,15 @@
 
         <!-- s: shop search body > map api 들어갈 곳 -->
         <div class="shop-search-body">
+
+            <div class="map-balloon active"> <!-- pink -->
+                <p>테스트점1</p>
+            </div>
+
+            <div class="map-balloon"> <!-- gray -->
+                <p>테스트점2</p>
+            </div>
+
             <p class="btn-area innerMap">
                 <a href="javascript:void(0);" class="btn border-red s02">현 지도에서 매장 찾기</a>
             </p>

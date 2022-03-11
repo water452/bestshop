@@ -225,6 +225,13 @@ ul.input-list-type .txt-box .input-wrap{width:100%;}
 .img-slide-wrap .swiper-slide{overflow:hidden;position:relative;border-radius:10px;}
 .img-slide-wrap .btn-video-view{position:absolute;top:25px;left:25px;height:46px;font-size:16px;color:#fff;line-height:46px;padding:0 23px;background:rgba(0,0,0,0.3);border-radius:23px;z-index:10;}
 
+/* shop > map */
+.map-balloon{display:inline-block;position:relative;padding:7px 22px;background:#999;border-radius:5px;box-shadow:0 3px 6px rgba(0,0,0,0.16);}
+.map-balloon:after{display:block;content:'';position:absolute;bottom:-10px;left:calc(50% - 5px);border-top:10px solid #999;border-left:5px solid transparent;border-right:5px solid transparent;}
+.map-balloon p{font-size:14px;color:#fff;line-height:20px;}
+.map-balloon.active{background:#da0f47;}
+.map-balloon.active:after{border-top-color:#da0f47;}
+
 /* high dpi */
 @media screen and (min-width:1025px){
     .search-result .result-filter .result-filter-detail{position:relative;padding-top:45px;}
