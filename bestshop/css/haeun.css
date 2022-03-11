@@ -1054,6 +1054,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-main .top-wrap .guide-area .guide-info-list .bull > li + li {margin-top:6px}
 
     /* 케어십상담예약페이지 */
+    .res-main.care .top-wrap {padding:0 16px}
     .res-main.care .cont-wrap .cont-area {padding-top:0}
     .res-main.care .cont-wrap .cont-area .step-area {margin-top:24px}
 

@@ -90,8 +90,8 @@
                                                     <div class="inner">
                                                         <p class="category-tit">얼음정수기 냉장고</p>
                                                         <div class="category-thumb">
-                                                            <img src="../../images/img-refrigerator-01.jpg"
-                                                                alt="얼음정수기 냉장고">
+                                                            <img class="m-hidden" src="../../images/img-cate-refrigerator-01.jpg" alt="얼음정수기 냉장고">
+                                                            <img class="pc-hidden" src="../../images/img-cate-refrigerator-01_mo.jpg" alt="얼음정수기 냉장고">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -114,16 +114,16 @@
                                             <div class="box">
                                                 <div class="category">
                                                     <div class="inner">
-                                                        <p class="category-tit">얼음정수기 냉장고</p>
+                                                        <p class="category-tit">정수기</p>
                                                         <div class="category-thumb">
-                                                            <img src="../../images/img-refrigerator-01.jpg"
-                                                                alt="얼음정수기 냉장고">
+                                                            <img class="m-hidden" src="../../images/img-cate-water-01.jpg" alt="정수기">
+                                                            <img class="pc-hidden" src="../../images/img-cate-water-01_mo.jpg" alt="정수기">
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="sub-category">
                                                     <div class="inner">
-                                                        <p class="category-tit">얼음정수기 냉장고</p>
+                                                        <p class="category-tit">정수기</p>
                                                         <ul class="sub-category-list">
                                                             <li>주기별 필터 무상 교체</li>
                                                             <li>고온 고압 세척으로 99.99% 살균교체</li>
@@ -138,18 +138,20 @@
                                             <div class="box">
                                                 <div class="category">
                                                     <div class="inner">
-                                                        <p class="category-tit">얼음정수기 냉장고</p>
+                                                        <p class="category-tit">건조기</p>
                                                         <div class="category-thumb">
-                                                            <img src="../../images/img-refrigerator-01.jpg"
-                                                                alt="얼음정수기 냉장고">
+                                                            <img class="m-hidden" src="../../images/img-cate-dryer-01.jpg" alt="건조기">
+                                                            <img class="pc-hidden" src="../../images/img-cate-dryer-01_mo.jpg" alt="건조기">
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="sub-category">
                                                     <div class="inner">
-                                                        <p class="category-tit">얼음정수기 냉장고</p>
+                                                        <p class="category-tit">건조기</p>
                                                         <ul class="sub-category-list">
                                                             <li>주기별 필터 무상 교체</li>
+                                                            <li>고온 고압 세척으로 99.99% 살균교체 고온 고압 세척으로 99.99% 살균교체</li>
+                                                            <li>토탈 클리닝 서비스</li>
                                                             <li>고온 고압 세척으로 99.99% 살균교체</li>
                                                             <li>토탈 클리닝 서비스</li>
                                                         </ul>
@@ -162,16 +164,16 @@
                                             <div class="box">
                                                 <div class="category">
                                                     <div class="inner">
-                                                        <p class="category-tit">얼음정수기 냉장고</p>
+                                                        <p class="category-tit">전기레인지</p>
                                                         <div class="category-thumb">
-                                                            <img src="../../images/img-refrigerator-01.jpg"
-                                                                alt="얼음정수기 냉장고">
+                                                            <img class="m-hidden" src="../../images/img-cate-stove-01.jpg" alt="전기레인지">
+                                                            <img class="pc-hidden" src="../../images/img-cate-stove-01_mo.jpg" alt="전기레인지">
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="sub-category">
                                                     <div class="inner">
-                                                        <p class="category-tit">얼음정수기 냉장고</p>
+                                                        <p class="category-tit">전기레인지</p>
                                                         <ul class="sub-category-list">
                                                             <li>주기별 필터 무상 교체</li>
                                                             <li>고온 고압 세척으로 99.99% 살균교체</li>
@@ -190,42 +192,16 @@
                                             <div class="box">
                                                 <div class="category">
                                                     <div class="inner">
-                                                        <p class="category-tit">얼음정수기 냉장고</p>
+                                                        <p class="category-tit">공기청정기</p>
                                                         <div class="category-thumb">
-                                                            <img src="../../images/img-refrigerator-01.jpg"
-                                                                alt="얼음정수기 냉장고">
+                                                            <img class="m-hidden" src="../../images/img-cate-air-cleaner-01.jpg" alt="공기청정기">
+                                                            <img class="pc-hidden" src="../../images/img-cate-air-cleaner-01_mo.jpg" alt="공기청정기">
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="sub-category">
                                                     <div class="inner">
-                                                        <p class="category-tit">얼음정수기 냉장고</p>
-                                                        <ul class="sub-category-list">
-                                                            <li>주기별 필터 무상 교체</li>
-                                                            <li>고온 고압 세척으로 99.99% 살균교체 고온 고압 세척으로 99.99% 살균교체</li>
-                                                            <li>토탈 클리닝 서비스</li>
-                                                            <li>고온 고압 세척으로 99.99% 살균교체</li>
-                                                            <li>토탈 클리닝 서비스</li>
-                                                        </ul>
-                                                        <button type="button" class="btn btn-select">선택</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="box">
-                                                <div class="category">
-                                                    <div class="inner">
-                                                        <p class="category-tit">얼음정수기 냉장고</p>
-                                                        <div class="category-thumb">
-                                                            <img src="../../images/img-refrigerator-01.jpg"
-                                                                alt="얼음정수기 냉장고">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="sub-category">
-                                                    <div class="inner">
-                                                        <p class="category-tit">얼음정수기 냉장고</p>
+                                                        <p class="category-tit">공기청정기</p>
                                                         <ul class="sub-category-list">
                                                             <li>주기별 필터 무상 교체</li>
                                                             <li>고온 고압 세척으로 99.99% 살균교체</li>
@@ -240,16 +216,16 @@
                                             <div class="box">
                                                 <div class="category">
                                                     <div class="inner">
-                                                        <p class="category-tit">얼음정수기 냉장고</p>
+                                                        <p class="category-tit">공기청정팬</p>
                                                         <div class="category-thumb">
-                                                            <img src="../../images/img-refrigerator-01.jpg"
-                                                                alt="얼음정수기 냉장고">
+                                                            <img class="m-hidden" src="../../images/img-cate-air-fan-01.jpg" alt="공기청정팬">
+                                                            <img class="pc-hidden" src="../../images/img-cate-air-fan-01_mo.jpg" alt="공기청정팬">
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="sub-category">
                                                     <div class="inner">
-                                                        <p class="category-tit">얼음정수기 냉장고</p>
+                                                        <p class="category-tit">공기청정팬</p>
                                                         <ul class="sub-category-list">
                                                             <li>주기별 필터 무상 교체</li>
                                                             <li>고온 고압 세척으로 99.99% 살균교체</li>
@@ -264,16 +240,40 @@
                                             <div class="box">
                                                 <div class="category">
                                                     <div class="inner">
-                                                        <p class="category-tit">얼음정수기 냉장고</p>
+                                                        <p class="category-tit">식기세척기</p>
                                                         <div class="category-thumb">
-                                                            <img src="../../images/img-refrigerator-01.jpg"
-                                                                alt="얼음정수기 냉장고">
+                                                            <img class="m-hidden" src="../../images/img-cate-dish-washer-01.jpg" alt="식기세척기">
+                                                            <img class="pc-hidden" src="../../images/img-cate-dish-washer-01_mo.jpg" alt="식기세척기">
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="sub-category">
                                                     <div class="inner">
-                                                        <p class="category-tit">얼음정수기 냉장고</p>
+                                                        <p class="category-tit">식기세척기</p>
+                                                        <ul class="sub-category-list">
+                                                            <li>주기별 필터 무상 교체</li>
+                                                            <li>고온 고압 세척으로 99.99% 살균교체</li>
+                                                            <li>토탈 클리닝 서비스</li>
+                                                        </ul>
+                                                        <button type="button" class="btn btn-select">선택</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="box">
+                                                <div class="category">
+                                                    <div class="inner">
+                                                        <p class="category-tit">식물생활가전</p>
+                                                        <div class="category-thumb">
+                                                            <img class="m-hidden" src="../../images/img-cate-lg-tiiun-01.jpg" alt="식물생활가전">
+                                                            <img class="pc-hidden" src="../../images/img-cate-lg-tiiun-01_mo.jpg" alt="식물생활가전">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-category">
+                                                    <div class="inner">
+                                                        <p class="category-tit">식물생활가전</p>
                                                         <ul class="sub-category-list">
                                                             <li>주기별 필터 무상 교체</li>
                                                             <li>고온 고압 세척으로 99.99% 살균교체</li>
@@ -292,42 +292,16 @@
                                             <div class="box">
                                                 <div class="category">
                                                     <div class="inner">
-                                                        <p class="category-tit">얼음정수기 냉장고</p>
+                                                        <p class="category-tit">공기청정기</p>
                                                         <div class="category-thumb">
-                                                            <img src="../../images/img-refrigerator-01.jpg"
-                                                                alt="얼음정수기 냉장고">
+                                                            <img class="m-hidden" src="../../images/img-cate-air-cleaner-01.jpg" alt="공기청정기">
+                                                            <img class="pc-hidden" src="../../images/img-cate-air-cleaner-01_mo.jpg" alt="공기청정기">
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="sub-category">
                                                     <div class="inner">
-                                                        <p class="category-tit">얼음정수기 냉장고</p>
-                                                        <ul class="sub-category-list">
-                                                            <li>주기별 필터 무상 교체</li>
-                                                            <li>고온 고압 세척으로 99.99% 살균교체 고온 고압 세척으로 99.99% 살균교체</li>
-                                                            <li>토탈 클리닝 서비스</li>
-                                                            <li>고온 고압 세척으로 99.99% 살균교체</li>
-                                                            <li>토탈 클리닝 서비스</li>
-                                                        </ul>
-                                                        <button type="button" class="btn btn-select">선택</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="box">
-                                                <div class="category">
-                                                    <div class="inner">
-                                                        <p class="category-tit">얼음정수기 냉장고</p>
-                                                        <div class="category-thumb">
-                                                            <img src="../../images/img-refrigerator-01.jpg"
-                                                                alt="얼음정수기 냉장고">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="sub-category">
-                                                    <div class="inner">
-                                                        <p class="category-tit">얼음정수기 냉장고</p>
+                                                        <p class="category-tit">공기청정기</p>
                                                         <ul class="sub-category-list">
                                                             <li>주기별 필터 무상 교체</li>
                                                             <li>고온 고압 세척으로 99.99% 살균교체</li>
@@ -342,16 +316,16 @@
                                             <div class="box">
                                                 <div class="category">
                                                     <div class="inner">
-                                                        <p class="category-tit">얼음정수기 냉장고</p>
+                                                        <p class="category-tit">공기청정팬</p>
                                                         <div class="category-thumb">
-                                                            <img src="../../images/img-refrigerator-01.jpg"
-                                                                alt="얼음정수기 냉장고">
+                                                            <img class="m-hidden" src="../../images/img-cate-air-fan-01.jpg" alt="공기청정팬">
+                                                            <img class="pc-hidden" src="../../images/img-cate-air-fan-01_mo.jpg" alt="공기청정팬">
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="sub-category">
                                                     <div class="inner">
-                                                        <p class="category-tit">얼음정수기 냉장고</p>
+                                                        <p class="category-tit">공기청정팬</p>
                                                         <ul class="sub-category-list">
                                                             <li>주기별 필터 무상 교체</li>
                                                             <li>고온 고압 세척으로 99.99% 살균교체</li>
@@ -366,16 +340,40 @@
                                             <div class="box">
                                                 <div class="category">
                                                     <div class="inner">
-                                                        <p class="category-tit">얼음정수기 냉장고</p>
+                                                        <p class="category-tit">식기세척기</p>
                                                         <div class="category-thumb">
-                                                            <img src="../../images/img-refrigerator-01.jpg"
-                                                                alt="얼음정수기 냉장고">
+                                                            <img class="m-hidden" src="../../images/img-cate-dish-washer-01.jpg" alt="식기세척기">
+                                                            <img class="pc-hidden" src="../../images/img-cate-dish-washer-01_mo.jpg" alt="식기세척기">
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="sub-category">
                                                     <div class="inner">
-                                                        <p class="category-tit">얼음정수기 냉장고</p>
+                                                        <p class="category-tit">식기세척기</p>
+                                                        <ul class="sub-category-list">
+                                                            <li>주기별 필터 무상 교체</li>
+                                                            <li>고온 고압 세척으로 99.99% 살균교체</li>
+                                                            <li>토탈 클리닝 서비스</li>
+                                                        </ul>
+                                                        <button type="button" class="btn btn-select">선택</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="box">
+                                                <div class="category">
+                                                    <div class="inner">
+                                                        <p class="category-tit">식물생활가전</p>
+                                                        <div class="category-thumb">
+                                                            <img class="m-hidden" src="../../images/img-cate-lg-tiiun-01.jpg" alt="식물생활가전">
+                                                            <img class="pc-hidden" src="../../images/img-cate-lg-tiiun-01_mo.jpg" alt="식물생활가전">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-category">
+                                                    <div class="inner">
+                                                        <p class="category-tit">식물생활가전</p>
                                                         <ul class="sub-category-list">
                                                             <li>주기별 필터 무상 교체</li>
                                                             <li>고온 고압 세척으로 99.99% 살균교체</li>
