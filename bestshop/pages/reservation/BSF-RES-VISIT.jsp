@@ -175,12 +175,21 @@
                     <div class="main-area active"><!-- active 클래스 추가 -->
                         <form action="">
                             <h3 class="step-tit">상담목적<sup>*</sup></h3>
+                            <div class="btm-more err-block" style="display: block;"> <!-- step 유효성 체크 -->
+                                <p class="err-msg">목적을 선택해주세요.</p>
+                            </div>
                             <jsp:include page="../../templates/reservation/input-icon-type.jsp" /> <!-- //input-icon-type.jsp -->
 
                             <h3 class="step-tit">제품선택<sup>*</sup><span>(다중선택)</span></h3>
+                            <div class="btm-more err-block" style="display: block;"> <!-- step 유효성 체크 -->
+                                <p class="err-msg">제품을 선택해주세요.</p>
+                            </div>
                             <jsp:include page="../../templates/reservation/input-cate-type.jsp" /> <!-- //input-cate-type.jsp -->
 
                             <h3 class="step-tit">구매 희망 시기<sup>*</sup></h3>
+                            <div class="btm-more err-block" style="display: block;"> <!-- step 유효성 체크 -->
+                                <p class="err-msg">구매 희망 시기를 선택해주세요.</p>
+                            </div>
                             <jsp:include page="../../templates/reservation/input-base-type.jsp" /> <!-- //input-base-type.jsp -->
 
                             <h3 class="step-tit">추가 전달사항</span></h3>
