@@ -881,35 +881,35 @@
 <script>
     $(document).ready(function () {
         // 케어십 배너 슬라이드
-    var imgSwiper = new Swiper(".img-slide", {
-        speed : 800,
-        slidesPerView: 1,
-        autoplay: {
-            delay:5000
-        },
-        pagination: {
-            el: ".img-slide .slide-navi .pager-fraction",
-            type: "fraction"
-        },
-        navigation: {
-            nextEl: ".img-slide .slide-navi .slideBtn.btn-next",
-            prevEl: ".img-slide .slide-navi .slideBtn.btn-prev"
-        },
-        loop : true,
-        loopAdditionalSlides: 1,
-    });
+        var imgSwiper = new Swiper(".img-slide", {
+            speed : 800,
+            slidesPerView: 1,
+            autoplay: {
+                delay:5000
+            },
+            pagination: {
+                el: ".img-slide .slide-navi .pager-fraction",
+                type: "fraction"
+            },
+            navigation: {
+                nextEl: ".img-slide .slide-navi .slideBtn.btn-next",
+                prevEl: ".img-slide .slide-navi .slideBtn.btn-prev"
+            },
+            loop : true,
+            loopAdditionalSlides: 1,
+        });
 
-    // 케어십 배너 슬라이드 (autoplay control)
-    $('.img-slide .swiper-auto > button').on('click', function(){
-        $('.img-slide .swiper-auto > button').toggleClass('active');
+        // 케어십 배너 슬라이드 (autoplay control)
+        $('.img-slide .swiper-auto > button').on('click', function(){
+            $('.img-slide .swiper-auto > button').toggleClass('active');
 
-        if ($(this).hasClass('btn-play')){
-            imgSwiper.autoplay.start();
-        } 
-        else {
-            imgSwiper.autoplay.stop();
-        };
-    });
+            if ($(this).hasClass('btn-play')){
+                imgSwiper.autoplay.start();
+            } 
+            else {
+                imgSwiper.autoplay.stop();
+            };
+        });
 
 
         // step 1 제품선택
@@ -986,55 +986,3 @@
     });
 </script>
 <jsp:include page="../../templates/common/footer.jsp" />
-<jsp:include page="../../templates/popup/popup-gps-agree.jsp" />
-
-
-<script>
-    /* 위치정보제공동의 팝업 추가 STEP01 > STEP02 */
-    $('#popup-confirm button').on('click', function(){
-        if(!$(this).hasClass('btnPopCancel')){ // '네' 누를경우
-            $('html').css('overflow', 'visible');
-
-            /* step01 effect */
-            $('#popup-confirm, .dim').fadeOut(200); // 팝업 + dim 처리 히든
-            $('.step01 .main-area, .step01 .btn-area').stop().slideUp(400); // 내용과 버튼영역 히든
-            $('.step01 .info-txt-com').addClass('active'); // 요약정보 노출
-            $('.step01').removeClass('border'); // border 삭제
-
-            /* step02 effect */
-            $('.step02 .main-area, .step02 .btn-area').stop().slideDown(400);
-            $('.step02 .info-txt-uncom').slideUp(400);
-            $('.step02').addClass('border');
-        }
-    });
-
-    /* STEP02 > STEP03 */
-    $('.step02 .btn-area button').on('click', function(){
-        $('.step02 .main-area, .step02 .btn-area').stop().slideUp(400); // 내용과 버튼영역 히든
-        $('.step02 .info-txt-com').addClass('active'); // 요약정보 노출
-        $('.step02').removeClass('border');
-
-        /* step03 effect */
-        $('.step03 .main-area').stop().slideDown(400);
-        $('.step03 .info-txt-uncom').slideUp(400);
-        $('.step03').addClass('border').find('.info-txt-com').addClass('active');
-    });
-
-    /* TOGGLE STEP */
-    $('.info-txt-com a').on('click', function(){
-        var _with = $(this).closest('.step-area').siblings('.step-area');
-
-        _with.removeClass('border').find('.main-area, .btn-area').slideUp(400);
-        $(this).closest('.step-area').toggleClass('border').find('.main-area').slideToggle(400);
-
-        if($('.step02 .btn-area').is(':visible')){ // step02 상태에서 펼칠때
-            $('.step02 .info-txt-com').addClass('active');
-            $('.step02').addClass('middle');
-        }
-
-        if($(this).closest('.step-area').hasClass('middle')){ // 위의 상황이 지나고 다시 펼칠때
-            $('.step02 .btn-area').slideDown(400);
-            $('.step02').removeClass('middle');
-        }
-    });
-</script>

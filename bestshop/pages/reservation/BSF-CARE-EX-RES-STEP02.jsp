@@ -4,93 +4,167 @@
 <div class="container" id="content">
 
     <div class="page-header">
-        <h2 class="title">케어십 상담 예약</h2>
+        <h2 class="title">소모품 구매 예약</h2>
     </div>
 
     <!-- contents -->
-    <div class="contents res-main care">
+    <div class="contents res-main care-ex">
 
         <div class="top-wrap">
-
-            <div class="img-slide-wrap">
-                <div class="swiper img-slide">
-                    <ul class="swiper-wrapper">
-                        <li class="swiper-slide">
-                            <img class="m-hidden" src="../../images/img-careship-banner-01.png" alt="&nbsp;" /><!-- pc용 -->
-                            <img class="pc-hidden" src="../../images/img-careship-banner-01_mo.png" alt="&nbsp;" /><!-- mobile용 -->
-                        </li>
-                        <li class="swiper-slide">
-                            <img class="m-hidden" src="../../images/img-careship-banner-01.png" alt="&nbsp;" /><!-- pc용 -->
-                            <img class="pc-hidden" src="../../images/img-careship-banner-01_mo.png" alt="&nbsp;" /><!-- mobile용 -->
-                        </li>
-                        <li class="swiper-slide">
-                            <img class="m-hidden" src="../../images/img-careship-banner-01.png" alt="&nbsp;" /><!-- pc용 -->
-                            <img class="pc-hidden" src="../../images/img-careship-banner-01_mo.png" alt="&nbsp;" /><!-- mobile용 -->
-                        </li>
-                    </ul>
-                    <div class="slide-navi">
-                        <div class="slide-navi-detail">
-                            <div class="swiper-pager">
-                                <button type="button" class="slideBtn btn-prev">이전 슬라이드</button>
-                                <div class="pager-fraction"></div>
-                                <button type="button" class="slideBtn btn-next">다음 슬라이드</button>
+            <div class="guide-area bg">
+                <div class="guide-process">
+                    <div class="inner">
+                        <p class="desc">필요한 소모품에 대한 정보를 LG전자 베스트샵을 통해 확인하고 <br class="m-hidden">매장 방문하여 구매 및 추가 상담을
+                            받으실 수 있습니다.</p>
+                        <div class="swiper guide-banner-care-ex">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="box">
+                                        <span class="icon-wrap">
+                                            <i class="icon01"></i>
+                                        </span>
+                                        <span class="txt">구매 희망 <br class="pc-hidden">소모품 선택</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="box">
+                                        <span class="icon-wrap">
+                                            <i class="icon02"></i>
+                                        </span>
+                                        <span class="txt">소모품 구매 <br class="pc-hidden">예약 신청</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="box">
+                                        <span class="icon-wrap">
+                                            <i class="icon03"></i>
+                                        </span>
+                                        <span class="txt">방문 매장 재고 확인 <br class="pc-hidden">및 고객 전화 안내</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="box">
+                                        <span class="icon-wrap">
+                                            <i class="icon04"></i>
+                                        </span>
+                                        <span class="txt">매장 방문 픽업 <br class="pc-hidden">및 추가 상담</span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="swiper-auto">
-                                <button type="button" class="slideBtn btn-play">슬라이드 재생</button>
-                                <button type="button" class="slideBtn btn-stop active">슬라이드 일시정지</button>
-                            </div>
+                            <div class="swiper-scrollbar"></div>
                         </div>
                     </div>
                 </div>
-            </div>
-
-        </div>
-
-        <div class="sticky-info-wrap">
-            <div class="inner">
-                <div class="info-txt">
-                    <!-- <span class="no-cate">카테고리를 선택하세요. (선택 시 제품별 상세한 서비스 내용을 확인하실 수 있습니다.)</span> -->
-                    <span class="cate-name">정수기</span>
-                    <!-- <span class="no-cate">제품을 선택하세요.</span> -->
-                    <span class="cate-name">LG퓨리케어 슬림스윙정수기 / WU800AS</span>
+                <div class="guide-info-list">
+                    <div class="inner">
+                        <ul class="bull">
+                            <li>소모품은 적기에 교체해야, 제품의 성능을 100% 발휘할 수 있습니다.</li>
+                            <li>오프라인 상에는 LG전자 베스트샵에서만 소모품 구매가 가능합니다.</li>
+                        </ul>
+                    </div>
                 </div>
-                <button type="button" class="btn-reselect">재선택</button>
+                <div class="guide-bottom">
+                    <div class="inner">
+                        <dl>
+                            <dt>소모품이란?</dt>
+                            <dd>사용 주기에 맞추어 손쉽게 교체할 수 있는 필터, 청소포와 같은 소모품이나 옷걸이, 거치대와 같은 액세서리 종류를 말합니다.</dd>
+                        </dl>
+                    </div>
+                </div>
             </div>
         </div>
 
         <div class="cont-wrap">
-            <section class="cont-area">
+            
+            <section class="cont-area mt20">
+                <p class="step-top-note"><sup>*</sup>필수입력항목</p>
+                <!-- step 1 -->
+                <div class="step-area step01 border"><!-- border 활성화시 border-color 진하게 -->
+                    <div class="result-area">
+                        <div class="info-step01">
+                            <!-- s: 요약정보 -->
+                            <div class="info-txt-com"><!-- 노출여부 : active -->
+                                <a href="javascript:void(0);">
+                                    <span class="mo-tit">소모품 선택</span>
+                                    <span class="pc-tit">제품 :</span>
+                                    <span class="txt">물걸레노즐, 트루 토탈케어 필터 전용 극세 필터</span>
+                                </a>
+                            </div>
+                            <!-- e: 요약정보 -->
+                        </div>
+                    </div>
 
-                <!-- step count -->
-                <div class="step-count">
-                    <!-- <p class="tit">카테고리 선택</p>
-                    <p class="step-num">STEP<em>01</em><span>/ 03</span></p> -->
+                    <div class="main-area active"><!-- active 클래스 추가 -->
+                        <form action="">
+                            <h3 class="step-tit">선택 제품<sup>*</sup><span>(최대 3개 선택가능)</span></h3>
+                            <jsp:include page="../../templates/reservation/input-myselect.jsp" /> <!-- //input-myselect.jsp -->
+                        </form>
+                    </div>
 
-                    <!-- <p class="tit">제품 선택</p>
-                    <p class="step-num">STEP<em>02</em><span>/ 03</span></p> -->
-
-                    <p class="tit">예약 정보 입력</p>
-                    <p class="step-num">STEP<em>03</em><span>/ 03</span></p>
+                    <div class="btn-area">
+                        <button type="button" data-href="#popup-confirm" class="btn s01 border-red arr-right btnPopOpen">다음으로</button>
+                    </div>
 
                 </div>
-                <!-- // step count -->
+                <!-- // step 1 -->
+
+                <!-- step 2 -->
+                <div class="step-area step02">
+                    <div class="result-area">
+                        <div class="info-step02">
+                            <!-- s: 요약정보 -->
+                            <div class="info-txt-com"> <!-- 노출여부 : active -->
+                                <a href="javascript:void(0);">
+                                    <span class="mo-tit">상담 매장 및 예약일시</span>
+                                    <span class="pc-tit">상담 매장 :</span>
+                                    <span class="txt">강남본점</span>
+
+                                    <span class="pc-tit">예약 일시 :</span>
+                                    <span class="txt">21년12월15일, 17시</span>
+                                </a>
+                            </div>
+                            <!-- e: 요약정보 -->
+
+                            <!-- s: step count -->
+                            <div class="info-txt-uncom active"> <!-- 노출여부 : active -->
+                                <p class="page-num">STEP02</p>
+                                <p class="txt">상담하실 매장과 일시를 선택해주세요.</p>
+                            </div>
+                            <!-- e: step count -->
+                        </div>
+                    </div>
+
+                    <div class="main-area"> <!-- 노출여부 : active -->
+                        <jsp:include page="../../templates/reservation/map.jsp" /> <!-- //map.jsp -->
+                    </div>
+
+                    <div class="btn-area bg active"><!-- bg 활성화 : active -->
+                        <div class="result-txt">
+                            <!-- <p>상담하실 매장과 일시를 선택해주세요.</p> -->
+                            <p>상담 매장: <span>강남본점</span></p>
+                            <p>예약 일시: <span>21년12월15일, 17시</span></p>
+                        </div>
+                        <button type="button" class="btn s01 border-red arr-right">다음으로</button><!-- 버튼 비활성화 : disabled -->
+                    </div>
+                </div>
+                <!-- // step 2 -->
 
                 <!-- step 3 -->
-                <p class="step-top-note"><sup>*</sup>필수입력항목</p>
-                <div class="step-area step03">
-                    <div class="main-area active"> <!-- 노출여부 : active -->
-
-                        <jsp:include page="../../templates/reservation/map.jsp" /> <!-- //map.jsp -->
-
-                        <div class="btn-area bg active no-btn"><!-- bg 활성화 : active / 버튼없는 케이스 : no-btn -->
-                            <div class="result-txt">
-                                <!-- <p>상담하실 매장과 일시를 선택해주세요.</p> -->
-                                <p>상담 매장: <span>강남본점</span></p>
-                                <p>예약 일시: <span>21년12월15일, 17시</span></p>
+                <div class="step-area step03"><!-- active 클래스 추가 -->
+                    <div class="result-area"><!-- active 클래스 추가 -->
+                        <div class="info-step03">
+                            <div class="info-txt-com"><!-- active 클래스 추가 -->
+                                <a href="javascript:void(0);">&nbsp;</a>
+                            </div>
+                            <div class="info-txt-uncom active"><!-- active 클래스 추가 -->
+                                <p class="page-num">STEP03</p>
+                                <p class="txt">예약자 정보를 입력해주세요.</p>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="user-info-area mt60">
+                    <div class="main-area">
+                        <div class="user-info-area">
                             <h3 class="step-tit">예약자 정보</h3>
                             <div class="lt">
                                 <form action="">
@@ -145,19 +219,15 @@
                                             <div class="check-box">
                                                 <input type="checkbox" class="agr-check" id="agr-required">
                                                 <label for="agr-required">
-                                                    <span class="name"><em class="red">(필수)</em>개인정보 수집 및 이용에
-                                                        동의합니다.</span>
+                                                    <span class="name"><em class="red">(필수)</em>개인정보 수집 및 이용에 동의합니다.</span>
                                                 </label>
-                                                <button type="button" class="agr-more active"><span class="blind">약관
-                                                        내용 보기</span></button><!-- active 클래스 추가 -->
-                                                <div class="agr-txt-wrap size-l active">
-                                                    <!-- active 클래스 추가 -->
+                                                <button type="button" class="agr-more active"><span class="blind">약관 내용 보기</span></button><!-- active 클래스 추가 -->
+                                                <div class="agr-txt-wrap size-l active"><!-- active 클래스 추가 -->
                                                     <div class="inner custom-scroll">
                                                         <ul>
                                                             <li>
                                                                 <span>1. 수집하는 개인정보의 항목</span>
-                                                                <p>1) 필수사항 : 이름, 휴대폰번호, 매장 방문 가능일, 구매 희망 제품, 방문 예정
-                                                                    매장, 구매 희망 시기</p>
+                                                                <p>1) 필수사항 : 이름, 휴대폰번호, 매장 방문 가능일, 구매 희망 제품, 방문 예정 매장, 구매 희망 시기</p>
                                                             </li>
                                                             <li>
                                                                 <span>2. 개인정보 이용목적</span>
@@ -189,10 +259,8 @@
                                                 <label for="agr-optional">
                                                     <span class="name"><em>(선택)</em>마케팅 정보활용에 동의합니다.</span>
                                                 </label>
-                                                <button type="button" class="agr-more active"><span class="blind">약관
-                                                        내용 보기</span></button><!-- active 클래스 추가 -->
-                                                <div class="agr-txt-wrap active">
-                                                    <!-- active 클래스 추가 -->
+                                                <button type="button" class="agr-more active"><span class="blind">약관 내용 보기</span></button><!-- active 클래스 추가 -->
+                                                <div class="agr-txt-wrap active"><!-- active 클래스 추가 -->
                                                     <div class="inner custom-scroll">
                                                         <ul>
                                                             <li>
@@ -214,8 +282,7 @@
                             </div>
                             <div class="bottom-area">
                                 <h4 class="tit">필수 위탁 고지</h4>
-                                <p class="desc">LG전자는 개인정보 취급업무 중 서비스 제공에 필요한 필수적 업무를 아래와 같이 외부 전문업체에 위탁하여 운영하고 있으며,
-                                    해당 업체는 서비스 이행을 위한 목적으로만 사용됩니다.</p>
+                                <p class="desc">LG전자는 개인정보 취급업무 중 서비스 제공에 필요한 필수적 업무를 아래와 같이 외부 전문업체에 위탁하여 운영하고 있으며, 해당 업체는 서비스 이행을 위한 목적으로만 사용됩니다.</p>
                                 <div class="tb_row tb-row-bl white size-s">
                                     <table>
                                         <caption>필수 위탁 고지 표</caption>
@@ -249,29 +316,34 @@
                         </div>
                     </div>
 
-                    <div class="btn-area center active">
-                        <!-- active 클래스 추가 -->
-                        <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">케어십 상담 예약하기</button>
-                    </div>
-                    
-                    <div class="caution-box">
-                        <p class="tit">&lsqb;유의사항&rsqb;</p>
-                        <ul class="bull">
-                            <li>케어십 가입기간은 12개월이며 계약해지 의사가 없을 시 자동 연장됩니다.</li>
-                            <li>케어십 비용은 제품 모델 및 방문주기에 따라 다릅니다.</li>
-                            <li>제품을 구매하며 동시에 케어십 서비스를 신청하는 경우, 케어십 청약 단계 이 후 제품 주문이 진행됩니다.</li>
-                        </ul>
-                    </div>
-
                 </div>
                 <!-- // step 3 -->
+
+                <div class="btn-area center m-hidden active"><!-- active 클래스 추가 -->
+                    <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담 예약하기</button>
+                </div>
+
+                <div class="caution-box">
+                    <p class="tit">&lsqb;유의사항&rsqb;</p>
+                    <ul class="bull">
+                        <li>정확한 개인정보를 입력하셔야 매장 상담 예약 서비스 이용 가능합니다.</li>
+                        <li>매장 상담 예약은 제품구입 관련 상담만 가능합니다.</li>
+                        <li>서비스 관련 문의는 LG전자 서비스(1544-7777)로 문의 부탁드립니다.</li>
+                    </ul>
+                </div>
+                
             </section>
+
         </div>
 
-        <!-- // contents -->
     </div>
+    <!-- // contents -->
 </div>
 <!-- // container -->
+
+<!-- 선택한 소모품(장바구니) 영역 -->
+<jsp:include page="../../templates/reservation/input-myselect-cart.jsp" /> <!-- //input-myselect-cart.jsp -->
+<!-- // 선택한 소모품(장바구니) 영역 -->
 
 <!-- dim -->
 <div class="dim"> </div>
@@ -344,64 +416,49 @@
 </div>
 <!-- 팝업: 휴대전화 인증 -->
 
+
 <script>
     $(document).ready(function () {
-        // 케어십 배너 슬라이드
-    var imgSwiper = new Swiper(".img-slide", {
-        speed : 800,
-        slidesPerView: 1,
-        autoplay: {
-            delay:5000
-        },
-        pagination: {
-            el: ".img-slide .slide-navi .pager-fraction",
-            type: "fraction"
-        },
-        navigation: {
-            nextEl: ".img-slide .slide-navi .slideBtn.btn-next",
-            prevEl: ".img-slide .slide-navi .slideBtn.btn-prev"
-        },
-        loop : true,
-        loopAdditionalSlides: 1,
-    });
-
-    // 케어십 배너 슬라이드 (autoplay control)
-    $('.img-slide .swiper-auto > button').on('click', function(){
-        $('.img-slide .swiper-auto > button').toggleClass('active');
-
-        if ($(this).hasClass('btn-play')){
-            imgSwiper.autoplay.start();
-        } 
-        else {
-            imgSwiper.autoplay.stop();
-        };
-    });
-
-
-        // step 1 제품선택
-        var categoryBox = new Swiper(".category-box", {
-            slidesPerView: 1,
-            spaceBetween: 40,
-            breakpoints: {
-                1024: {
-                    slidesPerView: 2,
-                    spaceBetween: 24,
-                },
+        // 상단 예약진행 가이드 영역
+        var resbanner01 = new Swiper(".guide-banner-care-ex", {
+            slidesPerView: 'auto',
+            scrollbar: {
+                el: ".swiper-scrollbar",
+                draggable: true,
+                // hide: true,
             },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
+        })
+
+        // 필터 영역 모바일
+        $('.btn-filter').on('click', function () {
+            $('.plp-list-wrap .lay-filter').toggleClass('active');
+            $('html').addClass('scroll-fixed');
+        });
+        $('.plp-filter-wrap .filter-close .btn-close, .plp-list-wrap .lay-filter .dimmed').on('click', function () {
+            $('.plp-list-wrap .lay-filter').removeClass('active');
+            $('html').removeClass('scroll-fixed');
         });
 
-        if ($(window).width() < 768) {
-            $('.res-main .category-box .category-list > li .box').on('click', function () {
-                $(this).children('.sub-category').show();
-                $(this).parent().siblings().children('.box').children('.sub-category').hide();
-            })
-        }
+        // 소모품 목록 영역 > 제품 목록 내 팝업
+        var prdPopOpen = $('.pdt-list-area .list-wrap > ul > li .box .info-wrap .btn-info-pop');
+        var prdPopup = $('.pdt-list-area .list-wrap > ul > li .box .info-popup');
+        var prdPopClose = $('.pdt-list-area .list-wrap > ul > li .box .info-popup .btn-close');
+        prdPopOpen.click(function (e) {
+            e.preventDefault();
+            $(this).parent().siblings(prdPopup).show();
+        });
+        prdPopClose.click(function () {
+            $(this).parent().parent(prdPopup).hide();
+        });
 
-        // step 3 지도/리스트 보기 버튼
+        // 선택한 소모품(장바구니) 영역
+        $('.bottom-cart-wrap .head-area').on('click', function () {
+            $(this).closest('.bottom-cart-wrap').toggleClass('active');
+            $('.bottom-cart-wrap .body-area').stop().slideToggle();
+            $('.bottom-cart-wrap .foot-area').stop().slideToggle();
+        });
+
+        // step 2 지도/리스트 보기 버튼
         for (i = 1; i < 5; i++) {
             (function (i2) {
                 $('.sort-area button:nth-child(' + i2 + ')').click(function () {
@@ -413,12 +470,12 @@
             })(i);
         }
 
-        // step 3 지도 매장리스트보기 버튼
+        // step 2 지도 매장리스트보기 버튼
         $('.map-list-wrap .btn-view').on('click', function(){
             $(this).closest('.map-list-wrap').toggleClass('active')
         })
 
-        // step 3 예약일 선택 / 예약시간 선택
+        // step 2 예약일 선택 / 예약시간 선택
         $('.date-wrap .mo-top').next('div').show();
         if ($(window).width() < 768) {
             $('.date-wrap .mo-tit').on('click', function () {
@@ -427,13 +484,13 @@
             });
         }
 
-        // step 3 약관
+        // step 2 약관
         $(function () {
-            // step 3 약관 > 더보기 버튼
+            // step 2 약관 > 더보기 버튼
             $('.check-box .agr-more').on('click', function () {
                 $(this).toggleClass('active').siblings('.agr-txt-wrap').slideToggle(200);
             });
-            // step 3 약관 > 모두 동의
+            // step 2 약관 > 모두 동의
             $(".agr-wrap").on("click", "#agr-all", function () {
                 $(this).parents(".agr-wrap").find('input').prop("checked", $(this).is(":checked"));
             });
@@ -452,3 +509,55 @@
     });
 </script>
 <jsp:include page="../../templates/common/footer.jsp" />
+<jsp:include page="../../templates/popup/popup-gps-agree.jsp" />
+
+
+<script>
+    /* 위치정보제공동의 팝업 추가 STEP01 > STEP02 */
+    $('#popup-confirm button').on('click', function(){
+        if(!$(this).hasClass('btnPopCancel')){ // '네' 누를경우
+            $('html').css('overflow', 'visible');
+
+            /* step01 effect */
+            $('#popup-confirm, .dim').fadeOut(200); // 팝업 + dim 처리 히든
+            $('.step01 .main-area, .step01 .btn-area').stop().slideUp(400); // 내용과 버튼영역 히든
+            $('.step01 .info-txt-com').addClass('active'); // 요약정보 노출
+            $('.step01').removeClass('border'); // border 삭제
+
+            /* step02 effect */
+            $('.step02 .main-area, .step02 .btn-area').stop().slideDown(400);
+            $('.step02 .info-txt-uncom').slideUp(400);
+            $('.step02').addClass('border');
+        }
+    });
+
+    /* STEP02 > STEP03 */
+    $('.step02 .btn-area button').on('click', function(){
+        $('.step02 .main-area, .step02 .btn-area').stop().slideUp(400); // 내용과 버튼영역 히든
+        $('.step02 .info-txt-com').addClass('active'); // 요약정보 노출
+        $('.step02').removeClass('border');
+
+        /* step03 effect */
+        $('.step03 .main-area').stop().slideDown(400);
+        $('.step03 .info-txt-uncom').slideUp(400);
+        $('.step03').addClass('border').find('.info-txt-com').addClass('active');
+    });
+
+    /* TOGGLE STEP */
+    $('.info-txt-com a').on('click', function(){
+        var _with = $(this).closest('.step-area').siblings('.step-area');
+
+        _with.removeClass('border').find('.main-area, .btn-area').slideUp(400);
+        $(this).closest('.step-area').toggleClass('border').find('.main-area').slideToggle(400);
+
+        if($('.step02 .btn-area').is(':visible')){ // step02 상태에서 펼칠때
+            $('.step02 .info-txt-com').addClass('active');
+            $('.step02').addClass('middle');
+        }
+
+        if($(this).closest('.step-area').hasClass('middle')){ // 위의 상황이 지나고 다시 펼칠때
+            $('.step02 .btn-area').slideDown(400);
+            $('.step02').removeClass('middle');
+        }
+    });
+</script>
