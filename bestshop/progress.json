@@ -169,90 +169,6 @@
       "memo": ""
     },
     {
-      "dep1": "",
-      "dep2": "미니홈피",
-      "dep3": "메인",
-      "dep4": "",
-      "worker": "이수용",
-      "startdate": "2022-02-09",
-      "finishdate": "2022-02-25",
-      "status": "진행예정",
-      "filename": "",
-      "memo": ""
-    },
-    {
-      "dep1": "",
-      "dep2": "",
-      "dep3": "이벤트/쿠폰",
-      "dep4": "",
-      "worker": "이수용",
-      "startdate": "2022-02-09",
-      "finishdate": "2022-02-25",
-      "status": "진행예정",
-      "filename": "",
-      "memo": ""
-    },
-    {
-      "dep1": "",
-      "dep2": "",
-      "dep3": "베샵 Live",
-      "dep4": "",
-      "worker": "이수용",
-      "startdate": "2022-02-09",
-      "finishdate": "2022-02-25",
-      "status": "진행예정",
-      "filename": "",
-      "memo": ""
-    },
-    {
-      "dep1": "",
-      "dep2": "",
-      "dep3": "스마트픽",
-      "dep4": "",
-      "worker": "이수용",
-      "startdate": "2022-02-09",
-      "finishdate": "2022-02-25",
-      "status": "진행예정",
-      "filename": "",
-      "memo": ""
-    },
-    {
-      "dep1": "",
-      "dep2": "",
-      "dep3": "전시/진열제품",
-      "dep4": "",
-      "worker": "이수용",
-      "startdate": "2022-02-09",
-      "finishdate": "2022-02-25",
-      "status": "진행예정",
-      "filename": "",
-      "memo": ""
-    },
-    {
-      "dep1": "",
-      "dep2": "",
-      "dep3": "온라인견적",
-      "dep4": "",
-      "worker": "이수용",
-      "startdate": "2022-02-09",
-      "finishdate": "2022-02-25",
-      "status": "진행예정",
-      "filename": "",
-      "memo": ""
-    },
-    {
-      "dep1": "",
-      "dep2": "",
-      "dep3": "문의게시판",
-      "dep4": "",
-      "worker": "이수용",
-      "startdate": "2022-02-09",
-      "finishdate": "2022-02-25",
-      "status": "진행예정",
-      "filename": "",
-      "memo": ""
-    },
-    {
       "dep1": "매장상담예약",
       "dep2": "방문상담예약",
       "dep3": "상담예약",
@@ -466,6 +382,30 @@
       "finishdate": "2022-01-05",
       "status": "완료",
       "filename": "./pages/reservation/BSF-CARE-EX-RES.jsp",
+      "memo": ""
+    },
+    {
+      "dep1": "",
+      "dep2": "",
+      "dep3": "",
+      "dep4": "",
+      "worker": "이수용",
+      "startdate": "",
+      "finishdate": "",
+      "status": "완료",
+      "filename": "./pages/reservation/BSF-CARE-EX-RES-STEP01.jsp",
+      "memo": ""
+    },
+    {
+      "dep1": "",
+      "dep2": "",
+      "dep3": "",
+      "dep4": "",
+      "worker": "이수용",
+      "startdate": "",
+      "finishdate": "",
+      "status": "완료",
+      "filename": "./pages/reservation/BSF-CARE-EX-RES-STEP02.jsp",
       "memo": ""
     },
     {
