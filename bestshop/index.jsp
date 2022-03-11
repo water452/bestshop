@@ -31,12 +31,16 @@
     <jsp:include page="./templates/main/sns.jsp" />
     <!-- e: bestshop SNS -->
 
+    <!-- s: bestshop SNS CHANNEL -->
+    <jsp:include page="./templates/main/sns-channel.jsp" />
+    <!-- e: bestshop SNS CHANNEL -->
+
     <!-- s: bestshop notice -->
     <jsp:include page="./templates/main/notice.jsp" />
     <!-- e: bestshop notice -->
 
     <!-- s: main popup -->
-    <!-- <jsp:include page="./templates/popup/BSF-MAIN-P.jsp" /> -->
+    <jsp:include page="./templates/popup/BSF-MAIN-P.jsp" />
     <!-- e: main popup -->
     
 </div>

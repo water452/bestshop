@@ -14,6 +14,7 @@ html.full-height .wrap{position:relative;height:100%;}
 html.full-height .wrap #content{margin-bottom:-132px;}
 html.full-height .wrap #content{position:relative;height:calc(100% - 144px);}
 html.full-height .wrap #content .shop-search-wrap{position:relative;min-width:1380px;height:100%;}
+html.full-height .floating-block{display:none;}
 
 /* shop > shop search */
 .shop-search-wrap{display:flex;overflow:hidden;margin-bottom:-132px;}
@@ -223,7 +224,7 @@ html.full-height .wrap #content .shop-search-wrap{position:relative;min-width:13
 ul.input-list-type .txt-box .input-wrap{width:100%;}
 
 /* bsf res visit */
-.img-slide-wrap .swiper-slide{overflow:hidden;position:relative;border-radius:10px;}
+.img-slide-wrap .swiper-slide{overflow:hidden;position:relative;}
 .img-slide-wrap .btn-video-view{position:absolute;top:25px;left:25px;height:46px;font-size:16px;color:#fff;line-height:46px;padding:0 23px;background:rgba(0,0,0,0.3);border-radius:23px;z-index:10;}
 
 /* shop > map */

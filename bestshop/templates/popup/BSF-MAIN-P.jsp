@@ -1,13 +1,14 @@
 <%@ page contentType="text/html; charset=utf-8" %>
+<div class="dim" style="display:block;"></div>
 <div class="popup" style="display: block;">
     <div class="pop-wrap main">
         <div class="pop-head">
             <h2 class="tit-pop">안내</h2>
         </div>
         <div class="pop-cont">
-            
+
             <!-- html형 -->
-            <!-- <div class="pop-slide-wrap txt">
+            <div class="pop-slide-wrap txt">
                 <div class="swiper img-slide">
                     <ul class="swiper-wrapper">
                         <li class="swiper-slide">
@@ -51,10 +52,10 @@
                     <a href="#" class="btn border">이벤트 상세보기</a>
                     <a href="#" class="btn border">상담 예약 하기</a>
                 </div>
-            </div> -->
+            </div>
             <!-- // html형 -->
 
-            <!-- 이미지형 -->
+            <!-- 이미지형
             <div class="pop-slide-wrap image">
                 
                 <div class="swiper img-slide">
@@ -94,7 +95,7 @@
                 </div>
 
             </div>
-            <!-- // 이미지형 -->
+           // 이미지형 -->
             
 
         </div>

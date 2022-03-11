@@ -101,8 +101,8 @@
                 -->
                 <div class="outer-link">
                 <ul>
-                    <li><a href="https://www.lge.co.kr/kr/business" class="business" target="_blank" title="새 창 열림">비즈니스</a></li>
-                    <li><a href="https://www.lge.co.kr" class="bestshop" target="_blank" title="새 창 열림">LG전자 대표사이트</a></li>
+                    <li><a href="https://www.lge.co.kr/kr/business" class="business" target="_blank" title="새 창 열림">B2B</a></li>
+                    <li><a href="https://www.lge.co.kr" class="bestshop" target="_blank" title="새 창 열림">LGE.COM</a></li>
                 </ul>
                 </div>
             </div>
@@ -133,39 +133,60 @@
                         <div class="bnr-box">
                         <div class="bnr-block megaBnr">
                             <ul class="swiper-wrapper">
-                                <li class="swiper-slide"><a href="javascript:void(0);"><img src="/bestshop/images/@img-banner-sample-01.jpg" alt="매장 상담 예약 이벤트"></a></li>
-                            </ul>
-                            <div class="swiper-navi">
-                            <div class="swiper-pager"></div>
-                                <button type="button" class="slideBtn btn-prev">이전 슬라이드</button>
-                                <button type="button" class="slideBtn btn-next">다음 슬라이드</button>
-                            </div>
-                            <div class="bnr-desc">매장 상담 예약 이벤트</div>
-                        </div>
-                        <div class="bnr-block megaBnr">
-                            <ul class="swiper-wrapper">
-                                <li class="swiper-slide"><a href="javascript:void(0);"><img src="/bestshop/images/@img-banner-sample-02.jpg" alt="이달의 베스트샵 혜택"></a></li>
-                                <li class="swiper-slide"><a href="javascript:void(0);"><img src="/bestshop/images/@img-banner-sample-02.jpg" alt="이달의 베스트샵 혜택"></a></li>
+                                <li class="swiper-slide">
+                                    <a href="javascript:void(0);"><img src="/bestshop/images/@img-banner-sample-01.jpg" alt="매장 상담 예약 이벤트"></a>
+                                    <div class="bnr-desc">매장 상담 예약 이벤트</div>
+                                </li>
                             </ul>
                             <div class="swiper-navi">
                                 <div class="swiper-pager"></div>
+                                <!-- <button type="button" class="autoBtn btn-play">재생</button> -->
+                                <button type="button" class="autoBtn active btn-pause">멈추기</button>
                                 <button type="button" class="slideBtn btn-prev">이전 슬라이드</button>
                                 <button type="button" class="slideBtn btn-next">다음 슬라이드</button>
                             </div>
-                            <div class="bnr-desc">이달의 베스트샵 혜택</div>
                         </div>
                         <div class="bnr-block megaBnr">
                             <ul class="swiper-wrapper">
-                                <li class="swiper-slide"><a href="javascript:void(0);"><img src="/bestshop/images/@img-banner-sample-03.jpg" alt="멤버십 혜택"></a></li>
-                                <li class="swiper-slide"><a href="javascript:void(0);"><img src="/bestshop/images/@img-banner-sample-03.jpg" alt="멤버십 혜택"></a></li>
-                                <li class="swiper-slide"><a href="javascript:void(0);"><img src="/bestshop/images/@img-banner-sample-03.jpg" alt="멤버십 혜택"></a></li>
+                                <li class="swiper-slide">
+                                    <a href="javascript:void(0);"><img src="/bestshop/images/@img-banner-sample-02.jpg" alt="이달의 베스트샵 혜택"></a>
+                                    <div class="bnr-desc">이달의 베스트샵 혜택</div>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="javascript:void(0);"><img src="/bestshop/images/@img-banner-sample-02.jpg" alt="이달의 베스트샵 혜택"></a>
+                                    <div class="bnr-desc">이달의 베스트샵 혜택</div>
+                                </li>
                             </ul>
                             <div class="swiper-navi">
                                 <div class="swiper-pager"></div>
+                                <!-- <button type="button" class="autoBtn btn-play">재생</button> -->
+                                <button type="button" class="autoBtn active btn-pause">멈추기</button>
                                 <button type="button" class="slideBtn btn-prev">이전 슬라이드</button>
                                 <button type="button" class="slideBtn btn-next">다음 슬라이드</button>
                             </div>
-                            <div class="bnr-desc">멤버십 혜택</div>
+                        </div>
+                        <div class="bnr-block megaBnr">
+                            <ul class="swiper-wrapper">
+                                <li class="swiper-slide">
+                                    <a href="javascript:void(0);"><img src="/bestshop/images/@img-banner-sample-03.jpg" alt="멤버십 혜택"></a>
+                                    <div class="bnr-desc">멤버십 혜택</div>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="javascript:void(0);"><img src="/bestshop/images/@img-banner-sample-03.jpg" alt="멤버십 혜택"></a>
+                                    <div class="bnr-desc">멤버십 혜택</div>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="javascript:void(0);"><img src="/bestshop/images/@img-banner-sample-03.jpg" alt="멤버십 혜택"></a>
+                                    <div class="bnr-desc">멤버십 혜택</div>
+                                </li>
+                            </ul>
+                            <div class="swiper-navi">
+                                <div class="swiper-pager"></div>
+                                <!-- <button type="button" class="autoBtn btn-play">재생</button> -->
+                                <button type="button" class="autoBtn active btn-pause">멈추기</button>
+                                <button type="button" class="slideBtn btn-prev">이전 슬라이드</button>
+                                <button type="button" class="slideBtn btn-next">다음 슬라이드</button>
+                            </div>
                         </div>
                         </div>        
                         <!-- e: bnr -->
@@ -253,23 +274,23 @@
         <!-- s: mobile head wrap -->
         <div class="header-wrap mobile">
             <h1 class="logo">
-            <a href="/bestshop"><img src="/bestshop/images/icons/logo-lge.svg" alt="LG전자"><span>BEST SHOP</span></a>
+                <a href="/bestshop"><img src="/bestshop/images/icons/logo-lge.svg" alt="LG전자"><span>BEST SHOP</span></a>
             </h1>
 
             <p class="my-tooltip"><a href="javascript:void(0);"><span class="blind">마이 툴팁</span></a></p>
 
             <!-- s: mega gnb -->
             <div class="header-bottom">
-            <div class="menu-wrap">
-                <ul>
-                    <li><a class="depth1-tit" href="/bestshop">홈</a></li>
-                    <li><a class="depth1-tit" href="javascript:void(0);">매장안내</a></li>
-                    <li><a class="depth1-tit" href="/bestshop/pages/reservation/BSF-RES-VISIT.jsp">매장 상담 예약</a></li>
-                    <li><a class="depth1-tit" href="/bestshop/pages/event/BSF-EVE-BSTAB.jsp">이벤트</a></li>
-                    <li><a class="depth1-tit" href="javascript:void(0);">혜택안내</a></li>
-                    <li><a class="depth1-tit" href="javascript:void(0);">제품정보</a></li>
-                </ul>
-            </div>
+                <div class="menu-wrap">
+                    <ul>
+                        <li><a class="depth1-tit" href="/bestshop">홈</a></li>
+                        <li><a class="depth1-tit" href="javascript:void(0);">매장안내</a></li>
+                        <li><a class="depth1-tit" href="/bestshop/pages/reservation/BSF-RES-VISIT.jsp">매장 상담 예약</a></li>
+                        <li><a class="depth1-tit" href="/bestshop/pages/event/BSF-EVE-BSTAB.jsp">이벤트</a></li>
+                        <li><a class="depth1-tit" href="javascript:void(0);">혜택안내</a></li>
+                        <li><a class="depth1-tit" href="javascript:void(0);">제품정보</a></li>
+                    </ul>
+                </div>
             </div>
             <!-- e: mega gnb -->
 
@@ -277,120 +298,125 @@
             <div class="mega-gnb-mobile-block">
                 <p class="close-gnb"><button type="button"><span class="blind">메뉴닫기</span></button></p>
                 <div class="mgb-top">
-                <a href="javascript:void(0);" class="link-arrow">로그인해주세요</a>
-                <a href="javascript:void(0);" class="link-mypage"><span class="blind">마이 페이지</span></a>
+                    <a href="javascript:void(0);" class="link-arrow">로그인해주세요</a>
+                    <a href="javascript:void(0);" class="link-mypage"><span class="blind">마이 페이지</span></a>
                 </div>
 
                 <div class="bnr-wrap">
-                <div class="bnr-block megaMobileBnr">
-                    <ul class="swiper-wrapper">
-                    <li class="swiper-slide">
-                        <a href="javascript:void(0);"><img src="/bestshop/images/@img-banner-sample-01.jpg" alt="멤버십 혜택"></a>
-                        <div class="bnr-desc">멤버십 혜택</div>
-                    </li>
-                    <li class="swiper-slide">
-                        <a href="javascript:void(0);"><img src="/bestshop/images/@img-banner-sample-02.jpg" alt="멤버십 혜택"></a>
-                        <div class="bnr-desc">멤버십 혜택</div>
-                    </li>
-                    <li class="swiper-slide">
-                        <a href="javascript:void(0);"><img src="/bestshop/images/@img-banner-sample-03.jpg" alt="멤버십 혜택"></a>
-                        <div class="bnr-desc">멤버십 혜택</div>
-                    </li>
-                    </ul>
-                </div>
+                    <div class="bnr-block megaMobileBnr">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                <a href="javascript:void(0);"><img src="/bestshop/images/img_bnr_mobile_megagnb.jpg" alt="멤버십 혜택"></a>
+                                <div class="bnr-desc">멤버십 혜택</div>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="javascript:void(0);"><img src="/bestshop/images/img_bnr_mobile_megagnb.jpg" alt="멤버십 혜택"></a>
+                                <div class="bnr-desc">멤버십 혜택</div>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="javascript:void(0);"><img src="/bestshop/images/img_bnr_mobile_megagnb.jpg" alt="멤버십 혜택"></a>
+                                <div class="bnr-desc">멤버십 혜택</div>
+                            </li>
+                        </ul>
+                        <div class="swiper-navi">
+                            <div class="swiper-pager"></div>
+                            <button type="button" class="autoBtn btn-play">재생</button>
+                            <button type="button" class="autoBtn btn-pause active">정지</button>
+                        </div>
+                    </div>
                 </div><!-- //.bnr-wrap -->
 
                 <ul class="link-wrap">
-                <li class="link-section">
-                    <div class="depth1"><a href="javascript:void(0);">매장안내</a></div>
-                    <div class="depth2">
-                    <ul>
-                        <li><a href="/bestshop/pages/shop/BSF-SHOP-LIST.jsp">매장 찾기</a></li>
-                        <li><a href="/bestshop/pages/shop/BSF-SHOP-OPEN-LIST.jsp">신규 오픈 매장</a></li>
-                        <li><a href="/bestshop/pages/shop/BSF-SHOP-IPHONE.jsp">아이폰 판매 매장</a></li>
-                        <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">야간 무인 매장</a></li>
-                        <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">서비스 센터 찾기</a></li>
-                    </ul>
-                    </div>
-                </li>
-                <li class="link-section">
-                    <div class="depth1"><a href="javascript:void(0);">매장 상담 예약</a></div>
-                    <div class="depth2">
-                    <ul>
-                        <li><a href="/bestshop/pages/reservation/BSF-RES-VISIT.jsp">방문 상담 예약</a></li>
-                        <li><a href="/bestshop/pages/reservation/BSF-RES-VIDEO.jsp">화상 상담 예약</a></li>
-                        <li><a href="/bestshop/pages/reservation/BSF-CARE-CA-RES.jsp">케어십 상담 예약</a></li>
-                        <li><a href="/bestshop/pages/reservation/BSF-CARE-EX-RES.jsp">소모품 구매 예약</a></li>
-                        <li><a href="/bestshop/pages/reservation/BSF-RES-INQ.jsp">상담 예약 조회</a></li>
-                    </ul>
-                    </div>
-                </li>
-                <li class="link-section">
-                    <div class="depth1"><a href="javascript:void(0);">이벤트</a></div>
-                    <div class="depth2">
-                    <ul>
-                        <li><a href="/bestshop/pages/event/BSF-EVE-BSTAB.jsp">이벤트 전체 보기</a></li>
-                        <li><a href="/bestshop/pages/event/BSF-EVE-WED-INFO.jsp">혼수 이벤트</a></li>
-                        <li class="depth3">
-                        <a href="javascript:void(0);" class="depth3-tit">아파트 입주 이벤트</a>
+                    <li class="link-section">
+                        <div class="depth1"><a href="javascript:void(0);">매장안내</a></div>
+                        <div class="depth2">
                         <ul>
-                            <li><a href="/bestshop/pages/event/BSF-EVE-APT-INFO.jsp">혜택안내</a></li>
-                            <li><a href="/bestshop/pages/event/BSF-EVE-APT-LIST.jsp">행사 아파트 리스트</a></li>
-                            <li><a href="/bestshop/pages/event/BSF-EVE-FAIR-LIST.jsp">박람회 일정</a></li>
+                            <li><a href="/bestshop/pages/shop/BSF-SHOP-LIST.jsp">매장 찾기</a></li>
+                            <li><a href="/bestshop/pages/shop/BSF-SHOP-OPEN-LIST.jsp">신규 오픈 매장</a></li>
+                            <li><a href="/bestshop/pages/shop/BSF-SHOP-IPHONE.jsp">아이폰 판매 매장</a></li>
+                            <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">야간 무인 매장</a></li>
+                            <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">서비스 센터 찾기</a></li>
                         </ul>
-                        </li>
-                        <li><a href="/bestshop/pages/event/BSF-EVE-MEDIA-LIST.jsp">홍보 영상</a></li>
-                    </ul>
-                    </div>
-                </li>
-                <li class="link-section">
-                    <div class="depth1"><a href="javascript:void(0);">혜택 안내</a></div>
-                    <div class="depth2">
-                    <ul>
-                        <li><a href="/bestshop/pages/benefit/BSF-BEN-BESTSHOP.jsp">이달의 혜택</a></li>
-                        <li><a href="/bestshop/pages/benefit/BSF-BEN-CARD.jsp">카드 혜택</a></li>
-                        <li><a href="/bestshop/pages/benefit/BSF-BEN-MEMBER.jsp">멤버십 혜택</a></li>
-                        <li><a href="/bestshop/pages/benefit/BSF-BEN-SIGNATURE.jsp">LG SIGNATURE 구매혜택</a></li>
-                    </ul>
-                    </div>
-                </li>
-                <li class="link-section">
-                    <div class="depth1"><a href="javascript:void(0);">제품정보</a></div>
-                    <div class="depth2">
-                    <ul>
-                        <li><a href="/bestshop/pages/product/BSF-PRO-LIST.jsp">내게 맞는 제품 찾기</a></li>
-                        <li><a href="/bestshop/pages/product/BSF-PRO-CATA-LIST.jsp">제품 카탈로그</a></li>
-                        <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">제품 사용 설명서</a></li>
-                    </ul>
-                    </div>
-                </li>
-                <!--
-                <li class="link-section">
-                    <div class="depth1"><a href="javascript:void(0);">마이페이지</a></div>
-                    <div class="depth2">
-                    <ul>
-                        <li><a href="javascript:void(0);">구매 내역 조회</a></li>
-                        <li><a href="javascript:void(0);">제품 배송 조회</a></li>
-                        <li><a href="javascript:void(0);">상담 예약 조회</a></li>
-                        <li><a href="javascript:void(0);">포인트 조회</a></li>
-                        <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">케어솔루션 계약현황</a></li>
-                        <li><a href="javascript:void(0);">무상 서비스 제품 조회</a></li>
-                        <li><a href="javascript:void(0);">보유 쿠폰 조회</a></li>
-                        <li><a href="javascript:void(0);">멤버십 가입 정보</a></li>
-                    </ul>
-                    </div>
-                </li>
-                <li class="link-section">
-                    <div class="depth1"><a href="javascript:void(0);">회사소개</a></div>
-                    <div class="depth2">
-                    <ul>
-                        <li><a href="https://www.lge.co.kr/company/sustainable/ceoMessage">CEO 인사말</a></li>
-                        <li><a href="https://www.lge.co.kr/company/info/history">연혁</a></li>
-                        <li><a href="https://www.lge.co.kr/company/info/philosophy">경영이념</a></li>
-                    </ul>
-                    </div>
-                </li>
-                -->
+                        </div>
+                    </li>
+                    <li class="link-section">
+                        <div class="depth1"><a href="javascript:void(0);">매장 상담 예약</a></div>
+                        <div class="depth2">
+                        <ul>
+                            <li><a href="/bestshop/pages/reservation/BSF-RES-VISIT.jsp">방문 상담 예약</a></li>
+                            <li><a href="/bestshop/pages/reservation/BSF-RES-VIDEO.jsp">화상 상담 예약</a></li>
+                            <li><a href="/bestshop/pages/reservation/BSF-CARE-CA-RES.jsp">케어십 상담 예약</a></li>
+                            <li><a href="/bestshop/pages/reservation/BSF-CARE-EX-RES.jsp">소모품 구매 예약</a></li>
+                            <li><a href="/bestshop/pages/reservation/BSF-RES-INQ.jsp">상담 예약 조회</a></li>
+                        </ul>
+                        </div>
+                    </li>
+                    <li class="link-section">
+                        <div class="depth1"><a href="javascript:void(0);">이벤트</a></div>
+                        <div class="depth2">
+                        <ul>
+                            <li><a href="/bestshop/pages/event/BSF-EVE-BSTAB.jsp">이벤트 전체 보기</a></li>
+                            <li><a href="/bestshop/pages/event/BSF-EVE-WED-INFO.jsp">혼수 이벤트</a></li>
+                            <li class="depth3">
+                            <a href="javascript:void(0);" class="depth3-tit">아파트 입주 이벤트</a>
+                            <ul>
+                                <li><a href="/bestshop/pages/event/BSF-EVE-APT-INFO.jsp">혜택안내</a></li>
+                                <li><a href="/bestshop/pages/event/BSF-EVE-APT-LIST.jsp">행사 아파트 리스트</a></li>
+                                <li><a href="/bestshop/pages/event/BSF-EVE-FAIR-LIST.jsp">박람회 일정</a></li>
+                            </ul>
+                            </li>
+                            <li><a href="/bestshop/pages/event/BSF-EVE-MEDIA-LIST.jsp">홍보 영상</a></li>
+                        </ul>
+                        </div>
+                    </li>
+                    <li class="link-section">
+                        <div class="depth1"><a href="javascript:void(0);">혜택 안내</a></div>
+                        <div class="depth2">
+                        <ul>
+                            <li><a href="/bestshop/pages/benefit/BSF-BEN-BESTSHOP.jsp">이달의 혜택</a></li>
+                            <li><a href="/bestshop/pages/benefit/BSF-BEN-CARD.jsp">카드 혜택</a></li>
+                            <li><a href="/bestshop/pages/benefit/BSF-BEN-MEMBER.jsp">멤버십 혜택</a></li>
+                            <li><a href="/bestshop/pages/benefit/BSF-BEN-SIGNATURE.jsp">LG SIGNATURE 구매혜택</a></li>
+                        </ul>
+                        </div>
+                    </li>
+                    <li class="link-section">
+                        <div class="depth1"><a href="javascript:void(0);">제품정보</a></div>
+                        <div class="depth2">
+                        <ul>
+                            <li><a href="/bestshop/pages/product/BSF-PRO-LIST.jsp">내게 맞는 제품 찾기</a></li>
+                            <li><a href="/bestshop/pages/product/BSF-PRO-CATA-LIST.jsp">제품 카탈로그</a></li>
+                            <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">제품 사용 설명서</a></li>
+                        </ul>
+                        </div>
+                    </li>
+                    <!--
+                    <li class="link-section">
+                        <div class="depth1"><a href="javascript:void(0);">마이페이지</a></div>
+                        <div class="depth2">
+                        <ul>
+                            <li><a href="javascript:void(0);">구매 내역 조회</a></li>
+                            <li><a href="javascript:void(0);">제품 배송 조회</a></li>
+                            <li><a href="javascript:void(0);">상담 예약 조회</a></li>
+                            <li><a href="javascript:void(0);">포인트 조회</a></li>
+                            <li><a href="javascript:void(0);" target="_blank" title="새 창 열림">케어솔루션 계약현황</a></li>
+                            <li><a href="javascript:void(0);">무상 서비스 제품 조회</a></li>
+                            <li><a href="javascript:void(0);">보유 쿠폰 조회</a></li>
+                            <li><a href="javascript:void(0);">멤버십 가입 정보</a></li>
+                        </ul>
+                        </div>
+                    </li>
+                    <li class="link-section">
+                        <div class="depth1"><a href="javascript:void(0);">회사소개</a></div>
+                        <div class="depth2">
+                        <ul>
+                            <li><a href="https://www.lge.co.kr/company/sustainable/ceoMessage">CEO 인사말</a></li>
+                            <li><a href="https://www.lge.co.kr/company/info/history">연혁</a></li>
+                            <li><a href="https://www.lge.co.kr/company/info/philosophy">경영이념</a></li>
+                        </ul>
+                        </div>
+                    </li>
+                    -->
                 </ul><!-- //.link-wrap -->
 
                 <div class="direct-link">

@@ -10,28 +10,31 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <a href="javascript:void(0);">
-                        <span class="thumb"><img src="/bestshop/images/img_main_event01.jpg" alt=""></span>
+                        <span class="thumb pcOnly"><img src="/bestshop/images/img_main_event01.png" alt=""></span>
+                        <span class="thumb mobileOnly"><img src="/bestshop/images/img_main_event01.png" alt=""></span>
                         <span class="txtBox">
-                            <span class="date">2021.10.01~2021.10.31</span>
                             <strong>LG 코드제로 M9 출시 기념</strong>
+                            <span class="date">2021.10.01~2021.10.31</span>
                         </span>
                     </a>
                 </div>
                 <div class="swiper-slide">
                     <a href="javascript:void(0);">
-                        <span class="thumb"><img src="/bestshop/images/img_main_event02.jpg" alt=""></span>
+                        <span class="thumb pcOnly"><img src="/bestshop/images/img_main_event02.png" alt=""></span>
+                        <span class="thumb mobileOnly"><img src="/bestshop/images/img_main_event02.png" alt=""></span>
                         <span class="txtBox">
-                            <span class="date">2021.10.01~2021.10.31</span>
                             <strong>LG 코드제로 M9 출시 기념</strong>
+                            <span class="date">2021.10.01~2021.10.31</span>
                         </span>
                     </a>
                 </div>
                 <div class="swiper-slide">
                     <a href="javascript:void(0);">
-                        <span class="thumb"><img src="/bestshop/images/img_main_event03.jpg" alt=""></span>
+                        <span class="thumb pcOnly"><img src="/bestshop/images/img_main_event03.png" alt=""></span>
+                        <span class="thumb mobileOnly"><img src="/bestshop/images/img_main_event03.png" alt=""></span>
                         <span class="txtBox">
-                            <span class="date">2021.10.01~2021.10.31</span>
                             <strong>LG 코드제로 M9 출시 기념</strong>
+                            <span class="date">2021.10.01~2021.10.31</span>
                         </span>
                     </a>
                 </div>
@@ -47,7 +50,7 @@
         var eventList = new Swiper(".event-list", {
             breakpoints: {
                 0: {
-                    slidesPerView: 1
+                    slidesPerView: 1.2
                 },
                 768: {
                     slidesPerView: 'auto'

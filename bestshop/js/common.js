@@ -482,8 +482,23 @@ $(document).ready(function() {
     });
 
     var megaBnrm = new Swiper(".megaMobileBnr", {
-        slidesPerView: 1.5,
-        spaceBetween: 12
+        autoplay: true,
+        slidesPerView: 1,
+        spaceBetween: 16,
+        pagination: {
+            el: ".megaMobileBnr .swiper-pager"
+        }
+    });
+
+    // autoplay control
+    $('.mega-gnb-mobile .swiper-navi .autoBtn').on('click', function(){
+        $('.mega-gnb-mobile .swiper-navi .autoBtn').toggleClass('active');
+
+        if($(this).hasClass('btn-play')){
+            megaBnrm.autoplay.start();
+        } else {
+            megaBnrm.autoplay.stop();
+        }
     });
 
     var randomCountSlide = new Swiper('.random-count-slide .slide-area', {
