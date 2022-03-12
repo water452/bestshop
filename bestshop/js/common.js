@@ -470,6 +470,7 @@ $(document).ready(function() {
 
     //mega-gnb > banner
     var megaBnr = new Swiper(".megaBnr", {
+        // autoplay: true,
         slidesPerView: 1,
         spaceBetween: 10,
         navigation: {

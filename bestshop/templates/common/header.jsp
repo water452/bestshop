@@ -146,7 +146,7 @@
                                 <button type="button" class="slideBtn btn-next">다음 슬라이드</button>
                             </div>
                         </div>
-                        <div class="bnr-block megaBnr">
+                        <div class="bnr-block megaBnr mBnr01">
                             <ul class="swiper-wrapper">
                                 <li class="swiper-slide">
                                     <a href="javascript:void(0);"><img src="/bestshop/images/@img-banner-sample-02.jpg" alt="이달의 베스트샵 혜택"></a>
@@ -222,7 +222,7 @@
                         </ul>
                         <ul class="cate-menu">
                             <li>
-                                <a href="/bestshop/pages/event/BSF-EVE-APT-INFO.jsp">아파트 입주 이벤트</a>
+                                <a href="javascript:void(0);" class="noLink">아파트 입주 이벤트</a>
                                 <ul>
                                     <li><a href="/bestshop/pages/event/BSF-EVE-APT-INFO.jsp">혜택안내</a></li>
                                     <li><a href="/bestshop/pages/event/BSF-EVE-APT-LIST.jsp">행사 아파트 리스트</a></li>

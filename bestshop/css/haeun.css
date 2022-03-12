@@ -534,6 +534,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 .pdt-list-area .pdt-list > li .box .info-wrap .pdt-spec li {font-size:14px; line-height:20px}
 .pdt-list-area .pdt-list > li .box .btn-area {position:absolute; left:48px; right:48px; bottom:60px}
 .pdt-list-area .pdt-list > li .box .btn-area .btn-select {width:100%; padding:9px 30px; font-size:14px; line-height:20px}
+.pdt-list-area .pdt-list > li .box .btn-area .btn-select.active{color:#fff;background:#da0f47;border-color:#da0f47 !important;}
 .pdt-list-area .pdt-list > li .box .info-popup {display:none; position:absolute; left:0; right:0; top:0; bottom:0; padding:30px; border-radius:8px; background-color:#fff}
 .pdt-list-area .pdt-list > li .box .info-popup .inner {height:100%}
 .pdt-list-area .pdt-list > li .box .info-popup .head-area {padding-bottom:14px; border-bottom:2px solid #000}

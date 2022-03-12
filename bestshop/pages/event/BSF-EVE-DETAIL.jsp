@@ -131,7 +131,6 @@
                             </div>
                         </dd>
                     </dl>
-                    <!--
                     <dl class="form">
                         <dt class="tit req">설문방식 객관식 다중선택형 <span class="blind">필수입력</span></dt>
                         <dd class="conts">
@@ -165,8 +164,6 @@
                             </div>
                         </dd>
                     </dl>
-                    -->
-                    <!--
                     <dl class="form">
                         <dt class="tit">설문방식 첨부파일 선택형</dt>
                         <dd class="conts">
@@ -217,7 +214,6 @@
                             </ul>
                         </dd>
                     </dl>
-                    -->
                 </div>
                 <div class="agree-box">
                     <div class="tit-box">
@@ -343,11 +339,9 @@
                             <div class="input-wrap">
                             <input type="number" id="buyerPhone" placeholder="‘-’ 없이 숫자만 입력" >
                             </div>
-                            <!--
                             <ul class="bullet-list">
                                 <li><span class="b-txt">본 이벤트는 LG전자 회원 및 멤버십 가입자 대상 이벤트로 LG전자 회원가입 및 로그인 후 참여하실 수 있습니다.</span></li>
                             </ul>
-                            -->
                         </dd>
                     </dl>
                 </div>

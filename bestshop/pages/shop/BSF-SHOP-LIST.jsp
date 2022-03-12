@@ -324,6 +324,8 @@
                 <p>테스트점2</p>
             </div>
 
+            <div class="map-mark"></div>
+
             <p class="btn-area innerMap">
                 <a href="javascript:void(0);" class="btn border-red s02">현 지도에서 매장 찾기</a>
             </p>

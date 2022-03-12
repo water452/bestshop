@@ -298,7 +298,7 @@
                                                 </ul>
                                             </div>
                                             <div class="btn-area">
-                                                <button type="button" class="btn border btn-select">상담 제품 선택</button>
+                                                <button type="button" class="btn border btn-select active">상담 제품 선택</button>
                                             </div>
                                         </div>
                                     </li>
