@@ -575,6 +575,8 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 /* popup - video */
 .popup.video {position:absolute; bottom:auto; z-index:5 !important}
 .popup.video .pop-wrap .pop-cont {overflow:hidden; max-height:100%; min-height:auto; height:640px}
+.popup.video .pop-wrap .pop-cont video,
+.popup.video .pop-wrap .pop-cont iframe{width:100%;}
 .popup.video .pop-wrap .btn-pop-close {right:30px;}
 .popup.video .pop-wrap.white .btn-pop-close {background:url("../images/icons/btn-close-24-white.svg") no-repeat center}
 .popup.v-large .pop-wrap .pop-cont {height:290px}
