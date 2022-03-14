@@ -9,128 +9,80 @@
         <div class="slide-store">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="slide-cont" style="background-image:url('./images/bg_slide_test.jpg');"> <!-- image file name change -->
+                    <div class="slide-cont" style="background-image:url('./images/img_main_benefit.png');"> <!-- image file name change -->
                         <div class="scont-tit">
-                            <em>GRAND OPEN</em>
                             <strong>갤러리아 명품관 WEST점</strong>
+                            <em>도심 속 초대형 NEW 프리미엄샵!</em>
+                            <span>행사기간 : 22.04.01(금) ~ 22.04.20(일)</span>
                             <p>
                                 <a href="pages/reservation/BSF-RES-VISIT.jsp">매장상담예약하기</a>
                                 <a href="javascript:void(0);"><img src="./images/icons/main_icon_map.svg" alt="위치보기 아이콘">매장위치보기</a>
                             </p>
                         </div>
-                        <div class="store-option">
-                            <ul>
-                                <li><img src="./images/icons/main_icon_newshop.svg" alt="신규매장 아이콘"><span>신규매장</span></li>
-                                <li><img src="./images/icons/main_icon_iphone.svg" alt="아이폰 판매점 아이콘"><span>아이폰<br>판매점</span></li>
-                                <li><img src="./images/icons/main_icon_lx.svg" alt="LX지인 인테리어 아이콘"><span>LX지인<br>인테리어</span></li>
-                                <li><img src="./images/icons/main_icon_image.svg" alt="화상상담 매장 아이콘"><span>화상상담<br>매장</span></li>
-                                <li><img src="./images/icons/main_icon_night.svg" alt="야간무인 매장 아이콘"><span>야간무인<br>매장</span></li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="slide-cont" style="background-image:url('./images/bg_slide_test.jpg');"> <!-- image file name change -->
+                    <div class="slide-cont" style="background-image:url('./images/img_main_benefit.png');"> <!-- image file name change -->
                         <div class="scont-tit">
-                            <em>GRAND OPEN</em>
                             <strong>신세계 Art & Sience점</strong>
+                            <em>도심 속 초대형 NEW 프리미엄샵!</em>
+                            <span>행사기간 : 22.04.01(금) ~ 22.04.20(일)</span>
                             <p>
                                 <a href="pages/reservation/BSF-RES-VISIT.jsp">매장상담예약하기</a>
                                 <a href="javascript:void(0);"><img src="./images/icons/main_icon_map.svg" alt="위치보기 아이콘">매장위치보기</a>
                             </p>
                         </div>
-                        <div class="store-option">
-                            <ul>
-                                <li><img src="./images/icons/main_icon_newshop.svg" alt="신규매장 아이콘"><span>신규매장</span></li>
-                                <li><img src="./images/icons/main_icon_iphone.svg" alt="아이폰 판매점 아이콘"><span>아이폰<br>판매점</span></li>
-                                <li><img src="./images/icons/main_icon_lx.svg" alt="LX지인 인테리어 아이콘"><span>LX지인<br>인테리어</span></li>
-                                <li><img src="./images/icons/main_icon_image.svg" alt="화상상담 매장 아이콘"><span>화상상담<br>매장</span></li>
-                                <li><img src="./images/icons/main_icon_night.svg" alt="야간무인 매장 아이콘"><span>야간무인<br>매장</span></li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="slide-cont" style="background-image:url('./images/bg_slide_test.jpg');"> <!-- image file name change -->
+                    <div class="slide-cont" style="background-image:url('./images/img_main_benefit.png');"> <!-- image file name change -->
                         <div class="scont-tit">
-                            <em>GRAND OPEN</em>
                             <strong>강남본점</strong>
+                            <em>도심 속 초대형 NEW 프리미엄샵!</em>
+                            <span>행사기간 : 22.04.01(금) ~ 22.04.20(일)</span>
                             <p>
                                 <a href="pages/reservation/BSF-RES-VISIT.jsp">매장상담예약하기</a>
                                 <a href="javascript:void(0);"><img src="./images/icons/main_icon_map.svg" alt="위치보기 아이콘">매장위치보기</a>
                             </p>
                         </div>
-                        <div class="store-option">
-                            <ul>
-                                <li><img src="./images/icons/main_icon_newshop.svg" alt="신규매장 아이콘"><span>신규매장</span></li>
-                                <li><img src="./images/icons/main_icon_iphone.svg" alt="아이폰 판매점 아이콘"><span>아이폰<br>판매점</span></li>
-                                <li><img src="./images/icons/main_icon_lx.svg" alt="LX지인 인테리어 아이콘"><span>LX지인<br>인테리어</span></li>
-                                <li><img src="./images/icons/main_icon_image.svg" alt="화상상담 매장 아이콘"><span>화상상담<br>매장</span></li>
-                                <li><img src="./images/icons/main_icon_night.svg" alt="야간무인 매장 아이콘"><span>야간무인<br>매장</span></li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="slide-cont" style="background-image:url('./images/bg_slide_test.jpg');"> <!-- image file name change -->
+                    <div class="slide-cont" style="background-image:url('./images/img_main_benefit.png');"> <!-- image file name change -->
                         <div class="scont-tit">
-                            <em>GRAND OPEN</em>
                             <strong>양재점</strong>
+                            <em>도심 속 초대형 NEW 프리미엄샵!</em>
+                            <span>행사기간 : 22.04.01(금) ~ 22.04.20(일)</span>
                             <p>
                                 <a href="pages/reservation/BSF-RES-VISIT.jsp">매장상담예약하기</a>
                                 <a href="javascript:void(0);"><img src="./images/icons/main_icon_map.svg" alt="위치보기 아이콘">매장위치보기</a>
                             </p>
                         </div>
-                        <div class="store-option">
-                            <ul>
-                                <li><img src="./images/icons/main_icon_newshop.svg" alt="신규매장 아이콘"><span>신규매장</span></li>
-                                <li><img src="./images/icons/main_icon_iphone.svg" alt="아이폰 판매점 아이콘"><span>아이폰<br>판매점</span></li>
-                                <li><img src="./images/icons/main_icon_lx.svg" alt="LX지인 인테리어 아이콘"><span>LX지인<br>인테리어</span></li>
-                                <li><img src="./images/icons/main_icon_image.svg" alt="화상상담 매장 아이콘"><span>화상상담<br>매장</span></li>
-                                <li><img src="./images/icons/main_icon_night.svg" alt="야간무인 매장 아이콘"><span>야간무인<br>매장</span></li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="slide-cont" style="background-image:url('./images/bg_slide_test.jpg');"> <!-- image file name change -->
+                    <div class="slide-cont" style="background-image:url('./images/img_main_benefit.png');"> <!-- image file name change -->
                         <div class="scont-tit">
-                            <em>GRAND OPEN</em>
                             <strong>센트럴파크점</strong>
+                            <em>GRAND OPEN</em>
+                            <span>행사기간 : 22.04.01(금) ~ 22.04.20(일)</span>
                             <p>
                                 <a href="pages/reservation/BSF-RES-VISIT.jsp">매장상담예약하기</a>
                                 <a href="javascript:void(0);"><img src="./images/icons/main_icon_map.svg" alt="위치보기 아이콘">매장위치보기</a>
                             </p>
-                        </div>
-                        <div class="store-option">
-                            <ul>
-                                <li><img src="./images/icons/main_icon_newshop.svg" alt="신규매장 아이콘"><span>신규매장</span></li>
-                                <li><img src="./images/icons/main_icon_iphone.svg" alt="아이폰 판매점 아이콘"><span>아이폰<br>판매점</span></li>
-                                <li><img src="./images/icons/main_icon_lx.svg" alt="LX지인 인테리어 아이콘"><span>LX지인<br>인테리어</span></li>
-                                <li><img src="./images/icons/main_icon_image.svg" alt="화상상담 매장 아이콘"><span>화상상담<br>매장</span></li>
-                                <li><img src="./images/icons/main_icon_night.svg" alt="야간무인 매장 아이콘"><span>야간무인<br>매장</span></li>
-                            </ul>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="slide-cont" style="background-image:url('./images/bg_slide_test.jpg');"> <!-- image file name change -->
+                    <div class="slide-cont" style="background-image:url('./images/img_main_benefit.png');"> <!-- image file name change -->
                         <div class="scont-tit">
-                            <em>GRAND OPEN</em>
                             <strong>송파본점</strong>
+                            <em>도심 속 초대형 NEW 프리미엄샵!</em>
+                            <span>행사기간 : 22.04.01(금) ~ 22.04.20(일)</span>
                             <p>
                                 <a href="pages/reservation/BSF-RES-VISIT.jsp">매장상담예약하기</a>
                                 <a href="javascript:void(0);"><img src="./images/icons/main_icon_map.svg" alt="위치보기 아이콘">매장위치보기</a>
                             </p>
-                        </div>
-                        <div class="store-option">
-                            <ul>
-                                <li><img src="./images/icons/main_icon_newshop.svg" alt="신규매장 아이콘"><span>신규매장</span></li>
-                                <li><img src="./images/icons/main_icon_iphone.svg" alt="아이폰 판매점 아이콘"><span>아이폰<br>판매점</span></li>
-                                <li><img src="./images/icons/main_icon_lx.svg" alt="LX지인 인테리어 아이콘"><span>LX지인<br>인테리어</span></li>
-                                <li><img src="./images/icons/main_icon_image.svg" alt="화상상담 매장 아이콘"><span>화상상담<br>매장</span></li>
-                                <li><img src="./images/icons/main_icon_night.svg" alt="야간무인 매장 아이콘"><span>야간무인<br>매장</span></li>
-                            </ul>
                         </div>
                     </div>
                 </div>
