@@ -506,7 +506,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 .calendar .ui-datepicker th span{display:block;height:32px;font-size:14px;font-weight:500;text-align:center;line-height:32px;}
 
 /* slide video */
-.video-wrap{position:relative;width:100%;}
+.video-wrap{position:relative;width:100%;height:100%}
 .video-wrap video{position:absolute;width:100%;min-width:100%;height:auto;min-height:100%;top:50%;left:0;transform:translateY(-50%)}
 
 /* slide navi */
@@ -579,7 +579,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 .popup.video .pop-wrap .pop-cont iframe{width:100%;}
 .popup.video .pop-wrap .btn-pop-close{right:30px;}
 .popup.video .pop-wrap.white .btn-pop-close{background:url("../images/icons/btn-close-24-white.svg") no-repeat center}
-.popup.v-large .pop-wrap .pop-cont{height:290px}
+.popup.v-large .pop-wrap .pop-cont{height:320px}
 .popup.v-large .pop-wrap .btn-pop-close{right:70px}
 
 /* popup - button */
@@ -906,7 +906,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
     .popup.alert .pop-cont{padding:55px 20px 0}
     .popup.alert .btn-area.m-full-flex{width:auto;left:auto}
 		.popup.full .pop-wrap{top:93px}
-		.popup.v-large .pop-wrap{width:calc(100% + 32px)}
+		.popup.v-large .pop-wrap{width:calc(100% + 32px); border-radius:0;}
     
     /* popup - 모바일 full */
     .popup.m-full .pop-wrap{height:100%;border-radius:0;}
@@ -928,7 +928,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	/* popup - video */
 	.popup.video .pop-wrap .btn-pop-close{right:10px}
 	.popup.full .pop-wrap .pop-cont{height:390px}
-	.popup.v-large .pop-wrap .pop-cont{height:180px}
+	.popup.v-large .pop-wrap .pop-cont{height:200px}
 	.popup.v-large .pop-wrap .btn-pop-close{right:30px}
 
 	/* popup - 메인 슬라이드 팝업 */
@@ -956,9 +956,6 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	.pop-wrap.main .pop-cont + .btn-area{width:100%;left:0;margin:0;padding:54px 0 0;border-top:0}
 	.pop-wrap.main .pop-cont + .btn-area::before{content:'';display:block;position:absolute;top:0;left:16px;right:16px;height:1px;background-color:#ddd}
 	.pop-wrap.main .btn-area.chk-box .check-box{top:16px;left:14px}
-
-	/* 매장 상담 예약 - 탭이 있는 경우(영상 팝업) */
-	.res-main [class*="tab"] + .top-wrap .popup.v-large .pop-wrap{width:100%;}
 
 	/* dpi if else */
 	.pcOnly{display:none !important;}

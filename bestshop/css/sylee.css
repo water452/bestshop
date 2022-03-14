@@ -195,6 +195,15 @@ html.full-height .floating-block{display:none;}
 .signature .warnning ul li{position:relative;padding-left:22px;}
 .signature .warnning ul li:before{display:block;content:'※';position:absolute;top:0;left:0;}
 
+/* benefit > 이달의 혜택 */
+.benefit-month {position:relative;}
+.benefit-month .img-box > img {width:100%;}
+.benefit-month .video-wrap {height:auto;}
+.benefit-month .video-wrap video {position:static;top:0;transform:none;}
+.benefit-month .popup.v-large .pop-wrap {width:calc(100% - 80px);max-width:1380px;border-radius:0;}
+.benefit-month .popup.v-large .pop-wrap .pop-cont {height:554px}
+.benefit-month .btn-area {margin-top:65px;}
+
 /* step on */
 .step-cont{border-top:1px solid #707070;}
 .step-cont .step-cont-block{border-bottom:1px solid #707070;}
@@ -399,6 +408,12 @@ ul.input-list-type .txt-box .input-wrap{width:100%;}
     .step-cont .step-detail .full .input-cate-type .cate-items > li{width:calc(50% - 7px);}
 
     .res-main .bottom-fixed-wrap .bar-wrap .foot-area .btn-area a{display:block;width:100%;max-width:328px;margin:0 auto;height:43px;padding:10px 25px;font-size:13px;line-height:21px;}
+
+
+    /* benefit > 이달의 혜택 */
+    .benefit-month .popup.v-large .pop-wrap {width:100%}
+    .benefit-month .popup.v-large .pop-wrap .pop-cont {height:auto}
+
 
     /* reservation > visit */
     .img-slide-wrap .btn-video-view{top:10px;left:10px;height:29px;font-size:14px;line-height:29px;border-radius:14px;}
