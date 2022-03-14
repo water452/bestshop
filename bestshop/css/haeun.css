@@ -80,6 +80,7 @@
 .cont-area {padding-top:8px}
 .cont-wrap.w100 {max-width:100%; padding:0}
 .step-area {border-top:1px solid #ddd}
+.step-area.step01 ul[class*="input"] {margin-top:16px}
 .step-area.step03{border-bottom:1px solid #ddd;}
 .step-area.border{position:relative;margin-bottom:-1px;border-color:#707070;border-bottom:1px solid #707070;z-index:1;}
 .step-area.step03.border{border-bottom:0 none;margin-bottom:0;}
@@ -844,6 +845,8 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-main .cont-wrap .cont-area {padding-top:4px}
     .cont-wrap.w100 {padding:0 16px 4px}
     .res-main .step-area.step02 .date-wrap .input-area > .base-type .radio-btn.btn-type2 label {border-radius:4px}
+    .step-area.step01 ul[class*="input"] {margin-top:0}
+    .step-area.step01 ul.input-base-type {margin-top:5px}
 
     /* swiper button */
     .banner-btns {height:28px}

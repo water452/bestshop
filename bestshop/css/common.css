@@ -151,7 +151,6 @@ table{border-collapse:collapse}
 .step-tit > span{display:block;margin-left:3px;font-size:16px;font-weight:500}
 .step-tit ~ .step-tit{margin-top:50px}
 .step-tit > sup{color:#da0f47;font-size:20px;font-weight:bold;line-height:32px}
-.step-tit + .err-block{margin-bottom:16px;}
 .tit-area{display:flex;align-items:center;margin-bottom:16px}
 .tit-area .step-tit{margin-bottom:0}
 .tit-area .step-tit + em{margin-left:10px;font-size:14px;line-height:22px}
