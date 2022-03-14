@@ -30,14 +30,8 @@
                             <ul class="swiper-wrapper">
                                 <li class="swiper-slide">
                                     <div class="img-wrap">
-                                        <img class="m-hidden" src="../../images/img-res-visit-banner-01.png" alt="&nbsp;" /><!-- pc용 -->
-                                        <img class="pc-hidden" src="../../images/img-res-visit-banner-01_mo.png" alt="&nbsp;" /><!-- mobile용 -->
-                                    </div>
-                                </li>
-                                <li class="swiper-slide">
-                                    <div class="img-wrap">
-                                        <img class="m-hidden" src="../../images/img-res-visit-banner-02.png" alt="&nbsp;" /><!-- pc용 -->
-                                        <img class="pc-hidden" src="../../images/img-res-visit-banner-02_mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                                        <img class="m-hidden" src="../../images/img-res-visit-banner-01.jpg" alt="&nbsp;" /><!-- pc용 -->
+                                        <img class="pc-hidden" src="../../images/img-res-visit-banner-01_mo.jpg" alt="&nbsp;" /><!-- mobile용 -->
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
@@ -71,7 +65,7 @@
                     </div>
                 </div>
 
-                <div class="guide-area">
+                <div class="guide-area step-3">
                     <div class="guide-process">
                         <div class="inner">
                             <div class="swiper guide-banner-visit">
@@ -80,7 +74,7 @@
                                         <div class="box">
                                             <div class="tit-wrap">
                                                 <span class="tit">STEP 01</span>
-                                                <strong>상담 희망 <br class="pc-hidden">제품 선택</strong>
+                                                <strong>상담 목적 및 <br class="pc-hidden">제품 선택</strong>
                                             </div>
                                             <span class="icon-wrap">
                                                 <i class="icon01"></i>
@@ -106,17 +100,6 @@
                                             </div>
                                             <span class="icon-wrap">
                                                 <i class="icon03"></i>
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="box">
-                                            <div class="tit-wrap">
-                                                <span class="tit">STEP 04</span>
-                                                <strong>사전 전화 안내 후 <br class="pc-hidden">매장 방문</strong>
-                                            </div>
-                                            <span class="icon-wrap">
-                                                <i class="icon04"></i>
                                             </span>
                                         </div>
                                     </div>

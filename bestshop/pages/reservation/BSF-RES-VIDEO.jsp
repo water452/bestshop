@@ -58,7 +58,7 @@
                     </div>
                 </div>
 
-                <div class="guide-area">
+                <div class="guide-area step-3">
                     <div class="guide-process">
                         <div class="inner">
                             <div class="swiper guide-banner-video">
@@ -96,7 +96,7 @@
                                             </span>
                                         </div>
                                     </div>
-                                    <div class="swiper-slide">
+                                    <!-- <div class="swiper-slide">
                                         <div class="box">
                                             <div class="tit-wrap">
                                                 <span class="tit">STEP 04</span>
@@ -106,7 +106,7 @@
                                                 <i class="icon04"></i>
                                             </span>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <div class="swiper-scrollbar"></div>
                             </div>
