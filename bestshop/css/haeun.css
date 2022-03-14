@@ -80,7 +80,6 @@
 .cont-area {padding-top:8px}
 .cont-wrap.w100 {max-width:100%; padding:0}
 .step-area {border-top:1px solid #ddd}
-.step-area.step01 ul[class*="input"] {margin-top:16px}
 .step-area.step03{border-bottom:1px solid #ddd;}
 .step-area.border{position:relative;margin-bottom:-1px;border-color:#707070;border-bottom:1px solid #707070;z-index:1;}
 .step-area.step03.border{border-bottom:0 none;margin-bottom:0;}
@@ -124,12 +123,12 @@ ul.input-cate-type {display:flex; flex-wrap:wrap; justify-content:space-between;
 ul.input-cate-type > li {display:flex; flex-wrap:wrap; justify-content:space-between; align-items:flex-start; width:calc(50% - 6px); margin-top:12px; padding:11px 19px 11px 18px; border-radius:8px; background-color:#fcfcfc}
 ul.input-cate-type .cate-tit {display:flex; align-items:center; padding:5px 0; font-size:16px; line-height:24px}
 ul.input-cate-type .cate-tit > .icon {display:block; width:48px; height:48px; margin-right:6px}
-ul.input-cate-type .cate-tit > .icon.tv-audio {background:url(../images/icons/icon-tv.svg) no-repeat center}
-ul.input-cate-type .cate-tit > .icon.pc {background:url(../images/icons/icon-desktop.svg) no-repeat center}
-ul.input-cate-type .cate-tit > .icon.kitchens {background:url(../images/icons/icon-refrigerator.svg) no-repeat center}
-ul.input-cate-type .cate-tit > .icon.house {background:url(../images/icons/icon-washing-machine.svg) no-repeat center}
-ul.input-cate-type .cate-tit > .icon.mobile {background:url(../images/icons/icon-mobile.svg) no-repeat center}
-ul.input-cate-type .cate-tit > .icon.beauty {background:url(../images/icons/icon-pra_l.svg) no-repeat center}
+ul.input-cate-type .cate-tit > .icon.tv-audio {background:url(../images/icons/icon-tv.svg) no-repeat center / contain}
+ul.input-cate-type .cate-tit > .icon.pc {background:url(../images/icons/icon-desktop.svg) no-repeat center / contain}
+ul.input-cate-type .cate-tit > .icon.kitchens {background:url(../images/icons/icon-refrigerator.svg) no-repeat center / contain}
+ul.input-cate-type .cate-tit > .icon.house {background:url(../images/icons/icon-washing-machine.svg) no-repeat center / contain}
+ul.input-cate-type .cate-tit > .icon.mobile {background:url(../images/icons/icon-mobile.svg) no-repeat center / contain}
+ul.input-cate-type .cate-tit > .icon.beauty {background:url(../images/icons/icon-pra_l.svg) no-repeat center / contain}
 ul.input-cate-type .cate-items {display:flex; flex-wrap:wrap; width:calc(100% - 135px); max-width:498px}
 ul.input-cate-type .cate-items > li {min-width:calc(100% / 3); padding:5px}
 ul.input-cate-type .cate-items > li .chkrdo-btn {width:100%}
@@ -145,7 +144,7 @@ ul.input-pdt-type .chkrdo-btn label {width:100%; padding:0 20px; font-weight:500
 ul.input-pdt-type .chkrdo-btn input:checked + label {border-width:2px; line-height:44px}
 
 /* 구매희망시기 */
-ul.input-base-type {justify-content:space-between; margin:0 -6px}
+ul.input-base-type {margin:0 -6px}
 ul.input-base-type > li {width:calc(100% / 6); padding:0 6px}
 ul.input-base-type .chkrdo-btn {width:100%}
 ul.input-base-type .chkrdo-btn label {width:100%; padding:0 10px; font-weight:500}
@@ -845,7 +844,6 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-main .cont-wrap .cont-area {padding-top:4px}
     .cont-wrap.w100 {padding:0 16px 4px}
     .res-main .step-area.step02 .date-wrap .input-area > .base-type .radio-btn.btn-type2 label {border-radius:4px}
-    .step-area.step01 ul[class*="input"] {margin-top:0}
     .step-area.step01 ul.input-base-type {margin-top:5px}
 
     /* swiper button */
@@ -876,11 +874,17 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 
     /* 제품선택 - 카테고리형 */
     ul.input-cate-type {margin-top:-9px}
-    ul.input-cate-type > li {flex-direction:column; align-items:center; width:100%; margin-top:9px; padding:16px 6.5px 12.5px}
-    ul.input-cate-type .cate-tit {padding:0; font-size:13px; line-height:20px}
-    ul.input-cate-type .cate-tit > .icon {display:none}
-    ul.input-cate-type .cate-items {width:100%; max-width:100%; margin-top:6.5px; padding:0 10px}
-    ul.input-cate-type .cate-items > li {padding:3.5px}
+    ul.input-cate-type > li {flex-direction:column; width:100%; margin-top:25px; padding:0; background:none}
+    ul.input-cate-type .cate-tit {padding:0; font-size:14px; font-weight:bold; line-height:20px}
+    ul.input-cate-type .cate-tit > .icon {width:24px; height:24px; margin-right:4px}
+    ul.input-cate-type .cate-tit > .icon.tv-audio {background:url(../images/icons/icon-tv_mo.svg) no-repeat center / contain}
+    ul.input-cate-type .cate-tit > .icon.pc {background:url(../images/icons/icon-desktop_mo.svg) no-repeat center / contain}
+    ul.input-cate-type .cate-tit > .icon.kitchens {background:url(../images/icons/icon-refrigerator_mo.svg) no-repeat center / contain}
+    ul.input-cate-type .cate-tit > .icon.house {background:url(../images/icons/icon-washing-machine_mo.svg) no-repeat center / contain}
+    ul.input-cate-type .cate-tit > .icon.mobile {background:url(../images/icons/icon-mobile_mo.svg) no-repeat center / contain}
+    ul.input-cate-type .cate-tit > .icon.beauty {background:url(../images/icons/icon-pra_l_mo.svg) no-repeat center / contain}
+    ul.input-cate-type .cate-items {width:100%; max-width:100%; margin:6px -3px 0; padding:0}
+    ul.input-cate-type .cate-items > li {padding:3px}
     ul.input-cate-type .cate-items .chkrdo-btn label {min-width:0; padding:6px 3px; border:1.5px solid #ddd; font-size:13px; line-height:19px}
     ul.input-cate-type .cate-items .chkrdo-btn.sm label {font-size:12px}
     ul.input-cate-type .cate-items input:checked + label {border:1.5px solid #da0f47}

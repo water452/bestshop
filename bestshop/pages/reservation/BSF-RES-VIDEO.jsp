@@ -29,16 +29,23 @@
                         <div class="swiper img-slide">
                             <ul class="swiper-wrapper">
                                 <li class="swiper-slide">
-                                    <img class="m-hidden" src="../../images/img-res-visit-banner-01.png" alt="&nbsp;" /><!-- pc용 -->
-                                    <img class="pc-hidden" src="../../images/img-res-visit-banner-01_mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                                    <div class="img-wrap">
+                                        <img class="m-hidden" src="../../images/img-res-visit-banner-01.jpg" alt="&nbsp;" /><!-- pc용 -->
+                                        <img class="pc-hidden" src="../../images/img-res-visit-banner-01_mo.jpg" alt="&nbsp;" /><!-- mobile용 -->
+                                    </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <img class="m-hidden" src="../../images/img-res-visit-banner-02.png" alt="&nbsp;" /><!-- pc용 -->
-                                    <img class="pc-hidden" src="../../images/img-res-visit-banner-02_mo.png" alt="&nbsp;" /><!-- mobile용 -->
-                                </li>
-                                <li class="swiper-slide">
-                                    <img class="m-hidden" src="../../images/img-res-visit-banner-03.png" alt="&nbsp;" /><!-- pc용 -->
-                                    <img class="pc-hidden" src="../../images/img-res-visit-banner-03_mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                                    <div class="video-wrap">
+                                        <button type="button" class="btn-video-view">영상보기</button>
+                                        <video class="pcOnly" playsinline="" muted="" poster="../../images/@img-main-hero-pc.jpg" class="videoPoster" loop> <!-- pc only -->
+                                            <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
+                                            <p>LG전자 회사소개 동영상</p>
+                                        </video>
+                                        <video class="mobileOnly" playsinline="" muted="" poster="../../images/@img-main-hero-pc.jpg" class="videoPoster" loop> <!-- mobile only -->
+                                            <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
+                                            <p>LG전자 회사소개 동영상</p>
+                                        </video>
+                                    </div>
                                 </li>
                             </ul>
                             <div class="slide-navi">

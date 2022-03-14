@@ -147,10 +147,11 @@ table{border-collapse:collapse}
 .slt.width-auto ul{width:auto;left:50%;transform:translateX(-50%)}
 
 /* step title */
-.step-tit{display:flex;align-items:center;font-size:20px;font-weight:bold;line-height:32px}
+.step-tit{display:flex;align-items:center;margin-bottom:22px;font-size:20px;font-weight:bold;line-height:28px}
 .step-tit > span{display:block;margin-left:3px;font-size:16px;font-weight:500}
 .step-tit ~ .step-tit{margin-top:50px}
-.step-tit > sup{color:#da0f47;font-size:20px;font-weight:bold;line-height:32px}
+.step-tit > sup{color:#da0f47;font-size:20px;font-weight:bold;line-height:28px}
+.step-tit + .btm-more {margin-top:-12px; margin-bottom:12px}
 .tit-area{display:flex;align-items:center;margin-bottom:16px}
 .tit-area .step-tit{margin-bottom:0}
 .tit-area .step-tit + em{margin-left:10px;font-size:14px;line-height:22px}
@@ -679,10 +680,11 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
     .tab02 > ul > li > a{font-size:14px;}
 
 	/* step title */
-	.step-tit{font-size:20px;line-height:26px}
+	.step-tit{margin-bottom:16px;font-size:20px;line-height:26px}
 	.step-tit ~ .step-tit{margin-top:40px}
 	.step-tit > span{margin-left:5px;font-size:11px}
 	.step-tit > sup{font-size:16px;line-height:25px}
+	.step-tit + .btm-more {margin-top:-9px; margin-bottom:10px}
 	.tit-area{flex-direction:column;align-items:flex-start;margin-bottom:12px}
 	.tit-area .step-tit + em{margin-left:0;font-size:10px;line-height:19px}
 
