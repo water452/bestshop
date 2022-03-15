@@ -1,7 +1,7 @@
 <%@ page contentType="text/html; charset=utf-8" %>
 <div class="shop-date-wrap">
     <div class="view-area">
-        <!-- <h3 class="step-tit">상담하실 매장과 예약 일시 선택<sup>*</sup></h3> -->
+        <h3 class="step-tit">상담하실 매장과 예약 일시 선택<sup>*</sup></h3>
 
         <!-- 화상상담예약 타이틀-->
 
@@ -210,7 +210,7 @@
                     <div class="rt custom-scroll">
                         <ul class="detail-list">
                             <li>
-                                <a href="javascript:void(0);" class="shop-box">
+                                <a href="javascript:void(0);" class="shop-box active"><!-- 클릭시 active 클래스 추가 -->
                                     <div class="name-area">
                                         <p class="shop-name">강남본점</p>
                                         <ul class="key-words">

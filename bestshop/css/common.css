@@ -139,7 +139,7 @@ table{border-collapse:collapse}
 
 /* select */
 .slt.border-type{position:relative;width:200px}
-.slt.border-type > a{display:block;width:100%;padding:10px 15px;border:1px solid #ddd;border-radius:8px;background-color:#fff;font-size:16px;line-height:26px}
+.slt.border-type > a{display:block;width:100%;padding:10px 40px 10px 15px;border:1px solid #ddd;border-radius:8px;background-color:#fff;font-size:16px;line-height:26px;text-overflow:ellipsis;overflow:hidden}
 .slt.border-type.on > a{border-radius:8px 8px 0 0;border-color:#222;border-bottom-color:transparent}
 .slt.border-type > a::before{right:15px}
 .slt.border-type ul{width:100%;top:48px;left:0;padding:0;border:1px solid #222;border-radius:0 0 8px 8px;border-top:none;box-shadow:none}
@@ -666,7 +666,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	/* select */
 	.slt.border-type > a,
 	.slt.border-type > ul{display:none}
-	.slt.border-type select{width:100%;height:auto;border:1px solid #ddd;border-radius:8px;background-position:top 50% right 11px;padding:11px 12px;font-size:14px;line-height:22px}
+	.slt.border-type select{width:100%;height:auto;border:1px solid #ddd;border-radius:8px;background-position:top 50% right 11px;padding:11px 26px 11px 12px;font-size:14px;line-height:22px;text-overflow:ellipsis;overflow:hidden}
     .base-slt{padding-left:12px;height:46px;line-height:44px;font-size:14px;}
 
     /* tab */
