@@ -13,19 +13,26 @@
         <div class="cont-wrap">
             <div class="top-wrap">
                 <div class="img-slide-wrap">
-                    <div class="swiper img-slide">
+                    <div class="swiper img-slide h-475">
                         <ul class="swiper-wrapper">
                             <li class="swiper-slide">
-                                <img class="m-hidden" src="../../images/img-product-list-banner-01.png" alt="&nbsp;" /><!-- pc용 -->
-                                <img class="pc-hidden" src="../../images/img-product-list-banner-01_mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                                <div class="img-wrap">
+                                    <img class="m-hidden" src="../../images/img-product-list-banner-01.png" alt="&nbsp;" /><!-- pc용 -->
+                                    <img class="pc-hidden" src="../../images/img-product-list-banner-01_mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                                </div>
                             </li>
                             <li class="swiper-slide">
-                                <img class="m-hidden" src="../../images/img-product-list-banner-01.png" alt="&nbsp;" /><!-- pc용 -->
-                                <img class="pc-hidden" src="../../images/img-product-list-banner-01_mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                                <div class="img-wrap">
+                                    <img class="m-hidden" src="../../images/img-product-list-banner-01.png" alt="&nbsp;" /><!-- pc용 -->
+                                    <img class="pc-hidden" src="../../images/img-product-list-banner-01_mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                                </div>
                             </li>
                             <li class="swiper-slide">
-                                <img class="m-hidden" src="../../images/img-product-list-banner-01.png" alt="&nbsp;" /><!-- pc용 -->
-                                <img class="pc-hidden" src="../../images/img-product-list-banner-01_mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                                <div class="img-wrap">
+                                    <button type="button" class="btn-video-view">영상보기</button>
+                                    <img class="m-hidden" src="../../images/img-product-list-banner-01.png" alt="&nbsp;" /><!-- pc용 -->
+                                    <img class="pc-hidden" src="../../images/img-product-list-banner-01_mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                                </div>
                             </li>
                         </ul>
                         <div class="slide-navi">
@@ -43,6 +50,26 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- 팝업 : 영상 팝업 s -->
+                <div class="popup v-large video" id="popup-video">
+                    <div class="pop-wrap white">
+                        <div class="pop-cont h-475">
+                            <div class="video-wrap">
+                                <video class="pcOnly" playsinline="" muted="" poster="../../images/img-product-list-banner-01.png" class="videoPoster" loop> <!-- pc only -->
+                                    <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
+                                    <p>LG전자 회사소개 동영상</p>
+                                </video>
+                                <video class="mobileOnly" playsinline="" muted="" poster="../../images/img-product-list-banner-01_mo.png" class="videoPoster" loop> <!-- mobile only -->
+                                    <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
+                                    <p>LG전자 회사소개 동영상</p>
+                                </video>
+                            </div>
+                        </div>
+                        <button type="button" class="btn-pop-close btnPopClose"><span class="blind">닫기</span></button>
+                    </div>
+                </div>
+                <!-- 팝업 : 영상 팝업 e -->
             </div>
 
             <!-- tab -->
@@ -1008,5 +1035,16 @@
         $(window).resize(function(){
             var _stickyBar = $('.tab-wrap').offset().top;
         })
+    });
+
+    var _winW = $(window).width();
+    
+    // video control
+    $('.btn-video-view').on('click', function(){
+        if(_winW < 1025){
+            $('#popup-video').css('display', 'block').find('video.mobileOnly').get(0).play();
+        } else {
+            $('#popup-video').css('display', 'block').find('video.pcOnly').get(0).play();
+        }
     });
 </script>

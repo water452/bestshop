@@ -362,9 +362,6 @@ ul.input-acco-type .check-box .agr-txt-wrap .inner > ul > li > p {padding-left:1
 .res-info-area .info-box ul li > ul li {display:block; font-weight:500}
 
 /* 방문상담예약페이지 */
-.res-main .top-wrap .add-area .img-slide-wrap .img-slide {width:100%; height:320px; border-radius:16px; overflow:hidden}
-.res-main .top-wrap .add-area .img-slide-wrap .img-wrap {position:relative; width:100%; height:100%; overflow:hidden}
-.res-main .top-wrap .add-area .img-slide-wrap .img-wrap img {position:absolute; display:block; width:auto; min-width:100%; height:auto; min-height:100%; top:50%; left:50%; transform:translate(-50%,-50%)}
 .res-main .slide-navi .slide-navi-detail {padding:0 24px}
 .res-main .guide-area .guide-banner-visit .box .icon-wrap .icon01 {background:url(../images/icons/icon-res-guide-visit-01.svg) no-repeat center / contain}
 .res-main .guide-area .guide-banner-visit .box .icon-wrap .icon02 {background:url(../images/icons/icon-res-guide-visit-02.svg) no-repeat center / contain}

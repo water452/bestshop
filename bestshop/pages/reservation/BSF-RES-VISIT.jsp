@@ -26,7 +26,7 @@
             <div class="top-wrap">
                 <div class="add-area">
                     <div class="img-slide-wrap">
-                        <div class="swiper img-slide">
+                        <div class="swiper img-slide h-320">
                             <ul class="swiper-wrapper">
                                 <li class="swiper-slide">
                                     <div class="img-wrap">

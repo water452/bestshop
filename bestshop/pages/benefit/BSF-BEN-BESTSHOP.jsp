@@ -10,34 +10,33 @@
     <div class="contents benefit-month">
         <div class="cont-wrap">
             <!-- s : 단일 이미지 등록 case
-            <div class="img-box">
-                <img src="../../images/img_benefit_month_test.png" alt="해당 이미지 ALT" />
+            <div class="tit-img-area">
+                <img src="../../images/tit-img-shop-open.png" alt="가전 매장의 새로운 기준. LG전자 베스트샵 GRAND OPEN (가장 풍성한 혜택의 오픈 매장 이벤트를 꼭 확인해보세요!)" class="m-hidden" /><!#-- pc용 --#>
+                <img src="../../images/tit-img-shop-open-m.png" alt="가전 매장의 새로운 기준. LG전자 베스트샵 GRAND OPEN (가장 풍성한 혜택의 오픈 매장 이벤트를 꼭 확인해보세요!)" class="pc-hidden" /><!#-- mobile용 --#>
             </div>
             e : 단일 이미지 등록 case -->
             
             <!-- s : 다중 컨텐츠 등록 case -->
             <div class="img-slide-wrap">
-                <div class="swiper img-slide">
+                <div class="swiper img-slide h-554">
                     <ul class="swiper-wrapper">
                         <li class="swiper-slide">
-                            <img class="m-hidden" src="../../images/img-benefit-month-slide-test.png" alt="&nbsp;" /><!-- pc용 -->
-                            <img class="pc-hidden" src="../../images/img-benefit-month-slide-test-mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                            <div class="img-wrap">
+                                <img class="m-hidden" src="../../images/img-benefit-month-slide-test.png" alt="&nbsp;" /><!-- pc용 -->
+                                <img class="pc-hidden" src="../../images/img-benefit-month-slide-test-mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                            </div>
                         </li>
                         <li class="swiper-slide">
-                            <img class="m-hidden" src="../../images/img-benefit-month-slide-test.png" alt="&nbsp;" /><!-- pc용 -->
-                            <img class="pc-hidden" src="../../images/img-benefit-month-slide-test-mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                            <div class="img-wrap">
+                                <img class="m-hidden" src="../../images/img-benefit-month-slide-test.png" alt="&nbsp;" /><!-- pc용 -->
+                                <img class="pc-hidden" src="../../images/img-benefit-month-slide-test-mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                            </div>
                         </li>
                         <li class="swiper-slide">
-                            <div class="video-wrap">
+                            <div class="img-wrap">
                                 <button type="button" class="btn-video-view">영상보기</button>
-                                <video class="pcOnly" playsinline="" muted="" poster="../../images/img-benefit-month-slide-test.png" class="videoPoster" loop> <!-- pc only -->
-                                    <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
-                                    <p>LG전자 회사소개 동영상</p>
-                                </video>
-                                <video class="mobileOnly" playsinline="" muted="" poster="../../images/img-benefit-month-slide-test-mo.png" class="videoPoster" loop> <!-- mobile only -->
-                                    <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
-                                    <p>LG전자 회사소개 동영상</p>
-                                </video>
+                                <img class="m-hidden" src="../../images/img-benefit-month-slide-test.png" alt="&nbsp;" /><!-- pc용 -->
+                                <img class="pc-hidden" src="../../images/img-benefit-month-slide-test-mo.png" alt="&nbsp;" /><!-- mobile용 -->
                             </div>
                         </li>
                     </ul>
@@ -62,12 +61,11 @@
                 <a href="javascript:void(0);" class="btn s01">이벤트 전체보기</a>
                 <a href="javascript:void(0);" class="btn s01 border">매장 상담 예약</a>
             </div>
-
-
+            
             <!-- 팝업 : 영상 팝업 s -->
             <div class="popup v-large video" id="popup-video">
                 <div class="pop-wrap white">
-                    <div class="pop-cont">
+                    <div class="pop-cont h-554">
                         <div class="video-wrap">
                             <video class="pcOnly" playsinline="" muted="" poster="../../images/img-benefit-month-slide-test.png" class="videoPoster" loop> <!-- pc only -->
                                 <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
@@ -86,8 +84,11 @@
         </div>
     </div>
     <!-- // contents -->
+
 </div>
 <!-- // container -->
+
+
 
 <script>
     $(document).ready(function () {

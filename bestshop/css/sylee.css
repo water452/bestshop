@@ -197,11 +197,8 @@ html.full-height .floating-block{display:none;}
 
 /* benefit > 이달의 혜택 */
 .benefit-month {position:relative;}
-.benefit-month .img-box > img {width:100%;}
-.benefit-month .video-wrap {height:auto;}
-.benefit-month .video-wrap video {position:static;top:0;transform:none;}
+.benefit-month .img-slide {border-radius:0;}
 .benefit-month .popup.v-large .pop-wrap {width:calc(100% - 80px);max-width:1380px;border-radius:0;}
-.benefit-month .popup.v-large .pop-wrap .pop-cont {height:554px}
 .benefit-month .btn-area {margin-top:65px;}
 
 /* step on */
