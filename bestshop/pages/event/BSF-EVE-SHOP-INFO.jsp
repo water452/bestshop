@@ -9,9 +9,59 @@
     <!-- contents -->
     <div class="contents res-main">
         <div class="cont-wrap">
-            <div class="detail-thum">
+            <!-- <div class="detail-thum">
                 <img src="../../images/temp_img_event_reservation.jpg" alt="해당 이미지 ALT" />
+            </div> -->
+            <div class="img-slide-wrap">
+                <div class="swiper img-slide">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <div class="img-wrap">
+                                <img class="m-hidden" src="../../images/temp_img_event_reservation.jpg" alt="&nbsp;" />
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="img-wrap">
+                                <button type="button" class="btn-video-view">영상보기</button>
+                                <img class="m-hidden" src="../../images/temp_img_event_reservation.jpg" alt="&nbsp;" />
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="slide-navi">
+                        <div class="slide-navi-detail">
+                            <div class="swiper-pager">
+                                <button type="button" class="slideBtn btn-prev">이전 슬라이드</button>
+                                <div class="pager-fraction"></div>
+                                <button type="button" class="slideBtn btn-next">다음 슬라이드</button>
+                            </div>
+                            <div class="swiper-auto">
+                                <button type="button" class="slideBtn btn-play">슬라이드 재생</button>
+                                <button type="button" class="slideBtn btn-stop active">슬라이드 일시정지</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+            <!-- 팝업 : 영상 팝업 s -->
+            <div class="popup v-large video" id="popup-video">
+                <div class="pop-wrap white">
+                    <div class="pop-cont">
+                        <div class="video-wrap">
+                            <video class="pcOnly" playsinline="" muted="" poster="../../images/@img-main-hero-pc.jpg" class="videoPoster" loop> <!-- pc only -->
+                                <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
+                                <p>LG전자 회사소개 동영상</p>
+                            </video>
+                            <video class="mobileOnly" playsinline="" muted="" poster="../../images/@img-main-hero-pc.jpg" class="videoPoster" loop> <!-- mobile only -->
+                                <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
+                                <p>LG전자 회사소개 동영상</p>
+                            </video>
+                        </div>
+                    </div>
+                    <button type="button" class="btn-pop-close btnPopClose"><span class="blind">닫기</span></button>
+                </div>
+            </div>
+            <!-- 팝업 : 영상 팝업 e -->
 
             <section class="cont-area">
                 <p class="step-top-note"><sup>*</sup>필수입력항목</p>
@@ -400,34 +450,45 @@
             },
         })
 
-        // 배너
-        var resbanner01 = new Swiper(".res-banner-01", {
-            spaceBetween: 40,
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
+        // 상단 배너 슬라이드
+        var imgSwiper = new Swiper(".img-slide", {
+            speed : 800,
+            slidesPerView: 1,
+            autoplay: {
+                delay:5000
             },
             pagination: {
-                el: '.swiper-pagination',
-                type: 'bullets',
-                clickable: true,
+                el: ".img-slide .slide-navi .pager-fraction",
+                type: "fraction"
             },
-            autoplay: {
-                delay: 3000,
+            navigation: {
+                nextEl: ".img-slide .slide-navi .slideBtn.btn-next",
+                prevEl: ".img-slide .slide-navi .slideBtn.btn-prev"
             },
+            loop : true,
+            loopAdditionalSlides: 1,
         });
-        // play/stop 버튼
-        $('.btn-play').click(function(){
-            if ($(this).hasClass('pause')) {
-                resbanner01.autoplay.start();
-                $(this).removeClass('pause')
-                    .find('.blind').text('멈춤');
+
+        // 상단 배너 슬라이드 (autoplay control)
+        $('.img-slide .swiper-auto > button').on('click', function(){
+            $('.img-slide .swiper-auto > button').toggleClass('active');
+
+            if ($(this).hasClass('btn-play')){
+                imgSwiper.autoplay.start();
+            } 
+            else {
+                imgSwiper.autoplay.stop();
+            };
+        });
+
+        var _winW = $(window).width();
+        // video control
+        $('.btn-video-view').on('click', function(){
+            if(_winW < 1025){
+                $('#popup-video').css('display', 'block').find('video.mobileOnly').get(0).play();
             } else {
-                resbanner01.autoplay.stop();
-                $(this).addClass('pause')
-                    .find('.blind').text('재생');
+                $('#popup-video').css('display', 'block').find('video.pcOnly').get(0).play();
             }
-            return false;
         });
 
         // step 2 지도/리스트 보기 버튼
