@@ -82,6 +82,7 @@ footer .foot-cont .pc-dropdown-wrap .btns .btn.border:hover{border-color:#000 !i
 .h-320 {height:320px !important;}
 .h-475 {height:475px !important;}
 .h-554 {height:554px !important;}
+.h-640 {height:640px !important;}
 
 /* 색상 */
 .fc-primary{color:#da0f47 !important}
@@ -667,10 +668,14 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
     .pc-hidden{display:block !important;}
     .m-hidden{display:none !important;}
 
+		/* border */
+		.bdr-none {border-radius:0 !important;}
+
 		/* 높이값 */
 		.h-320 {height:200 !important;}
 		.h-475 {height:730px !important;}
 		.h-554 {height:405px !important;}
+		.h-640 {height:961px !important;}
 
 	/* search */
     .search-box{margin:0 auto}

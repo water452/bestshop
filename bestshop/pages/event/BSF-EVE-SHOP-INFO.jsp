@@ -16,15 +16,11 @@
                 <div class="swiper img-slide">
                     <ul class="swiper-wrapper">
                         <li class="swiper-slide">
-                            <div class="img-wrap">
-                                <img class="m-hidden" src="../../images/temp_img_event_reservation.jpg" alt="&nbsp;" />
-                            </div>
+                            <img class="m-hidden" src="../../images/temp_img_event_reservation.jpg" alt="&nbsp;" />
                         </li>
                         <li class="swiper-slide">
-                            <div class="img-wrap">
-                                <button type="button" class="btn-video-view">영상보기</button>
-                                <img class="m-hidden" src="../../images/temp_img_event_reservation.jpg" alt="&nbsp;" />
-                            </div>
+                            <button type="button" class="btn-video-view">영상보기</button>
+                            <img class="m-hidden" src="../../images/temp_img_event_reservation.jpg" alt="&nbsp;" />
                         </li>
                     </ul>
                     <div class="slide-navi">

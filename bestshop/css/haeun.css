@@ -395,6 +395,7 @@ ul.input-acco-type .check-box .agr-txt-wrap .inner > ul > li > p {padding-left:1
 
 /* 케어십상담예약페이지 */
 .res-main.care .top-wrap {width:100%; max-width:1460px; margin:0 auto 50px; padding:0 40px}
+.res-main.care .popup.v-large .pop-wrap {width:calc(100% - 80px); max-width:1380px}
 
 .res-main .sticky-info-wrap {margin-bottom:70px; background-image:linear-gradient(to right,#a58bee,#f86791)}
 .res-main .sticky-info-wrap .inner {position:relative; max-width:1460px; margin:0 auto; padding:25px 40px}
@@ -1078,6 +1079,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-main.care .top-wrap {padding:0 16px}
     .res-main.care .cont-wrap .cont-area {padding-top:0}
     .res-main.care .cont-wrap .cont-area .step-area {margin-top:24px}
+    .res-main.care .popup.v-large .pop-wrap {width:calc(100% + 32px)}
 
     .res-main .sticky-info-wrap {margin-bottom:35px}
     .res-main .sticky-info-wrap .inner {padding:20px 16px 74px}

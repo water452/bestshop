@@ -13,7 +13,7 @@
         <div class="cont-wrap">
             <div class="top-wrap">
                 <div class="img-slide-wrap">
-                    <div class="swiper img-slide h-475">
+                    <div class="swiper img-slide h-475 bdr-none">
                         <ul class="swiper-wrapper">
                             <li class="swiper-slide">
                                 <div class="img-wrap">
