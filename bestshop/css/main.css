@@ -225,6 +225,7 @@
 .sns-channel dl dd ul li a.youtube{background-image:url('../images/ico_sns_04.png');}
 .sns-channel dl dd ul li a.naverPost{background-image:url('../images/ico_sns_05.png');}
 .sns-channel dl dd ul li a.naverTv{background-image:url('../images/ico_sns_06.png');}
+.sns-channel dl dd ul li a.kakaoChannel{display:none}
 
 /* high dpi pc */
 @media screen and (min-width:1400px){
@@ -310,6 +311,7 @@
     .sns-channel dl dd ul{text-align:left;margin-top:20px;}
     .sns-channel dl dd ul li + li{margin-left:10px;}
     .sns-channel dl dd ul li a{width:34px;height:34px;}
+    .sns-channel dl dd ul li a.kakaoChannel {display:block; background-image:url('../images/ico_sns_07.png');}
 }
 /* mobile */
 @media screen and (max-width:767px){
