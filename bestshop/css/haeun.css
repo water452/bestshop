@@ -398,6 +398,7 @@ ul.input-acco-type .check-box .agr-txt-wrap .inner > ul > li > p {padding-left:1
 .res-main.care .popup.v-large .pop-wrap {width:calc(100% - 80px); max-width:1380px}
 
 .res-main .sticky-info-wrap {margin-bottom:70px; background-image:linear-gradient(to right,#a58bee,#f86791)}
+.res-main .sticky-info-wrap.fixed {position:fixed; top:0; left:0; right:0; width:100%; z-index:5}
 .res-main .sticky-info-wrap .inner {position:relative; max-width:1460px; margin:0 auto; padding:25px 40px}
 .res-main .sticky-info-wrap .info-txt {color:#fff; font-size:16px; font-weight:500; line-height:24px}
 .res-main .sticky-info-wrap .info-txt > .cate-name {position:relative; padding-right:61px}
@@ -1082,6 +1083,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-main.care .popup.v-large .pop-wrap {width:calc(100% + 32px)}
 
     .res-main .sticky-info-wrap {margin-bottom:35px}
+    .res-main .sticky-info-wrap.fixed {margin-top:40px}
     .res-main .sticky-info-wrap .inner {padding:20px 16px 74px}
     .res-main .sticky-info-wrap .info-txt {font-size:14px; line-height:20px; text-align:center}
     .res-main .sticky-info-wrap .info-txt > .cate-name {padding-right:25px}

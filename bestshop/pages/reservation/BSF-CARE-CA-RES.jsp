@@ -1420,35 +1420,35 @@
 <script>
     $(document).ready(function () {
         // 케어십 배너 슬라이드
-    var imgSwiper = new Swiper(".img-slide", {
-        speed : 800,
-        slidesPerView: 1,
-        autoplay: {
-            delay:5000
-        },
-        pagination: {
-            el: ".img-slide .slide-navi .pager-fraction",
-            type: "fraction"
-        },
-        navigation: {
-            nextEl: ".img-slide .slide-navi .slideBtn.btn-next",
-            prevEl: ".img-slide .slide-navi .slideBtn.btn-prev"
-        },
-        loop : true,
-        loopAdditionalSlides: 1,
-    });
+        var imgSwiper = new Swiper(".img-slide", {
+            speed : 800,
+            slidesPerView: 1,
+            autoplay: {
+                delay:5000
+            },
+            pagination: {
+                el: ".img-slide .slide-navi .pager-fraction",
+                type: "fraction"
+            },
+            navigation: {
+                nextEl: ".img-slide .slide-navi .slideBtn.btn-next",
+                prevEl: ".img-slide .slide-navi .slideBtn.btn-prev"
+            },
+            loop : true,
+            loopAdditionalSlides: 1,
+        });
 
-    // 케어십 배너 슬라이드 (autoplay control)
-    $('.img-slide .swiper-auto > button').on('click', function(){
-        $('.img-slide .swiper-auto > button').toggleClass('active');
+        // 케어십 배너 슬라이드 (autoplay control)
+        $('.img-slide .swiper-auto > button').on('click', function(){
+            $('.img-slide .swiper-auto > button').toggleClass('active');
 
-        if ($(this).hasClass('btn-play')){
-            imgSwiper.autoplay.start();
-        } 
-        else {
-            imgSwiper.autoplay.stop();
-        };
-    });
+            if ($(this).hasClass('btn-play')){
+                imgSwiper.autoplay.start();
+            } 
+            else {
+                imgSwiper.autoplay.stop();
+            };
+        });
 
 
         // step 1 제품선택
@@ -1521,6 +1521,25 @@
 
                 $("#agr-all").prop("checked", is_checked);
             });
+        });
+
+        /* sticky 처리 */
+        $(function(){
+            var _stickyBar = $('.sticky-info-wrap').offset().top;
+
+            $(window).scroll(function(){
+                var scrollTop = $(this).scrollTop();
+
+                if(scrollTop > _stickyBar){
+                    $('.sticky-info-wrap').addClass('fixed');
+                } else {
+                    $('.sticky-info-wrap').removeClass('fixed');
+                }
+            });
+
+            $(window).resize(function(){
+                var _stickyBar = $('.sticky-info-wrap').offset().top;
+            })
         });
     });
 </script>
