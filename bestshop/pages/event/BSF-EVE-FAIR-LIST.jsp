@@ -51,7 +51,9 @@
                         <li><a href="#none"><dfn class="area">충청</dfn><span>1</span></a></li>
                         <li><a href="#none"><dfn class="area">전라</dfn><span>2</span></a></li>
                         <li><a href="#none"><dfn class="area">경상</dfn><span>2</span></a></li>
-                        <li><a href="#none"><dfn class="area">제주</dfn><span>0</span></a></li>
+                        <li>
+                            <a href="#none" class="zero"><dfn class="area">제주</dfn><span>0</span></a><!-- 0개인 경우 a에 클래스 zero 추가 -->
+                        </li>
                     </ul>
                     <!-- //pc용 -->
                     <!-- mobile용 -->
@@ -223,7 +225,8 @@
 
         $(".schedule-map-list li[data-area='" + defaultName + "']").addClass("on");
 
-        $(document).on("click", ".list-sd-map li a", function(){
+        $(document).on("click", ".list-sd-map li a", function(e){
+            e.preventDefault();
             var d = $(this).parent().attr("data-area");
             var s = $(".list-apt [data-area='" + d + "']");
 
@@ -233,6 +236,10 @@
             };
 
             $(this).parent().addClass("on").siblings().removeClass("on");
+
+            if ($(this).hasClass('zero')){
+                $(this).parent().removeClass('on')
+            };
         });
     };
     mapChoice();
