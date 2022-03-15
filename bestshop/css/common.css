@@ -672,10 +672,9 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 		.bdr-none {border-radius:0 !important;}
 
 		/* 높이값 */
-		.h-320 {height:200 !important;}
-		.h-475 {height:730px !important;}
+		.h-475 {height:370px !important;}
 		.h-554 {height:405px !important;}
-		.h-640 {height:961px !important;}
+		.h-640 {height:481px !important;}
 
 	/* search */
     .search-box{margin:0 auto}
@@ -901,6 +900,9 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	.calendar .ui-datepicker th span{font-size:11px;}
 	.calendar .ui-datepicker th,
 	.calendar .ui-datepicker td{padding:3px 0;}
+
+	/* img-slide */
+	.img-slide-wrap .img-wrap img {max-width:100%}
 
     /* slide navi */
     .slide-navi .slide-navi-detail{padding:0 16px;}
