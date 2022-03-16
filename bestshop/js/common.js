@@ -160,7 +160,10 @@ function tabCommon(){
             }
         }
 
-        $('.slt ul li:first-child a').click(); // 셀렉트 박스 초기화
+        // 셀렉트 박스 초기화 (이벤트 전체보기에서만)
+        if($('.sorting-area .sltBox').length > 0){
+            $('.slt ul li:first-child a').click();
+        }
     };
     $(document).on("click", ".tabOn > ul > li > a", tabOn);
 
@@ -222,29 +225,31 @@ $(function(){
     $(document).on("click", ".sltBox a", function(){
         var slt = $(this).parents(".sltBox");
 
-        if ( $(this).is(".btn-slt") ){
-            $(".sltBox").not(slt).removeClass("on");
-            slt.toggleClass("on");
-        }
-        else {
-            if ( slt.attr("data-txt-change") == "true" ){
-                var index = $(this).parent().index();
-                var txt = $(this).text();
-                var sel = slt.find("select");
-                var indexDefault = slt.attr("data-default-selected");
+        if(slt.hasClass('disabled')){
+            return false;
+        } else {
+            if ( $(this).is(".btn-slt") ){
+                $(".sltBox").not(slt).removeClass("on");
+                slt.toggleClass("on");
+            } else {
+                if ( slt.attr("data-txt-change") == "true" ){
+                    var index = $(this).parent().index();
+                    var txt = $(this).text();
+                    var sel = slt.find("select");
+                    var indexDefault = slt.attr("data-default-selected");
 
-                $(this).parents('li').addClass('active').siblings('li').removeClass('active');
+                    $(this).parents('li').addClass('active').siblings('li').removeClass('active');
 
-                slt.find(".btn-slt").text(txt);
-                sel.find("option").eq(index).prop('selected', true);
+                    slt.find(".btn-slt").text(txt);
+                    sel.find("option").eq(index).prop('selected', true);
 
-                if ( index != indexDefault ){
-                    if ( !slt.is(".change") ){
-                        slt.addClass("change");
+                    if ( index != indexDefault ){
+                        if ( !slt.is(".change") ){
+                            slt.addClass("change");
+                        };
+                    } else {
+                        slt.removeClass("change");
                     };
-                }
-                else {
-                    slt.removeClass("change");
                 };
             };
         };
