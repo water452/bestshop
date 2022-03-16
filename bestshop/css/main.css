@@ -294,7 +294,7 @@
     .hero-slide .content-wrap .hero-tit .hero-tit-detail p > *[class*="btn-"]{font-size:16px;}
     .hero-slide .content-wrap .hero-tit .hero-tit-detail p > .btn-view::after{width:16px;height:16px;margin-top:11px;background-size:contain;}
     .hero-slide .content-wrap .hero-tit .hero-tit-detail p > .btn-video-view::before{width:20px;height:20px;margin:10px 4px 0 0;background-size:contain;}
-    .hero-slide .content-wrap .hero-tit .hero-tit-detail > span{font-size:15px;}
+    .hero-slide .content-wrap .hero-tit .hero-tit-detail > span{font-size:14px;line-height:20px;margin-top:9px;}
     .hero-slide .content-wrap .hero-tit .hero-tit-detail > span + *{margin-top:16px;}
 
     /* near shop */
@@ -329,16 +329,17 @@
     /* Hero Area */
     .hero-slide{height:390px;}
     .hero-slide .content-wrap video{left:calc(50% - 600px);width:1200px;min-width:1200px;min-height:400px;}
-    .hero-slide .content-wrap .hero-tit{align-items:start;padding:25px 0 65px;}
+    .hero-slide .content-wrap .hero-tit{align-items:start;padding:32px 0;}
     .hero-slide .content-wrap .hero-tit.left,
-    .hero-slide .content-wrap .hero-tit.right{text-align:center;}
+    .hero-slide .content-wrap .hero-tit.right,
+    .hero-slide .content-wrap .hero-tit.center{text-align:left;}
     .hero-slide .content-wrap .hero-tit.top{align-items:start;}
     .hero-slide .content-wrap .hero-tit.bottom{align-items:end;}
     .hero-slide .content-wrap .hero-tit.bottom .hero-tit-detail{padding-bottom:0;}
-    .hero-slide .content-wrap .hero-tit .hero-tit-detail{display:flex;flex-direction:column;}
+    .hero-slide .content-wrap .hero-tit .hero-tit-detail{display:flex;padding:0 20px;flex-direction:column;}
     .hero-slide .content-wrap .hero-tit .hero-tit-detail em{flex:none;width:100%;font-size:14px;line-height:1.5;}
-    .hero-slide .content-wrap .hero-tit .hero-tit-detail strong{flex:none;width:100%;font-size:26px;line-height:1.5;padding:4px 0;}
-    .hero-slide .content-wrap .hero-tit .hero-tit-detail p{text-align:center;}
+    .hero-slide .content-wrap .hero-tit .hero-tit-detail strong{flex:none;width:100%;font-size:26px;line-height:34px;padding:4px 0;}
+    .hero-slide .content-wrap .hero-tit .hero-tit-detail p{text-align:left;}
     .hero-slide .content-wrap .hero-tit .hero-tit-detail p a{width:81px;height:25px;font-size:10px;line-height:23px;border-radius:12.5px;}
     .hero-slide .slide-navi{bottom:20px;}
 
