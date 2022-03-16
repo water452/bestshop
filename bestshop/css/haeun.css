@@ -187,8 +187,9 @@ ul.input-base-type .chkrdo-btn input:checked + label {border-width:2px; line-hei
 .step-area .shop-date-wrap .sort-area button.view-list {background:url(../images/icons/icon-view-list.svg) no-repeat 0 center}
 .step-area .shop-date-wrap .sort-area button.view-list.active {background:url(../images/icons/icon-view-list_on.svg) no-repeat 0 center}
 
-.shop-date-wrap .map-wrap {display:none; padding:19px; border:1px solid #000; border-radius:8px}
+.shop-date-wrap .map-wrap {display:none; position:relative; padding:67px 19px 19px; border:1px solid #000; border-radius:8px}
 .shop-date-wrap .map-wrap.active {display:block}
+.map-wrap > .input-select-type {position:absolute; top:19px; left:19px}
 .map-wrap ul[class*="input"] > li + li {margin-left:8px}
 .map-wrap .input-select-type .sltBox a + ul {max-height:508px; overflow-y:auto}
 .map-wrap .api-area {position:relative; height:494px; margin-top:14px; border-radius:8px; overflow:hidden; background:url(../images/@img-map.png) no-repeat center / cover}
@@ -930,7 +931,8 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .step-area .shop-date-wrap .sort-area button.view-list.active {background:url(../images/icons/icon-view-list-mo_on.svg) no-repeat 0 center / contain}
     
     .shop-date-wrap .map-wrap {padding:11px}
-    .map-wrap .api-area {height:333px; margin-top:8px}
+    .map-wrap > .input-select-type {position:static; margin-bottom:8px}
+    .map-wrap .api-area {height:333px; margin-top:0}
     .map-wrap .api-area .map-list-wrap {width:100%!important; left:0; right:0; top:auto; bottom:-202px; height:220px; padding-top:26px; border-radius:8px 8px 0 0; background-color:rgba(255,255,255,0.7); overflow:hidden}
     .map-wrap .api-area .map-list-wrap.active {bottom:0}
     .map-wrap .api-area .map-list-wrap .list-inner {width:100%!important; height:100%; background-color:transparent}
