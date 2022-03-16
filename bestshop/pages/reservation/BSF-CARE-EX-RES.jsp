@@ -180,7 +180,7 @@
                                                 <a href="#" class="btn-info-pop">적용 가능 모델</a>
                                             </div>
                                             <div class="btn-area">
-                                                <button type="button" class="btn border btn-select">소모품 선택</button>
+                                                <button type="button" class="btn border btn-select active">소모품 선택</button><!-- 선택시 active 클래스 추가 -->
                                             </div>
                                             <div class="info-popup">
                                                 <div class="inner">

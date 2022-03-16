@@ -310,62 +310,45 @@
                                 <ul class="pdt-list">
                                     <li>
                                         <div class="box">
-                                            <div class="img-wrap">
-                                                <img src="../../images/img-oled-evo-01.jpg" alt="LG 올레드 evo 오브제컬렉션 제품 이미지">
-                                            </div>
-                                            <div class="tit-wrap">
-                                                <p class="tit">LG 올레드 evo 오브제컬렉션 LG 올레드 evo 오브제컬렉션</p>
-                                                <p class="code"><span class="blind">제품 코드</span>65ART90EKPA</p>
-                                            </div>
-                                            <div class="info-wrap">
-                                                <ul class="pdt-spec">
-                                                    <li>화면 사이즈 : 163 cm</li>
-                                                    <li>출력 / 채널 : 80W/4.2Ch</li>
-                                                    <li>디자인 타입 : 아트 오브제 디자인</li>
-                                                </ul>
-                                            </div>
+                                            <a href="#none">
+                                                <div class="img-wrap">
+                                                    <img src="../../images/img-oled-evo-01.jpg" alt="LG 올레드 evo 오브제컬렉션 제품 이미지">
+                                                </div>
+                                                <div class="tit-wrap">
+                                                    <p class="tit">LG 올레드 evo 오브제컬렉션 LG 올레드 evo 오브제컬렉션</p>
+                                                    <p class="code"><span class="blind">제품 코드</span>65ART90EKPA</p>
+                                                </div>
+                                                <div class="info-wrap">
+                                                    <ul class="pdt-spec">
+                                                        <li>화면 사이즈 : 163 cm</li>
+                                                        <li>출력 / 채널 : 80W/4.2Ch</li>
+                                                        <li>디자인 타입 : 아트 오브제 디자인</li>
+                                                    </ul>
+                                                </div>
+                                            </a>
                                             <div class="btn-area">
-                                                <button type="button" class="btn border btn-select active">상담 제품 선택</button>
+                                                <button type="button" class="btn border btn-select active">상담 제품 선택</button><!-- 선택시 active 클래스 추가 -->
                                             </div>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="box">
-                                            <div class="img-wrap">
-                                                <img src="../../images/img-oled-evo-01.jpg" alt="LG 올레드 evo 오브제컬렉션 제품 이미지">
-                                            </div>
-                                            <div class="tit-wrap">
-                                                <p class="tit">LG 올레드 evo 오브제컬렉션</p>
-                                                <p class="code"><span class="blind">제품 코드</span>65ART90EKPA</p>
-                                            </div>
-                                            <div class="info-wrap">
-                                                <ul class="pdt-spec">
-                                                    <li>화면 사이즈 : 163 cm</li>
-                                                    <li>출력 / 채널 : 80W/4.2Ch</li>
-                                                    <li>디자인 타입 : 아트 오브제 디자인</li>
-                                                </ul>
-                                            </div>
-                                            <div class="btn-area">
-                                                <button type="button" class="btn border btn-select">상담 제품 선택</button>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="box">
-                                            <div class="img-wrap">
-                                                <img src="../../images/img-oled-evo-01.jpg" alt="LG 올레드 evo 오브제컬렉션 제품 이미지">
-                                            </div>
-                                            <div class="tit-wrap">
-                                                <p class="tit">LG 올레드 evo 오브제컬렉션</p>
-                                                <p class="code"><span class="blind">제품 코드</span>65ART90EKPA</p>
-                                            </div>
-                                            <div class="info-wrap">
-                                                <ul class="pdt-spec">
-                                                    <li>화면 사이즈 : 163 cm</li>
-                                                    <li>출력 / 채널 : 80W/4.2Ch</li>
-                                                    <li>디자인 타입 : 아트 오브제 디자인</li>
-                                                </ul>
-                                            </div>
+                                            <a href="#none">
+                                                <div class="img-wrap">
+                                                    <img src="../../images/img-oled-evo-01.jpg" alt="LG 올레드 evo 오브제컬렉션 제품 이미지">
+                                                </div>
+                                                <div class="tit-wrap">
+                                                    <p class="tit">LG 올레드 evo 오브제컬렉션 LG 올레드 evo 오브제컬렉션</p>
+                                                    <p class="code"><span class="blind">제품 코드</span>65ART90EKPA</p>
+                                                </div>
+                                                <div class="info-wrap">
+                                                    <ul class="pdt-spec">
+                                                        <li>화면 사이즈 : 163 cm</li>
+                                                        <li>출력 / 채널 : 80W/4.2Ch</li>
+                                                        <li>디자인 타입 : 아트 오브제 디자인</li>
+                                                    </ul>
+                                                </div>
+                                            </a>
                                             <div class="btn-area">
                                                 <button type="button" class="btn border btn-select">상담 제품 선택</button>
                                             </div>
@@ -373,20 +356,22 @@
                                     </li>
                                     <li>
                                         <div class="box">
-                                            <div class="img-wrap">
-                                                <img src="../../images/img-oled-evo-01.jpg" alt="LG 올레드 evo 오브제컬렉션 제품 이미지">
-                                            </div>
-                                            <div class="tit-wrap">
-                                                <p class="tit">LG 올레드 evo 오브제컬렉션</p>
-                                                <p class="code"><span class="blind">제품 코드</span>65ART90EKPA</p>
-                                            </div>
-                                            <div class="info-wrap">
-                                                <ul class="pdt-spec">
-                                                    <li>화면 사이즈 : 163 cm</li>
-                                                    <li>출력 / 채널 : 80W/4.2Ch</li>
-                                                    <li>디자인 타입 : 아트 오브제 디자인</li>
-                                                </ul>
-                                            </div>
+                                            <a href="#none">
+                                                <div class="img-wrap">
+                                                    <img src="../../images/img-oled-evo-01.jpg" alt="LG 올레드 evo 오브제컬렉션 제품 이미지">
+                                                </div>
+                                                <div class="tit-wrap">
+                                                    <p class="tit">LG 올레드 evo 오브제컬렉션 LG 올레드 evo 오브제컬렉션</p>
+                                                    <p class="code"><span class="blind">제품 코드</span>65ART90EKPA</p>
+                                                </div>
+                                                <div class="info-wrap">
+                                                    <ul class="pdt-spec">
+                                                        <li>화면 사이즈 : 163 cm</li>
+                                                        <li>출력 / 채널 : 80W/4.2Ch</li>
+                                                        <li>디자인 타입 : 아트 오브제 디자인</li>
+                                                    </ul>
+                                                </div>
+                                            </a>
                                             <div class="btn-area">
                                                 <button type="button" class="btn border btn-select">상담 제품 선택</button>
                                             </div>
@@ -394,20 +379,22 @@
                                     </li>
                                     <li>
                                         <div class="box">
-                                            <div class="img-wrap">
-                                                <img src="../../images/img-oled-evo-01.jpg" alt="LG 올레드 evo 오브제컬렉션 제품 이미지">
-                                            </div>
-                                            <div class="tit-wrap">
-                                                <p class="tit">LG 올레드 evo 오브제컬렉션</p>
-                                                <p class="code"><span class="blind">제품 코드</span>65ART90EKPA</p>
-                                            </div>
-                                            <div class="info-wrap">
-                                                <ul class="pdt-spec">
-                                                    <li>화면 사이즈 : 163 cm</li>
-                                                    <li>출력 / 채널 : 80W/4.2Ch</li>
-                                                    <li>디자인 타입 : 아트 오브제 디자인</li>
-                                                </ul>
-                                            </div>
+                                            <a href="#none">
+                                                <div class="img-wrap">
+                                                    <img src="../../images/img-oled-evo-01.jpg" alt="LG 올레드 evo 오브제컬렉션 제품 이미지">
+                                                </div>
+                                                <div class="tit-wrap">
+                                                    <p class="tit">LG 올레드 evo 오브제컬렉션 LG 올레드 evo 오브제컬렉션</p>
+                                                    <p class="code"><span class="blind">제품 코드</span>65ART90EKPA</p>
+                                                </div>
+                                                <div class="info-wrap">
+                                                    <ul class="pdt-spec">
+                                                        <li>화면 사이즈 : 163 cm</li>
+                                                        <li>출력 / 채널 : 80W/4.2Ch</li>
+                                                        <li>디자인 타입 : 아트 오브제 디자인</li>
+                                                    </ul>
+                                                </div>
+                                            </a>
                                             <div class="btn-area">
                                                 <button type="button" class="btn border btn-select">상담 제품 선택</button>
                                             </div>
@@ -415,20 +402,45 @@
                                     </li>
                                     <li>
                                         <div class="box">
-                                            <div class="img-wrap">
-                                                <img src="../../images/img-oled-evo-01.jpg" alt="LG 올레드 evo 오브제컬렉션 제품 이미지">
+                                            <a href="#none">
+                                                <div class="img-wrap">
+                                                    <img src="../../images/img-oled-evo-01.jpg" alt="LG 올레드 evo 오브제컬렉션 제품 이미지">
+                                                </div>
+                                                <div class="tit-wrap">
+                                                    <p class="tit">LG 올레드 evo 오브제컬렉션 LG 올레드 evo 오브제컬렉션</p>
+                                                    <p class="code"><span class="blind">제품 코드</span>65ART90EKPA</p>
+                                                </div>
+                                                <div class="info-wrap">
+                                                    <ul class="pdt-spec">
+                                                        <li>화면 사이즈 : 163 cm</li>
+                                                        <li>출력 / 채널 : 80W/4.2Ch</li>
+                                                        <li>디자인 타입 : 아트 오브제 디자인</li>
+                                                    </ul>
+                                                </div>
+                                            </a>
+                                            <div class="btn-area">
+                                                <button type="button" class="btn border btn-select">상담 제품 선택</button>
                                             </div>
-                                            <div class="tit-wrap">
-                                                <p class="tit">LG 올레드 evo 오브제컬렉션</p>
-                                                <p class="code"><span class="blind">제품 코드</span>65ART90EKPA</p>
-                                            </div>
-                                            <div class="info-wrap">
-                                                <ul class="pdt-spec">
-                                                    <li>화면 사이즈 : 163 cm</li>
-                                                    <li>출력 / 채널 : 80W/4.2Ch</li>
-                                                    <li>디자인 타입 : 아트 오브제 디자인</li>
-                                                </ul>
-                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="box">
+                                            <a href="#none">
+                                                <div class="img-wrap">
+                                                    <img src="../../images/img-oled-evo-01.jpg" alt="LG 올레드 evo 오브제컬렉션 제품 이미지">
+                                                </div>
+                                                <div class="tit-wrap">
+                                                    <p class="tit">LG 올레드 evo 오브제컬렉션 LG 올레드 evo 오브제컬렉션</p>
+                                                    <p class="code"><span class="blind">제품 코드</span>65ART90EKPA</p>
+                                                </div>
+                                                <div class="info-wrap">
+                                                    <ul class="pdt-spec">
+                                                        <li>화면 사이즈 : 163 cm</li>
+                                                        <li>출력 / 채널 : 80W/4.2Ch</li>
+                                                        <li>디자인 타입 : 아트 오브제 디자인</li>
+                                                    </ul>
+                                                </div>
+                                            </a>
                                             <div class="btn-area">
                                                 <button type="button" class="btn border btn-select">상담 제품 선택</button>
                                             </div>
