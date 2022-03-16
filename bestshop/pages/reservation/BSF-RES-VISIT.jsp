@@ -79,7 +79,7 @@
                                         <div class="box">
                                             <div class="tit-wrap">
                                                 <span class="tit">STEP 02</span>
-                                                <strong>매장 및 일시 <br class="pc-hidden">선택</strong>
+                                                <strong>방문 매장 및 <br class="pc-hidden">일시 선택</strong>
                                             </div>
                                             <span class="icon-wrap">
                                                 <i class="icon02"></i>
@@ -90,7 +90,7 @@
                                         <div class="box">
                                             <div class="tit-wrap">
                                                 <span class="tit">STEP 03</span>
-                                                <strong>고객 정보 입력 후 <br class="pc-hidden">예약 완료</strong>
+                                                <strong>정보 입력 및 <br class="pc-hidden">예약 신청</strong>
                                             </div>
                                             <span class="icon-wrap">
                                                 <i class="icon03"></i>
@@ -151,21 +151,27 @@
 
                     <div class="main-area active"><!-- active 클래스 추가 -->
                         <form action="">
-                            <h3 class="step-tit">상담목적<sup>*</sup></h3>
+                            <h3 class="step-tit">상담목적<sup>*</sup><span>상담 목적을 선택하세요. (단일선택)</span></h3>
                             <div class="btm-more err-block" style="display: block;"> <!-- step 유효성 체크 -->
                                 <p class="err-msg">목적을 선택해주세요.</p>
                             </div>
                             <jsp:include page="../../templates/reservation/input-icon-type.jsp" /> <!-- //input-icon-type.jsp -->
 
-                            <h3 class="step-tit">제품선택<sup>*</sup><span>(다중선택)</span></h3>
+                            <h3 class="step-tit">제품선택<sup>*</sup><span>상담을 원하시는 제품 모두 선택하세요. (다중선택)</span></h3>
                             <div class="btm-more err-block" style="display: block;"> <!-- step 유효성 체크 -->
                                 <p class="err-msg">제품을 선택해주세요.</p>
                             </div>
                             <jsp:include page="../../templates/reservation/input-cate-type.jsp" /> <!-- //input-cate-type.jsp -->
 
-                            <h3 class="step-tit">구매 희망 시기<sup>*</sup></h3>
+                            <!-- 카테고리형일 때 모바일시 더보기버튼 추가 -->
+                            <div class="btn-area center pc-hidden res-more">
+                                <a href="javascript:void(0);" class="btn border s02 more"><span>더보기</span></a>
+                            </div>
+                            <!-- // 카테고리형일 때 모바일시 더보기버튼 추가 -->
+
+                            <h3 class="step-tit">구매 희망 시기<sup>*</sup><span>구매 시기를 선택해주세요.</span></h3>
                             <div class="btm-more err-block" style="display: block;"> <!-- step 유효성 체크 -->
-                                <p class="err-msg">구매 희망 시기를 선택해주세요.</p>
+                                <p class="err-msg">구매 시기를 선택해주세요.</p>
                             </div>
                             <jsp:include page="../../templates/reservation/input-base-type.jsp" /> <!-- //input-base-type.jsp -->
 
@@ -180,7 +186,7 @@
                     </div>
 
                     <div class="btn-area">
-                        <button type="button" data-href="#popup-confirm" class="btn s01 border-red arr-right btnPopOpen">다음으로</button>
+                        <button type="button" data-href="#popup-confirm" class="btn s01 border-red btnPopOpen">다음으로</button>
                     </div>
 
                 </div>
@@ -222,7 +228,7 @@
                             <p>상담 매장: <span>강남본점</span></p>
                             <p>예약 일시: <span>21년12월15일, 17시</span></p>
                         </div>
-                        <button type="button" class="btn s01 border-red arr-right">다음으로</button><!-- 버튼 비활성화 : disabled -->
+                        <button type="button" class="btn s01 border-red">다음으로</button><!-- 버튼 비활성화 : disabled -->
                     </div>
                 </div>
                 <!-- // step 2 -->
@@ -243,7 +249,7 @@
 
                     <div class="main-area">
                         <div class="user-info-area">
-                            <h3 class="step-tit">예약자 정보</h3>
+                            <h3 class="step-tit">예약자 정보<span>예약자 정보를 입력해 주세요.</span></h3>
                             <div class="lt">
                                 <form action="">
                                     <div class="box-gray">
@@ -274,7 +280,7 @@
                                                         <input class="base-txt" type="number" id="user-number" placeholder="휴대폰 번호 입력">
                                                     </div>
                                                     <div class="btm-more err-block">
-                                                        <p class="err-msg">정확한 휴대폰번호를 입력해주세요.</p>
+                                                        <p class="err-msg">(-) 제외한 숫자만 입력해 주세요.</p>
                                                     </div>
                                                 </div>
                                             </li>

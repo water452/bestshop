@@ -1,7 +1,7 @@
 <%@ page contentType="text/html; charset=utf-8" %>
 <div class="shop-date-wrap">
     <div class="view-area">
-        <h3 class="step-tit">상담하실 매장과 예약 일시 선택<sup>*</sup></h3>
+        <h3 class="step-tit">상담하실 매장과 예약 일시 선택<sup>*</sup><span>상담을 원하시는 매장과 희망 일자를 선택하세요. (단일선택)</span></h3>
 
         <!-- 화상상담예약 타이틀-->
 

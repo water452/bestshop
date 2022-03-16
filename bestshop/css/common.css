@@ -154,7 +154,7 @@ table{border-collapse:collapse}
 
 /* step title */
 .step-tit{display:flex;align-items:center;margin-bottom:22px;font-size:20px;font-weight:bold;line-height:28px}
-.step-tit > span{display:block;margin-left:3px;font-size:16px;font-weight:500}
+.step-tit > span{display:block;margin-left:10px;color:#666;font-size:14px;font-weight:500}
 .step-tit ~ .step-tit{margin-top:50px}
 .step-tit > sup{color:#da0f47;font-size:20px;font-weight:bold;line-height:28px}
 .step-tit + .btm-more {margin-top:-12px; margin-bottom:12px}
@@ -699,11 +699,11 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
     .tab02 > ul > li > a{font-size:14px;}
 
 	/* step title */
-	.step-tit{margin-bottom:16px;font-size:20px;line-height:26px}
+	.step-tit{display:block; margin-bottom:16px;font-size:20px;line-height:26px}
 	.step-tit ~ .step-tit{margin-top:40px}
-	.step-tit > span{margin-left:5px;font-size:11px}
-	.step-tit > sup{font-size:16px;line-height:25px}
-	.step-tit + .btm-more {margin-top:-9px; margin-bottom:10px}
+	.step-tit > span{margin-left:0;font-size:11px}
+	.step-tit > sup{font-size:16px;line-height:26px;vertical-align:text-top}
+	.step-tit + .btm-more {margin-top:-15px; margin-bottom:10px}
 	.tit-area{flex-direction:column;align-items:flex-start;margin-bottom:12px}
 	.tit-area .step-tit + em{margin-left:0;font-size:10px;line-height:19px}
 
