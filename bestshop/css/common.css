@@ -249,10 +249,9 @@ ul.input-list-type .input-wrap:first-of-type{margin-top:0}
 .header-wrap{max-width:1760px;height:105px;padding:19px 0;margin:0 auto;}
 .header-wrap.mobile{display:none;}
 .header-wrap::after{content:'';display:block;clear:both}
-.header-wrap .logo{float:left;padding-left:42px;}
-.header-wrap .logo a{display:flex;align-items:center;}
-.header-wrap .logo a span{position:relative;display:inline-block;margin-left:18px;margin-bottom:2px;padding-left:19px;color:#6D6E71;font-size:22px;font-weight:700;line-height:29px;letter-spacing:-0.8px}
-.header-wrap .logo a span::before{content:'';display:block;position:absolute;width:1px;height:19px;left:0;top:6px;background-color:#000}
+.header-wrap .logo{float:left; margin-left:42px;}
+.header-wrap .logo a{display:block}
+.header-wrap .logo a > img{display:block}
 
 .header-wrap .utility{float:right;display:flex;padding-right:40px;}
 .header-wrap .utility .my-tooltip{position:relative;}
@@ -755,10 +754,10 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	.header-wrap{height:auto;padding:0 16px;background:#fff;box-shadow:0 1px 4px 0 rgb(0 0 0 / 10%);z-index:2000;}
 	.header-wrap.pc{display:none;}
 	.header-wrap.mobile{display:block;}
-	.header-wrap .logo{padding:10px 0 11px;}
-	.header-wrap .logo a img{width:98px}
-	.header-wrap .logo a span{margin-left:6px;margin-bottom:3px;padding-left:7px;letter-spacing:-1.7px}
-	.header-wrap .logo a span::before{height:17px;top:7px}
+	.header-wrap .logo{width:219.5px; height:25px; margin:11.5px 0}
+	.header-wrap .logo a {width:100%}
+	.header-wrap .logo a > img {width:100%}
+
 	.header-bottom{padding:0;margin-bottom:0;}
 	.header-bottom .menu-wrap{display:block;}
 	.header-bottom .menu-wrap > ul{font-size:0;white-space:nowrap;margin-left:0;padding:0 16px;}

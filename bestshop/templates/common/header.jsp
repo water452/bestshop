@@ -47,7 +47,9 @@
         <!-- s: pc head wrap -->
         <div class="header-wrap pc">
             <h1 class="logo">
-            <a href="/bestshop"><img src="/bestshop/images/icons/logo-lge.svg" alt="LG전자"><span>BEST SHOP</span></a>
+                <a href="/bestshop">
+                    <img src="/bestshop/images/icons/logo-bestshop.png" alt="LG전자 BEST SHOP">
+                </a>
             </h1>
 
             <!-- s: utility -->
@@ -274,7 +276,9 @@
         <!-- s: mobile head wrap -->
         <div class="header-wrap mobile">
             <h1 class="logo">
-                <a href="/bestshop"><img src="/bestshop/images/icons/logo-lge.svg" alt="LG전자"><span>BEST SHOP</span></a>
+                <a href="/bestshop">
+                    <img src="/bestshop/images/icons/logo-bestshop_mo.png" alt="LG전자 BEST SHOP">
+                </a>
             </h1>
 
             <p class="my-tooltip"><a href="javascript:void(0);"><span class="blind">마이 툴팁</span></a></p>

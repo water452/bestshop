@@ -62,7 +62,7 @@
                             </div>
 
                             <div class="logo-wrap">
-                                <img class="m-hidden" src="/bestshop/images/icons/logo-bestshop.png" alt="LG전자 | 베스트샵">
+                                <img class="m-hidden" src="/bestshop/images/icons/logo-bestshop_big.png" alt="LG전자 | 베스트샵">
                                 <img class="pc-hidden" src="/bestshop/images/icons/logo-bestshop_mo.png" alt="LG전자 | 베스트샵">
                             </div>
 
