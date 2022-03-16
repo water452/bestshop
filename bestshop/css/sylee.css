@@ -55,6 +55,7 @@ html.full-height .floating-block{display:none;}
 .tab-area .tab-content .search-select .sltBox.border.on > a{border-bottom:0 none;border-color:#000;border-radius:8px 8px 0 0;}
 .tab-area .tab-content .search-select > .btn-area{flex:none;margin-left:9px;}
 .tab-area .tab-content .search-select > .btn-area > *{display:block;width:65px;height:48px;font-size:16px;text-align:center;line-height:46px;border:1px solid #000;border-radius:8px;}
+.tab-area .tab-content .search-select > .btn-area > *:disabled{color:#aaa;background:#f4f4f4;border-color:#ddd;cursor:default;}
 .tab-area .tab-content .search-select .btn-clear{display:none;overflow:hidden;position:absolute;top:calc(50% - 10px);right:88px;width:20px;height:20px;text-indent:-9999em;background:url('../images/icons/icon-delete-20.svg') no-repeat 0 0;}
 .tab-area .tab-content .search-select input[type="text"]{color:#000;padding:0 46px 0 16px;border:1px solid #ddd;border-radius:8px;}
 .tab-area .tab-content .search-select input[type="text"]::placeholder{color:#666;}

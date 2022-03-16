@@ -45,7 +45,7 @@
                                         <option>종로구</option>
                                     </select>
                                 </div>
-                                <p class="btn-area"><button type="button" class="search-btn">검색</button></p>
+                                <p class="btn-area"><button type="button" class="search-btn" disabled>검색</button></p> <!-- // 활성화 버튼 사용시 disabled attr 제거 -->
                             </div>
                             <!-- //.search-select -->
                         </div>
