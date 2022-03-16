@@ -1522,6 +1522,25 @@
                 $("#agr-all").prop("checked", is_checked);
             });
         });
+
+        /* sticky 처리 */
+        $(function(){
+            var _stickyBar = $('.sticky-info-wrap').offset().top;
+
+            $(window).scroll(function(){
+                var scrollTop = $(this).scrollTop();
+
+                if(scrollTop > _stickyBar){
+                    $('.sticky-info-wrap').addClass('fixed');
+                } else {
+                    $('.sticky-info-wrap').removeClass('fixed');
+                }
+            });
+
+            $(window).resize(function(){
+                var _stickyBar = $('.sticky-info-wrap').offset().top;
+            })
+        });
     });
 </script>
 <jsp:include page="../../templates/common/footer.jsp" />

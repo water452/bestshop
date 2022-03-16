@@ -443,10 +443,10 @@ ul.input-acco-type .check-box .agr-txt-wrap .inner > ul > li > p {padding-left:1
 .res-main .category-box .banner-btns .swiper-button-prev {left:4px}
 .res-main .category-box .banner-btns .swiper-button-next {right:4px}
 
-.res-main.care .video-area {display:flex; padding:23px; border:1px solid #707070; border-radius:8px}
+.res-main.care .video-area {display:flex; align-items:center; padding:23px; border:1px solid #707070; border-radius:8px}
 .res-main.care .video-area .video-box {width:100%; max-width:700px; height:394px}
 .res-main.care .video-area .video-box > iframe {width:100%; height:100%}
-.res-main.care .video-area .video-tit {margin:46px 0 0 40px; font-size:32px; font-weight:bold; line-height:40px}
+.res-main.care .video-area .video-tit {margin-left:40px; font-size:24px; font-weight:bold; line-height:32px}
 .res-main.care .service-detail-area {margin-top:37px}
 .res-main.care .service-detail-area > ul {display:flex; flex-wrap:wrap; width:calc(100% + 54px); margin:0 -27px}
 .res-main.care .service-detail-area > ul > li {display:flex; margin:27px}
@@ -723,7 +723,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .user-info-area.info-type .box-gray {padding:25px}
 
     /* 케어십상담예약페이지 */
-    .res-main.care .video-area {flex-direction:column}
+    .res-main.care .video-area {flex-direction:column; align-items:flex-start}
     .res-main.care .video-area .video-box {position:relative; width:100%; max-width:100%; height:0; padding-bottom:56.25%}
     .res-main.care .video-area .video-box > iframe {position:absolute; width:100%; height:100%}
     .res-main.care .video-area .video-tit {margin:15px 0 0 0}
