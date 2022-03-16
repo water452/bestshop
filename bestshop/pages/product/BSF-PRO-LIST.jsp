@@ -11,27 +11,36 @@
     <div class="contents res-main">
 
         <div class="cont-wrap">
-            <div class="top-wrap">
+            <div class="top-wrap top-visual">
+                <!-- 이벤트배너 -->
+                <!-- s : 단일 이미지 등록 case
+                <div class="tit-img-area">
+                    <img class="m-hidden" src="../../images/img-product-list-banner-01.png" alt="&nbsp;" /><!#-- pc용 --#>
+                    <img class="pc-hidden" src="../../images/img-product-list-banner-01_mo.png" alt="&nbsp;" /><!#-- mobile용 --#>
+                </div>
+                e : 단일 이미지 등록 case -->
+
+                <!-- s : 다중 컨텐츠 등록 case -->
                 <div class="img-slide-wrap">
-                    <div class="swiper img-slide h-475 bdr-none">
+                    <div class="swiper img-slide h-452 bdr-0">
                         <ul class="swiper-wrapper">
                             <li class="swiper-slide">
                                 <div class="img-wrap">
-                                    <img class="m-hidden" src="../../images/img-product-list-banner-01.png" alt="&nbsp;" /><!-- pc용 -->
-                                    <img class="pc-hidden" src="../../images/img-product-list-banner-01_mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                                    <img class="m-hidden" src="../../images/img-banner-dummy.png" alt="&nbsp;" /><!-- pc용 -->
+                                    <img class="pc-hidden" src="../../images/img-banner-dummy-mo.png" alt="&nbsp;" /><!-- mobile용 -->
                                 </div>
                             </li>
                             <li class="swiper-slide">
                                 <div class="img-wrap">
-                                    <img class="m-hidden" src="../../images/img-product-list-banner-01.png" alt="&nbsp;" /><!-- pc용 -->
-                                    <img class="pc-hidden" src="../../images/img-product-list-banner-01_mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                                    <img class="m-hidden" src="../../images/img-banner-dummy.png" alt="&nbsp;" /><!-- pc용 -->
+                                    <img class="pc-hidden" src="../../images/img-banner-dummy-mo.png" alt="&nbsp;" /><!-- mobile용 -->
                                 </div>
                             </li>
                             <li class="swiper-slide">
                                 <div class="img-wrap">
                                     <button type="button" class="btn-video-view">영상보기</button>
-                                    <img class="m-hidden" src="../../images/img-product-list-banner-01.png" alt="&nbsp;" /><!-- pc용 -->
-                                    <img class="pc-hidden" src="../../images/img-product-list-banner-01_mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                                    <img class="m-hidden" src="../../images/img-banner-dummy.png" alt="&nbsp;" /><!-- pc용 -->
+                                    <img class="pc-hidden" src="../../images/img-banner-dummy-mo.png" alt="&nbsp;" /><!-- mobile용 -->
                                 </div>
                             </li>
                         </ul>
@@ -50,17 +59,19 @@
                         </div>
                     </div>
                 </div>
+                <!-- e : 다중 컨텐츠 등록 case -->
+                <!-- //이벤트배너 -->
 
                 <!-- 팝업 : 영상 팝업 s -->
                 <div class="popup v-large video" id="popup-video">
                     <div class="pop-wrap white">
-                        <div class="pop-cont h-475">
+                        <div class="pop-cont h-452">
                             <div class="video-wrap">
-                                <video class="pcOnly" playsinline="" muted="" poster="../../images/img-product-list-banner-01.png" class="videoPoster" loop> <!-- pc only -->
+                                <video class="pcOnly" playsinline="" muted="" poster="../../images/img-benefit-month-slide-test.png" class="videoPoster" loop> <!-- pc only -->
                                     <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
                                     <p>LG전자 회사소개 동영상</p>
                                 </video>
-                                <video class="mobileOnly" playsinline="" muted="" poster="../../images/img-product-list-banner-01_mo.png" class="videoPoster" loop> <!-- mobile only -->
+                                <video class="mobileOnly" playsinline="" muted="" poster="../../images/img-benefit-month-slide-test-mo.png" class="videoPoster" loop> <!-- mobile only -->
                                     <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
                                     <p>LG전자 회사소개 동영상</p>
                                 </video>

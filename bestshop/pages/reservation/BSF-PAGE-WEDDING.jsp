@@ -10,18 +10,37 @@
     <!-- contents -->
     <div class="contents res-main">
         <div class="cont-wrap">
+            <div class="top-wrap top-visual">
+                <!-- 이벤트배너 -->
+                <!-- s : 단일 이미지 등록 case
+                <div class="tit-img-area">
+                    <img class="m-hidden" src="../../images/img-res-visit-banner-01.png" alt="&nbsp;" /><!#-- pc용 --#>
+                    <img class="pc-hidden" src="../../images/img-res-visit-banner-01_mo.png" alt="&nbsp;" /><!#-- mobile용 --#>
+                </div>
+                e : 단일 이미지 등록 case -->
 
-            <div class="top-wrap">
+                <!-- s : 다중 컨텐츠 등록 case -->
                 <div class="img-slide-wrap">
-                    <div class="swiper img-slide">
+                    <div class="swiper img-slide h-452 bdr-0">
                         <ul class="swiper-wrapper">
                             <li class="swiper-slide">
-                                <img class="m-hidden" src="../../images/img-res-visit-banner-01.png" alt="&nbsp;" /><!-- pc용 -->
-                                <img class="pc-hidden" src="../../images/img-res-visit-banner-01_mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                                <div class="img-wrap">
+                                    <img class="m-hidden" src="../../images/img-banner-dummy.png" alt="&nbsp;" /><!-- pc용 -->
+                                    <img class="pc-hidden" src="../../images/img-banner-dummy-mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                                </div>
                             </li>
                             <li class="swiper-slide">
-                                <img class="m-hidden" src="../../images/img-res-visit-banner-02.png" alt="&nbsp;" /><!-- pc용 -->
-                                <img class="pc-hidden" src="../../images/img-res-visit-banner-02_mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                                <div class="img-wrap">
+                                    <img class="m-hidden" src="../../images/img-banner-dummy.png" alt="&nbsp;" /><!-- pc용 -->
+                                    <img class="pc-hidden" src="../../images/img-banner-dummy-mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="img-wrap">
+                                    <button type="button" class="btn-video-view">영상보기</button>
+                                    <img class="m-hidden" src="../../images/img-banner-dummy.png" alt="&nbsp;" /><!-- pc용 -->
+                                    <img class="pc-hidden" src="../../images/img-banner-dummy-mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                                </div>
                             </li>
                         </ul>
                         <div class="slide-navi">
@@ -39,6 +58,28 @@
                         </div>
                     </div>
                 </div>
+                <!-- e : 다중 컨텐츠 등록 case -->
+                <!-- //이벤트배너 -->
+
+                <!-- 팝업 : 영상 팝업 s -->
+                <div class="popup v-large video" id="popup-video">
+                    <div class="pop-wrap white">
+                        <div class="pop-cont h-452">
+                            <div class="video-wrap">
+                                <video class="pcOnly" playsinline="" muted="" poster="../../images/img-benefit-month-slide-test.png" class="videoPoster" loop> <!-- pc only -->
+                                    <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
+                                    <p>LG전자 회사소개 동영상</p>
+                                </video>
+                                <video class="mobileOnly" playsinline="" muted="" poster="../../images/img-benefit-month-slide-test-mo.png" class="videoPoster" loop> <!-- mobile only -->
+                                    <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
+                                    <p>LG전자 회사소개 동영상</p>
+                                </video>
+                            </div>
+                        </div>
+                        <button type="button" class="btn-pop-close btnPopClose"><span class="blind">닫기</span></button>
+                    </div>
+                </div>
+                <!-- 팝업 : 영상 팝업 e -->
             </div>
 
             <section class="cont-area mt48">
@@ -604,6 +645,17 @@
         if($(this).closest('.step-area').hasClass('middle')){ // 위의 상황이 지나고 다시 펼칠때
             $('.step02 .btn-area').slideDown(400);
             $('.step02').removeClass('middle');
+        }
+    });
+
+    var _winW = $(window).width();
+    
+    // video control
+    $('.btn-video-view').on('click', function(){
+        if(_winW < 1025){
+            $('#popup-video').css('display', 'block').find('video.mobileOnly').get(0).play();
+        } else {
+            $('#popup-video').css('display', 'block').find('video.pcOnly').get(0).play();
         }
     });
 </script>

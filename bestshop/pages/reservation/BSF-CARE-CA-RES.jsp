@@ -9,29 +9,36 @@
 
     <!-- contents -->
     <div class="contents res-main care">
+        <div class="top-wrap top-visual">
+            <!-- 이벤트배너 -->
+            <!-- s : 단일 이미지 등록 case
+            <div class="tit-img-area">
+                <img class="m-hidden" src="../../images/img-careship-banner-01.png" alt="&nbsp;" /><!#-- pc용 --#>
+                <img class="pc-hidden" src="../../images/img-careship-banner-01_mo.png" alt="&nbsp;" /><!#-- mobile용 --#>
+            </div>
+            e : 단일 이미지 등록 case -->
 
-        <div class="top-wrap">
-
+            <!-- s : 다중 컨텐츠 등록 case -->
             <div class="img-slide-wrap">
-                <div class="swiper img-slide h-640 bdr-none">
+                <div class="swiper img-slide h-452 bdr-0">
                     <ul class="swiper-wrapper">
                         <li class="swiper-slide">
                             <div class="img-wrap">
-                                <img class="m-hidden" src="../../images/img-careship-banner-01.png" alt="&nbsp;" /><!-- pc용 -->
-                               <img class="pc-hidden" src="../../images/img-careship-banner-01_mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                                <img class="m-hidden" src="../../images/img-banner-dummy.png" alt="&nbsp;" /><!-- pc용 -->
+                                <img class="pc-hidden" src="../../images/img-banner-dummy-mo.png" alt="&nbsp;" /><!-- mobile용 -->
                             </div>
                         </li>
                         <li class="swiper-slide">
                             <div class="img-wrap">
-                                <img class="m-hidden" src="../../images/img-careship-banner-01.png" alt="&nbsp;" /><!-- pc용 -->
-                               <img class="pc-hidden" src="../../images/img-careship-banner-01_mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                                <img class="m-hidden" src="../../images/img-banner-dummy.png" alt="&nbsp;" /><!-- pc용 -->
+                                <img class="pc-hidden" src="../../images/img-banner-dummy-mo.png" alt="&nbsp;" /><!-- mobile용 -->
                             </div>
                         </li>
                         <li class="swiper-slide">
                             <div class="img-wrap">
                                 <button type="button" class="btn-video-view">영상보기</button>
-                                <img class="m-hidden" src="../../images/img-careship-banner-01.png" alt="&nbsp;" /><!-- pc용 -->
-                               <img class="pc-hidden" src="../../images/img-careship-banner-01_mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                                <img class="m-hidden" src="../../images/img-banner-dummy.png" alt="&nbsp;" /><!-- pc용 -->
+                                <img class="pc-hidden" src="../../images/img-banner-dummy-mo.png" alt="&nbsp;" /><!-- mobile용 -->
                             </div>
                         </li>
                     </ul>
@@ -50,17 +57,19 @@
                     </div>
                 </div>
             </div>
+            <!-- e : 다중 컨텐츠 등록 case -->
+            <!-- //이벤트배너 -->
 
             <!-- 팝업 : 영상 팝업 s -->
             <div class="popup v-large video" id="popup-video">
                 <div class="pop-wrap white">
-                    <div class="pop-cont h-640 ">
+                    <div class="pop-cont h-452">
                         <div class="video-wrap">
-                            <video class="pcOnly" playsinline="" muted="" poster="../../images/@img-main-hero-pc.jpg" class="videoPoster" loop> <!-- pc only -->
+                            <video class="pcOnly" playsinline="" muted="" poster="../../images/img-benefit-month-slide-test.png" class="videoPoster" loop> <!-- pc only -->
                                 <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
                                 <p>LG전자 회사소개 동영상</p>
                             </video>
-                            <video class="mobileOnly" playsinline="" muted="" poster="../../images/@img-main-hero-pc.jpg" class="videoPoster" loop> <!-- mobile only -->
+                            <video class="mobileOnly" playsinline="" muted="" poster="../../images/img-benefit-month-slide-test-mo.png" class="videoPoster" loop> <!-- mobile only -->
                                 <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
                                 <p>LG전자 회사소개 동영상</p>
                             </video>
@@ -70,7 +79,6 @@
                 </div>
             </div>
             <!-- 팝업 : 영상 팝업 e -->
-
         </div>
 
         <div class="sticky-info-wrap">
@@ -1420,35 +1428,35 @@
 <script>
     $(document).ready(function () {
         // 케어십 배너 슬라이드
-    var imgSwiper = new Swiper(".img-slide", {
-        speed : 800,
-        slidesPerView: 1,
-        autoplay: {
-            delay:5000
-        },
-        pagination: {
-            el: ".img-slide .slide-navi .pager-fraction",
-            type: "fraction"
-        },
-        navigation: {
-            nextEl: ".img-slide .slide-navi .slideBtn.btn-next",
-            prevEl: ".img-slide .slide-navi .slideBtn.btn-prev"
-        },
-        loop : true,
-        loopAdditionalSlides: 1,
-    });
+        var imgSwiper = new Swiper(".img-slide", {
+            speed : 800,
+            slidesPerView: 1,
+            autoplay: {
+                delay:5000
+            },
+            pagination: {
+                el: ".img-slide .slide-navi .pager-fraction",
+                type: "fraction"
+            },
+            navigation: {
+                nextEl: ".img-slide .slide-navi .slideBtn.btn-next",
+                prevEl: ".img-slide .slide-navi .slideBtn.btn-prev"
+            },
+            loop : true,
+            loopAdditionalSlides: 1,
+        });
 
-    // 케어십 배너 슬라이드 (autoplay control)
-    $('.img-slide .swiper-auto > button').on('click', function(){
-        $('.img-slide .swiper-auto > button').toggleClass('active');
+        // 케어십 배너 슬라이드 (autoplay control)
+        $('.img-slide .swiper-auto > button').on('click', function(){
+            $('.img-slide .swiper-auto > button').toggleClass('active');
 
-        if ($(this).hasClass('btn-play')){
-            imgSwiper.autoplay.start();
-        } 
-        else {
-            imgSwiper.autoplay.stop();
-        };
-    });
+            if ($(this).hasClass('btn-play')){
+                imgSwiper.autoplay.start();
+            } 
+            else {
+                imgSwiper.autoplay.stop();
+            };
+        });
 
 
         // step 1 제품선택
