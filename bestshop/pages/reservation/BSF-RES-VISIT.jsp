@@ -149,7 +149,7 @@
                         </div>
                     </div>
 
-                    <div class="main-area active"><!-- active 클래스 추가 -->
+                    <div class="main-area">
                         <form action="">
                             <h3 class="step-tit">상담목적<sup>*</sup><span>상담 목적을 선택하세요. (단일선택)</span></h3>
                             <div class="btm-more err-block" style="display: block;"> <!-- step 유효성 체크 -->
@@ -218,7 +218,7 @@
                         </div>
                     </div>
 
-                    <div class="main-area"> <!-- 노출여부 : active -->
+                    <div class="main-area">
                         <jsp:include page="../../templates/reservation/map.jsp" /> <!-- //map.jsp -->
                     </div>
 
@@ -237,9 +237,6 @@
                 <div class="step-area step03"><!-- active 클래스 추가 -->
                     <div class="result-area"><!-- active 클래스 추가 -->
                         <div class="info-step03">
-                            <div class="info-txt-com"><!-- active 클래스 추가 -->
-                                <a href="javascript:void(0);">&nbsp;</a>
-                            </div>
                             <div class="info-txt-uncom active"><!-- active 클래스 추가 -->
                                 <p class="page-num">STEP03</p>
                                 <p class="txt">예약자 정보를 입력해주세요.</p>
@@ -638,6 +635,9 @@
 <script>
     var _winW = $(window).width();
 
+    $('.step02 .main-area, .step03 .main-area').hide();
+    $('.step02 .btn-area, .step03 .btn-area').hide();
+    
     /* 위치정보제공동의 팝업 추가 STEP01 > STEP02 */
     $('#popup-confirm button').on('click', function(){
         if(!$(this).hasClass('btnPopCancel')){ // '네' 누를경우

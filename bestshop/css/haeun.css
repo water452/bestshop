@@ -83,12 +83,8 @@
 .step-area.step03{border-bottom:1px solid #ddd;}
 .step-area.border{position:relative;margin-bottom:-1px;border-color:#707070;border-bottom:1px solid #707070;z-index:1;}
 .step-area.step03.border{border-bottom:0 none;margin-bottom:0;}
-.step-area .main-area {display:none; padding:20px 0}
+.step-area .main-area {padding:20px 0}
 .step-area.step03 .main-area {padding-bottom:0}
-.step-area .main-area.active {display:block}
-.step-area .btn-area {display:none}
-.step-area .main-area.active + .btn-area {display:block}
-.step-area .main-area.active .btn-area {display:block}
 .step-area .btn-area.res-more {margin:27px 0 40px}
 
 /* swiper button */
