@@ -433,6 +433,7 @@ ul.input-acco-type .check-box .agr-txt-wrap .inner > ul > li > p {padding-left:1
   .res-main .category-box .category-list > li .box:hover .sub-category {display:block}
 }
 .res-main .category-box .category-list > li .box .sub-category {display:none; position:absolute; width:100%; height:100%; left:0; top:0; background-color:rgba(0,0,0,0.8)}
+.res-main .category-box .category-list > li.active .box .sub-category {display:block;}
 .res-main .category-box .category-list > li .box .sub-category .inner {width:100%; height:100%; padding:20px}
 .res-main .category-box .category-list > li .box .sub-category .category-tit {margin-top:40px; color:#fff; font-size:22px; font-weight:bold; line-height:30px; text-align:center}
 .res-main .category-box .category-list > li .box .sub-category .sub-category-list {margin-top:12px; color:#fff; font-size:16px; line-height:24px; text-align:center}

@@ -111,7 +111,7 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <ul class="category-list">
-                                        <li>
+                                        <li class="active">
                                             <div class="box">
                                                 <div class="category">
                                                     <div class="inner">
