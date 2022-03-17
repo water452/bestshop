@@ -9,72 +9,79 @@
 
     <!-- contents -->
     <div class="contents res-main care-ex">
-
-        <div class="top-wrap">
-            <div class="guide-area bg">
-                <div class="guide-process">
-                    <div class="inner">
-                        <p class="desc">필요한 소모품에 대한 정보를 LG전자 베스트샵을 통해 확인하고 <br class="m-hidden">매장 방문하여 구매 및 추가 상담을
-                            받으실 수 있습니다.</p>
-                        <div class="swiper guide-banner-care-ex">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="box">
-                                        <span class="icon-wrap">
-                                            <i class="icon01"></i>
-                                        </span>
-                                        <span class="txt">구매 희망 <br class="pc-hidden">소모품 선택</span>
-                                    </div>
+        <div class="cont-wrap">
+            <div class="top-wrap top-visual">
+                <!-- 이벤트배너 -->
+                <!-- s : 단일 이미지 등록 case
+                <div class="tit-img-area">
+                    <img class="m-hidden" src="../../images/img-careship-banner-01.png" alt="&nbsp;" /><!#-- pc용 --#>
+                    <img class="pc-hidden" src="../../images/img-careship-banner-01_mo.png" alt="&nbsp;" /><!#-- mobile용 --#>
+                </div>
+                e : 단일 이미지 등록 case -->
+    
+                <!-- s : 다중 컨텐츠 등록 case -->
+                <div class="img-slide-wrap">
+                    <div class="swiper img-slide h-452 bdr-0">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                <div class="img-wrap">
+                                    <img class="m-hidden" src="../../images/img-banner-dummy.png" alt="&nbsp;" /><!-- pc용 -->
+                                    <img class="pc-hidden" src="../../images/img-banner-dummy-mo.png" alt="&nbsp;" /><!-- mobile용 -->
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="box">
-                                        <span class="icon-wrap">
-                                            <i class="icon02"></i>
-                                        </span>
-                                        <span class="txt">소모품 구매 <br class="pc-hidden">예약 신청</span>
-                                    </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="img-wrap">
+                                    <img class="m-hidden" src="../../images/img-banner-dummy.png" alt="&nbsp;" /><!-- pc용 -->
+                                    <img class="pc-hidden" src="../../images/img-banner-dummy-mo.png" alt="&nbsp;" /><!-- mobile용 -->
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="box">
-                                        <span class="icon-wrap">
-                                            <i class="icon03"></i>
-                                        </span>
-                                        <span class="txt">방문 매장 재고 확인 <br class="pc-hidden">및 고객 전화 안내</span>
-                                    </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="img-wrap">
+                                    <button type="button" class="btn-video-view">영상보기</button>
+                                    <img class="m-hidden" src="../../images/img-banner-dummy.png" alt="&nbsp;" /><!-- pc용 -->
+                                    <img class="pc-hidden" src="../../images/img-banner-dummy-mo.png" alt="&nbsp;" /><!-- mobile용 -->
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="box">
-                                        <span class="icon-wrap">
-                                            <i class="icon04"></i>
-                                        </span>
-                                        <span class="txt">매장 방문 픽업 <br class="pc-hidden">및 추가 상담</span>
-                                    </div>
+                            </li>
+                        </ul>
+                        <div class="slide-navi">
+                            <div class="slide-navi-detail">
+                                <div class="swiper-pager">
+                                    <button type="button" class="slideBtn btn-prev">이전 슬라이드</button>
+                                    <div class="pager-fraction"></div>
+                                    <button type="button" class="slideBtn btn-next">다음 슬라이드</button>
+                                </div>
+                                <div class="swiper-auto">
+                                    <button type="button" class="slideBtn btn-play">슬라이드 재생</button>
+                                    <button type="button" class="slideBtn btn-stop active">슬라이드 일시정지</button>
                                 </div>
                             </div>
-                            <div class="swiper-scrollbar"></div>
                         </div>
                     </div>
                 </div>
-                <div class="guide-info-list">
-                    <div class="inner">
-                        <ul class="bull">
-                            <li>소모품은 적기에 교체해야, 제품의 성능을 100% 발휘할 수 있습니다.</li>
-                            <li>오프라인 상에는 LG전자 베스트샵에서만 소모품 구매가 가능합니다.</li>
-                        </ul>
+                <!-- e : 다중 컨텐츠 등록 case -->
+                <!-- //이벤트배너 -->
+    
+                <!-- 팝업 : 영상 팝업 s -->
+                <div class="popup v-large video" id="popup-video">
+                    <div class="pop-wrap white">
+                        <div class="pop-cont h-452">
+                            <div class="video-wrap">
+                                <video class="pcOnly" playsinline="" muted="" poster="../../images/img-benefit-month-slide-test.png" class="videoPoster" loop> <!-- pc only -->
+                                    <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
+                                    <p>LG전자 회사소개 동영상</p>
+                                </video>
+                                <video class="mobileOnly" playsinline="" muted="" poster="../../images/img-benefit-month-slide-test-mo.png" class="videoPoster" loop> <!-- mobile only -->
+                                    <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
+                                    <p>LG전자 회사소개 동영상</p>
+                                </video>
+                            </div>
+                        </div>
+                        <button type="button" class="btn-pop-close btnPopClose"><span class="blind">닫기</span></button>
                     </div>
                 </div>
-                <div class="guide-bottom">
-                    <div class="inner">
-                        <dl>
-                            <dt>소모품이란?</dt>
-                            <dd>사용 주기에 맞추어 손쉽게 교체할 수 있는 필터, 청소포와 같은 소모품이나 옷걸이, 거치대와 같은 액세서리 종류를 말합니다.</dd>
-                        </dl>
-                    </div>
-                </div>
+                <!-- 팝업 : 영상 팝업 e -->
             </div>
-        </div>
-
-        <div class="cont-wrap">
+    
             <!-- tab -->
             <div class="tab-wrap">
                 <div class="tab01 tabOn tabSlide filter">
@@ -812,6 +819,37 @@
 
 
 <script>
+    // 상담 배너 슬라이드
+    var imgSwiper = new Swiper(".img-slide", {
+        speed : 800,
+        slidesPerView: 1,
+        autoplay: {
+            delay:5000
+        },
+        pagination: {
+            el: ".img-slide .slide-navi .pager-fraction",
+            type: "fraction"
+        },
+        navigation: {
+            nextEl: ".img-slide .slide-navi .slideBtn.btn-next",
+            prevEl: ".img-slide .slide-navi .slideBtn.btn-prev"
+        },
+        loop : true,
+        loopAdditionalSlides: 1,
+    });
+
+    // 상담 배너 슬라이드 (autoplay control)
+    $('.img-slide .swiper-auto > button').on('click', function(){
+        $('.img-slide .swiper-auto > button').toggleClass('active');
+
+        if ($(this).hasClass('btn-play')){
+            imgSwiper.autoplay.start();
+        } 
+        else {
+            imgSwiper.autoplay.stop();
+        };
+    });
+
     $(document).ready(function () {
         // 상단 예약진행 가이드 영역
         var resbanner01 = new Swiper(".guide-banner-care-ex", {
@@ -973,5 +1011,16 @@
         $(window).resize(function(){
             var _stickyBar = $('.tab-wrap').offset().top;
         });
+    });
+
+    var _winW = $(window).width();
+    
+    // video control
+    $('.btn-video-view').on('click', function(){
+        if(_winW < 1025){
+            $('#popup-video').css('display', 'block').find('video.mobileOnly').get(0).play();
+        } else {
+            $('#popup-video').css('display', 'block').find('video.pcOnly').get(0).play();
+        }
     });
 </script>

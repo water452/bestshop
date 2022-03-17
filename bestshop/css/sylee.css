@@ -159,7 +159,6 @@ html.full-height .floating-block{display:none;}
 .waring-block > ul > li:before{display:block;content:'ㆍ';position:absolute;top:0;left:-4px;font-weight:700;}
 
 /* benefit > signature */
-.signature .top-visual{height:639px;max-width:1920px;padding-top:80px;margin:0 auto;background:url('../images/img_signature_visual.jpg') no-repeat 50% 0;}
 .signature .top-visual h3{font-size:48px;color:#fff;text-align:center;line-height:65px;}
 .signature .cont-type-full{width:100%;max-width:1920px;padding:100px 0;margin:0 auto;}
 .signature .cont-type-full.special{background:url('../images/bg_signature_desc.png') no-repeat 50% 0;}
@@ -358,7 +357,6 @@ ul.input-list-type .txt-box .input-wrap{width:100%;}
     /* benefit > signature */
     .signature,
     .signature *{word-break:keep-all;}
-    .signature .top-visual{height:360px;padding:45px 0;background-size:auto 100%;}
     .signature .top-visual h3{font-size:24px;line-height:33px;}
     .signature .cont-type-full{padding:50px 16px;}
     .signature .cont-type-full.special{background-color:#000;}
