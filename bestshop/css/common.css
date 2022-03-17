@@ -510,6 +510,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 
 
 /* 단일 컨텐츠 case */
+.tit-img-area {text-align:center;}
 .tit-img-area .video-wrap > video {position:static; top:0; transform:none;}
 
 /* img-slide */
