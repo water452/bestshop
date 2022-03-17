@@ -79,10 +79,12 @@
 /* 매장상담예약 컨텐츠 영역 */
 .cont-area {padding-top:8px}
 .cont-wrap.w100 {max-width:100%; padding:0}
-.step-area {border-top:1px solid #ddd}
-.step-area.step03{border-bottom:1px solid #ddd;}
-.step-area.border{position:relative;margin-bottom:-1px;border-color:#707070;border-bottom:1px solid #707070;z-index:1;}
-.step-area.step03.border{border-bottom:0 none;margin-bottom:0;}
+.step-area {position:relative; border-top:1px solid #ddd}
+.step-area.open::after {content:''; display:block; position:absolute; width:32px; height:32px; top:19.5px; right:0; background:url(../images/icons/icon-arrow-down-32.svg) no-repeat center right / contain; transition:all .4s}
+.step-area.border::after {transform:rotate(180deg); transition:all .4s}
+.step-area.step03 {border-bottom:1px solid #ddd}
+.step-area.border {position:relative; margin-bottom:-1px; border-color:#707070; border-bottom:1px solid #707070; z-index:1}
+.step-area.step03.border {border-bottom:0 none; margin-bottom:0}
 .step-area .main-area {padding:20px 0}
 .step-area.step03 .main-area {padding-bottom:0}
 .step-area .btn-area.res-more {margin:27px 0 40px}
@@ -158,7 +160,7 @@ ul.input-base-type .chkrdo-btn input:checked + label {border-width:2px; line-hei
 .step-area .result-area [class^="info-step"] {position:relative; margin-top:-1px; /* border-top:1px solid #ddd; */}
 /* .step-area .result-area .info-step03 {border-bottom:1px solid #ddd} */
 .step-area .result-area .info-txt-com {display:none}
-.step-area .result-area .info-txt-com.active {display:block; background:url(../images/icons/icon-arrow-down-32.svg) no-repeat center right / 32px 32px; color:#da0f47}
+.step-area .result-area .info-txt-com.active {display:block; color:#da0f47}
 .step-area .result-area .info-txt-com a {display:block; padding:22px 40px 22px 0; white-space:nowrap; text-overflow:ellipsis; overflow:hidden}
 .step-area .result-area .info-txt-com .pc-tit {color:#666; font-size:18px; line-height:26px}
 .step-area .result-area .info-txt-com .mo-tit {display:none}
@@ -274,7 +276,7 @@ ul.shop-list li [class^="btn-"] > span {margin-left:3px}
 .user-info-area::after {content:''; display:block; clear:both}
 .user-info-area .lt {float:left; width:540px}
 .user-info-area .rt {float:right; width:calc(100% - 540px); margin-bottom:-4px; padding-left:32px}
-.user-info-area .box-gray {height:348px; padding:60px; border-radius:8px; background-color:#f4f4f4}
+.user-info-area .box-gray {height:348px; padding:60px; border-radius:8px; border:1px solid #ddd}
 .user-info-area ul.input-list-type .tit {font-weight:500}
 .user-info-area ul.input-list-type > li + li {margin-top:50px}
 .user-info-area.info-type .box-gray {height:auto; padding:30px 60px}
@@ -842,6 +844,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .guide-area.step-3 [class*="guide-banner"] .box .tit-wrap strong {letter-spacing:-0.25px}
 
     /* 매장상담예약 컨텐츠 영역 */
+    .step-area.open::after {width:20px; height:20px; top:23px; background:url(../images/icons/icon-arrow-down-40.svg) no-repeat center / contain}
     .res-main .cont-wrap .cont-area {padding-top:4px}
     .cont-wrap.w100 {padding:0 16px 4px}
     .res-main .step-area.step02 .date-wrap .input-area > .base-type .radio-btn.btn-type2 label {border-radius:4px}
@@ -908,10 +911,9 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     /******** 매장상담예약 input ********/
     /* result-area */
     .step-area .result-area .info-txt-com {background-size:20px 20px!important}
-    .step-area .result-area .info-txt-com.active {background-image:url(../images/icons/icon-arrow-down-40.svg)}
-    .step-area .result-area .info-txt-com a {padding:11px 30px 11px 0!important}
+    .step-area .result-area .info-txt-com a {padding:12px 30px 12px 0!important}
     .step-area .result-area .info-txt-com .pc-tit {display:none}
-    .step-area .result-area .info-txt-com .mo-tit {display:block; color:#666; font-size:13px; line-height:19px}
+    .step-area .result-area .info-txt-com .mo-tit {display:block; margin-bottom:3px; color:#666; font-size:13px; line-height:19px}
     .step-area .result-area .info-txt-com .txt {display:inline; font-size:13px; font-weight:500; line-height:19px}
     .step-area .result-area .info-txt-com .txt::after {content:','; color:#da0f47}
     .step-area .result-area .info-txt-uncom {padding:19px 0}
@@ -991,7 +993,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     /* 예약자 정보 */
     .user-info-area .lt {float:none; width:100%}
     .user-info-area .rt {float:none; width:100%; padding-left:0; margin-top:12px; margin-bottom:0}
-    .user-info-area .box-gray {height:auto}
+    .user-info-area .box-gray {height:auto; padding:0 0 28px 0; border:0}
     .user-info-area ul.input-list-type > li + li {margin-top:32px}
     .user-info-area.info-type ul.input-btn-type {margin:26px 0 0; padding-left:6px}
     .user-info-area.info-type ul.input-btn-type > li + li {margin:0 0 0 6px}

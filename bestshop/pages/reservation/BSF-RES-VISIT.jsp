@@ -128,7 +128,7 @@
             <section class="cont-area">
                 <p class="step-top-note"><sup>*</sup>필수입력항목</p>
                 <!-- step 1 -->
-                <div class="step-area step01 border"><!-- border 활성화시 border-color 진하게 -->
+                <div class="step-area step01 border open"><!-- border 활성화시 border-color 진하게 --><!-- 열림상태 open -->
                     <div class="result-area">
                         <div class="info-step01">
                             <!-- s: 요약정보 -->
@@ -164,9 +164,9 @@
                             <jsp:include page="../../templates/reservation/input-cate-type.jsp" /> <!-- //input-cate-type.jsp -->
 
                             <!-- 카테고리형일 때 모바일시 더보기버튼 추가 -->
-                            <div class="btn-area center pc-hidden res-more">
+                            <!-- <div class="btn-area center pc-hidden res-more">
                                 <a href="javascript:void(0);" class="btn border s02 more"><span>더보기</span></a>
-                            </div>
+                            </div> -->
                             <!-- // 카테고리형일 때 모바일시 더보기버튼 추가 -->
 
                             <h3 class="step-tit">구매 희망 시기<sup>*</sup><span>구매 시기를 선택해주세요.</span></h3>
@@ -186,7 +186,7 @@
                     </div>
 
                     <div class="btn-area">
-                        <button type="button" data-href="#popup-confirm" class="btn s01 border-red btnPopOpen">다음으로</button>
+                        <button type="button" data-href="#popup-confirm" class="btn s01 border-red btnPopOpen">다음 단계로</button>
                     </div>
 
                 </div>
@@ -228,7 +228,7 @@
                             <p>상담 매장: <span>강남본점</span></p>
                             <p>예약 일시: <span>21년12월15일, 17시</span></p>
                         </div>
-                        <button type="button" class="btn s01 border-red">다음으로</button><!-- 버튼 비활성화 : disabled -->
+                        <button type="button" class="btn s01 border-red">다음 단계로</button><!-- 버튼 비활성화 : disabled -->
                     </div>
                 </div>
                 <!-- // step 2 -->
@@ -237,6 +237,9 @@
                 <div class="step-area step03"><!-- active 클래스 추가 -->
                     <div class="result-area"><!-- active 클래스 추가 -->
                         <div class="info-step03">
+                            <div class="info-txt-com">                                
+                                <a href="javascript:void(0);">&nbsp;</a>
+                            </div>
                             <div class="info-txt-uncom active"><!-- active 클래스 추가 -->
                                 <p class="page-num">STEP03</p>
                                 <p class="txt">예약자 정보를 입력해주세요.</p>
@@ -650,6 +653,7 @@
             $('.step01').removeClass('border'); // border 삭제
 
             /* step02 effect */
+            $('.step02').addClass('open');
             $('.step02 .main-area, .step02 .btn-area').stop().slideDown(400);
             $('.step02 .info-txt-uncom').slideUp(400);
             $('.step02').addClass('border');
@@ -663,6 +667,7 @@
         $('.step02').removeClass('border');
 
         /* step03 effect */
+        $('.step03').addClass('open');
         $('.step03 .main-area').stop().slideDown(400);
         $('.step03 .info-txt-uncom').slideUp(400);
         $('.step03').addClass('border').find('.info-txt-com').addClass('active');
