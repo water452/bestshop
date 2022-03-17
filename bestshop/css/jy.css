@@ -12,7 +12,7 @@ dfn { display: block; font-style: normal; }
 .cont-wrap { max-width: 1460px; margin: 0 auto; padding: 0 40px 14px; } 
 
 /* page-header */
-.page-header { max-width: 1460px; margin: 0 auto; padding: 15px 40px 64px; text-align: center; } 
+.page-header { max-width: 1460px; margin: 0 auto; padding: 15px 40px 24px; text-align: center; } 
 .page-header .title { font-weight: bold; font-size: 24px; line-height: 36px; color: #000; } 
 .page-header .desc { margin-top: 8px; } 
 .page-header .desc .txt { display: inline-block; font-size: 16px; line-height: 24px; vertical-align: middle; } 
@@ -684,7 +684,7 @@ li[class*="blt"], li > [class*="blt"] { display: block; }
     .cont-wrap .tabs-wrap {margin: 0 -16px;}
 
     /* page-header */
-    .page-header { padding: 26px 16px 32px; } 
+    .page-header { padding: 26px 16px 24px; } 
     .page-header .desc { margin-top: 12px; } 
     .page-header .title { line-height: 30px; } 
     .page-header .desc .txt { font-size: 14px; line-height: 20px; } 
