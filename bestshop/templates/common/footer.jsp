@@ -116,10 +116,9 @@
                   <div class="dropdowns ui_dropdown layer-click">
                     <a href="javascript:void(0);" class="slt-btn ui_dropdown_toggle"><span class="blind">FAMILY SITE 열기</span>FAMILY SITE<span class="blind">선택됨</span></a>
                     <ul class="lists ui_dropdown_list layer-detail">
-                      <li><a href="https://www.lge.co.kr" target="_blank" title="새 창 열림">LG 전자 대표사이트</a></li>
-                      <li><a href="https://kr.lgworld.com/web.main.dev" target="_blank" title="새 창 열림">LG Smartworld</a></li>
+                      <li><a href="https://www.lge.co.kr" target="_blank" title="새 창 열림">LGE.COM</a></li>
                       <li><a href="https://www.lge.co.kr/support" target="_blank" title="새 창 열림">LG 전자 서비스센터</a></li>
-                      <li><a href="https://www.lge.co.kr/business" target="_blank" title="새 창 열림">LG 전자 비즈니스</a></li>
+                      <li><a href="https://www.lge.co.kr/business" target="_blank" title="새 창 열림">LG 전자 B2B</a></li>
                       <li><a href="https://www.lge.co.kr/business/product/cooling" target="_blank" title="새 창 열림">LG 전자 시스템에어컨</a></li>
                       <li><a href="https://apply.lg.com/main/index.rpi" target="_blank" title="새 창 열림">LG Careers</a></li>
                     </ul>

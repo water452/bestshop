@@ -13,7 +13,7 @@ html.full-height body,
 html.full-height .wrap{position:relative;height:100%;}
 html.full-height .wrap #content{margin-bottom:-132px;}
 html.full-height .wrap #content{position:relative;height:calc(100% - 144px);}
-html.full-height .wrap #content .shop-search-wrap{position:relative;min-width:1380px;height:100%;}
+html.full-height .wrap #content .shop-search-wrap{position:relative;min-width:1380px;max-width:1920px;height:100%;margin:0 auto;}
 html.full-height .floating-block{display:none;}
 
 /* shop > shop search */

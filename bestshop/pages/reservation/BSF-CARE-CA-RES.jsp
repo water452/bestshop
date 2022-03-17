@@ -435,7 +435,7 @@
                 <!-- step 2 -->
                 <div class="step-area step02">
                     <div class="main-area active">
-                        <!-- active 클래스 추가 -->
+                        <!-- activ\e 클래스 추가 -->
 
                         <div class="video-area">
                             <div class="video-box">
