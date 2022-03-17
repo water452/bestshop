@@ -44,7 +44,7 @@
                     <div class="input-box btn-type">
                         <span class="input-wrap">
                         <input type="number" name="phone" data-required="true" id="inp01" value="" title="휴대폰 번호 뒤 4자리"
-                        placeholder="휴대폰번호 뒤 4자리를 입력해 주세요.">
+                        placeholder="휴대폰번호 뒤 4자리를 입력해주세요.">
                         </span>
                         <button type="button" id="button-search" class="btn pink"><span>조회</span></button>
                     </div>

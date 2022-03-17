@@ -1,4 +1,8 @@
 <%@ page contentType="text/html; charset=utf-8" %>
+<h3 class="step-tit">제품선택<sup>*</sup><span>상담을 원하시는 제품 모두 선택하세요. (다중선택)</span></h3>
+<div class="btm-more err-block" style="display: block;"> <!-- step 유효성 체크 -->
+    <p class="err-msg">제품을 선택해주세요.</p>
+</div>
 <ul class="input-cate-type">
     <li>
         <p class="cate-tit"><i class="icon tv-audio"></i>TV/오디오</p>
@@ -207,3 +211,9 @@
         </ul>
     </li>
 </ul>
+
+<!-- 카테고리형일 때 모바일시 더보기버튼 추가 -->
+<!-- <div class="btn-area center pc-hidden res-more">
+    <a href="javascript:void(0);" class="btn border s02 more"><span>더보기</span></a>
+</div> -->
+<!-- // 카테고리형일 때 모바일시 더보기버튼 추가 -->

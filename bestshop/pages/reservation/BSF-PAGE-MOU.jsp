@@ -108,13 +108,10 @@
 
                     <div class="main-area active"><!-- active 클래스 추가 -->
                         <form action="">
-                            <h3 class="step-tit">상담목적<sup>*</sup></h3>
                             <jsp:include page="../../templates/reservation/input-icon-type.jsp" /> <!-- //input-icon-type.jsp -->
 
-                            <h3 class="step-tit">제품선택<sup>*</sup><span>(다중선택)</span></h3>
                             <jsp:include page="../../templates/reservation/input-cate-type.jsp" /> <!-- //input-cate-type.jsp -->
 
-                            <h3 class="step-tit">구매 희망 시기<sup>*</sup></h3>
                             <jsp:include page="../../templates/reservation/input-base-type.jsp" /> <!-- //input-base-type.jsp -->
 
                             <h3 class="step-tit">추가 전달사항</span></h3>
@@ -191,7 +188,7 @@
 
                     <div class="main-area">
                         <div class="user-info-area info-type">
-                            <h3 class="step-tit">예약자 정보</h3>
+                            <h3 class="step-tit">예약자 정보<span>예약자 정보를 입력해주세요.</span></h3>
                             <div class="lt">
                                 <form action="">
                                     <div class="box-gray"> 
@@ -204,9 +201,9 @@
                                                 </div>
                                                 <div class="txt-box">
                                                     <div class="input-wrap">
-                                                        <input class="base-txt" type="text" id="user-name" placeholder="이름 입력">
+                                                        <input class="base-txt" type="text" id="user-name" placeholder="이름을 입력해주세요.">
                                                     </div>
-                                                    <div class="btm-more err-block">
+                                                    <div class="btm-more err-block" style="display: block;">
                                                         <p class="err-msg">이름을 입력해주세요.</p>
                                                     </div>
                                                 </div>
@@ -219,10 +216,10 @@
                                                 </div>
                                                 <div class="txt-box">
                                                     <div class="input-wrap">
-                                                        <input class="base-txt" type="number" id="user-number" placeholder="휴대폰 번호 입력">
+                                                        <input class="base-txt" type="number" id="user-number" placeholder="(-) 제외한 숫자만 입력해주세요.">
                                                     </div>
-                                                    <div class="btm-more err-block">
-                                                        <p class="err-msg">정확한 휴대폰번호를 입력해주세요.</p>
+                                                    <div class="btm-more err-block" style="display: block;">
+                                                        <p class="err-msg">휴대폰번호를 입력해주세요.</p>
                                                     </div>
                                                 </div>
                                             </li>
