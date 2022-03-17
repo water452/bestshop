@@ -58,128 +58,165 @@
             </div>
             <div class="table-cont">
                 <h4 class="tb-tit">1등 당첨자 (2명)</h4>
-                <div class="tb_row tb-row-bl">
-                    <table>
-                        <caption>1등 당첨자</caption>
-                        <colgroup>
-                            <col style="width: 18%" />
-                            <col />
-                            <col style="width: 18%" />
-                            <col />
-                        </colgroup>
-                        <thead>
-                            <tr>
-                                <th scope="col" class="winner-tt">고객명</th>
-                                <th scope="col" class="phone-tt">전화번호</th>
-                                <th scope="col" class="winner-tt">고객명</th>
-                                <th scope="col" class="phone-tt">전화번호</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="winner">박*영</td>
-                                <td class="phone">010****0079</td>
-                                <td class="winner">김*리</td>
-                                <td class="phone">010****7289</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="list-table-type">
+                    <ul class="title-area">
+                        <li>
+                            <span>고객명</span>
+                            <strong>전화번호</strong>
+                        </li>
+                        <li>
+                            <span>고객명</span>
+                            <strong>전화번호</strong>
+                        </li>
+                    </ul>
+                    <ul class="list-area">
+                        <li>
+                            <span class="name"><span class="blind">고객명</span>박*영</span>
+                            <strong class="number"><span class="blind">전화번호</span>010****0079</strong>
+                        </li>
+                        <li>
+                            <span class="name"><span class="blind">고객명</span>김*리</span>
+                            <strong class="number"><span class="blind">전화번호</span>010****7289</strong>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="table-cont">
                 <h4 class="tb-tit">2등 당첨자 (6명)</h4>
-                <div class="tb_row tb-row-bl">
-                    <table>
-                        <caption>2등 당첨자</caption>
-                        <colgroup>
-                            <col style="width: 18%" />
-                            <col />
-                            <col style="width: 18%" />
-                            <col />
-                        </colgroup>
-                        <thead>
-                            <tr>
-                                <th scope="col" class="winner-tt">고객명</th>
-                                <th scope="col" class="phone-tt">전화번호</th>
-                                <th scope="col" class="winner-tt">고객명</th>
-                                <th scope="col" class="phone-tt">전화번호</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="winner">박*영</td>
-                                <td class="phone">010****0079</td>
-                                <td class="winner">김*리</td>
-                                <td class="phone">010****7289</td>
-                            </tr>
-                            <tr>
-                                <td class="winner">최*란</td>
-                                <td class="phone">010****3725</td>
-                                <td class="winner">임*원</td>
-                                <td class="phone">010****7568</td>
-                            </tr>
-                            <tr>
-                                <td class="winner">조*비</td>
-                                <td class="phone">010****8935</td>
-                                <td class="winner">이*재</td>
-                                <td class="phone">010****5703</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="list-table-type">
+                    <ul class="title-area">
+                        <li>
+                            <span>고객명</span>
+                            <strong>전화번호</strong>
+                        </li>
+                        <li>
+                            <span>고객명</span>
+                            <strong>전화번호</strong>
+                        </li>
+                    </ul>
+                    <ul class="list-area">
+                        <li>
+                            <span class="name"><span class="blind">고객명</span>박*영</span>
+                            <strong class="number"><span class="blind">전화번호</span>010****0079</strong>
+                        </li>
+                        <li>
+                            <span class="name"><span class="blind">고객명</span>김*리</span>
+                            <strong class="number"><span class="blind">전화번호</span>010****7289</strong>
+                        </li>
+                        <li>
+                            <span class="name"><span class="blind">고객명</span>박*영</span>
+                            <strong class="number"><span class="blind">전화번호</span>010****0079</strong>
+                        </li>
+                        <li>
+                            <span class="name"><span class="blind">고객명</span>김*리</span>
+                            <strong class="number"><span class="blind">전화번호</span>010****7289</strong>
+                        </li>
+                        <li>
+                            <span class="name"><span class="blind">고객명</span>박*영</span>
+                            <strong class="number"><span class="blind">전화번호</span>010****0079</strong>
+                        </li>
+                        <li>
+                            <span class="name"><span class="blind">고객명</span>김*리</span>
+                            <strong class="number"><span class="blind">전화번호</span>010****7289</strong>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="table-cont">
                 <h4 class="tb-tit">3등 당첨자 (20명)</h4>
-                <div class="tb_row tb-row-bl">
-                    <table>
-                        <caption>3등 당첨자</caption>
-                        <colgroup>
-                            <col style="width: 18%" />
-                            <col />
-                            <col style="width: 18%" />
-                            <col />
-                        </colgroup>
-                        <thead>
-                            <tr>
-                                <th scope="col" class="winner-tt">고객명</th>
-                                <th scope="col" class="phone-tt">전화번호</th>
-                                <th scope="col" class="winner-tt">고객명</th>
-                                <th scope="col" class="phone-tt">전화번호</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="winner">김*환</td>
-                                <td class="phone">010****2964</td>
-                                <td class="winner">임*용</td>
-                                <td class="phone">010****9459</td>
-                            </tr>
-                            <tr>
-                                <td class="winner">박*영</td>
-                                <td class="phone">010****1361</td>
-                                <td class="winner">이*서</td>
-                                <td class="phone">010****4561</td>
-                            </tr>
-                            <tr>
-                                <td class="winner">이*아</td>
-                                <td class="phone">010****7117</td>
-                                <td class="winner">최*호</td>
-                                <td class="phone">010****9622</td>
-                            </tr>
-                            <tr>
-                                <td class="winner">박*옥</td>
-                                <td class="phone">010****0491</td>
-                                <td class="winner">안*원</td>
-                                <td class="phone">010****7579</td>
-                            </tr>
-                            <tr>
-                                <td class="winner">공*경</td>
-                                <td class="phone">010****0630</td>
-                                <td class="winner">김*미</td>
-                                <td class="phone">010****9007</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="list-table-type">
+                    <ul class="title-area">
+                        <li>
+                            <span>고객명</span>
+                            <strong>전화번호</strong>
+                        </li>
+                        <li>
+                            <span>고객명</span>
+                            <strong>전화번호</strong>
+                        </li>
+                    </ul>
+                    <ul class="list-area">
+                        <li>
+                            <span class="name"><span class="blind">고객명</span>박*영</span>
+                            <strong class="number"><span class="blind">전화번호</span>010****0079</strong>
+                        </li>
+                        <li>
+                            <span class="name"><span class="blind">고객명</span>김*리</span>
+                            <strong class="number"><span class="blind">전화번호</span>010****7289</strong>
+                        </li>
+                        <li>
+                            <span class="name"><span class="blind">고객명</span>박*영</span>
+                            <strong class="number"><span class="blind">전화번호</span>010****0079</strong>
+                        </li>
+                        <li>
+                            <span class="name"><span class="blind">고객명</span>김*리</span>
+                            <strong class="number"><span class="blind">전화번호</span>010****7289</strong>
+                        </li>
+                        <li>
+                            <span class="name"><span class="blind">고객명</span>박*영</span>
+                            <strong class="number"><span class="blind">전화번호</span>010****0079</strong>
+                        </li>
+                        <li>
+                            <span class="name"><span class="blind">고객명</span>김*리</span>
+                            <strong class="number"><span class="blind">전화번호</span>010****7289</strong>
+                        </li>
+                        <li>
+                            <span class="name"><span class="blind">고객명</span>김*리</span>
+                            <strong class="number"><span class="blind">전화번호</span>010****7289</strong>
+                        </li>
+                        <li>
+                            <span class="name"><span class="blind">고객명</span>김*리</span>
+                            <strong class="number"><span class="blind">전화번호</span>010****7289</strong>
+                        </li>
+                        <li>
+                            <span class="name"><span class="blind">고객명</span>김*리</span>
+                            <strong class="number"><span class="blind">전화번호</span>010****7289</strong>
+                        </li>
+                        <li>
+                            <span class="name"><span class="blind">고객명</span>김*리</span>
+                            <strong class="number"><span class="blind">전화번호</span>010****7289</strong>
+                        </li>
+                        <li>
+                            <span class="name"><span class="blind">고객명</span>박*영</span>
+                            <strong class="number"><span class="blind">전화번호</span>010****0079</strong>
+                        </li>
+                        <li>
+                            <span class="name"><span class="blind">고객명</span>김*리</span>
+                            <strong class="number"><span class="blind">전화번호</span>010****7289</strong>
+                        </li>
+                        <li>
+                            <span class="name"><span class="blind">고객명</span>박*영</span>
+                            <strong class="number"><span class="blind">전화번호</span>010****0079</strong>
+                        </li>
+                        <li>
+                            <span class="name"><span class="blind">고객명</span>김*리</span>
+                            <strong class="number"><span class="blind">전화번호</span>010****7289</strong>
+                        </li>
+                        <li>
+                            <span class="name"><span class="blind">고객명</span>박*영</span>
+                            <strong class="number"><span class="blind">전화번호</span>010****0079</strong>
+                        </li>
+                        <li>
+                            <span class="name"><span class="blind">고객명</span>김*리</span>
+                            <strong class="number"><span class="blind">전화번호</span>010****7289</strong>
+                        </li>
+                        <li>
+                            <span class="name"><span class="blind">고객명</span>김*리</span>
+                            <strong class="number"><span class="blind">전화번호</span>010****7289</strong>
+                        </li>
+                        <li>
+                            <span class="name"><span class="blind">고객명</span>김*리</span>
+                            <strong class="number"><span class="blind">전화번호</span>010****7289</strong>
+                        </li>
+                        <li>
+                            <span class="name"><span class="blind">고객명</span>김*리</span>
+                            <strong class="number"><span class="blind">전화번호</span>010****7289</strong>
+                        </li>
+                        <li>
+                            <span class="name"><span class="blind">고객명</span>김*리</span>
+                            <strong class="number"><span class="blind">전화번호</span>010****7289</strong>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

@@ -22,10 +22,12 @@
 .win-popup-wrap .inner-contents .table-cont h2.event-title {font-size: 24px;margin-bottom: 15px; } 
 .win-popup-wrap .inner-contents .table-cont ~ .table-cont {margin-top: 60px; } 
 .win-popup-wrap .inner-contents .table-cont .tb-tit {margin-bottom: 16px; font-size: 16px; line-height: 22px; font-weight: bold;}
-.win-popup-wrap .inner-contents .table-cont .tb_row table tr {display: table-row !important; } 
+
+/* .win-popup-wrap .inner-contents .table-cont .tb_row table tr {display: table-row !important; } 
 .win-popup-wrap .inner-contents .table-cont .tb_row table tr th,
 .win-popup-wrap .inner-contents .table-cont .tb_row table tr td {display: table-cell !important;width: unset !important;max-width: unset !important; } 
-.win-popup-wrap .inner-contents .search-result .table-cont .tb_row table tr.winner-row {border: 2px solid #da0f47 !important; } 
+.win-popup-wrap .inner-contents .search-result .table-cont .tb_row table tr.winner-row {border: 2px solid #da0f47 !important; }  */
+
 .win-popup-wrap.event-popup .ev-detail-top { margin: 0; padding: 48px 0; }
 .win-popup-wrap.event-popup .ev-detail-top .tit-wrap .tit { margin-top: 6px; padding: 0; }
 .win-popup-wrap.event-popup .ev-detail-top .tit-wrap .date { margin-top: 12px; line-height: 26px; font-size: 18px; }
@@ -35,6 +37,15 @@
 .win-popup-wrap.event-popup .form-wrap .forms .btn { margin-left: 10px; }
 .search-result-title-default { color: #da0f47; font-size: 30px; }
 .search-result-title-default + .no-result-msg { margin-top: 40px; }
+
+.list-table-type > ul {display:flex; flex-wrap:wrap}
+.list-table-type > ul > li {display:flex; width:50%; border-bottom:1px solid #ddd; font-size:16px; line-height:24px; text-align:center}
+.list-table-type > ul > li:nth-child(2n) {border-left:1px solid #ddd}
+.list-table-type .title-area {border-top:1px solid #666; background-color:#f4f4f4}
+.list-table-type .title-area li > * {padding:16px; color:#666; font-weight:500}
+.list-table-type .list-area li > * {padding:24px 16px}
+.list-table-type > ul li span {width:36%; border-right:1px solid #ddd}
+.list-table-type > ul li strong {width:64%; font-weight:normal}
 
 /* New 당첨자 발표 */
 .win-popup-wrap .tit-area {padding-bottom: 60px;margin-bottom: 0; } 
@@ -101,4 +112,8 @@
     .win-popup-wrap.event-popup .inner-contents .table-cont ~ .table-cont {margin-top: 35px; } 
     .search-result-title-default { line-height: 36px; font-size: 24px; }
     .search-result-title-default + .no-result-msg { margin-top: 30px; }
+
+    .list-table-type > ul > li {font-size:13px; line-height:19px}
+    .list-table-type .title-area li > * {padding:12px 6px}
+    .list-table-type .list-area li > * {padding:12px 6px}
 }
