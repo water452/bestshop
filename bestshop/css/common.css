@@ -156,9 +156,9 @@ table{border-collapse:collapse}
 .step-tit ~ .step-tit{margin-top:50px}
 .step-tit > sup{color:#da0f47;font-size:20px;font-weight:bold;line-height:28px}
 .step-tit + .btm-more {margin-top:-12px; margin-bottom:12px}
-.tit-area{display:flex;align-items:center;margin-bottom:16px}
-.tit-area .step-tit{margin-bottom:0}
-.tit-area .step-tit + em{margin-left:10px;font-size:14px;line-height:22px}
+.step-area .tit-area{display:flex;align-items:center;margin-bottom:16px}
+.step-area .tit-area .step-tit{margin-bottom:0}
+.step-area .tit-area .step-tit + em{margin-left:10px;font-size:14px;line-height:22px}
 
 /* step 필수입력항목  */
 .step-top-note{display:flex;justify-content:flex-end;margin-bottom:12px;font-size:14px;line-height:20px}
@@ -701,8 +701,8 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	.step-tit > span{margin-left:0;font-size:11px}
 	.step-tit > sup{font-size:16px;line-height:26px;vertical-align:text-top}
 	.step-tit + .btm-more {margin-top:-15px; margin-bottom:10px}
-	.tit-area{flex-direction:column;align-items:flex-start;margin-bottom:12px}
-	.tit-area .step-tit + em{margin-left:0;font-size:10px;line-height:19px}
+	.step-area .tit-area{flex-direction:column;align-items:flex-start;margin-bottom:12px}
+	.step-area .tit-area .step-tit + em{margin-left:0;font-size:10px;line-height:19px}
 
 	/* step 필수입력항목  */
 	.step-top-note{margin-bottom:5px;font-size:10px;line-height:15px}
