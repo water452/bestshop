@@ -835,7 +835,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-main .guide-area.bg [class*="guide-banner"] .swiper-scrollbar {width:calc(100% - 32px); left:16px; bottom:20px; height:2px}
 
     /* 방문/화상 */
-    .guide-area.step-3 {margin:0 -16px 36px; background-color:#f6f6f6}
+    .guide-area.step-3 {margin:0 -16px 12px; background-color:#f6f6f6}
     .guide-area.step-3 .guide-process {padding:16px!important}
     .guide-area.step-3 [class*="guide-banner"] {padding:0!important}
     .guide-area.step-3 [class*="guide-banner"] .swiper-slide {width:calc((100% - 13px) / 3); min-width:0!important}
@@ -844,8 +844,10 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .guide-area.step-3 [class*="guide-banner"] .box .tit-wrap strong {letter-spacing:-0.25px}
 
     /* 매장상담예약 컨텐츠 영역 */
+    .step-area {border-top:0; border-bottom:1px solid #ddd}
     .step-area.open::after {width:20px; height:20px; top:23px; background:url(../images/icons/icon-arrow-down-40.svg) no-repeat center / contain}
     .res-main .cont-wrap .cont-area {padding-top:4px}
+    .step-area .main-area {padding:14px 0 20px}
     .cont-wrap.w100 {padding:0 16px 4px}
     .res-main .step-area.step02 .date-wrap .input-area > .base-type .radio-btn.btn-type2 label {border-radius:4px}
     .step-area.step01 ul.input-base-type {margin-top:5px}
