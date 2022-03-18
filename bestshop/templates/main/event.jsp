@@ -33,15 +33,15 @@
                         <span class="thumb pcOnly"><img src="/bestshop/images/img_main_event03.png" alt=""></span>
                         <span class="thumb mobileOnly"><img src="/bestshop/images/img_main_event03.png" alt=""></span>
                         <span class="txtBox">
-                            <strong>LG 코드제로 M9 출시 기념</strong>
+                            <strong>LG 코드제로 M9 출시 기념 LG 코드제로 M9 출시 기념</strong>
                             <span class="date">2021.10.01~2021.10.31</span>
                         </span>
                     </a>
                 </div>
             </div>
         </div>
-        <div class="btn-area">
-            <a href="pages/event/BSF-EVE-BSTAB.jsp">이벤트 전체보기</a>
+        <div class="btn-area center">
+            <a class="btn border s02" href="pages/event/BSF-EVE-BSTAB.jsp">이벤트 전체보기</a>
         </div>
     </div><!-- //.content-group-detail -->
 </div>

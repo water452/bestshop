@@ -536,8 +536,9 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 .slide-navi .swiper-pager .slideBtn.swiper-button-disabled{background-image:url('../images/icons/btn_arrow_left.svg');}
 .slide-navi .swiper-pager .slideBtn.swiper-button-disabled.btn-prev{transform:rotate(0deg)}
 .slide-navi .swiper-pager .slideBtn.swiper-button-disabled.btn-next{transform:rotate(180deg)}
-.slide-navi .swiper-pager .pager-fraction{display:inline-block;width:auto;font-size:16px;font-weight:300;color:rgba(255,255,255,0.5);line-height:30px;margin:0 7px;}
-.slide-navi .swiper-pager .pager-fraction .swiper-pagination-current{color:#fff;}
+.slide-navi .swiper-pager .pager-fraction{display:inline-block;width:auto;font-size:16px;font-weight:300;color:rgba(255,255,255,0.5);line-height:30px;margin:0 14px;}
+.slide-navi .swiper-pager .pager-fraction .swiper-pagination-current{margin-right:6px; color:#fff;}
+.slide-navi .swiper-pager .pager-fraction .swiper-pagination-total{margin-left:6px}
 
 .slide-navi .swiper-auto{margin-left:8px;}
 .slide-navi .swiper-auto .slideBtn{display:none;overflow:hidden;width:46px;height:46px;font-size:0;text-indent:-9999em;background-repeat:no-repeat;background-position:50% 50%;background-size:contain;}
@@ -913,9 +914,11 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 
     /* slide navi */
     .slide-navi .slide-navi-detail{padding:0 16px;}
-    .slide-navi .swiper-pager{padding:7px;border-radius:13px;}
+    .slide-navi .swiper-pager{padding:5.5px;border-radius:13px;}
     .slide-navi .swiper-pager .slideBtn{width:15px;height:15px;}
-    .slide-navi .swiper-pager .pager-fraction{font-size:12px;line-height:15px;}
+    .slide-navi .swiper-pager .pager-fraction{margin:0 7.5px; font-size:12px;line-height:15px;}
+	.slide-navi .swiper-pager .pager-fraction .swiper-pagination-current{margin-right:1.5px}
+	.slide-navi .swiper-pager .pager-fraction .swiper-pagination-total{margin-left:1.5px}
     .slide-navi .swiper-auto .slideBtn{width:26px;height:26px;}
 
     /* popup */
