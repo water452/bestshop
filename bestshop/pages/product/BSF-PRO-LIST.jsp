@@ -19,6 +19,7 @@
                     <img class="pc-hidden" src="../../images/img-product-list-banner-01_mo.png" alt="&nbsp;" /><!#-- mobile용 --#>
                 </div>
                 e : 단일 이미지 등록 case -->
+                
 
                 <!-- s : 다중 컨텐츠 등록 case -->
                 <div class="img-slide-wrap">
@@ -67,14 +68,21 @@
                     <div class="pop-wrap white">
                         <div class="pop-cont h-452">
                             <div class="video-wrap">
-                                <video class="pcOnly" playsinline="" muted="" poster="../../images/img-benefit-month-slide-test.png" class="videoPoster" loop> <!-- pc only -->
+                                <!-- video case
+                                <video class="pcOnly" playsinline="" muted="" poster="../../images/img-benefit-month-slide-test.png" class="videoPoster" loop>
                                     <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
                                     <p>LG전자 회사소개 동영상</p>
                                 </video>
-                                <video class="mobileOnly" playsinline="" muted="" poster="../../images/img-benefit-month-slide-test-mo.png" class="videoPoster" loop> <!-- mobile only -->
+                                <video class="mobileOnly" playsinline="" muted="" poster="../../images/img-benefit-month-slide-test-mo.png" class="videoPoster" loop>
                                     <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
                                     <p>LG전자 회사소개 동영상</p>
                                 </video>
+                                -->
+
+                                <!-- iframe case -->
+                                <div class="iframe-wrap">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/PKELCx-C_Og" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
                             </div>
                         </div>
                         <button type="button" class="btn-pop-close btnPopClose"><span class="blind">닫기</span></button>
