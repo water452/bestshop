@@ -43,27 +43,6 @@
                 <div class="su-infor">
                     <h2 class="tit-su">강남본점 지점장 <strong>이동휘</strong></h2>
                     <p class="txt01">LG전자 베스트샵 강남본점을 찾아주셔서 감사합니다.<br /> [ Z:IN 지인 인테리어 입점 ] 친철하고 편안하게 모시겠습니다.</p>
-                    <!-- <div class="btn-area">
-                        <span class="chk-favorite">
-                            <input type="checkbox" id="chk-favorite" />
-                            <label for="chk-favorite">단골매장등록</label>
-                        </span>
-                        <div class="tooltip-wrap share layer-click">
-                            <a href="#none" class="btn-share">공유하기</a>
-                            <div class="tooltip-box fixed-right layer-detail">
-                                <strong class="title">공유하기</strong>
-                                <div class="sns-wrap">
-                                    <ul class="sns-list">
-                                        <li><a href="#none" class="ico-btn fb" title="페이스북에 공유하기, 새창열림" data-link-name="facebook">페이스북<span class="blind">으로 페이지 공유하기</span></a></li>
-                                        <li><a href="#none" class="ico-btn tw" title="트위터에 공유하기, 새창열림" data-link-name="twitter">트위터<span class="blind">로 페이지 공유하기</span></a></li>
-                                        <li><a href="#none" data-url="" class="ico-btn kk" title="카카오톡에 공유하기, 새창열림" data-link-name="kakaotalk">카카오톡<span class="blind">으로 페이지 공유하기</span></a></li>
-                                        <li><a href="#none" data-url="" class="ico-btn url" data-link-name="copy_url">URL복사<span class="blind">하기</span></a></li>
-                                    </ul>
-                                </div>
-                                <button type="button" class="btn-close"><span class="blind">닫기</span></button>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
             </div>
         </section>
@@ -161,6 +140,27 @@
                     </dl>
                 </li>
             </ul>
+            <div class="btn-area">
+                <!-- <span class="chk-favorite">
+                    <input type="checkbox" id="chk-favorite" />
+                    <label for="chk-favorite">단골매장등록</label>
+                </span> -->
+                <div class="tooltip-wrap share layer-click">
+                    <a href="#none" class="btn-share">공유하기</a>
+                    <div class="tooltip-box fixed-right layer-detail">
+                        <strong class="title">공유하기</strong>
+                        <div class="sns-wrap">
+                            <ul class="sns-list">
+                                <li><a href="#none" class="ico-btn fb" title="페이스북에 공유하기, 새창열림" data-link-name="facebook">페이스북<span class="blind">으로 페이지 공유하기</span></a></li>
+                                <li><a href="#none" class="ico-btn tw" title="트위터에 공유하기, 새창열림" data-link-name="twitter">트위터<span class="blind">로 페이지 공유하기</span></a></li>
+                                <li><a href="#none" data-url="" class="ico-btn kk" title="카카오톡에 공유하기, 새창열림" data-link-name="kakaotalk">카카오톡<span class="blind">으로 페이지 공유하기</span></a></li>
+                                <li><a href="#none" data-url="" class="ico-btn url" data-link-name="copy_url">URL복사<span class="blind">하기</span></a></li>
+                            </ul>
+                        </div>
+                        <button type="button" class="btn-close"><span class="blind">닫기</span></button>
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- //매장 정보 -->
         <!-- 상담 예약 바로가기 -->
