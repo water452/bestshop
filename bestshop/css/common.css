@@ -764,7 +764,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	.header-wrap .logo a > img {width:100%}
 
 	.header-bottom{padding:0;margin-bottom:0;}
-	.header-bottom .menu-wrap{display:block;}
+	.header-bottom .menu-wrap{display:none;}
 	.header-bottom .menu-wrap > ul{font-size:0;white-space:nowrap;margin-left:0;padding:0 16px;}
 	.header-bottom .menu-wrap > ul > li{display:inline-block;padding:0;}
 	.header-bottom .menu-wrap > ul > li + li{margin-left:20px;}
