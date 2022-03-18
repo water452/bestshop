@@ -39,14 +39,19 @@
                                     <p class="note"><sup>*</sup>필수 입력 사항</p>
                                     <form action="#">
                                         <ul class="input-list-type">
-                                            <li class="name-box">
+                                            <li>
                                                 <div class="tit">
-                                                    <label for="user-name02">
+                                                    <label for="user-name">
                                                         <span class="name">이름<sup>*</sup></span>
                                                     </label>
                                                 </div>
                                                 <div class="txt-box">
-                                                    <input class="base-txt" type="text" id="user-name02" placeholder="이름 입력">
+                                                    <div class="input-wrap">
+                                                        <input class="base-txt" type="text" id="user-name" placeholder="이름을 입력해주세요.">
+                                                    </div>
+                                                    <div class="btm-more err-block" style="display: block;">
+                                                        <p class="err-msg">이름을 입력해주세요.</p>
+                                                    </div>
                                                 </div>
                                             </li>
                                             <li class="num-box">
@@ -56,12 +61,19 @@
                                                     </label>
                                                 </div>
                                                 <div class="txt-box">
-                                                    <!-- <div class="input-pin-type">
-                                                        <input class="base-txt" type="number" id="user-number02" placeholder="휴대전화 번호 입력">
+                                                    <div class="input-pin-type">
+                                                        <input class="base-txt" type="number" id="user-number02" placeholder="(-) 제외한 숫자만 입력해주세요.">
                                                         <button type="button" class="btn-send">인증번호 발송</button>
                                                     </div>
-                                                    <input class="base-txt" type="number" placeholder="인증번호를 입력해주세요" disabled> -->
-                                                    <input class="base-txt" type="number" id="user-number02" placeholder="휴대전화 번호 입력">
+                                                    <div class="btm-more err-block" style="display: block;">
+                                                        <p class="err-msg">휴대폰번호를 입력해주세요.</p>
+                                                    </div>
+                                                    <div class="input-wrap">
+                                                        <input class="base-txt" type="number" placeholder="인증번호를 입력해주세요." disabled>
+                                                    </div>
+                                                    <div class="btm-more err-block" style="display: block;">
+                                                        <p class="err-msg">인증번호를 입력해주세요.</p>
+                                                    </div>
                                                 </div>
                                             </li>
                                         </ul>

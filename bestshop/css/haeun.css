@@ -176,7 +176,7 @@ ul.input-base-type .chkrdo-btn input:checked + label {border-width:2px; line-hei
 
 /* 매장/상담일시 선택 */
 .step-area .shop-date-wrap .view-area {position:relative}
-.step-area .shop-date-wrap .sort-area {position:absolute; top:68px; right:24px}
+.step-area .shop-date-wrap .sort-area {position:absolute; top:68px; right:24px; z-index:10}
 .step-area .shop-date-wrap .sort-area button {padding-left:26px; color:#aaa; font-size:16px; line-height:48px}
 .step-area .shop-date-wrap .sort-area button + button {position:relative; margin-left:25px}
 .step-area .shop-date-wrap .sort-area button + button::before {content:''; display:block; position:absolute; width:1px; height:14px; top:calc(50% - 7px); left:-16px; background-color:#ddd}
@@ -602,7 +602,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 
 /* 상담예약조회 - 인증페이지 */
 .inq-area .inq-box-area {display:flex; justify-content:space-between}
-.inq-area .inq-box-area .inq-box {position:relative; width:calc(50% - 10px); height:548px; padding:24px 32px; border:1px solid #ddd; border-radius:8px}
+.inq-area .inq-box-area .inq-box {position:relative; width:calc(50% - 10px); height:598px; padding:24px 32px; border:1px solid #ddd; border-radius:8px}
 .inq-area .top-area {padding-bottom:16px; border-bottom:1px solid #000}
 .inq-area .top-area .tit {font-size:22px; font-weight:500; line-height:30px}
 .inq-area .inq-box-area .inq-box .body-area {padding-top:12px}
@@ -1090,7 +1090,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-main.care .popup.v-large .pop-wrap {width:calc(100% + 32px)}
 
     .res-main .sticky-info-wrap {margin-bottom:35px}
-    .res-main .sticky-info-wrap.fixed {margin-top:40px}
+    /* .res-main .sticky-info-wrap.fixed {margin-top:40px} */
     .res-main .sticky-info-wrap .inner {padding:20px 16px 74px}
     .res-main .sticky-info-wrap .info-txt {font-size:14px; line-height:20px; text-align:center}
     .res-main .sticky-info-wrap .info-txt > .cate-name {padding-right:25px}
