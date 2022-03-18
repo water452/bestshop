@@ -467,7 +467,7 @@
     </div>
 
     <div class="btn-area">
-        <button type="button" class="btn s01 border-red arr-right">다음으로</button>
+        <button type="button" class="btn s01 border-red">다음 단계로</button>
     </div>
 
 </div>
