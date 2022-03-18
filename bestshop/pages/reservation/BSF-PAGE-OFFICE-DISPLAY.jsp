@@ -4,79 +4,87 @@
 <div class="container" id="content">
 
     <div class="page-header">
-        <h2 class="title">소모품 구매 예약</h2>
+        <h2 class="title">전시 진열 상품 Case</h2>
     </div>
 
     <!-- contents -->
-    <div class="contents res-main care-ex">
+    <div class="contents res-main">
 
-        <div class="top-wrap">
-            <div class="guide-area bg">
-                <div class="guide-process">
-                    <div class="inner">
-                        <p class="desc">필요한 소모품에 대한 정보를 LG전자 베스트샵을 통해 확인하고 <br class="m-hidden">매장 방문하여 구매 및 추가 상담을
-                            받으실 수 있습니다.</p>
-                        <div class="swiper guide-banner-care-ex">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="box">
-                                        <span class="icon-wrap">
-                                            <i class="icon01"></i>
-                                        </span>
-                                        <span class="txt">구매 희망 <br class="pc-hidden">소모품 선택</span>
-                                    </div>
+        <div class="cont-wrap">
+            <div class="top-wrap top-visual">
+                <!-- 이벤트배너 -->
+                <!-- s : 단일 이미지 등록 case
+                <div class="tit-img-area">
+                    <img class="m-hidden" src="../../images/img-product-list-banner-01.png" alt="&nbsp;" /><!#-- pc용 --#>
+                    <img class="pc-hidden" src="../../images/img-product-list-banner-01_mo.png" alt="&nbsp;" /><!#-- mobile용 --#>
+                </div>
+                e : 단일 이미지 등록 case -->
+
+                <!-- s : 다중 컨텐츠 등록 case -->
+                <div class="img-slide-wrap">
+                    <div class="swiper img-slide h-452 bdr-0">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                <div class="img-wrap">
+                                    <img class="m-hidden" src="../../images/img-banner-dummy.png" alt="&nbsp;" /><!-- pc용 -->
+                                    <img class="pc-hidden" src="../../images/img-banner-dummy-mo.png" alt="&nbsp;" /><!-- mobile용 -->
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="box">
-                                        <span class="icon-wrap">
-                                            <i class="icon02"></i>
-                                        </span>
-                                        <span class="txt">소모품 구매 <br class="pc-hidden">예약 신청</span>
-                                    </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="img-wrap">
+                                    <img class="m-hidden" src="../../images/img-banner-dummy.png" alt="&nbsp;" /><!-- pc용 -->
+                                    <img class="pc-hidden" src="../../images/img-banner-dummy-mo.png" alt="&nbsp;" /><!-- mobile용 -->
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="box">
-                                        <span class="icon-wrap">
-                                            <i class="icon03"></i>
-                                        </span>
-                                        <span class="txt">방문 매장 재고 확인 <br class="pc-hidden">및 고객 전화 안내</span>
-                                    </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="img-wrap">
+                                    <button type="button" class="btn-video-view">영상보기</button>
+                                    <img class="m-hidden" src="../../images/img-banner-dummy.png" alt="&nbsp;" /><!-- pc용 -->
+                                    <img class="pc-hidden" src="../../images/img-banner-dummy-mo.png" alt="&nbsp;" /><!-- mobile용 -->
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="box">
-                                        <span class="icon-wrap">
-                                            <i class="icon04"></i>
-                                        </span>
-                                        <span class="txt">매장 방문 픽업 <br class="pc-hidden">및 추가 상담</span>
-                                    </div>
+                            </li>
+                        </ul>
+                        <div class="slide-navi">
+                            <div class="slide-navi-detail">
+                                <div class="swiper-pager">
+                                    <button type="button" class="slideBtn btn-prev">이전 슬라이드</button>
+                                    <div class="pager-fraction"></div>
+                                    <button type="button" class="slideBtn btn-next">다음 슬라이드</button>
+                                </div>
+                                <div class="swiper-auto">
+                                    <button type="button" class="slideBtn btn-play">슬라이드 재생</button>
+                                    <button type="button" class="slideBtn btn-stop active">슬라이드 일시정지</button>
                                 </div>
                             </div>
-                            <div class="swiper-scrollbar"></div>
                         </div>
                     </div>
                 </div>
-                <div class="guide-info-list">
-                    <div class="inner">
-                        <ul class="bull">
-                            <li>소모품은 적기에 교체해야, 제품의 성능을 100% 발휘할 수 있습니다.</li>
-                            <li>오프라인 상에는 LG전자 베스트샵에서만 소모품 구매가 가능합니다.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="guide-bottom">
-                    <div class="inner">
-                        <dl>
-                            <dt>소모품이란?</dt>
-                            <dd>사용 주기에 맞추어 손쉽게 교체할 수 있는 필터, 청소포와 같은 소모품이나 옷걸이, 거치대와 같은 액세서리 종류를 말합니다.</dd>
-                        </dl>
-                    </div>
-                </div>
-            </div>
-        </div>
+                <!-- e : 다중 컨텐츠 등록 case -->
+                <!-- //이벤트배너 -->
 
-        <div class="cont-wrap">
-            
-            <section class="cont-area mt20">
+                <!-- 팝업 : 영상 팝업 s -->
+                <div class="popup v-large video" id="popup-video">
+                    <div class="pop-wrap white">
+                        <div class="pop-cont h-452">
+                            <div class="video-wrap">
+                                <video class="pcOnly" playsinline="" muted="" poster="../../images/img-benefit-month-slide-test.png" class="videoPoster" loop> <!-- pc only -->
+                                    <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
+                                    <p>LG전자 회사소개 동영상</p>
+                                </video>
+                                <video class="mobileOnly" playsinline="" muted="" poster="../../images/img-benefit-month-slide-test-mo.png" class="videoPoster" loop> <!-- mobile only -->
+                                    <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
+                                    <p>LG전자 회사소개 동영상</p>
+                                </video>
+                            </div>
+                        </div>
+                        <button type="button" class="btn-pop-close btnPopClose"><span class="blind">닫기</span></button>
+                    </div>
+                </div>
+                <!-- 팝업 : 영상 팝업 e -->
+            </div>
+
+            <!-- 제품찾기 상담 스텝 영역 -->
+            <section class="cont-area mt48">
                 <p class="step-top-note"><sup>*</sup>필수입력항목</p>
                 <!-- step 1 -->
                 <div class="step-area step01 border"><!-- border 활성화시 border-color 진하게 -->
@@ -85,9 +93,11 @@
                             <!-- s: 요약정보 -->
                             <div class="info-txt-com"><!-- 노출여부 : active -->
                                 <a href="javascript:void(0);">
-                                    <span class="mo-tit">소모품 선택</span>
+                                    <span class="mo-tit">상담목적 및 제품선택</span>
+                                    <span class="pc-tit">상담 목적 :</span>
+                                    <span class="txt">기타</span>
                                     <span class="pc-tit">제품 :</span>
-                                    <span class="txt">물걸레노즐, 트루 토탈케어 필터 전용 극세 필터</span>
+                                    <span class="txt">LG 올레드 evo 오브제컬렉션 (65ART90EKPB), LG 디오스 얼음정수기냉장고 오브제컬렉션</span>
                                 </a>
                             </div>
                             <!-- e: 요약정보 -->
@@ -96,8 +106,11 @@
 
                     <div class="main-area active"><!-- active 클래스 추가 -->
                         <form action="">
-                            <h3 class="step-tit">선택 제품<sup>*</sup><span>(최대 3개 선택가능)</span></h3>
-                            <jsp:include page="../../templates/reservation/input-myselect.jsp" /> <!-- //input-myselect.jsp -->
+
+                            <jsp:include page="../../templates/reservation/input-icon-type.jsp" /> <!-- //input-icon-type.jsp -->
+
+                            <jsp:include page="../../templates/reservation/input-myselect-display.jsp" /> <!-- //input-myselect-display.jsp -->
+
                         </form>
                     </div>
 
@@ -172,20 +185,13 @@
                 </div>
                 <!-- // step 3 -->
 
-                <div class="btn-area center m-hidden active"><!-- active 클래스 추가 -->
+                <div class="btn-area center active">
+                    <!-- active 클래스 추가 -->
                     <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담 예약하기</button>
-                </div>
-
-                <div class="caution-box">
-                    <p class="tit">&lsqb;유의사항&rsqb;</p>
-                    <ul class="bull">
-                        <li>정확한 개인정보를 입력하셔야 매장 상담 예약 서비스 이용 가능합니다.</li>
-                        <li>매장 상담 예약은 제품구입 관련 상담만 가능합니다.</li>
-                        <li>서비스 관련 문의는 LG전자 서비스(1544-7777)로 문의 부탁드립니다.</li>
-                    </ul>
                 </div>
                 
             </section>
+            <!-- // 제품찾기 상담 스텝 영역 -->
 
         </div>
 
@@ -193,10 +199,6 @@
     <!-- // contents -->
 </div>
 <!-- // container -->
-
-<!-- 선택한 소모품(장바구니) 영역 -->
-<jsp:include page="../../templates/reservation/input-myselect-cart.jsp" /> <!-- //input-myselect-cart.jsp -->
-<!-- // 선택한 소모품(장바구니) 영역 -->
 
 <!-- dim -->
 <div class="dim"> </div>
@@ -262,25 +264,64 @@
         </div>
         <div class="btn-area m-full-flex">
             <!-- <button type="button" class="btn gray btnPopCancel">취소</button> -->
-            <a href="/bestshop/pages/reservation/BSF-RES-VISIT-DONE.jsp" class="btn">인증하기</a>
+            <a href="BSF-PRO-VISIT-DONE.jsp" class="btn">인증하기</a>
         </div>
         <button type="button" class="btn-pop-close btnPopClose"><span class="blind">닫기</span></button>
     </div>
 </div>
-<!-- 팝업: 휴대전화 인증 -->
+<!-- // 팝업: 휴대전화 인증 -->
+
+<!-- 팝업: 토스트팝업 -->
+<div class="popup toast float"><!-- 토스트팝업을 장바구니보다 위로 띄울 시 float 클래스 추가-->
+    <div class="pop-wrap">
+        <div class="pop-cont">
+            <span class="block">선택한 필터 항목이 초기화 되었습니다.</span>
+        </div>
+        <button type="button" class="btn-pop-close btnPopClose"><span class="blind">닫기</span></button>
+    </div>
+</div>
+<!-- // 팝업: 토스트팝업 -->
 
 
 <script>
     $(document).ready(function () {
-        // 상단 예약진행 가이드 영역
-        var resbanner01 = new Swiper(".guide-banner-care-ex", {
-            slidesPerView: 'auto',
-            scrollbar: {
-                el: ".swiper-scrollbar",
-                draggable: true,
-                // hide: true,
+        // 내게맞는제품찾기 배너 슬라이드
+        var imgSwiper = new Swiper(".img-slide", {
+            speed : 800,
+            slidesPerView: 1,
+            autoplay: {
+                delay:5000
             },
-        })
+            pagination: {
+                el: ".img-slide .slide-navi .pager-fraction",
+                type: "fraction"
+            },
+            navigation: {
+                nextEl: ".img-slide .slide-navi .slideBtn.btn-next",
+                prevEl: ".img-slide .slide-navi .slideBtn.btn-prev"
+            },
+            loop : true,
+            loopAdditionalSlides: 1,
+        });
+
+        // 내게맞는제품찾기 배너 슬라이드 (autoplay control)
+        $('.img-slide .swiper-auto > button').on('click', function(){
+            $('.img-slide .swiper-auto > button').toggleClass('active');
+
+            if ($(this).hasClass('btn-play')){
+                imgSwiper.autoplay.start();
+            } 
+            else {
+                imgSwiper.autoplay.stop();
+            };
+        });
+
+        // 필터 영역
+        $('.plp-filter-wrap .box .tit-wrap a').on('click', function(e){
+            e.preventDefault();
+            $(this).parent().parent('.box').toggleClass('active');
+            $(this).parent().next('.list-wrap').slideToggle();
+        });
 
         // 필터 영역 모바일
         $('.btn-filter').on('click', function () {
@@ -292,19 +333,8 @@
             $('html').removeClass('scroll-fixed');
         });
 
-        // 소모품 목록 영역 > 제품 목록 내 팝업
-        var prdPopOpen = $('.pdt-list-area .list-wrap > ul > li .box .info-wrap .btn-info-pop');
-        var prdPopup = $('.pdt-list-area .list-wrap > ul > li .box .info-popup');
-        var prdPopClose = $('.pdt-list-area .list-wrap > ul > li .box .info-popup .btn-close');
-        prdPopOpen.click(function (e) {
-            e.preventDefault();
-            $(this).parent().siblings(prdPopup).show();
-        });
-        prdPopClose.click(function () {
-            $(this).parent().parent(prdPopup).hide();
-        });
 
-        // 선택한 소모품(장바구니) 영역
+        // 선택한 제품(장바구니) 영역
         $('.bottom-cart-wrap .head-area').on('click', function () {
             $(this).closest('.bottom-cart-wrap').toggleClass('active');
             $('.bottom-cart-wrap .body-area').stop().slideToggle();
@@ -411,6 +441,36 @@
         if($(this).closest('.step-area').hasClass('middle')){ // 위의 상황이 지나고 다시 펼칠때
             $('.step02 .btn-area').slideDown(400);
             $('.step02').removeClass('middle');
+        }
+    });
+
+    /* sticky 처리 */
+    $(function(){
+        var _stickyBar = $('.tab-wrap').offset().top;
+
+        $(window).scroll(function(){
+            var scrollTop = $(this).scrollTop();
+
+            if(scrollTop > _stickyBar){
+                $('.tab-wrap').addClass('fixed');
+            } else {
+                $('.tab-wrap').removeClass('fixed');
+            }
+        });
+
+        $(window).resize(function(){
+            var _stickyBar = $('.tab-wrap').offset().top;
+        })
+    });
+
+    var _winW = $(window).width();
+    
+    // video control
+    $('.btn-video-view').on('click', function(){
+        if(_winW < 1025){
+            $('#popup-video').css('display', 'block').find('video.mobileOnly').get(0).play();
+        } else {
+            $('#popup-video').css('display', 'block').find('video.pcOnly').get(0).play();
         }
     });
 </script>

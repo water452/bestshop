@@ -496,7 +496,7 @@
                     </div>
 
                     <div class="btn-area">
-                        <button type="button" class="btn s01 border-red arr-right">다음으로</button>
+                        <button type="button" class="btn s01 border-red">다음 단계로</button>
                     </div>
 
                 </div>
@@ -542,7 +542,7 @@
                             <p>상담 매장: <span>강남본점</span></p>
                             <p>예약 일시: <span>21년12월15일, 17시</span></p>
                         </div>
-                        <button type="button" class="btn s01 border-red arr-right">다음으로</button>
+                        <button type="button" class="btn s01 border-red">다음 단계로</button>
                     </div>
 
                 </div>

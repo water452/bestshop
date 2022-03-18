@@ -500,7 +500,7 @@
                         <form action="">
                             <jsp:include page="../../templates/reservation/input-icon-type.jsp" /> <!-- //input-icon-type.jsp -->
 
-                            <jsp:include page="../../templates/reservation/input-myselect.jsp" /> <!-- //input-myselect.jsp -->
+                            <jsp:include page="../../templates/reservation/input-myselect-pro.jsp" /> <!-- //input-myselect-pro.jsp -->
 
                             <jsp:include page="../../templates/reservation/input-base-type.jsp" /> <!-- //input-base-type.jsp -->
 
@@ -515,7 +515,7 @@
                     </div>
 
                     <div class="btn-area">
-                        <button type="button" data-href="#popup-confirm" class="btn s01 border-red arr-right btnPopOpen">다음으로</button>
+                        <button type="button" data-href="#popup-confirm" class="btn s01 border-red btnPopOpen">다음 단계로</button>
                     </div>
 
                 </div>
@@ -557,7 +557,7 @@
                             <p>상담 매장: <span>강남본점</span></p>
                             <p>예약 일시: <span>21년12월15일, 17시</span></p>
                         </div>
-                        <button type="button" class="btn s01 border-red arr-right">다음으로</button><!-- 버튼 비활성화 : disabled -->
+                        <button type="button" class="btn s01 border-red">다음 단계로</button><!-- 버튼 비활성화 : disabled -->
                     </div>
                 </div>
                 <!-- // step 2 -->
@@ -600,52 +600,9 @@
 </div>
 <!-- // container -->
 
-<!-- 선택한 제품(장바구니) 영역 -->
-<div class="bottom-cart-wrap">
-    <!-- active 클래스 추가 -->
-    <div class="bar-wrap care-ex">
-        <div class="head-area">
-            <p class="head-txt">선택한 제품 <span><em>2</em>/3</span></p>
-            <button type="button" class="view-more"><span class="blind">펼쳐보기</span></button>
-        </div>
-        <div class="body-area">
-            <div class="my-select">
-                <ul>
-                    <li>
-                        <div class="box">
-                            <div class="img-wrap">
-                                <img src="../../images/img-oled-evo-01.jpg" alt="V트루 토탈케어 필터 전용 극세 필터 제품 이미지">
-                            </div>
-                            <div class="txt-wrap">
-                                <p class="tit">V트루 토탈케어 필터 전용 극세 필터</p>
-                                <p class="code"><span class="blind">제품 코드</span>ADQ75153442</p>
-                                <p class="price">29,000원</p>
-                            </div>
-                            <button type="button" class="btn-close"><span class="blind">닫기</span></button>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="box no-item">
-                            <p class="no-item-txt">원하는 상담 제품을 추가 하실 수 있습니다.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="box no-item">
-                            <p class="no-item-txt">원하는 상담 제품을 추가 하실 수 있습니다.</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="foot-area">
-            <div class="btn-area">
-                <button type="button" class="btn btn-reset"><span>초기화</span></button>
-                <button type="button" class="btn btn-res">제품 상담 예약</button>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- // 선택한 제품(장바구니) 영역 -->
+<!-- 선택한 소모품(장바구니) 영역 -->
+<jsp:include page="../../templates/reservation/input-myselect-cart-pro.jsp" /> <!-- //input-myselect-cart-pro.jsp -->
+<!-- // 선택한 소모품(장바구니) 영역 -->
 
 <!-- dim -->
 <div class="dim"> </div>
