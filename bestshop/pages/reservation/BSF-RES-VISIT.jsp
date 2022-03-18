@@ -98,7 +98,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-scrollbar"></div>
+                                <!-- <div class="swiper-scrollbar"></div> -->
                             </div>
                         </div>
                     </div>
@@ -128,7 +128,7 @@
             <section class="cont-area">
                 <p class="step-top-note"><sup>*</sup>필수입력항목</p>
                 <!-- step 1 -->
-                <div class="step-area step01 border open"><!-- border 활성화시 border-color 진하게 --><!-- 열림상태 open -->
+                <div class="step-area step01 border"><!-- border 활성화시 border-color 진하게 -->
                     <div class="result-area">
                         <div class="info-step01">
                             <!-- s: 요약정보 -->
@@ -482,6 +482,7 @@
             $('html').css('overflow', 'visible');
 
             /* step01 effect */
+            $('.step01').addClass('open');
             $('#popup-confirm, .dim').fadeOut(200); // 팝업 + dim 처리 히든
             $('.step01 .main-area, .step01 .btn-area').stop().slideUp(400); // 내용과 버튼영역 히든
             $('.step01 .info-txt-com').addClass('active'); // 요약정보 노출

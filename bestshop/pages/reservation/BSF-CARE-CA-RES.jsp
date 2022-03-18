@@ -874,15 +874,17 @@
                             <ul class="prd-list">
                                 <li>
                                     <div class="box">
-                                        <div class="img-wrap">
-                                            <img src="../../images/img-water-purifier-01.jpg"
-                                                alt="LG 퓨리케어 슬림스윙정수기 제품 이미지">
-                                        </div>
-                                        <div class="tit-wrap">
-                                            <p class="tit"><span class="blind">제품 디스플레이 네임</span>LG 퓨리케어 슬림스윙정수기 LG
-                                                퓨리케어 슬림스윙정수기</p>
-                                            <p class="code"><span class="blind">제품 코드</span>WD302AS</p>
-                                        </div>
+                                        <a href="#none">
+                                            <div class="img-wrap">
+                                                <img src="../../images/img-water-purifier-01.jpg"
+                                                    alt="LG 퓨리케어 슬림스윙정수기 제품 이미지">
+                                            </div>
+                                            <div class="tit-wrap">
+                                                <p class="tit"><span class="blind">제품 디스플레이 네임</span>LG 퓨리케어 슬림스윙정수기 LG
+                                                    퓨리케어 슬림스윙정수기</p>
+                                                <p class="code"><span class="blind">제품 코드</span>WD302AS</p>
+                                            </div>
+                                        </a>
                                         <div class="info-wrap">
                                             <div class="opt-info">
                                                 <div class="slt sltBox border-type disabled" data-txt-change="true">
@@ -910,14 +912,16 @@
                                 </li>
                                 <li>
                                     <div class="box">
-                                        <div class="img-wrap">
-                                            <img src="../../images/img-water-purifier-01.jpg"
-                                                alt="LG 퓨리케어 슬림스윙정수기 제품 이미지">
-                                        </div>
-                                        <div class="tit-wrap">
-                                            <p class="tit"><span class="blind">제품 디스플레이 네임</span>LG 퓨리케어 슬림스윙정수기</p>
-                                            <p class="code"><span class="blind">제품 코드</span>WD302AS</p>
-                                        </div>
+                                        <a href="#none">
+                                            <div class="img-wrap">
+                                                <img src="../../images/img-water-purifier-01.jpg"
+                                                    alt="LG 퓨리케어 슬림스윙정수기 제품 이미지">
+                                            </div>
+                                            <div class="tit-wrap">
+                                                <p class="tit"><span class="blind">제품 디스플레이 네임</span>LG 퓨리케어 슬림스윙정수기</p>
+                                                <p class="code"><span class="blind">제품 코드</span>WD302AS</p>
+                                            </div>
+                                        </a>
                                         <div class="info-wrap">
                                             <div class="opt-info">
                                                 <div class="slt sltBox border-type" data-txt-change="true">
@@ -944,14 +948,16 @@
                                 </li>
                                 <li>
                                     <div class="box">
-                                        <div class="img-wrap">
-                                            <img src="../../images/img-water-purifier-01.jpg"
-                                                alt="LG 퓨리케어 슬림스윙정수기 제품 이미지">
-                                        </div>
-                                        <div class="tit-wrap">
-                                            <p class="tit"><span class="blind">제품 디스플레이 네임</span>LG 퓨리케어 슬림스윙정수기</p>
-                                            <p class="code"><span class="blind">제품 코드</span>WD302AS</p>
-                                        </div>
+                                        <a href="#none">
+                                            <div class="img-wrap">
+                                                <img src="../../images/img-water-purifier-01.jpg"
+                                                    alt="LG 퓨리케어 슬림스윙정수기 제품 이미지">
+                                            </div>
+                                            <div class="tit-wrap">
+                                                <p class="tit"><span class="blind">제품 디스플레이 네임</span>LG 퓨리케어 슬림스윙정수기</p>
+                                                <p class="code"><span class="blind">제품 코드</span>WD302AS</p>
+                                            </div>
+                                        </a>
                                         <div class="info-wrap">
                                             <div class="opt-info">
                                                 <div class="slt sltBox border-type" data-txt-change="true">
@@ -978,14 +984,16 @@
                                 </li>
                                 <li>
                                     <div class="box">
-                                        <div class="img-wrap">
-                                            <img src="../../images/img-water-purifier-01.jpg"
-                                                alt="LG 퓨리케어 슬림스윙정수기 제품 이미지">
-                                        </div>
-                                        <div class="tit-wrap">
-                                            <p class="tit"><span class="blind">제품 디스플레이 네임</span>LG 퓨리케어 슬림스윙정수기</p>
-                                            <p class="code"><span class="blind">제품 코드</span>WD302AS</p>
-                                        </div>
+                                        <a href="#none">
+                                            <div class="img-wrap">
+                                                <img src="../../images/img-water-purifier-01.jpg"
+                                                    alt="LG 퓨리케어 슬림스윙정수기 제품 이미지">
+                                            </div>
+                                            <div class="tit-wrap">
+                                                <p class="tit"><span class="blind">제품 디스플레이 네임</span>LG 퓨리케어 슬림스윙정수기</p>
+                                                <p class="code"><span class="blind">제품 코드</span>WD302AS</p>
+                                            </div>
+                                        </a>
                                         <div class="info-wrap">
                                             <div class="opt-info">
                                                 <div class="slt sltBox border-type" data-txt-change="true">
@@ -1012,14 +1020,16 @@
                                 </li>
                                 <li>
                                     <div class="box">
-                                        <div class="img-wrap">
-                                            <img src="../../images/img-water-purifier-01.jpg"
-                                                alt="LG 퓨리케어 슬림스윙정수기 제품 이미지">
-                                        </div>
-                                        <div class="tit-wrap">
-                                            <p class="tit"><span class="blind">제품 디스플레이 네임</span>LG 퓨리케어 슬림스윙정수기</p>
-                                            <p class="code"><span class="blind">제품 코드</span>WD302AS</p>
-                                        </div>
+                                        <a href="#none">
+                                            <div class="img-wrap">
+                                                <img src="../../images/img-water-purifier-01.jpg"
+                                                    alt="LG 퓨리케어 슬림스윙정수기 제품 이미지">
+                                            </div>
+                                            <div class="tit-wrap">
+                                                <p class="tit"><span class="blind">제품 디스플레이 네임</span>LG 퓨리케어 슬림스윙정수기</p>
+                                                <p class="code"><span class="blind">제품 코드</span>WD302AS</p>
+                                            </div>
+                                        </a>
                                         <div class="info-wrap">
                                             <div class="opt-info">
                                                 <div class="slt sltBox border-type" data-txt-change="true">
@@ -1046,14 +1056,16 @@
                                 </li>
                                 <li>
                                     <div class="box">
-                                        <div class="img-wrap">
-                                            <img src="../../images/img-water-purifier-01.jpg"
-                                                alt="LG 퓨리케어 슬림스윙정수기 제품 이미지">
-                                        </div>
-                                        <div class="tit-wrap">
-                                            <p class="tit"><span class="blind">제품 디스플레이 네임</span>LG 퓨리케어 슬림스윙정수기</p>
-                                            <p class="code"><span class="blind">제품 코드</span>WD302AS</p>
-                                        </div>
+                                        <a href="#none">
+                                            <div class="img-wrap">
+                                                <img src="../../images/img-water-purifier-01.jpg"
+                                                    alt="LG 퓨리케어 슬림스윙정수기 제품 이미지">
+                                            </div>
+                                            <div class="tit-wrap">
+                                                <p class="tit"><span class="blind">제품 디스플레이 네임</span>LG 퓨리케어 슬림스윙정수기</p>
+                                                <p class="code"><span class="blind">제품 코드</span>WD302AS</p>
+                                            </div>
+                                        </a>
                                         <div class="info-wrap">
                                             <div class="opt-info">
                                                 <div class="slt sltBox border-type" data-txt-change="true">
@@ -1080,14 +1092,16 @@
                                 </li>
                                 <li>
                                     <div class="box">
-                                        <div class="img-wrap">
-                                            <img src="../../images/img-water-purifier-01.jpg"
-                                                alt="LG 퓨리케어 슬림스윙정수기 제품 이미지">
-                                        </div>
-                                        <div class="tit-wrap">
-                                            <p class="tit"><span class="blind">제품 디스플레이 네임</span>LG 퓨리케어 슬림스윙정수기</p>
-                                            <p class="code"><span class="blind">제품 코드</span>WD302AS</p>
-                                        </div>
+                                        <a href="#none">
+                                            <div class="img-wrap">
+                                                <img src="../../images/img-water-purifier-01.jpg"
+                                                    alt="LG 퓨리케어 슬림스윙정수기 제품 이미지">
+                                            </div>
+                                            <div class="tit-wrap">
+                                                <p class="tit"><span class="blind">제품 디스플레이 네임</span>LG 퓨리케어 슬림스윙정수기</p>
+                                                <p class="code"><span class="blind">제품 코드</span>WD302AS</p>
+                                            </div>
+                                        </a>
                                         <div class="info-wrap">
                                             <div class="opt-info">
                                                 <div class="slt sltBox border-type" data-txt-change="true">
@@ -1114,14 +1128,16 @@
                                 </li>
                                 <li>
                                     <div class="box">
-                                        <div class="img-wrap">
-                                            <img src="../../images/img-water-purifier-01.jpg"
-                                                alt="LG 퓨리케어 슬림스윙정수기 제품 이미지">
-                                        </div>
-                                        <div class="tit-wrap">
-                                            <p class="tit"><span class="blind">제품 디스플레이 네임</span>LG 퓨리케어 슬림스윙정수기</p>
-                                            <p class="code"><span class="blind">제품 코드</span>WD302AS</p>
-                                        </div>
+                                        <a href="#none">
+                                            <div class="img-wrap">
+                                                <img src="../../images/img-water-purifier-01.jpg"
+                                                    alt="LG 퓨리케어 슬림스윙정수기 제품 이미지">
+                                            </div>
+                                            <div class="tit-wrap">
+                                                <p class="tit"><span class="blind">제품 디스플레이 네임</span>LG 퓨리케어 슬림스윙정수기</p>
+                                                <p class="code"><span class="blind">제품 코드</span>WD302AS</p>
+                                            </div>
+                                        </a>
                                         <div class="info-wrap">
                                             <div class="opt-info">
                                                 <div class="slt sltBox border-type" data-txt-change="true">

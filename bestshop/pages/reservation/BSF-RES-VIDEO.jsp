@@ -30,21 +30,15 @@
                             <ul class="swiper-wrapper">
                                 <li class="swiper-slide">
                                     <div class="img-wrap">
-                                        <img class="m-hidden" src="../../images/img-res-visit-banner-01.jpg" alt="&nbsp;" /><!-- pc용 -->
-                                        <img class="pc-hidden" src="../../images/img-res-visit-banner-01_mo.jpg" alt="&nbsp;" /><!-- mobile용 -->
+                                        <img class="m-hidden" src="../../images/img-res-video-banner-01.jpg" alt="&nbsp;" /><!-- pc용 -->
+                                        <img class="pc-hidden" src="../../images/img-res-video-banner-01_mo.jpg" alt="&nbsp;" /><!-- mobile용 -->
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
-                                    <div class="video-wrap">
+                                    <div class="img-wrap">
                                         <button type="button" class="btn-video-view">영상보기</button>
-                                        <video class="pcOnly" playsinline="" muted="" poster="../../images/@img-main-hero-pc.jpg" class="videoPoster" loop> <!-- pc only -->
-                                            <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
-                                            <p>LG전자 회사소개 동영상</p>
-                                        </video>
-                                        <video class="mobileOnly" playsinline="" muted="" poster="../../images/@img-main-hero-pc.jpg" class="videoPoster" loop> <!-- mobile only -->
-                                            <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
-                                            <p>LG전자 회사소개 동영상</p>
-                                        </video>
+                                        <img class="m-hidden" src="../../images/img-res-video-banner-01.jpg" alt="&nbsp;" /><!-- pc용 -->
+                                        <img class="pc-hidden" src="../../images/img-res-video-banner-01_mo.jpg" alt="&nbsp;" /><!-- mobile용 -->
                                     </div>
                                 </li>
                             </ul>
@@ -74,7 +68,7 @@
                                         <div class="box">
                                             <div class="tit-wrap">
                                                 <span class="tit">STEP 01</span>
-                                                <strong>화상 상담 예약</strong>
+                                                <strong>상담 목적 및 <br class="pc-hidden">제품 선택</strong>
                                             </div>
                                             <span class="icon-wrap">
                                                 <i class="icon01"></i>
@@ -85,7 +79,7 @@
                                         <div class="box">
                                             <div class="tit-wrap">
                                                 <span class="tit">STEP 02</span>
-                                                <strong>사전 전화 안내 후 문자 전송</strong>
+                                                <strong>방문 매장 및 <br class="pc-hidden">일시 선택</strong>
                                             </div>
                                             <span class="icon-wrap">
                                                 <i class="icon02"></i>
@@ -96,26 +90,15 @@
                                         <div class="box">
                                             <div class="tit-wrap">
                                                 <span class="tit">STEP 03</span>
-                                                <strong>화상 상담 URL 접속</strong>
+                                                <strong>정보 입력 및 <br class="pc-hidden">예약 신청</strong>
                                             </div>
                                             <span class="icon-wrap">
                                                 <i class="icon03"></i>
                                             </span>
                                         </div>
                                     </div>
-                                    <!-- <div class="swiper-slide">
-                                        <div class="box">
-                                            <div class="tit-wrap">
-                                                <span class="tit">STEP 04</span>
-                                                <strong>상담 진행 및 완료</strong>
-                                            </div>
-                                            <span class="icon-wrap">
-                                                <i class="icon04"></i>
-                                            </span>
-                                        </div>
-                                    </div> -->
                                 </div>
-                                <div class="swiper-scrollbar"></div>
+                                <!-- <div class="swiper-scrollbar"></div> -->
                             </div>
                         </div>
                     </div>
@@ -165,7 +148,7 @@
                     </div>
 
                     <div class="btn-area">
-                        <button type="button" data-href="#popup-confirm" class="btn s01 border-red arr-right btnPopOpen">다음으로</button>
+                        <button type="button" data-href="#popup-confirm" class="btn s01 border-red btnPopOpen">다음 단계로</button>
                     </div>
 
                 </div>
@@ -207,7 +190,7 @@
                             <p>상담 매장: <span>강남본점</span></p>
                             <p>예약 일시: <span>21년12월15일, 17시</span></p>
                         </div>
-                        <button type="button" class="btn s01 border-red arr-right">다음으로</button><!-- 버튼 비활성화 : disabled -->
+                        <button type="button" class="btn s01 border-red">다음 단계로</button><!-- 버튼 비활성화 : disabled -->
                     </div>
                 </div>
                 <!-- // step 2 -->
@@ -242,6 +225,9 @@
                 <div class="caution-box">
                     <p class="tit">&lsqb;유의사항&rsqb;</p>
                     <ul class="bull">
+                        <li>예약한 시간에 상담사가 전화로 연락드리고, 화상상담을 접속할 수 있는 사이트 URL을 문자로 송부 드립니다.</li>
+                        <li>카메라 접속 등의 동의가 필요하며 일부 Web 브라우저의 버전이 낮을 경우 서비스에 제한이 있을 수 있습니다.</li>
+                        <li>고객님의 화면은 매니저에게 노출되지 않습니다.</li>
                         <li>정확한 개인정보를 입력하셔야 매장 상담 예약 서비스 이용 가능합니다.</li>
                         <li>매장 상담 예약은 제품구입 관련 상담만 가능합니다.</li>
                         <li>서비스 관련 문의는 LG전자 서비스(1544-7777)로 문의 부탁드립니다.</li>

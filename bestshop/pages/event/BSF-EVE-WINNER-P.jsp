@@ -57,6 +57,23 @@
                 <p class="no-result-msg">당첨 내역이 없습니다. 다음 이벤트를 기대해주세요!</p>
             </div>
             <div class="table-cont">
+                <h4 class="tb-tit">1등 당첨자 (1명)</h4>
+                <div class="list-table-type">
+                    <ul class="title-area">
+                        <li>
+                            <span>고객명</span>
+                            <strong>전화번호</strong>
+                        </li>
+                    </ul>
+                    <ul class="list-area">
+                        <li>
+                            <span class="name"><span class="blind">고객명</span>박*영</span>
+                            <strong class="number"><span class="blind">전화번호</span>010****0079</strong>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="table-cont">
                 <h4 class="tb-tit">1등 당첨자 (2명)</h4>
                 <div class="list-table-type">
                     <ul class="title-area">

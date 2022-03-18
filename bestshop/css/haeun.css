@@ -120,7 +120,7 @@ ul.input-icon-type > li .icon-btn {width:100%}
 /* 제품선택 - 카테고리형 */
 ul.input-cate-type {display:flex; flex-wrap:wrap; justify-content:space-between; margin-top:-12px}
 ul.input-cate-type > li {display:flex; flex-wrap:wrap; justify-content:space-between; align-items:flex-start; width:calc(50% - 6px); margin-top:12px; padding:11px 19px 11px 18px; border-radius:8px; background-color:#fcfcfc}
-ul.input-cate-type .cate-tit {display:flex; align-items:center; padding:5px 0; font-size:16px; line-height:24px}
+ul.input-cate-type .cate-tit {display:flex; align-items:center; max-width:148px; padding:5px 0; font-size:16px; line-height:24px; word-break:keep-all}
 ul.input-cate-type .cate-tit > .icon {display:block; width:48px; height:48px; margin-right:6px}
 ul.input-cate-type .cate-tit > .icon.tv-audio {background:url(../images/icons/icon-tv.svg) no-repeat center / contain}
 ul.input-cate-type .cate-tit > .icon.pc {background:url(../images/icons/icon-desktop.svg) no-repeat center / contain}
@@ -128,7 +128,7 @@ ul.input-cate-type .cate-tit > .icon.kitchens {background:url(../images/icons/ic
 ul.input-cate-type .cate-tit > .icon.house {background:url(../images/icons/icon-washing-machine.svg) no-repeat center / contain}
 ul.input-cate-type .cate-tit > .icon.mobile {background:url(../images/icons/icon-mobile.svg) no-repeat center / contain}
 ul.input-cate-type .cate-tit > .icon.beauty {background:url(../images/icons/icon-pra_l.svg) no-repeat center / contain}
-ul.input-cate-type .cate-items {display:flex; flex-wrap:wrap; width:calc(100% - 135px); max-width:498px}
+ul.input-cate-type .cate-items {display:flex; flex-wrap:wrap; width:calc(100% - 148px); max-width:498px}
 ul.input-cate-type .cate-items > li {min-width:calc(100% / 3); padding:5px}
 ul.input-cate-type .cate-items > li .chkrdo-btn {width:100%}
 ul.input-cate-type .cate-items label {width:100%; height:100%; padding:0 10px}
@@ -366,13 +366,11 @@ ul.input-acco-type .check-box .agr-txt-wrap .inner > ul > li > p {padding-left:1
 .res-main .guide-area .guide-banner-visit .box .icon-wrap .icon01 {background:url(../images/icons/icon-res-guide-visit-01.svg) no-repeat center / contain}
 .res-main .guide-area .guide-banner-visit .box .icon-wrap .icon02 {background:url(../images/icons/icon-res-guide-visit-02.svg) no-repeat center / contain}
 .res-main .guide-area .guide-banner-visit .box .icon-wrap .icon03 {background:url(../images/icons/icon-res-guide-visit-03.svg) no-repeat center / contain}
-.res-main .guide-area .guide-banner-visit .box .icon-wrap .icon04 {background:url(../images/icons/icon-res-guide-visit-04.svg) no-repeat center / contain}
 
 /* 화상상담예약페이지 */
-.res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon01 {background:url(../images/icons/icon-res-guide-video-01.svg) no-repeat center / contain}
-.res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon02 {background:url(../images/icons/icon-res-guide-video-02.svg) no-repeat center / contain}
-.res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon03 {background:url(../images/icons/icon-res-guide-video-03.svg) no-repeat center / contain}
-.res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon04 {background:url(../images/icons/icon-res-guide-video-04.svg) no-repeat center / contain}
+.res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon01 {background:url(../images/icons/icon-res-guide-visit-01.svg) no-repeat center / contain}
+.res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon02 {background:url(../images/icons/icon-res-guide-visit-02.svg) no-repeat center / contain}
+.res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon03 {background:url(../images/icons/icon-res-guide-visit-03.svg) no-repeat center / contain}
 .res-main .top-wrap .guide-area .guide-info-list {max-width:1460px; margin:0 auto}
 .res-main .top-wrap .guide-area .guide-info-list .inner {padding:0 40px 30px}
 .res-main .top-wrap .guide-area .guide-info-list .bull > li {font-weight:normal}
@@ -466,6 +464,7 @@ ul.input-acco-type .check-box .agr-txt-wrap .inner > ul > li > p {padding-left:1
 ul.prd-list {display:flex; flex-wrap:wrap; width:calc(100% + 24px); margin:18px 0 0 -12px}
 ul.prd-list > li {width:25%; min-width:322px; padding:12px}
 ul.prd-list > li .box {padding:12px 40px 40px; border-radius:8px; box-shadow:2px 4px 16px 0 rgba(0, 0, 0, 0.14); overflow:hidden}
+ul.prd-list > li .box > a {display:block}
 ul.prd-list > li .box .img-wrap {width:100%; max-width:226px; height:226px; margin:0 auto}
 ul.prd-list > li .box .img-wrap > img {display:block; width:100%}
 ul.prd-list > li .box .tit-wrap {height:80px; margin-top:16px}
@@ -1071,13 +1070,11 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-main .guide-area .guide-banner-visit .box .icon-wrap .icon01 {background:url(../images/icons/icon-res-guide-visit-01_mo.svg) no-repeat center / 100%}
     .res-main .guide-area .guide-banner-visit .box .icon-wrap .icon02 {background:url(../images/icons/icon-res-guide-visit-02_mo.svg) no-repeat center / 100%}
     .res-main .guide-area .guide-banner-visit .box .icon-wrap .icon03 {background:url(../images/icons/icon-res-guide-visit-03_mo.svg) no-repeat center / 100%}
-    .res-main .guide-area .guide-banner-visit .box .icon-wrap .icon04 {background:url(../images/icons/icon-res-guide-visit-04_mo.svg) no-repeat center / 100%}
 
     /* 화상상담예약페이지 */
-    .res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon01 {background:url(../images/icons/icon-res-guide-video-01_mo.svg) no-repeat center / 100%}
-    .res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon02 {background:url(../images/icons/icon-res-guide-video-02_mo.svg) no-repeat center / 100%}
-    .res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon03 {background:url(../images/icons/icon-res-guide-video-03_mo.svg) no-repeat center / 100%}
-    .res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon04 {background:url(../images/icons/icon-res-guide-video-04_mo.svg) no-repeat center / 100%}
+    .res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon01 {background:url(../images/icons/icon-res-guide-visit-01_mo.svg) no-repeat center / 100%}
+    .res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon02 {background:url(../images/icons/icon-res-guide-visit-02_mo.svg) no-repeat center / 100%}
+    .res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon03 {background:url(../images/icons/icon-res-guide-visit-03_mo.svg) no-repeat center / 100%}
     .res-main .top-wrap .guide-area .guide-info-list .inner {padding:0 16px 28px}
     .res-main .top-wrap .guide-area .guide-info-list .bull > li {font-size:12px; line-height:17px}
     .res-main .top-wrap .guide-area .guide-info-list .bull > li:before {top:7.5px}
