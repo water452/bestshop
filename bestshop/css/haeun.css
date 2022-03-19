@@ -100,7 +100,7 @@
 /******** 매장상담예약 input ********/
 /* 상담목적 */
 ul.input-icon-type {margin:0 -7.5px}
-ul.input-icon-type > li {width:20%; padding:0 7.5px}
+ul.input-icon-type > li {width:auto; flex:1; padding:0 7.5px}
 ul.input-icon-type > li .icon-btn {width:100%}
 .icon-btn label {display:flex; justify-content:center; align-items:center; width:100%; height:80px; border:1px solid #ddd; border-radius:16px; font-size:18px; font-weight:500; line-height:26px; cursor:pointer}
 .icon-btn input {position:absolute!important; margin:-1px!important; padding:0!important; width:1px!important; height:1px!important; overflow:hidden!important; clip-path:polygon(0 0, 0 0, 0 0)!important}
@@ -111,11 +111,15 @@ ul.input-icon-type > li .icon-btn {width:100%}
 .icon-btn .icon.interior {background:url(../images/icons/icon-interior.svg) no-repeat center}
 .icon-btn .icon.broken {background:url(../images/icons/icon-broken.svg) no-repeat center}
 .icon-btn .icon.etc {background:url(../images/icons/icon-etc.svg) no-repeat center}
+.icon-btn .icon.equip {background:url(../images/icons/icon-equip.svg) no-repeat center}
+.icon-btn .icon.gift {background:url(../images/icons/icon-gift.svg) no-repeat center}
 .icon-btn input:checked + label .icon.wedding {background:url(../images/icons/icon-wedding_on.svg) no-repeat center}
 .icon-btn input:checked + label .icon.move {background:url(../images/icons/icon-move_on.svg) no-repeat center}
 .icon-btn input:checked + label .icon.interior {background:url(../images/icons/icon-interior_on.svg) no-repeat center}
 .icon-btn input:checked + label .icon.broken {background:url(../images/icons/icon-broken_on.svg) no-repeat center}
 .icon-btn input:checked + label .icon.etc {background:url(../images/icons/icon-etc_on.svg) no-repeat center}
+.icon-btn input:checked + label .icon.equip {background:url(../images/icons/icon-equip_on.svg) no-repeat center}
+.icon-btn input:checked + label .icon.gift {background:url(../images/icons/icon-gift_on.svg) no-repeat center}
 
 /* 제품선택 - 카테고리형 */
 ul.input-cate-type {display:flex; flex-wrap:wrap; justify-content:space-between; margin-top:-12px}
@@ -144,7 +148,7 @@ ul.input-pdt-type .chkrdo-btn input:checked + label {border-width:2px; line-heig
 
 /* 구매희망시기 */
 ul.input-base-type {margin:0 -6px}
-ul.input-base-type > li {width:calc(100% / 6); padding:0 6px}
+ul.input-base-type > li {width:auto; flex:1; padding:0 6px}
 ul.input-base-type .chkrdo-btn {width:100%}
 ul.input-base-type .chkrdo-btn label {width:100%; padding:0 10px; font-weight:500}
 ul.input-base-type .chkrdo-btn input:checked + label {border-width:2px; line-height:44px}
@@ -203,6 +207,7 @@ ul.input-base-type .chkrdo-btn input:checked + label {border-width:2px; line-hei
 .map-wrap .api-area .map-list-wrap .btn-view::after {content:''; display:block; position:absolute; left:0; right:0; top:0; bottom:0; background:url(../images/icons/icon-carousel-btn.svg) no-repeat center / 10px; transform:rotate(180deg)}
 .map-wrap .api-area .map-list-wrap.active .btn-view::after {transform:rotate(0)}
 .map-wrap .api-area .btn-area.innerMap {position:absolute; display:block; bottom:20px; right:20px; margin:0}
+.map-wrap .api-area .popup.toast {position:absolute}
 
 .shop-date-wrap .list-wrap {display:none; border:1px solid #000; border-radius:8px; overflow:hidden}
 .shop-date-wrap .list-wrap.active {display:block}
@@ -243,30 +248,39 @@ ul.shop-list li [class^="btn-"] > span {margin-left:3px}
 .shop-date-wrap .list-wrap .view-wrap .rt .detail-list > li .shop-box .info-txt {margin-top:7px; font-size:16px; line-height:24px}
 
 .shop-date-wrap .bottom-area {display:flex; margin-top:20px}
-.shop-date-wrap .bottom-area .shop-info-wrap {width:61%; max-width:820px; height:auto; min-height:386px}
-.shop-date-wrap .bottom-area .shop-info-wrap .box {height:100%; padding:50px 42px; border:1px solid #ddd; border-radius:8px}
-.shop-date-wrap .bottom-area .shop-info-wrap .box .top-area {display:flex; flex-wrap:wrap; align-items:center}
-.shop-date-wrap .bottom-area .shop-info-wrap .box .top-area .shop-name {margin-right:20px; font-size:24px; font-weight:500; line-height:32px; white-space:nowrap}
-.shop-date-wrap .bottom-area .shop-info-wrap .box .top-area .key-words {display:flex; flex-wrap:wrap}
-.shop-date-wrap .bottom-area .shop-info-wrap .box .top-area .key-words > li {position:relative; margin-right:14px; font-size:12px; font-weight:bold; line-height:18px}
-.shop-date-wrap .bottom-area .shop-info-wrap .box .top-area .key-words > li:last-child {margin-right:0}
-.shop-date-wrap .bottom-area .shop-info-wrap .box .top-area .key-words > li::after {content:''; display:block; position:absolute; width:1px; height:10px; top:calc(50% - 5px); right:-7px; background-color:#ddd}
-.shop-date-wrap .bottom-area .shop-info-wrap .box .top-area .key-words > li:last-child:after {display:none}
-.shop-date-wrap .bottom-area .shop-info-wrap .box .top-area .key-words > li.new {color:#da0f47}
-.shop-date-wrap .bottom-area .shop-info-wrap .box .info-area {margin-top:24px}
-.shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl {display:flex}
-.shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl + dl {margin-top:18px}
-.shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl dt {min-width:83px; font-size:16px; font-weight:500; line-height:24px}
-.shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl dd {margin-left:24px; font-size:16px; line-height:24px}
-.shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl dd > ul li + li {margin-top:6px}
-.shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl dd > ul li span + span {margin-left:10px}
-.shop-date-wrap .bottom-area .date-wrap {display:flex; width:40%; height:auto; min-height:386px; margin-left:16px}
-.shop-date-wrap .bottom-area .date-wrap .mo-top {display:none}
-.shop-date-wrap .bottom-area .date-wrap .calendar {width:414px; height:100%; border:1px solid #ddd; border-radius:8px}
-.shop-date-wrap .bottom-area .date-wrap .calendar .cal-cont {height:100%}
-.shop-date-wrap .bottom-area .date-wrap .time {width:118px; height:100%; margin-left:12px}
+.shop-info-wrap {width:61%; max-width:820px; height:auto; min-height:386px}
+.shop-info-wrap .box {height:100%; padding:50px 42px; border:1px solid #ddd; border-radius:8px}
+.shop-info-wrap .box .top-area {display:flex; flex-wrap:wrap; align-items:center}
+.shop-info-wrap .box .top-area .shop-name {margin-right:20px; font-size:24px; font-weight:500; line-height:32px; white-space:nowrap}
+.shop-info-wrap .box .top-area .key-words {display:flex; flex-wrap:wrap}
+.shop-info-wrap .box .top-area .key-words > li {position:relative; margin-right:14px; font-size:12px; font-weight:bold; line-height:18px}
+.shop-info-wrap .box .top-area .key-words > li:last-child {margin-right:0}
+.shop-info-wrap .box .top-area .key-words > li::after {content:''; display:block; position:absolute; width:1px; height:10px; top:calc(50% - 5px); right:-7px; background-color:#ddd}
+.shop-info-wrap .box .top-area .key-words > li:last-child:after {display:none}
+.shop-info-wrap .box .top-area .key-words > li.new {color:#da0f47}
+.shop-info-wrap .box .info-area {margin-top:24px}
+.shop-info-wrap .box .info-area dl {display:flex}
+.shop-info-wrap .box .info-area dl + dl {margin-top:18px}
+.shop-info-wrap .box .info-area dl dt {min-width:83px; font-size:16px; font-weight:500; line-height:24px}
+.shop-info-wrap .box .info-area dl dd {margin-left:24px; font-size:16px; line-height:24px}
+.shop-info-wrap .box .info-area dl dd > ul li + li {margin-top:6px}
+.shop-info-wrap .box .info-area dl dd > ul li span + span {margin-left:10px}
+
+.slt.wide{width:100%}
+ul.input-list-type > li + li{margin-top:32px}
+.slt.border-type > a {color:#666}
+.local-wrap {width:61%; max-width:820px; height:auto; min-height:386px}
+.local-wrap .box {display:flex; flex-direction:column; justify-content:center; height:100%; padding:60px; border:1px solid #ddd; border-radius:8px}
+.local-wrap ul.input-list-type .tit {font-weight:500}
+.local-wrap ul.input-list-type > li + li {margin-top:50px}
+
+.date-wrap {display:flex; width:40%; height:auto; min-height:386px; margin-left:16px}
+.date-wrap .mo-top {display:none}
+.date-wrap .calendar {width:414px; height:100%; border:1px solid #ddd; border-radius:8px}
+.date-wrap .calendar .cal-cont {height:100%}
+.date-wrap .time {width:118px; height:100%; margin-left:12px}
 .time ul[class*="input"] {flex-direction:column; flex-wrap:wrap; margin-top:-5px}
-.time ul[class*="input"] li {height:calc(100% / 6); margin-left:0; margin-top:5px}
+.time ul[class*="input"] li {margin-left:0; margin-top:5px}
 .time ul[class*="input"] li .radio-btn.btn-type2 {width:100%}
 .time ul[class*="input"] li .radio-btn.btn-type2 label {width:100%; max-height:34px; padding:6px 0; border-radius:8px; font-size:14px; line-height:20px}
 .time ul[class*="input"] li .radio-btn.btn-type2 input:checked + label {border-width:1px}
@@ -714,9 +728,10 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 }
 @media screen and (max-width:1023px) { /* Tablet */
     /* 매장/상담일시 선택 */
-    .shop-date-wrap .bottom-area .shop-info-wrap {width:50%}
-    .shop-date-wrap .bottom-area .shop-info-wrap .box {padding:23px}
-    .shop-date-wrap .bottom-area .date-wrap {width:50%}
+    .shop-info-wrap {width:50%}
+    .shop-info-wrap .box {padding:23px}
+    .local-wrap .box {padding:23px}
+    .date-wrap {width:50%}
 
     /* 예약자 정보 */
     .user-info-area .box-gray {padding:25px}
@@ -966,27 +981,31 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .shop-date-wrap .list-wrap .view-wrap .rt .detail-list > li .shop-box .name-area .key-words > li {font-size:10px; line-height:15px}
     .shop-date-wrap .list-wrap .view-wrap .rt .detail-list > li .shop-box .info-txt {margin-top:6px; font-size:11px; line-height:16px}
     .shop-date-wrap .bottom-area {flex-direction:column; margin-top:12px}
-    .shop-date-wrap .bottom-area .shop-info-wrap {width:100%; min-height:0}
-    .shop-date-wrap .bottom-area .shop-info-wrap .box .top-area {flex-direction:column; align-items:flex-start}
-    .shop-date-wrap .bottom-area .shop-info-wrap .box .top-area .shop-name {font-size:14px; line-height:20px}
-    .shop-date-wrap .bottom-area .shop-info-wrap .box .top-area .key-words {margin-left:0; margin-top:6px}
-    .shop-date-wrap .bottom-area .shop-info-wrap .box .top-area .key-words > li {font-size:10px; line-height:15px}
-    .shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl + dl {margin-top:13px}
-    .shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl dt {min-width:45px; font-size:12px; line-height:17px}
-    .shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl dd {margin-left:20px; font-size:12px; line-height:17px}
-    .shop-date-wrap .bottom-area .shop-info-wrap .box .info-area dl dd > ul li + li {margin-top:2px}
-    .shop-date-wrap .bottom-area .date-wrap {flex-direction:column; width:100%; min-height:0; margin-left:0; margin-top:12px}
-    .shop-date-wrap .bottom-area .date-wrap .mo-top {display:block; padding:11px}
-    .shop-date-wrap .bottom-area .date-wrap .mo-top .mo-tit {color:#666; font-size:14px; line-height:20px}
-    .shop-date-wrap .bottom-area .date-wrap .mo-top .mo-tit.active {color:#000}
-    .shop-date-wrap .bottom-area .date-wrap .calendar {position:relative; width:100%}
-    .shop-date-wrap .bottom-area .date-wrap .calendar::after {content:''; display:block; position:absolute; width:16px; height:16px; top:15px; right:16px; background:url(../images/icons/icon-arr-down-16.svg) no-repeat center}
-    .shop-date-wrap .bottom-area .date-wrap .calendar.active::after {transform:rotate(180deg)}
-    .shop-date-wrap .bottom-area .date-wrap .calendar .cal-cont {display:none; height:257px}
-    .shop-date-wrap .bottom-area .date-wrap .time {position:relative; width:100%; margin-top:12px; margin-left:0; border:1px solid #ddd; border-radius:8px}
-    .shop-date-wrap .bottom-area .date-wrap .time::after {content:''; display:block; position:absolute; width:16px; height:16px; top:15px; right:16px; background:url(../images/icons/icon-arr-down-16.svg) no-repeat center}
-    .shop-date-wrap .bottom-area .date-wrap .time.active::after {transform:rotate(180deg)}
-    .shop-date-wrap .bottom-area .date-wrap .time .time-cont {display:none}
+    .shop-info-wrap {width:100%; min-height:0}
+    .shop-info-wrap .box .top-area {flex-direction:column; align-items:flex-start}
+    .shop-info-wrap .box .top-area .shop-name {font-size:14px; line-height:20px}
+    .shop-info-wrap .box .top-area .key-words {margin-left:0; margin-top:6px}
+    .shop-info-wrap .box .top-area .key-words > li {font-size:10px; line-height:15px}
+    .shop-info-wrap .box .info-area dl + dl {margin-top:13px}
+    .shop-info-wrap .box .info-area dl dt {min-width:45px; font-size:12px; line-height:17px}
+    .shop-info-wrap .box .info-area dl dd {margin-left:20px; font-size:12px; line-height:17px}
+    .shop-info-wrap .box .info-area dl dd > ul li + li {margin-top:2px}
+    .local-wrap {width:100%; min-height:0}
+    .local-wrap .box {height:auto; padding:0 0 28px 0; border:0}
+    .local-wrap ul.input-list-type .tit {font-weight:bold}
+    .local-wrap ul.input-list-type > li + li {margin-top:32px}
+    .date-wrap {flex-direction:column; width:100%; min-height:0; margin-left:0; margin-top:12px}
+    .date-wrap .mo-top {display:block; padding:11px}
+    .date-wrap .mo-top .mo-tit {color:#666; font-size:14px; line-height:20px}
+    .date-wrap .mo-top .mo-tit.active {color:#000}
+    .date-wrap .calendar {position:relative; width:100%}
+    .date-wrap .calendar::after {content:''; display:block; position:absolute; width:16px; height:16px; top:15px; right:16px; background:url(../images/icons/icon-arr-down-16.svg) no-repeat center}
+    .date-wrap .calendar.active::after {transform:rotate(180deg)}
+    .date-wrap .calendar .cal-cont {display:none; height:257px}
+    .date-wrap .time {position:relative; width:100%; margin-top:12px; margin-left:0; border:1px solid #ddd; border-radius:8px}
+    .date-wrap .time::after {content:''; display:block; position:absolute; width:16px; height:16px; top:15px; right:16px; background:url(../images/icons/icon-arr-down-16.svg) no-repeat center}
+    .date-wrap .time.active::after {transform:rotate(180deg)}
+    .date-wrap .time .time-cont {display:none}
     .time ul[class*="input"] {flex-direction:row; justify-content:flex-start; margin-top:-6.5px; padding:4px 12.75px 16px}
     .time ul[class*="input"] li {width:20%; min-width:54px; margin-top:6.5px; padding:0 3.25px}
     .time ul[class*="input"] li .radio-btn.btn-type2 label {border-radius:4px; font-size:11px}
@@ -995,6 +1014,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .user-info-area .lt {float:none; width:100%}
     .user-info-area .rt {float:none; width:100%; padding-left:0; margin-top:12px; margin-bottom:0}
     .user-info-area .box-gray {height:auto; padding:0 0 28px 0; border:0}
+    .user-info-area ul.input-list-type .tit {font-weight:bold}
     .user-info-area ul.input-list-type > li + li {margin-top:32px}
     .user-info-area.info-type ul.input-btn-type {margin:26px 0 0; padding-left:6px}
     .user-info-area.info-type ul.input-btn-type > li + li {margin:0 0 0 6px}
