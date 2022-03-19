@@ -510,9 +510,9 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 .tab01.filter {margin-top:52px}
 .tab01.filter .btn-filter {display:none}
 .tab01.is_depth + .cont-area .plp-list-wrap {margin-top:28px}
-.tab-wrap{height:105px;margin-top:52px;}
+.tab-wrap {margin-top:52px;}
 .tab-wrap .tab01.filter{margin-top:0;}
-.tab-wrap.fixed .tab01{position:fixed;top:0;left:calc(50% - 690px);width:100%;max-width:1380px;background:#fff;z-index:5;}
+.tab-wrap.fixed {position:fixed; width:100%; max-width:1380px; top:0; left:0; right:0; margin:0 auto; padding:0 40px; background-color:#fff; z-index:5}
 .plp-list-wrap {margin-top:48px}
 .plp-list-wrap::after {content:''; display:block; clear:both}
 .plp-list-wrap .lay-filter {float:left; width:215px; margin-right:25px}
@@ -747,10 +747,10 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 
     /* 소모품구매예약페이지 */
     .tab01.filter {position:relative; margin-top:40px; padding-left:57px}
-    .tab01.filter.is_depth {padding-left:16px}
-    .tab01.filter .tab02 > ul {padding-left:40px}
+    .tab01.filter .tab02 > ul {margin-left:40px}
     .tab01.filter .btn-filter {display:block; position:absolute; left:0; top:10px; width:25px; height:25px; background:url(../images/icons/btn-filter-50.svg) no-repeat center / contain}
-    .tab01.filter.is_depth .btn-filter {top:64.5px; z-index:10}
+    .tab01.filter.is_depth {padding-left:0}
+    .tab01.filter.is_depth .btn-filter {top:64.5px; z-index:8}
     .plp-list-wrap .lay-filter {display:none; position:fixed; top:0; left:0; right:0; bottom:0; width:100%; margin-right:0; padding:48px 16px 0; z-index:9000}
     .plp-list-wrap .lay-filter.active {display:block}
     .plp-list-wrap .lay-filter.active .dimmed {display:block}
@@ -876,7 +876,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     /******** 매장상담예약 input ********/
     /* 상담목적 */
     ul.input-icon-type {flex-wrap:wrap; margin:-3px -3px 0}
-    ul.input-icon-type > li {width:calc(100% / 3)!important; padding:3px}
+    ul.input-icon-type > li {width:calc(100% / 3)!important; flex:initial; padding:3px}
     .icon-btn label {height:49px; border:1.5px solid #ddd; border-radius:8px; font-size:13px; line-height:19px}
     .icon-btn input:checked + label {border:1.5px solid #da0f47}
     /* .icon-btn .icon {width:32px; height:32px; margin-right:6px} */
@@ -917,7 +917,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 
     /* 구매희망시기 */
     ul.input-base-type {flex-wrap:wrap; margin:-7px -3.5px 0}
-    ul.input-base-type > li {width:calc(100% / 3); margin-top:7px; padding:0 3.5px}
+    ul.input-base-type > li {width:calc(100% / 3); flex:initial; margin-top:7px; padding:0 3.5px}
     ul.input-base-type .chkrdo-btn label {padding:6px 0; border:1.5px solid #ddd; font-size:13px; line-height:19px}
     ul.input-base-type .chkrdo-btn input:checked + label {border:1.5px solid #da0f47; line-height:19px}
 
@@ -1173,11 +1173,12 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-main.care-ex .top-wrap .guide-area .guide-bottom dl dt {font-size:13px; line-height:19px}
     .res-main.care-ex .top-wrap .guide-area .guide-bottom dl dd {font-size:12px; line-height:17px}
 
-    .tab-wrap{height:99px;}
+    /* .tab-wrap{height:99px;} */
     .tab01.filter {margin-top:22px}
-    .tab-wrap.fixed .tab01{left:0;}
+    .tab-wrap.fixed {padding:0 16px}
     .tab01.filter .btn-filter {left:16px; top:7px}
     .tab-wrap.fixed .tab01.filter .btn-filter{position:fixed;}
+    .tab01.filter.is_depth {padding-left:16px}
     .tab01.filter.is_depth .btn-filter {top:57px}
     .tab01.is_depth + .cont-area .plp-list-wrap {margin-top:16px}
     .plp-list-wrap {margin-top:40px}

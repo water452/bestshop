@@ -521,7 +521,7 @@ $(document).ready(function() {
 
     // page custom
     // page custom > if inner layer
-    $('.bottom-fixed-wrap').parents('.wrap').addClass('innerLayer');
+    /* $('.bottom-fixed-wrap').parents('.wrap').addClass('innerLayer'); 0321 일시 숨김 */
     // page custom > if not main breadcrumb show
     $('#content').not('.main').parents('body').find('.breadcrumb-wrap').addClass('active');
 

@@ -48,14 +48,19 @@
 <script>
     $(function(){
         var eventList = new Swiper(".event-list", {
-            breakpoints: {
-                0: {
-                    slidesPerView: 1.2
-                },
-                768: {
-                    slidesPerView: 'auto'
-                },
-            },
+            slidesPerView: 'auto',
         });
     });
+    // $(function(){
+    //     var eventList = new Swiper(".event-list", {
+    //         breakpoints: {
+    //             0: {
+    //                 slidesPerView: 1.2
+    //             },
+    //             768: {
+    //                 slidesPerView: 'auto'
+    //             },
+    //         },
+    //     });
+    // });
 </script>
