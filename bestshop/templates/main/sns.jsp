@@ -65,7 +65,7 @@
 </div>
 <script>
     var storeBenefit = new Swiper(".sns-slide", {
-        // autoplay: true,
+        autoplay: true,
         loop: true,
         loopSlides: 1,
         centeredSlides: false,
