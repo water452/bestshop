@@ -634,6 +634,15 @@
                 $("#agr-all").prop("checked", is_checked);
             });
         });
+
+        // 토스트팝업 3초 후 자동으로 닫힘
+        $('.btn.btn-reset').on('click', function() {
+            if($('#ToastArea').attr('style', 'display: block')){
+                setTimeout(function(){
+                    $('#ToastArea').css('display', 'none');
+                }, 3000)
+            }
+        });
     });
 </script>
 <jsp:include page="../../templates/common/footer.jsp" />
