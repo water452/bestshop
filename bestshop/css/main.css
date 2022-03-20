@@ -122,7 +122,7 @@
 .store-benefit ul li a img.mobile {display:none}
 
 /* bestshop sns */
-/* .bestshop-sns {display:none} 0321 일시 숨김 */
+.bestshop-sns {display:none} /* 0321 일시 숨김 */
 .bestshop-sns .content-group-detail {overflow:hidden; position:relative; padding:79px 0 95px}
 .bestshop-sns .content-group-detail:before {display:block; content:''; position:absolute; top:0; left:0; width:44%; height:100%; border-radius:8px; background:#f8f8f8}
 .bestshop-sns .benefit-slide {width:calc(100% + 300px); margin-left:-300px}
@@ -196,7 +196,7 @@
 
 /* store search */
 .store-search {position:relative; max-width:1240px; height:47px; font-size:14px; line-height:47px; margin:50px auto 0; background-color:#f4f4f4; text-align:center}
-/* .store-search {display:none} 0321 일시 숨김 */
+.store-search {display:none} /* 0321 일시 숨김 */
 .store-search-btn {position:absolute; top:calc(50% - 10px); right:32px; line-height:16px}
 .store-search-btn > .btn {width:auto; min-width:0; height:20px; color:#000; line-height:16px; padding:0; border:transparent; background-color:transparent; background-image:none}
 .store-search-btn > .btn span:after {display:inline-block; content:''; width:16px; height:16px; background:url('../images/icons/icon-arrow-down-48.svg') no-repeat 0 0; transform:rotate(270deg); vertical-align:-3px}
@@ -245,7 +245,7 @@
 /* middle dpi pc */
 @media screen and (max-width:1475px) {
     /* bestshop sns */
-    .bestshop-sns .content-group-detail:before {width:653px}
+    /* .bestshop-sns .content-group-detail:before {width:653px} */
 }
 /* low dpi pc */
 @media screen and (max-width:1380px) {
@@ -256,7 +256,7 @@
 
     /* bestshop sns */
     .bestshop-sns .content-group-detail {padding-top:0; padding-bottom:26px}
-    .bestshop-sns .content-group-detail:before {width:320px; height:324px}
+    /* .bestshop-sns .content-group-detail:before {width:320px; height:309px} */
     .bestshop-sns .left-cont-wrap {position:relative; width:320px; min-height:216px}
     .bestshop-sns .left-cont-wrap .left-cont {width:100%}
     .bestshop-sns .left-cont-wrap .left-cont em {display:none}
