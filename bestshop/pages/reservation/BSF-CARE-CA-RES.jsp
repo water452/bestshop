@@ -1410,15 +1410,6 @@
                 var _stickyBar = $('.sticky-info-wrap').offset().top;
             })
         });
-
-        // 토스트팝업 3초 후 자동으로 닫힘
-        function toastNone(){
-            setTimeout(function(){
-                $('.map-wrap + .popup.toast').css('display', 'none');
-            }, 3000)
-        }
-        
-        toastNone();
     });
 </script>
 <jsp:include page="../../templates/common/footer.jsp" />

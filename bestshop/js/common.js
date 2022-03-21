@@ -439,12 +439,20 @@ function popup(){
 };
 popup();
 
+// 토스트팝업 3초 후 자동으로 닫힘
+function toastNone(){
+    setTimeout(function(){
+        $('.map-wrap + .popup.toast').css('display', 'none');
+    }, 3000)
+}
+
 $(document).ready(function() {
     clickLayer();
     clickLayer2()
     floatingMenu();
     footMenu();
     tabCommon();
+    toastNone();
 
     if(_thsW > 767){
         megaGnb();
