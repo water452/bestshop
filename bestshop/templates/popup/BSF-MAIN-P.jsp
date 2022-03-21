@@ -7,14 +7,42 @@
         </div>
         <div class="pop-cont">
 
-            <!-- html형 -->
-            <div class="pop-slide-wrap txt">
+            <div class="pop-slide-wrap">
                 <div class="swiper img-slide">
                     <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <div class="img-wrap">
+                                <img class="m-hidden" src="./images/@img-main-popup-contents.png" alt="&nbsp;" />
+                                <img class="pc-hidden" src="./images/@img-main-popup-contents_mo.png" alt="&nbsp;" />
+                            </div>
+
+                            <div class="btn-area m-full">
+                                <a href="#" class="btn border">이벤트 상세보기</a>
+                                <a href="#" class="btn border">상담 예약하기</a>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="img-wrap">
+                                <img class="m-hidden" src="./images/@img-main-popup-contents.png" alt="&nbsp;" />
+                                <img class="pc-hidden" src="./images/@img-main-popup-contents_mo.png" alt="&nbsp;" />
+                            </div>
+
+                            <div class="btn-area m-full">
+                                <a href="#" class="btn border">이벤트 상세보기</a>
+                                <a href="#" class="btn border">상담 예약하기</a>
+                            </div>
+                        </li>
                         <li class="swiper-slide">
                             <div class="txt-wrap">
                                 <h3 class="tit">11월 LG오브제 웨딩페어</h3>
                                 <div class="txt">
+                                    <img class="m-hidden" src="./images/@img-main-popup-contents.png" alt="&nbsp;" />
+                                    <p>이벤트 접수기간 : ~11.27(토) / 행사지점 하단 참조</p>
+                                    <p>웨딩 페어 특별 혜택! <br>SNS에상담 후기 작성 시, 100% 당첨!</p>
+                                    <p>상담 예약 후 매장에 방문하여 상담을 진행하세요. 본인 SNS 계정에 필수 해시태그와 함께 상담 후기를 업로드하신 후 이벤트 상세페이지에 후기 게시글 URL을 입력하고 참여하시면 됩니다.</p>
+                                    <p>이벤트 접수기간 : ~11.27(토) / 행사지점 하단 참조</p>
+                                    <p>웨딩 페어 특별 혜택! <br>SNS에상담 후기 작성 시, 100% 당첨!</p>
+                                    <p>상담 예약 후 매장에 방문하여 상담을 진행하세요. 본인 SNS 계정에 필수 해시태그와 함께 상담 후기를 업로드하신 후 이벤트 상세페이지에 후기 게시글 URL을 입력하고 참여하시면 됩니다.</p>
                                     <p>이벤트 접수기간 : ~11.27(토) / 행사지점 하단 참조</p>
                                     <p>웨딩 페어 특별 혜택! <br>SNS에상담 후기 작성 시, 100% 당첨!</p>
                                     <p>상담 예약 후 매장에 방문하여 상담을 진행하세요. 본인 SNS 계정에 필수 해시태그와 함께 상담 후기를 업로드하신 후 이벤트 상세페이지에 후기 게시글 URL을 입력하고 참여하시면 됩니다.</p>
@@ -64,8 +92,7 @@
                     
                 </div>
             </div>
-            <!-- // html형 -->
-            
+
         </div>
         <div class="btn-area m-full-flex chk-box">
             <span class="check-box">
@@ -91,7 +118,7 @@
             pagination: {
                 el: ".pager-pagination",
             },
-            loop : true,
+            // loop : true,
             // loopAdditionalSlides: 1,
         });
 

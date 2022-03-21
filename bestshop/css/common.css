@@ -559,7 +559,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 .popup{display:none;position:fixed;top:0;left:0;right:0;bottom:0;z-index:101;}
 .pop-wrap{position:absolute;top:50%;left:50%;width:100%;padding:34px 40px 50px;max-width:678px;border-radius:8px;background:#fff;overflow:hidden;-webkit-transform:translate(-50%, -50%);transform:translate(-50%, -50%);}
 .pop-head{padding-bottom:15px;border-bottom:2px solid #000;}
-.pop-cont{min-height:249px;max-height:589px;overflow-y:auto;}
+.pop-cont{min-height:249px;max-height:598px;overflow-y:auto;}
 .pop-cont.min-auto{min-height:auto}
 .tit-pop{line-height:30px;font-size:20px;font-weight:500;}
 .tit-pop + .txt-pop01{margin-top:10px;}
@@ -606,24 +606,21 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 .popup .btn{padding-left:34px;padding-right:34px;}
 
 /* popup - 메인 슬라이드 팝업 */
-.pop-wrap.main{padding:34px 10px 10px}
-.pop-wrap.main .pop-cont{max-height:598px}
+.pop-wrap.main{padding:32px 10px 10px}
 .pop-wrap.main .pop-head{margin:0 30px}
 
-.pop-wrap.main .pop-slide-wrap.txt{padding:30px 0}
-.pop-wrap.main .pop-slide-wrap.image{padding-bottom:30px}
+.pop-wrap.main .pop-slide-wrap {padding-bottom:28px}
 .pop-wrap.main .pop-slide-wrap .swiper-slide{padding:0 30px 40px}
+.pop-wrap.main .pop-slide-wrap .txt-wrap {padding-top:30px}
 .pop-wrap.main .pop-slide-wrap .txt-wrap .tit{margin-bottom:27px;font-size:22px;line-height:30px;text-align:center}
-.pop-wrap.main .pop-slide-wrap .txt-wrap .txt{height:216px;padding:19px 31px;border:1px solid #ddd;border-radius:8px;font-size:16px;line-height:24px;overflow-y:auto}
+.pop-wrap.main .pop-slide-wrap .txt-wrap .txt{height:373px;padding:19px 31px;border:1px solid #ddd;border-radius:8px;font-size:16px;line-height:24px;overflow-y:auto}
 .pop-wrap.main .pop-slide-wrap .txt-wrap .txt p + p{margin-top:16px}
 .pop-wrap.main .pop-slide-wrap .btn-area{margin-top:20px;text-align:center}
 .pop-wrap.main .pop-slide-wrap .btn-area .btn{padding:0 41px}
 
 .pop-wrap.main .pop-slide-wrap .slide-navi{bottom:0!important}
 .pop-wrap.main .pop-slide-wrap .swiper-pager{width:100%;padding:0;background:none;text-align:center}
-.pop-wrap.main .pop-slide-wrap .banner-btns{width:100%}
-.pop-wrap.main .pop-slide-wrap.txt .banner-btns{top:calc(50% - 50px);width:100%;transform:translate(-50%,0)}
-.pop-wrap.main .pop-slide-wrap.image .banner-btns{top:50%;transform:translate(-50%,0)}
+.pop-wrap.main .pop-slide-wrap .banner-btns{width:100%;top:calc(50% - 55px)}
 .pop-wrap.main .pop-slide-wrap .banner-btns .swiper-button-prev{left:10px}
 .pop-wrap.main .pop-slide-wrap .banner-btns .swiper-button-next{right:10px}
 
@@ -974,12 +971,13 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	.popup.v-large .pop-wrap .btn-pop-close{right:30px}
 
 	/* popup - 메인 슬라이드 팝업 */
-	.pop-wrap.main{width:calc(100% - 32px);padding:0}
+	.pop-wrap.main{width:calc(100% - 45px);padding:0}
 	.pop-wrap.main .pop-cont{max-height:475px}
 	.pop-wrap.main .pop-head{margin:0 16px}
 	.pop-wrap.main .tit-pop{font-weight:bold}
 
-	.pop-wrap.main .pop-slide-wrap.txt{padding:17px 0 33px}
+	.pop-wrap.main .pop-slide-wrap {padding-bottom:33px}
+	.pop-wrap.main .pop-slide-wrap .txt-wrap {padding-top:17px}
 	.pop-wrap.main .pop-slide-wrap .swiper-slide{padding:0 16px 31px}
 	.pop-wrap.main .pop-slide-wrap .txt-wrap .tit{margin-bottom:17px;font-size:18px;line-height:24px}
 	.pop-wrap.main .pop-slide-wrap .txt-wrap .txt{height:240px;padding:16px;font-size:14px;line-height:20px}
@@ -987,7 +985,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	.pop-wrap.main .pop-slide-wrap .btn-area{margin-top:16px}
 
 	.pop-wrap.main .pop-slide-wrap .banner-btns{height:24px}
-	.pop-wrap.main .pop-slide-wrap.txt .banner-btns{top:calc(50% - 70px)}
+	.pop-wrap.main .pop-slide-wrap .banner-btns{top:calc(50% - 70px)}
 	.pop-wrap.main .pop-slide-wrap .banner-btns [class^="swiper-button"]{width:24px;height:24px}
 	.pop-wrap.main .pop-slide-wrap .banner-btns .swiper-button-prev{left:4px}
 	.pop-wrap.main .pop-slide-wrap .banner-btns .swiper-button-next{right:4px}
