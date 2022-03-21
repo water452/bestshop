@@ -34,6 +34,7 @@
                             <div class="li-wrap">
                                 <dfn class="tit">현금처럼 사용하는 포인트</dfn>
                                 <span class="dsc">LGE.COM, 베스트샵, LG전자 서비스센터<br /> 수리, 렌탈 구매 (1포인트=1원)</span>
+                                <span class="subs">※ 포인트는 이전설치, 세척서비스<br /> 이용시 사용 불가</span>
                             </div>
                         </li>
                         <li>
@@ -113,7 +114,7 @@
                     </ul>
                     <ul class="list-ty01">
                         <li class="blt-dotted01">
-                            무상 서비스 기간 : 설치 일자 기준 3년 적용
+                            무상 서비스 기간 : 배송완료 일자 기준 3년 적용
                             <em class="blt-em">대형마트(이마트, 홈플러스) 구매 건의 경우 구매 일자 기준 3년 적용</em>
                         </li>
                         <li class="blt-dotted01">멤버십 등급 산정 : 멤버십 가입한 고객의 1년간 구매금액 합산 관리</li>
@@ -201,6 +202,7 @@
                             </tbody>
                         </table>
                     </div>
+                    <div class="txt_subs">포인트는 이전설치, 세척서비스 이용시 사용 불가</div>
                 </div>
             </section>
             <section class="sec">

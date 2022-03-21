@@ -400,10 +400,12 @@
                 $('.result-filter').stop().animate({'margin-right':'0'}, 200);
                 $('.result-filter .dimmde').fadeIn(100);
                 $('.floating-block').fadeOut(100); // floating menu hide
+                $('#content').addClass('overDime');
             } else {
                 $('.result-filter').stop().animate({'margin-right':'-100%'}, 200);
                 $('.result-filter .dimmde').fadeOut(100);
                 $('.floating-block').fadeIn(100); // floating menu show
+                $('#content').removeClass('overDime');
             }
         });
     }

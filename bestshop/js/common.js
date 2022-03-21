@@ -482,17 +482,28 @@ $(document).ready(function() {
     }
 
     //mega-gnb > banner
-    var megaBnr = new Swiper(".megaBnr", {
-        // autoplay: true,
-        slidesPerView: 1,
-        spaceBetween: 10,
-        navigation: {
-            nextEl: '.swiper-navi .btn-prev',
-            prevEl: '.swiper-navi .btn-next'
-        },
-        pagination: {
-            el: ".swiper-pager",
-        }
+    $(".megaBnr").each(function(index, element){
+        var $this = $(this),
+            _idx = index + 1;
+        $this.addClass('inst-' + index);
+    
+        var loopChk = '';
+        var megaBnr = new Swiper('.inst-' + index, {
+            autoplay: true,
+            observer: true,
+            observeParents: true,
+            slidesPerView : 1,
+            spaceBetween: 10,
+            loop: true,
+            loopedSlides: 1,
+            navigation: {
+                nextEl: $('.inst-' + index).siblings('.swiper-button-next'),
+                prevEl: $('.inst-' + index).siblings('.swiper-button-prev'),
+            },
+            pagination: {
+                el: ".swiper-pager",
+            }
+        });
     });
 
     var megaBnrm = new Swiper(".megaMobileBnr", {

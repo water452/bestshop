@@ -499,7 +499,7 @@ ul.input-cate-type .cate-tit > .icon.apple-watch { background: url("../images/ic
 .list-benefit + .btn-area { margin-top: 20px; }
 .list-benefit { position: relative; left: -12px; width: calc(100% + 24px); line-height: 0; font-size: 0; }
 .list-benefit > li { display: inline-block; padding: 12px; width: 25%; vertical-align: top; }
-.list-benefit > li .li-wrap { padding: 30px; min-height: 230px; border-radius: 8px; border: 1px solid #ddd; text-align: center; }
+.list-benefit > li .li-wrap { padding: 30px; min-height: 280px; border-radius: 8px; border: 1px solid #ddd; text-align: center; }
 .list-benefit > li .tit { display: block; position: relative; padding-top: 82px; line-height: 26px; font-size: 18px; font-weight: bold; }
 .list-benefit > li .tit:before { content: ""; position: absolute; top: 0; left: 50%; margin-left: -32px; width: 64px; height: 64px; background-repeat: no-repeat; background-position: center; background-size: 100% auto; }
 .list-benefit > li:nth-child(1) .tit:before { background-image: url("../images/icons/icon-list-benefit01.png"); }
@@ -507,6 +507,7 @@ ul.input-cate-type .cate-tit > .icon.apple-watch { background: url("../images/ic
 .list-benefit > li:nth-child(3) .tit:before { background-image: url("../images/icons/icon-list-benefit03.png"); }
 .list-benefit > li:nth-child(4) .tit:before { background-image: url("../images/icons/icon-list-benefit04.png"); }
 .list-benefit > li .dsc { display: block; margin-top: 8px; line-height: 26px; font-size: 16px; letter-spacing: -0.5px; }
+.list-benefit > li .subs{display:block;margin-top:10px;line-height:20px;font-size:14px;}
 .vip-membership { min-height: 399px; background: url("../images/bg-vip-membership-lt.png") no-repeat 0 0, url("../images/bg-vip-membership-rb.png") no-repeat right bottom; background-size: contain !important; background-color: #efefef; text-align: center; }
 .vip-membership .tit02 { padding-top: 70px; }
 .vip-membership .txt-st03 { padding-bottom: 70px; }
@@ -645,6 +646,10 @@ li[class*="blt"], li > [class*="blt"] { display: block; }
 .list-shop-detail li:last-child { margin: 0; }
 .list-shop-detail li img { width: 100%; }
 
+/* subs */
+.txt_subs{position:relative;font-size:14px;font-weight:400;line-height:22px;padding-left:10px;margin-top:24px;}
+.txt_subs:before{display:block;content:'ㆍ';position:absolute;top:0;left:-4px;}
+
 /* 팝업: 매장 상세 */
 .popup-shop-detail .pop-wrap { max-width: 1024px; }
 
@@ -683,6 +688,8 @@ li[class*="blt"], li > [class*="blt"] { display: block; }
     .membership-join-infor > li:before { top: 20px; }
     .app-download > li { padding: 168px 40px 40px 40px; text-align: center; }
     .app-download > li .qr-code { top: 40px; right: 50%; margin: 0 -54px 0 0; }
+
+    .list-benefit > li .subs{font-size:11px;line-height:16px;}
 }
 @media screen and (max-width: 767px){ /* Mobile */
     .cont-wrap { padding: 0 16px 4px; } 
@@ -987,6 +994,8 @@ li[class*="blt"], li > [class*="blt"] { display: block; }
     .list-benefit { left: -6px; width: calc(100% + 12px); }
     .list-benefit > li { padding: 6px; }
     .list-benefit > li .li-wrap { padding: 20px 17px 14px 17px; min-height: 212px; border-radius: 4px; }
+    .list-benefit > li:nth-of-type(1) .li-wrap,
+    .list-benefit > li:nth-of-type(2) .li-wrap{min-height:255px;}
     .list-benefit > li br { display: none; }
     .list-benefit > li .tit { padding-top: 74px; line-height: 20px; font-size: 14px; }
     .list-benefit > li .tit:before { margin-left: -32px; width: 64px; height: 64px; }
@@ -1097,4 +1106,6 @@ li[class*="blt"], li > [class*="blt"] { display: block; }
     .d-tit-s { line-height: 20px; font-size: 14px; }
     .list-shop-detail li { margin-right: 6px; width: 230px; }
     .win-popup-wrap .btn-area.m-full-flex { position: absolute; bottom: 0; left: 0; width: 100%; }
+
+    .txt_subs{font-size:12px;line-height:18px;margin-top:16px;}
 }
