@@ -21,7 +21,6 @@
                                 </div>
                             </div>
                         </li>
-                        <!--
                         <li class="swiper-slide">
                             <div class="txt-wrap">
                                 <h3 class="tit">11월 LG오브제 웨딩페어</h3>
@@ -32,7 +31,6 @@
                                 </div>
                             </div>
                         </li>
-                        -->
                     </ul>
                     
                     <div class="banner-btns">
@@ -128,7 +126,7 @@
             pagination: {
                 el: ".pager-pagination",
             },
-            // loop : true,
+            loop : true,
             // loopAdditionalSlides: 1,
         });
 
