@@ -1109,11 +1109,11 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 
     .res-main .sticky-info-wrap {margin-bottom:35px}
     /* .res-main .sticky-info-wrap.fixed {margin-top:40px} */
-    .res-main .sticky-info-wrap .inner {padding:20px 16px 74px}
+    .res-main .sticky-info-wrap .inner {padding:20px 16px}
     .res-main .sticky-info-wrap .info-txt {font-size:14px; line-height:20px; text-align:center}
     .res-main .sticky-info-wrap .info-txt > .cate-name {padding-right:25px}
     .res-main .sticky-info-wrap .info-txt > .cate-name::after {width:12px; height:12px; top:calc(50% - 6px); right:6px}
-    .res-main .sticky-info-wrap .btn-reselect {width:91px; top:auto; bottom:20px; right:50%; transform:translateX(50%); font-size:13px; line-height:32px}
+    .res-main .sticky-info-wrap .btn-reselect {position:static; width:91px; margin:20px auto 0; font-size:13px; line-height:32px}
 
     .res-main.care .cont-wrap .cont-area .step-count .tit {margin-bottom:0; font-size:16px; line-height:22px}
     .res-main.care .cont-wrap .cont-area .step-count .step-num {margin-bottom:0; font-size:14px; line-height:20px}
