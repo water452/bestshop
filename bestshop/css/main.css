@@ -289,6 +289,7 @@
     .hero-slide .content-wrap .hero-tit .hero-tit-detail strong {margin-top:12px; font-size:32px; line-height:42px; letter-spacing:0}
     .hero-slide .content-wrap .hero-tit .hero-tit-detail span {margin-top:12px; font-size:15px; line-height:21px}
     .hero-slide .content-wrap .hero-tit .hero-tit-detail .cta {margin-top:24px}
+    .hero-slide .content-wrap .img-wrap > img{max-width:100%;}
 
     /* bestshop event */
     .bestshop-event .event-list .swiper-slide {width:calc(50% - 24px)}

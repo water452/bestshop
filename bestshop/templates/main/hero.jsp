@@ -6,8 +6,8 @@
             <div class="content-wrap swiper-slide">
                 <a href="javascript:void(0);">
                     <div class="img-wrap">
-                        <img class="m-hidden" src="./images/@img-main-hero-pc.jpg" alt="&nbsp;">
-                        <img class="pc-hidden" src="./images/@img-main-hero-mo.jpg" alt="&nbsp;">
+                        <img class="m-hidden" src="./images/img_main_hero_thumb.png" alt="">
+                        <img class="pc-hidden" src="./images/img_main_hero_thumb_m.jpg" alt="">
                     </div>
                     <div class="hero-tit left top"><!-- left / center / right --><!-- mobile : top / bottom --> <!-- default(white) : #fff / .black : #000 -->
                         <div class="hero-tit-detail">
@@ -35,11 +35,11 @@
                             </div>
                         </div>
                     </div>
-                    <video class="pcOnly" autoplay="" playsinline="" muted="" poster="./images/@img-main-hero-pc.jpg" class="videoPoster" loop> <!-- pc only -->
+                    <video class="pcOnly" autoplay="" playsinline="" muted="" poster="./images/img_main_hero_thumb.png" class="videoPoster" loop> <!-- pc only -->
                         <source src="./images/main_carousel_video_01.mp4" type="video/mp4">
                         <p>LG전자 회사소개 동영상</p>
                     </video>
-                    <video class="mobileOnly" autoplay="" playsinline="" muted="" poster="./images/@img-main-hero-mo.jpg" class="videoPoster" loop> <!-- mobile only -->
+                    <video class="mobileOnly" autoplay="" playsinline="" muted="" poster="./images/img_main_hero_thumb_m.jpg" class="videoPoster" loop> <!-- mobile only -->
                         <source src="./images/main_carousel_video_01.mp4" type="video/mp4">
                         <p>LG전자 회사소개 동영상</p>
                     </video>
@@ -67,14 +67,12 @@
     <div class="popup full video" id="popup-video">
         <div class="pop-wrap white">
             <div class="pop-cont">
-                <video class="pcOnly" autoplay="" playsinline="" muted="" poster="./images/@img-main-hero-pc.jpg"
-                    class="videoPoster" loop>
+                <video class="pcOnly" autoplay="" playsinline="" muted="" poster="./images/@img-main-hero-pc.jpg" class="videoPoster" loop>
                     <!-- pc only -->
                     <source src="./images/main_carousel_video_01.mp4" type="video/mp4">
                     <p>LG전자 회사소개 동영상</p>
                 </video>
-                <video class="mobileOnly" autoplay="" playsinline="" muted="" poster="./images/@img-main-hero-pc.jpg"
-                    class="videoPoster" loop>
+                <video class="mobileOnly" autoplay="" playsinline="" muted="" poster="./images/@img-main-hero-pc.jpg" class="videoPoster" loop>
                     <!-- mobile only -->
                     <source src="./images/main_carousel_video_01.mp4" type="video/mp4">
                     <p>LG전자 회사소개 동영상</p>
