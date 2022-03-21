@@ -90,9 +90,9 @@
             var heroSlide = new Swiper(".hero-slide", {
                 speed: 800,
                 slidesPerView: 1,
-                // autoplay: {
-                //     delay: 5000
-                // },
+                autoplay: {
+                    delay: 5000
+                },
                 pagination: {
                     el: ".hero-slide .slide-navi .pager-fraction",
                     type: "fraction"
