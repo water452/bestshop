@@ -327,7 +327,7 @@
 <!-- 팝업: 상담예약취소 -->
 <div class="popup alert" id="popup-reservation-cancel">
     <div class="pop-wrap">
-        <div class="pop-cont">
+        <div class="pop-cont min-auto"> <!-- 높이값 auto : .min-auto 추가 -->
             <!-- <dfn class="tit-pop">타이틀</dfn> -->
             <p class="txt-pop01">
                 <span class="block">접수하신 상담예약을 취소하시겠습니까?</span>

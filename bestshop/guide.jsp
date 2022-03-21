@@ -38,6 +38,7 @@
     .guide-content > div { min-height: 50%; border-bottom: 2px solid #666; }
     .guide-content > div > h2 { padding: 25px 30px; color: #222; line-height: 36px; font-size: 30px; border-bottom: 1px solid #eaeaea; }
     .guide-cont { padding: 40px 30px 50px 30px; }
+    .guide-cont a {margin:5px;}
     .tit-guide { position: relative; left: -14px; margin-bottom: 10px; padding-left: 14px; color: #666; line-height: 26px; font-size: 20px; }
     .tit-guide:before { content: "-"; position: absolute; top: 0; left: 0; }
 
@@ -455,6 +456,7 @@
             <a href="#popup-sample-medium" class="btn btnPopOpen">팝업: (medium: 912)</a>
             <a href="#popup-sample-large" class="btn btnPopOpen">팝업: (large: 1146)</a>
             <a href="#popup-sample-alert" class="btn btnPopOpen">팝업: (alert: 678)</a>
+            <a href="#popup-sample-auto" class="btn btnPopOpen">팝업: (alert: 높이값 auto)</a>
 
             <!-- dim -->
             <div class="dim"> </div>
@@ -554,6 +556,24 @@
             <div class="popup alert" id="popup-sample-alert">
                 <div class="pop-wrap">
                     <div class="pop-cont">
+                        <dfn class="tit-pop">타이틀</dfn>
+                        <p class="txt-pop01">
+                            <span class="block">내용입니다.내용입니다.내용입니다.내용입니다.내용입니다.</span>
+                            <span class="block">내용입니다.내용입니다.내용입니다.내용입니다.</span>
+                        </p>
+                    </div>
+                    <div class="btn-area m-full-flex">
+                        <button type="button" class="btn s01 gray btnPopCancel">아니요</button>
+                        <button type="button" class="btn s01">네</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 팝업: (alert) -->
+
+            <!-- 팝업: (alert) -->
+            <div class="popup alert" id="popup-sample-auto">
+                <div class="pop-wrap">
+                    <div class="pop-cont min-auto">
                         <dfn class="tit-pop">타이틀</dfn>
                         <p class="txt-pop01">
                             <span class="block">내용입니다.내용입니다.내용입니다.내용입니다.내용입니다.</span>
