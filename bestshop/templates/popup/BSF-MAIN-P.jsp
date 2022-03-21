@@ -118,7 +118,7 @@
             pagination: {
                 el: ".pager-pagination",
             },
-            // loop : true,
+            loop : true,
             // loopAdditionalSlides: 1,
         });
 
