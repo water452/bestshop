@@ -412,6 +412,13 @@
         });
     }
 
+    // 토스트팝업 3초 후 자동으로 닫힘
+    function toastNone(){
+        setTimeout(function(){
+            $('.desc-layer').css('display', 'none');
+        }, 3000)
+    }
+
     $(document).ready(function(){
         $('.result-filter').prepend('<div class="dimmde"></div>')
 
@@ -427,6 +434,7 @@
         filterDetailToggleMenu();
         checkReset();
         descPopClose();
+        toastNone();
     });
 
     $(window).resize(function(){
