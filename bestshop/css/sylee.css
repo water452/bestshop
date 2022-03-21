@@ -109,7 +109,7 @@ html.full-height .floating-block{display:none;}
 .shop-search-wrap .shop-search-body .btn-area.innerMap{display:flex;position:absolute;bottom: 20px;left:0;width:100%;height:58px;justify-content:center;align-items:center;z-index:1;}
 .shop-search-wrap .shop-search-body .btn-area.innerMap.gps {position:absolute;width:auto;left:auto;bottom:20px;right:20px}
 .shop-search-wrap .shop-search-body .desc-layer{display:flex;position:absolute;bottom:16px;left:0;width:100%;justify-content:center;align-items:center;z-index:100}
-.shop-search-wrap .shop-search-body .desc-layer .txt-desc{flex:none;position:relative;min-width:450px;max-width:calc(100% - 32px);font-size:16px;color:#fff;text-align:center;line-height:24px;padding:17px 30px;background:rgba(0,0,0,0.7);border-radius:81px;}
+.shop-search-wrap .shop-search-body .desc-layer .txt-desc{flex:none;position:relative;min-width:444px;max-width:calc(100% - 32px);font-size:16px;color:#fff;text-align:center;line-height:24px;padding:19px 44px;background:rgba(0,0,0,0.7);border-radius:81px;}
 .shop-search-wrap .shop-search-body .desc-layer .txt-desc .close-pop{display:block;overflow:hidden;position:absolute;top:17px;right:24px;width:24px;height:24px;font-size:0;text-indent:-9999em;background:url('../images/icons/btn_close_desc_popup.svg') no-repeat 0 0;background-size:contain;}
 
 /* benefit > card */
@@ -343,7 +343,7 @@ ul.input-list-type .txt-box .input-wrap{width:100%;}
     .search-result .result-filter .dimmde{display:none;content:'';position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.7);}
 
     .shop-search-wrap .shop-search-body .desc-layer{display:block;position:fixed;bottom:88px;z-index:100;}
-    .shop-search-wrap .shop-search-body .desc-layer .txt-desc{min-width:0;width:calc(100% - 32px);font-size:14px;margin:0 auto;}
+    .shop-search-wrap .shop-search-body .desc-layer .txt-desc{min-width:0;width:calc(100% - 32px);margin:0 auto;font-size:14px;line-height:20px;}
 
     /* benefit > card */
     .static-type .static-block{display:block;padding:50px 0;}

@@ -124,21 +124,20 @@
                     <div class="btn-area innerMap">
                         <a href="javascript:void(0);" class="btn purple gps">가까운 매장찾기</a>
                     </div>
-
-                    <!-- 조회되는 매장 없음 토스트팝업 -->
-                    <div class="popup toast" style="display: block;">
-                        <div class="pop-wrap">
-                            <div class="pop-cont">
-                                <span class="block">해당 지역 내 조회되는 매장이 없습니다.</span>
-                            </div>
-                            <button type="button" class="btn-pop-close btnPopClose"><span class="blind">닫기</span></button>
-                        </div>
-                    </div>
-                    <!-- // 조회되는 매장 없음 토스트팝업 -->
-                    
                 </div>
                 <!-- // api 영역 -->
             </div><!-- //.map-wrap -->
+
+            <!-- 조회되는 매장 없음 토스트팝업 -->
+            <div class="popup toast" style="display: block;">
+                <div class="pop-wrap">
+                    <div class="pop-cont">
+                        <span class="block">해당 지역 내 조회되는 매장이 없습니다.</span>
+                    </div>
+                    <button type="button" class="btn-pop-close btnPopClose"><span class="blind">닫기</span></button>
+                </div>
+            </div>
+            <!-- // 조회되는 매장 없음 토스트팝업 -->
 
             <!-- 리스트 보기 영역 -->
             <div class="list-wrap"> <!-- 노출여부 : active -->
