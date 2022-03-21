@@ -153,11 +153,18 @@ dfn { display: block; font-style: normal; }
 /******************* contents **********************/
 /* 신규 오픈 매장 */
 .tit-img-area img { max-width: 100%; }
-.list-shop { margin-top: 25px; }
+.list-shop { margin-top:30px; }
 .list-shop > ul { position: relative; left: -15px; width: calc(100% + 30px); line-height: 0; font-size: 0; }
 .list-shop > ul > li { display: inline-block; padding: 15px; width: calc(100% / 3); vertical-align: top; }
+.list-shop .txt01 { text-align:right; }
+.list-shop .tb_row { margin-top:12px; }
 .list-shop .li-wrap { position: relative; border-radius: 8px; border: 1px solid #ddd; text-align: center; }
-.list-shop .btn-area { padding: 20px 32px; }
+.list-shop [class*="btn-shop-"] { display:block; }
+.list-shop [class*="btn-shop-"] .icon { display:inline-block; width:32px; height:32px; }
+.list-shop .btn-shop-benefit .icon { background:url(../images/icons/icon_shop_benefit.svg) no-repeat center / contain; }
+.list-shop .btn-shop-benefit.disabled {cursor:default;}
+.list-shop .btn-shop-benefit.disabled .icon {background:url(../images/icons/icon_shop_benefit_disabled.svg) no-repeat center / contain;}
+.list-shop .btn-shop-map .icon { background:url(../images/icons/icon_shop_map.svg) no-repeat center / contain; }
 .list-shop .flag-item { position: absolute; top: 0; left: 32px; }
 .list-shop .btn-txt-icon-more { position: absolute; top: 16px; right: 16px; }
 .infor-item > dt { padding: 32px 32px 24px 32px; line-height: 20px; font-size: 14px; font-weight: 500; }
@@ -753,11 +760,16 @@ li[class*="blt"], li > [class*="blt"] { display: block; }
     /******************* contents **********************/
     /* 신규 오픈 매장 */
     .tit-img-area { position: relative; left: -16px; width: calc(100% + 32px); }
-    .list-shop { margin-top: 21px; }
+    .list-shop { margin-top:24px; }
     .list-shop > ul { left: auto; width: auto; }
     .list-shop > ul > li { padding: 0; width: 100%; }
     .list-shop > ul > li + li { margin-top: 12px; }
-    .list-shop .btn-area { padding: 12px 16px; }
+    .list-shop .tb_row table thead th { padding:12px 8px; }
+    .list-shop .tb_row table td { padding:12px 8px; }
+    .list-shop [class*="btn-shop-"] .icon { width:24px; height:24px; }
+    .list-shop .btn-shop-benefit .icon { background:url(../images/icons/icon_shop_benefit_mo.svg) no-repeat center / contain; }
+    .list-shop .btn-shop-benefit.disabled .icon {background:url(../images/icons/icon_shop_benefit_disabled_mo.svg) no-repeat center / contain;}
+    .list-shop .btn-shop-map .icon { background:url(../images/icons/icon_shop_map_mo.svg) no-repeat center / contain; }
     .list-shop .flag-item { left: 16px; }
     .list-shop .btn-txt-icon-more { top: 8px; right: 12px; }
     .infor-item > dt { padding: 23px 16px 12px 16px; line-height: 16px; font-size: 11px; }

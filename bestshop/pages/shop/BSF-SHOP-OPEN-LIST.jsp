@@ -17,126 +17,163 @@
             <!-- //타이틀 이미지 -->
             <!-- 매장 목록 -->
             <div class="list-shop">
-                <ul>
-                    <li>
-                        <div class="li-wrap">
-                            <strong class="flag-item"><span>신규<br /> 오픈</span></strong>
-                            <dl class="infor-item">
-                                <dt>홈플러스 <span>부산연산점</span></dt>
-                                <dd class="date">2021.01.01 OPEN</span></dd>
-                                <dd class="event-date">
-                                    <dl>
-                                        <dt>행사 기간</dt>
-                                        <dd>01.01(월) - 01.05(금)</dd>
-                                    </dl>
-                                </dd>
-                            </dl>
-                            <div class="btn-area">
-                                <a href="javascript:void(0);" class="btn border">혜택 안내 및 상담 예약</a>
-                            </div>
-                            <a href="javascript:void(0);" class="btn-txt-icon-more">매장 상세 정보</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="li-wrap">
-                            <strong class="flag-item"><span>확장<br /> 오픈</span></strong>
-                            <dl class="infor-item">
-                                <dt>홈플러스 <span>부산연산점</span></dt>
-                                <dd class="date">2021.01.01 OPEN</span></dd>
-                                <dd class="event-date">
-                                    <dl>
-                                        <dt>행사 기간</dt>
-                                        <dd>01.01(월) - 01.05(금)</dd>
-                                    </dl>
-                                </dd>
-                            </dl>
-                            <div class="btn-area">
-                                <a href="javascript:void(0);" class="btn border">혜택 안내</a>
-                            </div>
-                            <a href="javascript:void(0);" class="btn-txt-icon-more">매장 상세 정보</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="li-wrap">
-                            <strong class="flag-item"><span>이전<br /> 오픈</span></strong>
-                            <dl class="infor-item">
-                                <dt>홈플러스 <span>부산연산점</span></dt>
-                                <dd class="date">2021.01.01 OPEN</span></dd>
-                                <dd class="event-date">
-                                    <dl>
-                                        <dt>행사 기간</dt>
-                                        <dd>01.01(월) - 01.05(금)</dd>
-                                        <dd>01.01(월) - 01.05(금)</dd>
-                                    </dl>
-                                </dd>
-                            </dl>
-                            <div class="btn-area">
-                                <a href="javascript:void(0);" class="btn border disabled">혜택 안내 및 상담 예약</a>
-                            </div>
-                            <a href="javascript:void(0);" class="btn-txt-icon-more">매장 상세 정보</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="li-wrap">
-                            <strong class="flag-item"><span>새단장<br /> 오픈</span></strong>
-                            <dl class="infor-item">
-                                <dt>홈플러스 <span>부산연산점</span></dt>
-                                <dd class="date">2021.01.01 OPEN</span></dd>
-                                <dd class="event-date">
-                                    <dl>
-                                        <dt>행사 기간</dt>
-                                        <dd>01.01(월) - 01.05(금)</dd>
-                                        <dd>01.01(월) - 01.05(금)</dd>
-                                    </dl>
-                                </dd>
-                            </dl>
-                            <div class="btn-area">
-                                <a href="javascript:void(0);" class="btn border disabled">혜택 추후 공지</a>
-                            </div>
-                            <a href="javascript:void(0);" class="btn-txt-icon-more">매장 상세 정보</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="li-wrap">
-                            <strong class="flag-item"><span>새단장<br /> 오픈</span></strong>
-                            <dl class="infor-item">
-                                <dt>홈플러스 <span>부산연산점</span></dt>
-                                <dd class="date">2021.01.01 OPEN</span></dd>
-                                <dd class="event-date">
-                                    <dl>
-                                        <dt>행사 기간</dt>
-                                        <dd>01.01(월) - 01.05(금)</dd>
-                                        <dd>01.01(월) - 01.05(금)</dd>
-                                    </dl>
-                                </dd>
-                            </dl>
-                            <div class="btn-area">
-                                <a href="javascript:void(0);" class="btn border disabled">혜택 추후 공지</a>
-                            </div>
-                            <a href="javascript:void(0);" class="btn-txt-icon-more">매장 상세 정보</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="li-wrap">
-                            <strong class="flag-item"><span>새단장<br /> 오픈</span></strong>
-                            <dl class="infor-item">
-                                <dt>홈플러스 <span>부산연산점</span></dt>
-                                <dd class="date">2021.01.01 OPEN</span></dd>
-                                <dd class="event-date">
-                                    <dl>
-                                        <dt>행사 기간</dt>
-                                        <dd>01.01(월) - 01.05(금)</dd>
-                                        <dd>01.01(월) - 01.05(금)</dd>
-                                    </dl>
-                                </dd>
-                            </dl>
-                            <div class="btn-area">
-                                <a href="javascript:void(0);" class="btn border disabled">혜택 추후 공지</a>
-                            </div>
-                            <a href="javascript:void(0);" class="btn-txt-icon-more">매장 상세 정보</a>
-                        </div>
-                    </li>
-                </ul>
+                <p class="txt01">※ 오픈 행사 내용이 확정되면 행사안내 버튼이 활성화됩니다.</p>
+                <div class="tb_row tb-row-bl">
+                    <table>
+                        <caption>지역, 지점, 행사기간, 행사안내, 매장정보</caption>
+                        <colgroup>
+                            <col width="10%">
+                            <col width="37%">
+                            <col width="27%">
+                            <col width="13%">
+                            <col width="13%">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th scope="col">지역</th>
+                                <th scope="col">지점</th>
+                                <th scope="col">행사기간</th>
+                                <th scope="col">행사<br class="only_mo">안내</th>
+                                <th scope="col">매장<br class="only_mo">정보</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>서울</td>
+                                <td>홈플러스 월드컵점</td>
+                                <td>02.17 ~ 03.12<br>03.18 ~ 04.07</td>
+                                <td>
+                                    <div class="btn-area">
+                                        <a href="javascript:void(0);" class="btn-shop-benefit disabled"> <!-- 비활성시 .disabled 추가 -->
+                                            <i class="icon"> <span class="blind">행사안내</span></i>
+                                        </a>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="btn-area">
+                                        <a href="javascript:void(0);" class="btn-shop-map">
+                                            <i class="icon"> <span class="blind">매장정보</span></i>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>경북</td>
+                                <td>포항 본점</td>
+                                <td>03.04 ~ 03.20</td>
+                                <td>
+                                    <div class="btn-area">
+                                        <a href="javascript:void(0);" class="btn-shop-benefit">
+                                            <i class="icon"> <span class="blind">행사안내</span></i>
+                                        </a>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="btn-area">
+                                        <a href="javascript:void(0);" class="btn-shop-map">
+                                            <i class="icon"> <span class="blind">매장정보</span></i>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>대구</td>
+                                <td>대구 프라자점</td>
+                                <td>03.18 ~ 03.31</td>
+                                <td>
+                                    <div class="btn-area">
+                                        <a href="javascript:void(0);" class="btn-shop-benefit">
+                                            <i class="icon"> <span class="blind">행사안내</span></i>
+                                        </a>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="btn-area">
+                                        <a href="javascript:void(0);" class="btn-shop-map">
+                                            <i class="icon"> <span class="blind">매장정보</span></i>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>인천</td>
+                                <td>송도본점</td>
+                                <td>03.18 ~ 03.31</td>
+                                <td>
+                                    <div class="btn-area">
+                                        <a href="javascript:void(0);" class="btn-shop-benefit">
+                                            <i class="icon"> <span class="blind">행사안내</span></i>
+                                        </a>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="btn-area">
+                                        <a href="javascript:void(0);" class="btn-shop-map">
+                                            <i class="icon"> <span class="blind">매장정보</span></i>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>강원</td>
+                                <td>AK PLAZA 원주점</td>
+                                <td>03.18 ~ 04.03</td>
+                                <td>
+                                    <div class="btn-area">
+                                        <a href="javascript:void(0);" class="btn-shop-benefit">
+                                            <i class="icon"> <span class="blind">행사안내</span></i>
+                                        </a>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="btn-area">
+                                        <a href="javascript:void(0);" class="btn-shop-map">
+                                            <i class="icon"> <span class="blind">매장정보</span></i>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>경남</td>
+                                <td>창원역점</td>
+                                <td>03.18 ~ 04.07</td>
+                                <td>
+                                    <div class="btn-area">
+                                        <a href="javascript:void(0);" class="btn-shop-benefit">
+                                            <i class="icon"> <span class="blind">행사안내</span></i>
+                                        </a>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="btn-area">
+                                        <a href="javascript:void(0);" class="btn-shop-map">
+                                            <i class="icon"> <span class="blind">매장정보</span></i>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>서울</td>
+                                <td>신세계백화점 Art &amp; Science점</td>
+                                <td>03.18 ~ 04.07</td>
+                                <td>
+                                    <div class="btn-area">
+                                        <a href="javascript:void(0);" class="btn-shop-benefit">
+                                            <i class="icon"> <span class="blind">행사안내</span></i>
+                                        </a>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="btn-area">
+                                        <a href="javascript:void(0);" class="btn-shop-map">
+                                            <i class="icon"> <span class="blind">매장정보</span></i>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
             <!-- //매장 목록 -->
         </div>
