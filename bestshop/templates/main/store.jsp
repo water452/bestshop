@@ -105,7 +105,6 @@
     $(function(){
         var bullet = ['갤러리아 명품관 WEST점', '신세계 Art & Sience점', '강남본점', '양재점', '센트럴파크점', '송파본점'];
         var storSlide = new Swiper(".slide-store", {
-            speed : 800,
             centeredSlides: true,
             paginationClickable: true,
             pagination: {

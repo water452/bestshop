@@ -63,8 +63,8 @@
 .info-store .slide-store {overflow:hidden; position:relative; padding-top:70px; padding-bottom:26px}
 .info-store .slide-store .swiper-slide {width:1240px!important; height:600px; transition:all 0.2s linear}
 .info-store .slide-store .swiper-slide .slide-cont {width:100%; height:600px; background-repeat:no-repeat; background-position:center; background-size:cover; border-radius:10px; transition:all 0.1s linear; opacity:0}
-.info-store .slide-store .swiper-slide.swiper-slide-prev,
-.info-store .slide-store .swiper-slide.swiper-slide-next {transform:scale(0.87); margin:0 -20px}
+.info-store .slide-store .swiper-slide.swiper-slide-prev {transform:scale(0.87); left:20px}
+.info-store .slide-store .swiper-slide.swiper-slide-next {transform:scale(0.87); right:20px}
 .info-store .slide-store .swiper-slide.swiper-slide-active .slide-cont {opacity:1; z-index:2; transition:all 0.3s linear}
 .info-store .slide-store .swiper-slide.swiper-slide-prev .slide-cont,
 .info-store .slide-store .swiper-slide.swiper-slide-next .slide-cont {opacity:0.3; z-index:1; transition:all 0.3s linear}
@@ -244,8 +244,8 @@
 @media screen and (max-width:1380px) {
     /* info store */
     .info-store .slide-store .swiper-slide {width:100%!important}
-    .info-store .slide-store .swiper-slide.swiper-slide-prev,
-    .info-store .slide-store .swiper-slide.swiper-slide-next {margin:0}
+    .info-store .slide-store .swiper-slide.swiper-slide-prev {left:auto}
+    .info-store .slide-store .swiper-slide.swiper-slide-next {right:auto}
     .info-store .store-option,
     .info-store .slide-store .slide-navi {left:0}
 
