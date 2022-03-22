@@ -344,6 +344,11 @@
         } 
     }, 50);
 
+    $('.list-video > li a').on('click', function(){
+        $('.list-video > li a').removeClass('active');
+        $(this).addClass('active');
+    });
+
     $(window).scroll(function(){
         didScroll = true;
     });

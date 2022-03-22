@@ -482,19 +482,15 @@ $(document).ready(function() {
     }
 
     //mega-gnb > banner
-    $(".megaBnr").each(function(index, element){
+    $(".megaBnr").each(function(index){
         var $this = $(this),
             $slt = '.inst-' + index,
             $optionBase = {
-                observer: true,
-                observeParents: true,
-                slidesPerView : 1,
-                spaceBetween: 10,
+                slidesPerView : 1
             },
             $optionLoop = {
                 autoplay: true,
                 loop: true,
-                loopedSlides: 1,
                 observer: true,
                 observeParents: true,
                 slidesPerView : 1,
@@ -515,8 +511,12 @@ $(document).ready(function() {
             $this.addClass('looped');
 
             $('.autoBtn').on('click', function(){
-                $(this).toggleClass('active');
                 if($(this).hasClass('btn-pause')){
+                    $(this).removeClass('active');
+                    $(this).siblings('.btn-play').addClass('active');
+                } else if($(this).hasClass('btn-play')){
+                    $(this).removeClass('active');
+                    $(this).siblings('.btn-pause').addClass('active');
                 }
             });
         } else {

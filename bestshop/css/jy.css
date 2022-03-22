@@ -473,6 +473,7 @@ ul.input-cate-type .cate-tit > .icon.apple-watch { background: url("../images/ic
 .list-video { padding: 18px 0; }
 .list-video > li + li { margin-top: 24px; }
 .list-video > li a { display: flex; align-items: center; }
+.list-video > li a.active{color:#da0f47;}
 .list-video > li .thum { position: relative; width: 120px; height: 68px; border-radius: 4px; overflow: hidden; }
 .list-video > li .thum img { position: absolute; top: 50%; left: 0; width: 100%; -webkit-transform: translateY(-50%); transform: translateY(-50%); }
 .list-video > li .tit09 { flex: 1; display: -webkit-box; padding: 0 16px; height: 48px; overflow: hidden; text-overflow: ellipsis; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
