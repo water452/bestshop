@@ -192,6 +192,8 @@ ul.input-base-type .chkrdo-btn input:checked + label {border-width:2px; line-hei
 
 .shop-date-wrap .map-wrap {display:none; position:relative; padding:67px 19px 19px; border:1px solid #000; border-radius:8px}
 .shop-date-wrap .map-wrap.active {display:block}
+.sort-block + .popup.toast {position:absolute; top:auto}
+.sort-block + .popup.toast .pop-wrap {transform:translate(-50%, -50%);}
 .map-wrap > .input-select-type {position:absolute; top:19px; left:19px}
 .map-wrap ul[class*="input"] > li + li {margin-left:8px}
 .map-wrap .input-select-type .sltBox a + ul {max-height:508px; overflow-y:auto}
@@ -208,8 +210,7 @@ ul.input-base-type .chkrdo-btn input:checked + label {border-width:2px; line-hei
 .map-wrap .api-area .map-list-wrap.active .btn-view::after {transform:rotate(0)}
 .map-wrap .api-area .btn-area.innerMap {position:absolute; display:block; bottom:20px; right:20px; margin:0}
 .map-wrap .api-area .popup.toast {position:absolute}
-.map-wrap + .popup.toast {position:absolute; top:auto}
-.map-wrap + .popup.toast .pop-wrap {transform:translate(-50%, -50%);}
+
 
 .shop-date-wrap .list-wrap {display:none; border:1px solid #000; border-radius:8px; overflow:hidden}
 .shop-date-wrap .list-wrap.active {display:block}
@@ -951,6 +952,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .step-area .shop-date-wrap .sort-area button.view-list.active {background:url(../images/icons/icon-view-list-mo_on.svg) no-repeat 0 center / contain}
     
     .shop-date-wrap .map-wrap {padding:11px}
+    .sort-block + .popup.toast .pop-wrap {bottom:13px; width:100%}
     .map-wrap > .input-select-type {position:static; margin-bottom:8px}
     .map-wrap .api-area {height:333px; margin-top:0}
     .map-wrap .api-area .map-list-wrap {width:100%!important; left:0; right:0; top:auto; bottom:-176px; height:220px; padding:52px 0 26px; border-radius:8px 8px 0 0; background-color:rgba(255,255,255,0.7); overflow:hidden}
@@ -960,7 +962,6 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .map-wrap .api-area .map-list-wrap .btn-view {width:100%; height:18px; background:none; left:0; right:0; top:0}
     .map-wrap .api-area .map-list-wrap .btn-view::after {content:''; display:block; position:absolute; width:40px; height:5px; border-radius:5px; background-color:#ccc; background-image:none; top:9px; left:calc(50% - 20px)}
     .map-wrap .api-area .btn-area.innerMap {bottom:auto; top:12px; right:12px}
-    .map-wrap + .popup.toast .pop-wrap {bottom:13px; width:100%}
 
     ul.shop-list li [class^="btn-"] {padding:8.5px 16px; font-size:13px; line-height:19px; text-align:center}
     ul.shop-list li [class^="btn-"].active::before {display:none}
