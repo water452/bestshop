@@ -40,7 +40,12 @@
                         <tbody>
                             <tr>
                                 <td>서울</td>
-                                <td>홈플러스 월드컵점</td>
+                                <td>
+                                    <div class="flag-wrap">
+                                        <span class="flag">확장</span>
+                                    </div>
+                                    홈플러스 월드컵점
+                                </td>
                                 <td>02.17 ~ 03.12<br>03.18 ~ 04.07</td>
                                 <td>
                                     <div class="btn-area">
@@ -59,7 +64,12 @@
                             </tr>
                             <tr>
                                 <td>경북</td>
-                                <td>포항 본점</td>
+                                <td>
+                                    <div class="flag-wrap">
+                                        <span class="flag">이전</span>
+                                    </div>
+                                    포항 본점
+                                </td>
                                 <td>03.04 ~ 03.20</td>
                                 <td>
                                     <div class="btn-area">
@@ -78,7 +88,12 @@
                             </tr>
                             <tr>
                                 <td>대구</td>
-                                <td>대구 프라자점</td>
+                                <td>
+                                    <div class="flag-wrap">
+                                        <span class="flag">확장</span>
+                                    </div>
+                                    대구 프라자점
+                                </td>
                                 <td>03.18 ~ 03.31</td>
                                 <td>
                                     <div class="btn-area">
@@ -97,7 +112,12 @@
                             </tr>
                             <tr>
                                 <td>인천</td>
-                                <td>송도본점</td>
+                                <td>
+                                    <div class="flag-wrap">
+                                        <span class="flag">확장</span>
+                                    </div>
+                                    송도본점
+                                </td>
                                 <td>03.18 ~ 03.31</td>
                                 <td>
                                     <div class="btn-area">
@@ -116,7 +136,12 @@
                             </tr>
                             <tr>
                                 <td>강원</td>
-                                <td>AK PLAZA 원주점</td>
+                                <td>
+                                    <div class="flag-wrap">
+                                        <span class="flag">이전</span>
+                                    </div>
+                                    AK PLAZA 원주점
+                                </td>
                                 <td>03.18 ~ 04.03</td>
                                 <td>
                                     <div class="btn-area">
@@ -135,7 +160,12 @@
                             </tr>
                             <tr>
                                 <td>경남</td>
-                                <td>창원역점</td>
+                                <td>
+                                    <div class="flag-wrap">
+                                        <span class="flag">이전</span>
+                                    </div>
+                                    창원역점
+                                </td>
                                 <td>03.18 ~ 04.07</td>
                                 <td>
                                     <div class="btn-area">
@@ -154,7 +184,12 @@
                             </tr>
                             <tr>
                                 <td>서울</td>
-                                <td>신세계백화점 Art &amp; Science점</td>
+                                <td>
+                                    <div class="flag-wrap">
+                                        <span class="flag">이전</span>
+                                    </div>
+                                    신세계백화점 Art &amp; Science점
+                                </td>
                                 <td>03.18 ~ 04.07</td>
                                 <td>
                                     <div class="btn-area">
