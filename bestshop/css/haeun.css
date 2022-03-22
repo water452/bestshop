@@ -124,7 +124,7 @@ ul.input-icon-type > li .icon-btn {width:100%}
 /* 제품선택 - 카테고리형 */
 ul.input-cate-type {display:flex; flex-wrap:wrap; justify-content:space-between; margin-top:-12px}
 ul.input-cate-type > li {display:flex; flex-wrap:wrap; justify-content:space-between; align-items:flex-start; width:calc(50% - 6px); margin-top:12px; padding:11px 19px 11px 18px; border-radius:8px; background-color:#fcfcfc}
-ul.input-cate-type .cate-tit {display:flex; align-items:center; max-width:148px; padding:5px 0; font-size:16px; line-height:24px; word-break:keep-all}
+ul.input-cate-type .cate-tit {display:flex; align-items:center; max-width:148px; padding:5px 0; font-size:16px; font-weight:500; line-height:24px; word-break:keep-all}
 ul.input-cate-type .cate-tit > .icon {display:block; width:48px; height:48px; margin-right:6px}
 ul.input-cate-type .cate-tit > .icon.tv-audio {background:url(../images/icons/icon-tv.svg) no-repeat center / contain}
 ul.input-cate-type .cate-tit > .icon.pc {background:url(../images/icons/icon-desktop.svg) no-repeat center / contain}
