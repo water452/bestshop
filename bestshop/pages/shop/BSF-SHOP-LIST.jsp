@@ -117,7 +117,10 @@
                 <div class="search-result">
                     <div class="result-head">
                         <p class="txt-box">총 <em>5</em>개의 매장</p>
-                        <a href="javascript:void(0);" class="btn-filter">필더</a>
+                        <div class="btn-filter">
+                            <a href="javascript:void(0);"><span class="blind">옵션필터</span></a>
+                            <span class="count">2</span>
+                        </div>
                     </div>
                     <div class="result-body">
                         <ul class="custom-scroll">

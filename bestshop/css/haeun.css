@@ -751,7 +751,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .tab01.filter {position:relative; margin-top:40px; padding-left:57px}
     .tab01.filter .tab02 > ul {margin-left:40px}
     .tab01.filter .btn-filter {display:block; position:absolute; left:0; top:10px; width:25px; height:25px; background:url(../images/icons/btn-filter-50.svg) no-repeat center / contain}
-    .tab01.filter .btn-filter > a {display:block}
+    .tab01.filter .btn-filter > a {display:block; width:100%; height:100%}
     .tab01.filter .btn-filter > .count {position:absolute; display:block; width:16px; height:16px; top:-1.5px; right:-4px; border-radius:50%; background-color:#da0f47; color:#fff; font-size:12px; font-weight:500; line-height:15px; text-align:center}
     .tab01.filter.is_depth {padding-left:0}
     .tab01.filter.is_depth .btn-filter {top:64.5px; z-index:8}
