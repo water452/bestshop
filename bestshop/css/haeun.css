@@ -1001,18 +1001,17 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .local-wrap ul.input-list-type .tit {font-weight:bold}
     .local-wrap ul.input-list-type > li + li {margin-top:32px}
     .date-wrap {flex-direction:column; width:100%; min-height:0; margin-left:0; margin-top:12px}
-    .date-wrap .mo-top {display:block; padding:11px}
-    .date-wrap .mo-top .mo-tit {color:#666; font-size:14px; line-height:20px}
+    .date-wrap .mo-top {display:flex; justify-content:space-between; padding:13px 11px}
+    .date-wrap .mo-top .mo-tit {color:#000; font-size:14px; font-weight:500; line-height:20px}
+    .date-wrap .mo-top .mo-result {color:#000; font-size:14px; font-weight:500; line-height:20px}
     .date-wrap .mo-top .mo-tit.active {color:#000}
     .date-wrap .calendar {position:relative; width:100%}
-    .date-wrap .calendar::after {content:''; display:block; position:absolute; width:16px; height:16px; top:15px; right:16px; background:url(../images/icons/icon-arr-down-16.svg) no-repeat center}
-    .date-wrap .calendar.active::after {transform:rotate(180deg)}
-    .date-wrap .calendar .cal-cont {display:none; height:257px}
+    .date-wrap .calendar .mo-top {position:relative; padding-right:49px}
+    .date-wrap .calendar .mo-top::after {content:''; display:block; position:absolute; width:16px; height:16px; top:15px; right:12px; background:url(../images/icons/icon-calendar.svg) no-repeat center / contain}
+    .date-wrap .calendar .cal-cont {display:none}
+    .date-wrap .calendar.active .cal-cont {position:absolute; display:block; height:269px; left:-1px; right:-1px; top:-1px; border-radius:8px; border:1px solid #ddd; background-color:#fff; z-index:10; overflow:hidden}
     .date-wrap .time {position:relative; width:100%; margin-top:12px; margin-left:0; border:1px solid #ddd; border-radius:8px}
-    .date-wrap .time::after {content:''; display:block; position:absolute; width:16px; height:16px; top:15px; right:16px; background:url(../images/icons/icon-arr-down-16.svg) no-repeat center}
-    .date-wrap .time.active::after {transform:rotate(180deg)}
-    .date-wrap .time .time-cont {display:none}
-    .time ul[class*="input"] {flex-direction:row; justify-content:flex-start; margin-top:-6.5px; padding:4px 12.75px 16px}
+    .time ul[class*="input"] {flex-direction:row; justify-content:flex-start; margin-top:-6.5px; padding:1.5px 12.75px 16px}
     .time ul[class*="input"] li {width:20%; min-width:54px; margin-top:6.5px; padding:0 3.25px}
     .time ul[class*="input"] li .radio-btn.btn-type2 label {border-radius:4px; font-size:11px}
 
@@ -1038,8 +1037,9 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .user-info-area .bottom-area .desc {margin-top:6px; font-size:11px; line-height:16px}
 
     /* 스텝 btn-area */
+    .step-area .btn-area {margin-top:10px}
     .step-area.step03 .btn-area {margin-top:30px; margin-bottom:50px}
-    .step-area .btn-area.bg {min-height:0; padding:0; background:none!important}
+    .step-area .btn-area.bg {min-height:0; margin-top:10px; padding:0; background:none!important}
     .step-area .btn-area.bg .btn {position:static}
     .step-area .btn-area.bg .result-txt {display:none}
     .step-area .btn-area .btn.s01 {font-size:13px}

@@ -764,7 +764,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	.header-wrap{height:auto;padding:0 16px;background:#fff;box-shadow:0 1px 4px 0 rgb(0 0 0 / 10%);z-index:2000;}
 	.header-wrap.pc{display:none;}
 	.header-wrap.mobile{display:block;}
-	.header-wrap .logo{width:219.5px; height:25px; margin:11.5px 0}
+	.header-wrap .logo{width:225px; height:27px; margin:10px 0 11px}
 	.header-wrap .logo a {width:100%}
 	.header-wrap .logo a > img {width:100%}
 
@@ -781,8 +781,8 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 
 	.header-wrap .utility{display:none;}
 
-	.header-wrap .my-tooltip{position:absolute;top:10px;right:14px;}
-	.header-wrap .my-tooltip a{display:block;width:26px;height:26px;background:url('../images/icons/icon-person.svg') no-repeat center / 20px 20px;}
+	.header-wrap .my-tooltip{position:absolute;top:12px;right:16px;}
+	.header-wrap .my-tooltip a{display:block;width:24px;height:24px;background:url('../images/icons/icon-person.svg') no-repeat center / contain}
 
 	.breadcrumb-wrap{padding:0 14px;}
 	.breadcrumb-wrap .breadcrumb-bar{display:none;}
@@ -904,10 +904,12 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	.innerLayer .floating-block{bottom:200px;}
 
 	/* calendar custom */
+	.calendar{overflow:visible}
 	.calendar .ui-datepicker .ui-datepicker-header{padding:0 0 10px;}
 	.calendar .ui-datepicker .ui-datepicker-title{font-size:13px;font-weight:700;line-height:17px;}
-	.calendar .ui-datepicker .ui-datepicker-header .ui-datepicker-prev{top:0;left:calc(50% - 73px);}
-	.calendar .ui-datepicker .ui-datepicker-header .ui-datepicker-next{top:0;left:calc(50% + 57px);}
+	.calendar .ui-widget.ui-widget-content {padding:19px 16px 0}
+	.calendar .ui-datepicker .ui-datepicker-header .ui-datepicker-prev{top:0;left:calc(50% - 80px);}
+	.calendar .ui-datepicker .ui-datepicker-header .ui-datepicker-next{top:0;left:calc(50% + 64px);}
 	.calendar .ui-state-default,
 	.calendar .ui-widget-content .ui-state-default,
 	.calendar .ui-widget-header .ui-state-default,
@@ -916,7 +918,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	html .calendar .ui-button.ui-state-disabled:active{width:24px;height:24px;font-size:11px;line-height:24px;}
 	.calendar .ui-datepicker th span{font-size:11px;}
 	.calendar .ui-datepicker th,
-	.calendar .ui-datepicker td{padding:3px 0;}
+	.calendar .ui-datepicker td{padding:4px 0;}
 
 	/* img-slide */
 	.img-slide-wrap .img-slide {height:200px;}

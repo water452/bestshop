@@ -254,23 +254,30 @@
                                     </div>
                                 </div>
                                 <div class="date-wrap">
-                                    <div class="calendar active">
-                                        <!-- active 클래스 추가(mo) -->
+                                    <div class="calendar"><!-- active 클래스 추가(mo) -->
                                         <div class="mo-top">
-                                            <p class="mo-tit">예약일 선택</p>
-                                            <!-- <p class="mo-tit active">21년 12월 15일</p> --><!-- active 클래스 추가(mo) -->
+                                            <p class="mo-tit">예약일 <span>선택</span></p><!-- 예약일 선택시 '선택' 문구 삭제 -->
+                                            <span class="mo-result">21.12.15</span>
                                         </div>
-                                        <div id="calendar" class="cal-cont"></div> <!-- #calendar 로 달력호출 -->
+                                        <div id="calendar" class="cal-cont"></div> <!-- #calendar 로 달력호출 --><!-- active 클래스 추가(mo) -->
                                     </div>
                                     <div class="time active">
                                         <!-- active 클래스 추가(mo) -->
                                         <div class="mo-top">
-                                            <p class="mo-tit">예약시간 선택</p>
-                                            <!-- <p class="mo-tit active">17시</p> --><!-- active 클래스 추가(mo) -->
+                                            <p class="mo-tit">예약시간 <span>선택</span></p><!-- 시간 선택시 '선택' 문구 삭제 -->
+                                            <span class="mo-result">17<em>시</em></span>
                                         </div>
                                         <div class="time-cont">
                                             <form action="">
                                                 <ul class="input-time">
+                                                    <li>
+                                                        <div class="radio-btn btn-type2">
+                                                            <input type="radio" id="am1030" name="time">
+                                                            <label for="am1030">
+                                                                <span class="name">10:30</span>
+                                                            </label>
+                                                        </div>
+                                                    </li>
                                                     <li>
                                                         <div class="radio-btn btn-type2">
                                                             <input type="radio" id="am11" name="time">
@@ -739,13 +746,11 @@
         })
 
         // step 2 예약일 선택 / 예약시간 선택
-        $('.date-wrap .mo-top').next('div').show();
-        if ($(window).width() < 768) {
-            $('.date-wrap .mo-tit').on('click', function () {
-                $(this).parent().parent('div').toggleClass('active');
-                $(this).closest('.mo-top').next('div').slideToggle(200);
-            });
-        }
+    if ($(window).width() < 768) {
+        $('.date-wrap .calendar').on('click', function () {
+            $(this).addClass('active');
+        });
+    }
 
         // step 2 약관
         $(function () {
