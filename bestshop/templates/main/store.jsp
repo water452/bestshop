@@ -115,12 +115,13 @@
                     return '<div class="' + className + '"><button type="button">' + (bullet[index]) + '</button></div>';
                 }
             },
+            slidesPerView: 'auto',
             breakpoints: {
                 768: {
                     slidesPerView: 1
                 },
                 1380: {
-                    slidesPerView: 2,
+                    slidesPerView: 'auto',
                 }
             },
             on: {
@@ -144,7 +145,7 @@
                     slidesPerView: 1
                 },
                 1380: {
-                    slidesPerView: 2
+                    slidesPerView: 'auto',
                 }
             }
         });
