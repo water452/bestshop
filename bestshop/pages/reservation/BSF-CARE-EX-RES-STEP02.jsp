@@ -9,72 +9,97 @@
 
     <!-- contents -->
     <div class="contents res-main care-ex">
-
-        <div class="top-wrap">
-            <div class="guide-area bg">
-                <div class="guide-process">
-                    <div class="inner">
-                        <p class="desc">필요한 소모품에 대한 정보를 LG전자 베스트샵을 통해 확인하고 <br class="m-hidden">매장 방문하여 구매 및 추가 상담을
-                            받으실 수 있습니다.</p>
-                        <div class="swiper guide-banner-care-ex">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="box">
-                                        <span class="icon-wrap">
-                                            <i class="icon01"></i>
-                                        </span>
-                                        <span class="txt">구매 희망 <br class="pc-hidden">소모품 선택</span>
-                                    </div>
+        <div class="cont-wrap">
+            <div class="top-wrap top-visual">
+                <!-- s : 이벤트배너 -->
+                <div class="img-slide-wrap">
+                    <div class="swiper img-slide bdr-0">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                <div class="img-wrap">
+                                    <img class="m-hidden" src="../../images/img-careship-banner-01.png" alt="&nbsp;" /><!-- pc용 -->
+                                    <img class="pc-hidden" src="../../images/img-careship-banner-01_mo.png" alt="&nbsp;" /><!-- mobile용 -->
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="box">
-                                        <span class="icon-wrap">
-                                            <i class="icon02"></i>
-                                        </span>
-                                        <span class="txt">소모품 구매 <br class="pc-hidden">예약 신청</span>
-                                    </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="img-wrap">
+                                    <img class="m-hidden" src="../../images/img-banner-dummy.png" alt="&nbsp;" /><!-- pc용 -->
+                                    <img class="pc-hidden" src="../../images/img-banner-dummy-mo.png" alt="&nbsp;" /><!-- mobile용 -->
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="box">
-                                        <span class="icon-wrap">
-                                            <i class="icon03"></i>
-                                        </span>
-                                        <span class="txt">방문 매장 재고 확인 <br class="pc-hidden">및 고객 전화 안내</span>
-                                    </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="img-wrap">
+                                    <button type="button" class="btn-video-view">영상보기</button>
+                                    <img class="m-hidden" src="../../images/img-banner-dummy.png" alt="&nbsp;" /><!-- pc용 -->
+                                    <img class="pc-hidden" src="../../images/img-banner-dummy-mo.png" alt="&nbsp;" /><!-- mobile용 -->
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="box">
-                                        <span class="icon-wrap">
-                                            <i class="icon04"></i>
-                                        </span>
-                                        <span class="txt">매장 방문 픽업 <br class="pc-hidden">및 추가 상담</span>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="video-wrap">
+                                     <!-- s : video case -->
+                                    <video class="pcOnly" autoplay="" playsinline="" muted="" poster="../../images/img-benefit-month-slide-test.png" class="videoPoster" loop>
+                                        <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
+                                        <p>LG전자 회사소개 동영상</p>
+                                    </video>
+                                    <video class="mobileOnly" autoplay="" playsinline="" muted="" poster="../../images/img-benefit-month-slide-test-mo.png" class="videoPoster" loop>
+                                        <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
+                                        <p>LG전자 회사소개 동영상</p>
+                                    </video>
+                                    <!-- e : video case -->
+    
+                                    <!-- s : iframe case
+                                    <div class="iframe-wrap">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/PKELCx-C_Og" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
+                                    e : iframe case -->
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="slide-navi">
+                            <div class="slide-navi-detail">
+                                <div class="swiper-pager">
+                                    <button type="button" class="slideBtn btn-prev">이전 슬라이드</button>
+                                    <div class="pager-fraction"></div>
+                                    <button type="button" class="slideBtn btn-next">다음 슬라이드</button>
+                                </div>
+                                <div class="swiper-auto">
+                                    <button type="button" class="slideBtn btn-play">슬라이드 재생</button>
+                                    <button type="button" class="slideBtn btn-stop active">슬라이드 일시정지</button>
                                 </div>
                             </div>
-                            <div class="swiper-scrollbar"></div>
                         </div>
                     </div>
                 </div>
-                <div class="guide-info-list">
-                    <div class="inner">
-                        <ul class="bull">
-                            <li>소모품은 적기에 교체해야, 제품의 성능을 100% 발휘할 수 있습니다.</li>
-                            <li>오프라인 상에는 LG전자 베스트샵에서만 소모품 구매가 가능합니다.</li>
-                        </ul>
+                <!-- // e : 이벤트배너 -->
+    
+                <!-- 팝업 : 영상 팝업 s -->
+                <div class="popup v-large video" id="popup-video">
+                    <div class="pop-wrap white">
+                        <div class="pop-cont h-480">
+                            <div class="video-wrap">
+                                <!-- s : video case -->
+                                <video class="pcOnly" playsinline="" muted="" poster="../../images/img-benefit-month-slide-test.png" class="videoPoster" loop> <!-- pc only -->
+                                    <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
+                                    <p>LG전자 회사소개 동영상</p>
+                                </video>
+                                <video class="mobileOnly" playsinline="" muted="" poster="../../images/img-benefit-month-slide-test-mo.png" class="videoPoster" loop> <!-- mobile only -->
+                                    <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
+                                    <p>LG전자 회사소개 동영상</p>
+                                </video>
+                                <!-- e : video case -->
+    
+                                <!-- s : iframe case 
+                                <div class="iframe-wrap">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/PKELCx-C_Og" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                 e : iframe case -->
+                            </div>
+                        </div>
+                        <button type="button" class="btn-pop-close btnPopClose"><span class="blind">닫기</span></button>
                     </div>
                 </div>
-                <div class="guide-bottom">
-                    <div class="inner">
-                        <dl>
-                            <dt>소모품이란?</dt>
-                            <dd>사용 주기에 맞추어 손쉽게 교체할 수 있는 필터, 청소포와 같은 소모품이나 옷걸이, 거치대와 같은 액세서리 종류를 말합니다.</dd>
-                        </dl>
-                    </div>
-                </div>
+                <!-- 팝업 : 영상 팝업 e -->
             </div>
-        </div>
-
-        <div class="cont-wrap">
             
             <section class="cont-area mt20">
                 <p class="step-top-note"><sup>*</sup>필수입력항목</p>
@@ -163,159 +188,152 @@
                         </div>
                     </div>
 
-                    <div class="main-area">
-                        
+                    <div class="main-area active">
+                        <!-- active 클래스 추가 -->
                         <div class="user-info-area">
-    <h3 class="step-tit">예약자 정보<span>예약자 정보를 입력해주세요.</span></h3>
-    <div class="lt">
-        <form action="">
-            <div class="box-gray">
-                <ul class="input-list-type">
-                    <li>
-                        <div class="tit">
-                            <label for="user-name">
-                                <span class="name">이름<sup>*</sup></span>
-                            </label>
-                        </div>
-                        <div class="txt-box">
-                            <div class="input-wrap">
-                                <input class="base-txt" type="text" id="user-name" placeholder="이름을 입력해주세요.">
+                            <h3 class="step-tit">예약자 정보<span>예약자 정보를 입력해주세요.</span></h3>
+                            <div class="lt">
+                                <form action="">
+                                    <div class="box-gray">
+                                        <ul class="input-list-type">
+                                            <li>
+                                                <div class="tit">
+                                                    <label for="user-name">
+                                                        <span class="name">이름<sup>*</sup></span>
+                                                    </label>
+                                                </div>
+                                                <div class="txt-box">
+                                                    <div class="input-wrap">
+                                                        <input class="base-txt" type="text" id="user-name" placeholder="이름을 입력해주세요.">
+                                                    </div>
+                                                    <div class="btm-more err-block" style="display: block;">
+                                                        <p class="err-msg">이름을 입력해주세요.</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="tit">
+                                                    <label for="user-number">
+                                                        <span class="name">휴대폰번호<sup>*</sup></span>
+                                                    </label>
+                                                </div>
+                                                <div class="txt-box">
+                                                    <div class="input-wrap">
+                                                        <input class="base-txt" type="number" id="user-number" placeholder="(-) 제외한 숫자만 입력해주세요.">
+                                                    </div>
+                                                    <div class="btm-more err-block" style="display: block;">
+                                                        <p class="err-msg">휴대폰번호를 입력해주세요.</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </form>
                             </div>
-                            <div class="btm-more err-block" style="display: block;">
-                                <p class="err-msg">이름을 입력해주세요.</p>
+                            <div class="rt">
+                                <div class="agr-wrap">
+                                    <ul class="input-acco-type">
+                                        <li>
+                                            <div class="check-box">
+                                                <input type="checkbox" id="agr-all" class="agr-all">
+                                                <label for="agr-all">
+                                                    <span class="name">모두 동의</span>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="check-box">
+                                                <input type="checkbox" class="agr-check" id="agr-required">
+                                                <label for="agr-required">
+                                                    <span class="name"><em class="red">(필수)</em>개인정보 수집 및 이용에 동의합니다.</span>
+                                                </label>
+                                                <button type="button" class="agr-more active"><span class="blind">약관 내용 보기</span></button><!-- active 클래스 추가 -->
+                                                <div class="agr-txt-wrap size-l active"><!-- active 클래스 추가 -->
+                                                    <div class="inner custom-scroll">
+                                                        <ul>
+                                                            <li>
+                                                                <span>1. 수집하는 개인정보의 항목</span>
+                                                                <p>1) 필수사항 : 이름, 휴대폰번호</p>
+                                                            </li>
+                                                            <li>
+                                                                <span>2. 개인정보 수집 및 이용 목적</span>
+                                                                <p>
+                                                                    - 소모품 예약 서비스 신청 확인 및 안내<br>
+                                                                    - 신제품 / 할인 행사 등 고객 맞춤 판촉 관련 TM 및 SMS 발송
+                                                                </p>
+                                                            </li>
+                                                            <li>
+                                                                <span>3. 개인정보 보유 이용기간 : 신청 일부터 6개월간 보관 (6개월 후 자동 삭제)</span>
+                                                                <p>※ 귀하께서는 위와 같은 개인정보 수집/이용에 동의하지 않을 권리가 있으며 단, 거부하신 경우 소모품 예약 서비스가 제한됩니다.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p class="mt20">※ 만 14세 미만은 소모품 예약 서비스를 이용하실 수 없습니다.</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="check-box">
+                                                <input type="checkbox" class="agr-check" id="agr-optional">
+                                                <label for="agr-optional">
+                                                    <span class="name"><em>(선택)</em>마케팅 정보활용에 동의합니다.</span>
+                                                </label>
+                                                <button type="button" class="agr-more active"><span class="blind">약관 내용 보기</span></button><!-- active 클래스 추가 -->
+                                                <div class="agr-txt-wrap active"><!-- active 클래스 추가 -->
+                                                    <div class="inner custom-scroll">
+                                                        <ul>
+                                                            <li>
+                                                                <span>1. 마케팅 정보활용 동의</span>
+                                                                <p>1) 필수 : 이름, 휴대번호</p>
+                                                            </li>
+                                                            <li>
+                                                                <span>2. 개인정보 이용목적</span>
+                                                                <p>- 신제품 / 할인 행사 등 고객 맞춤 판촉 관련 TM 및 SMS 발송</p>
+                                                            </li>
+                                                            <li>
+                                                                <span>3. 개인정보 보유 이용기간</span>
+                                                                <p>- 신청 일부터 6개월간 보관 (6개월 후 자동 삭제)</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="bottom-area">
+                                <h4 class="tit">필수 위탁 고지</h4>
+                                <p class="desc">LG전자는 개인정보 취급업무 중 서비스 제공에 필요한 필수적 업무를 아래와 같이 외부 전문업체에 위탁하여 운영하고 있으며, 해당 업체는 서비스 이행을 위한 목적으로만 사용됩니다.</p>
+                                <div class="tb_row tb-row-bl white size-s">
+                                    <table>
+                                        <caption>필수 위탁 고지 표</caption>
+                                        <colgroup>
+                                            <col style="width:50%">
+                                            <col style="width:50%">
+                                        </colgroup>
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">위탁업체 (수탁자)</th>
+                                                <th scope="col">위탁업무 내용</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>LG CNS / 하이프라자</td>
+                                                <td>시스템관리, 홈페이지 운영, 회원정보 관리</td>
+                                            </tr>
+                                            <tr>
+                                                <td>하이텔레서비스</td>
+                                                <td>콜센터 상담업무 (고객문의응대)</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
                         </div>
-                    </li>
-                    <li>
-                        <div class="tit">
-                            <label for="user-number">
-                                <span class="name">휴대폰번호<sup>*</sup></span>
-                            </label>
-                        </div>
-                        <div class="txt-box">
-                            <div class="input-wrap">
-                                <input class="base-txt" type="number" id="user-number" placeholder="(-) 제외한 숫자만 입력해주세요.">
-                            </div>
-                            <div class="btm-more err-block" style="display: block;">
-                                <p class="err-msg">휴대폰번호를 입력해주세요.</p>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </form>
-    </div>
-    <div class="rt">
-        <div class="agr-wrap">
-            <ul class="input-acco-type">
-                <li>
-                    <div class="check-box">
-                        <input type="checkbox" id="agr-all" class="agr-all">
-                        <label for="agr-all">
-                            <span class="name">모두 동의</span>
-                        </label>
-                    </div>
-                </li>
-                <li>
-                    <div class="check-box">
-                        <input type="checkbox" class="agr-check" id="agr-required">
-                        <label for="agr-required">
-                            <span class="name"><em class="red">(필수)</em>개인정보 수집 및 이용에 동의합니다.</span>
-                        </label>
-                        <button type="button" class="agr-more active"><span class="blind">약관 내용 보기</span></button><!-- active 클래스 추가 -->
-                        <div class="agr-txt-wrap size-l active"><!-- active 클래스 추가 -->
-                            <div class="inner custom-scroll">
-                                <ul>
-                                    <li>
-                                        <span>1. 수집하는 개인정보의 항목</span>
-                                        <p>1) 필수사항 : 이름, 휴대폰번호, 매장 방문 가능일, 구매 희망 제품, 방문 예정 매장, 구매 희망 시기</p>
-                                    </li>
-                                    <li>
-                                        <span>2. 개인정보 이용목적</span>
-                                        <p>
-                                            - BEST SHOP 미리미리 페스티벌 경품 응모<br>
-                                            - 매장 상담 예약 확인 TM
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <span>1. 수집하는 개인정보의 항목</span>
-                                        <p>1) 필수사항 : 이름, 휴대폰번호, 매장 방문 가능일, 구매 희망 제품, 방문 예정
-                                            매장, 구매 희망 시기</p>
-                                    </li>
-                                    <li>
-                                        <span>2. 개인정보 이용목적</span>
-                                        <p>
-                                            - BEST SHOP 미리미리 페스티벌 경품 응모<br>
-                                            - 매장 상담 예약 확인 TM
-                                        </p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="check-box">
-                        <input type="checkbox" class="agr-check" id="agr-optional">
-                        <label for="agr-optional">
-                            <span class="name"><em>(선택)</em>마케팅 정보활용에 동의합니다.</span>
-                        </label>
-                        <button type="button" class="agr-more active"><span class="blind">약관 내용 보기</span></button><!-- active 클래스 추가 -->
-                        <div class="agr-txt-wrap active"><!-- active 클래스 추가 -->
-                            <div class="inner custom-scroll">
-                                <ul>
-                                    <li>
-                                        <span>1. 마케팅 정보활용 동의</span>
-                                        <p>1) 필수 : 이름, 휴대번호, 매장방문일, 구매 희망 제품, 방문 예정 매장, 구매
-                                            희망 시기</p>
-                                    </li>
-                                    <li>
-                                        <span>2. 개인정보 이용목적</span>
-                                        <p>- 신제품 / 할인 행사 등 고객 맞춤 판촉 관련 TM 및 SMS 발송</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="bottom-area">
-        <h4 class="tit">필수 위탁 고지</h4>
-        <p class="desc">LG전자는 개인정보 취급업무 중 서비스 제공에 필요한 필수적 업무를 아래와 같이 외부 전문업체에 위탁하여 운영하고 있으며, 해당 업체는 서비스 이행을 위한 목적으로만 사용됩니다.</p>
-        <div class="tb_row tb-row-bl white size-s">
-            <table>
-                <caption>필수 위탁 고지 표</caption>
-                <colgroup>
-                    <col style="width:50%">
-                    <col style="width:50%">
-                </colgroup>
-                <thead>
-                    <tr>
-                        <th scope="col">위탁업체 (수탁자)</th>
-                        <th scope="col">위탁업무 내용</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>LG CNS / 하이프라자</td>
-                        <td>시스템관리, 홈페이지 운영, 회원정보 관리</td>
-                    </tr>
-                    <tr>
-                        <td>하이텔레서비스</td>
-                        <td>콜센터 상담업무 (고객문의응대)</td>
-                    </tr>
-                    <tr>
-                        <td>KPR, 스캣 커뮤니케이션, 이지인 커뮤니케이션, 에코앤컴퍼니, 서브원</td>
-                        <td>이벤트 당첨자 전화 안내 및 경품, 사은품 발송</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-</div>
-
                     </div>
 
                 </div>
@@ -421,6 +439,53 @@
 
 <script>
     $(document).ready(function () {
+        // 배너 슬라이드
+        if($('.img-slide .swiper-slide').length > 1){
+
+            var imgSwiper = new Swiper(".img-slide", {
+                speed : 800,
+                slidesPerView: 1,
+                autoplay: {
+                    delay:5000
+                },
+                pagination: {
+                    el: ".img-slide .slide-navi .pager-fraction",
+                    type: "fraction"
+                },
+                navigation: {
+                    nextEl: ".img-slide .slide-navi .slideBtn.btn-next",
+                    prevEl: ".img-slide .slide-navi .slideBtn.btn-prev"
+                },
+
+                autoHeight : true,
+                loop : true,
+                loopAdditionalSlides: 1,
+            });
+
+            // 배너 슬라이드 (autoplay control)
+            $('.img-slide .swiper-auto > button').on('click', function(){
+                $('.img-slide .swiper-auto > button').toggleClass('active');
+
+                if ($(this).hasClass('btn-play')){
+                    imgSwiper.autoplay.start();
+                } 
+                else {
+                    imgSwiper.autoplay.stop();
+                };
+            });
+        } else {
+
+            $('.img-slide .slide-navi').css('display', 'none');
+        }
+
+        if($('.swiper-slide .video-wrap').children().hasClass('iframe-wrap')){
+
+            $('.swiper-slide .video-wrap').removeClass('video');
+        } else {
+
+            $('.swiper-slide .video-wrap').addClass('video');
+        }
+        
         // 상단 예약진행 가이드 영역
         var resbanner01 = new Swiper(".guide-banner-care-ex", {
             slidesPerView: 'auto',
@@ -569,6 +634,17 @@
         if($(this).closest('.step-area').hasClass('middle')){ // 위의 상황이 지나고 다시 펼칠때
             $('.step02 .btn-area').slideDown(400);
             $('.step02').removeClass('middle');
+        }
+    });
+
+    var _winW = $(window).width();
+    
+    // video control
+    $('.btn-video-view').on('click', function(){
+        if(_winW < 1025){
+            $('#popup-video').css('display', 'block').find('video.mobileOnly').get(0).play();
+        } else {
+            $('#popup-video').css('display', 'block').find('video.pcOnly').get(0).play();
         }
     });
 </script>

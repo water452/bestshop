@@ -200,7 +200,6 @@ html.full-height .floating-block{display:none;}
 /* benefit > 이달의 혜택 */
 .benefit-month {position:relative;}
 .benefit-month .img-slide {border-radius:0;}
-.benefit-month .img-slide-wrap .img-wrap img {max-width:none;}
 .benefit-month .popup.v-large .pop-wrap {border-radius:0;}
 .benefit-month .btn-area {margin-top:65px;}
 
