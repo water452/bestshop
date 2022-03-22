@@ -344,8 +344,8 @@ ul.input-list-type .txt-box .input-wrap{width:100%;}
     .search-result .result-filter .filter-list{padding:32px 0;}
     .search-result .result-filter .filter-title{padding-bottom:15px;}
     .search-result .result-filter .filter-close{top:48px;right:10px;}
-    .search-result .result-filter .btn-area{position:absolute;top:48px;right:35px;margin-top:0;}
-    .search-result .result-filter .btn-area .btn-reset{width:24px;height:24px;font-size:0;padding:0;background-position:0 0;background-size:contain;}
+    .search-result .result-filter .btn-area{position:absolute;top:48px;right:37px;margin-top:0;}
+    .search-result .result-filter .btn-area .btn-reset{width:24px;height:24px;font-size:0;padding:0;background-image:url('../images/icons/icon_reset.svg');background-position:0 0;background-size:contain;}
     .search-result .result-filter .dimmde{display:none;content:'';position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.7);}
 
     .shop-search-wrap .shop-search-body .desc-layer{display:block;position:fixed;bottom:88px;z-index:100;}
