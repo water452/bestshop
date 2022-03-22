@@ -954,7 +954,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .shop-date-wrap .map-wrap {padding:11px}
     .sort-block + .popup.toast .pop-wrap {bottom:13px; width:100%}
     .map-wrap > .input-select-type {position:static; margin-bottom:8px}
-    .map-wrap .api-area {height:333px; margin-top:0}
+    .map-wrap .api-area {height:335px; margin-top:0}
     .map-wrap .api-area .map-list-wrap {width:100%!important; left:0; right:0; top:auto; bottom:-176px; height:220px; padding:52px 0 26px; border-radius:8px 8px 0 0; background-color:rgba(255,255,255,0.9); overflow:hidden; box-shadow:0 -3px 6px 0 rgba(0,0,0,0.16)}
     .map-wrap .api-area .map-list-wrap.active {bottom:0; padding-top:26px}
     .map-wrap .api-area .map-list-wrap .list-inner {width:100%!important; height:100%; background-color:transparent; box-shadow:none}
@@ -971,7 +971,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .map-wrap > ul[class*="input"] > li .slt {width:100%}
     .map-wrap [class*="input"] > li + li {margin-left:6px}
     .shop-date-wrap .list-wrap .search-wrap {padding:0 23px 11px}
-    .shop-date-wrap .list-wrap .view-wrap {flex-direction:column}
+    .shop-date-wrap .list-wrap .view-wrap {flex-direction:column; height:355px}
     .shop-date-wrap .list-wrap .view-wrap .lt {display:none}
     .shop-date-wrap .list-wrap .view-wrap .mo-select {display:block; padding:16px 12px 8px}
     .shop-date-wrap .list-wrap .view-wrap .mo-select .slt {width:100%; font-size:14px; line-height:20px}
