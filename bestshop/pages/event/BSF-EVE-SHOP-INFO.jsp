@@ -190,7 +190,6 @@
                         <jsp:include page="../../templates/reservation/input-user-info.jsp" /> <!-- //input-user-info.jsp -->
 
                     </div>
-
                 </div>
                 <!-- // step 3 -->
 
