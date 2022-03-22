@@ -527,7 +527,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 .plp-list-wrap .lay-filter .plp-filter-wrap .box .tit .sel-num {margin-left:2px}
 .plp-list-wrap .lay-filter .plp-filter-wrap .box .list-wrap {padding-bottom:28px}
 .plp-list-wrap .lay-filter .plp-filter-wrap .box .tit-wrap a {position:relative; display:block}
-.plp-list-wrap .lay-filter .plp-filter-wrap .box .tit-wrap a::after {content:''; display:block; position:absolute; width:16px; height:16px; right:0; top:calc(50% - 8px); background:url(../images/icons/icon-arr-footer-16.svg) no-repeat center / contain; transform:rotate(0); transition:all .3s}
+.plp-list-wrap .lay-filter .plp-filter-wrap .box .tit-wrap a::after {content:''; display:block; position:absolute; width:16px; height:16px; right:0; top:35px; background:url(../images/icons/icon-arr-footer-16.svg) no-repeat center / contain; transform:rotate(0); transition:all .3s}
 .plp-list-wrap .lay-filter .plp-filter-wrap .box.active .tit-wrap a::after {transform:rotate(180deg)}
 .plp-list-wrap .lay-filter .plp-filter-wrap .box .filter-list > li + li {margin-top:16px}
 .plp-list-wrap .lay-filter .plp-filter-wrap .box .filter-list .check-box input + label {font-size:14px; line-height:24px}
@@ -751,6 +751,8 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .tab01.filter {position:relative; margin-top:40px; padding-left:57px}
     .tab01.filter .tab02 > ul {margin-left:40px}
     .tab01.filter .btn-filter {display:block; position:absolute; left:0; top:10px; width:25px; height:25px; background:url(../images/icons/btn-filter-50.svg) no-repeat center / contain}
+    .tab01.filter .btn-filter > a {display:block}
+    .tab01.filter .btn-filter > .count {position:absolute; display:block; width:16px; height:16px; top:-1.5px; right:-4px; border-radius:50%; background-color:#da0f47; color:#fff; font-size:12px; font-weight:500; line-height:15px; text-align:center}
     .tab01.filter.is_depth {padding-left:0}
     .tab01.filter.is_depth .btn-filter {top:64.5px; z-index:8}
     .plp-list-wrap .lay-filter {display:none; position:fixed; top:0; left:0; right:0; bottom:0; width:100%; margin-right:0; padding:48px 16px 0; z-index:9000}

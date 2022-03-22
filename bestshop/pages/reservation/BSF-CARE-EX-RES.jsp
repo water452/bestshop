@@ -87,6 +87,7 @@
                 <div class="tab01 tabOn tabSlide filter">
                     <div class="btn-filter">
                         <a href="#"><span class="blind">옵션필터</span></a>
+                        <span class="count">2</span>
                     </div>
                     <ul>
                         <li class="on">

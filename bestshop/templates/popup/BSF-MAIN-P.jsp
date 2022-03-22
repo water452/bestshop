@@ -109,7 +109,6 @@
     $(document).ready(function () {
         // 메인 팝업 슬라이드
         var imgSwiper = new Swiper(".img-slide", {
-            speed : 800,
             slidesPerView: 1,
             navigation: {
                 nextEl: ".img-slide .swiper-button-next",
@@ -119,19 +118,6 @@
                 el: ".pager-pagination",
             },
             loop : true,
-            // loopAdditionalSlides: 1,
-        });
-
-        // 메인 팝업 슬라이드 (autoplay control)
-        $('.img-slide .swiper-auto > button').on('click', function(){
-            $('.img-slide .swiper-auto > button').toggleClass('active');
-
-            if ($(this).hasClass('btn-play')){
-                imgSwiper.autoplay.start();
-            } 
-            else {
-                imgSwiper.autoplay.stop();
-            };
         });
     })
 </script>
