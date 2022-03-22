@@ -327,10 +327,13 @@ ul.input-list-type .input-wrap:first-of-type{margin-top:0}
 .header-bottom .menu-wrap > ul > li .menu-category-layer .category-items .depth3 ul li a:focus,
 .header-bottom .menu-wrap > ul > li .menu-category-layer .category-items .depth3 ul li a:active{text-decoration:underline}
 
-.bnr-block .swiper-navi .slideBtn{display:block;overflow:hidden;position:absolute;top:calc(50% - 20px);width:16px;height:16px;font-size:0;text-indent:-9999em;background:url('../images/icons/ico-gnb-slide.svg') no-repeat 0 0;background-size:contain;z-index:10;}
+.bnr-block .swiper-navi{display:none;}
+.bnr-block.looped .swiper-navi{display:block;}
+.bnr-block .swiper-navi .slideBtn{display:block;overflow:hidden;position:absolute;top:calc(50% - 52px);width:32px;height:32px;font-size:0;text-indent:-9999em;background:url('../images/icons/ico_gnb_bnr_arrow.svg') no-repeat 0 0;background-size:contain;z-index:10;}
 .bnr-block .swiper-navi .slideBtn.btn-prev{right:20px;transform:rotate(180deg);}
 .bnr-block .swiper-navi .slideBtn.btn-next{left:20px;}
-.bnr-block .swiper-navi .autoBtn{display:block;overflow:hidden;position:absolute;bottom:73px;right:30px;width:30px;height:30px;font-size:0;z-index:11;}
+.bnr-block .swiper-navi .autoBtn{display:none;overflow:hidden;position:absolute;bottom:78px;right:20px;width:30px;height:30px;font-size:0;z-index:11;}
+.bnr-block .swiper-navi .autoBtn.active{display:block;}
 .bnr-block .swiper-navi .swiper-pager{position:absolute;bottom:73px;left:0;width:100%;text-align:center;z-index:10;}
 .bnr-block .swiper-navi .swiper-pager .swiper-pagination-bullet{display:inline-block;width:30px;height:2px;margin:0;background:rgba(255,255,255,0.4);border-radius:0;opacity:1;}
 .bnr-block .swiper-navi .swiper-pager .swiper-pagination-bullet + .swiper-pagination-bullet{margin-left:5px;}

@@ -484,26 +484,44 @@ $(document).ready(function() {
     //mega-gnb > banner
     $(".megaBnr").each(function(index, element){
         var $this = $(this),
-            _idx = index + 1;
-        $this.addClass('inst-' + index);
-    
-        var loopChk = '';
-        var megaBnr = new Swiper('.inst-' + index, {
-            autoplay: true,
-            observer: true,
-            observeParents: true,
-            slidesPerView : 1,
-            spaceBetween: 10,
-            loop: true,
-            loopedSlides: 1,
-            navigation: {
-                nextEl: $('.inst-' + index).siblings('.swiper-button-next'),
-                prevEl: $('.inst-' + index).siblings('.swiper-button-prev'),
+            $slt = '.inst-' + index,
+            $optionBase = {
+                observer: true,
+                observeParents: true,
+                slidesPerView : 1,
+                spaceBetween: 10,
             },
-            pagination: {
-                el: ".swiper-pager",
-            }
-        });
+            $optionLoop = {
+                autoplay: true,
+                loop: true,
+                loopedSlides: 1,
+                observer: true,
+                observeParents: true,
+                slidesPerView : 1,
+                spaceBetween: 10,
+                navigation: {
+                    nextEl: '.swiper-navi .btn-prev',
+                    prevEl: '.swiper-navi .btn-next'
+                },
+                pagination: {
+                    el: ".swiper-pager",
+                }
+            };
+
+        $this.addClass('inst-' + index);
+
+        if($this.find('.swiper-slide').length > 1){
+            var megaBnr = new Swiper($slt, $optionLoop);
+            $this.addClass('looped');
+
+            $('.autoBtn').on('click', function(){
+                $(this).toggleClass('active');
+                if($(this).hasClass('btn-pause')){
+                }
+            });
+        } else {
+            var megaBnr = new Swiper($slt, $optionBase);
+        }
     });
 
     var megaBnrm = new Swiper(".megaMobileBnr", {

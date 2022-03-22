@@ -142,7 +142,7 @@
                             </ul>
                             <div class="swiper-navi">
                                 <div class="swiper-pager"></div>
-                                <!-- <button type="button" class="autoBtn btn-play">재생</button> -->
+                                <button type="button" class="autoBtn btn-play">재생</button>
                                 <button type="button" class="autoBtn active btn-pause">멈추기</button>
                                 <button type="button" class="slideBtn btn-prev">이전 슬라이드</button>
                                 <button type="button" class="slideBtn btn-next">다음 슬라이드</button>
@@ -161,7 +161,7 @@
                             </ul>
                             <div class="swiper-navi">
                                 <div class="swiper-pager"></div>
-                                <!-- <button type="button" class="autoBtn btn-play">재생</button> -->
+                                <button type="button" class="autoBtn btn-play">재생</button>
                                 <button type="button" class="autoBtn active btn-pause">멈추기</button>
                                 <button type="button" class="slideBtn btn-prev">이전 슬라이드</button>
                                 <button type="button" class="slideBtn btn-next">다음 슬라이드</button>
@@ -184,7 +184,7 @@
                             </ul>
                             <div class="swiper-navi">
                                 <div class="swiper-pager"></div>
-                                <!-- <button type="button" class="autoBtn btn-play">재생</button> -->
+                                <button type="button" class="autoBtn btn-play">재생</button>
                                 <button type="button" class="autoBtn active btn-pause">멈추기</button>
                                 <button type="button" class="slideBtn btn-prev">이전 슬라이드</button>
                                 <button type="button" class="slideBtn btn-next">다음 슬라이드</button>
