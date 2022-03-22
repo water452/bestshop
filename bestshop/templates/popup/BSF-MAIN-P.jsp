@@ -8,7 +8,9 @@
         <div class="pop-cont">
 
             <div class="pop-slide-wrap">
+
                 <div class="swiper img-slide">
+
                     <ul class="swiper-wrapper">
                         <li class="swiper-slide">
                             <div class="img-wrap">
@@ -17,7 +19,7 @@
                             </div>
 
                             <div class="btn-area m-full">
-                                <a href="#" class="btn border">이벤트 상세보기</a>
+                                <!-- <a href="#" class="btn border">이벤트 상세보기</a> -->
                                 <a href="#" class="btn border">상담 예약하기</a>
                             </div>
                         </li>
@@ -51,7 +53,7 @@
 
                             <div class="btn-area m-full">
                                 <a href="#" class="btn border">이벤트 상세보기</a>
-                                <a href="#" class="btn border">상담 예약 하기</a>
+                                <!-- <a href="#" class="btn border">상담 예약 하기</a> -->
                             </div>
                         </li>
                         <li class="swiper-slide">
@@ -75,13 +77,13 @@
                                 <a href="#" class="btn border">상담 예약 하기</a>
                             </div>
                         </li>
-                    </ul>
+                    </ul>  
                     
                     <div class="banner-btns">
                         <div class="swiper-button-prev">이전 슬라이드</div>
                         <div class="swiper-button-next">다음 슬라이드</div>
                     </div>
-                    
+
                     <div class="slide-navi">
                         <div class="slide-navi-detail">
                             <div class="swiper-pager">
@@ -89,8 +91,9 @@
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
+
             </div>
 
         </div>
@@ -102,6 +105,7 @@
             <button type="button" class="btn s01 btnPopCancel">닫기</button>
         </div>
         <button type="button" class="btn-pop-close btnPopClose"><span class="blind">닫기</span></button>
+
     </div>
 </div>
 
