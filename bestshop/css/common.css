@@ -623,7 +623,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 
 .pop-wrap.main .pop-slide-wrap .slide-navi{bottom:0!important}
 .pop-wrap.main .pop-slide-wrap .swiper-pager{width:100%;padding:0;background:none;text-align:center}
-.pop-wrap.main .pop-slide-wrap .banner-btns{width:100%;top:calc(50% - 25px)}
+.pop-wrap.main .pop-slide-wrap .banner-btns{width:100%;top:calc(50% - 5px)}
 .pop-wrap.main .pop-slide-wrap .banner-btns .swiper-button-prev{left:10px}
 .pop-wrap.main .pop-slide-wrap .banner-btns .swiper-button-next{right:10px}
 
@@ -989,7 +989,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	.pop-wrap.main .pop-slide-wrap .txt-wrap .txt p + p{margin-top:12px}
 	.pop-wrap.main .pop-slide-wrap .btn-area{margin-top:16px}
 
-	.pop-wrap.main .pop-slide-wrap .banner-btns{top:calc(50% - 15px);height:24px}
+	.pop-wrap.main .pop-slide-wrap .banner-btns{top:calc(50% - 3px);height:24px}
 	.pop-wrap.main .pop-slide-wrap .banner-btns [class^="swiper-button"]{width:24px;height:24px}
 	.pop-wrap.main .pop-slide-wrap .banner-btns .swiper-button-prev{left:4px}
 	.pop-wrap.main .pop-slide-wrap .banner-btns .swiper-button-next{right:4px}
