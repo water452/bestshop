@@ -447,10 +447,9 @@
             <div class="floating-custom-wrap">
             <a href="javascript:void(0);" class="main-btn"><span class="blind">서비스 메뉴 열기</span></a>
             <ul class="service-list">
-                <li><a href="/bestshop/pages/reservation/BSF-RES-VISIT.jsp">매장 상담 예약 <img src="/bestshop/images/icons/icon-resv.svg"></a></li>
-                <li><a href="/bestshop/pages/shop/BSF-SHOP-LIST.jsp">매장 찾기 <img src="/bestshop/images/icons/icon-resv.svg"></a></li>
-                <li><a href="/bestshop/pages/event/BSF-EVE-BSTAB.jsp">베스트샵 이벤트 <img src="/bestshop/images/icons/icon-resv.svg"></a></li>
-                <li><a href="/bestshop/pages/reservation/BSF-RES-INQ.jsp">상담 예약 조회 <img src="/bestshop/images/icons/icon-resv.svg"></a></li>
+                <li class="reservation"><a href="/bestshop/pages/reservation/BSF-RES-VISIT.jsp">매장 상담 예약</a></li>
+                <li class="search-store"><a href="/bestshop/pages/shop/BSF-SHOP-LIST.jsp">매장 찾기</a></li>
+                <li class="event"><a href="/bestshop/pages/event/BSF-EVE-BSTAB.jsp">베스트샵 이벤트</a></li>
             </ul>
             </div>
         </div>

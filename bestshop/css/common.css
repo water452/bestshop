@@ -468,7 +468,10 @@ select.family-site{display:none;}
 .floating-block .floating-custom-wrap .main-btn.active:before{background-image:url('../images/icons/icon-more-plus-x.png');transform:rotate(45deg);}
 .floating-block .service-list{display:none;}
 .floating-block .service-list li + li{margin-top:10px;}
-.floating-block .service-list a{overflow:hidden;position:relative;width:100%;font-size:16px;text-align:center;line-height:26px;white-space:nowrap;padding:14px 68px 14px 28px;background:#fff;border:1px solid #fff;border-radius:28px;box-shadow:0 4px 11px 0 rgba(0,0,0,0.15);}
+.floating-block .service-list li.reservation a {background:#fff url(../images/icons/icon-resv.svg) no-repeat right 16px center / 40px 40px}
+.floating-block .service-list li.search-store a {background:#fff url(../images/icons/icon-shop-search.svg) no-repeat right 16px center / 40px 40px}
+.floating-block .service-list li.event a {background:#fff url(../images/icons/icon-event.svg) no-repeat right 16px center / 40px 40px}
+.floating-block .service-list a{position:relative;width:100%;font-size:16px;text-align:center;line-height:26px;white-space:nowrap;padding:14px 68px 14px 28px;background:#fff;border:1px solid #fff;border-radius:28px;box-shadow:0 4px 11px 0 rgba(0,0,0,0.15);}
 .floating-block .service-list a:focus,
 .floating-block .service-list a:active{border-color:#fa263e;outline-color:#fa263e;outline-width:1px;}
 .floating-block .service-list a img{display:block;position:absolute;top:8px;right:16px;}
@@ -889,12 +892,15 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 
 	.floating-block{bottom:94px;right:14px;z-index:1000;}
 	.floating-block .top-btn{width:40px;height:40px;background-size:32px 32px;}
-	.floating-block .floating-custom-wrap{width:145px;padding-bottom:50px;}
-	.floating-block .floating-custom-wrap .main-btn {display:none} /* 0321 일시 숨김 */
+	.floating-block .floating-custom-wrap{width:auto;padding-bottom:50px;}
+	.floating-block .floating-custom-wrap.active{width:auto}
+	.floating-block .floating-custom-wrap .main-btn {display:block} /* 0321 일시 숨김 */
 	.floating-block .floating-custom-wrap .main-btn{width:40px;height:40px;}
 	.floating-block .floating-custom-wrap .main-btn:before{top:calc(50% - 16px);left:calc(50% - 16px);width:32px;height:32px;}
-	.floating-block .service-list a{font-size:13px;line-height:21px;padding:8px 36px 9px 16px;border-radius:28px;}
-	.floating-block .service-list a img{top:6px;right:10px;width:24px;height:24px;}
+	.floating-block .service-list a{font-size:13px;line-height:21px;padding:8.5px 36px 8.5px 16px;border-radius:28px;}
+	.floating-block .service-list li.reservation a {background:#fff url(../images/icons/icon-resv_mo.svg) no-repeat right 10px center / 24px 24px}
+	.floating-block .service-list li.search-store a {background:#fff url(../images/icons/icon-shop-search_mo.svg) no-repeat right 10px center / 24px 24px}
+	.floating-block .service-list li.event a {background:#fff url(../images/icons/icon-event_mo.svg) no-repeat right 10px center / 24px 24px}
 	.floating-block.active .floating-custom-wrap{bottom:50px;}
 
 	.innerLayer .floating-block{bottom:200px;}
