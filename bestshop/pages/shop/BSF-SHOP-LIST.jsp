@@ -397,7 +397,7 @@
 
     // filter popup mobile > toggle
     function filterToggleM(){
-        $('.btn-filter, .filter-close').on('click', function(){
+        $('.btn-filter, .filter-close, .search-result .result-filter .dimmde').on('click', function(){
             var _ths = $(this);
             if(_ths.hasClass('btn-filter')){
                 $('.result-filter').stop().animate({'margin-right':'0'}, 200);

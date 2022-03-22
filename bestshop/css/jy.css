@@ -197,7 +197,7 @@ ul.input-cate-type .cate-tit > .icon.apple-watch { background: url("../images/ic
 
 /* 비노출페이지 > 이벤트 > 라이브 방송 */
 .img-slide .slide-bg { background-repeat: no-repeat; background-position: center; background-size: cover; }
-.img-slide .slide-bg:before { content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); }
+/* .img-slide .slide-bg:before { content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); } */
 .img-slide .li-wrap { position: relative; margin: 0 auto; padding: 60px 40px 90px 40px; max-width: 1460px; height: 480px; }
 .img-slide .li-wrap .time-deal-countdown { position: relative; top: auto; }
 .img-slide .li-wrap .tit:first-child { margin-top: 0; padding-top: 60px; }
