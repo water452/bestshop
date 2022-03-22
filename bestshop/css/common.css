@@ -894,7 +894,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	.floating-block .top-btn{width:40px;height:40px;background-size:32px 32px;}
 	.floating-block .floating-custom-wrap{width:auto;padding-bottom:50px;}
 	.floating-block .floating-custom-wrap.active{width:auto}
-	.floating-block .floating-custom-wrap .main-btn {display:block} /* 0321 일시 숨김 */
+	.floating-block .floating-custom-wrap .main-btn {display:none} /* 0321 일시 숨김 */
 	.floating-block .floating-custom-wrap .main-btn{width:40px;height:40px;}
 	.floating-block .floating-custom-wrap .main-btn:before{top:calc(50% - 16px);left:calc(50% - 16px);width:32px;height:32px;}
 	.floating-block .service-list a{font-size:13px;line-height:21px;padding:8.5px 36px 8.5px 16px;border-radius:28px;}
