@@ -11,17 +11,9 @@
         <div class="cont-wrap">
             <!-- 이벤트배너 -->
             <div class="top-wrap top-visual">
-                <!-- 이벤트배너 -->
-                <!-- s : 단일 이미지 등록 case
-                <div class="tit-img-area">
-                    <img class="m-hidden" src="../../images/img-careship-banner-01.png" alt="&nbsp;" /><!#-- pc용 --#>
-                    <img class="pc-hidden" src="../../images/img-careship-banner-01_mo.png" alt="&nbsp;" /><!#-- mobile용 --#>
-                </div>
-                e : 단일 이미지 등록 case -->
-    
-                <!-- s : 다중 컨텐츠 등록 case -->
+                <!-- s : 이벤트배너 -->
                 <div class="img-slide-wrap">
-                    <div class="swiper img-slide h-452 bdr-0">
+                    <div class="swiper img-slide">
                         <ul class="swiper-wrapper">
                             <li class="swiper-slide slide-bg" style="background-image: url('../../images/slide-event-live.png');">
                                 <div class="li-wrap">
@@ -49,19 +41,31 @@
                                     <div class="btn-area"><a href="javascript:void(0);" class="btn border-white">자세히 보기</a></div>
                                 </div>
                             </li>
-                            <li class="swiper-slide slide-bg" style="background-image: url('../../images/slide-event-live.png');">
-                                <div class="li-wrap">
-                                    <dfn class="tit">강남본점 리뉴얼 오픈 매장소개 LIVE</dfn>
-                                    <span class="date">2202.02.14 오후 7시</span>
-                                    <span class="txt">라이브에서 더 많은 혜택을 만나보세요!</span>
-                                    <div class="btn-area"><a href="javascript:void(0);" class="btn border-white">자세히 보기</a></div>
-                                </div>
-                            </li>
                             <li class="swiper-slide">
                                 <div class="img-wrap">
                                     <button type="button" class="btn-video-view">영상보기</button>
                                     <img class="m-hidden" src="../../images/img-banner-dummy.png" alt="&nbsp;" /><!-- pc용 -->
                                     <img class="pc-hidden" src="../../images/img-banner-dummy-mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="video-wrap">
+                                        <!-- s : video case
+                                        <video class="pcOnly" autoplay="" playsinline="" muted="" poster="../../images/img-benefit-month-slide-test.png" class="videoPoster" loop>
+                                            <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
+                                            <p>LG전자 회사소개 동영상</p>
+                                        </video>
+                                        <video class="mobileOnly" autoplay="" playsinline="" muted="" poster="../../images/img-benefit-month-slide-test-mo.png" class="videoPoster" loop>
+                                            <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
+                                            <p>LG전자 회사소개 동영상</p>
+                                        </video>
+                                        e : video case -->
+
+                                    <!-- s : iframe case -->
+                                    <div class="iframe-wrap">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/PKELCx-C_Og" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <!-- e : iframe case -->
                                 </div>
                             </li>
                         </ul>
@@ -80,14 +84,14 @@
                         </div>
                     </div>
                 </div>
-                <!-- e : 다중 컨텐츠 등록 case -->
-                <!-- //이벤트배너 -->
-    
+                <!-- // e : 이벤트배너 -->
+
                 <!-- 팝업 : 영상 팝업 s -->
                 <div class="popup v-large video" id="popup-video">
                     <div class="pop-wrap white">
-                        <div class="pop-cont h-452">
+                        <div class="pop-cont h-480">
                             <div class="video-wrap">
+                                <!-- s : video case -->
                                 <video class="pcOnly" playsinline="" muted="" poster="../../images/img-benefit-month-slide-test.png" class="videoPoster" loop> <!-- pc only -->
                                     <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
                                     <p>LG전자 회사소개 동영상</p>
@@ -96,6 +100,13 @@
                                     <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
                                     <p>LG전자 회사소개 동영상</p>
                                 </video>
+                                <!-- e : video case -->
+
+                                <!-- s : iframe case 
+                                <div class="iframe-wrap">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/PKELCx-C_Og" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                 e : iframe case -->
                             </div>
                         </div>
                         <button type="button" class="btn-pop-close btnPopClose"><span class="blind">닫기</span></button>
@@ -345,34 +356,52 @@
 <!-- 팝업: (알림 신청 취소) -->
 
 <script>
-    // 슬라이드
-    var imgSwiper = new Swiper(".img-slide", {
-        speed : 800,
-        slidesPerView: 1,
-        autoplay: {
-            delay:5000
-        },
-        pagination: {
-            el: ".img-slide .slide-navi .pager-fraction",
-            type: "fraction"
-        },
-        navigation: {
-            nextEl: ".img-slide .slide-navi .slideBtn.btn-next",
-            prevEl: ".img-slide .slide-navi .slideBtn.btn-prev"
-        }
-    });
+    // 배너 슬라이드
+    if($('.img-slide .swiper-slide').length > 1){
 
-    // 슬라이드 (autoplay control)
-    $('.img-slide .swiper-auto > button').on('click', function(){
-        $('.img-slide .swiper-auto > button').toggleClass('active');
+        var imgSwiper = new Swiper(".img-slide", {
+            speed : 800,
+            slidesPerView: 1,
+            autoplay: {
+                delay:5000
+            },
+            pagination: {
+                el: ".img-slide .slide-navi .pager-fraction",
+                type: "fraction"
+            },
+            navigation: {
+                nextEl: ".img-slide .slide-navi .slideBtn.btn-next",
+                prevEl: ".img-slide .slide-navi .slideBtn.btn-prev"
+            },
 
-        if ($(this).hasClass('btn-play')){
-            imgSwiper.autoplay.start();
-        } 
-        else {
-            imgSwiper.autoplay.stop();
-        };
-    });
+            autoHeight : true,
+            loop : true,
+            loopAdditionalSlides: 1,
+        });
+
+        // 배너 슬라이드 (autoplay control)
+        $('.img-slide .swiper-auto > button').on('click', function(){
+            $('.img-slide .swiper-auto > button').toggleClass('active');
+
+            if ($(this).hasClass('btn-play')){
+                imgSwiper.autoplay.start();
+            } 
+            else {
+                imgSwiper.autoplay.stop();
+            };
+        });
+    } else {
+
+        $('.img-slide .slide-navi').css('display', 'none');
+    }
+
+    if($('.swiper-slide .video-wrap').children().hasClass('iframe-wrap')){
+
+        $('.swiper-slide .video-wrap').removeClass('video');
+    } else {
+
+        $('.swiper-slide .video-wrap').addClass('video');
+    }
 
     // countdown
     $(function(){
