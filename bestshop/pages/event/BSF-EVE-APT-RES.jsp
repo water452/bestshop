@@ -15,7 +15,7 @@
             <div class="top-wrap top-visual">
                 <!-- s : 이벤트배너 -->
                 <div class="img-slide-wrap">
-                    <div class="swiper img-slide bdr-0">
+                    <div class="swiper img-slide">
                         <ul class="swiper-wrapper">
                             <li class="swiper-slide">
                                 <div class="img-wrap">
