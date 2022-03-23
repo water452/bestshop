@@ -52,10 +52,17 @@
             </dl>
         </div>
         <div class="inner-contents">
+            <!-- 당첨 내역 없을시 -->
             <div class="search-result">
                 <h3 class="search-result-title-default">당첨자 검색 결과</h3>
                 <p class="no-result-msg">당첨 내역이 없습니다. 다음 이벤트를 기대해주세요!</p>
             </div>
+            <!-- // 당첨 내역 없을시 -->
+
+            <!-- 당첨 내역 있을시 -->
+            <h3 class="search-result-title-default">당첨자 검색 결과</h3>
+            <!-- // 당첨 내역 있을시 -->
+
             <div class="table-cont">
                 <h4 class="tb-tit">1등 당첨자 (1명)</h4>
                 <div class="list-table-type">

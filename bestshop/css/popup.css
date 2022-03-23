@@ -16,7 +16,7 @@
 .win-popup-wrap .pop-footer .btn-group { text-align: center; } 
 
 /* 당첨자 발표 */
-.win-popup-wrap .inner-contents .search-result {padding-bottom: 50px;margin: 10px 0 60px 0;border-bottom: 1px solid #000; } 
+.win-popup-wrap .inner-contents .search-result {padding-bottom: 50px;margin: 0 0 60px 0;border-bottom: 1px solid #000; } 
 .win-popup-wrap .inner-contents .search-result h1 {color: #da0f47;font-size: 30px;margin-bottom: 40px;background-color: #fff; } 
 .win-popup-wrap .inner-contents .search-result .no-result-msg {font-size: 20px;line-height:26px;} 
 .win-popup-wrap .inner-contents .table-cont h2.event-title {font-size: 24px;margin-bottom: 15px; } 
@@ -35,8 +35,7 @@
 .win-popup-wrap.event-popup .form-wrap .forms .tit { display: none; }
 .win-popup-wrap.event-popup .form-wrap .forms .conts .input-wrap { display: inline-block; max-width: 440px; width: calc(100% - 78px); vertical-align: top; }
 .win-popup-wrap.event-popup .form-wrap .forms .btn { margin-left: 10px; }
-.search-result-title-default { color: #da0f47; font-size: 30px; }
-.search-result-title-default + .no-result-msg { margin-top: 40px; }
+.search-result-title-default { margin-bottom: 40px; color: #da0f47; font-size: 30px; }
 
 .list-table-type > ul {display:flex; flex-wrap:wrap}
 .list-table-type > ul > li {display:flex; width:50%; border-bottom:1px solid #ddd; font-size:16px; line-height:24px; text-align:center}
@@ -72,7 +71,7 @@
 
 /* Mobile */
 .mdevice .win-popup-wrap .tit-area {height: auto;padding-bottom: 30px; } 
-.mdevice .win-popup-wrap .inner-contents {padding-top: 60px; } 
+.mdevice .win-popup-wrap .inner-contents {padding-top: 70px; } 
 .mdevice .win-popup-wrap .inner-contents .event-win-result::before {margin-bottom: 15px; } 
 .mdevice .win-popup-wrap .inner-contents .event-win-result .event-winner .winner-goods {font-size: 22px;text-align: center; } 
 .mdevice .win-popup-wrap .inner-contents .event-win-result .event-winner .winner-info {font-size: 17px;width: 100%;flex-direction: column;gap: 15px;margin-top: 15px; } 
@@ -112,8 +111,7 @@
     .win-popup-wrap.event-popup .inner-contents .search-result .no-result-msg { line-height: 20px; font-size: 14px; }
     .win-popup-wrap.event-popup .inner-contents .table-cont .tb-tit { margin-bottom: 14px; line-height: 20px; font-size: 14px; }
     .win-popup-wrap.event-popup .inner-contents .table-cont ~ .table-cont {margin-top: 35px; } 
-    .search-result-title-default { line-height: 36px; font-size: 24px; }
-    .search-result-title-default + .no-result-msg { margin-top: 30px; }
+    .search-result-title-default { margin-bottom: 30px; line-height: 36px; font-size: 24px; }
 
     .list-table-type > ul > li {font-size:13px; line-height:19px}
     .list-table-type .title-area li > * {padding:12px 6px}
