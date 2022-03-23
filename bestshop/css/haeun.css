@@ -1009,7 +1009,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .date-wrap .calendar .mo-top {position:relative; padding-right:49px}
     .date-wrap .calendar .mo-top::after {content:''; display:block; position:absolute; width:16px; height:16px; top:15px; right:12px; background:url(../images/icons/icon-calendar.svg) no-repeat center / contain}
     .date-wrap .calendar .cal-cont {display:none}
-    .date-wrap .calendar.active .cal-cont {position:absolute; display:block; height:269px; left:-1px; right:-1px; top:-1px; border-radius:8px; border:1px solid #ddd; background-color:#fff; z-index:10; overflow:hidden}
+    /* .date-wrap .calendar.active .cal-cont {position:absolute; display:block; height:269px; left:-1px; right:-1px; top:-1px; border-radius:8px; border:1px solid #ddd; background-color:#fff; z-index:10; overflow:hidden} 0323 개발전*/
     .date-wrap .time {position:relative; width:100%; margin-top:12px; margin-left:0; border:1px solid #ddd; border-radius:8px}
     .time ul[class*="input"] {flex-direction:row; justify-content:flex-start; margin-top:-6.5px; padding:1.5px 12.75px 16px}
     .time ul[class*="input"] li {width:20%; min-width:54px; margin-top:6.5px; padding:0 3.25px}
