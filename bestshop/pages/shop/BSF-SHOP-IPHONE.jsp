@@ -309,7 +309,7 @@
             <p class="btn-area innerMap">
                 <a href="javascript:void(0);" class="btn border-red s02">현 지도에서 매장 찾기</a>
             </p>
-            <div class="desc-layer">
+            <div class="desc-layer toastPop">
                 <p class="txt-desc">
                     아이폰 취급 매장에 한하여 조회됩니다. <br> 두줄처리
                     <a href="javascript:void(0);" class="close-pop">닫기</a>
@@ -410,13 +410,6 @@
         $('.txt-desc .close-pop').on('click', function(){
             $(this).closest('.txt-desc').fadeOut(100);
         });
-    }
-
-    // 토스트팝업 3초 후 자동으로 닫힘
-    function toastNone(){
-        setTimeout(function(){
-            $('.desc-layer').css('display', 'none');
-        }, 3000)
     }
 
     $(document).ready(function(){

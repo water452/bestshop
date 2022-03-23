@@ -442,7 +442,7 @@ popup();
 // 토스트팝업 3초 후 자동으로 닫힘
 function toastNone(){
     setTimeout(function(){
-        $('.sort-block + .popup.toast').css('display', 'none');
+        $('.sort-block + .popup.toast, .toastPop').stop().fadeOut(500);
     }, 3000)
 }
 
