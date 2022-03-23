@@ -55,7 +55,10 @@
             <!-- s: utility -->
             <div class="utility">
             <div class="my-tooltip layer-wrap">
-                <a href="javascript:void(0);"><span class="blind">마이 툴팁</span></a>
+                <a href="javascript:void(0);">
+                    <span class="blind">마이 툴팁</span>
+                    <i></i><!-- 로그인시 태그 활성화 -->
+                </a>
                 <div class="my-tooltip-detail layer-detail">
                 <div class="my-tooltip-layer">
                     <!-- s: 로그인 전
@@ -303,7 +306,10 @@
                 <p class="close-gnb"><button type="button"><span class="blind">메뉴닫기</span></button></p>
                 <div class="mgb-top">
                     <a href="javascript:void(0);" class="link-arrow">로그인해주세요</a>
-                    <a href="javascript:void(0);" class="link-mypage"><span class="blind">마이 페이지</span></a>
+                    <a href="javascript:void(0);" class="link-mypage">
+                        <span class="blind">마이 페이지</span>
+                        <i></i><!-- 로그인시 태그 활성화 -->
+                    </a>
                 </div>
 
                 <div class="bnr-wrap">
