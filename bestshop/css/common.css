@@ -905,10 +905,10 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	.innerLayer .floating-block{bottom:200px;}
 
 	/* calendar custom */
-	/* .calendar{overflow:visible} 0323 개발전 */
+	.calendar{overflow:visible}
 	.calendar .ui-datepicker .ui-datepicker-header{padding:0 0 10px;}
 	.calendar .ui-datepicker .ui-datepicker-title{font-size:13px;font-weight:700;line-height:17px;}
-	/* .calendar .ui-widget.ui-widget-content {padding:19px 16px 0} 0323 개발전 */
+	.calendar .ui-widget.ui-widget-content {padding:19px 16px 0}
 	.calendar .ui-datepicker .ui-datepicker-header .ui-datepicker-prev{top:0;left:calc(50% - 80px);}
 	.calendar .ui-datepicker .ui-datepicker-header .ui-datepicker-next{top:0;left:calc(50% + 64px);}
 	.calendar .ui-state-default,
