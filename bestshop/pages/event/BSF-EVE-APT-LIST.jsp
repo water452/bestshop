@@ -306,8 +306,15 @@
                     </li>
                 </ul>
                 <!-- //목록 -->
+                
+                <!-- .no-data -->
+                <div class="no-data">
+                    <p>선택된 지역 내 검색된 결과가 없습니다.</p>
+                </div>
+                <!-- //no-data -->
             </div>
             <!-- //결과 -->
+
         </div>
     </div>
     <!-- // contents -->
