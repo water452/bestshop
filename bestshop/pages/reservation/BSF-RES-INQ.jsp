@@ -25,12 +25,12 @@
                                     <li>로그인 하시면 &quot;마이페이지 &gt; 상담 내역 조회&quot; 페이지로 이동합니다.</li>
                                 </ul>
                             </div>
-                            <div class="btn-area">
+                            <div class="btn-area center">
                                 <a class="btn btn-inq" href="/bestshop/pages/reservation/BSF-RES-INQ-LIST.jsp">로그인 후 상담 내역 조회</a>
                             </div>
                         </div>
 
-                        <div class="inq-box">
+                        <div class="inq-box nonmember">
                             <div class="top-area">
                                 <h3 class="tit">비회원 상담 예약 조회</h3>
                             </div>
@@ -68,6 +68,8 @@
                                                     <div class="btm-more err-block" style="display: block;">
                                                         <p class="err-msg">휴대폰번호를 입력해주세요.</p>
                                                     </div>
+                                                </div>
+                                                <div class="txt-box">
                                                     <div class="input-wrap">
                                                         <input class="base-txt" type="number" placeholder="인증번호를 입력해주세요." disabled>
                                                     </div>
@@ -80,7 +82,7 @@
                                     </form>
                                 </div>
                             </div>
-                            <div class="btn-area">
+                            <div class="btn-area center">
                                 <a class="btn btn-inq" href="/bestshop/pages/reservation/BSF-RES-INQ-LIST.jsp">상담 내역 조회</a>
                             </div>
                         </div>

@@ -618,17 +618,17 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 
 /* 상담예약조회 - 인증페이지 */
 .inq-area .inq-box-area {display:flex; justify-content:space-between}
-.inq-area .inq-box-area .inq-box {position:relative; width:calc(50% - 10px); height:598px; padding:24px 32px; border:1px solid #ddd; border-radius:8px}
+.inq-area .inq-box-area .inq-box {position:relative; width:calc(50% - 10px); height:568px; padding:24px 32px; border:1px solid #ddd; border-radius:8px}
 .inq-area .top-area {padding-bottom:16px; border-bottom:1px solid #000}
 .inq-area .top-area .tit {font-size:22px; font-weight:500; line-height:30px}
 .inq-area .inq-box-area .inq-box .body-area {padding-top:12px}
 .inq-area .inq-box-area .inq-box .body-area ul.info {margin-top:8px}
 .inq-area .inq-box-area .inq-box .body-area ul.info li {font-weight:normal}
 .inq-area .inq-box-area .inq-box .body-area ul.info li + li {margin-top:6px}
-.inq-area .inq-box-area .inq-box .btn-area {position:absolute; bottom:70px; left:0; right:0; text-align:center}
+.inq-area .inq-box-area .inq-box .btn-area {margin-top:60px}
+.inq-area .inq-box-area .inq-box.nonmember .btn-area {position:absolute; bottom:70px; left:0; right:0}
 .inq-area .inq-box-area .inq-box .btn-area .btn {display:inline-block}
 
-.inq-area .inq-box-area .inq-box .phone-check-wrap {padding-bottom:44px}
 .inq-area .inq-box-area .inq-box .phone-check-wrap ul.input-list-type {margin-top:30px}
 
 /* 상담예약조회 - 탭페이지 */
@@ -1258,7 +1258,6 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-main .inq-area .inq-box-area .inq-box .btn-area {position:static; margin-top:55px}
     .res-main .inq-area .inq-box-area .inq-box .btn-area .btn {font-size:13px}
     
-    .res-main .inq-area .inq-box-area .inq-box .phone-check-wrap {padding-bottom:0}
     .res-main .inq-area .inq-box-area .inq-box .phone-check-wrap .input-list-type {margin-top:40px}
     
     /* 상담예약조회 - 탭페이지 */

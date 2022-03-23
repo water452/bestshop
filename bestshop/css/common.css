@@ -215,7 +215,7 @@ input[type="number"]::-webkit-inner-spin-button{-webkit-appearance:none;margin:0
 /* 휴대폰인증 input */
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
-input.base-txt{width:100%;height:48px;padding:10px 15px;border:1px solid #ddd;border-radius:8px;font-size:16px;line-height:26px}
+input.base-txt{width:100%;height:48px;padding:10px 15px;border:1px solid #ddd;border-radius:8px;font-size:16px!important;line-height:26px}
 input:disabled{border-color:#ededed;background-color:#ededed}
 input:focus{outline:none;border-color:#EC455A}
 ul.input-list-type{flex-direction:column}
@@ -234,7 +234,11 @@ ul.input-list-type .input-wrap:first-of-type{margin-top:0}
 .input-pin-type{display:flex;margin-bottom:12px}
 .input-pin-type input{width:calc(100% - 112px)}
 .input-pin-type .btn-send{width:104px;margin-left:8px;padding:12px 10px;border:1px solid #000;border-radius:8px;background-color:#fff;font-size:14px;font-weight:bold;line-height:20px;white-space:nowrap}
-.input-pin-type + .btm-more.err-block{margin-top:-4px}
+
+.inq-box .btm-more.err-block {position:absolute; top:48px; left:0; right:0}
+.inq-box .input-pin-type + .btm-more.err-block {position:static}
+.inq-box .input-list-type .txt-box + .txt-box {margin-top:8px}
+
 .base-slt{padding:0 38px 0 15px;width:100%;height:48px;line-height:46px;font-size:16px;border-radius:8px;border:1px solid #ddd;background:#fff url('../images/icons/btn-down-16-black.svg') no-repeat top 50% right 11px;}
 
 /* 필수 입력 사항 */
@@ -741,7 +745,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	.text-area textarea{height:120px;padding:13px 16px;font-size:14px;line-height:19px}
     .text-area textarea::placeholder{font-size:14px;line-height:19px}
 	/* 휴대폰인증 input */
-    input.base-txt{height:auto;padding:11px 12px;font-size:14px;line-height:22px}
+    input.base-txt{height:auto;padding:11px 12px;font-size:14px!important;line-height:22px}
     ul.input-list-type .tit{font-size:14px;line-height:20px}
     ul.input-list-type.pc-row > li{flex-direction:column}
     ul.input-list-type.pc-row .tit > label{line-height:20px}

@@ -239,7 +239,7 @@ ul.input-list-type .txt-box .input-wrap{width:100%;}
 .map-balloon{display:inline-block;position:relative;padding:6px 22px 7px;background:#999;border-radius:7px;box-shadow:0 3px 6px rgba(0,0,0,0.16);}
 .map-balloon:after{display:block;content:'';position:absolute;bottom:-10px;left:calc(50% - 5px);border-top:10px solid #999;border-left:5px solid transparent;border-right:5px solid transparent;}
 .map-balloon p{font-size:14px;color:#fff;line-height:20px;}
-.map-balloon.active{background:#da0f47;}
+.map-balloon.active{background:#da0f47;z-index: 1;}
 .map-balloon.active:after{border-top-color:#da0f47;}
 .map-mark{display:inline-block;position:relative;width:28px;height:28px;background:#fff;border-radius:100%;border:2px solid #da0f47;box-shadow:0 3px 6px rgba(0,0,0,0.16);}
 .map-mark:after{display:block;content:'';position:absolute;top:calc(50% - 9px);left:calc(50% - 9px);width:18px;height:18px;background:#da0f47;border-radius:100%;}
