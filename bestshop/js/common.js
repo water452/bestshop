@@ -511,12 +511,16 @@ $(document).ready(function() {
             $this.addClass('looped');
 
             $('.autoBtn').on('click', function(){
+				var swiper = $(this).closest(".megaBnr")[0].swiper;
+				
                 if($(this).hasClass('btn-pause')){
                     $(this).removeClass('active');
                     $(this).siblings('.btn-play').addClass('active');
+					swiper.autoplay.stop();
                 } else if($(this).hasClass('btn-play')){
                     $(this).removeClass('active');
                     $(this).siblings('.btn-pause').addClass('active');
+					swiper.autoplay.start();
                 }
             });
         } else {

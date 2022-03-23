@@ -246,7 +246,8 @@ ul.input-list-type .txt-box .input-wrap{width:100%;}
 
 /* high dpi */
 @media screen and (min-width:1025px){
-    .search-result .result-filter .result-filter-detail{position:relative;padding-top:45px;}
+    .search-result .result-filter{overflow-y:auto;max-height:calc(100% - 20px);}
+    .search-result .result-filter .result-filter-detail{position:relative;padding-top:45px;padding-bottom:45px;}
     .search-result .result-filter .result-filter-detail .filter-title{position:absolute;top:0;left:0;width:100%;}
 }
 

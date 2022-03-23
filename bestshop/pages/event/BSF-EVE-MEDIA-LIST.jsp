@@ -344,6 +344,7 @@
         } 
     }, 50);
 
+    /* video active */
     $('.list-video > li a').on('click', function(){
         $('.list-video > li a').removeClass('active');
         $(this).addClass('active');
