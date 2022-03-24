@@ -954,9 +954,9 @@
       "dep3": "재방문 상담 예약",
       "dep4": "작성",
       "worker": "이수인",
-      "startdate": "",
-      "finishdate": "",
-      "status": "",
+      "startdate": "2022-03-24",
+      "finishdate": "2022-03-24",
+      "status": "완료",
       "filename": "./pages/reservation/BSF-PAGE-REVISIT.jsp",
       "memo": ""
     },
