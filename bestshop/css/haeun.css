@@ -80,7 +80,7 @@
 .cont-area {padding-top:8px}
 .cont-wrap.w100 {max-width:100%; padding:0}
 .step-area {position:relative; border-top:1px solid #ddd}
-.step-area.open::after {content:''; display:block; position:absolute; width:32px; height:32px; top:19.5px; right:0; background:url(../images/icons/icon-arrow-down-32.svg) no-repeat center right / contain; transition:all .4s; z-index:-1}
+.step-area.open::after {content:''; display:block; position:absolute; width:32px; height:32px; top:calc(50% - 16px); right:0; background:url(../images/icons/icon-arrow-down-32.svg) no-repeat center right / contain; transition:all .4s; z-index:-1}
 .step-area.border::after {transform:rotate(180deg); transition:all .4s}
 .step-area.step03 {border-bottom:1px solid #ddd}
 .step-area.border {position:relative; margin-bottom:-1px; border-color:#707070; border-bottom:1px solid #707070; z-index:1}
@@ -175,6 +175,7 @@ ul.input-base-type .chkrdo-btn input:checked + label {border-width:2px; line-hei
 /* .step-area.step03 .result-area .info-txt-uncom{display:flex !important;} */
 .step-area.step03 .result-area .info-txt-com{position:absolute;top:0;left:0;width:100%;min-height:70px;}
 .step-area .result-area .info-txt-uncom.active {display:flex}
+.step-area .result-area .info-txt-uncom.active > a {display:flex}
 .step-area .result-area .info-txt-uncom .page-num {color:#666; font-size:20px; font-weight:bold; line-height:28px}
 .step-area .result-area .info-txt-uncom .txt {margin-left:18px; color:#666; font-size:18px; line-height:26px}
 
@@ -381,6 +382,9 @@ ul.input-acco-type .check-box .agr-txt-wrap .inner > ul > li > p {padding-left:1
 .res-info-area .info-box ul li > ul li {display:block; font-weight:500}
 
 /* 방문상담예약페이지 */
+.add-area .img-slide-wrap .img-slide {width:100%; height:auto; overflow:hidden}
+.add-area .img-slide-wrap .img-slide .img-wrap {width:100%; height:auto; padding-bottom:23.18%}
+.add-area .img-slide-wrap .img-slide .img-wrap img {width:100%}
 .res-main .slide-navi .slide-navi-detail {padding:0 24px}
 .res-main .guide-area .guide-banner-visit .box .icon-wrap .icon01 {background:url(../images/icons/icon-res-guide-visit-01.svg) no-repeat center / contain}
 .res-main .guide-area .guide-banner-visit .box .icon-wrap .icon02 {background:url(../images/icons/icon-res-guide-visit-02.svg) no-repeat center / contain}
@@ -871,7 +875,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 
     /* 매장상담예약 컨텐츠 영역 */
     .step-area {border-top:0; border-bottom:1px solid #ddd}
-    .step-area.open::after {width:20px; height:20px; top:23px; background:url(../images/icons/icon-arrow-down-40.svg) no-repeat center / contain}
+    .step-area.open::after {width:20px; height:20px; top:calc(50% - 10px); background:url(../images/icons/icon-arrow-down-40.svg) no-repeat center / contain}
     .res-main .cont-wrap .cont-area {padding-top:4px}
     .step-area .main-area {padding:14px 0 20px}
     .cont-wrap.w100 {padding:0 16px 4px}
@@ -1101,8 +1105,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-info-area .info-box ul li > ul li {font-weight:bold; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
 
     /* 방문상담예약페이지 */
-    .res-main .top-wrap .add-area .img-slide-wrap .img-slide {height:200px; border-radius:0}
-    .res-main .top-wrap .add-area .img-slide-wrap .img-wrap img {max-width:100%}
+    .add-area .img-slide-wrap .img-slide .img-wrap {padding-bottom:55.55%}
     .res-main .slide-navi .slide-navi-detail {padding:0 16px}
     .res-main .guide-area .guide-banner-visit .box .icon-wrap .icon01 {background:url(../images/icons/icon-res-guide-visit-01_mo.svg) no-repeat center / 100%}
     .res-main .guide-area .guide-banner-visit .box .icon-wrap .icon02 {background:url(../images/icons/icon-res-guide-visit-02_mo.svg) no-repeat center / 100%}
