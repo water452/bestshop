@@ -12,7 +12,7 @@
             <p class="txt-desc">대표번호 080-850-8300</p>
         </div>
         <div class="cont-block">
-            <div class="title">[신한] NEW LG전자 베스트샵 PLUS 신한카드</div>
+            <div class="title">[신한] NEW LG전자 베스트샵 <br class="pc-hidden">PLUS 신한카드</div>
             <p class="desc">- 제휴 신용카드</p>
             <div class="explan-box">
                 <div class="tit">베스트플러스할부 혜택</div>
