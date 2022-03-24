@@ -1500,15 +1500,6 @@
                 $(this).closest('.map-list-wrap').toggleClass('active')
             })
 
-            // step 2 예약일 선택 / 예약시간 선택
-            $('.date-wrap .mo-top').next('div').show();
-            if ($(window).width() < 768) {
-                $('.date-wrap .mo-tit').on('click', function () {
-                    $(this).parent().parent('div').toggleClass('active');
-                    $(this).closest('.mo-top').next('div').slideToggle(200);
-                });
-            }
-
             // step 2 약관
             $(function () {
                 // step 2 약관 > 더보기 버튼
