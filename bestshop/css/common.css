@@ -622,7 +622,6 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 .pop-wrap.main .pop-slide-wrap .txt-wrap {padding-top:30px}
 .pop-wrap.main .pop-slide-wrap .txt-wrap .tit{margin-bottom:27px;font-size:22px;line-height:30px;text-align:center}
 .pop-wrap.main .pop-slide-wrap .txt-wrap .txt{height:373px;padding:19px 31px;border:1px solid #ddd;border-radius:8px;font-size:16px;line-height:24px;overflow-y:auto}
-.pop-wrap.main .pop-slide-wrap .txt-wrap .txt p + p{margin-top:16px}
 .pop-wrap.main .pop-slide-wrap .btn-area{margin-top:20px;text-align:center}
 .pop-wrap.main .pop-slide-wrap .btn-area .btn{padding:0 41px}
 
@@ -986,7 +985,6 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	.pop-wrap.main .pop-slide-wrap .swiper-slide{padding:0 16px 31px}
 	.pop-wrap.main .pop-slide-wrap .txt-wrap .tit{margin-bottom:17px;font-size:18px;line-height:24px}
 	.pop-wrap.main .pop-slide-wrap .txt-wrap .txt{height:240px;padding:16px;font-size:14px;line-height:20px}
-	.pop-wrap.main .pop-slide-wrap .txt-wrap .txt p + p{margin-top:12px}
 	.pop-wrap.main .pop-slide-wrap .btn-area{margin-top:16px}
 
 	.pop-wrap.main .pop-slide-wrap .banner-btns{top:calc(50% - 3px);height:24px}
