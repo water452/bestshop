@@ -167,11 +167,11 @@
         <section class="sec-shop">
             <h2 class="tit08">상담 예약 바로가기</h2>
             <ul class="list-advice-reservation">
-                <li><a href="javascript:void(0);"><span>화상 상담 예약</span></a></li>
-                <li><a href="javascript:void(0);"><span>방문 상담 예약</span></a></li>
-                <li><a href="javascript:void(0);"><span>아이폰 상담 예약</span></a></li>
-                <li><a href="javascript:void(0);"><span>케어십 상담 예약</span></a></li>
-                <li><a href="javascript:void(0);"><span>소모품 구매 예약</span></a></li>
+                <li><a class="res-video" href="javascript:void(0);"><span>화상 상담 예약</span></a></li>
+                <li><a class="res-visit" href="javascript:void(0);"><span>방문 상담 예약</span></a></li>
+                <li><a class="res-iphone" href="javascript:void(0);"><span>아이폰 상담 예약</span></a></li>
+                <li><a class="res-care" href="javascript:void(0);"><span>케어십 상담 예약</span></a></li>
+                <li><a class="res-care-ex" href="javascript:void(0);"><span>소모품 구매 예약</span></a></li>
             </ul>
         </section>
         <!-- //상담 예약 바로가기 -->
