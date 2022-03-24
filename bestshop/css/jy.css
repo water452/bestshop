@@ -556,7 +556,7 @@ li[class*="blt"], li > [class*="blt"] { display: block; }
 .app-download > li .tit { display: block; line-height: 26px; font-size: 18px; font-weight: bold; }
 .app-download > li .btn-app-down { margin-top: 15px; }
 .app-download > li .qr-code { position: absolute; top: 50%; right: 84px; margin-top: -54px; }
-.btn-app-down { display: inline-block; width: 133px; height: 42px; background-repeat: no-repeat; background-position: center; background-size: 100% auto; text-indent: -9999px; overflow: hidden; vertical-align: top; }
+.btn-app-down { display: inline-block; width: 133px; height: 42px; background-repeat: no-repeat; background-position: center; background-size: contain; text-indent: -9999px; overflow: hidden; vertical-align: top; }
 .btn-app-down.google-play { background-image: url("../images/btn-google-play.png"); }
 .btn-app-down.app-store { background-image: url("../images/btn-app-store.png"); }
 .qr-code { width: 108px; height: 109px; }
@@ -1052,7 +1052,9 @@ li[class*="blt"], li > [class*="blt"] { display: block; }
     .app-download > li .tit { padding: 0; line-height: 19px; font-size: 13px; }
     .app-download > li .btn-app-down { margin-top: 7px; }
     .app-download > li .qr-code { top: 25px; right: 50%; margin: 0 -27px 0 0; }
-    .btn-app-down { width: 66px; height: 21px; }
+    .btn-app-down { width: 83px; height: 26px; }
+    .btn-app-down.google-play { background-image: url("../images/btn-google-play-m.png"); }
+    .btn-app-down.app-store { background-image: url("../images/btn-app-store-m.png"); }
     .qr-code { width: 54px; height: 55px; }
 
     /* 윈도우팝업: 매장 상세 */
