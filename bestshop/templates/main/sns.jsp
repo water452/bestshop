@@ -77,12 +77,7 @@
         loop: true,
         loopSlides: 1,
         slidesPerView: 'auto',
-        centeredSlides: false,
-        breakpoints: {
-            768: {
-                centeredSlides: true,
-            }
-        },
+        centeredSlides: true,
         pagination: {
             el: ".bestshop-sns .slide-navi .pager-pagination",
             clickable: true,
