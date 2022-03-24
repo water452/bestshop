@@ -480,6 +480,11 @@
                                 <div class="btn-area center">
                                     <button type="button" class="btn border s02 more"><span>더보기</span></button>
                                 </div>
+                                <!-- .no-data -->
+                                <div class="no-data">
+                                    <p>설정하신 필터에 맞는 제품이 없습니다.</p>
+                                </div>
+                                <!-- // .no-data -->
                             </div>
                         </div>
                         <!-- // 리스트 영역 -->

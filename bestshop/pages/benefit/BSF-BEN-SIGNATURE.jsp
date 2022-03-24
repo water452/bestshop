@@ -415,11 +415,11 @@
         })
 
         // step 2 예약일 선택 / 예약시간 선택
-    if ($(window).width() < 768) {
-        $('.date-wrap .calendar').on('click', function () {
-            $(this).addClass('active');
-        });
-    }
+        if ($(window).width() < 768) {
+            $('.date-wrap .calendar').on('click', function () {
+                $(this).addClass('active');
+            });
+        }
 
         // step 2 약관
         $(function () {

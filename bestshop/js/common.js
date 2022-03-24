@@ -442,7 +442,7 @@ popup();
 // 토스트팝업 3초 후 자동으로 닫힘
 function toastNone(){
     setTimeout(function(){
-        $('.sort-block + .popup.toast, .toastPop').stop().fadeOut(500);
+        $('.sort-block + .popup.toast, .toastPop, .popup.toast').stop().fadeOut(500);
     }, 3000)
 }
 
@@ -508,11 +508,12 @@ $(document).ready(function() {
 
         if($this.find('.swiper-slide').length > 1){
             var megaBnr = new Swiper($slt, $optionLoop);
+
             $this.addClass('looped');
 
             $('.autoBtn').on('click', function(){
 				var swiper = $(this).closest(".megaBnr")[0].swiper;
-				
+
                 if($(this).hasClass('btn-pause')){
                     $(this).removeClass('active');
                     $(this).siblings('.btn-play').addClass('active');
@@ -578,6 +579,11 @@ $(document).ready(function() {
 
     // calendar
     $(function(){
+        if(_thsW < 768){
+            $('.date-wrap .calendar').on('click', function(){
+                $(this).addClass('active');
+            });
+        }
 		if ( $("#calendar").length > 0 ){
 			$("#calendar").datepicker({
 				closeText:'닫기',
@@ -592,7 +598,13 @@ $(document).ready(function() {
 				weekHeader:'주',
 				yearSuffix:'.',
 				showMonthAfterYear:true,
-				showOtherMonths:true
+				showOtherMonths:true,
+                onSelect: function(dateText) {
+                    console.log("Selected date: " + dateText + "; input's current value: " + this.value);
+                    if(_thsW < 768){
+                        $(this).closest('.calendar').removeClass('active');
+                    }
+                }
 			});
 			$('.ui-widget-header a').attr('href','javascript:void(0);');
 		};

@@ -4,7 +4,7 @@
 <!-- container -->
 <div class="container" id="content">
     <div class="page-header">
-        <h2 class="title">베샵 더 라이브</h2>
+        <h2 class="title">베스트샵 Live</h2>
     </div>
     <!-- contents -->
     <div class="contents">
