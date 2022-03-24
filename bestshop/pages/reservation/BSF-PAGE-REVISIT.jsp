@@ -255,6 +255,9 @@
                                                     <div class="input-wrap">
                                                         <input class="base-txt" type="text" id="planner" placeholder="상담 받으신 매니저 이름을 입력해주세요.">
                                                     </div>
+                                                    <div class="btm-more err-block" style="display: block;">
+                                                        <p class="err-msg">상담 받으신 매니저 이름을 입력해주세요.</p>
+                                                    </div>
                                                 </div>
                                             </li>
                                         </ul>
@@ -279,7 +282,7 @@
                                                     <span class="name"><em class="red">(필수)</em>개인정보 수집 및 이용에 동의합니다.</span>
                                                 </label>
                                                 <button type="button" class="agr-more active"><span class="blind">약관 내용 보기</span></button><!-- active 클래스 추가 -->
-                                                <div class="agr-txt-wrap size-l active"><!-- active 클래스 추가 -->
+                                                <div class="agr-txt-wrap active"><!-- active 클래스 추가 -->
                                                     <div class="inner custom-scroll">
                                                         <ul>
                                                             <li>

@@ -257,7 +257,7 @@
                                                         <option selected>선택</option>
                                                     </select>
                                                 </div>
-                                                <div class="btm-more err-block">
+                                                <div class="btm-more err-block" style="display: block;">
                                                     <p class="err-msg">회사명을 입력해주세요.</p>
                                                 </div>
                                             </li>
@@ -283,7 +283,7 @@
                                                     <span class="name"><em class="red">(필수)</em>개인정보 수집 및 이용에 동의합니다.</span>
                                                 </label>
                                                 <button type="button" class="agr-more active"><span class="blind">약관 내용 보기</span></button><!-- active 클래스 추가 -->
-                                                <div class="agr-txt-wrap size-l active"><!-- active 클래스 추가 -->
+                                                <div class="agr-txt-wrap active"><!-- active 클래스 추가 -->
                                                     <div class="inner custom-scroll">
                                                         <ul>
                                                             <li>
