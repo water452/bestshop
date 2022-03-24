@@ -607,7 +607,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 .popup.video .pop-wrap .video-wrap{height:100%}
 .popup.video .pop-wrap .btn-pop-close{right:30px;}
 .popup.video .pop-wrap.white .btn-pop-close{background:url("../images/icons/btn-close-24-white.svg") no-repeat center}
-.popup.v-large .pop-wrap .pop-cont{height:320px}
+.popup.v-large .pop-wrap .pop-cont{height:200px}
 .popup.v-large .pop-wrap .btn-pop-close{right:70px}
 
 /* popup - button */
@@ -683,6 +683,9 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
     /* display */
     .pc-hidden{display:block !important;}
     .m-hidden{display:none !important;}
+
+	/* 높이값 */
+	.h-320 {height:200px !important;}
 
 	/* search */
     .search-box{margin:0 auto}
@@ -919,9 +922,6 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	.calendar .ui-datepicker th span{font-size:11px;}
 	.calendar .ui-datepicker th,
 	.calendar .ui-datepicker td{padding:4px 0;}
-
-	/* img-slide */
-	.img-slide-wrap .img-slide {height:200px;}
 
     /* slide navi */
     .slide-navi .slide-navi-detail{padding:0 16px;}

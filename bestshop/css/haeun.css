@@ -296,6 +296,7 @@ ul.input-list-type > li + li{margin-top:32px}
 .user-info-area .box-gray {height:348px; padding:60px; border-radius:8px; border:1px solid #ddd}
 .user-info-area ul.input-list-type .tit {font-weight:500}
 .user-info-area ul.input-list-type > li + li {margin-top:50px}
+.user-info-area ul.input-list-type .side-info-box::before {content:''; display:block; width:calc(100% + 120px); height:1px; margin-left:-60px; padding-top:14px; border-top: 1px dotted #ddd}
 .user-info-area.info-type .box-gray {height:auto; padding:30px 60px}
 .user-info-area.info-type ul.input-list-type .row {display:flex; justify-content:space-between}
 .user-info-area.info-type ul.input-list-type .row .inner {width:100%;}
@@ -741,6 +742,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     /* 예약자 정보 */
     .user-info-area .box-gray {padding:25px}
     .user-info-area.info-type .box-gray {padding:25px}
+    .user-info-area ul.input-list-type .side-info-box::before {width:calc(100% + 50px); margin-left:-25px; padding-top:7px}
 
     /* 케어십상담예약페이지 */
     .res-main.care .video-area {flex-direction:column; align-items:flex-start}
@@ -1023,6 +1025,8 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .user-info-area .box-gray {height:auto; padding:0 0 28px 0; border:0}
     .user-info-area ul.input-list-type .tit {font-weight:bold}
     .user-info-area ul.input-list-type > li + li {margin-top:32px}
+    .user-info-area.info-type .box-gray {padding:0 0 25px}
+    .user-info-area ul.input-list-type .side-info-box::before {width:100%; margin-left:0; padding-top:21px}
     .user-info-area.info-type ul.input-btn-type {margin:26px 0 0; padding-left:6px}
     .user-info-area.info-type ul.input-btn-type > li + li {margin:0 0 0 6px}
     .user-info-area.info-type ul.input-btn-type .chkrdo-btn label {padding:0 19px; border-radius:8px}

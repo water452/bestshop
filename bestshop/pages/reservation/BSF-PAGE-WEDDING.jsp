@@ -262,7 +262,7 @@
                                                     </div>
                                                 </div>
                                             </li>
-                                            <li>
+                                            <li class="side-info-box"> <!-- 부가정보 .side-info-box 추가 -->
                                                 <div class="tit">
                                                     <label for="planner">
                                                         <span class="name">담당 플래너</span>
@@ -301,7 +301,7 @@
                                                         <ul>
                                                             <li>
                                                                 <span>1. 수집하는 개인정보의 항목</span>
-                                                                <p>1) 필수사항 : 이름, 휴대폰번호, 매장 방문 가능일, 구매 희망 제품, 방문 예정 매장, 구매 희망 시기, 성별, 담당 플래너</p>
+                                                                <p>1) 필수사항 : 이름, 휴대폰번호, 매장 방문 가능일, 구매 희망 제품, 방문 예정 매장, 구매 희망 시기</p>
                                                             </li>
                                                             <li>
                                                                 <span>2. 개인정보 수집 및 이용 목적</span>
