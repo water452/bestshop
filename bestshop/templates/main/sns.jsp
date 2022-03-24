@@ -79,7 +79,7 @@
         slidesPerView: 'auto',
         centeredSlides: false,
         breakpoints: {
-            767: {
+            768: {
                 centeredSlides: true,
             }
         },

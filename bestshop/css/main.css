@@ -294,8 +294,8 @@
     .bestshop-sns .content-group-detail::before {display:none}
     .bestshop-sns .sns-slide {margin-top:-103.5px; padding:0 36px}
     .bestshop-sns .swiper-wrapper {left:calc(-50% + 101px)}
-    .bestshop-sns .swiper-slide {width:173px; height:173px; margin:21.5px 0 21.5px 30px}
-    .bestshop-sns .swiper-slide.swiper-slide-active {width:216px; height:216px; margin:0}
+    .bestshop-sns .swiper-slide {width:203px; height:216px; padding:21.5px 0 21.5px 30px}
+    .bestshop-sns .swiper-slide.swiper-slide-active {width:216px; height:216px; padding:0}
     .bestshop-sns .swiper-slide .slide-cont {padding:0}
     .bestshop-sns .left-cont-wrap {position:static; width:calc(100% - 39px); height:309px; padding:35px; background-color:#f4f4f4}
     .bestshop-sns .left-cont-wrap .left-cont {padding-top:0}
