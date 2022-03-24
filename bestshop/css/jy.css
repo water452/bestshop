@@ -626,7 +626,7 @@ li[class*="blt"], li > [class*="blt"] { display: block; }
 .event-slide li { width: 350px; }
 .event-slide li > a { display: block; border-radius: 8px; background-color: #fff; box-shadow: 2px 4px 16px 0 rgba(0, 0, 0, 0.16); }
 .event-slide li .thum { border-radius: 8px 8px 0 0; overflow: hidden; }
-.event-slide li .thum img { max-width: 100%; height: 100%; }
+.event-slide li .thum img { max-width: 100%; height: auto; }
 .event-slide li .infor { padding: 21px 24px 24px 24px; }
 .event-slide li .date { display: block; line-height: 20px; font-size: 14px; }
 .event-slide li .tit { display: block; margin-top: 4px; height: 56px; line-height: 28px; font-size: 20px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
