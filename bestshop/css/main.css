@@ -292,12 +292,12 @@
 
     /* bestshop sns */
     .bestshop-sns .content-group-detail::before {display:none}
-    .bestshop-sns .sns-slide {margin-top:-103.5px; padding:0 36px}
-    .bestshop-sns .swiper-wrapper {left:calc(-50% + 101px)}
-    .bestshop-sns .swiper-slide {width:203px; height:216px; padding:21.5px 0 21.5px 30px}
-    .bestshop-sns .swiper-slide.swiper-slide-active {width:216px; height:216px; padding:0}
+    .bestshop-sns .sns-slide {margin-top:-103.5px}
+    .bestshop-sns .swiper-wrapper {left:calc(-50% + 143px)}
+    .bestshop-sns .swiper-slide {width:216px; height:216px; padding:21.5px 13px 21.5px 30px}
+    .bestshop-sns .swiper-slide.swiper-slide-active {padding:0}
     .bestshop-sns .swiper-slide .slide-cont {padding:0}
-    .bestshop-sns .left-cont-wrap {position:static; width:calc(100% - 39px); height:309px; padding:35px; background-color:#f4f4f4}
+    .bestshop-sns .left-cont-wrap {position:static; width:calc(100% - 39px); height:309px; padding:36px; background-color:#f4f4f4}
     .bestshop-sns .left-cont-wrap .left-cont {padding-top:0}
     .bestshop-sns .left-cont-wrap .left-cont em {padding:0 2px; font-size:9px; line-height:14px}
     .bestshop-sns .left-cont-wrap .left-cont strong {margin-top:4px; font-size:21px; line-height:26px; letter-spacing:-0.525px}
@@ -371,6 +371,7 @@
     .store-benefit ul li a strong {bottom:16px; left:16px; font-size:16px; line-height:26px; letter-spacing:-0.16px}
 
     /* bestshop sns */
+    .bestshop-sns {padding:0}
     .bestshop-sns .content-group-detail {padding:0 0 26px}
     /* .bestshop-sns .swiper-wrapper {left:0} */
     .bestshop-sns .slide-navi {left:36px}
