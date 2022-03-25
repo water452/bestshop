@@ -173,7 +173,7 @@ ul.input-base-type .chkrdo-btn input:checked + label {border-width:2px; line-hei
 .step-area .result-area .info-txt-com .txt {color:#da0f47; font-size:18px; font-weight:bold; line-height:26px}
 .step-area .result-area .info-txt-uncom {display:none; padding:22px 0}
 /* .step-area.step03 .result-area .info-txt-uncom{display:flex !important;} */
-.step-area.step03 .result-area .info-txt-com{position:absolute;top:0;left:0;width:100%;min-height:70px;}
+/* .step-area.step03 .result-area .info-txt-com{position:absolute;top:0;left:0;width:100%;min-height:70px;} */
 .step-area .result-area .info-txt-uncom.active {display:flex}
 .step-area .result-area .info-txt-uncom .page-num {color:#666; font-size:20px; font-weight:bold; line-height:28px}
 .step-area .result-area .info-txt-uncom .txt {margin-left:18px; color:#666; font-size:18px; line-height:26px}

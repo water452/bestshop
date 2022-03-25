@@ -228,7 +228,14 @@
                     <div class="result-area"><!-- active 클래스 추가 -->
                         <div class="info-step03">
                             <div class="info-txt-com">                                
-                                <a href="javascript:void(0);">&nbsp;</a>
+                                <a href="javascript:void(0);">
+                                    <span class="mo-tit">예약자 정보</span>
+                                    <span class="pc-tit">이름 :</span>
+                                    <span class="txt">김베샵</span>
+
+                                    <span class="pc-tit">휴대폰번호 :</span>
+                                    <span class="txt">01012345678</span>
+                                </a>
                             </div>
                             <div class="info-txt-uncom active"><!-- active 클래스 추가 -->
                                 <p class="page-num">STEP03</p>
@@ -515,12 +522,12 @@
         $('.step02 .main-area, .step02 .btn-area').stop().slideUp(400); // 내용과 버튼영역 히든
         $('.step02 .info-txt-com').addClass('active'); // 요약정보 노출
         $('.step02').removeClass('border');
+        $('.step03').addClass('border').find('.info-txt-com').addClass('active');
 
         /* step03 effect */
         $('.step03').addClass('open');
         $('.step03 .main-area').stop().slideDown(400);
         $('.step03 .info-txt-uncom').slideUp(400);
-        $('.step03').addClass('border').find('.info-txt-com').addClass('active');
     });
 
     /* TOGGLE STEP */
