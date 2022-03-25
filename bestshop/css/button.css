@@ -36,6 +36,7 @@
 .btn.border-red:disabled, .btn.border-red:disabled:hover, .btn:disabled.border-red:focus, .btn:disabled.border-gred:active {border-color:#aaa!important; color:#aaa!important; background-color:#fff!important}
 .btn.more:hover::before, .btn.more:focus::before, .btn.more:active::before {background: url(../images/icons/btn-plus-16-white.svg) no-repeat center / contain; }
 .btn.border-white { color: #fff !important; border-color: #fff !important; background: transparent !important; }
+.btn.border-white:hover, .btn.border-white:focus, .btn.border-white:active {border-color:#fa263e!important; background-image:linear-gradient(280deg,#fb5a72,#fa263e)!important}
 .btn.border.grad:hover, .btn.border.grad:focus, .btn.border.grad:active{background:linear-gradient(to right, #fa263e, #fb5a72);border-color:transparent !important;}
 .btn.purple { background: #852174; border-color: #852174; color: #fff; }
 

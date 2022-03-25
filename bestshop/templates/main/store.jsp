@@ -16,7 +16,7 @@
                                 <em>도심 속 초대형 NEW 프리미엄샵!</em>
                                 <span>행사기간 : 22.04.01(금) ~ 22.04.20(일)</span>
                                 <p>
-                                    <button class="btn-white" type="button">자세히 보기</button>
+                                    <button class="btn border-white" type="button">자세히 보기</button>
                                     <!-- <a href="pages/reservation/BSF-RES-VISIT.jsp">매장상담예약하기</a>
                                     <a href="javascript:void(0);"><img src="./images/icons/main_icon_map.svg" alt="위치보기 아이콘">매장위치보기</a> -->
                                 </p>
@@ -32,7 +32,7 @@
                                 <em>도심 속 초대형 NEW 프리미엄샵!</em>
                                 <span>행사기간 : 22.04.01(금) ~ 22.04.20(일)</span>
                                 <p>
-                                    <button class="btn-white" type="button">자세히 보기</button>
+                                    <button class="btn border-white" type="button">자세히 보기</button>
                                     <!-- <a href="pages/reservation/BSF-RES-VISIT.jsp">매장상담예약하기</a>
                                     <a href="javascript:void(0);"><img src="./images/icons/main_icon_map.svg" alt="위치보기 아이콘">매장위치보기</a> -->
                                 </p>
@@ -48,7 +48,7 @@
                                 <em>도심 속 초대형 NEW 프리미엄샵!</em>
                                 <span>행사기간 : 22.04.01(금) ~ 22.04.20(일)</span>
                                 <p>
-                                    <button class="btn-white" type="button">자세히 보기</button>
+                                    <button class="btn border-white" type="button">자세히 보기</button>
                                     <!-- <a href="pages/reservation/BSF-RES-VISIT.jsp">매장상담예약하기</a>
                                     <a href="javascript:void(0);"><img src="./images/icons/main_icon_map.svg" alt="위치보기 아이콘">매장위치보기</a> -->
                                 </p>
@@ -64,7 +64,7 @@
                                 <em>도심 속 초대형 NEW 프리미엄샵!</em>
                                 <span>행사기간 : 22.04.01(금) ~ 22.04.20(일)</span>
                                 <p>
-                                    <button class="btn-white" type="button">자세히 보기</button>
+                                    <button class="btn border-white" type="button">자세히 보기</button>
                                     <!-- <a href="pages/reservation/BSF-RES-VISIT.jsp">매장상담예약하기</a>
                                     <a href="javascript:void(0);"><img src="./images/icons/main_icon_map.svg" alt="위치보기 아이콘">매장위치보기</a> -->
                                 </p>
@@ -80,7 +80,7 @@
                                 <em>GRAND OPEN</em>
                                 <span>행사기간 : 22.04.01(금) ~ 22.04.20(일)</span>
                                 <p>
-                                    <button class="btn-white" type="button">자세히 보기</button>
+                                    <button class="btn border-white" type="button">자세히 보기</button>
                                     <!-- <a href="pages/reservation/BSF-RES-VISIT.jsp">매장상담예약하기</a>
                                     <a href="javascript:void(0);"><img src="./images/icons/main_icon_map.svg" alt="위치보기 아이콘">매장위치보기</a> -->
                                 </p>
@@ -96,7 +96,7 @@
                                 <em>도심 속 초대형 NEW 프리미엄샵!</em>
                                 <span>행사기간 : 22.04.01(금) ~ 22.04.20(일)</span>
                                 <p>
-                                    <button class="btn-white" type="button">자세히 보기</button>
+                                    <button class="btn border-white" type="button">자세히 보기</button>
                                     <!-- <a href="pages/reservation/BSF-RES-VISIT.jsp">매장상담예약하기</a>
                                     <a href="javascript:void(0);"><img src="./images/icons/main_icon_map.svg" alt="위치보기 아이콘">매장위치보기</a> -->
                                 </p>
