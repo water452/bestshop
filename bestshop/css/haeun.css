@@ -175,9 +175,12 @@ ul.input-base-type .chkrdo-btn input:checked + label {border-width:2px; line-hei
 /* .step-area.step03 .result-area .info-txt-uncom{display:flex !important;} */
 .step-area.step03 .result-area .info-txt-com{position:absolute;top:0;left:0;width:100%;min-height:70px;}
 .step-area .result-area .info-txt-uncom.active {display:flex}
-.step-area .result-area .info-txt-uncom.active > a {display:flex}
 .step-area .result-area .info-txt-uncom .page-num {color:#666; font-size:20px; font-weight:bold; line-height:28px}
 .step-area .result-area .info-txt-uncom .txt {margin-left:18px; color:#666; font-size:18px; line-height:26px}
+
+.step-area .result-area .info-txt-com.before > a {display:flex}
+.step-area .result-area .info-txt-com.before .page-num {color:#666; font-size:20px; font-weight:bold; line-height:28px}
+.step-area .result-area .info-txt-com.before .txt {margin-left:18px; color:#666; font-size:18px; font-weight:normal; line-height:26px}
 
 /* 매장/상담일시 선택 */
 .step-area .shop-date-wrap .view-area {position:relative}
@@ -951,6 +954,9 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .step-area .result-area .info-txt-uncom {padding:19px 0}
     .step-area .result-area .info-txt-uncom .page-num {font-size:13px; line-height:19px}
     .step-area .result-area .info-txt-uncom .txt {margin-left:10px; font-size:13px; line-height:19px}
+    
+    .step-area .result-area .info-txt-com.before .page-num {font-size:13px; line-height:19px}
+    .step-area .result-area .info-txt-com.before .txt {margin-left:10px; font-size:13px; line-height:19px}
 
     /* 매장/상담일시 선택 */
     .step-area .shop-date-wrap .sort-area {position:static; display:flex; margin-bottom:8px}
