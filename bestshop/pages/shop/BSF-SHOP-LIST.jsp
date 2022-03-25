@@ -340,8 +340,7 @@
     </div>
 </div>
 <script>
-    var _winWd = $(window).width(),
-        _winHt = parseInt($(window).height()) - 146;
+    var _winWd = $(window).width();
 
     /* shop search full height class */
     $('.shop-search-wrap').parents('html').addClass('full-height');
@@ -356,11 +355,11 @@
             if(_ths.hasClass('active')){
                 _ths.text('지도보기');
                 $('.tab-area .tab-title, .tab-area .tab-content-group').show();
-                $('.tab-area-wrap').addClass('active').stop().animate({'height': _winHt}, 200);
+                $('.tab-area-wrap').toggleClass('active');
             } else {
                 _ths.text('상세검색')
                 $('.tab-area .tab-title, .tab-area .tab-content-group').hide();
-                $('.tab-area-wrap').removeClass('active').stop().animate({'height': '296px'}, 200);
+                $('.tab-area-wrap').removeClass('active');
             }
         });
     }

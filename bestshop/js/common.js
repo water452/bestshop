@@ -86,9 +86,8 @@ function floatingMenu(){
 // Mobile Mega GNB
 function mobileMega(){
     $('.link-wrap .depth1 a').click(function(){
-        $('.depth2').slideUp(200);
         $(this).closest('.depth1').toggleClass('active').siblings('.depth2').slideToggle(200);
-        $(this).closest('.link-section').siblings('li').find('.depth1').removeClass('active');
+        $(this).closest('.link-section').siblings('li').find('.depth1').removeClass('active').siblings('.depth2').slideUp(200);
     });
     $('.link-wrap .depth3-tit').click(function(){
         $(this).toggleClass('active').siblings('ul').slideToggle(200);
