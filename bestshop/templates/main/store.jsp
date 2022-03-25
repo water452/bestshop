@@ -10,80 +10,98 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="slide-cont" style="background-image:url('./images/img_main_benefit.png');"> <!-- image file name change -->
-                        <div class="scont-tit">
-                            <strong>갤러리아 명품관 WEST점</strong>
-                            <em>도심 속 초대형 NEW 프리미엄샵!</em>
-                            <span>행사기간 : 22.04.01(금) ~ 22.04.20(일)</span>
-                            <p>
-                                <a href="pages/reservation/BSF-RES-VISIT.jsp">매장상담예약하기</a>
-                                <a href="javascript:void(0);"><img src="./images/icons/main_icon_map.svg" alt="위치보기 아이콘">매장위치보기</a>
-                            </p>
-                        </div>
+                        <a href="/event/detail-EV10003002">
+                            <div class="scont-tit">
+                                <strong>갤러리아 명품관 WEST점</strong>
+                                <em>도심 속 초대형 NEW 프리미엄샵!</em>
+                                <span>행사기간 : 22.04.01(금) ~ 22.04.20(일)</span>
+                                <p>
+                                    <button class="btn-white" type="button">자세히 보기</button>
+                                    <!-- <a href="pages/reservation/BSF-RES-VISIT.jsp">매장상담예약하기</a>
+                                    <a href="javascript:void(0);"><img src="./images/icons/main_icon_map.svg" alt="위치보기 아이콘">매장위치보기</a> -->
+                                </p>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="slide-cont" style="background-image:url('./images/img_main_benefit.png');"> <!-- image file name change -->
-                        <div class="scont-tit">
-                            <strong>신세계 Art & Sience점</strong>
-                            <em>도심 속 초대형 NEW 프리미엄샵!</em>
-                            <span>행사기간 : 22.04.01(금) ~ 22.04.20(일)</span>
-                            <p>
-                                <a href="pages/reservation/BSF-RES-VISIT.jsp">매장상담예약하기</a>
-                                <a href="javascript:void(0);"><img src="./images/icons/main_icon_map.svg" alt="위치보기 아이콘">매장위치보기</a>
-                            </p>
-                        </div>
+                        <a href="javascript:void(0);">
+                            <div class="scont-tit">
+                                <strong>신세계 Art & Sience점</strong>
+                                <em>도심 속 초대형 NEW 프리미엄샵!</em>
+                                <span>행사기간 : 22.04.01(금) ~ 22.04.20(일)</span>
+                                <p>
+                                    <button class="btn-white" type="button">자세히 보기</button>
+                                    <!-- <a href="pages/reservation/BSF-RES-VISIT.jsp">매장상담예약하기</a>
+                                    <a href="javascript:void(0);"><img src="./images/icons/main_icon_map.svg" alt="위치보기 아이콘">매장위치보기</a> -->
+                                </p>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="slide-cont" style="background-image:url('./images/img_main_benefit.png');"> <!-- image file name change -->
-                        <div class="scont-tit">
-                            <strong>강남본점</strong>
-                            <em>도심 속 초대형 NEW 프리미엄샵!</em>
-                            <span>행사기간 : 22.04.01(금) ~ 22.04.20(일)</span>
-                            <p>
-                                <a href="pages/reservation/BSF-RES-VISIT.jsp">매장상담예약하기</a>
-                                <a href="javascript:void(0);"><img src="./images/icons/main_icon_map.svg" alt="위치보기 아이콘">매장위치보기</a>
-                            </p>
-                        </div>
+                        <a href="javascript:void(0);">
+                            <div class="scont-tit">
+                                <strong>강남본점</strong>
+                                <em>도심 속 초대형 NEW 프리미엄샵!</em>
+                                <span>행사기간 : 22.04.01(금) ~ 22.04.20(일)</span>
+                                <p>
+                                    <button class="btn-white" type="button">자세히 보기</button>
+                                    <!-- <a href="pages/reservation/BSF-RES-VISIT.jsp">매장상담예약하기</a>
+                                    <a href="javascript:void(0);"><img src="./images/icons/main_icon_map.svg" alt="위치보기 아이콘">매장위치보기</a> -->
+                                </p>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="slide-cont" style="background-image:url('./images/img_main_benefit.png');"> <!-- image file name change -->
-                        <div class="scont-tit">
-                            <strong>양재점</strong>
-                            <em>도심 속 초대형 NEW 프리미엄샵!</em>
-                            <span>행사기간 : 22.04.01(금) ~ 22.04.20(일)</span>
-                            <p>
-                                <a href="pages/reservation/BSF-RES-VISIT.jsp">매장상담예약하기</a>
-                                <a href="javascript:void(0);"><img src="./images/icons/main_icon_map.svg" alt="위치보기 아이콘">매장위치보기</a>
-                            </p>
-                        </div>
+                        <a href="javascript:void(0);">
+                            <div class="scont-tit">
+                                <strong>양재점</strong>
+                                <em>도심 속 초대형 NEW 프리미엄샵!</em>
+                                <span>행사기간 : 22.04.01(금) ~ 22.04.20(일)</span>
+                                <p>
+                                    <button class="btn-white" type="button">자세히 보기</button>
+                                    <!-- <a href="pages/reservation/BSF-RES-VISIT.jsp">매장상담예약하기</a>
+                                    <a href="javascript:void(0);"><img src="./images/icons/main_icon_map.svg" alt="위치보기 아이콘">매장위치보기</a> -->
+                                </p>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="slide-cont" style="background-image:url('./images/img_main_benefit.png');"> <!-- image file name change -->
-                        <div class="scont-tit">
-                            <strong>센트럴파크점</strong>
-                            <em>GRAND OPEN</em>
-                            <span>행사기간 : 22.04.01(금) ~ 22.04.20(일)</span>
-                            <p>
-                                <a href="pages/reservation/BSF-RES-VISIT.jsp">매장상담예약하기</a>
-                                <a href="javascript:void(0);"><img src="./images/icons/main_icon_map.svg" alt="위치보기 아이콘">매장위치보기</a>
-                            </p>
-                        </div>
+                        <a href="javascript:void(0);">
+                            <div class="scont-tit">
+                                <strong>센트럴파크점</strong>
+                                <em>GRAND OPEN</em>
+                                <span>행사기간 : 22.04.01(금) ~ 22.04.20(일)</span>
+                                <p>
+                                    <button class="btn-white" type="button">자세히 보기</button>
+                                    <!-- <a href="pages/reservation/BSF-RES-VISIT.jsp">매장상담예약하기</a>
+                                    <a href="javascript:void(0);"><img src="./images/icons/main_icon_map.svg" alt="위치보기 아이콘">매장위치보기</a> -->
+                                </p>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="slide-cont" style="background-image:url('./images/img_main_benefit.png');"> <!-- image file name change -->
-                        <div class="scont-tit">
-                            <strong>송파본점</strong>
-                            <em>도심 속 초대형 NEW 프리미엄샵!</em>
-                            <span>행사기간 : 22.04.01(금) ~ 22.04.20(일)</span>
-                            <p>
-                                <a href="pages/reservation/BSF-RES-VISIT.jsp">매장상담예약하기</a>
-                                <a href="javascript:void(0);"><img src="./images/icons/main_icon_map.svg" alt="위치보기 아이콘">매장위치보기</a>
-                            </p>
-                        </div>
+                        <a href="javascript:void(0);">
+                            <div class="scont-tit">
+                                <strong>송파본점</strong>
+                                <em>도심 속 초대형 NEW 프리미엄샵!</em>
+                                <span>행사기간 : 22.04.01(금) ~ 22.04.20(일)</span>
+                                <p>
+                                    <button class="btn-white" type="button">자세히 보기</button>
+                                    <!-- <a href="pages/reservation/BSF-RES-VISIT.jsp">매장상담예약하기</a>
+                                    <a href="javascript:void(0);"><img src="./images/icons/main_icon_map.svg" alt="위치보기 아이콘">매장위치보기</a> -->
+                                </p>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div><!-- //.swiper-wrapper -->

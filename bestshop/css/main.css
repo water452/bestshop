@@ -68,6 +68,7 @@
 .info-store .slide-store .swiper-slide.swiper-slide-active .slide-cont {opacity:1; z-index:2; transition:all 0.3s linear}
 .info-store .slide-store .swiper-slide.swiper-slide-prev .slide-cont,
 .info-store .slide-store .swiper-slide.swiper-slide-next .slide-cont {opacity:0.3; z-index:1; transition:all 0.3s linear}
+.info-store .slide-store .swiper-slide.swiper-slide-active .slide-cont > a {display:block;width:100%;height:100%;}
 .info-store .slide-store .swiper-slide .scont-tit {position:absolute; bottom:0; left:0; right:0; height:260px; color:#fff; padding:32px 42px; border-radius:0 0 10px 10px; background:rgba(0,0,0,0.5)}
 .info-store .slide-store .swiper-slide .scont-tit em,
 .info-store .slide-store .swiper-slide .scont-tit span,
@@ -387,7 +388,7 @@
     .info-store .slide-store .swiper-slide .scont-tit span {margin-top:8px; font-size:12px; line-height:17px}
     .info-store .slide-store .swiper-slide .scont-tit strong + p {margin-top:25px}
     .info-store .slide-store .swiper-slide .scont-tit p {margin-top:12px}
-    .info-store .slide-store .swiper-slide .scont-tit p a {min-width:0; height:auto; font-size:13px; text-align:center; line-height:34px; white-space:nowrap; padding:0 20px; border-radius:18px}
+    .info-store .slide-store .swiper-slide .scont-tit p > * {min-width:0; height:auto; font-size:13px; text-align:center; line-height:34px; white-space:nowrap; padding:0 20px; border-radius:18px}
     .info-store .slide-store .swiper-slide .scont-tit p > * + * {margin-left:8px}
     .info-store .slide-store .swiper-slide .scont-tit p a img {width:16px; height:16px; vertical-align:-3.5px}
     .info-store .slide-store .swiper-slide .slide-cont {height:343px; border-radius:0}
