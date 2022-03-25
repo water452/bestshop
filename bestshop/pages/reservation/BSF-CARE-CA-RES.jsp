@@ -906,7 +906,7 @@
                                         </a>
                                         <div class="info-wrap">
                                             <div class="opt-info">
-                                                <div class="slt sltBox border-type disabled" data-txt-change="true">
+                                                <div class="slt sltBox border-type disabled etc" data-txt-change="true">
                                                     <!-- disabled 클래스 추가 -->
                                                     <p class="select-tit">방문주기</p>
                                                     <a href="javascript:void(0);" class="btn-slt">3개월</a>
@@ -943,7 +943,7 @@
                                         </a>
                                         <div class="info-wrap">
                                             <div class="opt-info">
-                                                <div class="slt sltBox border-type" data-txt-change="true">
+                                                <div class="slt sltBox border-type etc" data-txt-change="true">
                                                     <p class="select-tit">방문주기</p>
                                                     <a href="javascript:void(0);" class="btn-slt">3개월</a>
                                                     <ul>
@@ -979,7 +979,7 @@
                                         </a>
                                         <div class="info-wrap">
                                             <div class="opt-info">
-                                                <div class="slt sltBox border-type" data-txt-change="true">
+                                                <div class="slt sltBox border-type etc" data-txt-change="true">
                                                     <p class="select-tit">방문주기</p>
                                                     <a href="javascript:void(0);" class="btn-slt">3개월</a>
                                                     <ul>
@@ -1015,7 +1015,7 @@
                                         </a>
                                         <div class="info-wrap">
                                             <div class="opt-info">
-                                                <div class="slt sltBox border-type" data-txt-change="true">
+                                                <div class="slt sltBox border-type etc" data-txt-change="true">
                                                     <p class="select-tit">방문주기</p>
                                                     <a href="javascript:void(0);" class="btn-slt">3개월</a>
                                                     <ul>
@@ -1051,7 +1051,7 @@
                                         </a>
                                         <div class="info-wrap">
                                             <div class="opt-info">
-                                                <div class="slt sltBox border-type" data-txt-change="true">
+                                                <div class="slt sltBox border-type etc" data-txt-change="true">
                                                     <p class="select-tit">방문주기</p>
                                                     <a href="javascript:void(0);" class="btn-slt">3개월</a>
                                                     <ul>
@@ -1087,7 +1087,7 @@
                                         </a>
                                         <div class="info-wrap">
                                             <div class="opt-info">
-                                                <div class="slt sltBox border-type" data-txt-change="true">
+                                                <div class="slt sltBox border-type etc" data-txt-change="true">
                                                     <p class="select-tit">방문주기</p>
                                                     <a href="javascript:void(0);" class="btn-slt">3개월</a>
                                                     <ul>
@@ -1123,7 +1123,7 @@
                                         </a>
                                         <div class="info-wrap">
                                             <div class="opt-info">
-                                                <div class="slt sltBox border-type" data-txt-change="true">
+                                                <div class="slt sltBox border-type etc" data-txt-change="true">
                                                     <p class="select-tit">방문주기</p>
                                                     <a href="javascript:void(0);" class="btn-slt">3개월</a>
                                                     <ul>
@@ -1159,7 +1159,7 @@
                                         </a>
                                         <div class="info-wrap">
                                             <div class="opt-info">
-                                                <div class="slt sltBox border-type" data-txt-change="true">
+                                                <div class="slt sltBox border-type etc" data-txt-change="true">
                                                     <p class="select-tit">방문주기</p>
                                                     <a href="javascript:void(0);" class="btn-slt">3개월</a>
                                                     <ul>

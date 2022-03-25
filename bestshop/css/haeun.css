@@ -489,7 +489,7 @@ ul.input-acco-type .check-box .agr-txt-wrap .inner > ul > li > p {padding-left:1
 .res-main.care .prd-list-area .prd-list-count > em {margin-left:5px; color:#da0f47}
 ul.prd-list {display:flex; flex-wrap:wrap; width:calc(100% + 24px); margin:18px 0 0 -12px}
 ul.prd-list > li {width:25%; min-width:322px; padding:12px}
-ul.prd-list > li .box {padding:12px 40px 40px; border-radius:8px; box-shadow:2px 4px 16px 0 rgba(0, 0, 0, 0.14); overflow:hidden}
+ul.prd-list > li .box {padding:12px 40px 40px; border-radius:8px; box-shadow:2px 4px 16px 0 rgba(0, 0, 0, 0.14);}
 ul.prd-list > li .box > a {display:block}
 ul.prd-list > li .box .img-wrap {width:100%; max-width:226px; height:226px; margin:0 auto}
 ul.prd-list > li .box .img-wrap > img {display:block; width:100%}
@@ -500,6 +500,7 @@ ul.prd-list > li .box .info-wrap {margin-top:16px}
 ul.prd-list > li .box .info-wrap .opt-info .slt {position:relative; width:100%}
 ul.prd-list > li .box .info-wrap .opt-info .slt .select-tit {position:absolute; top:calc(50% - 10px); left:11px; color:#767676; font-size:14px; line-height:20px; z-index:1}
 ul.prd-list > li .box .info-wrap .opt-info .slt a {width:100%; padding:9px 43px 9px 15px; font-size:14px; line-height:20px; text-align:right}
+ul.prd-list > li .box .info-wrap .opt-info .slt .active{display:none;}
 ul.prd-list > li .box .info-wrap .opt-info .slt ul {top:40px}
 ul.prd-list > li .box .info-wrap .opt-info .slt.disabled a {border-color:#ededed; background-color:#ededed; color:#767676}
 ul.prd-list > li .box .info-wrap .opt-info .slt.disabled a::before {background:url(../images/icons/icon-arr-down-16-gray.svg) no-repeat center / contain}
@@ -1180,6 +1181,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     ul.prd-list > li .box .tit-wrap .code {margin-top:2px}
     ul.prd-list > li .box .info-wrap .opt-info .slt .select-tit {font-size:13px; line-height:19px}
     ul.prd-list > li .box .info-wrap .opt-info .slt select {appearance:none; border-radius:0px; opacity:0; position:absolute; top:0px; left:0px; bottom:0px; width:100%}
+    ul.prd-list > li .box .info-wrap .opt-info .slt.etc select{width:1px;height:1px;padding:0;}
     ul.prd-list > li .box .info-wrap .opt-info .slt a {display:block; padding:11px 46px 11px 15px; border-radius:4px; font-size:13px; text-align:right; line-height:19px}
     ul.prd-list > li .box .price-wrap {margin-top:22px}
     ul.prd-list > li .box .price-wrap dl dt {font-size:13px; line-height:19px}
