@@ -148,7 +148,7 @@
                     </div>
 
                     <div class="btn-area">
-                        <button type="button" data-href="#popup-confirm" class="btn s01 border-red btnPopOpen">다음 단계로</button>
+                        <button type="button" class="btn s01 border-red">다음 단계로</button>
                     </div>
 
                 </div>
@@ -199,8 +199,15 @@
                 <div class="step-area step03"><!-- active 클래스 추가 -->
                     <div class="result-area"><!-- active 클래스 추가 -->
                         <div class="info-step03">
-                            <div class="info-txt-com"><!-- active 클래스 추가 -->
-                                <a href="javascript:void(0);">&nbsp;</a>
+                            <div class="info-txt-com">                                
+                                <a href="javascript:void(0);">
+                                    <span class="mo-tit">예약자 정보</span>
+                                    <span class="pc-tit">이름 :</span>
+                                    <span class="txt">김베샵</span>
+
+                                    <span class="pc-tit">휴대폰번호 :</span>
+                                    <span class="txt">01012345678</span>
+                                </a>
                             </div>
                             <div class="info-txt-uncom active"><!-- active 클래스 추가 -->
                                 <p class="page-num">STEP03</p>
@@ -210,7 +217,7 @@
                     </div>
 
                     <div class="main-area">
-                        
+
                         <jsp:include page="../../templates/reservation/input-user-info.jsp" /> <!-- //input-user-info.jsp -->
 
                     </div>
@@ -445,22 +452,34 @@
 
 
 <script>
-    /* 위치정보제공동의 팝업 추가 STEP01 > STEP02 */
-    $('#popup-confirm button').on('click', function(){
-        if(!$(this).hasClass('btnPopCancel')){ // '네' 누를경우
-            $('html').css('overflow', 'visible');
+    var _winW = $(window).width(),
+        /* s: scroll effect */
+        minusTop = $('.info-step02').height(),
+        etcH = $('.step-top-note').height(),
+        baseTop = parseInt($('.step01').offset().top) + minusTop - etcH,
+        step2Top = baseTop + minusTop,
+        step3Top = step2Top + minusTop;
+        /* e: scroll effect */
 
-            /* step01 effect */
-            $('#popup-confirm, .dim').fadeOut(200); // 팝업 + dim 처리 히든
-            $('.step01 .main-area, .step01 .btn-area').stop().slideUp(400); // 내용과 버튼영역 히든
-            $('.step01 .info-txt-com').addClass('active'); // 요약정보 노출
-            $('.step01').removeClass('border'); // border 삭제
+    $('.step02 .main-area, .step03 .main-area').hide();
+    $('.step02 .btn-area, .step03 .btn-area').hide();
+    
+    /* STEP01 > STEP02 */
+    $('.step01 .btn-area button').on('click', function(){
+        /* step01 effect */
+        $('.step01').addClass('open');
+        $('.step01 .main-area, .step01 .btn-area').stop().slideUp(400); // 내용과 버튼영역 히든
+        $('.step01 .info-txt-com').addClass('active'); // 요약정보 노출
+        $('.step01').removeClass('border'); // border 삭제
 
-            /* step02 effect */
-            $('.step02 .main-area, .step02 .btn-area').stop().slideDown(400);
-            $('.step02 .info-txt-uncom').slideUp(400);
-            $('.step02').addClass('border');
-        }
+        /* step02 effect */
+        $('.step02').addClass('open');
+        $('.step02 .main-area, .step02 .btn-area').stop().slideDown(400);
+        $('.step02 .info-txt-uncom').slideUp(400);
+        $('.step02').addClass('border');
+
+        /* scroll effect */
+        $('html, body').scrollTop(step2Top);
     });
 
     /* STEP02 > STEP03 */
@@ -468,11 +487,15 @@
         $('.step02 .main-area, .step02 .btn-area').stop().slideUp(400); // 내용과 버튼영역 히든
         $('.step02 .info-txt-com').addClass('active'); // 요약정보 노출
         $('.step02').removeClass('border');
+        $('.step03').addClass('border');
 
         /* step03 effect */
+        $('.step03').addClass('open');
         $('.step03 .main-area').stop().slideDown(400);
         $('.step03 .info-txt-uncom').slideUp(400);
-        $('.step03').addClass('border').find('.info-txt-com').addClass('active');
+
+        /* scroll effect */
+        $('html, body').scrollTop(step3Top);
     });
 
     /* TOGGLE STEP */
@@ -490,6 +513,21 @@
         if($(this).closest('.step-area').hasClass('middle')){ // 위의 상황이 지나고 다시 펼칠때
             $('.step02 .btn-area').slideDown(400);
             $('.step02').removeClass('middle');
+        }
+
+        if($('.step03').hasClass('open')){
+            $('.step03 .info-txt-com').addClass('active');
+        }
+
+        /* scroll effect */
+        var _thdEl = $(this).closest('.step-area');
+
+        if(_thdEl.hasClass('step01')){
+            $('html, body').scrollTop(baseTop);
+        } else if(_thdEl.hasClass('step02')){
+            $('html, body').scrollTop(step2Top);
+        } else if(_thdEl.hasClass('step03')){
+            $('html, body').scrollTop(step3Top);
         }
     });
 

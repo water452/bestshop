@@ -176,7 +176,7 @@
                     </div>
 
                     <div class="btn-area">
-                        <button type="button" data-href="#popup-confirm" class="btn s01 border-red btnPopOpen">다음 단계로</button>
+                        <button type="button" class="btn s01 border-red">다음 단계로</button>
                     </div>
 
                 </div>
@@ -245,7 +245,7 @@
                     </div>
 
                     <div class="main-area">
-                        
+
                         <jsp:include page="../../templates/reservation/input-user-info.jsp" /> <!-- //input-user-info.jsp -->
 
                     </div>
@@ -492,29 +492,34 @@
 
 
 <script>
-    var _winW = $(window).width();
+    var _winW = $(window).width(),
+        /* s: scroll effect */
+        minusTop = $('.info-step02').height(),
+        etcH = $('.step-top-note').height(),
+        baseTop = parseInt($('.step01').offset().top) + minusTop - etcH,
+        step2Top = baseTop + minusTop,
+        step3Top = step2Top + minusTop;
+        /* e: scroll effect */
 
     $('.step02 .main-area, .step03 .main-area').hide();
     $('.step02 .btn-area, .step03 .btn-area').hide();
     
-    /* 위치정보제공동의 팝업 추가 STEP01 > STEP02 */
-    $('#popup-confirm button').on('click', function(){
-        if(!$(this).hasClass('btnPopCancel')){ // '네' 누를경우
-            $('html').css('overflow', 'visible');
+    /* STEP01 > STEP02 */
+    $('.step01 .btn-area button').on('click', function(){
+        /* step01 effect */
+        $('.step01').addClass('open');
+        $('.step01 .main-area, .step01 .btn-area').stop().slideUp(400); // 내용과 버튼영역 히든
+        $('.step01 .info-txt-com').addClass('active'); // 요약정보 노출
+        $('.step01').removeClass('border'); // border 삭제
 
-            /* step01 effect */
-            $('.step01').addClass('open');
-            $('#popup-confirm, .dim').fadeOut(200); // 팝업 + dim 처리 히든
-            $('.step01 .main-area, .step01 .btn-area').stop().slideUp(400); // 내용과 버튼영역 히든
-            $('.step01 .info-txt-com').addClass('active'); // 요약정보 노출
-            $('.step01').removeClass('border'); // border 삭제
+        /* step02 effect */
+        $('.step02').addClass('open');
+        $('.step02 .main-area, .step02 .btn-area').stop().slideDown(400);
+        $('.step02 .info-txt-uncom').slideUp(400);
+        $('.step02').addClass('border');
 
-            /* step02 effect */
-            $('.step02').addClass('open');
-            $('.step02 .main-area, .step02 .btn-area').stop().slideDown(400);
-            $('.step02 .info-txt-uncom').slideUp(400);
-            $('.step02').addClass('border');
-        }
+        /* scroll effect */
+        $('html, body').scrollTop(step2Top);
     });
 
     /* STEP02 > STEP03 */
@@ -522,12 +527,15 @@
         $('.step02 .main-area, .step02 .btn-area').stop().slideUp(400); // 내용과 버튼영역 히든
         $('.step02 .info-txt-com').addClass('active'); // 요약정보 노출
         $('.step02').removeClass('border');
-        $('.step03').addClass('border').find('.info-txt-com').addClass('active');
+        $('.step03').addClass('border');
 
         /* step03 effect */
         $('.step03').addClass('open');
         $('.step03 .main-area').stop().slideDown(400);
         $('.step03 .info-txt-uncom').slideUp(400);
+
+        /* scroll effect */
+        $('html, body').scrollTop(step3Top);
     });
 
     /* TOGGLE STEP */
@@ -546,9 +554,23 @@
             $('.step02 .btn-area').slideDown(400);
             $('.step02').removeClass('middle');
         }
+
+        if($('.step03').hasClass('open')){
+            $('.step03 .info-txt-com').addClass('active');
+        }
+
+        /* scroll effect */
+        var _thdEl = $(this).closest('.step-area');
+
+        if(_thdEl.hasClass('step01')){
+            $('html, body').scrollTop(baseTop);
+        } else if(_thdEl.hasClass('step02')){
+            $('html, body').scrollTop(step2Top);
+        } else if(_thdEl.hasClass('step03')){
+            $('html, body').scrollTop(step3Top);
+        }
     });
 
-    
     // video control
     $('.btn-video-view').on('click', function(){
         if(_winW < 1025){
