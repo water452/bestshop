@@ -2,34 +2,34 @@ var _thsW = $(window).width();
 
 // click layers
 function clickLayer(){
-$('.layer-click > a').on('click', function(){
-    $(this).toggleClass('active').closest('.layer-click').find('.layer-detail').toggle();
-});
-$('.btn-close').on('click', function(){
-    $(this).closest('.layer-click').children('a').removeClass('active').closest('.layer-click').find('.layer-detail').hide();
-})
+    $('.layer-click > a').on('click', function(){
+        $(this).toggleClass('active').closest('.layer-click').find('.layer-detail').toggle();
+    });
+    $('.btn-close').on('click', function(){
+        $(this).closest('.layer-click').children('a').removeClass('active').closest('.layer-click').find('.layer-detail').hide();
+    })
 }
 
 // sub click layers
 function clickLayer2(){
-$('.ui-selectbox-wrap .ui-select-button').on('focus', function(){
-    $(this).toggleClass('active').closest('.ui-selectbox-view').siblings('.ui-selectbox-list').toggle();
-});
+    $('.ui-selectbox-wrap .ui-select-button').on('focus', function(){
+        $(this).toggleClass('active').closest('.ui-selectbox-view').siblings('.ui-selectbox-list').toggle();
+    });
 }
 
 // MEGA GNB
 function megaGnb(){ 
-$('.pc .menu-wrap > ul > li').on('mouseenter mouseleave', function(e){
-    if(e.type == 'mouseenter'){
-    $('.menu-wrap > ul > li').removeClass('active');
-    $('.menu-wrap .dimmde').remove();
-    $('.menu-wrap').append('<p class="dimmde"></p>');
-    $(this).addClass('active');
-    } else if (e.type == 'mouseleave'){
-    $('.menu-wrap .dimmde').remove();
-    $(this).removeClass('active');
-    }
-});
+    $('.pc .menu-wrap > ul > li').on('mouseenter mouseleave', function(e){
+        if(e.type == 'mouseenter'){
+            $('.menu-wrap > ul > li').removeClass('active');
+            $('.menu-wrap .dimmde').remove();
+            $('.menu-wrap').append('<p class="dimmde"></p>');
+            $(this).addClass('active');
+        } else if (e.type == 'mouseleave'){
+            $('.menu-wrap .dimmde').remove();
+            $(this).removeClass('active');
+        }
+    });
 }
 
 // focus
