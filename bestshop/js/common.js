@@ -624,8 +624,6 @@ $(window).resize(function(){
         focusGnb();
         customScroll();
     } else { // mobile size
-        mobileMega();
-        mobileMenutoggle();
     }
     tabCommon();
 });
