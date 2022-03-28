@@ -83,12 +83,22 @@
 .step-area .result-area .info-txt-com a:after {content:''; display:block; position:absolute; width:32px; height:32px; top:16px; right:0; background:url(../images/icons/icon-arrow-down-32.svg) no-repeat center right / contain; transition:all .4s; transform:rotate(0); z-index:-1}
 .step-area.border .result-area .info-txt-com a:after {transform:rotate(180deg);}
 .step-area.border::after {transform:rotate(180deg); transition:all .4s}
+.step-area .step-tit-area .page-num {display:none}
 .step-area.step03 {border-bottom:1px solid #ddd}
 .step-area.border {position:relative; margin-bottom:-1px; border-color:#707070; border-bottom:1px solid #707070; z-index:1}
 .step-area.step03.border {border-bottom:0 none; margin-bottom:0}
 .step-area .main-area {padding:20px 0}
 .step-area.step03 .main-area {padding-bottom:0}
 .step-area .btn-area.res-more {margin:27px 0 40px}
+.step-area .info-text {display:flex; justify-content:flex-end; margin-top:16px; font-size:14px; line-height:20px; color:#777}
+
+/* 매장상담예약 컨텐츠 영역 - 단일페이지 */
+.onepage .step-area {border-top:0}
+.onepage .step-area.step03 {border-bottom:0}
+.onepage .step-tit-area {padding-top:70px}
+.onepage .step-tit-area .page-num {display:block; margin-bottom:20px; padding-bottom:8px; font-size:16px; font-weight:700; line-height:24px; border-bottom:1px solid #da0f47; color:#da0f47}
+.onepage .step-area .main-area {padding:0;}
+
 
 /* swiper button */
 .banner-btns {position:absolute; width:100%; height:40px; left:50%; transform:translate(-50%,-50%); z-index:10}
@@ -107,6 +117,7 @@ ul.input-icon-type > li .icon-btn {width:100%}
 .icon-btn input {position:absolute!important; margin:-1px!important; padding:0!important; width:1px!important; height:1px!important; overflow:hidden!important; clip-path:polygon(0 0, 0 0, 0 0)!important}
 .icon-btn input:checked + label {border:2px solid #da0f47; color:#da0f47}
 .icon-btn .icon {display:block; width:48px; height:48px; margin-right:8px}
+.icon-btn .icon.buying {background:url(../images/icons/icon-buying.svg) no-repeat center}
 .icon-btn .icon.wedding {background:url(../images/icons/icon-wedding.svg) no-repeat center}
 .icon-btn .icon.move {background:url(../images/icons/icon-move.svg) no-repeat center}
 .icon-btn .icon.interior {background:url(../images/icons/icon-interior.svg) no-repeat center}
@@ -114,6 +125,7 @@ ul.input-icon-type > li .icon-btn {width:100%}
 .icon-btn .icon.etc {background:url(../images/icons/icon-etc.svg) no-repeat center}
 .icon-btn .icon.equip {background:url(../images/icons/icon-equip.svg) no-repeat center}
 .icon-btn .icon.gift {background:url(../images/icons/icon-gift.svg) no-repeat center}
+.icon-btn input:checked + label .icon.buying {background:url(../images/icons/icon-buying_on.svg) no-repeat center}
 .icon-btn input:checked + label .icon.wedding {background:url(../images/icons/icon-wedding_on.svg) no-repeat center}
 .icon-btn input:checked + label .icon.move {background:url(../images/icons/icon-move_on.svg) no-repeat center}
 .icon-btn input:checked + label .icon.interior {background:url(../images/icons/icon-interior_on.svg) no-repeat center}
@@ -185,7 +197,7 @@ ul.input-base-type .chkrdo-btn input:checked + label {border-width:2px; line-hei
 
 /* 매장/상담일시 선택 */
 .step-area .shop-date-wrap .view-area {position:relative}
-.step-area .shop-date-wrap .sort-area {position:absolute; top:68px; right:24px; z-index:10}
+.step-area .shop-date-wrap .sort-area {position:absolute; top:18px; right:24px; z-index:10}
 .step-area .shop-date-wrap .sort-area button {padding-left:26px; color:#aaa; font-size:16px; line-height:48px}
 .step-area .shop-date-wrap .sort-area button + button {position:relative; margin-left:25px}
 .step-area .shop-date-wrap .sort-area button + button::before {content:''; display:block; position:absolute; width:1px; height:14px; top:calc(50% - 7px); left:-16px; background-color:#ddd}
@@ -289,8 +301,8 @@ ul.input-list-type > li + li{margin-top:32px}
 .date-wrap .calendar {width:414px; height:100%; border:1px solid #ddd; border-radius:8px}
 .date-wrap .calendar .cal-cont {height:100%}
 .date-wrap .time {width:118px; height:100%; margin-left:12px}
-.time ul[class*="input"] {flex-direction:column; flex-wrap:wrap; margin-top:-5px}
-.time ul[class*="input"] li {margin-left:0; margin-top:5px}
+.time ul[class*="input"] {flex-direction:column; flex-wrap:wrap; margin-top:-10px}
+.time ul[class*="input"] li {margin-left:0; margin-top:10px}
 .time ul[class*="input"] li .radio-btn.btn-type2 {width:100%}
 .time ul[class*="input"] li .radio-btn.btn-type2 label {width:100%; max-height:34px; padding:6px 0; border-radius:8px; font-size:14px; line-height:20px}
 .time ul[class*="input"] li .radio-btn.btn-type2 input:checked + label {border-width:1px}

@@ -1,8 +1,14 @@
 <%@ page contentType="text/html; charset=utf-8" %>
 <div class="shop-date-wrap">
+    <div class="step-tit-area">
+        <p class="page-num">STEP02</p>
+        <h3 class="step-tit">방문 매장 및 일시 선택<sup>*</sup><span>상담을 원하시는 매장과 희망 일자를 선택하세요. (단일선택)</span></h3>
+        <div class="btm-more err-block" style="display: block;"> <!-- step 유효성 체크 -->
+            <p class="err-msg">매장을 선택해주세요.</p>
+        </div>
+    </div>
+    
     <div class="view-area">
-        <h3 class="step-tit">상담하실 매장과 예약 일시 선택<sup>*</sup><span>상담을 원하시는 매장과 희망 일자를 선택하세요. (단일선택)</span></h3>
-
         <!-- 화상상담예약 타이틀-->
 
         <!-- <div class="tit-area">
@@ -421,10 +427,6 @@
                         <dd>서울 특별시 강남구 도산대로 403 (청담동 86-1)<br>LG전자 베스트샵 강남본점</dd>
                     </dl>
                     <dl>
-                        <dt>전화번호</dt>
-                        <dd>02-3448-5191</dd>
-                    </dl>
-                    <dl>
                         <dt>영업시간</dt>
                         <dd>
                             <ul>
@@ -450,7 +452,7 @@
             <div class="calendar"><!-- active 클래스 추가(mo) -->
                 <div class="mo-top">
                     <p class="mo-tit">예약일 <span>선택</span></p><!-- 예약일 선택시 '선택' 문구 삭제 -->
-                    <span class="mo-result">21.12.15</span>
+                    <span class="mo-result">희망 일자를 선택해 주세요.</span>
                 </div>
                 <div id="calendar" class="cal-cont"></div> <!-- #calendar 로 달력호출 --><!-- active 클래스 추가(mo) -->
             </div>
@@ -463,14 +465,6 @@
                 <div class="time-cont">
                     <form action="">
                         <ul class="input-time">
-                            <li>
-                                <div class="radio-btn btn-type2">
-                                    <input type="radio" id="am1030" name="time">
-                                    <label for="am1030">
-                                        <span class="name">10:30</span>
-                                    </label>
-                                </div>
-                            </li>
                             <li>
                                 <div class="radio-btn btn-type2">
                                     <input type="radio" id="am11" name="time">
@@ -549,4 +543,5 @@
             </div>
         </div>
     </div>
+    <p class="info-text">※ 휴무일 및 지점 상황에 따라 일부 날짜 및 시간은 선택이 불가할 수 있습니다. </p>
 </div>

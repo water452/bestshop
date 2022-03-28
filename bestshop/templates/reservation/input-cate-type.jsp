@@ -65,11 +65,21 @@
     <li>
         <p class="cate-tit"><i class="icon kitchens"></i>주방가전</p>
         <ul class="cate-items">
+            <!--
             <li>
-                <div class="chkrdo-btn sm"><!-- 제품명 7글자 넘어갈시 sm 클래스 추가(mobile) -->
-                    <input type="checkbox" name="kitchens" id="fridge">
-                    <label for="fridge">
+                <div class="chkrdo-btn sm">제품명 7글자 넘어갈시 sm 클래스 추가(mobile) 
+                    <input type="checkbox" name="signature-airclean" id="signature-airclean">
+                    <label for="signature-airclean">
                         <span class="name">시그니처가습공기청정기</span>
+                    </label>
+                </div>
+            </li>
+            -->
+            <li>
+                <div class="chkrdo-btn">
+                    <input type="checkbox" name="fridge" id="fridge">
+                    <label for="fridge">
+                        <span class="name">냉장고</span>
                     </label>
                 </div>
             </li>
@@ -99,11 +109,19 @@
             </li>
             <li>
                 <div class="chkrdo-btn">
+                    <input type="checkbox" name="kimchi-fridge" id="kimchi-fridge">
+                    <label for="kimchi-fridge">
+                        <span class="name">김치냉장고</span>
+                    </label>
+                </div>
+            </li>
+            <li>
+                <div class="chkrdo-btn">
                     <input type="checkbox" name="etc-kitchens" id="etc-kitchens">
                     <label for="etc-kitchens">
                         <span class="name">기타 주방가전</span>
                     </label>
-            </div>
+                </div>
             </li>
         </ul>
     </li>
@@ -205,6 +223,14 @@
                     <input type="checkbox" name="medihair" id="medihair">
                     <label for="medihair">
                         <span class="name">메디헤어</span>
+                    </label>
+                </div>
+            </li>
+            <li>
+                <div class="chkrdo-btn">
+                    <input type="checkbox" name="medipain" id="medipain">
+                    <label for="medipain">
+                        <span class="name">메디페인</span>
                     </label>
                 </div>
             </li>

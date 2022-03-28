@@ -1,5 +1,5 @@
 <%@ page contentType="text/html; charset=utf-8" %>
-<h3 class="step-tit">구매 희망 시기<sup>*</sup><span>구매 시기를 선택해주세요.</span></h3>
+<h3 class="step-tit">구매 희망 시기<sup>*</sup><span>제품 구매 희망 예정 시기를 선택하세요.</span></h3>
 <div class="btm-more err-block" style="display: block;"> <!-- step 유효성 체크 -->
     <p class="err-msg">구매 시기를 선택해주세요.</p>
 </div>
