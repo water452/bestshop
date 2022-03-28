@@ -281,6 +281,8 @@ ul.input-list-type > li + li{margin-top:32px}
 .local-wrap .box {display:flex; flex-direction:column; justify-content:center; height:100%; padding:60px; border:1px solid #ddd; border-radius:8px}
 .local-wrap ul.input-list-type .tit {font-weight:500}
 .local-wrap ul.input-list-type > li + li {margin-top:50px}
+.local-wrap ul.input-list-type .slt li + li {margin-top:0}
+.local-wrap ul.input-list-type .slt ul {max-height:230px; overflow-y:auto}
 
 .date-wrap {display:flex; width:40%; height:auto; min-height:386px; margin-left:16px}
 .date-wrap .mo-top {display:none}

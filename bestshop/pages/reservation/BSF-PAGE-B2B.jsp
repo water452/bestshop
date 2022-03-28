@@ -213,7 +213,7 @@
                     <div class="main-area">
                         
                         <div class="shop-date-wrap">
-                            <h3 class="step-tit">상담 지역 및 예약 일시 선택*<sup>*</sup><span>상담을 원하시는 지역과 희망 일자를 선택하세요. (단일선택)</span></h3>
+                            <h3 class="step-tit">상담 지역 및 예약 일시 선택<sup>*</sup><span>상담을 원하시는 지역과 희망 일자를 선택하세요. (단일선택)</span></h3>
                             <div class="bottom-area">
                                 <div class="local-wrap">
                                     <div class="box">
@@ -226,6 +226,16 @@
                                                     <a href="javascript:void(0);" class="btn-slt">선택</a>
                                                     <ul>
                                                         <li><a href="javascript:void(0);">선택</a></li>
+                                                        <li><a href="javascript:void(0);">강남구</a></li>
+                                                        <li><a href="javascript:void(0);">강남구</a></li>
+                                                        <li><a href="javascript:void(0);">강남구</a></li>
+                                                        <li><a href="javascript:void(0);">강남구</a></li>
+                                                        <li><a href="javascript:void(0);">강남구</a></li>
+                                                        <li><a href="javascript:void(0);">강남구</a></li>
+                                                        <li><a href="javascript:void(0);">강남구</a></li>
+                                                        <li><a href="javascript:void(0);">강남구</a></li>
+                                                        <li><a href="javascript:void(0);">강남구</a></li>
+                                                        <li><a href="javascript:void(0);">강남구</a></li>
                                                         <li><a href="javascript:void(0);">강남구</a></li>
                                                     </ul>
                                                     <select title="구 선택">
@@ -242,6 +252,14 @@
                                                     <a href="javascript:void(0);" class="btn-slt">선택</a>
                                                     <ul>
                                                         <li><a href="javascript:void(0);">선택</a></li>
+                                                        <li><a href="javascript:void(0);">강남구</a></li>
+                                                        <li><a href="javascript:void(0);">강남구</a></li>
+                                                        <li><a href="javascript:void(0);">강남구</a></li>
+                                                        <li><a href="javascript:void(0);">강남구</a></li>
+                                                        <li><a href="javascript:void(0);">강남구</a></li>
+                                                        <li><a href="javascript:void(0);">강남구</a></li>
+                                                        <li><a href="javascript:void(0);">강남구</a></li>
+                                                        <li><a href="javascript:void(0);">강남구</a></li>
                                                         <li><a href="javascript:void(0);">강남구</a></li>
                                                     </ul>
                                                     <select title="구 선택">
