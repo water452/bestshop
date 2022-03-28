@@ -707,7 +707,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
     .tab01:before{top:38px;}
 		.tab01.is_depth{padding-bottom:0;}
 		.tabSlide > ul::-webkit-scrollbar{display:none;}
-		.tab01 > ul{height:110px;}
+		.tab01.is_depth > ul{height:110px;}
     .tab01 > ul > li{margin-right:20px !important;overflow:hidden;}
     .tab01 > ul > li > a{padding:6px 0 7px 0;line-height:26px;font-size:17px;float:left;}
     .tab02:before{top:53px;}
