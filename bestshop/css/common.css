@@ -714,7 +714,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
     .tab02 > ul > li{margin-right:17px;}
     .tab02 > ul > li:before{right:-8px;}
     .tab02 > ul > li > a{font-size:14px;}
-		[class*="tab"].is_depth > ul > li [class*="tab"]:not(.tabDepth2){top:42px;}
+		[class*="tab"].is_depth > ul > li [class*="tab"]:not(.tabDepth2){top:40px;}
 
 	/* step title */
 	.step-tit{display:block; margin-bottom:16px;font-size:20px;line-height:26px}
