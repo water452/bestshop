@@ -13,6 +13,7 @@ dfn { display: block; font-style: normal; }
 
 /* page-header */
 .page-header { max-width: 1460px; margin: 0 auto; padding: 15px 40px 64px; text-align: center; } 
+.page-header.h100 { height: calc(100vh - 683px); }
 .page-header .title { font-weight: bold; font-size: 24px; line-height: 36px; color: #000; } 
 .page-header .desc { margin-top: 8px; } 
 .page-header .desc .txt { display: inline-block; font-size: 16px; line-height: 24px; vertical-align: middle; } 
@@ -414,9 +415,8 @@ ul.input-cate-type .cate-tit > .icon.apple-watch { background: url("../images/ic
 .list-apt > li .btn-area { position: absolute; top: 50%; right: 22px; -webkit-transform: translateY(-50%); transform: translateY(-50%); }
 .list-apt > .on .li-wrap { border-color: #000; }
 .list-apt.ty-btn > li .li-wrap { padding-right: 164px; }
-.list-apt.ty-col { left: auto; width: auto; }
-.list-apt.ty-col > li { padding: 0; width: 100%; }
-.list-apt.ty-col > li + li { margin-top: 14px; }
+.list-apt.ty-col { left: auto; width: auto; column-count: 2; }
+.list-apt.ty-col > li { width:100%; padding: 7px; }
 .img-slide img { width: 100%; }
 .img-slide .slide-navi { position: absolute; bottom: 25px; left: 0; width: 100%; }
 .img-slide-wrap + .cont-area { margin-top: 40px; }
@@ -434,15 +434,16 @@ ul.input-cate-type .cate-tit > .icon.apple-watch { background: url("../images/ic
 .list-sd-map > [data-area="gyeongsang"] { top: 52.5%; left: 49%; }
 .list-sd-map > [data-area="jeju"] { bottom: 6.5%; left: 14%; }
 .list-sd-map > li a.zero { background: #fff; cursor: default;}
-.list-sd-map > .on a { color: #fff; background: linear-gradient(80deg, #fa263e 2%, #fb5a72 99%); }
+.list-sd-map > .on a { color: #fff; border: 0; background: linear-gradient(80deg, #fa263e 2%, #fb5a72 99%); }
 .list-sd-map > .on span { color: #fa263e; }
 .list-sd-map > li a { display: block; padding: 4px 10px; color: #878787; border-radius: 14px; border: 1px solid #ddd; background: #ddd; }
 .list-sd-map > li a > * { display: inline-block; vertical-align: top; }
 .list-sd-map > li dfn { line-height: 18px; font-size: 14px; }
 .list-sd-map > li span { margin-left: 3px; min-width: 18px; line-height: 18px; font-size: 12px; border-radius: 100%; background: #fff; text-align: center; }
 .sec-sd-area { padding-left: 31px; width: 100%; line-height: 0; font-size: 0; }
-.sec-sd-area > * { display: inline-block; width: calc(50% - 12px); vertical-align: top; }
-.sec-sd-area > * + * { margin-left: 24px; }
+.sec-sd-area > * { vertical-align: top; }
+.sec-sd-area > * + * { margin-top: 50px; }
+.sec-sd-area .tit08 { font-weight: 500; }
 
 /* 이벤트 > 홍보영상 */
 .story-video { display: flex; margin-top: 28px; }
@@ -577,10 +578,10 @@ li[class*="blt"], li > [class*="blt"] { display: block; }
 .su-wrap { table-layout: fixed; display: table; width: 100%; }
 .su-wrap > * { display: table-cell; vertical-align: middle; }
 .su-thum { width: 150px; }
-.user-thum { table-layout: fixed; display: table; position: relative; width: 150px; height: 150px; border-radius: 100%; text-align: center; overflow: hidden; }
+.user-thum { table-layout: fixed; display: table; position: relative; width: 150px; height: 150px; text-align: center; overflow: hidden; }
 .user-thum span { display: table-cell; background: #ddd url("../images/bg-shop-user.svg") no-repeat center; background-size: auto 90px; vertical-align: middle; }
 .user-thum img { position: absolute; top: 50%; left: 50%; max-height: 100%; transform: translate(-50%, -50%); }
-.su-infor { padding-left: 40px; }
+.su-infor { padding-left: 30px; }
 .sec-shop .btn-area { position: absolute; top: 30px; right: 0; }
 .sec-shop .tooltip-wrap { padding: 0; height: auto; }
 .tit-su + * { margin-top: 10px; }
@@ -697,7 +698,8 @@ li[class*="blt"], li > [class*="blt"] { display: block; }
     .cont-wrap .tabs-wrap {margin: 0 -16px;}
 
     /* page-header */
-    .page-header { padding: 26px 16px 32px; } 
+    .page-header { padding: 26px 16px 32px; }
+    .page-header.h100 { height: auto; } 
     .page-header .desc { margin-top: 12px; } 
     .page-header .title { line-height: 30px; } 
     .page-header .desc .txt { font-size: 14px; line-height: 20px; } 
@@ -940,6 +942,8 @@ li[class*="blt"], li > [class*="blt"] { display: block; }
     .list-apt > li .branch li:before { right: -7px; margin-top: -4px; height: 8px; }
     .list-apt > li .btn-area { right: 12px; }
     .list-apt.ty-btn > li .li-wrap { padding-right: 116px; }
+    .list-apt.ty-col { margin-top: 16px; column-count: 1; }
+    .list-apt.ty-col > li { padding: 0; }
     .img-slide-wrap + .cont-area { margin-top: 20px; }
     .img-slide-wrap { position: relative; left: -16px; width: calc(100% + 32px); }
     .img-slide .slide-navi { bottom: 20px; }
