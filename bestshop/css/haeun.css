@@ -179,7 +179,7 @@ ul.input-base-type .chkrdo-btn input:checked + label {border-width:2px; line-hei
 .step-area .result-area .info-txt-uncom .page-num {color:#666; font-size:20px; font-weight:bold; line-height:28px}
 .step-area .result-area .info-txt-uncom .txt {margin-left:18px; color:#666; font-size:18px; line-height:26px}
 
-.step-area .result-area .info-txt-com.before > a {display:flex}
+.step-area .result-area .info-txt-com.before > a {display:flex; align-items:center}
 .step-area .result-area .info-txt-com.before .page-num {color:#666; font-size:20px; font-weight:bold; line-height:28px}
 .step-area .result-area .info-txt-com.before .txt {margin-left:18px; color:#666; font-size:18px; font-weight:normal; line-height:26px}
 
