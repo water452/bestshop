@@ -313,7 +313,6 @@
             e.preventDefault();
             var d = $(this).parent().attr("data-area");
             var s = $(".list-apt [data-area='" + d + "']");
-            var current = $(".schedule-map-list li.on");
 
             if ( s ){
                 $(".list-apt li").removeClass("on");
@@ -328,7 +327,6 @@
 
             if ($(this).hasClass("zero")){
                 $(this).parent().removeClass("on");
-                current.addClass("on");
             };
         });
     };
