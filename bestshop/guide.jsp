@@ -405,6 +405,18 @@
                 <option>선택</option>
             </select>
             <hr>
+            <div class="slt sltBox border-type" data-txt-change="true">
+                <a href="javascript:void(0);" class="btn-slt" style="margin: 0;">선택</a>
+                <ul>
+                    <li><a href="javascript:void(0);">선택</a></li>
+                    <li><a href="javascript:void(0);">서울특별시</a></li>
+                </ul>
+                <select title="시/도 선택">
+                    <option selected>선택</option>
+                    <option>서울특별시</option>
+                </select>
+            </div>
+            <hr>
             <div class="slt sltBox" data-txt-change="true">
                 <a href="javascript:void(0);" class="btn-slt">진행중인 이벤트</a>
                 <ul>
@@ -428,7 +440,7 @@
             <hr>
             <span class="radio-btn">
                 <input type="radio" id="rdo-sample-y" name="rdo-sample" checked />
-                <label for="rdo-sample-y">에</label>
+                <label for="rdo-sample-y">예</label>
             </span>
             <span class="radio-btn">
                 <input type="radio" id="rdo-sample-n" name="rdo-sample" />

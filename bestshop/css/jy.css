@@ -421,7 +421,8 @@ ul.input-cate-type .cate-tit > .icon.apple-watch { background: url("../images/ic
 .list-apt > .on .li-wrap { border-color: #000; }
 .list-apt.ty-btn > li .li-wrap { padding-right: 164px; }
 .list-apt.ty-col { left: auto; width: auto; column-count: 2; }
-.list-apt.ty-col > li { width:100%; padding: 7px; }
+.list-apt.ty-col > li { display: none; width:100%; padding: 7px; }
+.list-apt.ty-col > li.on { display: inline-block; }
 .img-slide img { width: 100%; }
 .img-slide .slide-navi { position: absolute; bottom: 25px; left: 0; width: 100%; }
 .img-slide-wrap + .cont-area { margin-top: 40px; }
@@ -430,6 +431,7 @@ ul.input-cate-type .cate-tit > .icon.apple-watch { background: url("../images/ic
 .sd-map { padding: 16px 0 0 17px; width: calc(512px + 17px); }
 .list-sd-map { position: relative; height: 612px; background: url("../images/sd-map.png") no-repeat center 0; }
 .list-sd-map > li { position: absolute; }
+.list-sd-map > [data-area="all"] { top: 7%; left: 5%; }
 .list-sd-map > [data-area="seoul"] { top: 22.5%; left: 24%; }
 .list-sd-map > [data-area="gyeonggi"] { top: 29%; left: 26%; }
 .list-sd-map > [data-area="incheon"] { top: 26%; left: 12%; }
@@ -442,6 +444,7 @@ ul.input-cate-type .cate-tit > .icon.apple-watch { background: url("../images/ic
 .list-sd-map > .on a { color: #fff; border: 0; background: linear-gradient(80deg, #fa263e 2%, #fb5a72 99%); }
 .list-sd-map > .on span { color: #fa263e; }
 .list-sd-map > li a { display: block; padding: 4px 10px; color: #878787; border-radius: 14px; border: 1px solid #ddd; background: #ddd; }
+.list-sd-map > [data-area="all"] a { padding: 4px 13px; }
 .list-sd-map > li a > * { display: inline-block; vertical-align: top; }
 .list-sd-map > li dfn { line-height: 18px; font-size: 14px; }
 .list-sd-map > li span { margin-left: 3px; min-width: 18px; line-height: 18px; font-size: 12px; border-radius: 100%; background: #fff; text-align: center; }

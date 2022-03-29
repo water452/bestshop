@@ -108,6 +108,7 @@
                 <div class="sd-map">
                     <!-- pc용 -->
                     <ul class="list-sd-map m-hidden">
+                        <li><a href="#none"><dfn class="area">전체지역</dfn></a></li>
                         <li><a href="#none"><dfn class="area">서울</dfn><span>1</span></a></li>
                         <li><a href="#none"><dfn class="area">경기</dfn><span>4</span></a></li>
                         <li><a href="#none"><dfn class="area">인천</dfn><span>1</span></a></li>
@@ -287,12 +288,13 @@
 
     // 지도
     function mapChoice(){
-        var defaultName = "seoul";
+        var defaultName = "all";
 
         $(".schedule-map-list li").each(function(){
             var i = $(this).find(".area").text();
 
-            if ( i == "서울" ){ var d = "seoul"; }
+            if ( i == "전체지역" ){ var d = "all"; }
+            else if ( i == "서울" ){ var d = "seoul"; }
             else if ( i == "경기" ){ var d = "gyeonggi"; }
             else if ( i == "인천" ){ var d = "incheon"; }
             else if ( i == "강원" ){ var d = "gangwon"; }
@@ -305,6 +307,7 @@
         });
 
         $(".schedule-map-list li[data-area='" + defaultName + "']").addClass("on");
+        $(".list-apt li").addClass("on");
 
         $(document).on("click", ".list-sd-map li a", function(e){
             e.preventDefault();
@@ -314,6 +317,10 @@
             if ( s ){
                 $(".list-apt li").removeClass("on");
                 s.addClass("on");
+            };
+
+            if ( d == "all" ){
+                $(".list-apt li").addClass("on");
             };
 
             $(this).parent().addClass("on").siblings().removeClass("on");
