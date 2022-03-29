@@ -78,7 +78,7 @@
                         </dl>
                         <p class="txt-belt color-fff">본 이벤트는 마케팅 수신동의 고객에 한하여 참여 가능합니다.<br /> 마케팅 활용동의(문자필수) 체크 후 이벤트에 참여해주세요.</p>
                         <a href="#none" class="btn-txt-icon-more-wt">마케팅 활용동의 변경하러 가기</a>
-                        <div class="btn-area"><a href="#none" class="btn white">타임딜 할인쿠폰 발급받기</a></div>
+                        <div class="btn-area"><a href="#popup-coupon" class="btn white btnPopOpen">타임딜 할인쿠폰 발급받기</a></div>
                     </div>
                 </div>
                 <div class="notice-wrap">
@@ -97,6 +97,28 @@
     </div>
     <!-- // contents -->
 </div>
+
+<!-- dim -->
+<div class="dim"> </div>
+<!-- //dim -->
+
+<!-- 팝업: (alert) -->
+<div class="popup alert" id="popup-coupon">
+    <div class="pop-wrap">
+        <div class="pop-cont min-auto">
+            <p class="txt-pop01">
+                <span class="block">쿠폰 발급이 완료되었습니다.</span>
+                <span class="block">발급된 쿠폰은 ‘마이페이지 > 쇼핑관리 > 쿠폰’</span>
+                <span class="block">화면에서 확인 가능합니다.</span>
+                <span class="block">(오후 7시 이후 신청한 쿠폰은 익일 오전 발송됩니다.)</span>
+            </p>
+        </div>
+        <div class="btn-area m-full-flex">
+            <button type="button" class="btn s01 btnPopCancel">확인</button>
+        </div>
+    </div>
+</div>
+<!-- 팝업: (alert) -->
 
 <script>
     var $inputFile = $('.survey-box').find('input[type="file"]');
