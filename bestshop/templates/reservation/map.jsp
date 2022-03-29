@@ -125,7 +125,10 @@
                                 </li>
                             </ul>
                         </div>
-                        <button type="button" class="btn-view"><span class="blind">매장 리스트 보기</span></button>
+                        <button type="button" class="btn-view mToggle">
+                            <span class="blind m-hidden">매장목록</span>
+                            <span class="pc-hidden">매장목록</span>
+                        </button>
                     </div>
                     <div class="btn-area innerMap">
                         <a href="#popup-confirm" class="btn purple gps btnPopOpen">가까운 매장찾기</a>

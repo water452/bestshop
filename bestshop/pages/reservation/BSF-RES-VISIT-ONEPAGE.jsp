@@ -175,18 +175,36 @@
                         <jsp:include page="../../templates/reservation/input-user-info.jsp" /> <!-- //input-user-info.jsp -->
                     </div>
 
-                    <div class="btn-area bg active mt48"><!-- bg 활성화 : active -->
-                        <div class="result-txt">
-                            <!-- <p>상담하실 매장과 일시를 선택해주세요.</p> -->
-                            <p>상담 매장: <span>강남본점</span></p>
-                            <p>예약 일시: <span>21년12월15일, 17시</span></p>
-                        </div>
+                    <div class="result-info-area">
+                        <p class="result-info-txt">예약 정보를 확인해주세요.</p>
+                        <ul class="result-info-list">
+                            <li>
+                                <dl>
+                                    <dt>상담 목적 :</dt>
+                                    <dd>혼수</dd>
+                                </dl>
+                                <dl>
+                                    <dt>제품 선택 :</dt>
+                                    <dd>냉장고, 식기세척기, 청소기</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>상담 매장 :</dt>
+                                    <dd>강남본점</dd>
+                                </dl>
+                                <dl>
+                                    <dt>예약 일시 :</dt>
+                                    <dd>21년12월15일, 17시</dd>
+                                </dl>
+                            </li>
+                        </ul>
                     </div>
 
                 </div>
                 <!-- // step 3 -->
 
-                <div class="btn-area center m-hidden active"><!-- active 클래스 추가 -->
+                <div class="btn-area center active"><!-- active 클래스 추가 -->
                     <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담 예약하기</button>
                 </div>
 
@@ -348,7 +366,7 @@
         }
 
         // step 3 지도 매장리스트보기 버튼
-        $('.map-list-wrap .btn-view').on('click', function(){
+        $('.map-list-wrap .btn-view.mToggle').on('click', function(){
             $(this).closest('.map-list-wrap').toggleClass('active')
         })
 
@@ -382,84 +400,7 @@
 
 
 <script>
-    var _winW = $(window).width(),
-        /* s: scroll effect */
-        minusTop = $('.info-step02').height(),
-        etcH = $('.step-top-note').height(),
-        baseTop = parseInt($('.step01').offset().top) + minusTop - etcH,
-        step2Top = baseTop + minusTop,
-        step3Top = step2Top + minusTop;
-        /* e: scroll effect */
-
-    //$('.step02 .main-area, .step03 .main-area').hide();
-    //$('.step02 .btn-area, .step03 .btn-area').hide();
-    
-    /* STEP01 > STEP02 */
-    $('.step01 .btn-area button').on('click', function(){
-        /* step01 effect */
-        $('.step01').addClass('open');
-        $('.step01 .main-area, .step01 .btn-area').stop().slideUp(400); // 내용과 버튼영역 히든
-        $('.step01 .info-txt-com').addClass('active'); // 요약정보 노출
-        $('.step01').removeClass('border'); // border 삭제
-
-        /* step02 effect */
-        $('.step02').addClass('open');
-        $('.step02 .main-area, .step02 .btn-area').stop().slideDown(400);
-        $('.step02 .info-txt-uncom').slideUp(400);
-        $('.step02').addClass('border');
-
-        /* scroll effect */
-        $('html, body').scrollTop(step2Top);
-    });
-
-    /* STEP02 > STEP03 */
-    $('.step02 .btn-area button').on('click', function(){
-        $('.step02 .main-area, .step02 .btn-area').stop().slideUp(400); // 내용과 버튼영역 히든
-        $('.step02 .info-txt-com').addClass('active'); // 요약정보 노출
-        $('.step02').removeClass('border');
-        $('.step03').addClass('border');
-
-        /* step03 effect */
-        $('.step03').addClass('open');
-        $('.step03 .main-area').stop().slideDown(400);
-        $('.step03 .info-txt-uncom').slideUp(400);
-
-        /* scroll effect */
-        $('html, body').scrollTop(step3Top);
-    });
-
-    /* TOGGLE STEP */
-    $('.info-txt-com a').on('click', function(){
-        var _with = $(this).closest('.step-area').siblings('.step-area');
-
-        _with.removeClass('border').find('.main-area, .btn-area').slideUp(400);
-        $(this).closest('.step-area').toggleClass('border').find('.main-area').slideToggle(400);
-
-        if($('.step02 .btn-area').is(':visible')){ // step02 상태에서 펼칠때
-            $('.step02 .info-txt-com').addClass('active');
-            $('.step02').addClass('middle');
-        }
-
-        if($(this).closest('.step-area').hasClass('middle')){ // 위의 상황이 지나고 다시 펼칠때
-            $('.step02 .btn-area').slideDown(400);
-            $('.step02').removeClass('middle');
-        }
-
-        if($('.step03').hasClass('open')){
-            $('.step03 .info-txt-com').addClass('active');
-        }
-
-        /* scroll effect */
-        var _thdEl = $(this).closest('.step-area');
-
-        if(_thdEl.hasClass('step01')){
-            $('html, body').scrollTop(baseTop);
-        } else if(_thdEl.hasClass('step02')){
-            $('html, body').scrollTop(step2Top);
-        } else if(_thdEl.hasClass('step03')){
-            $('html, body').scrollTop(step3Top);
-        }
-    });
+    var _winW = $(window).width();
 
     // video control
     $('.btn-video-view').on('click', function(){
