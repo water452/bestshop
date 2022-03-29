@@ -98,7 +98,7 @@
                             <ul>
                                 <li><a href="javascript:void(0);">선택</a></li>
                                 <li><a href="javascript:void(0);">TV</a></li>
-                                <li><a href="javascript:void(0);">프로젝터</a></li>
+                                <li><a href="javascript:void(0);">프로젝터프로젝터</a></li>
                                 <li><a href="javascript:void(0);">AV</a></li>
                             </ul>
                             <select title="시/도 선택">

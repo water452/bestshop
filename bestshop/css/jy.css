@@ -151,6 +151,9 @@ dfn { display: block; font-style: normal; }
 .slt li > a:hover, .slt li > a:focus, .slt li > a:active { background: #f4f4f4; }
 .check-box.small label { padding-left: 28px; font-size: 14px; }
 
+.sv-sorting .sltBox ul{left:50%;width:auto;min-width:calc(100% + 40px);transform:translateX(-50%);}
+.sv-sorting .slt > a{padding:8px 20px 8px 0;}
+
 /******************* contents **********************/
 /* 신규 오픈 매장 */
 .tit-img-area img { max-width: 100%; }
