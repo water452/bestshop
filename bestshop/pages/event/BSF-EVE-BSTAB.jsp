@@ -61,7 +61,7 @@
                         <a href="javascript:void(0);" class="btn-slt">유형전체</a>
                         <ul>
                             <li><a href="javascript:void(0);">유형전체</a></li>
-                            <li><a href="javascript:void(0);">구매혜택</a></li>
+                            <li><a href="javascript:void(0);">구매혜택구매혜택</a></li>
                             <li><a href="javascript:void(0);">사은품</a></li>
                             <li><a href="javascript:void(0);">경품</a></li>
                             <li><a href="javascript:void(0);">체험단 신청</a></li>
