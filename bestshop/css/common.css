@@ -152,6 +152,7 @@ table{border-collapse:collapse}
 
 /* step title */
 .step-tit-area ~ .step-tit{margin-top:50px}
+.step-tit ~ .step-tit{margin-top:50px}
 .step-tit{display:flex;align-items:center;margin-bottom:22px;font-size:20px;font-weight:bold;line-height:28px}
 .step-tit > span{display:block;margin-left:10px;color:#666;font-size:14px;font-weight:500}
 .step-tit > sup{color:#da0f47;font-size:20px;font-weight:bold;line-height:28px}
@@ -718,6 +719,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 
 	/* step title */
 	.step-tit-area ~ .step-tit{margin-top:40px}
+	.step-tit ~ .step-tit{margin-top:40px}
 	.step-tit{display:block; margin-bottom:16px;font-size:20px;line-height:26px}
 	.step-tit > span{margin-left:0;font-size:11px}
 	.step-tit > sup{font-size:16px;line-height:26px;vertical-align:text-top}
