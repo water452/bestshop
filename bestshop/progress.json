@@ -210,8 +210,8 @@
       "dep3": "상담예약 단일페이지",
       "dep4": "",
       "worker": "이수인",
-      "startdate": "-",
-      "finishdate": "-",
+      "startdate": "2022-03-28",
+      "finishdate": "2022-03-29",
       "status": "완료",
       "filename": "./pages/reservation/BSF-RES-VISIT-ONEPAGE.jsp",
       "memo": ""
