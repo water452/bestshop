@@ -226,6 +226,7 @@
                                             <li>LX지인</li>
                                             <li>야간무인</li>
                                         </ul>
+                                        <span class="dist">300m</span>
                                     </div>
                                     <p class="info-txt">
                                         서울특별시 강남구 도산대로 403 (청담동 86-1)
