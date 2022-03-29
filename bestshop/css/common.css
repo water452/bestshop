@@ -130,7 +130,7 @@ table{border-collapse:collapse}
 .mo .only_pc{display:none!important}
 .pc .only_mo{display:none!important}
 .mo .only_mo{display:block!important}
-.scroll-fixed{overflow:hidden;position:relative;height:100%;}
+.scroll-fixed{overflow:hidden;position:relative;width:100vw;height:100vh;}
 
 /* search */
 .search-box{position:relative;margin:0 auto;width:100%;max-width:594px;}
