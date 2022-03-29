@@ -925,9 +925,10 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .onepage .step-area .result-info-txt::after {margin-top:12px; padding-top:16px}
     .onepage .step-area .result-info-list {display:block;}
     .onepage .step-area .result-info-list dl {font-size:14px; line-height:22px}
-    .onepage .step-area + .btn-area {margin-top:30px}
     .onepage .step-area .user-info-area .rt {margin-top:0}
     .onepage .step-area .user-info-area .box-gray {padding:0}
+    .onepage .step-area + .btn-area {margin-top:30px}
+    .onepage .step-area + .btn-area .btn.btn-res {width:100%}
 
     /* swiper button */
     .banner-btns {height:28px}

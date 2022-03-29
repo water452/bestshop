@@ -18,7 +18,7 @@
                         <a href="BSF-RES-VISIT-ONEPAGE.jsp">방문상담예약</a>
                     </li>
                     <li>
-                        <a href="BSF-RES-VIDEO.jsp">화상상담예약</a>
+                        <a href="BSF-RES-VISIT-ONEPAGE-PDT.jsp">화상상담예약</a>
                     </li>
                 </ul>
             </div>

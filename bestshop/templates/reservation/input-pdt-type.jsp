@@ -6,9 +6,17 @@
 <ul class="input-pdt-type">
     <li>
         <div class="chkrdo-btn">
-            <input type="checkbox" name="kitchens" id="fridge">
-            <label for="fridge">
+            <input type="checkbox" name="signature-airclean" id="signature-airclean">
+            <label for="signature-airclean">
                 <span class="name">시그니처가습공기청정기</span>
+            </label>
+        </div>
+    </li>
+    <li>
+        <div class="chkrdo-btn">
+            <input type="checkbox" name="kimchi-fridge" id="kimchi-fridge">
+            <label for="kimchi-fridge">
+                <span class="name">김치냉장고</span>
             </label>
         </div>
     </li>
@@ -121,6 +129,14 @@
             <input type="checkbox" name="medihair" id="medihair">
             <label for="medihair">
                 <span class="name">메디헤어</span>
+            </label>
+        </div>
+    </li>
+    <li>
+        <div class="chkrdo-btn">
+            <input type="checkbox" name="medipain" id="medipain">
+            <label for="medipain">
+                <span class="name">메디페인</span>
             </label>
         </div>
     </li>
