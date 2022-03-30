@@ -261,8 +261,8 @@ ul.shop-list li [class^="btn-"].active::before {content:''; display:block; posit
 ul.shop-list li [class^="btn-"] > span {margin-left:3px}
 
 .shop-date-wrap .list-wrap .view-wrap .mo-select {display:none}
-.shop-date-wrap .list-wrap .view-wrap .rt {width:calc(100% - 220px); height:100%; padding:12px 30px 26px; overflow-y:auto}
-.shop-date-wrap .list-wrap .view-wrap .rt .mCustomScrollBox {width:calc(100% + 30px); max-width:calc(100% + 30px)}
+.shop-date-wrap .list-wrap .view-wrap .rt {width:calc(100% - 220px); height:100%; padding:12px 0 26px 30px; overflow-y:auto}
+/* .shop-date-wrap .list-wrap .view-wrap .rt .mCustomScrollBox {width:calc(100% + 30px); max-width:calc(100% + 30px)} */
 .shop-date-wrap .list-wrap .view-wrap .rt .mCSB_scrollTools {top:0; right:6px; bottom:0; width:8px; border-radius:8px; background:#f4f4f4; opacity:1}
 .shop-date-wrap .list-wrap .view-wrap .rt .mCSB_scrollTools .mCSB_draggerContainer {top:2px; bottom:2px}
 .shop-date-wrap .list-wrap .view-wrap .rt .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {background:#ccc!important}
