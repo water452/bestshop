@@ -4,113 +4,78 @@
 <div class="container" id="content">
 
     <div class="page-header">
-        <h2 class="title">매장 상담 예약</h2>
+        <h2 class="title">경기도 이벤트홀 진열제품 대방출 행사</h2>
     </div>
 
     <!-- contents -->
     <div class="contents res-main">
-
         <div class="cont-wrap">
-
-            <div class="tab01 center">
-                <ul>
-                    <li class="on">
-                        <a href="BSF-RES-VISIT-ONEPAGE.jsp">방문상담예약</a>
-                    </li>
-                    <li>
-                        <a href="BSF-RES-VISIT-ONEPAGE-PDT.jsp">화상상담예약</a>
-                    </li>
-                    <li>
-                        <a href="BSF-PAGE-WEDDING-ONEPAGE.jsp">맞춤형상담예약</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="top-wrap">
-                <div class="add-area">
-                    <div class="img-slide-wrap">
-                        <div class="swiper img-slide">
-                            <ul class="swiper-wrapper">
-                                <li class="swiper-slide">
-                                    <div class="img-wrap">
-                                        <img class="m-hidden" src="../../images/img-res-visit-banner-01.jpg" alt="&nbsp;" /><!-- pc용 -->
-                                        <img class="pc-hidden" src="../../images/img-res-visit-banner-01_mo.jpg" alt="&nbsp;" /><!-- mobile용 -->
+            <div class="top-wrap top-visual">
+                <!-- s : 이벤트배너 -->
+                <div class="img-slide-wrap">
+                    <div class="swiper img-slide">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                <div class="img-wrap">
+                                    <img class="m-hidden" src="../../images/img_benefit_month_test.png" alt="&nbsp;" /><!-- pc용 -->
+                                    <img class="pc-hidden" src="../../images/img_benefit_month_test.png" alt="&nbsp;" /><!-- mobile용 -->
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="img-wrap">
+                                    <img class="m-hidden" src="../../images/img-banner-dummy.png" alt="&nbsp;" /><!-- pc용 -->
+                                    <img class="pc-hidden" src="../../images/img-banner-dummy-mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="img-wrap">
+                                    <button type="button" class="btn-video-view">영상보기</button>
+                                    <img class="m-hidden" src="../../images/img-banner-dummy.png" alt="&nbsp;" /><!-- pc용 -->
+                                    <img class="pc-hidden" src="../../images/img-banner-dummy-mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="video-wrap">
+                                    <!-- s : video case
+                                    <video class="pcOnly" autoplay="" playsinline="" muted="" poster="../../images/img-benefit-month-slide-test.png" class="videoPoster" loop>
+                                        <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
+                                        <p>LG전자 회사소개 동영상</p>
+                                    </video>
+                                    <video class="mobileOnly"  playsinline="" muted="" poster="../../images/img-benefit-month-slide-test-mo.png" class="videoPoster" loop>
+                                        <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
+                                        <p>LG전자 회사소개 동영상</p>
+                                    </video>
+                                    e : video case -->
+                                    
+                                    <!-- s : iframe case -->
+                                    <div class="iframe-wrap">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/PKELCx-C_Og" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
-                                </li>
-                                <li class="swiper-slide">
-                                    <div class="img-wrap">
-                                        <button type="button" class="btn-video-view">영상보기</button>
-                                        <img class="m-hidden" src="../../images/img-res-visit-banner-01.jpg" alt="&nbsp;" /><!-- pc용 -->
-                                        <img class="pc-hidden" src="../../images/img-res-visit-banner-01_mo.jpg" alt="&nbsp;" /><!-- mobile용 -->
-                                    </div>
-                                </li>
-                            </ul>
-                            <div class="slide-navi">
-                                <div class="slide-navi-detail">
-                                    <div class="swiper-pager">
-                                        <button type="button" class="slideBtn btn-prev">이전 슬라이드</button>
-                                        <div class="pager-fraction"></div>
-                                        <button type="button" class="slideBtn btn-next">다음 슬라이드</button>
-                                    </div>
-                                    <div class="swiper-auto">
-                                        <button type="button" class="slideBtn btn-play">슬라이드 재생</button>
-                                        <button type="button" class="slideBtn btn-stop active">슬라이드 일시정지</button>
-                                    </div>
+                                    <!-- e : iframe case -->
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="slide-navi">
+                            <div class="slide-navi-detail">
+                                <div class="swiper-pager">
+                                    <button type="button" class="slideBtn btn-prev">이전 슬라이드</button>
+                                    <div class="pager-fraction"></div>
+                                    <button type="button" class="slideBtn btn-next">다음 슬라이드</button>
+                                </div>
+                                <div class="swiper-auto">
+                                    <button type="button" class="slideBtn btn-play">슬라이드 재생</button>
+                                    <button type="button" class="slideBtn btn-stop active">슬라이드 일시정지</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="guide-area step-3">
-                    <div class="guide-process">
-                        <div class="inner">
-                            <div class="swiper guide-banner-visit">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <div class="box">
-                                            <div class="tit-wrap">
-                                                <span class="tit">STEP 01</span>
-                                                <strong>상담 목적 및 <br class="pc-hidden">제품 선택</strong>
-                                            </div>
-                                            <span class="icon-wrap">
-                                                <i class="icon01"></i>
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="box">
-                                            <div class="tit-wrap">
-                                                <span class="tit">STEP 02</span>
-                                                <strong>방문 매장 및 <br class="pc-hidden">일시 선택</strong>
-                                            </div>
-                                            <span class="icon-wrap">
-                                                <i class="icon02"></i>
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="box">
-                                            <div class="tit-wrap">
-                                                <span class="tit">STEP 03</span>
-                                                <strong>정보 입력 및 <br class="pc-hidden">예약 신청</strong>
-                                            </div>
-                                            <span class="icon-wrap">
-                                                <i class="icon03"></i>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- <div class="swiper-scrollbar"></div> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <!-- // e : 이벤트배너 -->
 
                 <!-- 팝업 : 영상 팝업 s -->
                 <div class="popup v-large video" id="popup-video">
                     <div class="pop-wrap white">
-                        <div class="pop-cont h-320">
+                        <div class="pop-cont h-480">
                             <div class="video-wrap">
                                 <!-- s : video case -->
                                 <video class="pcOnly" playsinline="" muted="" poster="../../images/img-benefit-month-slide-test.png" class="videoPoster" loop> <!-- pc only -->
@@ -136,11 +101,11 @@
                 <!-- 팝업 : 영상 팝업 e -->
             </div>
 
-            <section class="cont-area onepage">
+            <section class="cont-area onepage mt48">
                 <p class="step-top-note"><sup>*</sup>필수입력항목</p>
                 <!-- step 1 -->
                 <div class="step-area step01">
-                    <div class="main-area">
+                    <div class="main-area active"><!-- active 클래스 추가 -->
                         <form action="">
                             <jsp:include page="../../templates/reservation/input-icon-type.jsp" /> <!-- //input-icon-type.jsp -->
 
@@ -162,7 +127,7 @@
 
                 <!-- step 2 -->
                 <div class="step-area step02">
-                    <div class="main-area">
+                    <div class="main-area"> <!-- 노출여부 : active -->
                         <jsp:include page="../../templates/reservation/map.jsp" /> <!-- //map.jsp -->
                     </div>
                 </div>
@@ -170,10 +135,8 @@
 
                 <!-- step 3 -->
                 <div class="step-area step03">
-                    
-
                     <div class="main-area">
-                        <div class="user-info-area">
+                        <div class="user-info-area info-type">
                             <div class="step-tit-area">
                                 <p class="page-num">STEP03</p>
                                 <h3 class="step-tit">예약 신청</h3>
@@ -183,20 +146,40 @@
                                 <form action="">
                                     <div class="box-gray">
                                         <ul class="input-list-type">
-                                            <li>
-                                                <div class="tit">
-                                                    <label for="user-name">
-                                                        <span class="name">이름<sup>*</sup></span>
-                                                    </label>
-                                                </div>
-                                                <div class="txt-box">
-                                                    <div class="input-wrap">
-                                                        <input class="base-txt" type="text" id="user-name" placeholder="이름을 입력해주세요.">
+                                            <li class="row">
+                                                <div class="inner">
+                                                    <div class="tit">
+                                                        <label for="user-name">
+                                                            <span class="name">이름<sup>*</sup></span>
+                                                        </label>
                                                     </div>
-                                                    <div class="btm-more err-block" style="display: block;">
-                                                        <p class="err-msg">이름을 입력해주세요.</p>
+                                                    <div class="txt-box">
+                                                        <div class="input-wrap">
+                                                            <input class="base-txt" type="text" id="user-name" placeholder="이름을 입력해주세요.">
+                                                        </div>
+                                                        <div class="btm-more err-block" style="display: block;">
+                                                            <p class="err-msg">이름을 입력해주세요.</p>
+                                                        </div>
                                                     </div>
                                                 </div>
+                                                <ul class="input-btn-type">
+                                                    <li>
+                                                        <div class="chkrdo-btn">
+                                                            <input type="radio" name="genrdo" id="gender01">
+                                                            <label for="gender01">
+                                                                <span class="name">남</span>
+                                                            </label>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="chkrdo-btn">
+                                                            <input type="radio" name="genrdo" id="gender02">
+                                                            <label for="gender02">
+                                                                <span class="name">여</span>
+                                                            </label>
+                                                        </div>
+                                                    </li>
+                                                </ul>
                                             </li>
                                             <li>
                                                 <div class="tit">
@@ -210,6 +193,18 @@
                                                     </div>
                                                     <div class="btm-more err-block" style="display: block;">
                                                         <p class="err-msg">휴대폰번호를 입력해주세요.</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="side-info-box"> <!-- 부가정보 .side-info-box 추가 -->
+                                                <div class="tit">
+                                                    <label for="planner">
+                                                        <span class="name">담당 플래너</span>
+                                                    </label>
+                                                </div>
+                                                <div class="txt-box">
+                                                    <div class="input-wrap">
+                                                        <input class="base-txt" type="text" id="planner" placeholder="해당 업체 담당 플래너가 있을 경우 입력">
                                                     </div>
                                                 </div>
                                             </li>
@@ -241,7 +236,7 @@
                                                     <span class="name"><em class="red">(필수)</em>개인정보 수집 및 이용에 동의합니다.</span>
                                                 </label>
                                                 <button type="button" class="agr-more active"><span class="blind">약관 내용 보기</span></button><!-- active 클래스 추가 -->
-                                                <div class="agr-txt-wrap size-l active"><!-- active 클래스 추가 -->
+                                                <div class="agr-txt-wrap active"><!-- active 클래스 추가 -->
                                                     <div class="inner custom-scroll">
                                                         <ul>
                                                             <li>
@@ -333,10 +328,9 @@
                         </div>
                     </div>
 
-                    
                 </div>
                 <!-- // step 3 -->
-                
+
                 <div class="result-info-area">
                     <p class="result-info-txt">예약 정보를 확인해주세요.</p>
                     <ul class="result-info-list">
@@ -362,8 +356,8 @@
                         </li>
                     </ul>
                 </div>
-                
-                <div class="btn-area center active"><!-- active 클래스 추가 -->
+
+                <div class="btn-area center m-hidden active"><!-- active 클래스 추가 -->
                     <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담 예약하기</button>
                 </div>
 
@@ -378,6 +372,42 @@
                 
             </section>
         </div>
+
+        <!-- 하단바 -->
+        <div class="bottom-fixed-wrap"><!-- active 클래스 추가 -->
+            <div class="dimmed"></div>
+            <div class="bar-wrap">
+                <div class="head-area">
+                    <p class="head-txt">혼수, TV 외 3개, 1개월 내, 강남본점, 12. 15(수), 17시</p>
+                    <button type="button" class="view-more"><span class="blind">펼쳐보기</span></button>
+                </div>
+                <div class="body-area">
+                    <div class="my-result">
+                        <ul>
+                            <li>
+                                <span>상담목적</span>
+                                <strong>혼수</strong>
+                            </li>
+                            <li>
+                                <span>상담제품</span>
+                                <strong>TV, 냉장고, 식기세척기, 세탁기, 스타일러, 공기청정기, 에어컨</strong>
+                            </li>
+                            <li>
+                                <span>상담매장</span>
+                                <strong>강남본점, 12. 15(수), 17시</strong>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="foot-area">
+                    <div class="btn-area active"><!-- active 클래스 추가 -->
+                        <a href="/bestshop/pages/reservation/BSF-RES-VISIT-DONE.jsp" class="btn btn-res">상담 예약하기</a>
+                        <!-- <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담 예약하기</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- // 하단바 -->
     </div>
     <!-- // contents -->
 </div>
@@ -484,6 +514,7 @@
                     prevEl: ".img-slide .slide-navi .slideBtn.btn-prev"
                 },
 
+                autoHeight : true,
                 loop : true,
                 loopAdditionalSlides: 1,
             });
@@ -525,7 +556,7 @@
         }
 
         // step 3 지도 매장리스트보기 버튼
-        $('.map-list-wrap .btn-view.mToggle').on('click', function(){
+        $('.map-list-wrap .btn-view').on('click', function(){
             $(this).closest('.map-list-wrap').toggleClass('active')
         })
 
@@ -552,6 +583,14 @@
             });
         });
 
+        // 모바일 하단바 영역
+        $('.bottom-fixed-wrap .bar-wrap .head-area').on('click', function () {
+            $('html').toggleClass('scroll-fixed');
+            $(this).closest('.bottom-fixed-wrap').toggleClass('active');
+            $('.body-area').stop().slideToggle();
+            $('.bottom-fixed-wrap .dimmed').stop().fadeToggle(200);
+        });
+
     });
 </script>
 <jsp:include page="../../templates/common/footer.jsp" />
@@ -559,8 +598,26 @@
 
 
 <script>
-    var _winW = $(window).width();
+    /* 위치정보제공동의 팝업 추가 STEP01 > STEP02 */
+    $('#popup-confirm button').on('click', function(){
+        if(!$(this).hasClass('btnPopCancel')){ // '네' 누를경우
+            $('html').css('overflow', 'visible');
 
+            /* step01 effect */
+            $('#popup-confirm, .dim').fadeOut(200); // 팝업 + dim 처리 히든
+            $('.step01 .main-area, .step01 .btn-area').stop().slideUp(400); // 내용과 버튼영역 히든
+            $('.step01 .info-txt-com').addClass('active'); // 요약정보 노출
+            $('.step01').removeClass('border'); // border 삭제
+
+            /* step02 effect */
+            $('.step02 .main-area, .step02 .btn-area').stop().slideDown(400);
+            $('.step02 .info-txt-uncom').slideUp(400);
+            $('.step02').addClass('border');
+        }
+    });
+
+    var _winW = $(window).width();
+    
     // video control
     $('.btn-video-view').on('click', function(){
         if(_winW < 1025){
