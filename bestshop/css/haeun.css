@@ -1014,7 +1014,8 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .step-area .shop-date-wrap .sort-area button.view-list.active {background:url(../images/icons/icon-view-list-mo_on.svg) no-repeat 0 center / contain}
     
     .shop-date-wrap .map-wrap {padding:11px}
-    .sort-block + .popup.toast .pop-wrap {bottom:13px; width:100%}
+    .sort-block + .popup.toast .pop-wrap {bottom:-5px; width:calc(100% - 38px); padding:19px 44px 19px 28px}
+    .sort-block + .popup.toast .pop-wrap .pop-cont {font-size:13px}
     .map-wrap > .input-select-type {position:static; margin-bottom:8px}
     .map-wrap .api-area {height:335px; margin-top:0}
     .map-wrap .api-area .map-list-wrap {width:100%!important; left:0; right:0; top:auto; bottom:-160px; height:210px; padding:52px 0 26px; border-radius:8px 8px 0 0; background-color:rgba(255,255,255,0.9); overflow:hidden; box-shadow:0 -3px 6px 0 rgba(0,0,0,0.16)}
