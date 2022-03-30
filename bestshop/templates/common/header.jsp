@@ -444,6 +444,7 @@
 
             </div><!-- //.mega-gnb-mobile-block -->
             </div><!-- //.mega-gnb-mobile -->
+            <div class="dimmed"></div>
         </div>
         <!-- e: mobile head wrap -->
 
