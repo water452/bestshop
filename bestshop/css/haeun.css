@@ -96,16 +96,23 @@
 .onepage .step-top-note {margin-top:-35px}
 .onepage .step-area {border-top:0; border-bottom:0}
 .onepage .step-area.step01 .step-tit-area {padding-top:14px}
+.onepage .step-area.step03 .rt > .step-tit-area {display:block}
+.onepage .step-area.step03 .rt > .step-tit-area {padding-top:0}
+.onepage .step-area.step03 .rt > .step-tit-area .step-tit {margin-bottom:9px; font-size:16px; font-weight:500; line-height:26px}
+.onepage .step-area.step03 .rt > .step-tit-area .step-tit + .btm-more {margin-bottom:0}
+.onepage .step-area.step03 .rt .check-box .agr-txt-wrap {height:90px}
+.onepage .step-area.step03 .info-type .rt .check-box .agr-txt-wrap {height:142px}
 .onepage .step-area .main-area {padding:0;}
 .onepage .step-area .btn-area.bg {min-height:180px;}
 .onepage .step-tit-area {padding-top:70px}
 .onepage .step-tit-area .page-num {display:block; margin-bottom:20px; padding-bottom:8px; font-size:16px; font-weight:700; line-height:24px; border-bottom:1px solid #da0f47; color:#da0f47}
-.onepage .step-area .result-info-area {position:relative; min-height:180px; margin-top:40.5px; padding:16px 40px 40px; text-align:center; background-image:linear-gradient(98deg,#9a7fed 1%,#ff6489 100%,#ff6489 100%); border-radius:8px}
-.onepage .step-area .result-info-txt {font-size:14px; font-weight:500; line-height:20px; color:#fff}
-.onepage .step-area .result-info-txt::after {content:''; display:block; height:1px; margin-top:12px; padding-top:30px; border-top:1px solid #fff; opacity:0.1;}
-.onepage .step-area .result-info-list {display:flex; justify-content:space-around;}
-.onepage .step-area .result-info-list dl {display:flex; font-size:20px; font-weight:500; line-height:28px; color:#fff}
-.onepage .step-area .result-info-list dl dt {margin-right:5px;}
+.onepage .result-info-area {position:relative; min-height:180px; margin-top:40.5px; padding:16px 40px 40px; text-align:center; background-image:linear-gradient(98deg,#9a7fed 1%,#ff6489 100%,#ff6489 100%); border-radius:8px}
+.onepage .result-info-area + .btn-area {margin-top:50px}
+.onepage .result-info-txt {font-size:14px; font-weight:500; line-height:20px; color:#fff}
+.onepage .result-info-txt::after {content:''; display:block; height:1px; margin-top:12px; padding-top:30px; border-top:1px solid #fff; opacity:0.1;}
+.onepage .result-info-list {display:flex; justify-content:space-around;}
+.onepage .result-info-list dl {display:flex; font-size:20px; font-weight:500; line-height:28px; color:#fff}
+.onepage .result-info-list dl dt {margin-right:5px;}
 
 
 /* swiper button */
@@ -121,7 +128,7 @@
 ul.input-icon-type {margin:0 -7.5px}
 ul.input-icon-type > li {width:auto; max-width:279px; flex:1; padding:0 7.5px}
 ul.input-icon-type > li .icon-btn {width:100%}
-.icon-btn label {display:flex; justify-content:center; align-items:center; width:100%; height:80px; border:1px solid #ddd; border-radius:16px; font-size:18px; font-weight:500; line-height:26px; cursor:pointer}
+.icon-btn label {display:flex; justify-content:center; align-items:center; width:100%; height:80px; border:1px solid #ddd; border-radius:48px; font-size:18px; font-weight:500; line-height:26px; cursor:pointer}
 .icon-btn input {position:absolute!important; margin:-1px!important; padding:0!important; width:1px!important; height:1px!important; overflow:hidden!important; clip-path:polygon(0 0, 0 0, 0 0)!important}
 .icon-btn input:checked + label {border:2px solid #da0f47; color:#da0f47}
 .icon-btn .icon {display:block; width:48px; height:48px; margin-right:8px}
@@ -321,6 +328,7 @@ ul.input-list-type > li + li{margin-top:32px}
 .user-info-area::after {content:''; display:block; clear:both}
 .user-info-area .lt {float:left; width:540px}
 .user-info-area .rt {float:right; width:calc(100% - 540px); margin-bottom:-4px; padding-left:32px}
+.user-info-area .rt > .step-tit-area {display:none}
 .user-info-area .box-gray {height:348px; padding:60px; border-radius:8px; border:1px solid #ddd}
 .user-info-area ul.input-list-type .tit {font-weight:500}
 .user-info-area ul.input-list-type > li + li {margin-top:50px}
@@ -341,7 +349,6 @@ ul.input-acco-type .check-box input {height:0}
 ul.input-acco-type .check-box label {padding-right:16px; font-size:16px; line-height:24px}
 ul.input-acco-type .check-box label .name > em {margin-right:2px}
 ul.input-acco-type .check-box label .name > em.red {color:#da0f47}
-ul.input-acco-type .check-box .btm-more.err-block {position:absolute; top:-10px; right:0}
 ul.input-acco-type .check-box button.agr-more {display:none;position:absolute; width:24px; height:24px; top:1px; right:0; background:url(../images/icons/btn-plus-48.svg) no-repeat center / contain}
 ul.input-acco-type .check-box button.agr-more.active {background:url(../images/icons/btn-minus-48.svg) no-repeat center / contain}
 ul.input-acco-type .check-box .agr-txt-wrap {display:none; width:100%; height:106px; margin-top:10px; padding:16px 0 16px 16px; border:1px solid #ddd; border-radius:8px; font-size:12px; line-height:18px; overflow:hidden}
@@ -765,9 +772,6 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 @media screen and (max-width:1230px) {
     /* 제품선택 - 제품군형 */
     ul.input-pdt-type > li {width:25%}
-
-    ul.input-acco-type .check-box .btm-more.err-block {position:static}
-
 }
 @media screen and (max-width:1023px) { /* Tablet */
     /* 매장/상담일시 선택 */
@@ -917,18 +921,22 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     /* 매장상담예약 컨텐츠 영역 - 단일페이지 */
     .onepage .step-top-note {margin-top:0}
     .onepage .step-area.step01 .step-tit-area {padding-top:10px}
-    .onepage .step-area.step03 .step-tit-area {padding-top:40px}
-    .onepage .step-tit-area .page-num {margin-bottom:14px; padding-bottom:7px; font-size:12px; line-height:18px}
-    .onepage .step-tit-area {padding-top:50px}
-    .onepage .step-area .result-info-area {margin-top:35.25px; padding:12px 35px 30px}
-    .onepage .step-area .result-info-txt {font-size:13px; line-height:17px}
-    .onepage .step-area .result-info-txt::after {margin-top:12px; padding-top:16px}
-    .onepage .step-area .result-info-list {display:block;}
-    .onepage .step-area .result-info-list dl {font-size:14px; line-height:22px}
+    .onepage .step-area.step03 .rt > .step-tit-area {padding-top:40px}
+    .onepage .step-area.step03 .rt > .step-tit-area .step-tit {margin-bottom:16px}
+    .onepage .step-area.step03 .rt > .step-tit-area .step-tit + .btm-more {margin-bottom:10px}
+    .onepage .step-area.step03 .info-type .rt .check-box .agr-txt-wrap {height:107px}
     .onepage .step-area .user-info-area .rt {margin-top:0}
     .onepage .step-area .user-info-area .box-gray {padding:0}
-    .onepage .step-area + .btn-area {margin-top:30px}
-    .onepage .step-area + .btn-area .btn.btn-res {width:100%}
+    .onepage .step-tit-area .page-num {margin-bottom:14px; padding-bottom:7px; font-size:12px; line-height:18px}
+    .onepage .step-tit-area {padding-top:50px}
+    .onepage .result-info-area {margin-top:35.25px; padding:12px 35px 30px}
+    .onepage .result-info-area + .btn-area {margin-top:30px}
+    .onepage .result-info-area + .btn-area .btn.btn-res {width:100%}
+    .onepage .result-info-txt {font-size:13px; line-height:17px}
+    .onepage .result-info-txt::after {margin-top:12px; padding-top:16px}
+    .onepage .result-info-list {display:block;}
+    .onepage .result-info-list dl {font-size:14px; line-height:22px}
+ 
 
     /* swiper button */
     .banner-btns {height:28px}
@@ -941,7 +949,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     /* 상담목적 */
     ul.input-icon-type {flex-wrap:wrap; margin:-3px -3px 0}
     ul.input-icon-type > li {width:calc(100% / 3)!important; flex:initial; padding:3px}
-    .icon-btn label {height:49px; border:1.5px solid #ddd; border-radius:8px; font-size:13px; line-height:19px}
+    .icon-btn label {height:100%; padding:6px 3px; border:1.5px solid #ddd; font-size:13px; line-height:19px}
     .icon-btn input:checked + label {border:1.5px solid #da0f47}
     /* .icon-btn .icon {width:32px; height:32px; margin-right:6px} */
     .icon-btn .icon {display:none}

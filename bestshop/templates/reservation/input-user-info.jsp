@@ -44,8 +44,8 @@
         </form>
     </div>
     <div class="rt">
-        <div class="step-tit-area pc-hidden">
-            <h3 class="step-tit">개인정보 수집 &middot; 이용 동의 및<br class="pc-hidden"> 마케팅 정보 활용 동의<sup>*</sup></h3>
+        <div class="step-tit-area">
+            <h3 class="step-tit">개인정보 수집 &middot; 이용 동의 및 마케팅 정보 활용 동의<sup>*</sup></h3>
             <div class="btm-more err-block" style="display: block;"> <!-- step 유효성 체크 -->
                 <p class="err-msg">개인정보 수집 및 이용에 동의 하셔야 이용 가능합니다.</p>
             </div>
@@ -66,9 +66,6 @@
                         <label for="agr-required">
                             <span class="name"><em class="red">(필수)</em>개인정보 수집 및 이용에 동의합니다.</span>
                         </label>
-                        <div class="btm-more err-block m-hidden" style="display: block;"> <!-- step 유효성 체크 -->
-                            <p class="err-msg">개인정보 수집 및 이용에 동의 하셔야 이용 가능합니다.</p>
-                        </div>
                         <button type="button" class="agr-more active"><span class="blind">약관 내용 보기</span></button><!-- active 클래스 추가 -->
                         <div class="agr-txt-wrap size-l active"><!-- active 클래스 추가 -->
                             <div class="inner custom-scroll">

@@ -20,6 +20,9 @@
                     <li>
                         <a href="BSF-RES-VISIT-ONEPAGE-PDT.jsp">화상상담예약</a>
                     </li>
+                    <li>
+                        <a href="BSF-PAGE-WEDDING-ONEPAGE.jsp">맞춤형상담예약</a>
+                    </li>
                 </ul>
             </div>
 
@@ -137,8 +140,6 @@
                 <p class="step-top-note"><sup>*</sup>필수입력항목</p>
                 <!-- step 1 -->
                 <div class="step-area step01">
-                    
-
                     <div class="main-area">
                         <form action="">
                             <jsp:include page="../../templates/reservation/input-icon-type.jsp" /> <!-- //input-icon-type.jsp -->
@@ -172,38 +173,41 @@
                     
 
                     <div class="main-area">
-                        <jsp:include page="../../templates/reservation/input-user-info.jsp" /> <!-- //input-user-info.jsp -->
+                        <div class="user-info-area">
+                            <jsp:include page="../../templates/reservation/input-user-info.jsp" /> <!-- //input-user-info.jsp -->
+                        </div>
                     </div>
 
-                    <div class="result-info-area">
-                        <p class="result-info-txt">예약 정보를 확인해주세요.</p>
-                        <ul class="result-info-list">
-                            <li>
-                                <dl>
-                                    <dt>상담 목적 :</dt>
-                                    <dd>혼수</dd>
-                                </dl>
-                                <dl>
-                                    <dt>제품 선택 :</dt>
-                                    <dd>냉장고, 식기세척기, 청소기</dd>
-                                </dl>
-                            </li>
-                            <li>
-                                <dl>
-                                    <dt>상담 매장 :</dt>
-                                    <dd>강남본점</dd>
-                                </dl>
-                                <dl>
-                                    <dt>예약 일시 :</dt>
-                                    <dd>21년12월15일, 17시</dd>
-                                </dl>
-                            </li>
-                        </ul>
-                    </div>
-
+                    
                 </div>
                 <!-- // step 3 -->
-
+                
+                <div class="result-info-area">
+                    <p class="result-info-txt">예약 정보를 확인해주세요.</p>
+                    <ul class="result-info-list">
+                        <li>
+                            <dl>
+                                <dt>상담 목적 :</dt>
+                                <dd>혼수</dd>
+                            </dl>
+                            <dl>
+                                <dt>제품 선택 :</dt>
+                                <dd>냉장고, 식기세척기, 청소기</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>상담 매장 :</dt>
+                                <dd>강남본점</dd>
+                            </dl>
+                            <dl>
+                                <dt>예약 일시 :</dt>
+                                <dd>21년12월15일, 17시</dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+                
                 <div class="btn-area center active"><!-- active 클래스 추가 -->
                     <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담 예약하기</button>
                 </div>
