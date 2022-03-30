@@ -441,7 +441,7 @@
         });
 
         // 모바일 하단바 영역
-        $('.bar-wrap .head-area').on('click', function () {
+        $('.bottom-fixed-wrap .bar-wrap .head-area').on('click', function () {
             $('html').toggleClass('scroll-fixed');
             $(this).closest('.bottom-fixed-wrap').toggleClass('active');
             $('.body-area').stop().slideToggle();
