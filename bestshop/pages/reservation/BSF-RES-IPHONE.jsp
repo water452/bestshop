@@ -121,9 +121,9 @@
                     </div>
                     <div class="main-area active"><!-- active 클래스 추가 -->
                         <form action="">
-                            <jsp:include page="../../templates/reservation/input-icon-type.jsp" /> <!-- input-icon-type -->
+                            <jsp:include page="../../templates/reservation/input-icon-type-iphone.jsp" /> <!-- input-icon-type-iphone -->
 
-                            <jsp:include page="../../templates/reservation/input-cate-type-full.jsp" /> <!-- input cate type -->
+                            <jsp:include page="../../templates/reservation/input-cate-type-iphone.jsp" /> <!-- input-cate-type-iphone -->
 
                             <jsp:include page="../../templates/reservation/input-base-type.jsp" /> <!-- //input-base-type.jsp -->
 

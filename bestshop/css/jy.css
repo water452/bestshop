@@ -196,7 +196,7 @@ ul.input-icon-type.n03 > li { width: calc(100% / 3 - 10px); }
 .icon-btn input:checked + label .icon.new { background-image: url("../images/icons/icon_new_on.svg"); }
 ul.input-cate-type.full > li { width: 100%; }
 ul.input-cate-type.full .cate-items { max-width: unset; width: calc(100% - 154px); }
-ul.input-cate-type.full .cate-items > li { max-width: 183px }
+ul.input-cate-type.full .cate-items > li { max-width: 183px; min-width: calc(100% / 6); }
 ul.input-cate-type .cate-tit > .icon.iphone { background: url("../images/icons/icon-iphone.svg") no-repeat center; }
 ul.input-cate-type .cate-tit > .icon.ipad { background: url("../images/icons/icon-ipad.svg") no-repeat center; }
 ul.input-cate-type .cate-tit > .icon.apple-watch { background: url("../images/icons/icon-apple-watch.svg") no-repeat center; }

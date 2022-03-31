@@ -133,6 +133,7 @@
 ul.input-icon-type {margin:0 -7.5px}
 ul.input-icon-type > li {width:auto; max-width:279px; flex:1; padding:0 7.5px}
 ul.input-icon-type > li .icon-btn {width:100%}
+ul.input-icon-type.row-3 > li {min-width:calc(100% / 3)}
 .icon-btn label {display:flex; justify-content:center; align-items:center; width:100%; height:80px; border:1px solid #ddd; border-radius:48px; font-size:18px; font-weight:500; line-height:26px; cursor:pointer}
 .icon-btn input {position:absolute!important; margin:-1px!important; padding:0!important; width:1px!important; height:1px!important; overflow:hidden!important; clip-path:polygon(0 0, 0 0, 0 0)!important}
 .icon-btn input:checked + label {border:2px solid #da0f47; color:#da0f47}
