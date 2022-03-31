@@ -8,7 +8,7 @@
     </div>
 
     <!-- contents -->
-    <div class="contents res-main">
+    <div class="contents res-main onepage">
 
         <div class="cont-wrap">
 
@@ -136,7 +136,7 @@
                 <!-- 팝업 : 영상 팝업 e -->
             </div>
 
-            <section class="cont-area onepage">
+            <section class="cont-area">
                 <p class="step-top-note"><sup>*</sup>필수입력항목</p>
                 <!-- step 1 -->
                 <div class="step-area step01">
@@ -335,6 +335,7 @@
                         </div>
                     </div>
 
+                    <!-- 예약 정보 s -->
                     <div class="result-info-area">
                         <p class="result-info-txt">예약 정보를 확인해주세요.</p>
                         <ul class="result-info-list">
@@ -360,6 +361,7 @@
                             </li>
                         </ul>
                     </div>
+                    <!-- //예약 정보 e -->
 
                 </div>
                 <!-- // step 3 -->

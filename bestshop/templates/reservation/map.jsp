@@ -2,7 +2,7 @@
 <div class="shop-date-wrap">
     <div class="step-tit-area">
         <p class="page-num">STEP02</p>
-        <h3 class="step-tit">방문 매장 및 일시 선택<sup>*</sup><span>상담을 원하시는 매장과 희망 일자를 선택하세요. (단일선택)</span></h3>
+        <h3 class="step-tit">방문 매장 및 일시 선택<sup>*</sup><span>상담을 원하시는 매장과 희망 일자를 선택하세요.</span></h3>
         <div class="btm-more err-block" style="display: block;"> <!-- step 유효성 체크 -->
             <p class="err-msg">매장을 선택해주세요.</p>
         </div>

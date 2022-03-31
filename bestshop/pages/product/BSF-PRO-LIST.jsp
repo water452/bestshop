@@ -890,9 +890,9 @@
         var _stickyBar = $('.tab-wrap').offset().top;
 
         $(window).scroll(function(){
-            var scrollTop = $(this).scrollTop();
+            //var scrollTop = $(this).scrollTop();
 
-            if(scrollTop > _stickyBar){
+            if(window.pageYOffset > _stickyBar){
                 $('.tab-wrap').addClass('fixed');
             } else {
                 $('.tab-wrap').removeClass('fixed');

@@ -8,7 +8,7 @@
     </div>
 
     <!-- contents -->
-    <div class="contents res-main">
+    <div class="contents res-main onepage">
         <div class="cont-wrap">
             <div class="top-wrap top-visual">
                 <!-- s : 이벤트배너 -->
@@ -101,7 +101,7 @@
                 <!-- 팝업 : 영상 팝업 e -->
             </div>
 
-            <section class="cont-area onepage mt48">
+            <section class="cont-area mt48">
                 <p class="step-top-note"><sup>*</sup>필수입력항목</p>
                 <!-- step 1 -->
                 <div class="step-area step01">
@@ -331,6 +331,7 @@
                 </div>
                 <!-- // step 3 -->
 
+                <!-- 예약 정보 s -->
                 <div class="result-info-area">
                     <p class="result-info-txt">예약 정보를 확인해주세요.</p>
                     <ul class="result-info-list">
@@ -356,6 +357,7 @@
                         </li>
                     </ul>
                 </div>
+                <!-- //예약 정보 e -->
 
                 <div class="btn-area center m-hidden active"><!-- active 클래스 추가 -->
                     <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담 예약하기</button>
@@ -372,42 +374,6 @@
                 
             </section>
         </div>
-
-        <!-- 하단바 -->
-        <div class="bottom-fixed-wrap"><!-- active 클래스 추가 -->
-            <div class="dimmed"></div>
-            <div class="bar-wrap">
-                <div class="head-area">
-                    <p class="head-txt">혼수, TV 외 3개, 1개월 내, 강남본점, 12. 15(수), 17시</p>
-                    <button type="button" class="view-more"><span class="blind">펼쳐보기</span></button>
-                </div>
-                <div class="body-area">
-                    <div class="my-result">
-                        <ul>
-                            <li>
-                                <span>상담목적</span>
-                                <strong>혼수</strong>
-                            </li>
-                            <li>
-                                <span>상담제품</span>
-                                <strong>TV, 냉장고, 식기세척기, 세탁기, 스타일러, 공기청정기, 에어컨</strong>
-                            </li>
-                            <li>
-                                <span>상담매장</span>
-                                <strong>강남본점, 12. 15(수), 17시</strong>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="foot-area">
-                    <div class="btn-area active"><!-- active 클래스 추가 -->
-                        <a href="/bestshop/pages/reservation/BSF-RES-VISIT-DONE.jsp" class="btn btn-res">상담 예약하기</a>
-                        <!-- <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담 예약하기</button> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- // 하단바 -->
     </div>
     <!-- // contents -->
 </div>
@@ -598,21 +564,11 @@
 
 
 <script>
-    /* 위치정보제공동의 팝업 추가 STEP01 > STEP02 */
+    /* 위치정보제공동의 팝업 추가 */
     $('#popup-confirm button').on('click', function(){
         if(!$(this).hasClass('btnPopCancel')){ // '네' 누를경우
             $('html').css('overflow', 'visible');
-
-            /* step01 effect */
             $('#popup-confirm, .dim').fadeOut(200); // 팝업 + dim 처리 히든
-            $('.step01 .main-area, .step01 .btn-area').stop().slideUp(400); // 내용과 버튼영역 히든
-            $('.step01 .info-txt-com').addClass('active'); // 요약정보 노출
-            $('.step01').removeClass('border'); // border 삭제
-
-            /* step02 effect */
-            $('.step02 .main-area, .step02 .btn-area').stop().slideDown(400);
-            $('.step02 .info-txt-uncom').slideUp(400);
-            $('.step02').addClass('border');
         }
     });
 

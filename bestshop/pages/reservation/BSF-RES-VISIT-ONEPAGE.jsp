@@ -8,7 +8,7 @@
     </div>
 
     <!-- contents -->
-    <div class="contents res-main">
+    <div class="contents res-main onepage">
 
         <div class="cont-wrap">
 
@@ -49,8 +49,8 @@
                                 <div class="slide-navi-detail">
                                     <div class="swiper-pager">
                                         <button type="button" class="slideBtn btn-prev">이전 슬라이드</button>
-                                        <div class="pager-fraction"></div>
-                                        <button type="button" class="slideBtn btn-next">다음 슬라이드</button>
+                                        <div class="pager-fraction"></div>BSF-RES-VISIT.jspBSF-RES-VISIT.jspBSF-RES-VISIT.jsp
+                                        <button type="button" class="slideBtn btn-next">다음 슬라이드</button>BSF-RES-VISIT.jsp
                                     </div>
                                     <div class="swiper-auto">
                                         <button type="button" class="slideBtn btn-play">슬라이드 재생</button>
@@ -136,7 +136,7 @@
                 <!-- 팝업 : 영상 팝업 e -->
             </div>
 
-            <section class="cont-area onepage">
+            <section class="cont-area">
                 <p class="step-top-note"><sup>*</sup>필수입력항목</p>
                 <!-- step 1 -->
                 <div class="step-area step01">
@@ -170,8 +170,7 @@
 
                 <!-- step 3 -->
                 <div class="step-area step03">
-                    
-
+                
                     <div class="main-area">
                         <div class="user-info-area">
                             <div class="step-tit-area">
@@ -337,6 +336,7 @@
                 </div>
                 <!-- // step 3 -->
                 
+                <!-- 예약 정보 s -->
                 <div class="result-info-area">
                     <p class="result-info-txt">예약 정보를 확인해주세요.</p>
                     <ul class="result-info-list">
@@ -362,6 +362,7 @@
                         </li>
                     </ul>
                 </div>
+                <!-- //예약 정보 e -->
                 
                 <div class="btn-area center active"><!-- active 클래스 추가 -->
                     <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담 예약하기</button>

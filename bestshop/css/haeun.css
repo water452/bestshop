@@ -93,7 +93,6 @@
 .step-area .info-text {display:flex; justify-content:flex-end; margin-top:16px; font-size:14px; line-height:20px; color:#777}
 
 /* 매장상담예약 컨텐츠 영역 - 단일페이지 */
-.onepage .step-top-note {margin-top:-35px}
 .onepage .step-area {border-top:0; border-bottom:0}
 .onepage .step-area.step01 .step-tit-area {padding-top:14px}
 .onepage .step-area.step03 .rt > .step-tit-area {display:block}
@@ -113,6 +112,12 @@
 .onepage .result-info-list {display:flex; justify-content:space-around;}
 .onepage .result-info-list dl {display:flex; font-size:20px; font-weight:500; line-height:28px; color:#fff}
 .onepage .result-info-list dl dt {margin-right:5px;}
+
+.care.onepage .step-tit-area {padding-top:0}
+.care.onepage .step-tit-area .page-num {display:none}
+.care.onepage .user-info-area {padding-top:70px}
+
+.care-ex.onepage .step-tit-area .page-num {display:block}
 
 
 /* swiper button */
@@ -919,7 +924,6 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .step-area.step01 ul.input-base-type {margin-top:5px}
 
     /* 매장상담예약 컨텐츠 영역 - 단일페이지 */
-    .onepage .step-top-note {margin-top:0}
     .onepage .step-area.step01 .step-tit-area {padding-top:10px}
     .onepage .step-area.step03 .rt > .step-tit-area {padding-top:40px}
     .onepage .step-area.step03 .rt > .step-tit-area .step-tit {margin-bottom:16px}
@@ -927,8 +931,8 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .onepage .step-area.step03 .info-type .rt .check-box .agr-txt-wrap {height:107px}
     .onepage .step-area .user-info-area .rt {margin-top:0}
     .onepage .step-area .user-info-area .box-gray {padding:0}
-    .onepage .step-tit-area .page-num {margin-bottom:14px; padding-bottom:7px; font-size:12px; line-height:18px}
     .onepage .step-tit-area {padding-top:50px}
+    .onepage .step-tit-area .page-num {margin-bottom:14px; padding-bottom:7px; font-size:12px; line-height:18px}
     .onepage .result-info-area {margin-top:35.25px; padding:12px 35px 30px}
     .onepage .result-info-area + .btn-area {margin-top:30px}
     .onepage .result-info-area + .btn-area .btn.btn-res {width:100%}
@@ -936,6 +940,8 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .onepage .result-info-txt::after {margin-top:12px; padding-top:16px}
     .onepage .result-info-list {display:block;}
     .onepage .result-info-list dl {font-size:14px; line-height:22px}
+
+    .res-main.care .onepage .user-info-area {padding-top:50px}
  
 
     /* swiper button */
