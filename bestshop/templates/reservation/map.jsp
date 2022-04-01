@@ -208,11 +208,11 @@
                             <a href="javascript:void(0);" class="btn-slt">선택</a>
                             <ul>
                                 <li><a href="javascript:void(0);">선택</a></li>
-                                <li><a href="javascript:void(0);">서울특별시</a></li>
+                                <li><a href="javascript:void(0);">서울특별시<span>7</span></a></li>
                             </ul>
                             <select title="시/도 선택">
                                 <option selected>선택</option>
-                                <option>서울특별시</option>
+                                <option>서울특별시&nbsp;&nbsp;7</option><!-- 지역별 매장 개수 추가 / &nbsp; 2개 사용 필수 -->
                             </select>
                         </div>
                     </div>
