@@ -119,7 +119,7 @@
                             <!-- e: 요약정보 -->
                         </div>
                     </div>
-                    <div class="main-area row-3 active"><!-- active 클래스 추가 -->
+                    <div class="main-area active"><!-- active 클래스 추가 -->
                         <form action="">
                             <jsp:include page="../../templates/reservation/input-icon-type-iphone.jsp" /> <!-- input-icon-type-iphone -->
 

@@ -126,7 +126,7 @@
                         </div>
                     </div>
 
-                    <div class="main-area row-3">
+                    <div class="main-area">
                         <form action="">
                             <h3 class="step-tit">상담목적<sup>*</sup><span>상담 목적을 선택하세요. (단일선택)</span></h3>
                             <div class="btm-more err-block" style="display: block;"> <!-- step 유효성 체크 -->
