@@ -7,7 +7,7 @@
     </div>
 </div>
 
-<ul class="input-icon-type row-3">
+<ul class="input-icon-type">
     <li>
         <div class="icon-btn">
             <input type="radio" name="purpose" id="change">
