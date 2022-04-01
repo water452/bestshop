@@ -280,7 +280,6 @@
     .hero-slide .content-wrap .hero-tit .hero-tit-detail strong {margin-top:12px; font-size:27px; line-height:34px; letter-spacing:0}
     .hero-slide .content-wrap .hero-tit .hero-tit-detail span {margin-top:12px; font-size:15px; line-height:21px}
     .hero-slide .content-wrap .hero-tit .hero-tit-detail .cta {margin-top:24px}
-    .hero-slide .content-wrap .img-wrap > img{max-width:100%;}
 
     /* bestshop event */
     .bestshop-event .event-list .swiper-slide {width:calc(50% - 24px)}
@@ -332,7 +331,8 @@
     .slide-navi .pager-pagination .swiper-pagination-bullet + .swiper-pagination-bullet {margin-left:10px !important}
 
     /* Hero Area */
-    .hero-slide {height:390px}
+    .hero-slide {height:370px}
+    .hero-slide .content-wrap .img-wrap > img{max-width:100%;}
     .hero-slide .content-wrap video {left:calc(50% - 600px); width:1200px; min-width:1200px; min-height:400px}
     .hero-slide .content-wrap .hero-tit {top:32px; bottom:102px; padding:0 20px}
     .hero-slide .content-wrap .hero-tit.left,
