@@ -32,7 +32,7 @@
                         </div>
                         <div class="txt-box">
                             <div class="input-wrap">
-                                <input class="base-txt" type="number" id="user-number" placeholder="(-) 제외한 숫자만 입력해주세요.">
+                                <input class="base-txt" type="tel" id="user-number" placeholder="(-) 제외한 숫자만 입력해주세요.">
                             </div>
                             <div class="btm-more err-block" style="display: block;">
                                 <p class="err-msg">휴대폰번호를 입력해주세요.</p>
