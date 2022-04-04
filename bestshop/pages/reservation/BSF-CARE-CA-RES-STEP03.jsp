@@ -353,7 +353,7 @@
                             </div>
                             <div class="txt-box">
                                 <div class="input-pin-type">
-                                    <input class="base-txt" type="number" id="user-number02" placeholder="휴대전화 번호 입력">
+                                    <input class="base-txt" type="tel" id="user-number02" placeholder="휴대전화 번호 입력">
                                     <button type="button" class="btn-send">인증번호 발송</button>
                                 </div>
                                 <div class="btm-more err-block">
