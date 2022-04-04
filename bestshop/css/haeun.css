@@ -789,7 +789,6 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .user-info-area .box-gray {padding:25px}
     .user-info-area ul.input-list-type .side-info-box::before {width:calc(100% + 50px); margin-left:-25px; padding-top:7px}
     .user-info-area.info-type .box-gray {padding:30px 25px 60px}
-    .user-info-area.info-type ul.input-list-type .txt-box .btm-more.err-block{width:calc(100% + 140px)}
     .user-info-area.info-type ul.input-acco-type .check-box .agr-txt-wrap {height:140px}
     
     /* 케어십상담예약페이지 */
@@ -1105,7 +1104,6 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .user-info-area ul.input-list-type > li + li {margin-top:32px}
     .user-info-area ul.input-list-type .side-info-box::before {width:100%; margin-left:0; padding-top:21px}
     .user-info-area.info-type .box-gray {padding:0 0 25px}
-    .user-info-area.info-type ul.input-list-type .txt-box .btm-more.err-block{width:100%}
     .user-info-area.info-type ul.input-btn-type {margin:26px 0 0; padding-left:6px}
     .user-info-area.info-type ul.input-btn-type > li + li {margin:0 0 0 6px}
     .user-info-area.info-type ul.input-btn-type .chkrdo-btn label {padding:0 19px; border-radius:8px}

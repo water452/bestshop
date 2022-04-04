@@ -10,21 +10,17 @@
     
     <div class="view-area">
         <!-- 화상상담예약 타이틀-->
-
         <!-- <div class="tit-area">
-            <h3 class="step-tit">상담하실 매장과 예약 일시 선택<sup>*</sup></h3>
-            <em>(화상 상담이 가능한 매장만 조회됩니다.)</em>
+            <h3 class="step-tit">방문 매장 및 일시 선택<sup>*</sup></h3>
+            <em>상담 희망 매장과 일시를 선택하세요.(화상 상담 전문매장만 조회됩니다.)</em>
         </div> -->
-
         <!-- // 화상상담예약 타이틀 -->
         
         <!-- 아이폰상담예약 타이틀-->
-
         <!-- <div class="tit-area">
-            <h3 class="step-tit">상담하실 매장과 예약 일시 선택<sup>*</sup></h3>
-            <em>(아이폰 상담이 가능한 매장만 조회됩니다.)</em>
+            <h3 class="step-tit">방문 매장 및 일시 선택<sup>*</sup></h3>
+            <em>상담 희망 매장과 일시를 선택하세요.(아이폰 상담 전문매장만 조회됩니다.)</em>
         </div> -->
-        
         <!-- // 아이폰상담예약 타이틀 -->
 
         <div class="sort-area">

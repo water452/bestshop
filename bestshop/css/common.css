@@ -231,7 +231,7 @@ ul.input-list-type .tit label .name sup{color:#e81953;margin-left:4px;font-size:
 ul.input-list-type .txt-box{position:relative}
 ul.input-list-type .input-wrap{display:block;margin-top:8px}
 ul.input-list-type .input-wrap:first-of-type{margin-top:0}
-.box-gray ul.input-list-type .txt-box .btm-more.err-block{position:absolute;top:48px;left:0}
+.box-gray ul.input-list-type .txt-box .btm-more.err-block{position:absolute;top:48px;left:0;width:calc(100% + 140px)}
 .box-gray ul.input-list-type .slt.sltBox + .btm-more.err-block{position:absolute}
 .input-pin-type{display:flex;margin-bottom:12px}
 .input-pin-type input{width:calc(100% - 112px)}
@@ -758,7 +758,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
     ul.input-list-type.pc-row .tit > label{line-height:20px}
     ul.input-list-type .tit label .name sup{font-size:14px;line-height:20px}
     ul.input-list-type.pc-row .tit label .name sup{font-size:14px;line-height:20px}
-	.box-gray ul.input-list-type .txt-box .btm-more.err-block{position:static}
+	.box-gray ul.input-list-type .txt-box .btm-more.err-block{position:static;width:100%}
 	.box-gray ul.input-list-type .slt.sltBox + .btm-more.err-block{position:static}
     .input-pin-type{margin-bottom:8px}
     .input-pin-type input{width:calc(100% - 105.5px)}
