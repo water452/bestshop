@@ -343,7 +343,18 @@
             map.attr("data-number", index);
         });
     };
-    mapChnage();
+    mapChnage()
+
+    // focus 이동
+    var headerH = $('.header').height();
+    var breadH = $('.breadcrumb-wrap').height();
+    var pageH = $('.page-header').height();
+    var sortingTop = parseInt($(".sorting-cp").offset().top) + headerH - breadH - pageH;
+
+    $('.chkrdo-btn label').on('click', function(){
+            
+        $('html, body').scrollTop(sortingTop);
+    });
 </script>
 
 <jsp:include page="../../templates/common/footer.jsp" />
