@@ -794,6 +794,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 
 	.header-wrap .my-tooltip{position:absolute;top:12px;right:16px;}
 	.header-wrap .my-tooltip a{display:block;width:24px;height:24px;background:url('../images/icons/icon-person.svg') no-repeat center / contain}
+	.header-wrap .my-tooltip a > i{display:none;position:absolute;width:4px;height:4px;top:0;right:2px;border-radius:50%;background-color:#da0f47}
 
 	.breadcrumb-wrap{padding:0 14px;}
 	.breadcrumb-wrap .breadcrumb-bar{display:none;}

@@ -284,7 +284,12 @@
                 </a>
             </h1>
 
-            <p class="my-tooltip"><a href="javascript:void(0);"><span class="blind">마이 툴팁</span></a></p>
+            <p class="my-tooltip">
+                <a href="javascript:void(0);">
+                    <span class="blind">마이 툴팁</span>
+                    <i></i><!-- 로그인시 태그 활성화 -->
+                </a>
+            </p>
 
             <!-- s: mega gnb -->
             <div class="header-bottom">
