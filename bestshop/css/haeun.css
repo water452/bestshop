@@ -358,6 +358,7 @@ ul.input-acco-type .check-box button.agr-more {display:none;position:absolute; w
 ul.input-acco-type .check-box button.agr-more.active {background:url(../images/icons/btn-minus-48.svg) no-repeat center / contain}
 ul.input-acco-type .check-box .agr-txt-wrap {display:none; width:100%; height:106px; margin-top:10px; padding:16px 0 16px 16px; border:1px solid #ddd; border-radius:8px; font-size:12px; line-height:18px; overflow:hidden}
 ul.input-acco-type .check-box .agr-txt-wrap .inner {height:100%; overflow-y:auto}
+ul.input-acco-type .check-box .agr-txt-wrap .txt01 {font-weight:700; text-decoration:underline}
 ul.input-acco-type .check-box .agr-txt-wrap .mCSB_scrollTools {top:0; right:4px; bottom:0; width:8px; border-radius:8px; background:#f4f4f4; opacity:1}
 ul.input-acco-type .check-box .agr-txt-wrap .mCSB_scrollTools .mCSB_draggerContainer {top:2px; bottom:2px}
 ul.input-acco-type .check-box .agr-txt-wrap .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {background:#ccc!important}
@@ -1116,6 +1117,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     ul.input-acco-type .check-box input:checked + label::after {background-image:url(../images/icons/btn-checkbox-on-48-mo.svg)}
     ul.input-acco-type .check-box .agr-txt-wrap {height:107px; padding:12px}
     ul.input-acco-type .check-box .agr-txt-wrap.size-l {height:121px}
+    ul.input-acco-type .check-box .agr-txt-wrap .txt01 {font-size:14px;line-height:20px}
     ul.input-acco-type .check-box button.agr-more {width:20px; height:20px}
     .user-info-area .bottom-area .tit {margin-top:12px; font-size:13px; line-height:19px}
     .user-info-area .bottom-area .desc {margin-top:6px; font-size:11px; line-height:16px}
