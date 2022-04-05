@@ -4,7 +4,7 @@
         <div class="swiper-wrapper">
 
             <div class="content-wrap swiper-slide">
-                <a href="javascript:void(0);">
+                <a href="#" target="_blank" title="새 창 열림">
                     <div class="img-wrap">
                         <img class="m-hidden" src="./images/img_main_hero_thumb.png" alt="">
                         <img class="pc-hidden" src="./images/img_main_hero_thumb_m.jpg" alt="">
@@ -14,7 +14,7 @@
                             <em>상담 예약하고 베스트샵 매장 방문하면 경품이 쏟아진다!</em>
                             <strong>LG전자 베스트샵<br>매장 상담 예약 이벤트</strong>
                             <div class="cta">
-                                <a href="#" class="btn border s02 hero">자세히 보기</a>
+                                <a href="#" class="btn border s02 hero" target="_blank" title="새 창 열림">자세히 보기</a>
                             </div>
                         </div>
                     </div>
@@ -22,15 +22,15 @@
             </div><!-- //.swiper-slide -->
 
             <div class="content-wrap video swiper-slide">
-                <a href="javascript:void(0);">
+                <a href="#" target="_blank" title="새 창 열림">
                     <div class="hero-tit left top"><!-- pc : left / center / right --> <!-- mobile : top / bottom --> <!-- default(white) : #fff / .black : #000 -->
                         <div class="hero-tit-detail">
                             <em>Bestshop에서만 만날 수 있는 특별한 기회! </em>
                             <strong>당신의 생활공간을 잘 아는 <br>LG 베스트샵 맞춤컨설팅</strong>
                             <span>행사기간 22.02.12~행사 종료 시까지</span>
                             <div class="cta">
-                                <a href="#" class="btn border s02 hero" href="javascript:void(0);">자세히 보기</a>
-                                <a href="#" class="btn-view" href="javascript:void(0);">자세히 보기</a>
+                                <a href="#" class="btn border s02 hero" href="javascript:void(0);" target="_blank" title="새 창 열림">자세히 보기</a>
+                                <a href="#" class="btn-view" href="javascript:void(0);" target="_blank" title="새 창 열림">자세히 보기</a>
                                 <a href="#" class="btn-video-view">영상보기</a>
                             </div>
                         </div>
