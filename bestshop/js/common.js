@@ -567,9 +567,9 @@ $(document).ready(function() {
     $('#content').not('.main').parents('body').find('.breadcrumb-wrap').addClass('active');
 
     // mobile > menu : sub del
-    if(_thsW < 1025){
-        $('#content').not('.main').parents('body').find('.header-bottom').hide();
-    }
+    // if(_thsW < 1025){
+    //     $('#content').not('.main').parents('body').find('.header-bottom').hide();
+    // }
 
     // scroll top
     $('.top-btn').on('click', function(){
