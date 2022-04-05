@@ -29,8 +29,8 @@
                             <strong>당신의 생활공간을 잘 아는 <br>LG 베스트샵 맞춤컨설팅</strong>
                             <span>행사기간 22.02.12~행사 종료 시까지</span>
                             <div class="cta">
-                                <a href="#" class="btn border s02 hero" href="javascript:void(0);" target="_blank" title="새 창 열림">자세히 보기</a>
-                                <a href="#" class="btn-view" href="javascript:void(0);" target="_blank" title="새 창 열림">자세히 보기</a>
+                                <a href="#" class="btn border s02 hero" href="#" target="_blank" title="새 창 열림">자세히 보기</a>
+                                <a href="#" class="btn-view" href="#" target="_blank" title="새 창 열림">자세히 보기</a>
                                 <a href="#" class="btn-video-view">영상보기</a>
                             </div>
                         </div>
