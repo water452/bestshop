@@ -204,13 +204,14 @@ ul.input-cate-type .cate-tit > .icon.apple-watch { background: url("../images/ic
 /* 비노출페이지 > 이벤트 > 라이브 방송 */
 .img-slide .slide-bg { background-repeat: no-repeat; background-position: center; background-size: cover; }
 /* .img-slide .slide-bg:before { content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); } */
-.img-slide .li-wrap { position: relative; margin: 0 auto; padding: 60px 40px 90px 40px; max-width: 1460px; height: 480px; }
+.img-slide .li-wrap { min-height: 480px; margin: 0 auto; padding: 60px 90px; max-width: 1460px; background: rgba(0,0,0,0.5); }
 .img-slide .li-wrap .time-deal-countdown { position: relative; top: auto; }
 .img-slide .li-wrap .tit:first-child { margin-top: 0; padding-top: 60px; }
 .img-slide .li-wrap .tit { display: block; margin-top: 16px; color: #fff; line-height: 44px; font-size: 32px; font-weight: 500; }
 .img-slide .li-wrap .date { display: block; margin-top: 8px; color: #fff; line-height: 28px; font-size: 20px; font-weight: 500; }
 .img-slide .li-wrap .txt { display: block; margin-top: 12px; color: #fff; line-height: 26px; font-size: 18px; }
-.img-slide .li-wrap .btn-area { margin-top: 60px; }
+.img-slide .li-wrap .btn-area { margin-top: 50px; }
+.img-slide .li-wrap .btn-area .btn { font-size: 16px; }
 .time-deal-countdown.ty-small { display: inline-block; width: auto; vertical-align: top; }
 .time-deal-countdown.ty-small > * { padding: 4px 20px; font-size: 16px; }
 .time-deal-countdown.ty-small > dd { margin-left: -40px; padding-left: 50px; }
@@ -814,12 +815,13 @@ li[class*="blt"], li > [class*="blt"] { display: block; }
     ul.input-cate-type.full .cate-items > li { width: calc(50% - 7px); }
 
     /* 비노출페이지 > 이벤트 > 라이브 방송 */
-    .img-slide .li-wrap { padding: 40px 34px; height: 360px; }
+    .img-slide .li-wrap { min-height: 460px; padding: 40px 35px; }
     .img-slide .li-wrap .tit:first-child { padding-top: 40px; }
     .img-slide .li-wrap .tit { margin-top: 16px; line-height: 27px; font-size: 21px; }
     .img-slide .li-wrap .date { margin-top: 8px; line-height: 23px; font-size: 17px; }
     .img-slide .li-wrap .txt { margin-top: 12px; line-height: 20px; font-size: 14px; }
     .img-slide .li-wrap .btn-area { margin-top: 40px; }
+    .img-slide .li-wrap .btn-area .btn { min-width: 0; padding: 0 16px; line-height: 34px; font-size: 13px; }
     .time-deal-countdown.ty-small > * { padding: 6px 20px; font-size: 13px; }
     .flag-on-air { padding: 0 20px 0 54px; line-height: 40px; font-size: 13px; border-radius: px; }
     .flag-on-air:before { left: 20px; margin-top: -14px; width: 28px; height: 28px; }

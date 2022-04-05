@@ -15,7 +15,9 @@
                 <div class="img-slide-wrap">
                     <div class="swiper img-slide">
                         <ul class="swiper-wrapper">
-                            <li class="swiper-slide slide-bg" style="background-image: url('../../images/slide-event-live.png');">
+
+                            <!-- 텍스트가 있고 이미지가 백그라운드인 경우 -->
+                            <li class="swiper-slide slide-bg" style="background-image: url(../../images/slide-event-live.png)">
                                 <div class="li-wrap">
                                     <dl class="time-deal-countdown ty-small">
                                         <dt><span>남은시간</span></dt>
@@ -32,15 +34,17 @@
                                     <div class="btn-area"><a href="javascript:void(0);" class="btn border-white">자세히 보기</a></div>
                                 </div>
                             </li>
-                            <li class="swiper-slide slide-bg" style="background-image: url('../../images/slide-event-live.png');">
-                                <div class="li-wrap">
-                                    <strong class="flag-on-air">On-Air</strong>
-                                    <dfn class="tit">강남본점 리뉴얼 오픈 매장소개 LIVE</dfn>
-                                    <span class="date">2202.02.14 오후 7시</span>
-                                    <span class="txt">라이브에서 더 많은 혜택을 만나보세요!</span>
-                                    <div class="btn-area"><a href="javascript:void(0);" class="btn border-white">자세히 보기</a></div>
+                            <!-- // 텍스트가 있고 이미지가 백그라운드인 경우 -->
+
+                            <!-- 이미지만 있는 경우 -->
+                            <li class="swiper-slide">
+                                <div class="img-wrap">
+                                    <img class="m-hidden" src="../../images/img-live-banner-01.png" alt="&nbsp;">
+                                    <img class="pc-hidden" src="../../images/img-live-banner-01_mo.png" alt="&nbsp;">
                                 </div>
                             </li>
+                            <!-- // 이미지만 있는 경우 -->
+                            
                             <li class="swiper-slide">
                                 <div class="img-wrap">
                                     <button type="button" class="btn-video-view">영상보기</button>
