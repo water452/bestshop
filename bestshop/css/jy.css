@@ -366,6 +366,7 @@ ul.input-cate-type .cate-tit > .icon.apple-watch { background: url("../images/ic
 .list-cp-map { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 .list-cp-map > li { position: absolute; }
 .list-cp-map > li a { display: block; padding: 0 10px; color: #878787; line-height: 24px; font-size: 14px; font-weight: 500; border-radius: 12px; }
+.list-cp-map > li a:hover { color: #000; }
 .list-cp-map > .on a { color: #fff; background: linear-gradient(80deg, #fa263e 2%, #fb5a72 99%); }
 .list-cp-map > .li01 { top: 22%; left: 21%; } /* 서울 */
 .list-cp-map > .li02 { top: 28.5%; left: 26%; } /* 경기 */
