@@ -708,7 +708,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
     .tab01:before{top:38px;}
 		.tab01.is_depth{padding-bottom:0;}
 		.tab01.is_depth > ul{height:110px;}
-		.tabSlide > ul::-webkit-scrollbar{display:none;}
+		/* .tabSlide > ul::-webkit-scrollbar{display:none;} */
     .tab01 > ul > li{margin-right:20px !important;overflow:hidden;}
     .tab01 > ul > li > a{padding:6px 0 7px 0;line-height:26px;font-size:17px;float:left;}
     .tab02:before{top:53px;}
@@ -916,7 +916,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	.floating-block .service-list li.event a {background:#fff url(../images/icons/icon-event_mo.svg) no-repeat right 10px center / 24px 24px}
 	.floating-block.active .floating-custom-wrap{bottom:50px;}
 
-	.innerLayer .floating-block{bottom:200px;}
+	.innerLayer .floating-block{bottom:100px;}
 
 	/* calendar custom */
 	.calendar{overflow:visible}
