@@ -334,37 +334,36 @@
                             </div>
                         </div>
                     </div>
-
-                    <!-- 예약 정보 s -->
-                    <div class="result-info-area">
-                        <p class="result-info-txt">예약 정보를 확인해주세요.</p>
-                        <ul class="result-info-list">
-                            <li>
-                                <dl>
-                                    <dt>상담 목적 :</dt>
-                                    <dd>혼수</dd>
-                                </dl>
-                                <dl>
-                                    <dt>제품 선택 :</dt>
-                                    <dd>냉장고, 식기세척기, 청소기</dd>
-                                </dl>
-                            </li>
-                            <li>
-                                <dl>
-                                    <dt>상담 매장 :</dt>
-                                    <dd>강남본점</dd>
-                                </dl>
-                                <dl>
-                                    <dt>예약 일시 :</dt>
-                                    <dd>21년12월15일, 17시</dd>
-                                </dl>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- //예약 정보 e -->
-
                 </div>
                 <!-- // step 3 -->
+
+                <!-- 예약 정보 s -->
+                <div class="result-info-area">
+                    <p class="result-info-txt">예약 정보를 확인해주세요.</p>
+                    <ul class="result-info-list">
+                        <li>
+                            <dl>
+                                <dt>상담 목적 :</dt>
+                                <dd>혼수</dd>
+                            </dl>
+                            <dl>
+                                <dt>제품 선택 :</dt>
+                                <dd>냉장고, 식기세척기, 청소기</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>상담 매장 :</dt>
+                                <dd>강남본점</dd>
+                            </dl>
+                            <dl>
+                                <dt>예약 일시 :</dt>
+                                <dd>21년12월15일, 17시</dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+                <!-- //예약 정보 e -->
 
                 <div class="btn-area center active"><!-- active 클래스 추가 -->
                     <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담 예약하기</button>

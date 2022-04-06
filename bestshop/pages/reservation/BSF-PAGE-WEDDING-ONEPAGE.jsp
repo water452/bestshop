@@ -359,7 +359,7 @@
                 </div>
                 <!-- //예약 정보 e -->
 
-                <div class="btn-area center m-hidden active"><!-- active 클래스 추가 -->
+                <div class="btn-area center active"><!-- active 클래스 추가 -->
                     <button type="button" class="btn btn-res btnPopOpen" data-href="#popup-certification">상담 예약하기</button>
                 </div>
 

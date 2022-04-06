@@ -89,18 +89,15 @@
 .step-area.step03.border {border-bottom:0 none; margin-bottom:0}
 .step-area .main-area {padding:20px 0}
 .step-area.step03 .main-area {padding-bottom:0}
+.step-area.step03 .rt > .step-tit-area {padding-top:0}
+.step-area.step03 .rt > .step-tit-area .step-tit {margin-bottom:9px; font-size:16px; font-weight:500; line-height:26px}
+.step-area.step03 .rt > .step-tit-area .step-tit + .btm-more {margin-bottom:0}
 .step-area .btn-area.res-more {margin:27px 0 40px}
 .step-area .info-text {display:flex; justify-content:flex-end; margin-top:16px; font-size:14px; line-height:20px; color:#777}
 
 /* 매장상담예약 컨텐츠 영역 - 단일페이지 */
 .onepage .step-area {border-top:0; border-bottom:0}
 .onepage .step-area.step01 .step-tit-area {padding-top:14px}
-.onepage .step-area.step03 .rt > .step-tit-area {display:block}
-.onepage .step-area.step03 .rt > .step-tit-area {padding-top:0}
-.onepage .step-area.step03 .rt > .step-tit-area .step-tit {margin-bottom:9px; font-size:16px; font-weight:500; line-height:26px}
-.onepage .step-area.step03 .rt > .step-tit-area .step-tit + .btm-more {margin-bottom:0}
-.onepage .step-area.step03 .rt .check-box .agr-txt-wrap {height:90px}
-.onepage .step-area.step03 .info-type .rt .check-box .agr-txt-wrap {height:142px}
 .onepage .step-area .main-area {padding:0;}
 .onepage .step-area .btn-area.bg {min-height:180px;}
 .onepage .step-tit-area {padding-top:70px}
@@ -333,7 +330,6 @@ ul.input-list-type > li + li{margin-top:32px}
 .user-info-area::after {content:''; display:block; clear:both}
 .user-info-area .lt {float:left; width:540px}
 .user-info-area .rt {float:right; width:calc(100% - 540px); margin-bottom:-4px; padding-left:32px}
-.user-info-area .rt > .step-tit-area {display:none}
 .user-info-area .box-gray {height:348px; padding:60px; border-radius:8px; border:1px solid #ddd}
 .user-info-area ul.input-list-type .tit {font-weight:500}
 .user-info-area ul.input-list-type > li + li {margin-top:50px}
@@ -345,7 +341,7 @@ ul.input-list-type > li + li{margin-top:32px}
 .user-info-area.info-type ul.input-btn-type > li + li {margin:0 0 0 8px}
 .user-info-area.info-type ul.input-btn-type .chkrdo-btn label {min-width:auto; padding:0 23px; border-radius:8px}
 .user-info-area.info-type .slt.border-type {width:100%; background-color:#fff}
-.user-info-area.info-type ul.input-acco-type .check-box .agr-txt-wrap {height:150px}
+.user-info-area.info-type ul.input-acco-type .check-box .agr-txt-wrap {height:142px}
 ul.input-acco-type {flex-direction:column}
 ul.input-acco-type > li {padding:4px 0}
 ul.input-acco-type > li + li {margin-top:3px}
@@ -356,7 +352,7 @@ ul.input-acco-type .check-box label .name > em {margin-right:2px}
 ul.input-acco-type .check-box label .name > em.red {color:#da0f47}
 ul.input-acco-type .check-box button.agr-more {display:none;position:absolute; width:24px; height:24px; top:1px; right:0; background:url(../images/icons/btn-plus-48.svg) no-repeat center / contain}
 ul.input-acco-type .check-box button.agr-more.active {background:url(../images/icons/btn-minus-48.svg) no-repeat center / contain}
-ul.input-acco-type .check-box .agr-txt-wrap {display:none; width:100%; height:106px; margin-top:10px; padding:16px 0 16px 16px; border:1px solid #ddd; border-radius:8px; font-size:12px; line-height:18px; overflow:hidden}
+ul.input-acco-type .check-box .agr-txt-wrap {display:none; width:100%; height:90px; margin-top:10px; padding:16px 0 16px 16px; border:1px solid #ddd; border-radius:8px; font-size:12px; line-height:18px; overflow:hidden}
 ul.input-acco-type .check-box .agr-txt-wrap .inner {height:100%; overflow-y:auto}
 ul.input-acco-type .check-box .agr-txt-wrap .txt01 {font-weight:700; text-decoration:underline}
 ul.input-acco-type .check-box .agr-txt-wrap .mCSB_scrollTools {top:0; right:4px; bottom:0; width:8px; border-radius:8px; background:#f4f4f4; opacity:1}
@@ -364,7 +360,7 @@ ul.input-acco-type .check-box .agr-txt-wrap .mCSB_scrollTools .mCSB_draggerConta
 ul.input-acco-type .check-box .agr-txt-wrap .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {background:#ccc!important}
 
 ul.input-acco-type .check-box .agr-txt-wrap.active {display:block}
-ul.input-acco-type .check-box .agr-txt-wrap.size-l {height:124px}
+/* ul.input-acco-type .check-box .agr-txt-wrap.size-l {height:124px} */
 ul.input-acco-type .check-box .agr-txt-wrap .inner > ul > li > span {display:block}
 ul.input-acco-type .check-box .agr-txt-wrap .inner > ul > li > p {padding-left:10px}
 .user-info-area .bottom-area {float:left; width:100%}
@@ -922,13 +918,12 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .cont-wrap.w100 {padding:0 16px 4px}
     .res-main .step-area.step02 .date-wrap .input-area > .base-type .radio-btn.btn-type2 label {border-radius:4px}
     .step-area.step01 ul.input-base-type {margin-top:5px}
+    .step-area.step03 .rt > .step-tit-area .step-tit {margin-bottom:16px}
+    .step-area.step03 .rt > .step-tit-area .step-tit + .btm-more {margin-bottom:10px}
 
     /* 매장상담예약 컨텐츠 영역 - 단일페이지 */
     .onepage .step-area.step01 .step-tit-area {padding-top:10px}
     .onepage .step-area.step03 .rt > .step-tit-area {padding-top:40px}
-    .onepage .step-area.step03 .rt > .step-tit-area .step-tit {margin-bottom:16px}
-    .onepage .step-area.step03 .rt > .step-tit-area .step-tit + .btm-more {margin-bottom:10px}
-    .onepage .step-area.step03 .info-type .rt .check-box .agr-txt-wrap {height:107px}
     .onepage .step-area .user-info-area .rt {margin-top:0}
     .onepage .step-area .user-info-area .box-gray {padding:0}
     .onepage .step-tit-area {padding-top:50px}
@@ -942,7 +937,6 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .onepage .result-info-list dl {font-size:14px; line-height:22px}
 
     .res-main.care .onepage .user-info-area {padding-top:50px}
- 
 
     /* swiper button */
     .banner-btns {height:28px}
