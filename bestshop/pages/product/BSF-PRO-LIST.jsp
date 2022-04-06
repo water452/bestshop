@@ -885,25 +885,6 @@
         }
     });
 
-    /* sticky 처리 */
-    $(function(){
-        var _stickyBar = $('.tab-wrap').offset().top;
-
-        $(window).scroll(function(){
-            //var scrollTop = $(this).scrollTop();
-
-            if(window.pageYOffset > _stickyBar){
-                $('.tab-wrap').addClass('fixed');
-            } else {
-                $('.tab-wrap').removeClass('fixed');
-            }
-        });
-
-        $(window).resize(function(){
-            var _stickyBar = $('.tab-wrap').offset().top;
-        })
-    });
-
     var _winW = $(window).width();
     
     // video control
@@ -914,6 +895,26 @@
             $('#popup-video').css('display', 'block').find('video.pcOnly').get(0).play();
         }
     });
+
+    /* sticky 처리 */
+    function _stickyBarTop(){
+        var _stickyBar = $('.tab-wrap').offset().top;
+
+        $(window).scroll(function(){
+            var scrollTop = $(this).scrollTop();
+
+            if(scrollTop > _stickyBar){
+                $('.tab-wrap').addClass('fixed');
+            } else {
+                $('.tab-wrap').removeClass('fixed');
+            }
+        });
+    }
+
+    $(window).on('load', function(){
+        _stickyBarTop();
+    });
+
 </script>
 
 <script>
