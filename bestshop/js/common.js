@@ -150,7 +150,7 @@ function tabCommon(){
         if($('.tab02').length){
             if($(this).closest('div').hasClass('tab01')){
                 $('.tab02 li').removeClass('on');
-                $('.tab02 ul').animate({scrollLeft: 0}, 0);
+                $('.tab02 ul').animate({scrollLeft: 0}, 100);
             }
         }
 
