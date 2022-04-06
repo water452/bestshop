@@ -186,6 +186,12 @@
                                 </form>
                             </div>
                             <div class="rt">
+                                <div class="step-tit-area">
+                                    <h3 class="step-tit">개인정보 수집 &middot; 이용 동의 및 마케팅 정보 활용 동의<sup>*</sup></h3>
+                                    <div class="btm-more err-block" style="display: block;"> <!-- step 유효성 체크 -->
+                                        <p class="err-msg">개인정보 수집 및 이용에 동의 하셔야 이용 가능합니다.</p>
+                                    </div>
+                                </div> 
                                 <div class="agr-wrap">
                                     <ul class="input-acco-type">
                                         <li>
