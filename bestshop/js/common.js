@@ -139,19 +139,20 @@ function tabCommon(){
         var index = $(this).parent().index();
         $(this).parent().addClass("on").siblings().removeClass("on");
 
-        if($('.tab02').length > 0){
-            if($(this).closest('div').hasClass('tab01')){
-                $('.tab02 li').removeClass('on');
-            }
-        }
-
         if ( target != "#" && target != "#none" && target != "" && target != "undefined" && target != "javascript:void(0);" ){
             $(target).addClass("on").siblings().removeClass("on");
         };
 
-        if ( $(this).parents(".tabSlide").length > 0 ){
+        if ( $(this).closest(".tabSlide").length > 0 ){
             tabSlide();
         };
+
+        if($('.tab02').length){
+            if($(this).closest('div').hasClass('tab01')){
+                $('.tab02 li').removeClass('on');
+                $('.tab02 ul').animate({scrollLeft: 0}, 0);
+            }
+        }
 
         if($('.detail-block').length){
             $('.detail-block').find('.detail-box').eq(index).addClass('on').siblings('.detail-box').removeClass('on')
@@ -208,6 +209,8 @@ function tabCommon(){
                 onPosition = onPosition - onPrevWidth;
 
                 ul.stop().animate({ scrollLeft: onPosition }, speed);
+
+                console.log(ul)
             });
         };
     };
