@@ -1185,6 +1185,9 @@
                             <div class="btn-area center">
                                 <button type="button" class="btn border s02 more"><span>더보기</span></button>
                             </div>
+                            <div class="no-data"><!-- no-data 케이스 추가 -->
+                                <p>제품 준비중입니다.</p>
+                            </div>
                         </div>
                     </div>
 

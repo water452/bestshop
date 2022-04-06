@@ -247,7 +247,7 @@ ul.input-cate-type .cate-tit > .icon.apple-watch { background: url("../images/ic
 .event-list ul {display: flex; flex-wrap: wrap; margin: 0 -12px;}
 .event-list ul li {position: relative; overflow: hidden; width: calc((100% / 3) - 24px); margin:0 12px; border-radius: 8px; box-shadow: 2px 4px 16px 0 rgba(0, 0, 0, 0.16);}
 .event-list ul li:nth-child(n+4) {margin-top: 24px;}
-.event-list ul li > a .thumb {position: relative; display: block;}
+.event-list ul li > a .thumb {position: relative; display: block; padding-bottom:74.33%; overflow:hidden}
 .event-list ul li > a .thumb .icon-timedeal {z-index: 2; position: absolute; top: 24px; left: 24px; width: 60px; height: 60px; border-radius: 100%; 
     background-image: linear-gradient(315deg,#fb5a72,#fa263e);
     background-color: #fa263e; 
@@ -256,7 +256,7 @@ ul.input-cate-type .cate-tit > .icon.apple-watch { background: url("../images/ic
 .event-list ul li > a .thumb .icon-timedeal img { position: absolute; top: 50%; left: 9px; transform: translateY(-50%); width: 40px;  height: 40px;} 
 .event-list ul li > a .thumb .end-msg {z-index: 1; position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: rgba(0,0,0,.5);}
 .event-list ul li > a .thumb .end-msg em {position: absolute; top: 50%; left: 50%; width: 100%; transform: translate(-50%, -50%); color: #fff; font-weight: bold; font-size: 32px; line-height: 47px; text-align: center;}
-.event-list ul li > a .thumb img {max-width: 100%;}
+.event-list ul li > a .thumb img {position:absolute; width:100%; height:auto; top:50%; left:50%; transform:translate(-50%,-50%)}
 .event-list ul li a .info {padding: 24px 32px;}
 .event-list ul li a .info .tit {overflow: hidden; margin-top: 7px; display: -webkit-box; -webkit-line-clamp: 1; text-overflow: ellipsis; -webkit-box-orient: vertical; color: #000; font-size: 20px; line-height: 29px; font-weight: bold; }
 .event-list ul li a .info .date {overflow: hidden; margin-top: 14px; padding-right: 90px; display: -webkit-box; -webkit-line-clamp: 1; text-overflow: ellipsis; -webkit-box-orient: vertical; font-size: 14px; line-height: 20px;}
