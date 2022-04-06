@@ -209,8 +209,6 @@ function tabCommon(){
                 onPosition = onPosition - onPrevWidth;
 
                 ul.stop().animate({ scrollLeft: onPosition }, speed);
-
-                console.log(ul)
             });
         };
     };
