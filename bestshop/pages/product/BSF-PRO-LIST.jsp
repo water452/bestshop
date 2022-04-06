@@ -110,11 +110,11 @@
                         <span class="count">2</span>
                     </div>
                     <ul>
-                        <li class="on">
+                        <li>
                             <a href="javascript:void(0);">TV/AV</a>
                             <div class="tab02 tabOn tabSlide">
                                 <ul>
-                                    <li class="on"><a href="javascript:void(0);">TV</a></li>
+                                    <li><a href="javascript:void(0);">TV</a></li>
                                     <li><a href="javascript:void(0);">프로젝터</a></li>
                                     <li><a href="javascript:void(0);">AV</a></li>
                                 </ul>
@@ -124,7 +124,7 @@
                             <a href="javascript:void(0);">IT</a>
                             <div class="tab02 tabOn tabSlide">
                                 <ul>
-                                    <li class="on"><a href="javascript:void(0);">노트북</a></li>
+                                    <li><a href="javascript:void(0);">노트북</a></li>
                                     <li><a href="javascript:void(0);">일체형/데스크톱</a></li>
                                     <li><a href="javascript:void(0);">모니터</a></li>
                                 </ul>
@@ -134,7 +134,7 @@
                             <a href="javascript:void(0);">주방가전</a>
                             <div class="tab02 tabOn tabSlide">
                                 <ul>
-                                    <li class="on"><a href="javascript:void(0);">냉장고</a></li>
+                                    <li><a href="javascript:void(0);">냉장고</a></li>
                                     <li><a href="javascript:void(0);">김치냉장고</a></li>
                                     <li><a href="javascript:void(0);">광파오븐/전자레인지</a></li>
                                     <li><a href="javascript:void(0);">전기레인지</a></li>
@@ -148,7 +148,7 @@
                             <a href="javascript:void(0);">생활가전</a>
                             <div class="tab02 tabOn tabSlide">
                                 <ul>
-                                    <li class="on"><a href="javascript:void(0);">워시타워</a></li>
+                                    <li><a href="javascript:void(0);">워시타워</a></li>
                                     <li><a href="javascript:void(0);">세탁기</a></li>
                                     <li><a href="javascript:void(0);">건조기</a></li>
                                     <li><a href="javascript:void(0);">스타일러</a></li>
@@ -161,7 +161,7 @@
                             <a href="javascript:void(0);">에어컨/에어케어</a>
                             <div class="tab02 tabOn tabSlide">
                                 <ul>
-                                    <li class="on"><a href="javascript:void(0);">에어컨</a></li>
+                                    <li><a href="javascript:void(0);">에어컨</a></li>
                                     <li><a href="javascript:void(0);">공기청정기</a></li>
                                     <li><a href="javascript:void(0);">제습/가습기</a></li>
                                     <li><a href="javascript:void(0);">실링팬</a></li>
@@ -172,7 +172,7 @@
                             <a href="javascript:void(0);">뷰티/의료기기</a>
                             <div class="tab02 tabOn tabSlide">
                                 <ul>
-                                    <li class="on"><a href="javascript:void(0);">뷰티 디바이스</a></li>
+                                    <li><a href="javascript:void(0);">뷰티 디바이스</a></li>
                                     <li><a href="javascript:void(0);">의료기기</a></li>
                                 </ul>
                             </div>
@@ -181,7 +181,7 @@
                             <a href="javascript:void(0);">LG SIGNATURE</a>
                             <div class="tab02 tabOn tabSlide">
                                 <ul>
-                                    <li class="on"><a href="javascript:void(0);">올레드 TV</a></li>
+                                    <li><a href="javascript:void(0);">올레드 TV</a></li>
                                     <li><a href="javascript:void(0);">냉장고</a></li>
                                     <li><a href="javascript:void(0);">세탁기</a></li>
                                     <li><a href="javascript:void(0);">에어컨</a></li>
@@ -192,7 +192,7 @@
                             <a href="javascript:void(0);">LG Objet Collection</a>
                             <div class="tab02 tabOn tabSlide">
                                 <ul>
-                                    <li class="on"><a href="javascript:void(0);">TV</a></li>
+                                    <li><a href="javascript:void(0);">TV</a></li>
                                     <li><a href="javascript:void(0);">냉장고</a></li>
                                     <li><a href="javascript:void(0);">컨버터블 패키지</a></li>
                                     <li><a href="javascript:void(0);">김치냉장고</a></li>
@@ -914,4 +914,8 @@
             $('#popup-video').css('display', 'block').find('video.pcOnly').get(0).play();
         }
     });
+</script>
+
+<script>
+    $('.tab01 > ul > li:first-child, .tab01 > ul > li:first-child .tab02 li:first-child').addClass('on');
 </script>

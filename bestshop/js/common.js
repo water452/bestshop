@@ -139,6 +139,12 @@ function tabCommon(){
         var index = $(this).parent().index();
         $(this).parent().addClass("on").siblings().removeClass("on");
 
+        if($('.tab02').length > 0){
+            if($(this).closest('div').hasClass('tab01')){
+                $('.tab02 li').removeClass('on');
+            }
+        }
+
         if ( target != "#" && target != "#none" && target != "" && target != "undefined" && target != "javascript:void(0);" ){
             $(target).addClass("on").siblings().removeClass("on");
         };
