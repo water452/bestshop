@@ -299,6 +299,7 @@ ul.shop-list li [class^="btn-"] > span {margin-left:3px}
 .shop-info-wrap .box .info-area {margin-top:24px}
 .shop-info-wrap .box .info-area dl {display:flex}
 .shop-info-wrap .box .info-area dl + dl {margin-top:18px}
+.shop-info-wrap .box .info-area dl + dl ul li span:first-child {color:#777}
 .shop-info-wrap .box .info-area dl dt {min-width:83px; font-size:16px; font-weight:500; line-height:24px}
 .shop-info-wrap .box .info-area dl dd {margin-left:24px; font-size:16px; line-height:24px}
 .shop-info-wrap .box .info-area dl dd > ul li + li {margin-top:6px}
@@ -1081,7 +1082,8 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .date-wrap {flex-direction:column; width:100%; min-height:0; margin-left:0; margin-top:12px}
     .date-wrap .mo-top {display:flex; justify-content:space-between; padding:13px 11px}
     .date-wrap .mo-top .mo-tit {color:#000; font-size:14px; font-weight:500; line-height:20px}
-    .date-wrap .mo-top .mo-result {color:#000; font-size:14px; font-weight:500; line-height:20px}
+    .date-wrap .mo-top .mo-result {color:#777; font-size:14px; font-weight:500; line-height:20px}
+    .date-wrap .mo-top .mo-result.on {color:#000}
     .date-wrap .mo-top .mo-tit.active {color:#000}
     .date-wrap .calendar {position:relative; width:100%}
     .date-wrap .calendar .mo-top {position:relative; padding-right:49px}

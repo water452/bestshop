@@ -452,7 +452,7 @@
             <div class="calendar"><!-- active 클래스 추가(mo) -->
                 <div class="mo-top">
                     <p class="mo-tit">예약일 <span>선택</span></p><!-- 예약일 선택시 '선택' 문구 삭제 -->
-                    <span class="mo-result">희망 일자를 선택해 주세요.</span>
+                    <span class="mo-result">희망 일자를 선택해 주세요.</span> <!-- on 클래스 추가(mo) -->
                 </div>
                 <div id="calendar" class="cal-cont"></div> <!-- #calendar 로 달력호출 --><!-- active 클래스 추가(mo) -->
             </div>
