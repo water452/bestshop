@@ -71,7 +71,7 @@ html.full-height .floating-block{display:none;}
 .search-result .result-head .btn-filter > .count{position:absolute; display:block; width:16px; height:16px; top:-1.5px; right:-4px; border-radius:50%; background-color:#da0f47; color:#fff; font-size:12px; font-weight:500; line-height:15px; text-align:center}
 .search-result .result-body{position:relative;height:calc(100% - 37px);padding-top:25px;}
 .search-result .result-body ul{overflow-y:auto;position:relative;width:calc(100% + 30px);height:100%;padding-bottom:32px;}
-.search-result .result-body ul.mCS_no_scrollbar{padding-right:32px;}
+.search-result .result-body ul.mCS_no_scrollbar{padding-right:32px;-webkit-overflow-scrolling:touch;}
 .search-result .result-body ul li{max-width:436px; padding-bottom:25px;margin-bottom:25px;border-bottom:1px solid #ddd;}
 .search-result .result-body ul li:last-of-type{margin-bottom:0;border-bottom:0}
 .search-result .result-body ul li a.base-link{display:block;position:relative;font-size:0;padding-left:29px;}
