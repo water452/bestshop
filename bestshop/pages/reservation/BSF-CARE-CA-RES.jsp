@@ -1203,9 +1203,13 @@
 
                         <div class="btn-area bg active no-btn"><!-- bg 활성화 : active / 버튼없는 케이스 : no-btn -->
                             <div class="result-txt">
-                                <!-- <p>상담하실 매장과 일시를 선택해주세요.</p> -->
-                                <p>상담 매장: <span>강남본점</span></p>
-                                <p>예약 일시: <span>21년12월15일, 17시</span></p>
+                                <!-- <div class="txt-inner">
+                                    <p>상담하실 매장과 일시를 선택해주세요.</p>
+                                </div> -->
+                                <div class="txt-inner active"> <!-- active 클래스 추가 -->
+                                    <p>상담 매장: <span>강남본점</span></p>
+                                    <p>예약 일시: <span>21년12월15일, 17시</span></p>
+                                </div>
                             </div>
                         </div>
 

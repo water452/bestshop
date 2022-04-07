@@ -380,9 +380,13 @@
 
                     <div class="btn-area bg active"><!-- bg 활성화 : 클래스 active -->
                         <div class="result-txt">
-                            <p>상담을 원하시는 지역과 일시를 선택해주세요.</p>
-                            <!-- <p>상담 지역: <span>서울특별시 강남구</span></p>
-                            <p>예약 일시: <span>21년12월15일, 17시</span></p> -->
+                            <!-- <div class="txt-inner">
+                                <p>상담을 원하시는 지역과 일시를 선택해주세요.</p>
+                            </div> -->
+                            <div class="txt-inner active"> <!-- active 클래스 추가 -->
+                                <p>상담 지역: <span>서울특별시 강남구</span></p>
+                                <p>예약 일시: <span>21년12월15일, 17시</span></p>
+                            </div>
                         </div>
                         <button type="button" class="btn s01 border-red">다음 단계로</button><!-- 버튼 비활성화 : 속성 disabled -->
                     </div>
