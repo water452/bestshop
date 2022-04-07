@@ -1568,25 +1568,6 @@
                 $("#agr-all").prop("checked", is_checked);
             });
         });
-
-        /* sticky 처리 */
-        $(function(){
-            var _stickyBar = $('.sticky-info-wrap').offset().top;
-
-            $(window).scroll(function(){
-                var scrollTop = $(this).scrollTop();
-
-                if(scrollTop > _stickyBar){
-                    $('.sticky-info-wrap').addClass('fixed');
-                } else {
-                    $('.sticky-info-wrap').removeClass('fixed');
-                }
-            });
-
-            $(window).resize(function(){
-                var _stickyBar = $('.sticky-info-wrap').offset().top;
-            })
-        });
     });
 </script>
 <jsp:include page="../../templates/common/footer.jsp" />
@@ -1651,5 +1632,24 @@
         } else {
             $('#popup-video').css('display', 'block').find('video.pcOnly').get(0).play();
         }
+    });
+
+    /* sticky 처리 */
+    function _stickyBarTop(){
+        var _stickyBar = $('.sticky-info-wrap').offset().top;
+
+        $(window).scroll(function(){
+            var scrollTop = $(this).scrollTop();
+
+            if(scrollTop > _stickyBar){
+                $('.sticky-info-wrap').addClass('fixed');
+            } else {
+                $('.sticky-info-wrap').removeClass('fixed');
+            }
+        });
+    }
+
+    $(window).on('load', function(){
+        _stickyBarTop();
     });
 </script>

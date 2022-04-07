@@ -487,6 +487,7 @@ ul.input-acco-type .check-box .agr-txt-wrap .inner > ul > li > p {padding-left:1
 .res-main .category-box .category-list > li .box .category .category-thumb {width:100%; max-width:200px; height:200px; margin:0 auto}
 .res-main .category-box .category-list > li .box .category .category-thumb > img {width:100%}
 .res-main .category-box .category-list > li .box .category .category-tit {font-size:22px; font-weight:bold; line-height:30px; text-align:center}
+
 @media (hover:hover) {
   .res-main .category-box .category-list > li .box:hover .sub-category {display:block}
 }
@@ -1204,6 +1205,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-main.care .cont-wrap .cont-area .step-count .step-num {margin-bottom:0; font-size:14px; line-height:20px}
 
     .res-main.care .step-top-note {margin-top:0}
+    .res-main.care .step-area.step03 .user-info-area {padding-top:50px}
 
     .res-main .category-box {width:calc(100% + 32px); margin-left:-16px; margin-top:-22px; padding:16px}
     .res-main .category-box .swiper-slide {padding:6px}
