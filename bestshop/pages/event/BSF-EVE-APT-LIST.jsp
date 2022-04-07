@@ -346,14 +346,17 @@
     mapChnage()
 
     // focus 이동
-    var headerH = $('.header').height();
-    var breadH = $('.breadcrumb-wrap').height();
-    var pageH = $('.page-header').height();
-    var sortingTop = parseInt($(".sorting-cp").offset().top) + headerH - breadH - pageH;
+    function _sortingTop(){
+        var sortingTop = $(".sorting-cp").offset().top;
 
-    $('.chkrdo-btn label').on('click', function(){
-            
-        $('html, body').scrollTop(sortingTop);
+        $('.chkrdo-btn label').on('click', function(){
+                
+            $('html, body').scrollTop(sortingTop);
+        });
+    }
+
+    $(window).on('load', function(){
+        _sortingTop();
     });
 </script>
 
