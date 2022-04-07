@@ -191,8 +191,8 @@
                             <!-- s: 요약정보 -->
                             <div class="info-txt-com"> <!-- 노출여부 : active -->
                                 <a href="javascript:void(0);">
-                                    <span class="mo-tit">상담 매장 및 예약일시</span>
-                                    <span class="pc-tit">상담 매장 :</span>
+                                    <span class="mo-tit">상담 지역 및 예약일시</span>
+                                    <span class="pc-tit">상담 지역 :</span>
                                     <span class="txt">강남본점</span>
 
                                     <span class="pc-tit">예약 일시 :</span>

@@ -301,6 +301,7 @@ function customScroll(){
 function customScrollBreak(){
 	if ( $('.custom-scroll').length > 0 ){
 		$('.custom-scroll').mCustomScrollbar('disable');
+        $('.custom-scroll').css('-webkit-overflow-scrolling', 'touch');
 	};
 }
 
@@ -477,6 +478,7 @@ $(document).ready(function() {
     } else {
 		if ( $('.custom-scroll').length > 0 ){
 	        $('.custom-scroll').mCustomScrollbar('disable');
+            $('.custom-scroll').css('-webkit-overflow-scrolling', 'touch');
 		};
     }
 
