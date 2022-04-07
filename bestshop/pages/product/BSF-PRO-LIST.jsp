@@ -918,5 +918,5 @@
 </script>
 
 <script>
-    $('.tab01 > ul > li:first-child, .tab01 > ul > li:first-child .tab02 li:first-child').addClass('on');
+    $('.tab01 > ul > li:first-child, .tab01 > ul > li .tab02 li:first-child').addClass('on');
 </script>
