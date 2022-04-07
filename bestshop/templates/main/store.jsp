@@ -9,7 +9,7 @@
         <div class="slide-store">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="slide-cont" style="background-image:url('./images/img_main_benefit.png');"> <!-- image file name change -->
+                    <div class="slide-cont" style="background-image:url('./images/img-suwon-open-banner_mo.png');"> <!-- image file name change -->
                         <a href="/event/detail-EV10003002">
                             <div class="scont-tit">
                                 <strong>갤러리아 명품관 WEST점</strong>

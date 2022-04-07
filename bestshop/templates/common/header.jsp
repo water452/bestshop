@@ -26,6 +26,7 @@
         <link rel="stylesheet" href="/bestshop/css/haeun.css">
         <link rel="stylesheet" href="/bestshop/css/sylee.css">
         <link rel="stylesheet" href="/bestshop/css/main.css">
+        <link rel="stylesheet" href="/bestshop/css/brand.css">
         <script type="text/javascript" src="/bestshop/js/libs/jquery-3.6.0.min.js"></script>
         <script type="text/javascript" src="/bestshop/js/libs/jquery-ui.min.js"></script>
         <script type="text/javascript" src="/bestshop/js/libs/swiper-bundle.min.js"></script>

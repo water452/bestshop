@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="598.65" height="63" viewBox="0 0 598.65 63">
+    <defs>
+        <clipPath id="hibv37liwb">
+            <path data-name="패스 3663" d="M11.4 46.457a31.817 31.817 0 0 0 63.627.244v-.488a31.817 31.817 0 0 0-63.627.244" transform="translate(-11.404 -14.962)" style="fill:none"/>
+        </clipPath>
+        <clipPath id="4czi2mi2xd">
+            <path data-name="패스 3664" d="M20.927 24.5C10.3 35.136 9.219 51.331 18.558 60.668s25.517 8.262 36.155-2.375c10.649-10.658 11.723-26.849 2.394-36.184a22.206 22.206 0 0 0-15.9-6.361 28.968 28.968 0 0 0-20.28 8.752" transform="translate(-12.199 -15.748)" style="fill:none"/>
+        </clipPath>
+        <clipPath id="3n0fpi38af">
+            <path data-name="패스 3665" d="M26.616 34.56a4.278 4.278 0 1 0 4.284-4.207 4.235 4.235 0 0 0-4.282 4.207m13.308-3.766h-.136v.038l-.192.052.192.315v26.564l-.786.439.605.422a.785.785 0 0 0 .448.13h8.846a.19.19 0 0 0 .177-.2v-2.441c0-.182-.025-.242-.074-.29l-.462-.721h-5.776l.023-24.188a.276.276 0 0 0-.062-.2l-.427-.723zm1.011-13.152-.66.222c-14.944 0-26.149 12.341-26.149 27.047a26.25 26.25 0 0 0 7.946 18.842A26.862 26.862 0 0 0 41.2 71.34a27.124 27.124 0 0 0 19.21-7.74 26.268 26.268 0 0 0 7.944-18.847v-1.536l-.644-.548-19.681.008v3.113l.489.646a.253.253 0 0 0 .169.061h16.466a24.062 24.062 0 0 1-40.835 15.05 23.577 23.577 0 0 1-.136-33.4 24.422 24.422 0 0 1 17.109-6.913l1.29-.017h.14c.091-.012.171-.012.171-.207v-2.553a.508.508 0 0 0-.066-.276l-.578-.721z" transform="translate(-14.126 -17.46)" style="fill:none"/>
+        </clipPath>
+        <clipPath id="yme03ucshh">
+            <path data-name="패스 3666" d="M28.287 24.581 28.3 49.96l.687-.561V23.993z" transform="translate(-28.287 -23.993)" style="fill:none"/>
+        </clipPath>
+        <clipPath id="35dtervxej">
+            <path data-name="패스 3667" d="M31.55 37.692v1.9l.621.63v-3.133z" transform="translate(-31.55 -37.089)" style="fill:none"/>
+        </clipPath>
+        <clipPath id="2s1ol58idk">
+            <path data-name="패스 3668" d="M21.036 28.136a3.537 3.537 0 1 1 3.54 3.515 3.538 3.538 0 0 1-3.54-3.515m-.615 0a4.153 4.153 0 1 0 4.155-4.15 4.148 4.148 0 0 0-4.155 4.15" transform="translate(-20.421 -23.986)" style="fill:none"/>
+        </clipPath>
+        <clipPath id="fzibkt04am">
+            <path data-name="패스 3669" d="M13.9 44.11a26.375 26.375 0 0 0 7.892 18.845 27.187 27.187 0 0 0 38.128 0 26.349 26.349 0 0 0 7.89-18.845v-1.542l-.623.625v.917a25.725 25.725 0 0 1-7.707 18.413 26.54 26.54 0 0 1-37.244 0 25.757 25.757 0 0 1-7.713-18.413 26.207 26.207 0 0 1 26.316-26.04l1-.01.617-.594-1.622-.013A26.832 26.832 0 0 0 13.9 44.11" transform="translate(-13.9 -17.453)" style="fill:none"/>
+        </clipPath>
+        <clipPath id="a3axp5mzoo">
+            <path data-name="패스 3670" d="M39.255 18.768a24.515 24.515 0 0 0-16.909 7.053 23.94 23.94 0 0 0 0 34.1 24.439 24.439 0 0 0 16.954 7.06h.625a24.358 24.358 0 0 0 24.059-22.472l.021-.665-.312.274-.328.341a23.879 23.879 0 0 1-40.574 15.025 23.326 23.326 0 0 1 0-33.231 23.916 23.916 0 0 1 16.831-6.866l1.6.011-.621-.615-.695-.015z" transform="translate(-15.213 -18.768)" style="fill:none"/>
+        </clipPath>
+        <clipPath id="pbng418stq">
+            <path data-name="패스 3671" d="M28.3 18.061v1.957l.617.617V17.46z" transform="translate(-28.304 -17.46)" style="fill:none"/>
+        </clipPath>
+        <clipPath id="zoe28ut9rs">
+            <path data-name="패스 3672" d="M39.414 30.156v27.556h8.866v-2.46h-6.327v-25.1zm.923-12.527a26.5 26.5 0 0 0-26.271 26.315 25.99 25.99 0 0 0 7.8 18.6 26.836 26.836 0 0 0 37.643 0 25.963 25.963 0 0 0 7.793-18.6v-1.2l-1.051.006H48.3v2.437h16.471c-.006.063-.006.314-.008.364a24.211 24.211 0 0 1-41.15 15.257 23.694 23.694 0 0 1 0-33.735 24.244 24.244 0 0 1 17.07-6.982c.275 0 .966 0 1.271.012v-2.464c-.25 0-.667-.01-1-.01z" transform="translate(-14.066 -17.629)" style="fill:none"/>
+        </clipPath>
+        <clipPath id="7a48i47fvu">
+            <path data-name="패스 3673" d="M20.581 27.976a3.823 3.823 0 1 0 3.828-3.82 3.821 3.821 0 0 0-3.828 3.82" transform="translate(-20.581 -24.156)" style="fill:none"/>
+        </clipPath>
+        <linearGradient id="0i6296q1se" x1="-.182" y1="1.32" x2="-.155" y2="1.32" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#e87483"/>
+            <stop offset=".053" stop-color="#e2687a"/>
+            <stop offset=".292" stop-color="#ce3b57"/>
+            <stop offset=".504" stop-color="#bf1b3e"/>
+            <stop offset=".681" stop-color="#b6072e"/>
+            <stop offset=".801" stop-color="#b30029"/>
+            <stop offset="1" stop-color="#b30029"/>
+        </linearGradient>
+        <linearGradient id="xuewrv7jeg" x1="-.209" y1="1.207" x2="-.184" y2="1.207" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#c12746"/>
+            <stop offset=".082" stop-color="#b31e3d"/>
+            <stop offset=".247" stop-color="#9f1031"/>
+            <stop offset=".432" stop-color="#900727"/>
+            <stop offset=".653" stop-color="#870122"/>
+            <stop offset="1" stop-color="#850021"/>
+        </linearGradient>
+        <linearGradient id="qshryzh28i" x1="-77.926" y1="2.655" x2="-75.171" y2="2.655" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#b8bfc2"/>
+            <stop offset=".138" stop-color="#a0a6a9"/>
+            <stop offset=".549" stop-color="#606366"/>
+            <stop offset=".848" stop-color="#37393c"/>
+            <stop offset="1" stop-color="#28292c"/>
+        </linearGradient>
+        <linearGradient id="4ctk61yoxa" x1="-98.593" y1="13.888" x2="-95.468" y2="13.888" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#b0b7bb"/>
+            <stop offset=".129" stop-color="#9aa1a5"/>
+            <stop offset=".544" stop-color="#585f63"/>
+            <stop offset=".845" stop-color="#2f3539"/>
+            <stop offset="1" stop-color="#20262a"/>
+        </linearGradient>
+        <linearGradient id="te47ugghnl" x1="-3.23" y1="6.024" x2="-3.065" y2="6.024" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#aebbc1"/>
+            <stop offset="1" stop-color="#1c1b1d"/>
+        </linearGradient>
+        <linearGradient id="1jgf70n3un" x1="-.207" y1="1.217" x2="-.182" y2="1.217" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#b8bfc2"/>
+            <stop offset="1" stop-color="#323438"/>
+        </linearGradient>
+        <linearGradient id="bpjrtbb5ip" x1="-.605" y1="1.619" x2="-.565" y2="1.619" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#b8bfc2"/>
+            <stop offset="1" stop-color="#3c4045"/>
+        </linearGradient>
+        <linearGradient id="d5jty5l73r" x1="-89.006" y1="25.702" x2="-85.861" y2="25.702" xlink:href="#4ctk61yoxa"/>
+        <radialGradient id="dr02k7je1c" cx=".481" cy=".485" r=".521" gradientTransform="matrix(1 0 0 -1 0 2.718)" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#b30029"/>
+            <stop offset=".5" stop-color="#b30029"/>
+            <stop offset=".752" stop-color="#b00028"/>
+            <stop offset=".857" stop-color="#a90025"/>
+            <stop offset=".935" stop-color="#9d0021"/>
+            <stop offset="1" stop-color="#8c001c"/>
+        </radialGradient>
+        <radialGradient id="0nskpiaxqt" cx=".298" cy=".288" r=".765" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fff"/>
+            <stop offset=".35" stop-color="#fff"/>
+            <stop offset=".518" stop-color="#fafbfb"/>
+            <stop offset=".691" stop-color="#eef1f2"/>
+            <stop offset=".867" stop-color="#d9e0e3"/>
+            <stop offset="1" stop-color="#c5cfd4"/>
+        </radialGradient>
+        <radialGradient id="6iacvukinv" cx=".293" cy=".316" r=".781" gradientTransform="translate(-.019)" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fff"/>
+            <stop offset=".35" stop-color="#fff"/>
+            <stop offset=".553" stop-color="#fafbfb"/>
+            <stop offset=".763" stop-color="#eef1f2"/>
+            <stop offset=".976" stop-color="#d9e0e4"/>
+            <stop offset="1" stop-color="#d7dee2"/>
+        </radialGradient>
+    </defs>
+    <g data-name="그룹 2091">
+        <g data-name="그룹 2122">
+            <path data-name="패스 3660" d="M90.739 21.126v6.006h8.308v1.543c0 6.183-2.508 9.464-9.265 11.6L92.335 46c4.658-1.093 9.224-3.819 11.1-7.545 2.005 3.726 6.392 6.315 10.453 7.269l3.243-6.545c-5.89-1.275-10.137-4.457-10.137-10.549v-1.5h8.175v-6.004zm37.849-.819h-7.622v8.645H113.8v6.232h7.17v15.778h6.712a39.694 39.694 0 0 0 .91-8.326zm.778 36.292H106.9c-.592 0-.778-.139-.778-.773v-8.871H98.5V58.92c0 2.594 1.325 3.817 3.927 3.817h26.94zm4.34-35.513v5.957h8.669v2.882c0 7.59-1.544 12.363-9.453 15.823l2.978 5.272c4.517-1.679 8.762-4.862 10.725-8.909 1.967 3.815 6.076 6.95 10.046 8.5l3.563-6.18c-7.674-2.872-10.321-7.323-10.321-14.554v-2.834h8.44v-5.958zM177.892 31.6h-7.577V20.307H163v42.431h6.4a52.156 52.156 0 0 0 .912-10.169v-14.88h7.577z" transform="translate(62.218 -10.139)" style="fill:#5f5e5e"/>
+            <path data-name="패스 3661" d="M63.384 61.708h17.429v-7.972H61.14V20.761h-9.5v40.947z" transform="translate(26.387 -9.716)" style="fill:#5f5e5e"/>
+            <path data-name="패스 3662" d="M87.022 46.4h7.732v7.153a21.832 21.832 0 0 1-6.85 1.088c-8.549 0-11.4-4.333-11.4-13.115 0-8.372 2.713-13.312 11.264-13.312 4.748 0 7.461 1.486 9.7 4.323l5.909-5.4c-3.6-5.138-9.908-6.693-15.814-6.693-13.3 0-20.286 7.234-20.286 21.015 0 13.723 6.307 21.16 20.214 21.16 6.381 0 12.622-1.623 16.017-3.993V38.761H87.022z" transform="translate(41.076 -10.013)" style="fill:#5f5e5e"/>
+        </g>
+    </g>
+    <g data-name="그룹 2093">
+        <g data-name="그룹 2092" style="clip-path:url(#hibv37liwb)">
+            <path data-name="사각형 1277" style="fill:url(#dr02k7je1c)" d="M0 0h63.627v63H0z"/>
+        </g>
+    </g>
+    <g data-name="그룹 2095">
+        <g data-name="그룹 2094" style="clip-path:url(#4czi2mi2xd)" transform="translate(1.542 1.566)">
+            <path data-name="사각형 1278" transform="rotate(-20 7.787 61.063)" style="fill:url(#0i6296q1se)" d="M0 0h72.322v70.548H0z"/>
+        </g>
+    </g>
+    <g data-name="그룹 2097">
+        <g data-name="그룹 2096" style="clip-path:url(#3n0fpi38af)" transform="translate(5.28 4.849)">
+            <path data-name="패스 3689" d="m0 0 76.445.441.441 76.445-76.445-.441z" transform="rotate(-45 18.893 46.367)" style="fill:url(#xuewrv7jeg)"/>
+        </g>
+    </g>
+    <g data-name="그룹 2099">
+        <g data-name="그룹 2098" style="clip-path:url(#yme03ucshh)" transform="translate(32.752 17.248)">
+            <path data-name="사각형 1280" style="fill:url(#qshryzh28i)" d="M0 0h.704v25.967H0z"/>
+        </g>
+    </g>
+    <g data-name="그룹 2101">
+        <g data-name="그룹 2100" style="clip-path:url(#35dtervxej)" transform="translate(39.082 42.443)">
+            <path data-name="사각형 1281" style="fill:url(#4ctk61yoxa)" d="M0 0h.621v3.135H0z"/>
+        </g>
+    </g>
+    <g data-name="그룹 2103">
+        <g data-name="그룹 2102" style="clip-path:url(#2s1ol58idk)" transform="translate(17.492 17.37)">
+            <path data-name="사각형 1282" transform="rotate(-45 2.93 7.074)" style="fill:url(#te47ugghnl)" d="M0 0h11.733v11.733H0z"/>
+        </g>
+    </g>
+    <g data-name="그룹 2105">
+        <g data-name="그룹 2104" style="clip-path:url(#fzibkt04am)" transform="translate(4.842 4.838)">
+            <path data-name="패스 3690" d="m0 0 75.813.442.442 75.813-75.813-.442z" transform="rotate(-45 18.69 45.877)" style="fill:url(#1jgf70n3un)"/>
+        </g>
+    </g>
+    <g data-name="그룹 2107">
+        <g data-name="그룹 2106" style="clip-path:url(#a3axp5mzoo)" transform="translate(7.389 7.39)">
+            <path data-name="사각형 1284" style="fill:url(#bpjrtbb5ip)" d="M0 0h48.792v48.213H0z"/>
+        </g>
+    </g>
+    <g data-name="그룹 2109">
+        <g data-name="그룹 2108" style="clip-path:url(#pbng418stq)" transform="translate(32.785 4.973)">
+            <path data-name="사각형 1285" style="fill:url(#d5jty5l73r)" d="M0 0h.617v3.176H0z"/>
+        </g>
+    </g>
+    <g data-name="그룹 2111">
+        <g data-name="그룹 2110" style="clip-path:url(#zoe28ut9rs)" transform="translate(5.164 5.179)">
+            <path data-name="사각형 1286" style="fill:url(#0nskpiaxqt)" d="M0 0h53.233v52.627H0z"/>
+        </g>
+    </g>
+    <g data-name="그룹 2113">
+        <g data-name="그룹 2112" style="clip-path:url(#7a48i47fvu)" transform="translate(17.803 17.698)">
+            <path data-name="사각형 1287" style="fill:url(#6iacvukinv)" d="M0 0h7.645v7.618H0z"/>
+        </g>
+    </g>
+    <g data-name="그룹 2115">
+        <g data-name="그룹 2123">
+            <path data-name="패스 3674" d="M25.1 24.842a3.824 3.824 0 0 1 2.316.8 3.8 3.8 0 1 0-5.345 5.289 3.753 3.753 0 0 1-.8-2.289 3.811 3.811 0 0 1 3.824-3.8" transform="translate(-2.791 -6.423)" style="fill:#fff"/>
+            <path data-name="패스 3675" d="M41.943 17.643c-.334-.008-.97-.019-1.286-.019a26.416 26.416 0 0 0-26.589 26.162 25.755 25.755 0 0 0 7.789 18.491c.163.156.328.309.491.461A25.723 25.723 0 0 1 15 44.7c0-14.39 10.371-26.335 26.943-27.057" transform="translate(-8.909 -12.33)" style="fill:#fff"/>
+            <path data-name="패스 3676" d="M28.441 37.253a25.749 25.749 0 0 0 6.32.531v-.531z" transform="translate(4.593 5.488)" style="fill:#fff"/>
+            <path data-name="패스 3677" d="M29.671 24.943v-.78h-2.539v27.765s.8-4.227.8-26.984z" transform="translate(3.363 -6.58)" style="fill:#fff"/>
+            <path data-name="패스 3678" d="m50.705 30.73-18.994.006v2.457h.689v-1.777c16.553 0 18.306-.686 18.306-.686" transform="translate(7.665 -.446)" style="fill:#fff"/>
+            <path data-name="패스 3679" d="M63.121 32c0 .056 0 .321-.012.369a24.146 24.146 0 0 1-41.132 15.37A23.73 23.73 0 0 1 15.8 37.226a24.428 24.428 0 0 0 23.655 17.85A24.134 24.134 0 0 0 63.438 32z" transform="translate(-7.278 .444)" style="fill:#fff"/>
+            <path data-name="패스 3680" d="M192.293 39.423c4.086 1.984 7.046 3.858 7.042 9.694 0 7.913-5.378 11.955-13.944 11.955h-17.282V20.758h16.384c8.865 0 13.828 2.735 13.671 10.143a8.981 8.981 0 0 1-5.871 8.522m-16.2-12.454v10.142h8.06c3.345 0 5.63-1.727 5.613-5.01-.019-4.177-2.537-4.969-5.667-5.132zm0 16.142v11.508h8.05c4.144.183 6.637-1.356 6.522-5.731-.122-4.512-2.692-5.916-6.462-5.777z" transform="translate(132.672 -9.41)" style="fill:#71005f"/>
+            <path data-name="패스 3681" d="M187.129 20.758h26.065v6.464h-17.847v9.9h17.144v6.216h-17.144v11.289H213.9v6.445h-26.771z" transform="translate(150.181 -9.41)" style="fill:#71005f"/>
+            <path data-name="패스 3682" d="M206.159 52.7a24.968 24.968 0 0 0 11.278 2.782c5.729 0 7.938-2 7.938-4.619 0-2.39-2.153-3.614-3.173-4.115-3.233-1.557-7.03-2.615-10.6-4-5.159-2.451-7.825-4.733-7.825-10.793 0-7.179 5.5-11.516 15.649-11.516 4.364 0 9.749.832 13.549 3l-2.779 6.008a22.348 22.348 0 0 0-10.713-2.615c-5.273 0-7.428 1.783-7.428 4.448a3.785 3.785 0 0 0 1.307 3.062 12.633 12.633 0 0 0 2.6 1.559c2.721 1.169 6.8 2.446 10.149 3.951 4.024 1.888 7.37 4.227 7.37 10.568 0 7.175-6.01 11.626-15.93 11.626a34.02 34.02 0 0 1-14.451-3.28z" transform="translate(164.837 -9.707)" style="fill:#71005f"/>
+            <path data-name="패스 3683" d="M220.57 20.758h32.4v6.458H241v33.856h-8.223V27.216H220.57z" transform="translate(180.88 -9.41)" style="fill:#71005f"/>
+            <path data-name="패스 3684" d="M249.913 52.7a24.99 24.99 0 0 0 11.281 2.782c5.727 0 7.938-2 7.938-4.619 0-2.39-2.155-3.614-3.175-4.115-3.233-1.557-7.03-2.615-10.6-4-5.161-2.451-7.824-4.733-7.824-10.793 0-7.179 5.5-11.516 15.647-11.516 4.366 0 9.747.832 13.547 3l-2.777 6.008a22.345 22.345 0 0 0-10.715-2.615c-5.273 0-7.424 1.783-7.424 4.448a3.788 3.788 0 0 0 1.3 3.062 12.656 12.656 0 0 0 2.608 1.559c2.719 1.169 6.8 2.446 10.145 3.951 4.026 1.888 7.372 4.227 7.372 10.568 0 7.175-6.01 11.626-15.93 11.626a34.035 34.035 0 0 1-14.456-3.281z" transform="translate(205.053 -9.707)" style="fill:#71005f"/>
+            <path data-name="패스 3685" d="M265.864 20.758h8.2v16.821h16.927V20.758h8.209v40.314h-8.208V44.028h-16.927v17.044h-8.2z" transform="translate(221.683 -9.41)" style="fill:#71005f"/>
+            <path data-name="패스 3686" d="M322.819 41.3c0 13.694-6.322 20.566-19.427 20.566-13.436 0-17.9-8.149-17.9-20.954 0-13.747 6.216-20.513 19.314-20.513 13.267 0 18.013 7.985 18.013 20.9m-28.967.278c0 7.705 2.145 14.025 9.373 14.025 8.526 0 11.01-5.376 11.01-15.08 0-7.6-2.031-14.025-9.373-14.025-8.188 0-11.01 5.488-11.01 15.08" transform="translate(240.121 -9.744)" style="fill:#71005f"/>
+            <path data-name="패스 3687" d="M323.2 20.758h-15.42v40.316h8.217V46.333h8c8.522-.091 13.506-5.026 13.6-13.12.1-8.282-4.784-12.456-14.4-12.456m-.597 19.354h-6.609V26.98h6.355c1.617.059 6.644.552 6.792 6.148-.147 3.234-1.216 7.1-6.538 6.983" transform="translate(261.055 -9.41)" style="fill:#71005f"/>
+        </g>
+    </g>
+</svg>

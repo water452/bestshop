@@ -121,6 +121,18 @@
       "memo": ""
     },
     {
+      "dep1": "베스트샵 브랜드소개",
+      "dep2": "",
+      "dep3": "",
+      "dep4": "",
+      "worker": "안하은",
+      "startdate": "2022-04-06",
+      "finishdate": "2022-04-07",
+      "status": "완료",
+      "filename": "./pages/brand/BSF-ABOUT-BRAND.jsp",
+      "memo": ""
+    },
+    {
       "dep1": "매장안내",
       "dep2": "매장찾기",
       "dep3": "",
