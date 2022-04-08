@@ -178,7 +178,7 @@
                     </div>
 
                     <div class="btn-area">
-                        <button type="button" data-href="#popup-confirm" class="btn s01 border-red btnPopOpen">다음 단계로</button>
+                        <button type="button" class="btn s01 border-red">다음 단계로</button>
                     </div>
 
                 </div>
@@ -390,7 +390,14 @@
                     <div class="result-area"><!-- active 클래스 추가 -->
                         <div class="info-step03">
                             <div class="info-txt-com">                                
-                                <a href="javascript:void(0);">&nbsp;</a>
+                                <a href="javascript:void(0);">
+                                    <span class="mo-tit">예약자 정보</span>
+                                    <span class="pc-tit">사업장(담당자) :</span>
+                                    <span class="txt">김베샵</span>
+
+                                    <span class="pc-tit">휴대폰번호 :</span>
+                                    <span class="txt">01012345678</span>
+                                </a>
                             </div>
                             <div class="info-txt-uncom active"><!-- active 클래스 추가 -->
                                 <p class="page-num">STEP03</p>
@@ -402,7 +409,7 @@
                     <div class="main-area">
                         
                         <div class="user-info-area">
-                            <h3 class="step-tit">담당자 정보</h3>
+                            <h3 class="step-tit">예약 신청</h3>
                             <div class="lt">
                                 <form action="">
                                     <div class="box-gray">
@@ -711,7 +718,6 @@
                     prevEl: ".img-slide .slide-navi .slideBtn.btn-prev"
                 },
 
-                autoHeight : true,
                 loop : true,
                 loopAdditionalSlides: 1,
             });
@@ -795,19 +801,22 @@
 
 
 <script>
-    var _winW = $(window).width();
+    var _winW = $(window).width(),
+        /* s: scroll effect */
+        minusTop = $('.info-step02').height(),
+        etcH = $('.step-top-note').height(),
+        baseTop = parseInt($('.step01').offset().top) + minusTop - etcH,
+        step2Top = baseTop + minusTop,
+        step3Top = step2Top + minusTop;
+        /* e: scroll effect */
 
     $('.step02 .main-area, .step03 .main-area').hide();
     $('.step02 .btn-area, .step03 .btn-area').hide();
     
-    /* 위치정보제공동의 팝업 추가 STEP01 > STEP02 */
-    $('#popup-confirm button').on('click', function(){
-        if(!$(this).hasClass('btnPopCancel')){ // '네' 누를경우
-            $('html').css('overflow', 'visible');
-
-            /* step01 effect */
-            $('.step01').addClass('open');
-            $('#popup-confirm, .dim').fadeOut(200); // 팝업 + dim 처리 히든
+    /* STEP01 > STEP02 */
+    $('.step01 .btn-area button').on('click', function(){
+        /* step01 effect */
+        $('.step01').addClass('open');
             $('.step01 .main-area, .step01 .btn-area').stop().slideUp(400); // 내용과 버튼영역 히든
             $('.step01 .info-txt-com').addClass('active'); // 요약정보 노출
             $('.step01').removeClass('border'); // border 삭제
@@ -817,7 +826,9 @@
             $('.step02 .main-area, .step02 .btn-area').stop().slideDown(400);
             $('.step02 .info-txt-uncom').slideUp(400);
             $('.step02').addClass('border');
-        }
+
+        /* scroll effect */
+        $('html, body').scrollTop(step2Top);
     });
 
     /* STEP02 > STEP03 */
@@ -825,12 +836,15 @@
         $('.step02 .main-area, .step02 .btn-area').stop().slideUp(400); // 내용과 버튼영역 히든
         $('.step02 .info-txt-com').addClass('active'); // 요약정보 노출
         $('.step02').removeClass('border');
+        $('.step03').addClass('border');
 
         /* step03 effect */
         $('.step03').addClass('open');
         $('.step03 .main-area').stop().slideDown(400);
         $('.step03 .info-txt-uncom').slideUp(400);
-        $('.step03').addClass('border').find('.info-txt-com').addClass('active');
+
+        /* scroll effect */
+        $('html, body').scrollTop(step3Top);
     });
 
     /* TOGGLE STEP */
@@ -848,6 +862,21 @@
         if($(this).closest('.step-area').hasClass('middle')){ // 위의 상황이 지나고 다시 펼칠때
             $('.step02 .btn-area').slideDown(400);
             $('.step02').removeClass('middle');
+        }
+
+        if($('.step03').hasClass('open')){
+            $('.step03 .info-txt-com').addClass('active');
+        }
+
+        /* scroll effect */
+        var _thdEl = $(this).closest('.step-area');
+
+        if(_thdEl.hasClass('step01')){
+            $('html, body').scrollTop(baseTop);
+        } else if(_thdEl.hasClass('step02')){
+            $('html, body').scrollTop(step2Top);
+        } else if(_thdEl.hasClass('step03')){
+            $('html, body').scrollTop(step3Top);
         }
     });
 

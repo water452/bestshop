@@ -80,7 +80,7 @@
 .cont-area {padding-top:8px}
 .cont-wrap.w100 {max-width:100%; padding:0}
 .step-area {position:relative; border-top:1px solid #ddd}
-.step-area .result-area .info-txt-com a:after {content:''; display:block; position:absolute; width:32px; height:32px; top:16px; right:0; background:url(../images/icons/icon-arrow-down-32.svg) no-repeat center right / contain; transition:all .4s; transform:rotate(0); z-index:-1}
+.step-area .result-area .info-txt-com a:after {content:''; display:block; position:absolute; width:32px; height:32px; top:calc(50% - 16px); right:0; background:url(../images/icons/icon-arrow-down-32.svg) no-repeat center right / contain; transition:all .4s; transform:rotate(0); z-index:-1}
 .step-area.border .result-area .info-txt-com a:after {transform:rotate(180deg);}
 .step-area.border::after {transform:rotate(180deg); transition:all .4s}
 .step-area .step-tit-area .page-num {display:none}
