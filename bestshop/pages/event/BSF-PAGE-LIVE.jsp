@@ -301,6 +301,16 @@
                         <!-- //live-list -->
                     </div>
                 </section>
+                <!-- 이벤트 없는 유형 -->
+                <section class="sec">
+                    <div class="sec-wrap no-event">
+                        <div class="img-wrap">
+                            <img class="m-hidden" src="../../images/img-live-banner-02.png" alt="&nbsp;" /><!-- pc용 -->
+                            <img class="pc-hidden" src="../../images/img-live-banner-01_mo.png" alt="&nbsp;" /><!-- mobile용 -->
+                        </div>
+                    </div>
+                </section>
+                <!-- // 이벤트 없는 유형 -->
             </div>
         </div>
     </div>

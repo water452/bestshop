@@ -493,6 +493,8 @@ ul.input-cate-type .cate-tit > .icon.apple-watch { background: url("../images/ic
 /* 혜택안내 > 멤버십 혜택 */
 .member-area { margin-bottom: -132px; }
 .sec-wrap { position: relative; margin: 0 auto; padding: 48px 40px 52px 40px; max-width: 1460px; }
+.sec-wrap.no-event { padding: 48px 0 0; }
+.sec-wrap.no-event .img-wrap img { display: block; width: 100%; }
 .tit-area-sec + * { margin-top: 48px; }
 .tit-area-sec { text-align: center; }
 .tit-area-sec .tit01 { display: inline-block; vertical-align: top; }
@@ -995,6 +997,7 @@ li[class*="blt"], li > [class*="blt"] { display: block; }
     /* 혜택안내 > 멤버십 혜택 */
     .member-area { margin-bottom: 0; }
     .sec-wrap { padding: 50px 0 0 0; }
+    .sec-wrap.no-event { padding: 40px 0 0; }
     .sec-wrap > .tit-area-sec + * { margin-top: 30px; }
     .banner-benefit { position: relative; left: -16px; width: calc(100% + 32px); }
     .banner-benefit .sec-wrap { padding: 35px 19px; height: 360px; }

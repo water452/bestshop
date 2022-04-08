@@ -82,6 +82,10 @@
                     </div>
                 </div>
                 <div class="notice-wrap">
+                    <div class="btn-area center full-size-block-m">
+                        <a href="javascript:void(0);" class="btn border"><span>가까운 베스트샵 매장 찾기</span></a>
+                        <a href="javascript:void(0);" class="btn border"><span>웨딩페어 방문 상담 예약</span></a>
+                    </div>
                     <dl class="bullet-list ty-box">
                         <dt class="b-tit">유의사항</dt>
                         <dd class="b-txt">본 이벤트는 LG전자 회원 및 멤버십 가입자 대상 이벤트로 LG전자 회원가입 및 로그인 후 참여하실 수 있습니다.</dd>
