@@ -417,6 +417,18 @@
                 </select>
             </div>
             <hr>
+            <div class="slt sltBox border-type disabled" data-txt-change="true">
+                <a href="javascript:void(0);" class="btn-slt" style="margin: 0;">선택</a>
+                <ul>
+                    <li><a href="javascript:void(0);">선택</a></li>
+                    <li><a href="javascript:void(0);">서울특별시</a></li>
+                </ul>
+                <select title="시/도 선택">
+                    <option selected>선택</option>
+                    <option>서울특별시</option>
+                </select>
+            </div>
+            <hr>
             <div class="slt sltBox" data-txt-change="true">
                 <a href="javascript:void(0);" class="btn-slt">진행중인 이벤트</a>
                 <ul>

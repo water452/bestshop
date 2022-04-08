@@ -226,8 +226,8 @@ ul.input-base-type .chkrdo-btn input:checked + label {border-width:2px; line-hei
 
 .shop-date-wrap .map-wrap {display:none; position:relative; padding:67px 19px 19px; border:1px solid #000; border-radius:8px}
 .shop-date-wrap .map-wrap.active {display:block}
-.sort-block + .popup.toast {position:absolute; top:auto}
-.sort-block + .popup.toast .pop-wrap {transform:translate(-50%, -50%);}
+.sort-block + .popup.toast {position:absolute; top:auto; bottom:39px; width:100%}
+.sort-block + .popup.toast .pop-wrap {margin:0 auto}
 .map-wrap > .input-select-type {position:absolute; top:19px; left:19px}
 .map-wrap ul[class*="input"] > li + li {margin-left:8px}
 .map-wrap .input-select-type .sltBox a + ul {max-height:508px; overflow-y:auto}
@@ -239,12 +239,18 @@ ul.input-base-type .chkrdo-btn input:checked + label {border-width:2px; line-hei
 .map-wrap .api-area .map-list-wrap .list-inner .mCSB_scrollTools .mCSB_draggerContainer {top:2px; bottom:2px}
 .map-wrap .api-area .map-list-wrap .list-inner .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {background:#ccc!important}
 .map-wrap .api-area .map-list-wrap .shop-list {width:100%; height:100%}
+.map-wrap .api-area .map-list-wrap .info-txt-wrap {display:none; position:absolute; top:0; bottom:0; left:0; right:40px}
+.map-wrap .api-area .map-list-wrap .info-txt {display:flex; justify-content:center; align-items:center; width:100%; height:100%}
+.map-wrap .api-area .map-list-wrap .info-txt > span {display:block; font-size:16px; font-weight:500; line-height:24px}
 .map-wrap .api-area .map-list-wrap .btn-view {position:absolute; width:40px; height:60px; right:0; top:180px; border-radius:0 8px 8px 0; background-color:#ccc; box-shadow:3px 0 6px 0 rgba(0,0,0,0.16)}
 .map-wrap .api-area .map-list-wrap .btn-view::after {content:''; display:block; position:absolute; left:0; right:0; top:0; bottom:0; background:url(../images/icons/icon-carousel-btn.svg) no-repeat center / 10px; transform:rotate(180deg)}
 .map-wrap .api-area .map-list-wrap.active .btn-view::after {transform:rotate(0)}
 .map-wrap .api-area .btn-area.innerMap {position:absolute; display:block; bottom:20px; right:20px; margin:0}
 .map-wrap .api-area .popup.toast {position:absolute}
 
+.map-circle {display:inline-block; min-width:78px; max-width:104px; min-height:78px; max-height:104px; padding:15px; border-radius:50%; background-color:#da0f47; color:#fff; text-align:center; box-shadow:0 3px 6px 0 rgba(0, 0, 0, 0.16); opacity:0.8}
+.map-circle span {display:block; font-size:14px; font-weight:500; line-height:20px}
+.map-circle strong {display:block; font-size:20px; font-weight:500; line-height:28px}
 
 .shop-date-wrap .list-wrap {display:none; border:1px solid #000; border-radius:8px; overflow:hidden}
 .shop-date-wrap .list-wrap.active {display:block}
@@ -1024,7 +1030,8 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .step-area .shop-date-wrap .sort-area button.view-list.active {background:url(../images/icons/icon-view-list-mo_on.svg) no-repeat 0 center / contain}
     
     .shop-date-wrap .map-wrap {padding:11px}
-    .sort-block + .popup.toast .pop-wrap {bottom:-5px; width:calc(100% - 38px); padding:19px 44px 19px 28px}
+    .sort-block + .popup.toast {bottom:21px}
+    .sort-block + .popup.toast .pop-wrap {width:calc(100% - 40px); padding:19px 44px 19px 28px}
     .sort-block + .popup.toast .pop-wrap .pop-cont {font-size:13px}
     .map-wrap > .input-select-type {position:static; margin-bottom:8px}
     .map-wrap .api-area {height:335px; margin-top:0}
@@ -1032,6 +1039,9 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .map-wrap .api-area .map-list-wrap.active {bottom:0; padding-top:32px}
     .map-wrap .api-area .map-list-wrap .list-inner {width:100%!important; height:100%; background-color:transparent; box-shadow:none}
     .map-wrap .api-area .map-list-wrap .shop-list {padding:0}
+    .map-wrap .api-area .map-list-wrap .info-txt-wrap {top:52px; right:0}
+    .map-wrap .api-area .map-list-wrap.active .info-txt-wrap {top:32px; right:0}
+    .map-wrap .api-area .map-list-wrap .info-txt > span {font-size:14px; line-height:20px}
     .map-wrap .api-area .map-list-wrap .btn-view {width:100%; height:18px; background:none; left:0; right:0; top:0; box-shadow:none}
     .map-wrap .api-area .map-list-wrap .btn-view::after {content:''; display:block; position:absolute; width:40px; height:5px; border-radius:5px; background-color:#ccc; background-image:none; top:9px; left:calc(50% - 20px)}
     .map-wrap .api-area .map-list-wrap .btn-view.mToggle {display:block; height:32px; font-size:12px; color:#666; background: #f4f4f4}
@@ -1039,6 +1049,10 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .map-wrap .api-area .map-list-wrap.active .btn-view.mToggle:after {transform:rotate(0)}
     .map-wrap .api-area .map-list-wrap .btn-view.mToggle span.pc-hidden {display:inline-block !important}
     .map-wrap .api-area .btn-area.innerMap {bottom:auto; top:12px; right:12px; z-index:12;}
+
+    .map-circle {min-width:46px; max-width:64px; min-height:46px; max-height:64px; padding:7px}
+    .map-circle span {font-size:10px; line-height:15px}
+    .map-circle strong {font-size:12px; line-height:17px}
 
     ul.shop-list li [class^="btn-"] {padding:8px 16px; font-size:14px; line-height:20px; text-align:center}
     ul.shop-list li [class^="btn-"].active::before {display:none}

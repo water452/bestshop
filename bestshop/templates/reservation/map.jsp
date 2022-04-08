@@ -125,10 +125,47 @@
                             <span class="blind m-hidden">매장목록</span>
                             <span class="pc-hidden">매장목록</span>
                         </button>
+
+                        <!-- 축척 3km 이상일 시 매장리스트 안내문구 -->
+                        <div class="info-txt-wrap">
+                            <div class="info-txt">
+                                <span>구/군별 매장리스트를 <br>확인하실 수 있습니다.</span>
+                            </div>
+                        </div>
+                        <!-- // 축척 3km 이상일 시 매장리스트 안내문구 -->
+
                     </div>
                     <div class="btn-area innerMap">
                         <a href="#popup-confirm" class="btn purple gps btnPopOpen">가까운 매장찾기</a>
                     </div>
+
+                    <!-- 축척 3km 이상일 시 매장리스트 맵 marker -->
+                    <div class="map-circle">
+                        <div class="txt-wrap">
+                            <span>중구</span>
+                            <strong>+3</strong>
+                        </div>
+                    </div>
+                    <div class="map-circle">
+                        <div class="txt-wrap">
+                            <span>강서구</span>
+                            <strong>+3</strong>
+                        </div>
+                    </div>
+                    <div class="map-circle">
+                        <div class="txt-wrap">
+                            <span>서대문구</span>
+                            <strong>+3</strong>
+                        </div>
+                    </div>
+                    <div class="map-circle">
+                        <div class="txt-wrap">
+                            <span>창원시 마산합포구</span>
+                            <strong>+3</strong>
+                        </div>
+                    </div>
+                    <!-- // 축척 3km 이상일 시 매장리스트 맵 marker -->
+
                 </div>
                 <!-- // api 영역 -->
             </div><!-- //.map-wrap -->
