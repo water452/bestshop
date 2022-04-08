@@ -290,14 +290,6 @@
                                                 <ul class="input-time">
                                                     <li>
                                                         <div class="radio-btn btn-type2">
-                                                            <input type="radio" id="am1030" name="time">
-                                                            <label for="am1030">
-                                                                <span class="name">10:30</span>
-                                                            </label>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div class="radio-btn btn-type2">
                                                             <input type="radio" id="am11" name="time">
                                                             <label for="am11">
                                                                 <span class="name">11:00</span>
@@ -410,7 +402,7 @@
                     <div class="main-area">
                         
                         <div class="user-info-area">
-                            <h3 class="step-tit">담당자 정보<span>담당자 정보를 입력해주세요.</span></h3>
+                            <h3 class="step-tit">담당자 정보</h3>
                             <div class="lt">
                                 <form action="">
                                     <div class="box-gray">
@@ -423,7 +415,7 @@
                                                 </div>
                                                 <div class="txt-box">
                                                     <div class="input-wrap">
-                                                        <input class="base-txt" type="text" id="user-name" placeholder="이름을 입력해주세요.">
+                                                        <input class="base-txt" type="text" id="user-name" placeholder="사업장(담당자)명을 입력해주세요.">
                                                     </div>
                                                     <div class="btm-more err-block" style="display: block;">
                                                         <p class="err-msg">정보를 입력해주세요.</p>

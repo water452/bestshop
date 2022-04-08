@@ -142,7 +142,7 @@ table{border-collapse:collapse}
 .search-box input:valid + .btn-clear{display:block}
 
 /* select */
-.slt.border-type.disabled > a{background-color:#f4f4f4;color:#aaa}
+.slt.border-type.disabled > a{background-color:#f4f4f4;color:#aaa;cursor:default;}
 .slt.border-type{position:relative;width:200px}
 .slt.border-type > a{display:block;width:100%;padding:10px 40px 10px 15px;border:1px solid #ddd;border-radius:8px;background-color:#fff;font-size:16px;line-height:26px;text-overflow:ellipsis;overflow:hidden}
 .slt.border-type.on > a{border-radius:8px 8px 0 0;border-color:#222;border-bottom-color:transparent}
