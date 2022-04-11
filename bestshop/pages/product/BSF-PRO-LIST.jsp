@@ -320,6 +320,12 @@
                                         </div>
                                     </div>
 
+                                    <!-- .no-data -->
+                                    <div class="no-data">
+                                        <p>설정 가능한 필터가 없습니다.</p>
+                                    </div>
+                                    <!-- // .no-data -->
+
                                     <div class="btn-area">
                                         <button type="button" class="btn-reset"><span>초기화</span></button>
                                     </div>
