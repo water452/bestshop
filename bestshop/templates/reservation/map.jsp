@@ -160,6 +160,12 @@
                     </div>
                     <div class="map-circle">
                         <div class="txt-wrap">
+                            <span>서울특별시</span>
+                            <strong>+3</strong>
+                        </div>
+                    </div>
+                    <div class="map-circle">
+                        <div class="txt-wrap">
                             <span>창원시 마산합포구</span>
                             <strong>+3</strong>
                         </div>
