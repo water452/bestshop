@@ -26,7 +26,7 @@
 .sitemap .inner > ul .category-cluster .level-3 a {color:#000; font-size:16px; font-weight:normal; line-height:24px; vertical-align:top}
 .sitemap .inner > ul .category-cluster .level-3 li + li {margin-top:12px}
 .sitemap .inner > ul .category-cluster .category-depth.level-2 a[target="_blank"] {position:relative; padding-right:20px}
-.sitemap .inner > ul .category-cluster .category-depth.level-2 a[target="_blank"]::after {content:''; display:block; position:absolute; top:0; right:0; bottom:0; width:16px; margin-left:5px; background:url(../images/icons/icon-outlink-16.svg) no-repeat center / contain}
+.sitemap .inner > ul .category-cluster .category-depth.level-2 a[target="_blank"]::after {content:''; display:block; position:absolute; top:0; right:0; bottom:0; width:16px; margin-left:5px; background-image:url(../images/icons/icon-outlink-16.svg); background-repeat:no-repeat; background-position:center; background-size:contain}
 .sitemap .inner > ul .category-cluster .category-depth {padding-right:12px}
 
 /* 매장상담예약 상단 공통 영역 */
@@ -59,7 +59,7 @@
 .res-main .guide-area.bg [class*="guide-banner"] .swiper-slide {width:calc((100% - 100px) / 4)}
 .res-main .guide-area.bg [class*="guide-banner"] .swiper-slide + .swiper-slide {margin-left:32px}
 .res-main .guide-area.bg [class*="guide-banner"] .box {position:relative; width:100%; padding:23px 0 28px; box-sizing:border-box; border:3px solid #ca9bd8; border-radius:16px; background-color:#fff}
-.res-main .guide-area.bg [class*="guide-banner"] .box::before {content:''; display:block; position:absolute; width:32.5px; height:20px; top:calc(50% - 10px); left:-35.5px; background:url(../images/icons/icon-arr-11-white.svg) no-repeat center}
+.res-main .guide-area.bg [class*="guide-banner"] .box::before {content:''; display:block; position:absolute; width:32.5px; height:20px; top:calc(50% - 10px); left:-35.5px; background-image:url(../images/icons/icon-arr-11-white.svg); background-repeat:no-repeat; background-position:center}
 .res-main .guide-area.bg [class*="guide-banner"] .box .icon-wrap {display:block; width:140px; height:140px; margin:0 auto}
 .res-main .guide-area.bg [class*="guide-banner"] .swiper-scrollbar {left:40px; background-color:rgba(255,255,255,0.3)}
 .res-main .guide-area.bg [class*="guide-banner"] .swiper-scrollbar .swiper-scrollbar-drag {background-color:rgba(255,255,255,0.6)}
@@ -73,14 +73,14 @@
 .res-main .add-area .banner-indi-wrap .swiper-pagination {position:static; height:46px; border-radius:46px; background-color:rgba(0,0,0,0.3); color:#fff; font-size:16px; font-weight:300; line-height:46px}
 .res-main .add-area .banner-indi-wrap .swiper-pagination .swiper-pagination-current {margin-right:6px; font-weight:normal}
 .res-main .add-area .banner-indi-wrap .swiper-pagination .swiper-pagination-total {margin-left:6px}
-.res-main .add-area .banner-indi-wrap .btn-play {width:46px; height:46px; background:url(../images/icons/btn_pause.svg) no-repeat center / contain}
-.res-main .add-area .banner-indi-wrap .btn-play.pause {background:url(../images/icons/btn_start.svg) no-repeat center / contain}
+.res-main .add-area .banner-indi-wrap .btn-play {width:46px; height:46px; background-image:url(../images/icons/btn_pause.svg); background-repeat:no-repeat; background-position:center; background-size:contain}
+.res-main .add-area .banner-indi-wrap .btn-play.pause {background-image:url(../images/icons/btn_start.svg); background-repeat:no-repeat; background-position:center; background-size:contain}
 
 /* 매장상담예약 컨텐츠 영역 */
 .cont-area {padding-top:8px}
 .cont-wrap.w100 {max-width:100%; padding:0}
 .step-area {position:relative; border-top:1px solid #ddd}
-.step-area .result-area .info-txt-com a:after {content:''; display:block; position:absolute; width:32px; height:32px; top:calc(50% - 16px); right:0; background:url(../images/icons/icon-arrow-down-32.svg) no-repeat center right / contain; transition:all .4s; transform:rotate(0); z-index:-1}
+.step-area .result-area .info-txt-com a:after {content:''; display:block; position:absolute; width:32px; height:32px; top:calc(50% - 16px); right:0; background-image:url(../images/icons/icon-arrow-down-32.svg); background-repeat:no-repeat; background-position:center right; background-size:contain; transition:all .4s; transform:rotate(0); z-index:-1}
 .step-area.border .result-area .info-txt-com a:after {transform:rotate(180deg);}
 .step-area.border::after {transform:rotate(180deg); transition:all .4s}
 .step-area .step-tit-area .page-num {display:none}
@@ -116,11 +116,17 @@
 
 .care-ex.onepage .step-tit-area .page-num {display:block}
 
+.onepage ul.input-cate-type {display:block}
+.onepage ul.input-cate-type > li {padding:11px 0}
+.onepage ul.input-cate-type .cate-tit {min-width:143px}
+.onepage ul.input-cate-type > li {width:100%; justify-content:flex-start; background:none}
+.onepage ul.input-cate-type .cate-items {width:100%; max-width:calc(100% - 143px)}
+.onepage ul.input-cate-type .cate-items > li {min-width:calc(100% / 6)}
 
 /* swiper button */
 .banner-btns {position:absolute; width:100%; height:40px; left:50%; transform:translate(-50%,-50%); z-index:10}
 .banner-btns [class^="swiper-button"] {width:40px; height:40px; top:0; margin-top:0; border-radius:50%; background-color:#fff; box-shadow:2px 2px 6px 0 rgba(0, 0, 0, 0.16); font-size:0}
-.banner-btns [class^="swiper-button"]::after {width:100%; height:100%; font-size:0; background:url(../images/icons/icon-carousel-btn.svg) no-repeat center}
+.banner-btns [class^="swiper-button"]::after {width:100%; height:100%; font-size:0; background-image:url(../images/icons/icon-carousel-btn.svg); background-repeat:no-repeat; background-position:center}
 .banner-btns .swiper-button-prev {left:20px}
 .banner-btns .swiper-button-next {right:20px}
 .banner-btns .swiper-button-next::after {transform:rotate(180deg)}
@@ -133,35 +139,35 @@ ul.input-icon-type > li .icon-btn {width:100%}
 .icon-btn label {display:flex; justify-content:center; align-items:center; width:100%; height:80px; border:1px solid #ddd; border-radius:48px; font-size:18px; font-weight:500; line-height:26px; cursor:pointer}
 .icon-btn input {position:absolute!important; margin:-1px!important; padding:0!important; width:1px!important; height:1px!important; overflow:hidden!important; clip-path:polygon(0 0, 0 0, 0 0)!important}
 .icon-btn input:checked + label {border:2px solid #da0f47; color:#da0f47}
-.icon-btn .icon {display:block; width:48px; height:48px; margin-right:8px}
-.icon-btn .icon.buying {background:url(../images/icons/icon-buying.svg) no-repeat center}
-.icon-btn .icon.wedding {background:url(../images/icons/icon-wedding.svg) no-repeat center}
-.icon-btn .icon.move {background:url(../images/icons/icon-move.svg) no-repeat center}
-.icon-btn .icon.interior {background:url(../images/icons/icon-interior.svg) no-repeat center}
-.icon-btn .icon.broken {background:url(../images/icons/icon-broken.svg) no-repeat center}
-.icon-btn .icon.etc {background:url(../images/icons/icon-etc.svg) no-repeat center}
-.icon-btn .icon.equip {background:url(../images/icons/icon-equip.svg) no-repeat center}
-.icon-btn .icon.gift {background:url(../images/icons/icon-gift.svg) no-repeat center}
-.icon-btn input:checked + label .icon.buying {background:url(../images/icons/icon-buying_on.svg) no-repeat center}
-.icon-btn input:checked + label .icon.wedding {background:url(../images/icons/icon-wedding_on.svg) no-repeat center}
-.icon-btn input:checked + label .icon.move {background:url(../images/icons/icon-move_on.svg) no-repeat center}
-.icon-btn input:checked + label .icon.interior {background:url(../images/icons/icon-interior_on.svg) no-repeat center}
-.icon-btn input:checked + label .icon.broken {background:url(../images/icons/icon-broken_on.svg) no-repeat center}
-.icon-btn input:checked + label .icon.etc {background:url(../images/icons/icon-etc_on.svg) no-repeat center}
-.icon-btn input:checked + label .icon.equip {background:url(../images/icons/icon-equip_on.svg) no-repeat center}
-.icon-btn input:checked + label .icon.gift {background:url(../images/icons/icon-gift_on.svg) no-repeat center}
+.icon-btn .icon {display:block; width:48px; height:48px; margin-right:8px; background-repeat:no-repeat; background-position:center; background-size:contain}
+.icon-btn .icon.buying {background-image:url(../images/icons/icon-buying.svg)}
+.icon-btn .icon.wedding {background-image:url(../images/icons/icon-wedding.svg)}
+.icon-btn .icon.move {background-image:url(../images/icons/icon-move.svg)}
+.icon-btn .icon.interior {background-image:url(../images/icons/icon-interior.svg)}
+.icon-btn .icon.broken {background-image:url(../images/icons/icon-broken.svg)}
+.icon-btn .icon.etc {background-image:url(../images/icons/icon-etc.svg)}
+.icon-btn .icon.equip {background-image:url(../images/icons/icon-equip.svg)}
+.icon-btn .icon.gift {background-image:url(../images/icons/icon-gift.svg)}
+.icon-btn input:checked + label .icon.buying {background-image:url(../images/icons/icon-buying_on.svg)}
+.icon-btn input:checked + label .icon.wedding {background-image:url(../images/icons/icon-wedding_on.svg)}
+.icon-btn input:checked + label .icon.move {background-image:url(../images/icons/icon-move_on.svg)}
+.icon-btn input:checked + label .icon.interior {background-image:url(../images/icons/icon-interior_on.svg)}
+.icon-btn input:checked + label .icon.broken {background-image:url(../images/icons/icon-broken_on.svg)}
+.icon-btn input:checked + label .icon.etc {background-image:url(../images/icons/icon-etc_on.svg)}
+.icon-btn input:checked + label .icon.equip {background-image:url(../images/icons/icon-equip_on.svg)}
+.icon-btn input:checked + label .icon.gift {background-image:url(../images/icons/icon-gift_on.svg)}
 
 /* 제품선택 - 카테고리형 */
 ul.input-cate-type {display:flex; flex-wrap:wrap; justify-content:space-between; margin-top:-12px}
 ul.input-cate-type > li {display:flex; flex-wrap:wrap; justify-content:space-between; align-items:flex-start; width:calc(50% - 6px); margin-top:12px; padding:11px 19px 11px 18px; border-radius:8px; background-color:#fcfcfc}
 ul.input-cate-type .cate-tit {display:flex; align-items:center; max-width:148px; padding:5px 0; font-size:16px; font-weight:500; line-height:24px; word-break:keep-all}
-ul.input-cate-type .cate-tit > .icon {display:block; width:48px; height:48px; margin-right:6px}
-ul.input-cate-type .cate-tit > .icon.tv-audio {background:url(../images/icons/icon-tv.svg) no-repeat center / contain}
-ul.input-cate-type .cate-tit > .icon.pc {background:url(../images/icons/icon-desktop.svg) no-repeat center / contain}
-ul.input-cate-type .cate-tit > .icon.kitchens {background:url(../images/icons/icon-refrigerator.svg) no-repeat center / contain}
-ul.input-cate-type .cate-tit > .icon.house {background:url(../images/icons/icon-washing-machine.svg) no-repeat center / contain}
-ul.input-cate-type .cate-tit > .icon.mobile {background:url(../images/icons/icon-mobile.svg) no-repeat center / contain}
-ul.input-cate-type .cate-tit > .icon.beauty {background:url(../images/icons/icon-pra_l.svg) no-repeat center / contain}
+ul.input-cate-type .cate-tit > .icon {display:block; width:48px; height:48px; margin-right:6px; background-repeat:no-repeat; background-position:center; background-size:contain}
+ul.input-cate-type .cate-tit > .icon.tv-audio {background-image:url(../images/icons/icon-tv.svg)}
+ul.input-cate-type .cate-tit > .icon.pc {background-image:url(../images/icons/icon-desktop.svg)}
+ul.input-cate-type .cate-tit > .icon.kitchens {background-image:url(../images/icons/icon-refrigerator.svg)}
+ul.input-cate-type .cate-tit > .icon.house {background-image:url(../images/icons/icon-washing-machine.svg)}
+ul.input-cate-type .cate-tit > .icon.mobile {background-image:url(../images/icons/icon-mobile.svg)}
+ul.input-cate-type .cate-tit > .icon.beauty {background-image:url(../images/icons/icon-pra_l.svg)}
 ul.input-cate-type .cate-items {display:flex; flex-wrap:wrap; width:calc(100% - 148px); max-width:498px}
 ul.input-cate-type .cate-items > li {min-width:calc(100% / 3); padding:5px}
 ul.input-cate-type .cate-items > li .chkrdo-btn {width:100%}
@@ -219,10 +225,10 @@ ul.input-base-type .chkrdo-btn input:checked + label {border-width:2px; line-hei
 .step-area .shop-date-wrap .sort-area button + button {position:relative; margin-left:25px}
 .step-area .shop-date-wrap .sort-area button + button::before {content:''; display:block; position:absolute; width:1px; height:14px; top:calc(50% - 7px); left:-16px; background-color:#ddd}
 .step-area .shop-date-wrap .sort-area button.active {color:#000}
-.step-area .shop-date-wrap .sort-area button.view-map {background:url(../images/icons/icon-view-map.svg) no-repeat 0 center}
-.step-area .shop-date-wrap .sort-area button.view-map.active {background:url(../images/icons/icon-view-map_on.svg) no-repeat 0 center}
-.step-area .shop-date-wrap .sort-area button.view-list {background:url(../images/icons/icon-view-list.svg) no-repeat 0 center}
-.step-area .shop-date-wrap .sort-area button.view-list.active {background:url(../images/icons/icon-view-list_on.svg) no-repeat 0 center}
+.step-area .shop-date-wrap .sort-area button.view-map {background-image:url(../images/icons/icon-view-map.svg); background-repeat:no-repeat; background-position:0 center}
+.step-area .shop-date-wrap .sort-area button.view-map.active {background-image:url(../images/icons/icon-view-map_on.svg); background-repeat:no-repeat; background-position:0 center}
+.step-area .shop-date-wrap .sort-area button.view-list {background-image:url(../images/icons/icon-view-list.svg); background-repeat:no-repeat; background-position:0 center}
+.step-area .shop-date-wrap .sort-area button.view-list.active {background-image:url(../images/icons/icon-view-list_on.svg); background-repeat:no-repeat; background-position:0 center}
 
 .shop-date-wrap .map-wrap {display:none; position:relative; padding:67px 19px 19px; border:1px solid #000; border-radius:8px}
 .shop-date-wrap .map-wrap.active {display:block}
@@ -243,7 +249,7 @@ ul.input-base-type .chkrdo-btn input:checked + label {border-width:2px; line-hei
 .map-wrap .api-area .map-list-wrap .info-txt {display:flex; justify-content:center; align-items:center; width:100%; height:100%}
 .map-wrap .api-area .map-list-wrap .info-txt > span {display:block; font-size:16px; font-weight:500; line-height:24px}
 .map-wrap .api-area .map-list-wrap .btn-view {position:absolute; width:40px; height:60px; right:0; top:180px; border-radius:0 8px 8px 0; background-color:#ccc; box-shadow:3px 0 6px 0 rgba(0,0,0,0.16)}
-.map-wrap .api-area .map-list-wrap .btn-view::after {content:''; display:block; position:absolute; left:0; right:0; top:0; bottom:0; background:url(../images/icons/icon-carousel-btn.svg) no-repeat center / 10px; transform:rotate(180deg)}
+.map-wrap .api-area .map-list-wrap .btn-view::after {content:''; display:block; position:absolute; left:0; right:0; top:0; bottom:0; background-image:url(../images/icons/icon-carousel-btn.svg); background-repeat:no-repeat; background-position:center; background-size:10px; transform:rotate(180deg)}
 .map-wrap .api-area .map-list-wrap.active .btn-view::after {transform:rotate(0)}
 .map-wrap .api-area .btn-area.innerMap {position:absolute; display:block; bottom:20px; right:20px; margin:0}
 .map-wrap .api-area .popup.toast {position:absolute}
@@ -358,7 +364,7 @@ ul.input-acco-type .check-box input {height:0}
 ul.input-acco-type .check-box label {padding-right:16px; font-size:16px; line-height:24px}
 ul.input-acco-type .check-box label .name > em {margin-right:2px}
 ul.input-acco-type .check-box label .name > em.red {color:#da0f47}
-ul.input-acco-type .check-box button.agr-more {display:none;position:absolute; width:24px; height:24px; top:1px; right:0; background:url(../images/icons/btn-plus-48.svg) no-repeat center / contain}
+ul.input-acco-type .check-box button.agr-more {display:none;position:absolute; width:24px; height:24px; top:1px; right:0; background-image:url(../images/icons/btn-plus-48.svg); background-repeat:no-repeat; background-position:center; background-size:contain}
 ul.input-acco-type .check-box button.agr-more.active {background:url(../images/icons/btn-minus-48.svg) no-repeat center / contain}
 ul.input-acco-type .check-box .agr-txt-wrap {display:none; width:100%; height:90px; margin-top:10px; padding:16px 0 16px 16px; border:1px solid #ddd; border-radius:8px; font-size:12px; line-height:18px; overflow:hidden}
 ul.input-acco-type .check-box .agr-txt-wrap .inner {height:100%; overflow-y:auto}
@@ -433,14 +439,14 @@ ul.input-acco-type .check-box .agr-txt-wrap .inner > ul > li > p {padding-left:1
 .add-area .img-slide-wrap .img-slide .img-wrap {width:100%; height:auto; padding-bottom:23.18%}
 .add-area .img-slide-wrap .img-slide .img-wrap img {width:100%}
 .res-main .slide-navi .slide-navi-detail {padding:0 24px}
-.res-main .guide-area .guide-banner-visit .box .icon-wrap .icon01 {background:url(../images/icons/icon-res-guide-visit-01.svg) no-repeat center / contain}
-.res-main .guide-area .guide-banner-visit .box .icon-wrap .icon02 {background:url(../images/icons/icon-res-guide-visit-02.svg) no-repeat center / contain}
-.res-main .guide-area .guide-banner-visit .box .icon-wrap .icon03 {background:url(../images/icons/icon-res-guide-visit-03.svg) no-repeat center / contain}
+.res-main .guide-area .guide-banner-visit .box .icon-wrap .icon01 {background-image:url(../images/icons/icon-res-guide-visit-01.svg); background-repeat:no-repeat; background-position:center; background-size:contain}
+.res-main .guide-area .guide-banner-visit .box .icon-wrap .icon02 {background-image:url(../images/icons/icon-res-guide-visit-02.svg); background-repeat:no-repeat; background-position:center; background-size:contain}
+.res-main .guide-area .guide-banner-visit .box .icon-wrap .icon03 {background-image:url(../images/icons/icon-res-guide-visit-03.svg); background-repeat:no-repeat; background-position:center; background-size:contain}
 
 /* 화상상담예약페이지 */
-.res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon01 {background:url(../images/icons/icon-res-guide-visit-01.svg) no-repeat center / contain}
-.res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon02 {background:url(../images/icons/icon-res-guide-visit-02.svg) no-repeat center / contain}
-.res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon03 {background:url(../images/icons/icon-res-guide-visit-03.svg) no-repeat center / contain}
+.res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon01 {background-image:url(../images/icons/icon-res-guide-visit-01.svg); background-repeat:no-repeat; background-position:center; background-size:contain}
+.res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon02 {background-image:url(../images/icons/icon-res-guide-visit-02.svg); background-repeat:no-repeat; background-position:center; background-size:contain}
+.res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon03 {background-image:url(../images/icons/icon-res-guide-visit-03.svg); background-repeat:no-repeat; background-position:center; background-size:contain}
 .res-main .top-wrap .guide-area .guide-info-list {max-width:1460px; margin:0 auto}
 .res-main .top-wrap .guide-area .guide-info-list .inner {padding:0 40px 30px}
 .res-main .top-wrap .guide-area .guide-info-list .bull > li {font-weight:normal}
@@ -470,10 +476,10 @@ ul.input-acco-type .check-box .agr-txt-wrap .inner > ul > li > p {padding-left:1
 .res-main .sticky-info-wrap .inner {position:relative; max-width:1460px; margin:0 auto; padding:25px 40px}
 .res-main .sticky-info-wrap .info-txt {color:#fff; font-size:16px; font-weight:500; line-height:24px}
 .res-main .sticky-info-wrap .info-txt > .cate-name {position:relative; padding-right:61px}
-.res-main .sticky-info-wrap .info-txt > .cate-name::after {content:''; display:block; position:absolute; width:16px; height:16px; top:calc(50% - 8px); right:22px; background:url(../images/icons/btn-arrow-right-16-white.svg) no-repeat center / contain}
+.res-main .sticky-info-wrap .info-txt > .cate-name::after {content:''; display:block; position:absolute; width:16px; height:16px; top:calc(50% - 8px); right:22px; background-image:url(../images/icons/btn-arrow-right-16-white.svg); background-repeat:no-repeat; background-position:center; background-size:contain}
 .res-main .sticky-info-wrap .info-txt > .cate-name:last-child {padding-right:0}
 .res-main .sticky-info-wrap .info-txt > .cate-name:last-child::after {display:none}
-.res-main .sticky-info-wrap .btn-reselect {position:absolute; display:block; right:40px; top:calc(50% - 20px); width:90px; padding:0 14px 0 35px; border:1px solid #fff; border-radius:34px; background:url(../images/icons/icon-reset-white.svg) no-repeat 13px center / 20px; color:#fff; font-size:14px; line-height:38px}
+.res-main .sticky-info-wrap .btn-reselect {position:absolute; display:block; right:40px; top:calc(50% - 20px); width:90px; padding:0 14px 0 35px; border:1px solid #fff; border-radius:34px; background-image:url(../images/icons/icon-reset-white.svg); background-repeat:no-repeat; background-position:13px center; background-size:20px; color:#fff; font-size:14px; line-height:38px}
 
 .res-main.care .cont-wrap .cont-area {padding-top:0}
 .res-main.care .cont-wrap .cont-area .step-area {margin-top:40px; border:0}
@@ -548,7 +554,7 @@ ul.prd-list > li .box .info-wrap .opt-info .slt a {width:100%; padding:9px 43px 
 ul.prd-list > li .box .info-wrap .opt-info .slt .active{display:none;}
 ul.prd-list > li .box .info-wrap .opt-info .slt ul {top:40px}
 ul.prd-list > li .box .info-wrap .opt-info .slt.disabled a {border-color:#ededed; background-color:#ededed; color:#767676}
-ul.prd-list > li .box .info-wrap .opt-info .slt.disabled a::before {background:url(../images/icons/icon-arr-down-16-gray.svg) no-repeat center / contain}
+ul.prd-list > li .box .info-wrap .opt-info .slt.disabled a::before {background-image:url(../images/icons/icon-arr-down-16-gray.svg); background-repeat:no-repeat; background-position:center; background-size:contain}
 ul.prd-list > li .box .price-wrap {margin-top:30px}
 ul.prd-list > li .box .price-wrap dl {display:flex; justify-content:space-between; align-items:center}
 ul.prd-list > li .box .price-wrap dl dt {color:#767676; font-size:14px; line-height:20px}
@@ -556,10 +562,10 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 .res-main.care .prd-list-area .btn-area {display:block!important; margin:20px auto 0!important}
 
 /* 소모품구매예약페이지 */
-.res-main .guide-area .guide-process .guide-banner-care-ex .box .icon-wrap .icon01 {background:url(../images/icons/icon-res-guide-ex-01.svg) no-repeat center / contain}
-.res-main .guide-area .guide-process .guide-banner-care-ex .box .icon-wrap .icon02 {background:url(../images/icons/icon-res-guide-ex-02.svg) no-repeat center / contain}
-.res-main .guide-area .guide-process .guide-banner-care-ex .box .icon-wrap .icon03 {background:url(../images/icons/icon-res-guide-ex-03.svg) no-repeat center / contain}
-.res-main .guide-area .guide-process .guide-banner-care-ex .box .icon-wrap .icon04 {background:url(../images/icons/icon-res-guide-ex-04.svg) no-repeat center / contain}
+.res-main .guide-area .guide-process .guide-banner-care-ex .box .icon-wrap .icon01 {background-image:url(../images/icons/icon-res-guide-ex-01.svg); background-repeat:no-repeat; background-position:center; background-size:contain}
+.res-main .guide-area .guide-process .guide-banner-care-ex .box .icon-wrap .icon02 {background-image:url(../images/icons/icon-res-guide-ex-02.svg); background-repeat:no-repeat; background-position:center; background-size:contain}
+.res-main .guide-area .guide-process .guide-banner-care-ex .box .icon-wrap .icon03 {background-image:url(../images/icons/icon-res-guide-ex-03.svg); background-repeat:no-repeat; background-position:center; background-size:contain}
+.res-main .guide-area .guide-process .guide-banner-care-ex .box .icon-wrap .icon04 {background-image:url(../images/icons/icon-res-guide-ex-04.svg); background-repeat:no-repeat; background-position:center; background-size:contain}
 .res-main .top-wrap .guide-area .guide-bottom {background-color:rgba(255,255,255,0.3)}
 .res-main .top-wrap .guide-area .guide-bottom .inner {max-width:1460px; margin:0 auto; padding:0 40px}
 .res-main.care-ex .top-wrap .guide-area .guide-bottom dl {display:flex; flex-wrap:wrap; padding:34px 0; font-size:18px; line-height:26px}
@@ -585,14 +591,14 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 .plp-list-wrap .lay-filter .plp-filter-wrap .box .tit .sel-num {margin-left:2px}
 .plp-list-wrap .lay-filter .plp-filter-wrap .box .list-wrap {padding-bottom:28px}
 .plp-list-wrap .lay-filter .plp-filter-wrap .box .tit-wrap a {position:relative; display:block}
-.plp-list-wrap .lay-filter .plp-filter-wrap .box .tit-wrap a::after {content:''; display:block; position:absolute; width:16px; height:16px; right:0; top:35px; background:url(../images/icons/icon-arr-footer-16.svg) no-repeat center / contain; transform:rotate(0); transition:all .3s}
+.plp-list-wrap .lay-filter .plp-filter-wrap .box .tit-wrap a::after {content:''; display:block; position:absolute; width:16px; height:16px; right:0; top:35px; background-image:url(../images/icons/icon-arr-footer-16.svg); background-repeat:no-repeat; background-position:center; background-size:contain; transform:rotate(0); transition:all .3s}
 .plp-list-wrap .lay-filter .plp-filter-wrap .box.active .tit-wrap a::after {transform:rotate(180deg)}
 .plp-list-wrap .lay-filter .plp-filter-wrap .box .filter-list > li + li {margin-top:16px}
 .plp-list-wrap .lay-filter .plp-filter-wrap .box .filter-list .check-box input + label {font-size:14px; line-height:24px}
 .plp-list-wrap .lay-filter .plp-filter-wrap .filter-close {display:none}
 .plp-list-wrap .lay-filter .plp-filter-wrap .btn-area {margin-top:27px; text-align:right}
 .plp-list-wrap .lay-filter .plp-filter-wrap .btn-area .btn-reset {position:relative; padding-right:24px; font-size:14px; line-height:20px}
-.plp-list-wrap .lay-filter .plp-filter-wrap .btn-area .btn-reset::after {content:''; display:block; position:absolute; width:20px; height:20px; top:calc(50% - 10px); right:0; background:url(../images/icons/icon-reset.svg) no-repeat center / contain}
+.plp-list-wrap .lay-filter .plp-filter-wrap .btn-area .btn-reset::after {content:''; display:block; position:absolute; width:20px; height:20px; top:calc(50% - 10px); right:0; background-image:url(../images/icons/icon-reset.svg); background-repeat:no-repeat; background-position:center; background-size:contain}
 
 .plp-list-wrap .pdt-list-area {float:left; width:calc(100% - 240px)}
 .pdt-list-area .list-info {display:flex; justify-content:space-between; align-items:center; margin-bottom:14px}
@@ -610,7 +616,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 .pdt-list-area .pdt-list > li .box .info-wrap {margin-top:10px}
 .pdt-list-area .pdt-list > li .box .info-wrap .price {font-size:20px; font-weight:bold; line-height:28px}
 .pdt-list-area .pdt-list > li .box .info-wrap .btn-info-pop {position:relative; display:inline-block; margin-top:10px; padding-right:16px; font-size:14px; line-height:20px; text-decoration:underline}
-.pdt-list-area .pdt-list > li .box .info-wrap .btn-info-pop::after {content:''; display:block; position:absolute; width:16px; height:16px; top:calc(50% - 8px); right:0; background:url(../images/icons/btn-arr-16-black-sm.svg) no-repeat center / 14px 14px}
+.pdt-list-area .pdt-list > li .box .info-wrap .btn-info-pop::after {content:''; display:block; position:absolute; width:16px; height:16px; top:calc(50% - 8px); right:0; background-image:url(../images/icons/btn-arr-16-black-sm.svg); background-repeat:no-repeat; background-position:center; background-size:14px 14px}
 .pdt-list-area .pdt-list > li .box .info-wrap .pdt-spec li {font-size:14px; line-height:20px}
 .pdt-list-area .pdt-list > li .box .btn-area {position:absolute; left:48px; right:48px; bottom:60px}
 .pdt-list-area .pdt-list > li .box .btn-area .btn-select {width:100%; padding:9px 30px; font-size:14px; line-height:20px}
@@ -628,7 +634,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 .pdt-list-area .pdt-list > li .box .info-popup .body-area .list-inner .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {background:#ccc!important}
 .pdt-list-area .pdt-list > li .box .info-popup .body-area .model-list {display:flex; flex-wrap:wrap}
 .pdt-list-area .pdt-list > li .box .info-popup .body-area .model-list > li {width:50%; padding:6px 10px; font-size:14px; line-height:20px}
-.pdt-list-area .pdt-list > li .box .info-popup .btn-close {position:absolute; width:24px; height:24px; top:27px; right:26px; background:url(../images/icons/btn-close-24-black.svg) no-repeat center / contain}
+.pdt-list-area .pdt-list > li .box .info-popup .btn-close {position:absolute; width:24px; height:24px; top:27px; right:26px; background-image:url(../images/icons/btn-close-24-black.svg); background-repeat:no-repeat; background-position:center; background-size:contain}
 .pdt-list-area .list-wrap .pdt-list + .btn-area {display:block!important; margin:25px auto 0!important}
 
 .bottom-cart-wrap {position:fixed; bottom:0; left:0; right:0; background-color:#fff; box-shadow:0 -3px 6px 0 rgba(0, 0, 0, 0.16); z-index:9}
@@ -636,7 +642,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 .bottom-cart-wrap .bar-wrap.care-ex .head-area {position:relative; padding:37px 0 30px}
 .bottom-cart-wrap .bar-wrap.care-ex .head-area .head-txt {font-size:18px; font-weight:bold; line-height:26px}
 .bottom-cart-wrap .bar-wrap.care-ex .head-area .head-txt > span {margin-left:5px}
-.bottom-cart-wrap .bar-wrap.care-ex .head-area .view-more {position:absolute; width:40px; height:40px; top:calc(50% - 20px); right:0; background:url(../images/icons/icon-arrow-down-24x24.svg) no-repeat center / 24px 24px; transform:rotate(180deg)}
+.bottom-cart-wrap .bar-wrap.care-ex .head-area .view-more {position:absolute; width:40px; height:40px; top:calc(50% - 20px); right:0; background-image:url(../images/icons/icon-arrow-down-24x24.svg); background-repeat:no-repeat; background-position:center; background-size:24px 24px; transform:rotate(180deg)}
 .bottom-cart-wrap.active .bar-wrap.care-ex .head-area .view-more {transform:rotate(0)}
 .bottom-cart-wrap .bar-wrap.care-ex .body-area,
 .bottom-cart-wrap .bar-wrap.care-ex .foot-area {display:none}
@@ -651,12 +657,12 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select .box .txt-wrap .price {margin-top:12px; font-size:16px; font-weight:500; line-height:24px}
 .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select .box.no-item {justify-content:center}
 .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select .box.no-item .no-item-txt {color:#aaa; font-size:16px; font-weight:500; line-height:24px}
-.bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select .box .btn-close {position:absolute; width:18px; height:18px; top:12px; right:12px; background:url(../images/icons/btn-close-24-black.svg) no-repeat center / contain}
+.bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select .box .btn-close {position:absolute; width:18px; height:18px; top:12px; right:12px; background-image:url(../images/icons/btn-close-24-black.svg); background-repeat:no-repeat; background-position:center; background-size:contain}
 .bottom-cart-wrap .bar-wrap.care-ex .foot-area {text-align:right}
 .bottom-cart-wrap .bar-wrap.care-ex .foot-area .btn-area {padding:14px 0 24px}
 .bottom-cart-wrap .bar-wrap.care-ex .foot-area .btn-area .btn-reset {min-width:0; padding:0 12px; border-color:transparent; background:transparent!important}
 .bottom-cart-wrap .bar-wrap.care-ex .foot-area .btn-area .btn-reset span {position:relative; padding-left:24px; color:#da0f47; font-size:16px; line-height:24px; text-decoration:underline}
-.bottom-cart-wrap .bar-wrap.care-ex .foot-area .btn-area .btn-reset span::before {content:''; display:block; position:absolute; width:24px; height:24px; top:0; left:0; background:url(../images/icons/icon-reset-pink.svg) no-repeat center / 20px 20px}
+.bottom-cart-wrap .bar-wrap.care-ex .foot-area .btn-area .btn-reset span::before {content:''; display:block; position:absolute; width:24px; height:24px; top:0; left:0; background-image:url(../images/icons/icon-reset-pink.svg); background-repeat:no-repeat; background-position:center; background-size:20px 20px}
 .bottom-cart-wrap .bar-wrap.care-ex .foot-area .btn-area .btn-res {min-width:152px; margin-left:12px; padding:0 26px}
 
 .step-area .my-select > ul {display:flex; margin:-6px -6px 0}
@@ -671,7 +677,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 .step-area .my-select .box.no-item {flex-direction:column; justify-content:center}
 .step-area .my-select .box.no-item .no-item-txt {color:#aaa; font-size:16px; font-weight:500; line-height:24px}
 .step-area .my-select .box .btn-add {width:124px; margin-top:20px; padding:6px 12px; border-radius:8px; font-size:14px; line-height:20px}
-.step-area .my-select .box .btn-close {position:absolute; width:18px; height:18px; top:12px; right:12px; background:url(../images/icons/btn-close-24-black.svg) no-repeat center / contain}
+.step-area .my-select .box .btn-close {position:absolute; width:18px; height:18px; top:12px; right:12px; background-image:url(../images/icons/btn-close-24-black.svg); background-repeat:no-repeat; background-position:center; background-size:contain}
 
 /* 상담예약조회 - 인증페이지 */
 .inq-area .inq-box-area {display:flex; justify-content:space-between}
@@ -705,7 +711,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 .inq-area .res-his-area .res-history .his-info-area dl dd > ul li + li {margin-top:6px}
 .inq-area .res-his-area .res-history .his-info-area dl dd > ul li em {display:inline-block; color:#666}
 .inq-area .res-his-area .res-history .his-info-area dl dd > ul li span {position:relative; display:inline-block; padding-left:24px}
-.inq-area .res-his-area .res-history .his-info-area dl dd > ul li span::before {content:''; display:block; position:absolute; width:16px; height:16px; top:calc(50% - 8px); left:4px; background:url(../images/icons/btn_arrow_right_16_gray.svg) no-repeat center / contain}
+.inq-area .res-his-area .res-history .his-info-area dl dd > ul li span::before {content:''; display:block; position:absolute; width:16px; height:16px; top:calc(50% - 8px); left:4px; background-image:url(../images/icons/btn_arrow_right_16_gray.svg); background-repeat:no-repeat; background-position:center; background-size:contain}
 .inq-area .res-his-area .res-history .his-info-area dl + dl {margin-top:2px}
 .inq-area .res-his-area .res-history .his-info-area .box-wrap {display:flex; flex-wrap:wrap; margin-top:14px; padding:24px 32px; border-radius:8px; background-color:#f4f4f4}
 .inq-area .res-his-area .res-history .his-info-area .box-wrap .col {width:calc(100% / 3); padding-right:24px}
@@ -714,7 +720,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 .inq-area .res-his-area .res-history a[target="_blank"],
 .inq-area .res-his-area .res-history .pop-link {position:relative}
 .inq-area .res-his-area .res-history a[target="_blank"]::after,
-.inq-area .res-his-area .res-history .pop-link::after {content:''; display:inline-block; position:absolute; width:16px; height:16px; bottom:2px; background:url(../images/icons/btn-outlink-16.svg) no-repeat center / contain}
+.inq-area .res-his-area .res-history .pop-link::after {content:''; display:inline-block; position:absolute; width:16px; height:16px; bottom:2px; background-image:url(../images/icons/btn-outlink-16.svg); background-repeat:no-repeat; background-position:center; background-size:contain}
 .inq-area .res-his-area .res-cancel {padding:0 16px; font-size:14px; font-weight:500; line-height:30px}
 .inq-area .res-his-area + .caution-box {margin-top:90px}
 
@@ -810,7 +816,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     /* 소모품구매예약페이지 */
     .tab01.filter {position:relative; margin-top:40px; padding-left:57px}
     .tab01.filter .tab02 > ul {margin-left:40px}
-    .tab01.filter .btn-filter {display:block; position:absolute; left:0; top:10px; width:25px; height:25px; background:url(../images/icons/btn-filter-50.svg) no-repeat center / contain}
+    .tab01.filter .btn-filter {display:block; position:absolute; left:0; top:10px; width:25px; height:25px; background-image:url(../images/icons/btn-filter-50.svg); background-repeat:no-repeat; background-position:center; background-size:contain}
     .tab01.filter .btn-filter > a {display:block; width:100%; height:100%}
     .tab01.filter .btn-filter > .count {position:absolute; display:block; width:16px; height:16px; top:-1.5px; right:-4px; border-radius:50%; background-color:#da0f47; color:#fff; font-size:12px; font-weight:500; line-height:15px; text-align:center}
     .tab01.filter.is_depth {padding-left:0}
@@ -826,10 +832,10 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .plp-list-wrap .lay-filter .plp-filter-wrap .box .tit {padding:32px 0 22px; font-size:16px; line-height:22px}
     .plp-list-wrap .lay-filter .plp-filter-wrap .btn-area .btn-reset {position:absolute; width:24px; height:24px; top:49px; right:52px; padding:0}
     .plp-list-wrap .lay-filter .plp-filter-wrap .btn-area .btn-reset > span {display:block; font-size:0; text-indent:-9999em}
-    .plp-list-wrap .lay-filter .plp-filter-wrap .btn-area .btn-reset::after {width:100%; height:100%; top:0; left:0; right:0; bottom:0; background:url(../images/icons/icon-reset-48.svg) no-repeat center / 24px 24px}
+    .plp-list-wrap .lay-filter .plp-filter-wrap .btn-area .btn-reset::after {width:100%; height:100%; top:0; left:0; right:0; bottom:0; background-image:url(../images/icons/icon-reset-48.svg); background-repeat:no-repeat; background-position:center; background-size:24px 24px}
     .plp-list-wrap .lay-filter .plp-filter-wrap .box .filter-list .check-box input + label::after {top:0}
     .plp-list-wrap .lay-filter .plp-filter-wrap .filter-close {position:absolute; top:49px; right:16px; display:block; width:24px; height:24px}
-    .plp-list-wrap .lay-filter .plp-filter-wrap .filter-close .btn-close {width:100%; height:100%; background:url(../images/icons/btn-close-24-black.svg) no-repeat center / 24px 24px}
+    .plp-list-wrap .lay-filter .plp-filter-wrap .filter-close .btn-close {width:100%; height:100%; background-image:url(../images/icons/btn-close-24-black.svg); background-repeat:no-repeat; background-position:center; background-size:24px 24px}
 
     .plp-list-wrap .pdt-list-area {width:100%}
     .plp-list-wrap .pdt-list-area .no-data {padding:80px 0}
@@ -908,7 +914,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-main .guide-area.bg [class*="guide-banner"] {padding:0 16px 32px}
     .res-main .guide-area.bg [class*="guide-banner"] .swiper-slide + .swiper-slide {margin-left:16.5px}
     .res-main .guide-area.bg [class*="guide-banner"] .box {position:relative; min-height:125px; padding:11px 12px 10px; border-radius:8px; border-width:1.5px}
-    .res-main .guide-area.bg [class*="guide-banner"] .box::before {width:16.5px; left:-18px; background:url(../images/icons/btn-arrow-right-16-white.svg) no-repeat center}
+    .res-main .guide-area.bg [class*="guide-banner"] .box::before {width:16.5px; left:-18px; background-image:url(../images/icons/btn-arrow-right-16-white.svg); background-repeat:no-repeat; background-position:center}
     .res-main .guide-area.bg [class*="guide-banner"] .box .icon-wrap {position:static; width:80px; height:80px}
     .res-main .guide-area.bg [class*="guide-banner"] .swiper-scrollbar {width:calc(100% - 32px); left:16px; bottom:20px; height:2px}
 
@@ -948,6 +954,10 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .onepage .result-info-list dl {font-size:14px; line-height:22px}
 
     .res-main.care .onepage .user-info-area {padding-top:50px}
+    
+    .onepage ul.input-cate-type > li {padding:0}
+    .onepage ul.input-cate-type .cate-items {max-width:100%}
+    .onepage ul.input-cate-type .cate-items > li {min-width:calc(100% / 3)}
 
     /* swiper button */
     .banner-btns {height:28px}
@@ -964,28 +974,28 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .icon-btn input:checked + label {border:1.5px solid #da0f47}
     /* .icon-btn .icon {width:32px; height:32px; margin-right:6px} */
     .icon-btn .icon {display:none}
-    .icon-btn .icon.wedding {background:url(../images/icons/icon-wedding_mo.svg) no-repeat center / contain}
-    .icon-btn .icon.move {background:url(../images/icons/icon-move_mo.svg) no-repeat center / contain}
-    .icon-btn .icon.interior {background:url(../images/icons/icon-interior_mo.svg) no-repeat center / contain}
-    .icon-btn .icon.broken {background:url(../images/icons/icon-broken_mo.svg) no-repeat center / contain}
-    .icon-btn .icon.etc {background:url(../images/icons/icon-etc_mo.svg) no-repeat center / contain}
-    .icon-btn input:checked + label .icon.wedding {background:url(../images/icons/icon-wedding_mo_on.svg) no-repeat center / contain}
-    .icon-btn input:checked + label .icon.move {background:url(../images/icons/icon-move_mo_on.svg) no-repeat center / contain}
-    .icon-btn input:checked + label .icon.interior {background:url(../images/icons/icon-interior_mo_on.svg) no-repeat center / contain}
-    .icon-btn input:checked + label .icon.broken {background:url(../images/icons/icon-broken_mo_on.svg) no-repeat center / contain}
-    .icon-btn input:checked + label .icon.etc {background:url(../images/icons/icon-etc_mo_on.svg) no-repeat center / contain}    
+    .icon-btn .icon.wedding {background-image:url(../images/icons/icon-wedding_mo.svg)}
+    .icon-btn .icon.move {background-image:url(../images/icons/icon-move_mo.svg)}
+    .icon-btn .icon.interior {background-image:url(../images/icons/icon-interior_mo.svg)}
+    .icon-btn .icon.broken {background-image:url(../images/icons/icon-broken_mo.svg)}
+    .icon-btn .icon.etc {background-image:url(../images/icons/icon-etc_mo.svg)}
+    .icon-btn input:checked + label .icon.wedding {background-image:url(../images/icons/icon-wedding_mo_on.svg)}
+    .icon-btn input:checked + label .icon.move {background-image:url(../images/icons/icon-move_mo_on.svg)}
+    .icon-btn input:checked + label .icon.interior {background-image:url(../images/icons/icon-interior_mo_on.svg)}
+    .icon-btn input:checked + label .icon.broken {background-image:url(../images/icons/icon-broken_mo_on.svg)}
+    .icon-btn input:checked + label .icon.etc {background-image:url(../images/icons/icon-etc_mo_on.svg)}    
 
     /* 제품선택 - 카테고리형 */
     ul.input-cate-type {margin-top:-25px}
     ul.input-cate-type > li {flex-direction:column; width:100%; margin-top:25px; padding:0; background:none}
     ul.input-cate-type .cate-tit {padding:0; font-size:14px; font-weight:bold; line-height:20px}
     ul.input-cate-type .cate-tit > .icon {width:24px; height:24px; margin-right:4px}
-    ul.input-cate-type .cate-tit > .icon.tv-audio {background:url(../images/icons/icon-tv_mo.svg) no-repeat center / contain}
-    ul.input-cate-type .cate-tit > .icon.pc {background:url(../images/icons/icon-desktop_mo.svg) no-repeat center / contain}
-    ul.input-cate-type .cate-tit > .icon.kitchens {background:url(../images/icons/icon-refrigerator_mo.svg) no-repeat center / contain}
-    ul.input-cate-type .cate-tit > .icon.house {background:url(../images/icons/icon-washing-machine_mo.svg) no-repeat center / contain}
-    ul.input-cate-type .cate-tit > .icon.mobile {background:url(../images/icons/icon-mobile_mo.svg) no-repeat center / contain}
-    ul.input-cate-type .cate-tit > .icon.beauty {background:url(../images/icons/icon-pra_l_mo.svg) no-repeat center / contain}
+    ul.input-cate-type .cate-tit > .icon.tv-audio {background-image:url(../images/icons/icon-tv_mo.svg)}
+    ul.input-cate-type .cate-tit > .icon.pc {background-image:url(../images/icons/icon-desktop_mo.svg)}
+    ul.input-cate-type .cate-tit > .icon.kitchens {background-image:url(../images/icons/icon-refrigerator_mo.svg)}
+    ul.input-cate-type .cate-tit > .icon.house {background-image:url(../images/icons/icon-washing-machine_mo.svg)}
+    ul.input-cate-type .cate-tit > .icon.mobile {background-image:url(../images/icons/icon-mobile_mo.svg)}
+    ul.input-cate-type .cate-tit > .icon.beauty {background-image:url(../images/icons/icon-pra_l_mo.svg)}
     ul.input-cate-type .cate-items {width:100%; max-width:100%; margin:6px -3px 0; padding:0}
     ul.input-cate-type .cate-items > li {padding:3px}
     ul.input-cate-type .cate-items .chkrdo-btn label {min-width:0; padding:6px 3px; border:1.5px solid #ddd; font-size:13px; line-height:19px}
@@ -1027,10 +1037,10 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .step-area .shop-date-wrap .sort-area button {display:block; font-size:12px; line-height:24px}
     .step-area .shop-date-wrap .sort-area button + button {position:relative; margin-left:15px}
     .step-area .shop-date-wrap .sort-area button + button::before {content:''; display:block; position:absolute; width:1px; height:14px; top:calc(50% - 7px); left:-4px; background-color:#ddd}
-    .step-area .shop-date-wrap .sort-area button.view-map {background:url(../images/icons/icon-view-map-mo.svg) no-repeat 0 center / contain}
-    .step-area .shop-date-wrap .sort-area button.view-map.active {background:url(../images/icons/icon-view-map-mo_on.svg) no-repeat 0 center / contain}
-    .step-area .shop-date-wrap .sort-area button.view-list {background:url(../images/icons/icon-view-list-mo.svg) no-repeat 0 center / contain}
-    .step-area .shop-date-wrap .sort-area button.view-list.active {background:url(../images/icons/icon-view-list-mo_on.svg) no-repeat 0 center / contain}
+    .step-area .shop-date-wrap .sort-area button.view-map {background-image:url(../images/icons/icon-view-map-mo.svg)}
+    .step-area .shop-date-wrap .sort-area button.view-map.active {background-image:url(../images/icons/icon-view-map-mo_on.svg)}
+    .step-area .shop-date-wrap .sort-area button.view-list {background-image:url(../images/icons/icon-view-list-mo.svg)}
+    .step-area .shop-date-wrap .sort-area button.view-list.active {background-image:url(../images/icons/icon-view-list-mo_on.svg)}
     
     .shop-date-wrap .map-wrap {padding:11px}
     .sort-block + .popup.toast {bottom:21px}
@@ -1048,7 +1058,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .map-wrap .api-area .map-list-wrap .btn-view {width:100%; height:18px; background:none; left:0; right:0; top:0; box-shadow:none}
     .map-wrap .api-area .map-list-wrap .btn-view::after {content:''; display:block; position:absolute; width:40px; height:5px; border-radius:5px; background-color:#ccc; background-image:none; top:9px; left:calc(50% - 20px)}
     .map-wrap .api-area .map-list-wrap .btn-view.mToggle {display:block; height:32px; font-size:12px; color:#666; background: #f4f4f4}
-    .map-wrap .api-area .map-list-wrap .btn-view.mToggle:after {content:''; display:inline-block; position:static; width:12px; height:12px; margin-left:5px; background:url('../images/icons/icon_open.svg') no-repeat 0 0; background-size:contain; vertical-align:middle; transition:all 0.1s linear; transform:rotate(180deg)}
+    .map-wrap .api-area .map-list-wrap .btn-view.mToggle:after {content:''; display:inline-block; position:static; width:12px; height:12px; margin-left:5px; background-image:url('../images/icons/icon_open.svg'); background-repeat:no-repeat; background-position:0 0; background-size:contain; vertical-align:middle; transition:all 0.1s linear; transform:rotate(180deg)}
     .map-wrap .api-area .map-list-wrap.active .btn-view.mToggle:after {transform:rotate(0)}
     .map-wrap .api-area .map-list-wrap .btn-view.mToggle span.pc-hidden {display:inline-block !important}
     .map-wrap .api-area .btn-area.innerMap {bottom:auto; top:12px; right:12px; z-index:12;}
@@ -1104,7 +1114,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .date-wrap .mo-top .mo-tit.active {color:#000}
     .date-wrap .calendar {position:relative; width:100%}
     .date-wrap .calendar .mo-top {position:relative; padding-right:49px}
-    .date-wrap .calendar .mo-top::after {content:''; display:block; position:absolute; width:16px; height:16px; top:15px; right:12px; background:url(../images/icons/icon-calendar.svg) no-repeat center / contain}
+    .date-wrap .calendar .mo-top::after {content:''; display:block; position:absolute; width:16px; height:16px; top:15px; right:12px; background-image:url(../images/icons/icon-calendar.svg); background-repeat:no-repeat; background-position:center; background-size:contain}
     .date-wrap .calendar .cal-cont {display:none}
     .date-wrap .calendar.active .cal-cont {position:absolute; display:block; height:269px; left:-1px; right:-1px; top:-1px; border-radius:8px; border:1px solid #ddd; background-color:#fff; z-index:10; overflow:hidden}
     .date-wrap .time {position:relative; width:100%; margin-top:12px; margin-left:0; border:1px solid #ddd; border-radius:8px}
@@ -1193,14 +1203,14 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     /* 방문상담예약페이지 */
     .add-area .img-slide-wrap .img-slide .img-wrap {padding-bottom:55.55%}
     .res-main .slide-navi .slide-navi-detail {padding:0 16px}
-    .res-main .guide-area .guide-banner-visit .box .icon-wrap .icon01 {background:url(../images/icons/icon-res-guide-visit-01_mo.svg) no-repeat center / 100%}
-    .res-main .guide-area .guide-banner-visit .box .icon-wrap .icon02 {background:url(../images/icons/icon-res-guide-visit-02_mo.svg) no-repeat center / 100%}
-    .res-main .guide-area .guide-banner-visit .box .icon-wrap .icon03 {background:url(../images/icons/icon-res-guide-visit-03_mo.svg) no-repeat center / 100%}
+    .res-main .guide-area .guide-banner-visit .box .icon-wrap .icon01 {background-image:url(../images/icons/icon-res-guide-visit-01_mo.svg)}
+    .res-main .guide-area .guide-banner-visit .box .icon-wrap .icon02 {background-image:url(../images/icons/icon-res-guide-visit-02_mo.svg)}
+    .res-main .guide-area .guide-banner-visit .box .icon-wrap .icon03 {background-image:url(../images/icons/icon-res-guide-visit-03_mo.svg)}
 
     /* 화상상담예약페이지 */
-    .res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon01 {background:url(../images/icons/icon-res-guide-visit-01_mo.svg) no-repeat center / 100%}
-    .res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon02 {background:url(../images/icons/icon-res-guide-visit-02_mo.svg) no-repeat center / 100%}
-    .res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon03 {background:url(../images/icons/icon-res-guide-visit-03_mo.svg) no-repeat center / 100%}
+    .res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon01 {background-image:url(../images/icons/icon-res-guide-visit-01_mo.svg)}
+    .res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon02 {background-image:url(../images/icons/icon-res-guide-visit-02_mo.svg)}
+    .res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon03 {background-image:url(../images/icons/icon-res-guide-visit-03_mo.svg)}
     .res-main .top-wrap .guide-area .guide-info-list .inner {padding:0 16px 28px}
     .res-main .top-wrap .guide-area .guide-info-list .bull > li {font-size:12px; line-height:17px}
     .res-main .top-wrap .guide-area .guide-info-list .bull > li:before {top:7.5px}
@@ -1272,10 +1282,10 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 
     /* 소모품구매예약페이지 */
     .res-main.care-ex .top-wrap {margin-bottom:22px}
-    .res-main .guide-area .guide-process .guide-banner-care-ex .box .icon-wrap .icon01 {background:url(../images/icons/icon-res-guide-ex-01_mo.svg) no-repeat center / contain}
-    .res-main .guide-area .guide-process .guide-banner-care-ex .box .icon-wrap .icon02 {background:url(../images/icons/icon-res-guide-ex-02_mo.svg) no-repeat center / contain}
-    .res-main .guide-area .guide-process .guide-banner-care-ex .box .icon-wrap .icon03 {background:url(../images/icons/icon-res-guide-ex-03_mo.svg) no-repeat center / contain}
-    .res-main .guide-area .guide-process .guide-banner-care-ex .box .icon-wrap .icon04 {background:url(../images/icons/icon-res-guide-ex-04_mo.svg) no-repeat center / contain}
+    .res-main .guide-area .guide-process .guide-banner-care-ex .box .icon-wrap .icon01 {background-image:url(../images/icons/icon-res-guide-ex-01_mo.svg)}
+    .res-main .guide-area .guide-process .guide-banner-care-ex .box .icon-wrap .icon02 {background-image:url(../images/icons/icon-res-guide-ex-02_mo.svg)}
+    .res-main .guide-area .guide-process .guide-banner-care-ex .box .icon-wrap .icon03 {background-image:url(../images/icons/icon-res-guide-ex-03_mo.svg)}
+    .res-main .guide-area .guide-process .guide-banner-care-ex .box .icon-wrap .icon04 {background-image:url(../images/icons/icon-res-guide-ex-04_mo.svg)}
     .res-main .top-wrap .guide-area .guide-bottom .inner {padding:0 16px}
     .res-main.care-ex .top-wrap .guide-area .guide-bottom dl {flex-direction:column; padding:24px 0}
     .res-main.care-ex .top-wrap .guide-area .guide-bottom dl dt {font-size:13px; line-height:19px}
@@ -1376,7 +1386,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .inq-area .res-his-area .res-history .his-info-area .box-wrap dl + dl {margin-top:8px}
     .inq-area .res-his-area .res-history .his-info-area .box-wrap dl dt {min-width:78px}
     .inq-area .res-his-area .res-history .his-info-area dl dd > ul li span {padding-left:16px}
-    .inq-area .res-his-area .res-history .his-info-area dl dd > ul li span::before {width:12px; height:12px; top:calc(50% - 6px); left:2px; background:url(../images/icons/btn_arrow_right_24_gray.svg) no-repeat center / contain}
+    .inq-area .res-his-area .res-history .his-info-area dl dd > ul li span::before {width:12px; height:12px; top:calc(50% - 6px); left:2px; background-image:url(../images/icons/btn_arrow_right_24_gray.svg); background-repeat:no-repeat; background-position:center; background-size:contain}
     .inq-area .res-his-area .res-history .btn-area {top:16px}
     .inq-area .res-his-area .btn-area {margin-top:16px}
     .inq-area .res-his-area .res-history a[target="_blank"]::after,
