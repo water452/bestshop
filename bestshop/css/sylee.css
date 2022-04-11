@@ -344,6 +344,9 @@ ul.input-list-type .txt-box .input-wrap{width:100%;}
     .shop-search-wrap .shop-search-body .btn-area.innerMap.gps {bottom:38px;top:auto;right:12px}
     .shop-search-wrap .shop-search-body .btn-area.innerMap.gps + div ~ div {z-index:1 !important;}
     .shop-search-wrap .shop-search-body .btn-area.innerMap .btn{padding:0 20px;font-size:10px;line-height:30px}
+    .shop-search-wrap .shop-search-body .btn-area.innerMap .btn:hover,
+    .shop-search-wrap .shop-search-body .btn-area.innerMap .btn:focus {color: #da0f47!important; border-color: #da0f47; background: #fff!important;}
+    .shop-search-wrap .shop-search-body .btn-area.innerMap .btn:active {color: #fff!important; background-color: #da0f47!important;}
 
     .search-result .result-filter{display:block;overflow:hidden;position:fixed;top:0;bottom:auto;left:auto;right:0;width:100%;height:100%;padding:0;margin-right:-100%;background:transparent;box-shadow:none;z-index:9999;}
     .search-result .result-filter .result-filter-detail{position:absolute;top:0;right:0;width:250px;height:100%;padding:48px 16px;background:#fff;z-index:1;}
