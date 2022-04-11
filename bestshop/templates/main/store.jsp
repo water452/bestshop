@@ -10,6 +10,7 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="slide-cont" style="background-image:url('./images/img-suwon-open-banner_mo.png');"> <!-- image file name change -->
+                        <img src="/bestshop/images/img-suwon-open-banner_mo.png" alt="">
                         <a href="/event/detail-EV10003002">
                             <div class="scont-tit">
                                 <strong>갤러리아 명품관 WEST점</strong>
@@ -26,6 +27,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="slide-cont" style="background-image:url('./images/img_main_benefit.png');"> <!-- image file name change -->
+                        <img src="/bestshop/images/img-suwon-open-banner_mo.png" alt="">
                         <a href="javascript:void(0);">
                             <div class="scont-tit">
                                 <strong>신세계 Art & Sience점</strong>
@@ -42,6 +44,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="slide-cont" style="background-image:url('./images/img_main_benefit.png');"> <!-- image file name change -->
+                        <img src="/bestshop/images/img-suwon-open-banner_mo.png" alt="">
                         <a href="javascript:void(0);">
                             <div class="scont-tit">
                                 <strong>강남본점</strong>
@@ -58,6 +61,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="slide-cont" style="background-image:url('./images/img_main_benefit.png');"> <!-- image file name change -->
+                        <img src="/bestshop/images/img-suwon-open-banner_mo.png" alt="">
                         <a href="javascript:void(0);">
                             <div class="scont-tit">
                                 <strong>양재점</strong>
@@ -74,6 +78,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="slide-cont" style="background-image:url('./images/img_main_benefit.png');"> <!-- image file name change -->
+                        <img src="/bestshop/images/img-suwon-open-banner_mo.png" alt="">
                         <a href="javascript:void(0);">
                             <div class="scont-tit">
                                 <strong>센트럴파크점</strong>
@@ -90,6 +95,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="slide-cont" style="background-image:url('./images/img_main_benefit.png');"> <!-- image file name change -->
+                        <img src="/bestshop/images/img-suwon-open-banner_mo.png" alt="">
                         <a href="javascript:void(0);">
                             <div class="scont-tit">
                                 <strong>송파본점</strong>
@@ -175,4 +181,13 @@
             $('.info-store .slide-store .tab-pager').scrollLeft(_ths + _thsLeft);
         });
     });
+
+    // ie 에서만 보이게
+    $(function(){
+        var agent = navigator.userAgent.toLowerCase();
+
+        if ( (navigator.appName == 'Netscape' && navigator.userAgent.search('Trident') != -1) || (agent.indexOf("msie") != -1) ) {
+            $('.swiper-wrapper').addClass('ie');
+        }
+    })
 </script>
