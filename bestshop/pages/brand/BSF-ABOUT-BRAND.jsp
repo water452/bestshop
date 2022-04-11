@@ -194,40 +194,55 @@
 <jsp:include page="../../templates/common/footer.jsp" />
 
 <script>
-    window.onload = function(){
-        var _secTop = document.querySelectorAll('section');
-        var _secFirst = document.querySelector('section:first-child');        
-        var _sec_arr = Array.prototype.slice.call(_secTop);
-        var _offs = [];
-        var _baseLine = -300;
+    // window.onload = function(){
+    //     var _secTop = document.querySelectorAll('section');
+    //     var _secFirst = document.querySelector('section:first-child');        
+    //     var _sec_arr = Array.prototype.slice.call(_secTop);
+    //     var _offs = [];
+    //     var _baseLine = -300;
         
-        _setPos();
+    //     _setPos();
         
-        _secFirst.classList.add('on');
+    //     _secFirst.classList.add('on');
 
-        window.onscroll = function(){
-            var _scroll = window.screenY || window.pageYOffset;
-            var _activeNum = 0;
+    //     window.onscroll = function(){
+    //         var _scroll = window.screenY || window.pageYOffset;
+    //         var _activeNum = 0;
             
-            _offs.forEach(function(_item, _index){
-                if(_scroll >= _item + _baseLine) _activeNum = _index;
-            });
+    //         _offs.forEach(function(_item, _index){
+    //             if(_scroll >= _item + _baseLine) _activeNum = _index;
+    //         });
             
-            _activation(_activeNum, _secTop);
-        }
+    //         _activation(_activeNum, _secTop);
+    //     }
 
-        function _setPos(){
-            _sec_arr.forEach(function(_item, _index, _array){
-                _offs.push(_item.offsetTop);
-            });
-        }
+    //     function _setPos(){
+    //         _sec_arr.forEach(function(_item, _index, _array){
+    //             _offs.push(_item.offsetTop);
+    //         });
+    //     }
 
-        function _activation(_activeNum, _items){ 
-            for(let i=0; i<_items.length; i++){
-                _items[i].className='';
+    //     function _activation(_activeNum, _items){ 
+    //         for(let i=0; i<_items.length; i++){
+    //             _items[i].className='';
+    //         }
+    //         _items[_activeNum].classList.add('on');
+
+    //     }
+    // }
+
+    $(window).scroll(function(){
+        $('.brand .wrap > section').each(function(){
+            var _top = $(window).scrollTop(),
+                _thsTop = parseInt($(this).offset().top) - 400;
+
+            console.log(_top, _thsTop);
+
+            if(_top > _thsTop){
+                $(this).addClass('on')
+            } else {
+                $(this).removeClass('on')
             }
-            _items[_activeNum].classList.add('on');
-
-        }
-    }
+        })
+    });
 </script>
