@@ -319,8 +319,9 @@ ul.input-cate-type .cate-tit > .icon.apple-watch { background: url("../images/ic
 .ev-detail-con .notice-wrap .btn-area { margin: 0; }
 .ev-detail-con .agree-box + .btn-area { margin-top: 80px; }
 .ev-detail-con .btn-area { margin-top: 60px; }
-.agree-cont-wrap .agree-cont-box { max-height: 98px; font-weight: normal; }
+.agree-cont-wrap .agree-cont-box { max-height: 98px; color: #000; font-weight: normal; line-height: 20px; }
 .agree-cont-wrap .agree-cont-box * { font-weight: normal; }
+.agree-cont-wrap .agree-cont-box .txt01 { font-weight: 700; text-decoration: underline; }
 .bullet-list.ty-box { margin-top: 60px; padding: 40px; border-radius: 8px; background: #f4f4f4; }
 .bullet-list.ty-box:first-child { margin: 0; }
 .limit-box { position: relative; padding-bottom: 30px; }
