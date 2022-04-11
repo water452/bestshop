@@ -1,6 +1,11 @@
 @charset "UTF-8";
-
-.brand [class^="sec"] + [class^="sec"] {margin-top:120px}
+.brand section .tit-wrap {opacity:0; transition:all 1s ease}
+.brand section.on .tit-wrap {opacity:1}
+.brand section .sec02 .img-wrap,
+.brand section .video-wrap {left:-100%; opacity:0; transition:all 1s ease}
+.brand section.on .sec02 .img-wrap,
+.brand section.on .video-wrap {left:0; opacity:1}
+.brand section + section {margin-top:120px}
 .brand .tit-wrap {margin:0 auto 40px; padding:0 40px; text-align:center}
 .brand .tit-wrap .tit {font-size:32px; font-weight:bold; line-height:44px}
 .brand .tit-wrap .desc {display:block; margin-top:12px; font-size:16px; line-height:24px}
@@ -29,7 +34,7 @@
 
 /* mobile */
 @media screen and (max-width:767px) {
-    .brand [class^="sec"] + [class^="sec"] {margin-top:60px}
+    .brand section + section {margin-top:60px}
     .brand .tit-wrap {margin:0 auto 20px; padding:0 16px}
     .brand .tit-wrap .tit {font-size:24px; line-height:30px}
     .brand .tit-wrap .desc {margin-top:6px; font-size:14px; line-height:20px}
