@@ -275,16 +275,9 @@ ul.input-list-type .input-wrap:first-of-type{margin-top:0}
 
 .header-wrap .utility .util{position:relative;display:flex;margin-left:24px;padding-left:24px}
 .header-wrap .utility .util::before{content:'';display:block;position:absolute;width:1px;height:14px;top:calc(50% - 7px);left:0;border-left:1px solid #ddd}
-.header-wrap .utility .util .about-company{position:relative}
-.header-wrap .utility .util .about-company > a{display:block;font-size:14px;line-height:24px}
-.header-wrap .utility .util .about-company .about-company-layer{display:none}
-.header-wrap .utility .util .about-company .about-company-layer.active{display:block}
-.header-wrap .utility .util .about-company .about-company-layer{position:absolute;display:none;top:20px;left:50%;transform:translateX(-50%);padding-top:20px;z-index:200}
-.header-wrap .utility .util .about-company .about-company-layer ul{min-width:138px;padding:4px 0;border-radius:4px;background-color:#fff;box-shadow:0 4px 12px 0 rgba(0, 0, 0, 0.15)}
-.header-wrap .utility .util .about-company .about-company-layer ul li a{display:block;padding:8px;font-size:14px;line-height:24px;text-align:center}
-.header-wrap .utility .util .about-company .about-company-layer ul li a:hover,
-.header-wrap .utility .util .about-company .about-company-layer ul li a:focus,
-.header-wrap .utility .util .about-company .about-company-layer ul li a:active{background-color:#f4f4f4}
+.header-wrap .utility .util .brand{position:relative;margin-right:24px;padding-right:24px}
+.header-wrap .utility .util .brand::after{content:'';display:block;position:absolute;width:1px;height:14px;top:calc(50% - 7px);right:0;border-right:1px solid #ddd}
+.header-wrap .utility .util .brand > a{display:block;font-size:14px;line-height:24px}
 .header-wrap .utility .util .outer-link{position:relative;}
 .header-wrap .utility .util .outer-link ul{display:flex}
 .header-wrap .utility .util .outer-link ul li + li{margin-left:24px}
@@ -847,6 +840,8 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	.mega-gnb-mobile .direct-link ul li{display:inline-block;width:50%;font-size:0;padding:8px 0;}
 	.mega-gnb-mobile .direct-link ul li a{display:inline-block;font-size:13px;font-weight:500;line-height:21px;}
 	.mega-gnb-mobile .direct-link ul li a[target="_blank"]:after{display:inline-block;content:'';width:16px;height:16px;margin-left:3px;background:url('../images/icons/btn-outlink-16.svg') no-repeat 100% 50%;background-size:contain;vertical-align:-4px;}
+	.mega-gnb-mobile .nav-logout {border-top:12px solid #f4f4f4}
+	.mega-gnb-mobile .nav-logout .btn-logout {display:block; padding:20px 16px; font-size:13px; font-weight:500; line-height:21px}
 
 	.mega-gnb-mobile.active{right:0;}
 	.mega-gnb-mobile + .dimmed{display:none;}
