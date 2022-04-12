@@ -94,7 +94,7 @@
             <!-- s: utility -->
             <div class="util">
                 <div class="layer-wrap brand">
-                    <a href="#none">LG전자 베스트샵 소개</a><!-- 브랜드 소개 페이지 추가 -->
+                    <a href="#none">LG 베스트샵 소개</a><!-- 브랜드 소개 페이지 추가 -->
                 </div>
                 <div class="outer-link">
                     <ul>
@@ -415,10 +415,10 @@
                     </li>
                     -->
                     <li class="link-section">
-                        <div class="depth1"><a href="#none">LG전자 베스트샵 소개</a></div>
+                        <div class="depth1"><a href="#none">LG 베스트샵 소개</a></div>
                         <div class="depth2">
                             <ul>
-                                <li><a href="#none">LG전자 베스트샵 소개</a></li>
+                                <li><a href="#none">LG 베스트샵 소개</a></li>
                             </ul>
                         </div>
                     </li>
