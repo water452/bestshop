@@ -126,7 +126,7 @@
 /* swiper button */
 .banner-btns {position:absolute; width:100%; height:40px; left:50%; transform:translate(-50%,-50%); z-index:10}
 .banner-btns [class^="swiper-button"] {width:40px; height:40px; top:0; margin-top:0; border-radius:50%; background-color:#fff; box-shadow:2px 2px 6px 0 rgba(0, 0, 0, 0.16); font-size:0}
-.banner-btns [class^="swiper-button"]::after {width:100%; height:100%; font-size:0; background-image:url(../images/icons/icon-carousel-btn.svg); background-repeat:no-repeat; background-position:center; background-size:contain}
+.banner-btns [class^="swiper-button"]::after {width:100%; height:100%; font-size:0; background-image:url(../images/icons/icon-carousel-btn.svg); background-repeat:no-repeat; background-position:center}
 .banner-btns .swiper-button-prev {left:20px}
 .banner-btns .swiper-button-next {right:20px}
 .banner-btns .swiper-button-next::after {transform:rotate(180deg)}
@@ -225,10 +225,10 @@ ul.input-base-type .chkrdo-btn input:checked + label {border-width:2px; line-hei
 .step-area .shop-date-wrap .sort-area button + button {position:relative; margin-left:25px}
 .step-area .shop-date-wrap .sort-area button + button::before {content:''; display:block; position:absolute; width:1px; height:14px; top:calc(50% - 7px); left:-16px; background-color:#ddd}
 .step-area .shop-date-wrap .sort-area button.active {color:#000}
-.step-area .shop-date-wrap .sort-area button.view-map {background-image:url(../images/icons/icon-view-map.svg); background-repeat:no-repeat; background-position:0 center; background-size:contain}
-.step-area .shop-date-wrap .sort-area button.view-map.active {background-image:url(../images/icons/icon-view-map_on.svg); background-repeat:no-repeat; background-position:0 center; background-size:contain}
-.step-area .shop-date-wrap .sort-area button.view-list {background-image:url(../images/icons/icon-view-list.svg); background-repeat:no-repeat; background-position:0 center; background-size:contain}
-.step-area .shop-date-wrap .sort-area button.view-list.active {background-image:url(../images/icons/icon-view-list_on.svg); background-repeat:no-repeat; background-position:0 center; background-size:contain}
+.step-area .shop-date-wrap .sort-area button.view-map {background-image:url(../images/icons/icon-view-map.svg); background-repeat:no-repeat; background-position:0 center}
+.step-area .shop-date-wrap .sort-area button.view-map.active {background-image:url(../images/icons/icon-view-map_on.svg); background-repeat:no-repeat; background-position:0 center}
+.step-area .shop-date-wrap .sort-area button.view-list {background-image:url(../images/icons/icon-view-list.svg); background-repeat:no-repeat; background-position:0 center}
+.step-area .shop-date-wrap .sort-area button.view-list.active {background-image:url(../images/icons/icon-view-list_on.svg); background-repeat:no-repeat; background-position:0 center}
 
 .shop-date-wrap .map-wrap {display:none; position:relative; padding:67px 19px 19px; border:1px solid #000; border-radius:8px}
 .shop-date-wrap .map-wrap.active {display:block}
@@ -1037,10 +1037,10 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .step-area .shop-date-wrap .sort-area button {display:block; font-size:12px; line-height:24px}
     .step-area .shop-date-wrap .sort-area button + button {position:relative; margin-left:15px}
     .step-area .shop-date-wrap .sort-area button + button::before {content:''; display:block; position:absolute; width:1px; height:14px; top:calc(50% - 7px); left:-4px; background-color:#ddd}
-    .step-area .shop-date-wrap .sort-area button.view-map {background-image:url(../images/icons/icon-view-map-mo.svg)}
-    .step-area .shop-date-wrap .sort-area button.view-map.active {background-image:url(../images/icons/icon-view-map-mo_on.svg)}
-    .step-area .shop-date-wrap .sort-area button.view-list {background-image:url(../images/icons/icon-view-list-mo.svg)}
-    .step-area .shop-date-wrap .sort-area button.view-list.active {background-image:url(../images/icons/icon-view-list-mo_on.svg)}
+    .step-area .shop-date-wrap .sort-area button.view-map {background-image:url(../images/icons/icon-view-map-mo.svg); background-size:contain}
+    .step-area .shop-date-wrap .sort-area button.view-map.active {background-image:url(../images/icons/icon-view-map-mo_on.svg); background-size:contain}
+    .step-area .shop-date-wrap .sort-area button.view-list {background-image:url(../images/icons/icon-view-list-mo.svg); background-size:contain}
+    .step-area .shop-date-wrap .sort-area button.view-list.active {background-image:url(../images/icons/icon-view-list-mo_on.svg); background-size:contain}
     
     .shop-date-wrap .map-wrap {padding:11px}
     .sort-block + .popup.toast {bottom:21px}

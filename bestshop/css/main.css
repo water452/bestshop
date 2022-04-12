@@ -386,7 +386,7 @@
     .info-store .btn.border-white:active {border-color:#fa263e!important; background-image:linear-gradient(280deg,#fb5a72,#fa263e)!important}
     .info-store {padding-bottom:0}
     .info-store .slide-store {padding-top:44px; padding-bottom:0}
-    .info-store .slide-store .swiper-slide {height:auto}
+    .info-store .slide-store .swiper-slide {height:auto; border-radius:0}
     .info-store .slide-store .swiper-slide .scont-tit {height:auto; padding:20px 16px 16px; border-radius:0}
     .info-store .slide-store .swiper-slide .scont-tit strong {font-size:24px; line-height:30px}
     .info-store .slide-store .swiper-slide .scont-tit em {margin-top:4px; font-size:18px; line-height:24px}
@@ -396,7 +396,7 @@
     .info-store .slide-store .swiper-slide .scont-tit p > * {min-width:0; font-size:13px; text-align:center; line-height:34px; white-space:nowrap; padding:0 20px; border-radius:18px}
     .info-store .slide-store .swiper-slide .scont-tit p > * + * {margin-left:8px}
     .info-store .slide-store .swiper-slide .scont-tit p a img {width:16px; height:16px; vertical-align:-3.5px}
-    .info-store .slide-store .swiper-slide .slide-cont {padding-bottom:99.44%; border-radius:0}
+    .info-store .slide-store .swiper-slide .slide-cont {padding-bottom:99.44%}
     .info-store .slide-store .swiper-slide.swiper-slide-prev,
     .info-store .slide-store .swiper-slide.swiper-slide-next {transform:scale(1)}
     .info-store .slide-store .swiper-slide.swiper-slide-prev .slide-cont,
