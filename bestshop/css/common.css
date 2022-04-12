@@ -149,6 +149,7 @@ table{border-collapse:collapse}
 .slt.border-type > a::before{right:15px}
 .slt.border-type ul{width:100%;top:48px;left:0;padding:0;border:1px solid #222;border-radius:0 0 8px 8px;border-top:none;box-shadow:none}
 .slt.border-type ul li > a{padding:10px 15px;background-color:#fff;font-size:16px;line-height:26px;text-align:left}
+.slt.border-type ul li + li {margin-top:0}
 .slt.width-auto ul{width:auto;left:50%;transform:translateX(-50%)}
 
 /* step title */

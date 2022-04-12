@@ -256,8 +256,30 @@
                                                     <a href="javascript:void(0);" class="btn-slt">선택</a>
                                                     <ul>
                                                         <li><a href="javascript:void(0);">선택</a></li>
+                                                        <li><a href="javascript:void(0);">선택</a></li>
+                                                        <li><a href="javascript:void(0);">선택</a></li>
+                                                        <li><a href="javascript:void(0);">선택</a></li>
+                                                        <li><a href="javascript:void(0);">선택</a></li>
+                                                        <li><a href="javascript:void(0);">선택</a></li>
                                                     </ul>
                                                     <select title="회사 선택">
+                                                        <option selected>선택</option>
+                                                        <option selected>선택</option>
+                                                        <option selected>선택</option>
+                                                        <option selected>선택</option>
+                                                        <option selected>선택</option>
+                                                        <option selected>선택</option>
+                                                        <option selected>선택</option>
+                                                        <option selected>선택</option>
+                                                        <option selected>선택</option>
+                                                        <option selected>선택</option>
+                                                        <option selected>선택</option>
+                                                        <option selected>선택</option>
+                                                        <option selected>선택</option>
+                                                        <option selected>선택</option>
+                                                        <option selected>선택</option>
+                                                        <option selected>선택</option>
+                                                        <option selected>선택</option>
                                                         <option selected>선택</option>
                                                     </select>
                                                 </div>

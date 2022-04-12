@@ -440,8 +440,21 @@
             setTimeout(function() {
                 $('.result-body .mCustomScrollbar').mCustomScrollbar("scrollTo", _thsTop);
             }, 200);
+            
             $(this).parents('li').addClass('active').siblings('li').removeClass('active');
         });
+
+        // if($(window).width() <= 767){
+        //     $('.map-balloon').on('click', function(){
+
+        //         var parTop = $('.result-body ul').position().top;
+        //         var _thsTop2 = $('.result-body ul li.active').position().top;
+        //         setTimeout(function() {
+        //             $('.result-body ul').scrollTop(_thsTop2);
+        //         },300);
+                
+        //     });
+        // };
 
         filterDetailToggleMenu();
         checkReset();
