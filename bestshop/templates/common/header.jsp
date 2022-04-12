@@ -78,13 +78,13 @@
 
                     <!-- s: 로그인 후 -->
                     <ul>
-                    <li><a href="javascript:void(0);">로그아웃</a></li>
+                        <li><a href="javascript:void(0);">로그아웃</a></li>
                     </ul>
                     <ul>
-                    <li><a href="javascript:void(0);">상담 예약 조회</a></li>
-                    <li><a href="javascript:void(0);">주문/배송 조회</a></li>
-                    <li><a href="javascript:void(0);">베스트샵 쿠폰</a></li>
-                    <li><a href="javascript:void(0);">멤버십 포인트 조회</a></li>
+                        <li><a href="javascript:void(0);">상담 예약 조회</a></li>
+                        <li><a href="javascript:void(0);">주문/배송 조회</a></li>
+                        <li><a href="javascript:void(0);">베스트샵 쿠폰</a></li>
+                        <li><a href="javascript:void(0);">멤버십 포인트 조회</a></li>
                     </ul>
                     <!-- e: 로그인 후 -->
                 </div>
