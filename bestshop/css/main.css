@@ -64,6 +64,8 @@
 .info-store .slide-store .swiper-slide {overflow:hidden;width:1240px!important; height:auto; max-height:600px; transition:all 0.2s linear; border-radius:10px;}
 .info-store .slide-store .swiper-slide .slide-cont {width:100%; height:auto; padding-bottom:48.38%; background-repeat:no-repeat; background-position:center; background-size:cover; transition:all 0.1s linear; opacity:0}
 .info-store .slide-store .swiper-slide .slide-cont > img{display:none;}
+.info-store .slide-store .ie .swiper-slide {margin:0 auto;}
+.info-store .slide-store .ie .swiper-slide:not(:first-of-type) {display:none}
 .info-store .slide-store .ie .swiper-slide .slide-cont > img{display:block;position:absolute;top:0;left:0;width:100%;height:auto;}
 .info-store .slide-store .swiper-slide.swiper-slide-prev {transform:scale(0.87); left:20px}
 .info-store .slide-store .swiper-slide.swiper-slide-next {transform:scale(0.87); right:20px}
