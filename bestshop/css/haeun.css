@@ -643,9 +643,13 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 .bottom-cart-wrap .bar-wrap.care-ex .head-area .head-txt {font-size:18px; font-weight:bold; line-height:26px}
 .bottom-cart-wrap .bar-wrap.care-ex .head-area .head-txt > span {margin-left:5px}
 .bottom-cart-wrap .bar-wrap.care-ex .head-area .view-more {position:absolute; width:40px; height:40px; top:calc(50% - 20px); right:0; background-image:url(../images/icons/icon-arrow-down-24x24.svg); background-repeat:no-repeat; background-position:center; background-size:24px 24px; transform:rotate(180deg)}
+.bottom-cart-wrap .bar-wrap.care-ex .head-area .btn-area {padding:14px 0 24px}
+.bottom-cart-wrap .bar-wrap.care-ex .head-area .btn-area .btn-reset {min-width:0; padding:0 12px; border-color:transparent; background:transparent!important}
+.bottom-cart-wrap .bar-wrap.care-ex .head-area .btn-area .btn-reset span {position:relative; padding-left:24px; color:#da0f47; font-size:16px; line-height:24px; text-decoration:underline}
+.bottom-cart-wrap .bar-wrap.care-ex .head-area .btn-area .btn-reset span::before {content:''; display:block; position:absolute; width:24px; height:24px; top:0; left:0; background-image:url(../images/icons/icon-reset-pink.svg); background-repeat:no-repeat; background-position:center; background-size:20px 20px}
+.bottom-cart-wrap .bar-wrap.care-ex .head-area .btn-area .btn-res {min-width:152px; margin-left:12px; padding:0 26px}
 .bottom-cart-wrap.active .bar-wrap.care-ex .head-area .view-more {transform:rotate(0)}
-.bottom-cart-wrap .bar-wrap.care-ex .body-area,
-.bottom-cart-wrap .bar-wrap.care-ex .foot-area {display:none}
+.bottom-cart-wrap .bar-wrap.care-ex .body-area {display:none}
 .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select > ul {display:flex; margin:-6px -6px 0}
 .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select > ul > li {width:calc(100% / 3); padding:6px}
 .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select .box {position:relative; display:flex; align-items:center; height:100%; min-height:148px; padding:11px 36px 11px 23px; border-radius:8px; border:1px solid #ddd}
@@ -658,12 +662,6 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select .box.no-item {justify-content:center}
 .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select .box.no-item .no-item-txt {color:#aaa; font-size:16px; font-weight:500; line-height:24px}
 .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select .box .btn-close {position:absolute; width:18px; height:18px; top:12px; right:12px; background-image:url(../images/icons/btn-close-24-black.svg); background-repeat:no-repeat; background-position:center; background-size:contain}
-.bottom-cart-wrap .bar-wrap.care-ex .foot-area {text-align:right}
-.bottom-cart-wrap .bar-wrap.care-ex .foot-area .btn-area {padding:14px 0 24px}
-.bottom-cart-wrap .bar-wrap.care-ex .foot-area .btn-area .btn-reset {min-width:0; padding:0 12px; border-color:transparent; background:transparent!important}
-.bottom-cart-wrap .bar-wrap.care-ex .foot-area .btn-area .btn-reset span {position:relative; padding-left:24px; color:#da0f47; font-size:16px; line-height:24px; text-decoration:underline}
-.bottom-cart-wrap .bar-wrap.care-ex .foot-area .btn-area .btn-reset span::before {content:''; display:block; position:absolute; width:24px; height:24px; top:0; left:0; background-image:url(../images/icons/icon-reset-pink.svg); background-repeat:no-repeat; background-position:center; background-size:20px 20px}
-.bottom-cart-wrap .bar-wrap.care-ex .foot-area .btn-area .btn-res {min-width:152px; margin-left:12px; padding:0 26px}
 
 .step-area .my-select > ul {display:flex; margin:-6px -6px 0}
 .step-area .my-select > ul > li {width:calc(100% / 3); padding:6px}
@@ -1345,6 +1343,11 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .bottom-cart-wrap .bar-wrap.care-ex .head-area {padding:24px 0}
     .bottom-cart-wrap .bar-wrap.care-ex .head-area .head-txt {font-size:13px; line-height:19px}
     .bottom-cart-wrap .bar-wrap.care-ex .head-area .view-more {right:-8px; background-size:20px 20px!important}
+    .bottom-cart-wrap .bar-wrap.care-ex .head-area .btn-area {position:static; padding:21px 0 30px}
+    .bottom-cart-wrap .bar-wrap.care-ex .head-area .btn-area .btn-res {display:block; margin:0 auto; padding:0 35px}
+    .bottom-cart-wrap .bar-wrap.care-ex .head-area .btn-area .btn-reset {position:absolute; top:11px; right:50px}
+    .bottom-cart-wrap .bar-wrap.care-ex .head-area .btn-area .btn-reset span {padding-left:20px; font-size:14px; line-height:20px}
+    .bottom-cart-wrap .bar-wrap.care-ex .head-area .btn-area .btn-reset span::before {width:20px; height:20px}
     .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select > ul > li {width:100%}
     .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select .box {min-height:150px; padding:24px 36px 24px 24px; border-radius:4px}
     .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select .box .img-wrap {width:85px; height:85px; margin-right:20px}
@@ -1354,12 +1357,6 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select .box .txt-wrap .price {font-size:18px; font-weight:bold; line-height:22px}
     .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select .box.no-item .no-item-txt {font-size:13px; line-height:19px}
     .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select .box .btn-close {width:24px; height:24px}
-    .bottom-cart-wrap .bar-wrap.care-ex .foot-area {position:static; padding:0}
-    .bottom-cart-wrap .bar-wrap.care-ex .foot-area .btn-area {position:static; padding:21px 0 30px}
-    .bottom-cart-wrap .bar-wrap.care-ex .foot-area .btn-area .btn-res {display:block; margin:0 auto; padding:0 35px}
-    .bottom-cart-wrap .bar-wrap.care-ex .foot-area .btn-area .btn-reset {position:absolute; top:11px; right:50px}
-    .bottom-cart-wrap .bar-wrap.care-ex .foot-area .btn-area .btn-reset span {padding-left:20px; font-size:14px; line-height:20px}
-    .bottom-cart-wrap .bar-wrap.care-ex .foot-area .btn-area .btn-reset span::before {width:20px; height:20px}
 
     /* 상담예약조회 - 인증페이지 */
     .res-main .inq-area .inq-box-area {flex-direction:column}

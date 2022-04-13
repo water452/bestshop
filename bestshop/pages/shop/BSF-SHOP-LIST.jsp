@@ -388,11 +388,28 @@
             var _ths = $(this);
             if(_ths.hasClass('btn-filter')){
                 $('.result-filter').stop().animate({'margin-right':'0'}, 200);
+                $('.filter-title').stop().animate({'margin-right':'0'}, 200);
+                $('.result-filter .btn-area').stop().animate({'margin-right':'0'}, 200);
+                $('.filter-close').stop().animate({'margin-right':'0'}, 200);
                 $('.result-filter .dimmde').fadeIn(100);
                 $('.floating-block').fadeOut(100); // floating menu hide
                 $('#content').addClass('overDime');
+
+                $('li.nav-anchor > a').click(function(){
+                    $('.result-filter').stop().animate({'margin-right':'-100%'}, 200);
+                    $('.filter-title').stop().animate({'margin-right':'-100%'}, 200);
+                    $('.result-filter .btn-area').stop().animate({'margin-right':'-100%'}, 200);
+                    $('.filter-close').stop().animate({'margin-right':'-100%'}, 200);
+                    $('.result-filter .dimmde').fadeOut(100);
+                    $('.floating-block').fadeIn(100); // floating menu show
+                    $('#content').removeClass('overDime');
+                });
+
             } else {
                 $('.result-filter').stop().animate({'margin-right':'-100%'}, 200);
+                $('.filter-title').stop().animate({'margin-right':'-100%'}, 200);
+                $('.result-filter .btn-area').stop().animate({'margin-right':'-100%'}, 200);
+                $('.filter-close').stop().animate({'margin-right':'-100%'}, 200);
                 $('.result-filter .dimmde').fadeOut(100);
                 $('.floating-block').fadeIn(100); // floating menu show
                 $('#content').removeClass('overDime');
@@ -442,6 +459,7 @@
             }, 200);
             
             $(this).parents('li').addClass('active').siblings('li').removeClass('active');
+
         });
 
         // if($(window).width() <= 767){
@@ -450,7 +468,7 @@
         //         var parTop = $('.result-body ul').position().top;
         //         var _thsTop2 = $('.result-body ul li.active').position().top;
         //         setTimeout(function() {
-        //             $('.result-body ul').scrollTop(_thsTop2);
+        //             $('.result-body ul').animate({scrollTop:_thsTop2},200)
         //         },300);
                 
         //     });

@@ -355,11 +355,12 @@ ul.input-list-type .txt-box .input-wrap{width:100%;}
     .shop-search-wrap .shop-search-body .btn-area.innerMap .btn:active {color: #fff!important; background-color: #da0f47!important;}
 
     .search-result .result-filter{display:block;overflow:hidden;position:fixed;top:0;bottom:auto;left:auto;right:0;width:100%;height:100%;padding:0;margin-right:-100%;background:transparent;box-shadow:none;z-index:9999;}
-    .search-result .result-filter .result-filter-detail{position:absolute;top:0;right:0;width:250px;height:100%;padding:48px 16px;background:#fff;z-index:1;}
+    .search-result .result-filter .result-filter-detail{position:absolute;top:0;right:0;width:260px;height:100%;padding:88px 16px 70px;background:#fff;z-index:1;overflow-y:auto;}
     .search-result .result-filter .filter-list{padding:32px 0;}
-    .search-result .result-filter .filter-title{padding-bottom:15px;}
-    .search-result .result-filter .filter-close{top:48px;right:10px;}
-    .search-result .result-filter .btn-area{position:absolute;top:48px;right:37px;margin-top:0;}
+    .search-result .result-filter .filter-title{position:fixed;width:260px;top:0;left:auto;right:0;bottom:auto;margin-right:-100%;padding:48px 16px 15px;border:0;background-color:#fff;z-index:2;}
+    .search-result .result-filter .filter-title::after{content:'';display:block;position:absolute;left:16px;right:16px;bottom:0;height:1px;border-bottom:1px solid #000}
+    .search-result .result-filter .filter-close{position:fixed;top:48px;right:10px;margin-right:-100%;z-index:3;}
+    .search-result .result-filter .btn-area{position:fixed;top:48px;right:37px;margin-top:0;margin-right:-100%;z-index:3;}
     .search-result .result-filter .btn-area .btn-reset{width:24px;height:24px;font-size:0;padding:0;background-image:url('../images/icons/icon_reset.svg');background-position:0 0;background-size:contain;}
     .search-result .result-filter .dimmde{display:none;content:'';position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.7);}
 
