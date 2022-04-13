@@ -103,6 +103,10 @@ function mobileMenutoggle(){
     $('li.nav-anchor > a').click(function(){
         $('body, html').toggleClass('scroll-fixed');
         $('.mega-gnb-mobile').toggleClass('active');
+        if($('.lay-filter').hasClass('active')) {
+            $('.lay-filter').removeClass('active');
+            $('body, html').addClass('scroll-fixed');
+        }
     });
 }
 

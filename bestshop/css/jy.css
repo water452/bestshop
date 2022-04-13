@@ -912,6 +912,7 @@ li[class*="blt"], li > [class*="blt"] { display: block; }
     .ev-detail-con .notice-wrap { margin-top: 50px; padding-top: 45px; }
     .ev-detail-con .agree-box + .btn-area,
     .ev-detail-con .btn-area { margin-top: 40px; }
+    .agree-cont-wrap .agree-cont-box .txt01 { font-size: 14px; line-height: 20px; }
     .bullet-list.ty-box { margin-top: 40px; padding: 20px; }
     .limit-box { padding-bottom: 23px; }
     .limit-txt-box { padding: 0 px; line-height: 15px; font-size: 10px; }

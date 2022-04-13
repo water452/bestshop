@@ -824,17 +824,18 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .plp-list-wrap .lay-filter {display:none; position:fixed; top:0; left:0; right:0; bottom:0; width:100%; margin-right:0; padding:48px 16px 0; z-index:9000}
     .plp-list-wrap .lay-filter.active {display:block}
     .plp-list-wrap .lay-filter.active .dimmed {display:block}
-    .plp-list-wrap .lay-filter .lay-fliter-con {position:absolute; top:0; right:0; bottom:0; width:260px; padding:50px 16px 70px; z-index:9000}
-    .plp-list-wrap .lay-filter .filter-head {padding-bottom:14px; border-bottom:1px solid #000}
+    .plp-list-wrap .lay-filter .lay-fliter-con {position:absolute; top:0; right:0; bottom:0; width:260px; padding:87px 16px 70px; overflow-y:auto; z-index:9000}
+    .plp-list-wrap .lay-filter .filter-head {position:fixed; top:0; right:0; width:260px; padding:50px 16px 14px; border:0; background-color:#fff; z-index:1}
+    .plp-list-wrap .lay-filter .filter-head::after {content:''; display:block; position:absolute; left:16px; right:16px; bottom:0; height:1px; border-bottom:1px solid #000}
     .plp-list-wrap .lay-filter .filter-head .tit {padding-right:67px; font-size:16px; line-height:22px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
     .plp-list-wrap .lay-filter .plp-filter-wrap .box {border-bottom:0; border-top:1px solid #ddd}
     .plp-list-wrap .lay-filter .plp-filter-wrap .box:first-of-type {border-top:0}
     .plp-list-wrap .lay-filter .plp-filter-wrap .box .tit {padding:32px 0 22px; font-size:16px; line-height:22px}
-    .plp-list-wrap .lay-filter .plp-filter-wrap .btn-area .btn-reset {position:absolute; width:24px; height:24px; top:49px; right:52px; padding:0}
+    .plp-list-wrap .lay-filter .plp-filter-wrap .btn-area .btn-reset {position:fixed; width:24px; height:24px; top:49px; right:52px; padding:0; z-index:2}
     .plp-list-wrap .lay-filter .plp-filter-wrap .btn-area .btn-reset > span {display:block; font-size:0; text-indent:-9999em}
     .plp-list-wrap .lay-filter .plp-filter-wrap .btn-area .btn-reset::after {width:100%; height:100%; top:0; left:0; right:0; bottom:0; background-image:url(../images/icons/icon-reset-48.svg); background-repeat:no-repeat; background-position:center; background-size:24px 24px}
     .plp-list-wrap .lay-filter .plp-filter-wrap .box .filter-list .check-box input + label::after {top:0}
-    .plp-list-wrap .lay-filter .plp-filter-wrap .filter-close {position:absolute; top:49px; right:16px; display:block; width:24px; height:24px}
+    .plp-list-wrap .lay-filter .plp-filter-wrap .filter-close {position:fixed; top:49px; right:16px; display:block; width:24px; height:24px; z-index:2}
     .plp-list-wrap .lay-filter .plp-filter-wrap .filter-close .btn-close {width:100%; height:100%; background-image:url(../images/icons/btn-close-24-black.svg); background-repeat:no-repeat; background-position:center; background-size:24px 24px}
 
     .plp-list-wrap .pdt-list-area {width:100%}
