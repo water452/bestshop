@@ -194,16 +194,25 @@
 <jsp:include page="../../templates/common/footer.jsp" />
 
 <script>
+    var _thsW = $(window).width();
+
     $(window).on('load', function(){
         
         $('section:first-child').addClass('on');
     });
 
     $(window).scroll(function(){
-        
         $('.brand .wrap > section').each(function(){
-            var _top = $(window).scrollTop(),
-                _thsTop = parseInt($(this).offset().top) - 400;
+
+            if(_thsW > 767) {
+                
+                var _top = $(window).scrollTop(),
+                    _thsTop = parseInt($(this).offset().top) - 700;
+            } else {
+
+                var _top = $(window).scrollTop(),
+                    _thsTop = parseInt($(this).offset().top) - 600;
+            }
 
             if(_top > _thsTop){
                 $(this).addClass('on')
