@@ -120,7 +120,7 @@
             </div>
             <!-- //이벤트배너 -->
             <div class="notice-bar">
-                <p class="txt-notice">사전 알림 신청으로 베스트샵 Live의 특별한 혜택을 놓치지 마세요.</p>
+                <p class="txt-notice">사전 알림 신청으로 <br class="pc-hidden">베스트샵 Live의 특별한 혜택을 놓치지 마세요.</p>
                 <a href="#popup-alert-login" class="btn border btnPopOpen">알림 신청</a>
             </div>
             <div class="sec-area">

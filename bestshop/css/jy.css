@@ -221,6 +221,7 @@ ul.input-cate-type .cate-tit > .icon.apple-watch { background: url("../images/ic
 .notice-bar { padding: 15px 40px; border-bottom: 1px solid #ddd; text-align: center; }
 .notice-bar > * { vertical-align: middle; }
 .notice-bar > * + * { margin-left: 30px; }
+.notice-bar .btn:focus { border-color: #000 !important; background: transparent; color: #000; }
 .txt-notice { display: inline-block; line-height: 26px; font-size: 18px; font-weight: bold; }
 .sec-area { padding-top: 52px; }
 .btn-txt-more { position: relative; padding-right: 20px; line-height: 20px; font-size: 14px; text-decoration: underline; }

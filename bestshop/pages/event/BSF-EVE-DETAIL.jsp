@@ -99,7 +99,7 @@
                                 <ul>
                                     <li class="lists">
                                         <span class="radio-btn">
-                                            <input type="radio" id="rdo01" name="rdo1" checked>
+                                            <input type="radio" id="rdo01" name="rdo1"><!-- checked 삭제 -->
                                             <label for="rdo01">3월 1주차 (2022.03.01~2022.03.05)</label>
                                         </span>
                                     </li>
