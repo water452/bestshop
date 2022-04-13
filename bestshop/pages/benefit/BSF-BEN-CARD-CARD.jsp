@@ -17,16 +17,20 @@
             <div class="explan-box">
                 <div class="tit">베스트플러스할부 혜택</div>
                 <p class="txt-desc subtit">결제금액대별 혜택</p>
-                <p class="txt-desc">- 이용 충족시 : 추가 최대 +5% (70만원) 캐시백</p>
-                <ul>
+                <ul class="dash">
+                    <li>이용 충족시 : 추가 최대 +5% (70만원) 캐시백</li>
+                </ul>
+                <ul class="bullet">
                     <li>추가 이용충족은 결제 다음달 말일까지 LG전자 베스트샵 이외 가맹점에서 100만원 추가 이용시 지급</li>
                 </ul>
             </div>
             <div class="explan-box">
                 <div class="tit">베스트라이프교원PLUS</div>
                 <p class="txt-desc subtit">최대 260만원 가전구매 지원</p>
-                <p class="txt-desc">- 599상품 2구좌 만기 납입시</p>
-                <ul>
+                <ul class="dash">
+                    <li>599상품 2구좌 만기 납입시</li>
+                </ul>
+                <ul class="bullet">
                     <li>베스트플러스할부 결제시 : 추가 최대 70만원 캐시백</li>
                 </ul>
                 <p class="bold-txt">※ 1,2번 혜택 중복적용 가능</p>
@@ -38,7 +42,7 @@
                         <tr>
                             <th scope="col">URS</th>
                             <th scope="col">MASTER</th>
-                            <th scope="col">MASTER (플래티늄)</th>
+                            <th scope="col">MASTER <br class="mo only_mo"> (플래티늄)</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -58,7 +62,7 @@
                         </tr>
                     </tbody>
                 </table>
-                <ul>
+                <ul class="bullet">
                     <li>계약을 체결전, 반드시 상품설명서 및 약관을 확인하시기 바랍니다.</li>
                     <li>금융소비자는 금융소비자보호법 제19조 제1항에 따라 해당 금융상품 또는 서비스에 대하여 설명 받을 권리가 있습니다.</li>
                     <li>신용카드 발급이 부적정한 경우(개인신용평점 낮음,연체(단기 포함) 사유 발생 등), 카드발급이 제한될 수 있습니다.</li>
@@ -98,8 +102,8 @@
                 <div class="tit">장기할부 혜택</div>
                 <p class="txt-desc"><b>48개월 무이자 혜택</b> + 결제금액별 조건부 캐시백</p>
                 <p class="txt-desc">→ 익월말까지 타가맹점 실적 100만원 <b>사용시</b></p>
-                <ul>
-                    <li><b>3/1 ~ 3/31 기간</b>내에 48개월 할부 ('93'할부코드) 결제시에만 적용됩니다.</li>
+                <ul class="bullet">
+                    <li><b>4/1 ~ 4/30 기간</b>내에 48개월 할부 ('93'할부코드) 결제시에만 적용됩니다.</li>
                 </ul>
             </div>
             <div class="explan-box">
@@ -115,16 +119,16 @@
                         <tr>
                             <td>
                                 <span class="pay">22,000원</span>
-                                <span class="txt">(기본 7,000원 + 서비스 15,000원)</span>
+                                <span class="txt">(기본 7,000원 <br class="mo only_mo"> + 서비스 15,000원)</span>
                             </td>
                             <td>
                                 <span class="pay">25,000원</span>
-                                <span class="txt">(기본 7,000원 + 서비스 18,000원)</span>
+                                <span class="txt">(기본 7,000원 <br class="mo only_mo"> + 서비스 18,000원)</span>
                             </td>
                         </tr>
                     </tbody>
                 </table>
-                <ul>
+                <ul class="bullet">
                     <li>계약을 체결전, 반드시 상품설명서 및 약관을 확인하시기 바랍니다.</li>
                     <li>금융소비자는 금융소비자보호법 제19조 제1항에 따라 해당 금융상품 또는 서비스에 대하여 설명 받을 권리가 있습니다.</li>
                     <li>신용카드 발급이 부적정한 경우(개인신용평점 낮음,연체(단기 포함) 사유 발생 등), 카드발급이 제한될 수 있습니다.</li>
@@ -163,8 +167,10 @@
             <div class="explan-box">
                 <div class="tit">장기할부 혜택</div>
                 <p class="txt-desc">24/36개월 무이자 + 할부금 청구 할인(최대 월 2만원)</p>
-                <p class="txt-desc">-  청구 전월 제휴카드를 30/70/100만 이상 이용 시, 각 1.0만/1.5만/2만원 제공</p>
-                <ul>
+                <ul class="dash">
+                    <li>청구 전월 제휴카드를 30/70/100만 이상 이용 시, 각 1.0만/1.5만/2만원 제공</li>
+                </ul>
+                <ul class="bullet">
                     <li>단, 무이자 매출/아파트관리비/세금/공공요금/수수료/면회비 제외</li>
                     <li>장기 할부 미이용(월 할부금 선결제 포함) 또는 상환 종료 시에는 할인이 제공되지 않습니다.</li>
                     <li>장기할부 건이 여러 건인 경우에도 합산하여 할인 한도 내에서 통합 할인이 제공됩니다.</li>
@@ -190,8 +196,10 @@
             <div class="explan-box">
                 <div class="tit">결제 혜택</div>
                 <p class="txt-desc">6/12/24/36개월 슬림 할부 시 결제 금액대별 캐시백</p>
-                <p class="txt-desc">- 300만/500만/700만/1,000만원 이상 결제 시, 15만/25만/35만/50만원 캐시백</p>
-                <ul>
+                <ul class="dash">
+                    <li>300만/500만/700만/1,000만원 이상 결제 시, 15만/25만/35만/50만원 캐시백</li>
+                </ul>
+                <ul class="bullet">
                     <li>슬림 할부 결제 시 적용 가능합니다.</li>
                     <li>수수료율 : 6/12개월 시 1% , 24/36개월 시 2%</li>
                 </ul>
@@ -214,7 +222,9 @@
             <div class="explan-box">
                 <div class="tit">결제 혜택</div>
                 <p class="txt-desc">일시불 결제 시, 금액대별 혜택</p>
-                <p class="txt-desc">- 300/500/700/1,000만원 이상 결제 시, 10/20/30/50만원 캐시백</p>
+                <ul class="dash">
+                    <li>300/500/700/1,000만원 이상 결제 시, 10/20/30/50만원 캐시백</li>
+                </ul>
             </div>
         </div>
     </div><!-- //.static-block -->
@@ -234,8 +244,10 @@
             <div class="explan-box">
                 <div class="tit">결제 혜택</div>
                 <p class="txt-desc">세이브 결제 시, 금액대별 혜택</p>
-                <p class="txt-desc">- 300만/500만/700만/1000만 이상 결제 시, 15만/25만/35만/50만원 캐시백</p>
-                <ul>
+                <ul class="dash">
+                    <li>300만/500만/700만/1000만 이상 결제 시, 15만/25만/35만/50만원 캐시백</li>
+                </ul>
+                <ul class="bullet">
                     <li>세이브 약정 20만원 이상 시, 금액대별 캐시백 혜택 적용됩니다.</li>
                     <li>카드 승인기준 금, 토, 일, 월 결제 시 혜택 적용됩니다.</li>
                 </ul>

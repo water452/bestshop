@@ -1,5 +1,10 @@
 <%@ page contentType="text/html; charset=utf-8" %>
 <div class="static-type">
+    <div class="static-tit">
+        <div class="tit">카드사별 무이자 혜택</div>
+        <span class="desc">신용카드 한정 / 법인, 기업, 선불카드 제외</span>
+    </div>
+
     <div class="static-block">
         <div class="thumb">
             <img src="/bestshop/images/img_benefit_cate01.png" alt="신한카드">
@@ -22,7 +27,7 @@
         <div class="cont-block">
             <div class="title">KB국민카드</div>
             <div class="explan-box">
-                <p class="txt-desc">- 2~5개월 무이자 (5만원 이상 결제 시)</p>
+                <p class="txt-desc">- 2~6개월 무이자 (5만원 이상 결제 시)</p>
                 <p class="txt-desc">- 12개월 무이자 (100만원 이상 결제 시)</p>
             </div>
         </div>
@@ -35,7 +40,7 @@
             <div class="title">농협카드</div>
             <div class="explan-box">
                 <p class="txt-desc">- 2~5개월 무이자 (5만원 이상 결제 시)</p>
-                <p class="txt-desc">- 12개월 무이자 (30만원 이상 결제 시)</p>
+                <p class="txt-desc">- 6/12개월 무이자 (30만원 이상 결제 시)</p>
             </div>
         </div>
     </div><!-- //.static-block -->
@@ -46,7 +51,7 @@
         <div class="cont-block">
             <div class="title">우리카드</div>
             <div class="explan-box">
-                <p class="txt-desc">- 2~5개월 무이자 (5만원 이상 결제 시)</p>
+                <p class="txt-desc">- 2~7개월 무이자 (5만원 이상 결제 시)</p>
             </div>
         </div>
     </div><!-- //.static-block -->
@@ -61,6 +66,7 @@
             </div>
         </div>
     </div><!-- //.static-block -->
+    <!-- 220413 삭제
     <div class="static-block">
         <div class="thumb">
             <img src="/bestshop/images/img_benefit_cate06.png" alt="씨티카드">
@@ -71,7 +77,7 @@
                 <p class="txt-desc">- 2~5개월 무이자 (5만원 이상 결제 시)</p>
             </div>
         </div>
-    </div><!-- //.static-block -->
+    </div> //.static-block -->
     <div class="static-block">
         <div class="thumb">
             <img src="/bestshop/images/img_benefit_cate07.png" alt="현대카드">
