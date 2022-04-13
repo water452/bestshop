@@ -36,7 +36,8 @@
 .brand .swiper[class*="brand"] .swiper-slide .slide-img-wrap img {position:absolute; display:block; width:100%; min-width:100%; height:auto; min-height:100%; top:50%; left:50%; transform:translate(-50%,-50%)}
 .brand .swiper[class*="brand"] .swiper-slide .slide-img-wrap:hover img {transform:translate(-50%,-50%) scale(1.2); transition:all ease-out 0.8s}
 .brand .video-area {width:100%; max-width:1380px; margin:0 auto}
-.brand .video-wrap {width:100%; height:auto; padding-bottom:56.23%; overflow:hidden}
+.brand .video-wrap {padding-bottom:56.23%; overflow:hidden}
+.brand .video-area video {background:transparent url('../images/img-about-brand-02.jpg') 50% 50% / cover no-repeat}
 .brand .video-wrap .btn-play {position:absolute; width:130px; height:130px; top:calc(50% - 65px); left:calc(50% - 65px); background:url(../images/icons/btn-play-video-white.svg) no-repeat center / contain}
 
 /* mobile */

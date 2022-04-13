@@ -138,9 +138,9 @@
                     </div>
                     <div class="video-area">
                         <div class="video-wrap">
-                            <video playsinline="" muted="">
+                            <video playsinline="" muted="" preload="none" class="videoPoster" loop>
                                 <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
-                                <p>LG전자 베스트샵 소개 영상</p>
+                                <p>LG전자 회사소개 동영상</p>
                             </video>
                             <button type="button" class="btn-play"><span class="blind">비디오 재생</span></button>
                         </div>

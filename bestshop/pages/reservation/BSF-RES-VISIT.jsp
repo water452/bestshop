@@ -114,7 +114,7 @@
                                     <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
                                     <p>LG전자 회사소개 동영상</p>
                                 </video>
-                                <video class="mobileOnly" playsinline="" muted="" poster="../../images/img-benefit-month-slide-test-mo.png" class="videoPoster" loop> <!-- mobile only -->
+                                <video class="mobileOnly" playsinline="" muted="" poster="../../images/img-about-brand-02_mo.jpg" class="videoPoster" loop> <!-- mobile only -->
                                     <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
                                     <p>LG전자 회사소개 동영상</p>
                                 </video>
