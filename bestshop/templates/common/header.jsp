@@ -49,7 +49,7 @@
         <div class="header-wrap pc">
             <h1 class="logo">
                 <a href="/bestshop">
-                    <img src="/bestshop/images/icons/logo-bestshop.png" alt="LG전자 BEST SHOP">
+                    <img src="/bestshop/images/icons/logo-bestshop.svg" alt="LG전자 BEST SHOP">
                 </a>
             </h1>
 
@@ -272,7 +272,7 @@
         <div class="header-wrap mobile">
             <h1 class="logo">
                 <a href="/bestshop">
-                    <img src="/bestshop/images/icons/logo-bestshop_mo.png" alt="LG전자 BEST SHOP">
+                    <img src="/bestshop/images/icons/logo-bestshop_mo.svg" alt="LG전자 BEST SHOP">
                 </a>
             </h1>
 

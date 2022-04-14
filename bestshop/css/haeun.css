@@ -770,7 +770,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 .err-msg-area .err-msg-small > span {display:block}
 .err-msg-area .err-msg-gray {margin-top:40px; color:#666; font-size:16px; line-height:24px}
 .err-msg-area .err-msg-gray > span {display:block}
-.err-msg-area .logo-wrap {width:275px; margin:58px auto 0}
+.err-msg-area .logo-wrap {width:255px; margin:58px auto 0}
 .err-msg-area .logo-wrap img {display:block; width:100%}
 .err-msg-area .btn-area {margin-top:80px}
 .contents.no-header {position:fixed; left:0; right:0; top:0; bottom:0}

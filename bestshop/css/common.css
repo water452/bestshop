@@ -659,7 +659,14 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 .autoBtn.btn-play{background-image:url('../images/icons/btn_mega_bnr_play.svg');}
 .autoBtn.btn-pause{background-image:url('../images/icons/btn_mega_bnr_pause.svg');}
 
+/* 임시 */
 .res-main .sticky-info-wrap.fixed {z-index:102}
+.shop-date-wrap .map-wrap {overflow:hidden}
+@media screen and (max-width:767px){
+	.map-wrap > .input-select-type {margin-bottom:19px!important}
+	.map-wrap .api-area {margin:-11px!important; border:none!important; border-radius:0!important}/* important 추후 삭제 예정 */
+}
+/* //임시  */
 
 @media screen and (min-width:768px){
 	.header{border-bottom:1px solid #ddd;}
