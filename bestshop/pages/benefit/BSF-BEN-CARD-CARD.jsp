@@ -49,15 +49,15 @@
                         <tr>
                             <td>
                                 <span class="pay">10,000원</span>
-                                <span class="txt">(기본 5,000원 + 서비스 5,000원)</span>
+                                <span class="txt">(기본 5,000원 <br class="mo only_mo"> + 서비스 5,000원)</span>
                             </td>
                             <td>
                                 <span class="pay">12,000원</span>
-                                <span class="txt">(기본 5,000원 + 서비스 7,000원)</span>
+                                <span class="txt">(기본 5,000원 <br class="mo only_mo"> + 서비스 7,000원)</span>
                             </td>
                             <td>
                                 <span class="pay">22,000원</span>
-                                <span class="txt">(기본 5,000원 + 서비스 17,000원)</span>
+                                <span class="txt">(기본 5,000원 <br class="mo only_mo"> + 서비스 17,000원)</span>
                             </td>
                         </tr>
                     </tbody>
