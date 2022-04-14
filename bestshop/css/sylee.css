@@ -329,9 +329,9 @@ ul.input-list-type .txt-box .input-wrap{width:100%;}
     .search-result .result-head .txt-box{font-size:12px;line-height:18px;}
     .search-result .result-head .btn-filter{width:24px;height:24px;}
 
-    .search-result .result-body{padding:14px 0;}
+    .search-result .result-body{padding:14px 0;overflow-y:auto;}
     .search-result .result-body.active{height:calc(100% - 35px);}
-    .search-result .result-body ul{width:100%;padding-bottom:0;}
+    .search-result .result-body ul{width:100%;padding-bottom:0;overflow-y:initial;}
     .search-result .result-body ul.mCS_no_scrollbar{padding-right:0;}
     .search-result .result-body ul li{max-width:100%; padding-bottom:14px;margin-bottom:14px;}
     .search-result .result-body ul li a.base-link{padding-left:25px;}

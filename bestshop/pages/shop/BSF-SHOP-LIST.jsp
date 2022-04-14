@@ -462,18 +462,51 @@
 
         });
 
-        // if($(window).width() <= 767){
-        //     $('.map-balloon').on('click', function(){
+        
 
-        //         var parTop = $('.result-body ul').position().top;
-        //         var _thsTop2 = $('.result-body ul li.active').position().top;
-        //         setTimeout(function() {
-        //             $('.result-body ul').animate({scrollTop:_thsTop2},200)
-        //         },300);
-                
-        //     });
-        // };
+    // //매장 클릭으로 조회할 때 ScrollTo action
+    // // onclick="shopListTargetScroll(index, section)"
 
+    // var _thsW = $(window).width();
+	// /* custom scrollbar toggle */
+    // function shopListTargetScroll(clickTarget, section){
+    //     //active표시 - 마커, 리스트 
+    //     for(var i = 0 ; i <  markersList.length; i++){
+    //         if( i == clickTarget){
+    //             $("#Marker" + i).addClass('active');
+    //             $("#Store" + i).addClass('active');
+    //         } else {		
+    //             $("#Marker" + i).removeClass('active');
+    //             $("#Store" + i).removeClass('active');
+    //         }
+    //     }
+        
+    //     //map center 변경
+    //     //map.setCenter(new naver.maps.LatLng(shopData[clickTarget].gpsY,shopData[clickTarget].gpsX));
+        
+    //     //줌 설정
+    //     nowZoom = map.getZoom();
+    //     map.morph(new naver.maps.LatLng(shopData[clickTarget].gpsY,shopData[clickTarget].gpsX), nowZoom, 'easeInCubic');
+
+    //     if(section == 'marker' && _thsW <  767){		
+    //         //(모바일일 때)리스트 강제로 오픈
+    //         $('.shop-search-wrap .mToggle').trigger('click');
+    //     }
+        
+    //     //스크롤 변경
+    //     var _thsTop = $('#Store' + clickTarget).position().top;
+    //     setTimeout(function() {
+    //         $('.result-body .mCustomScrollbar').mCustomScrollbar("scrollTo", _thsTop);
+    //     }, 200);
+    //     if(_thsW < 768){
+    //         setTimeout(function() {
+    //             $('.result-body').animate({scrollTop:_thsTop},200)
+    //         }, 200);
+    //     }
+    // }
+
+
+    
         filterDetailToggleMenu();
         checkReset();
         descPopClose();
