@@ -630,9 +630,9 @@
 </div>
 <!-- // container -->
 
-<!-- 선택한 소모품(장바구니) 영역 -->
+<!-- 선택 제품(장바구니) 영역 -->
 <jsp:include page="../../templates/reservation/input-myselect-cart-pro.jsp" /> <!-- //input-myselect-cart-pro.jsp -->
-<!-- // 선택한 소모품(장바구니) 영역 -->
+<!-- // 선택 제품(장바구니) 영역 -->
 
 <!-- dim -->
 <div class="dim"> </div>
@@ -786,7 +786,7 @@
 
 
         // 선택한 제품(장바구니) 영역
-        $('.bottom-cart-wrap .head-area').on('click', function () {
+        $('.bottom-cart-wrap .head-area .head-txt-area, .bottom-cart-wrap .btn-area .view-more').on('click', function () {
             $(this).closest('.bottom-cart-wrap').toggleClass('active');
             $('.bottom-cart-wrap .body-area').stop().slideToggle();
             $('.bottom-cart-wrap .foot-area').stop().slideToggle();

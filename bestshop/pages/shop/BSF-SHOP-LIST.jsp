@@ -504,7 +504,7 @@
     //         }, 200);
     //     }
     // }
-
+    
 
     
         filterDetailToggleMenu();

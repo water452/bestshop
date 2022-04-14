@@ -763,9 +763,9 @@
 </div>
 <!-- // container -->
 
-<!-- 선택한 소모품(장바구니) 영역 -->
+<!-- 선택 제품(장바구니) 영역 -->
 <jsp:include page="../../templates/reservation/input-myselect-cart.jsp" /> <!-- //input-myselect-cart.jsp -->
-<!-- // 선택한 소모품(장바구니) 영역 -->
+<!-- // 선택 제품(장바구니) 영역 -->
 
 <!-- dim -->
 <div class="dim"> </div>

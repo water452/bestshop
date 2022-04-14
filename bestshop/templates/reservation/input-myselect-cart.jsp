@@ -2,8 +2,14 @@
 <div class="bottom-cart-wrap"><!-- active 클래스 추가 -->
     <div class="bar-wrap care-ex">
         <div class="head-area">
-            <p class="head-txt">선택한 소모품 <span><em>2</em>/3</span></p>
-            <button type="button" class="view-more"><span class="blind">펼쳐보기</span></button>
+            <div class="head-txt-area">
+                <p class="head-txt">선택 제품 <span><em>2</em>/3</span></p>
+            </div>
+            <div class="btn-area">
+                <button type="button" class="btn btn-reset"><span>초기화</span></button>
+                <button type="button" class="btn btn-res">상담예약</button>
+                <button type="button" class="view-more"><span class="blind">펼쳐보기</span></button>
+            </div>
         </div>
         <div class="body-area">
             <div class="my-select">
@@ -32,12 +38,6 @@
                         </div>
                     </li>
                 </ul>
-            </div>
-        </div>
-        <div class="foot-area">
-            <div class="btn-area">
-                <button type="button" class="btn btn-reset"><span>초기화</span></button>
-                <button type="button" class="btn btn-res">소모품 구매 예약</button>
             </div>
         </div>
     </div>

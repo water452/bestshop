@@ -254,8 +254,8 @@ ul.input-base-type .chkrdo-btn input:checked + label {border-width:2px; line-hei
 .map-wrap .api-area .btn-area.innerMap {position:absolute; display:block; bottom:20px; right:20px; margin:0}
 .map-wrap .api-area .popup.toast {position:absolute}
 
-.map-circle {position:relative; display:inline-block; min-width:78px; max-width:104px; min-height:78px; max-height:104px; padding:20px; color:#fff; text-align:center; border-radius:50%; box-shadow:0 3px 6px 0 rgba(0, 0, 0, 0.16); opacity:0.8}
-.map-circle::after {content:''; display:block; position:absolute; width:100%; height:auto; left:50%; top:50%; transform:translate(-50%,-50%); padding-bottom:100%; border-radius:50%; background-color:#da0f47; z-index:-1}
+.map-circle {position:relative; display:inline-block; min-width:78px; max-width:104px; min-height:78px; max-height:104px; padding:20px; color:#fff; text-align:center; border-radius:50%; opacity:0.8}
+.map-circle::after {content:''; display:block; position:absolute; width:100%; height:auto; left:50%; top:50%; transform:translate(-50%,-50%); padding-bottom:100%; border-radius:50%; background-color:#da0f47; z-index:-1; box-shadow:0 3px 6px 0 rgba(0, 0, 0, 0.16)}
 .map-circle span {display:block; font-size:14px; font-weight:500; line-height:20px}
 .map-circle strong {display:block; font-size:20px; font-weight:500; line-height:28px}
 
@@ -472,7 +472,7 @@ ul.input-acco-type .check-box .agr-txt-wrap .inner > ul > li > p {padding-left:1
 .res-main.care .popup.v-large .pop-wrap {width:calc(100% - 80px); max-width:1380px}
 
 .res-main .sticky-info-wrap {margin-bottom:70px; background-image:linear-gradient(to right,#a58bee,#f86791)}
-.res-main .sticky-info-wrap.fixed {position:fixed; top:0; left:0; right:0; width:100%; z-index:5}
+.res-main .sticky-info-wrap.fixed {position:fixed; top:0; left:0; right:0; width:100%; z-index:102}
 .res-main .sticky-info-wrap .inner {position:relative; max-width:1460px; margin:0 auto; padding:25px 40px}
 .res-main .sticky-info-wrap .info-txt {color:#fff; font-size:16px; font-weight:500; line-height:24px}
 .res-main .sticky-info-wrap .info-txt > .cate-name {position:relative; padding-right:61px}
@@ -638,18 +638,19 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 .pdt-list-area .list-wrap .pdt-list + .btn-area {display:block!important; margin:25px auto 0!important}
 
 .bottom-cart-wrap {position:fixed; bottom:0; left:0; right:0; background-color:#fff; box-shadow:0 -3px 6px 0 rgba(0, 0, 0, 0.16); z-index:9}
-.bottom-cart-wrap .bar-wrap.care-ex {width:100%; max-width:1460px; margin:0 auto; padding:0 40px 5px}
-.bottom-cart-wrap .bar-wrap.care-ex .head-area {position:relative; padding:37px 0 30px}
-.bottom-cart-wrap .bar-wrap.care-ex .head-area .head-txt {font-size:18px; font-weight:bold; line-height:26px}
+.bottom-cart-wrap .bar-wrap.care-ex {width:100%; max-width:1460px; margin:0 auto; padding:0 40px 6px}
+.bottom-cart-wrap .bar-wrap.care-ex .head-area {position:relative; display:flex; justify-content:space-between; align-items:center}
+.bottom-cart-wrap .bar-wrap.care-ex .head-area .head-txt-area {flex:1; padding:33px 0 27px}
+.bottom-cart-wrap .bar-wrap.care-ex .head-area .head-txt {font-size:18px; font-weight:bold; line-height:32px}
 .bottom-cart-wrap .bar-wrap.care-ex .head-area .head-txt > span {margin-left:5px}
-.bottom-cart-wrap .bar-wrap.care-ex .head-area .view-more {position:absolute; width:40px; height:40px; top:calc(50% - 20px); right:0; background-image:url(../images/icons/icon-arrow-down-24x24.svg); background-repeat:no-repeat; background-position:center; background-size:24px 24px; transform:rotate(180deg)}
-.bottom-cart-wrap .bar-wrap.care-ex .head-area .btn-area {padding:14px 0 24px}
-.bottom-cart-wrap .bar-wrap.care-ex .head-area .btn-area .btn-reset {min-width:0; padding:0 12px; border-color:transparent; background:transparent!important}
+.bottom-cart-wrap .bar-wrap.care-ex .head-area .btn-area {display:flex; align-items:center; margin-right:-4px}
+.bottom-cart-wrap .bar-wrap.care-ex .head-area .btn-area .btn-reset {min-width:0; padding:0 11px; border-color:transparent; background:transparent!important; line-height:30px}
 .bottom-cart-wrap .bar-wrap.care-ex .head-area .btn-area .btn-reset span {position:relative; padding-left:24px; color:#da0f47; font-size:16px; line-height:24px; text-decoration:underline}
 .bottom-cart-wrap .bar-wrap.care-ex .head-area .btn-area .btn-reset span::before {content:''; display:block; position:absolute; width:24px; height:24px; top:0; left:0; background-image:url(../images/icons/icon-reset-pink.svg); background-repeat:no-repeat; background-position:center; background-size:20px 20px}
-.bottom-cart-wrap .bar-wrap.care-ex .head-area .btn-area .btn-res {min-width:152px; margin-left:12px; padding:0 26px}
+.bottom-cart-wrap .bar-wrap.care-ex .head-area .btn-area .btn-res {min-width:0; margin-left:9px; padding:0 11px; font-size:14px; font-weight:500; line-height:30px}
+.bottom-cart-wrap .bar-wrap.care-ex .head-area .btn-area .view-more {width:32px; height:32px; margin-left:20px; background-image:url(../images/icons/icon-arrow-down-24x24.svg); background-repeat:no-repeat; background-position:center; background-size:24px 24px; transform:rotate(180deg)}
 .bottom-cart-wrap.active .bar-wrap.care-ex .head-area .view-more {transform:rotate(0)}
-.bottom-cart-wrap .bar-wrap.care-ex .body-area {display:none}
+.bottom-cart-wrap .bar-wrap.care-ex .body-area {display:none; padding-bottom:48px}
 .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select > ul {display:flex; margin:-6px -6px 0}
 .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select > ul > li {width:calc(100% / 3); padding:6px}
 .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select .box {position:relative; display:flex; align-items:center; height:100%; min-height:148px; padding:11px 36px 11px 23px; border-radius:8px; border:1px solid #ddd}
@@ -1340,21 +1341,23 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 
     .bottom-cart-wrap {bottom:69px}
     .bottom-cart-wrap .bar-wrap.care-ex {position:relative; padding:0 16px}
-    .bottom-cart-wrap .bar-wrap.care-ex .head-area {padding:24px 0}
+    .bottom-cart-wrap .bar-wrap.care-ex .head-area .head-txt-area {padding:26px 0 25px}
     .bottom-cart-wrap .bar-wrap.care-ex .head-area .head-txt {font-size:13px; line-height:19px}
-    .bottom-cart-wrap .bar-wrap.care-ex .head-area .view-more {right:-8px; background-size:20px 20px!important}
-    .bottom-cart-wrap .bar-wrap.care-ex .head-area .btn-area {position:static; padding:21px 0 30px}
-    .bottom-cart-wrap .bar-wrap.care-ex .head-area .btn-area .btn-res {display:block; margin:0 auto; padding:0 35px}
-    .bottom-cart-wrap .bar-wrap.care-ex .head-area .btn-area .btn-reset {position:absolute; top:11px; right:50px}
+    .bottom-cart-wrap .bar-wrap.care-ex .head-area .btn-area {margin-right:0}
+    .bottom-cart-wrap .bar-wrap.care-ex .head-area .btn-area .btn-res {margin-left:0; padding:0 15px; font-size:13px; line-height:32px}
+    .bottom-cart-wrap .bar-wrap.care-ex .head-area .btn-area .btn-reset {padding:0 9px; line-height:32px}
     .bottom-cart-wrap .bar-wrap.care-ex .head-area .btn-area .btn-reset span {padding-left:20px; font-size:14px; line-height:20px}
     .bottom-cart-wrap .bar-wrap.care-ex .head-area .btn-area .btn-reset span::before {width:20px; height:20px}
-    .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select > ul > li {width:100%}
-    .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select .box {min-height:150px; padding:24px 36px 24px 24px; border-radius:4px}
-    .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select .box .img-wrap {width:85px; height:85px; margin-right:20px}
+    .bottom-cart-wrap .bar-wrap.care-ex .head-area .btn-area .view-more {width:16px; height:16px; margin-left:10px; background-image:url(../images/icons/icon-arrow-down-32x32.svg); background-size:16px 16px}
+    .bottom-cart-wrap .bar-wrap.care-ex .body-area {max-height:308px; padding-bottom:10px; overflow-y:auto}
+    .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select > ul {margin:-6px 0 0}
+    .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select > ul > li {width:100%; padding:6px 0}
+    .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select .box {min-height:120px; padding:14px 36px 14px 14px; border-radius:8px}
+    .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select .box .img-wrap {width:90px; height:90px; margin-right:20px}
     .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select .box .txt-wrap {width:calc(100% - 105px)}
-    .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select .box .txt-wrap .tit {font-size:15px; line-height:21px}
+    .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select .box .txt-wrap .tit {font-size:14px; line-height:20px}
     .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select .box .txt-wrap .code {margin-top:2px; font-size:13px; line-height:19px}
-    .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select .box .txt-wrap .price {font-size:18px; font-weight:bold; line-height:22px}
+    .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select .box .txt-wrap .price {margin-top:8px; font-size:15px; font-weight:bold; line-height:21px}
     .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select .box.no-item .no-item-txt {font-size:13px; line-height:19px}
     .bottom-cart-wrap .bar-wrap.care-ex .body-area .my-select .box .btn-close {width:24px; height:24px}
 

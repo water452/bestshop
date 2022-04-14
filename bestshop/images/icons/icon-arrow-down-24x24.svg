@@ -1,10 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-    <g fill="none" fill-rule="evenodd">
-        <g>
-            <path d="M0 0H24V24H0z"/>
-            <g stroke="#000" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M4.786 -4L11.214 3.5 4.786 11" transform="translate(4 8.5) rotate(90 8 3.5)"/>
-            </g>
+    <g data-name="그룹 887">
+        <g data-name="그룹 1284">
+            <path data-name="선 92" transform="rotate(180 5.908 8)" style="fill:none;stroke:#000;stroke-linecap:round;stroke-width:2px" d="m0 0 7.816 8"/>
+            <path data-name="선 91" transform="rotate(180 10 8)" style="fill:none;stroke:#000;stroke-linecap:round;stroke-width:2px" d="m0 8 8.171-8"/>
         </g>
     </g>
 </svg>
