@@ -45,8 +45,8 @@
             <section>
                 <div class="sec03">
                     <div class="tit-wrap">
-                        <h3 class="tit">라이프스타일 체험 공간</h3>
-                        <span class="desc">LG전자 베스트샵에서는 프리미엄 가전을 자유롭게 경험하고 <br class="m-hidden">다양한 라이프스타일을 체험하실 수 있습니다.</span>
+                        <h3 class="tit">라이프 스타일 체험 공간</h3>
+                        <span class="desc">LG전자 베스트샵에서는 프리미엄 가전을 자유롭게 경험하고 <br class="m-hidden">다양한 라이프 스타일을 체험하실 수 있습니다.</span>
                     </div>
                     <div class="swiper brand01">
                         <ul class="swiper-wrapper">
@@ -90,7 +90,7 @@
                 <div class="sec04">
                     <div class="tit-wrap">
                         <h3 class="tit">편안한 프리미엄 공간</h3>
-                        <span class="desc">LG전자 베스트샵은 고객님께 생활공간에 딱 맞는 전자제품을 제안하며 <br class="m-hidden">편안한 프리미엄 상담 공간을 제공합니다.</span>
+                        <span class="desc">LG전자 베스트샵은 고객님께 생활 공간에 딱 맞는 전자제품을 제안하며 <br class="m-hidden">편안한 프리미엄 상담 공간을 제공합니다.</span>
                     </div>
                     <div class="swiper brand02">
                         <ul class="swiper-wrapper">
@@ -134,7 +134,7 @@
                 <div class="sec05">
                     <div class="tit-wrap">
                         <h3 class="tit">LG전자 베스트샵 소개 영상</h3>
-                        <span class="desc">당신의 생활공간을 잘 아는 LG베스트샵 생활 맞춤 컨설팅, <br class="m-hidden">가까운 LG베스트샵 매장에서 생활 공간에 딱 맞는 전자제품을 만나보세요.</span>
+                        <span class="desc">당신의 생활 공간을 잘 아는 LG전자 베스트샵 생활 맞춤 컨설팅, <br class="m-hidden">가까운 매장에서 고객님께 딱 맞는 전자제품을 만나보세요.</span>
                     </div>
                     <div class="video-area">
                         <div class="video-wrap">

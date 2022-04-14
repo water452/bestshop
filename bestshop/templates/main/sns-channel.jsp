@@ -3,7 +3,7 @@
     <dl>
         <dt>
             <strong>SNS 채널</strong>
-            <span>LG 베스트샵의 소식을 가장 빠르게 만나보세요!</span>
+            <span>LG전자 베스트샵의 소식을 가장 빠르게 만나보세요!</span>
         </dt>
         <dd>
             <ul>
