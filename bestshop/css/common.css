@@ -494,8 +494,8 @@ select.family-site{display:none;}
 .calendar .ui-datepicker .ui-datepicker-header > a:focus{border:0 none;}
 .calendar .ui-datepicker .ui-datepicker-header > a:focus,
 .calendar .ui-datepicker .ui-datepicker-header > a:active{outline:2px solid #000;}
-.calendar .ui-datepicker .ui-datepicker-header .ui-datepicker-prev{top:37px;left:calc(50% - 93px);transform:rotate(180deg);}
-.calendar .ui-datepicker .ui-datepicker-header .ui-datepicker-next{top:37px;left:calc(50% + 77px);}
+.calendar .ui-datepicker .ui-datepicker-header .ui-datepicker-prev{top:37px;left:calc(50% - 93px);transform:rotate(180deg); cursor:pointer;}
+.calendar .ui-datepicker .ui-datepicker-header .ui-datepicker-next{top:37px;left:calc(50% + 77px); cursor:pointer;}
 .calendar .ui-datepicker .ui-datepicker-title{font-size:24px;font-weight:400;letter-spacing:-0.03em;line-height:40px;}
 .calendar .ui-datepicker .ui-datepicker-title .ui-datepicker-month{margin-left:-3px;}
 .calendar .ui-state-default,
