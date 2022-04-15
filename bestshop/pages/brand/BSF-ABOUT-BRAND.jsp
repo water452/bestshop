@@ -216,8 +216,6 @@
 
             if(_top > _thsTop){
                 $(this).addClass('on')
-            } else {
-                $(this).removeClass('on')
             }
         })
     });
