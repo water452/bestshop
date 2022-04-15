@@ -596,7 +596,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 /* popup - toast */
 /* .popup.toast.float .pop-wrap{bottom:127px} */
 .popup.toast {top:auto;left:50%;right:auto;bottom:16px;width:auto;margin:0 auto;transform:translateX(-50%)}
-.popup.toast .pop-wrap{position:static;transform:translate(0);max-width:444px;padding:17px 54px;background-color:rgba(0,0,0,0.7);border-radius:80px}
+.popup.toast .pop-wrap{position:static;transform:translate(0);width:444px;padding:17px 54px;background-color:rgba(0,0,0,0.7);border-radius:80px}
 .popup.toast .pop-wrap .pop-cont{height:auto;min-height:0;overflow-y:hidden;color:#fff;font-size:16px;font-weight:bold;line-height:24px;text-align:center;}
 .popup.toast .btn-pop-close{top:14px;right:21px;background:url("../images/icons/btn-close-24-white.svg") no-repeat center / contain;}
 
@@ -662,6 +662,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 /* 임시 */
 .res-main .sticky-info-wrap.fixed {z-index:102}
 .shop-date-wrap .map-wrap {overflow:hidden}
+.sort-block + .popup.toast {width:auto!important}/* important 추후 삭제 예정 */
 @media screen and (max-width:767px){
 	.map-wrap > .input-select-type {margin-bottom:19px!important}
 	.map-wrap .api-area {margin:-11px!important; border:none!important; border-radius:0!important}/* important 추후 삭제 예정 */
