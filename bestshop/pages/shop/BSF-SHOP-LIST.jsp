@@ -126,7 +126,7 @@
                         <ul class="custom-scroll">
                             <li class="active"> <!-- 활성화 class = acitve -->
                                 <a href="javascript:void(0);" class="base-link">
-                                    <strong>강남본점</strong>
+                                    <strong>갤러리아 명품관 WEST점</strong>
                                     <span class="interval">300m</span>
                                     <span class="option-list">
                                         <span class="col01">NEW</span>
@@ -135,7 +135,7 @@
                                         <span>LX지인</span>
                                         <span>야간무인</span>
                                     </span>
-                                    <em>서울특별시 강남구 도산대로 403 LG전자 베스트샵 강남본점</em>
+                                    <em>서울특별시 강남구 도산대로 403 LG전자 베스트샵 강남본점 서울특별시 강남구 도산대로 403 LG전자 베스트샵 강남본점</em>
                                 </a>
                                 <p class="sub-info">
                                     <a href="tel:02-3448-5191" class="call-num">02-3448-5191</a>
@@ -457,6 +457,12 @@
             setTimeout(function() {
                 $('.result-body .mCustomScrollbar').mCustomScrollbar("scrollTo", _thsTop);
             }, 200);
+
+            if(_thsW < 768){
+                setTimeout(function() {
+                    $('.result-body').animate({scrollTop:_thsTop},200)
+                }, 200);
+            }
             
             $(this).parents('li').addClass('active').siblings('li').removeClass('active');
 
