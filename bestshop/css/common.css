@@ -780,9 +780,9 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 	.header-wrap{height:auto;padding:0 16px;background:#fff;}
 	.header-wrap.pc{display:none;}
 	.header-wrap.mobile{display:block;}
-	.header-wrap .logo{width:225px; height:27px; margin:10px 0 11px}
-	.header-wrap .logo a {width:100%}
-	.header-wrap .logo a > img {width:100%}
+	.header-wrap .logo{width:auto; height:27px; margin:10px 0 11px}
+	.header-wrap .logo a {height:100%}
+	.header-wrap .logo a > img {height:100%}
 
 	.header-bottom{padding:0;margin-bottom:0;}
 	.header-bottom .menu-wrap{display:none;}
