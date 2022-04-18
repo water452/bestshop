@@ -26,8 +26,9 @@
 .brand .swiper[class*="brand"] .swiper-slide .slide-img-wrap:hover img {transform:translate(-50%,-50%) scale(1.2); transition:all ease-out 0.8s}
 .brand .video-area {width:100%; max-width:1380px; margin:0 auto}
 .brand .video-wrap {padding-bottom:56.23%; overflow:hidden}
-.brand .video-area video {background:transparent url('../images/img-about-brand-02.jpg') 50% 50% / cover no-repeat}
-.brand .video-wrap .btn-play {position:absolute; width:130px; height:130px; top:calc(50% - 65px); left:calc(50% - 65px); background:url(../images/icons/btn-play-video-white.svg) no-repeat center / contain}
+.brand .video-area video {background:transparent url('../images/img-about-brand-video-thumb.jpg') 50% 50% / cover no-repeat}
+.brand .video-wrap.video-dim::before {content:''; display:block; position:absolute; top:0; left:0; bottom:0; right:0; background-color:rgba(0, 0, 0, 0.4); z-index:1;}
+.brand .video-wrap .btn-play {position:absolute; width:130px; height:130px; top:calc(50% - 65px); left:calc(50% - 65px); background:url(../images/icons/btn-play-video-white.svg) no-repeat center / contain; z-index:2;}
 
 /* mobile */
 @media screen and (max-width:767px) {

@@ -29,7 +29,7 @@
                 <div class="sec02">
                     <div class="tit-wrap">
                         <h3 class="tit">저희 LG전자 베스트샵은</h3>
-                        <span class="desc">고객을 최우선으로 생각하며 고객님께 최고의 <br class="pc-hidden">품질뿐만 아니라 <br class="m-hidden">서비스의 감동까지 전해드리는 것을 목표로 하고있습니다.</span>
+                        <span class="desc">고객을 최우선으로 생각하며 고객님께 최고의 <br class="pc-hidden">품질뿐만 아니라 <br class="m-hidden">서비스의 감동까지 전해드리는 것을 목표로 하고 있습니다.</span>
                     </div>
                     <div class="img-wrap">
                         <img class="m-hidden" src="../../images/img-about-brand-02.jpg" alt="LG전자 베스트샵 매장에서 고객 상담을 진행중인 이미지">
@@ -138,7 +138,7 @@
                     </div>
                     <div class="video-area">
                         <div class="video-wrap">
-                            <video playsinline="" muted="" preload="none" class="videoPoster" loop>
+                            <video playsinline="" muted="" preload="none" class="videoPoster">
                                 <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
                                 <p>LG전자 베스트샵 소개 영상</p>
                             </video>
@@ -176,15 +176,18 @@
         });
 
         // video play
+        $('.video-wrap').addClass('video-dim');
+
         $('.video-wrap .btn-play').on('click', function(){
             $(this).hide();
+            $(this).parent('.video-wrap').removeClass('video-dim');
             $('.video-wrap video').get(0).currentTime = 0;
             $('.video-wrap video').get(0).play();
             
             $('.video-wrap video').bind('ended', function(){
                 $('.video-wrap video').get(0).pause();
                 $('.video-wrap video').get(0).currentTime = 0;
-                $('.video-wrap .btn-play').show();
+                $('.video-wrap .btn-play').show().parent('.video-wrap').addClass('video-dim');
             });
         });
 
