@@ -273,7 +273,6 @@ ul.shop-list {width:100%; padding:16px 0}
 ul.shop-list li [class^="btn-"] {position:relative; width:100%; padding:15px 24px; font-size:16px; font-weight:500; line-height:24px; text-align:left}
 ul.shop-list li [class^="btn-"].active {color:#da0f47}
 ul.shop-list li [class^="btn-"].active::before {content:''; display:block; position:absolute; width:10px; height:16px; top:calc(50% - 8px); left:0; background-color:#da0f47}
-ul.shop-list li [class^="btn-"] > span {margin-left:3px}
 
 .shop-date-wrap .list-wrap .view-wrap .mo-select {display:none}
 .shop-date-wrap .list-wrap .view-wrap .rt {width:calc(100% - 220px); height:100%; padding:12px 0 26px 30px; overflow-y:auto}
