@@ -16,7 +16,7 @@
                 <div class="sec01">
                     <div class="tit-wrap big">
                         <h3 class="tit">LG전자 베스트샵을 소개합니다</h3>
-                        <span class="desc">LG전자 베스트샵은 2007년 런칭한 <br class="pc-hidden">LG전자 전문 유통회사 브랜드로써 <br class="m-hidden">전국 각지에 매장을 운영하고 있는 LG전자의 프리미엄 <br class="pc-hidden">가전 백화점입니다.</span>
+                        <span class="desc">LG전자 베스트샵은 2007년 런칭한 <br class="pc-hidden">LG전자 전문 유통회사 브랜드로 <br class="m-hidden">전국 각지에 매장을 운영하고 있는 LG전자의 프리미엄 <br class="pc-hidden">가전 백화점입니다.</span>
                     </div>
                     <div class="img-wrap wide">
                         <img class="m-hidden" src="../../images/img-about-brand-01.jpg" alt="&nbsp;">
