@@ -240,7 +240,7 @@ ul.input-cate-type .cate-tit > .icon.apple-watch { background: url("../images/ic
 .live-list > ul > li .thum img { width: 100%; }
 .live-list > ul > li .play-time { position: absolute; bottom: 20px; left: 20px; }
 .live-list > ul > li .infor { padding: 12px 0; }
-.live-list > ul > li .tit { display: block; height: 52px; line-height: 26px; font-size: 18px; font-weight: 500; display: -webkit-box; -webkit-line-clamp: 2; text-overflow: ellipsis; -webkit-box-orient: vertical; overflow: hidden; }
+.live-list > ul > li .tit { display: block; height: 52px; line-height: 26px; font-size: 18px; font-weight: 500; display: -webkit-box; -webkit-line-clamp: 2; text-overflow: ellipsis; -webkit-box-orient: vertical; overflow: hidden; word-break:break-all; }
 .play-time { display: inline-block; padding: 0 10px; color: #fff; line-height: 28px; font-size: 14px; background: rgba(0,0,0,0.5); vertical-align: top; overflow: hidden; }
 
 /* 이벤트 > 목록 */

@@ -548,15 +548,6 @@
                 $("#agr-all").prop("checked", is_checked);
             });
         });
-
-        // 모바일 하단바 영역
-        $('.bottom-fixed-wrap .bar-wrap .head-area').on('click', function () {
-            $('html').toggleClass('scroll-fixed');
-            $(this).closest('.bottom-fixed-wrap').toggleClass('active');
-            $('.body-area').stop().slideToggle();
-            $('.bottom-fixed-wrap .dimmed').stop().fadeToggle(200);
-        });
-
     });
 </script>
 <jsp:include page="../../templates/common/footer.jsp" />
