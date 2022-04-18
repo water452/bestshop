@@ -665,7 +665,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 .sort-block + .popup.toast {width:auto!important}/* important 추후 삭제 예정 */
 @media screen and (max-width:767px){
 	.map-wrap > .input-select-type {margin-bottom:19px!important}
-	.map-wrap .api-area {margin:-11px!important; border:none!important; border-radius:0!important}/* important 추후 삭제 예정 */
+	.map-wrap .api-area {width:calc(100% + 22px)!important; margin:-11px!important; border:none!important; border-radius:0!important}/* important 추후 삭제 예정 */
 }
 /* //임시  */
 
