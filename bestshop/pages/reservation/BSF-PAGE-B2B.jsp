@@ -717,7 +717,8 @@
                     nextEl: ".img-slide .slide-navi .slideBtn.btn-next",
                     prevEl: ".img-slide .slide-navi .slideBtn.btn-prev"
                 },
-
+                
+                autoHeight : true,
                 loop : true,
                 loopAdditionalSlides: 1,
             });
