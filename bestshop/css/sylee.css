@@ -75,13 +75,13 @@ html.full-height .floating-block{display:none;}
 .search-result .result-body ul.mCS_no_scrollbar{padding-right:32px;}
 .search-result .result-body ul li{max-width:436px; padding-bottom:25px;margin-bottom:25px;border-bottom:1px solid #ddd;}
 .search-result .result-body ul li:last-of-type{margin-bottom:0;border-bottom:0}
-.search-result .result-body ul li a.base-link{display:flex;flex-wrap:wrap;align-items:center;position:relative;font-size:0;padding:0 36px 0 29px;}
+.search-result .result-body ul li a.base-link{display:block;position:relative;font-size:0;padding:0 36px 0 29px;}
 .search-result .result-body ul li a.base-link:before{display:block;content:'';position:absolute;top:2px;left:0;width:24px;height:24px;background-image:url('../images/icons/icon_map_disabled.svg');background-repeat:no-repeat;background-position:0 0;background-size:contain;}
 .search-result .result-body ul li.active a.base-link:before{background-image:url('../images/icons/icon_map_select.svg');}
 .search-result .result-body ul li a.base-link strong{display:inline-block;margin-right:12px;font-size:18px;line-height:27px;}
 .search-result .result-body ul li a.base-link em{display:block;margin-right:-36px;font-size:16px;letter-spacing:-0.03em;line-height:24px;margin-top:8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
 .search-result .result-body ul li a.base-link .interval{position:absolute;top:6px;right:0;font-size:12px;color:#999;}
-.search-result .result-body ul li a.base-link .option-list{vertical-align:3px;}
+.search-result .result-body ul li a.base-link .option-list{vertical-align:3px;white-space:nowrap}
 .search-result .result-body ul li .sub-info{font-size:0;text-align:right;padding-left:29px;margin-top:4px;}
 .search-result .result-body ul li .sub-info .call-num{display:block;float:left;font-size:16px;font-weight:400;color:#666;line-height:24px;padding-left:20px;background:url('../images/icons/icon_call.svg') no-repeat 0 60%;background-size:16px 16px;}
 .search-result .result-body ul li .sub-info a:not(.call-num){min-width:auto;border-radius:16px;line-height:24px;padding:0 12px;}

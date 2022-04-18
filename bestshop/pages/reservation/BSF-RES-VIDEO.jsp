@@ -31,14 +31,14 @@
                                 <li class="swiper-slide">
                                     <div class="img-wrap">
                                         <img class="m-hidden" src="../../images/img-res-video-banner-01.jpg" alt="&nbsp;" /><!-- pc용 -->
-                                        <img class="pc-hidden" src="../../images/img-res-video-banner-01_mo.jpg" alt="&nbsp;" /><!-- mobile용 -->
+                                        <img class="pc-hidden" src="../../images/img-res-video-banner-01_mo.png" alt="&nbsp;" /><!-- mobile용 -->
                                     </div>
                                 </li>
                                 <li class="swiper-slide">
                                     <div class="img-wrap">
                                         <button type="button" class="btn-video-view">영상보기</button>
                                         <img class="m-hidden" src="../../images/img-res-video-banner-01.jpg" alt="&nbsp;" /><!-- pc용 -->
-                                        <img class="pc-hidden" src="../../images/img-res-video-banner-01_mo.jpg" alt="&nbsp;" /><!-- mobile용 -->
+                                        <img class="pc-hidden" src="../../images/img-res-video-banner-01_mo.png" alt="&nbsp;" /><!-- mobile용 -->
                                     </div>
                                 </li>
                             </ul>
