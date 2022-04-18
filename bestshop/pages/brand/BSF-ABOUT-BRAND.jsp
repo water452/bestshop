@@ -19,8 +19,8 @@
                         <span class="desc">LG전자 베스트샵은 2007년 런칭한 <br class="pc-hidden">LG전자 전문 유통회사 브랜드로 <br class="m-hidden">전국 각지에 매장을 운영하고 있는 LG전자의 프리미엄 <br class="pc-hidden">가전 백화점입니다.</span>
                     </div>
                     <div class="img-wrap wide">
-                        <img class="m-hidden" src="../../images/img-about-brand-01.jpg" alt="&nbsp;">
-                        <img class="pc-hidden" src="../../images/img-about-brand-01_mo.jpg" alt="&nbsp;">
+                        <img class="m-hidden" src="../../images/img-about-brand-01.jpg" alt="LG전자 베스트샵 매장 외관 이미지">
+                        <img class="pc-hidden" src="../../images/img-about-brand-01_mo.jpg" alt="LG전자 베스트샵 매장 외관 이미지">
                     </div>
                 </div>
             </section>
@@ -32,12 +32,12 @@
                         <span class="desc">고객을 최우선으로 생각하며 고객님께 최고의 <br class="pc-hidden">품질뿐만 아니라 <br class="m-hidden">서비스의 감동까지 전해드리는 것을 목표로 하고있습니다.</span>
                     </div>
                     <div class="img-wrap">
-                        <img class="m-hidden" src="../../images/img-about-brand-02.jpg" alt="&nbsp;">
-                        <img class="pc-hidden" src="../../images/img-about-brand-02_mo.jpg" alt="&nbsp;">
+                        <img class="m-hidden" src="../../images/img-about-brand-02.jpg" alt="LG전자 베스트샵 매장에서 고객 상담을 진행중인 이미지">
+                        <img class="pc-hidden" src="../../images/img-about-brand-02_mo.jpg" alt="LG전자 베스트샵 매장에서 고객 상담을 진행중인 이미지">
                     </div>
                     <div class="ci-area">
-                        <img class="m-hidden" src="../../images/img-about-brand-ci.svg" alt="&nbsp;">
-                        <img class="pc-hidden" src="../../images/img-about-brand-ci_mo.svg" alt="&nbsp;">
+                        <img class="m-hidden" src="../../images/img-about-brand-ci.svg" alt="LG전자 베스트샵 로고 이미지">
+                        <img class="pc-hidden" src="../../images/img-about-brand-ci_mo.svg" alt="LG전자 베스트샵 로고 이미지">
                     </div>
                 </div>
             </section>
@@ -52,32 +52,32 @@
                         <ul class="swiper-wrapper">
                             <li class="swiper-slide">
                                 <div class="slide-img-wrap">
-                                    <img src="../../images/img-brand-experience-01.jpg" alt="&nbsp;" />
+                                    <img src="../../images/img-brand-experience-01.jpg" alt="라이프 스타일 체험존 이미지1" />
                                 </div>
                             </li>
                             <li class="swiper-slide">
                                 <div class="slide-img-wrap">
-                                    <img src="../../images/img-brand-experience-02.jpg" alt="&nbsp;" />
+                                    <img src="../../images/img-brand-experience-02.jpg" alt="라이프 스타일 체험존 이미지2" />
                                 </div>
                             </li>
                             <li class="swiper-slide">
                                 <div class="slide-img-wrap">
-                                    <img src="../../images/img-brand-experience-03.jpg" alt="&nbsp;" />
+                                    <img src="../../images/img-brand-experience-03.jpg" alt="라이프 스타일 체험존 이미지3" />
                                 </div>
                             </li>
                             <li class="swiper-slide">
                                 <div class="slide-img-wrap">
-                                    <img src="../../images/img-brand-experience-04.jpg" alt="&nbsp;" />
+                                    <img src="../../images/img-brand-experience-04.jpg" alt="라이프 스타일 체험존 이미지4" />
                                 </div>
                             </li>
                             <li class="swiper-slide">
                                 <div class="slide-img-wrap">
-                                    <img src="../../images/img-brand-experience-05.jpg" alt="&nbsp;" />
+                                    <img src="../../images/img-brand-experience-05.jpg" alt="라이프 스타일 체험존 이미지5" />
                                 </div>
                             </li>
                             <li class="swiper-slide">
                                 <div class="slide-img-wrap">
-                                    <img src="../../images/img-brand-experience-06.jpg" alt="&nbsp;" />
+                                    <img src="../../images/img-brand-experience-06.jpg" alt="라이프 스타일 체험존 이미지6" />
                                 </div>
                             </li>
                         </ul>
@@ -96,32 +96,32 @@
                         <ul class="swiper-wrapper">
                             <li class="swiper-slide">
                                 <div class="slide-img-wrap">
-                                    <img src="../../images/img-brand-premium-01.jpg" alt="&nbsp;" />
+                                    <img src="../../images/img-brand-premium-01.jpg" alt="프리미엄 상담존 이미지1" />
                                 </div>
                             </li>
                             <li class="swiper-slide">
                                 <div class="slide-img-wrap">
-                                    <img src="../../images/img-brand-premium-02.jpg" alt="&nbsp;" />
+                                    <img src="../../images/img-brand-premium-02.jpg" alt="프리미엄 상담존 이미지2" />
                                 </div>
                             </li>
                             <li class="swiper-slide">
                                 <div class="slide-img-wrap">
-                                    <img src="../../images/img-brand-premium-03.jpg" alt="&nbsp;" />
+                                    <img src="../../images/img-brand-premium-03.jpg" alt="프리미엄 상담존 이미지3" />
                                 </div>
                             </li>
                             <li class="swiper-slide">
                                 <div class="slide-img-wrap">
-                                    <img src="../../images/img-brand-premium-04.jpg" alt="&nbsp;" />
+                                    <img src="../../images/img-brand-premium-04.jpg" alt="프리미엄 상담존 이미지4" />
                                 </div>
                             </li>
                             <li class="swiper-slide">
                                 <div class="slide-img-wrap">
-                                    <img src="../../images/img-brand-premium-05.jpg" alt="&nbsp;" />
+                                    <img src="../../images/img-brand-premium-05.jpg" alt="프리미엄 상담존 이미지5" />
                                 </div>
                             </li>
                             <li class="swiper-slide">
                                 <div class="slide-img-wrap">
-                                    <img src="../../images/img-brand-premium-06.jpg" alt="&nbsp;" />
+                                    <img src="../../images/img-brand-premium-06.jpg" alt="프리미엄 상담존 이미지6" />
                                 </div>
                             </li>
                         </ul>
@@ -140,7 +140,7 @@
                         <div class="video-wrap">
                             <video playsinline="" muted="" preload="none" class="videoPoster" loop>
                                 <source src="../../images/main_carousel_video_01.mp4" type="video/mp4">
-                                <p>LG전자 회사소개 동영상</p>
+                                <p>LG전자 베스트샵 소개 영상</p>
                             </video>
                             <button type="button" class="btn-play"><span class="blind">비디오 재생</span></button>
                         </div>
