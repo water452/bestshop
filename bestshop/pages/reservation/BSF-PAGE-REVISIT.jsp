@@ -212,7 +212,7 @@
 
                     <div class="main-area">
                         <div class="user-info-area info-type">
-                            <h3 class="step-tit">예약자 정보<span>예약자 정보를 입력해주세요.</span></h3>
+                            <h3 class="step-tit">예약 신청</h3>
                             <div class="lt">
                                 <form action="">
                                     <div class="box-gray"> 
