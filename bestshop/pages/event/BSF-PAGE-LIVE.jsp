@@ -29,7 +29,7 @@
                                         </dd>
                                     </dl>
                                     <dfn class="tit">강남본점 리뉴얼 오픈 매장소개 LIVE</dfn>
-                                    <span class="date">2202.02.14 오후 7시</span>
+                                    <span class="date">2022.02.14 오후 7시</span>
                                     <span class="txt">라이브에서 더 많은 혜택을 만나보세요!</span>
                                     <div class="btn-area"><a href="javascript:void(0);" class="btn border-white">자세히 보기</a></div>
                                 </div>
@@ -52,6 +52,21 @@
                                     <img class="pc-hidden" src="../../images/img-banner-dummy-mo.png" alt="&nbsp;" /><!-- mobile용 -->
                                 </div>
                             </li>
+
+                            <!-- On-Air 방송 참여하기 -->
+                            <li class="swiper-slide slide-bg" style="background-image: url(../../images/img-live-banner-01.png)">
+                                <div class="li-wrap">
+                                    <a href="#">
+                                        <strong class="flag-on-air">On-Air 방송 참여하기</strong>
+                                    </a>
+                                    <dfn class="tit">강남본점 리뉴얼 오픈 매장소개 LIVE</dfn>
+                                    <span class="date">2022.02.14 오후 7시</span>
+                                    <span class="txt">라이브에서 더 많은 혜택을 만나보세요!</span>
+                                    <div class="btn-area"><a href="javascript:void(0);" class="btn-link white">자세히 보기</a></div>
+                                </div>
+                            </li>
+                            <!-- // On-Air 방송 참여하기 -->
+
                             <li class="swiper-slide">
                                 <div class="video-wrap">
                                         <!-- s : video case
