@@ -118,9 +118,9 @@
 
 .onepage ul.input-cate-type {display:block}
 .onepage ul.input-cate-type > li {padding:11px 0}
-.onepage ul.input-cate-type .cate-tit {min-width:143px}
+.onepage ul.input-cate-type .cate-tit {min-width:148px}
 .onepage ul.input-cate-type > li {width:100%; justify-content:flex-start; background:none}
-.onepage ul.input-cate-type .cate-items {width:100%; max-width:calc(100% - 143px)}
+.onepage ul.input-cate-type .cate-items {width:auto; max-width:calc(100% - 148px); flex:1}
 .onepage ul.input-cate-type .cate-items > li {min-width:calc(100% / 6)}
 
 /* swiper button */
@@ -956,7 +956,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-main.care .onepage .user-info-area {padding-top:50px}
     
     .onepage ul.input-cate-type > li {padding:0}
-    .onepage ul.input-cate-type .cate-items {max-width:100%}
+    .onepage ul.input-cate-type .cate-items {width:100%; max-width:100%}
     .onepage ul.input-cate-type .cate-items > li {min-width:calc(100% / 3)}
 
     /* swiper button */
