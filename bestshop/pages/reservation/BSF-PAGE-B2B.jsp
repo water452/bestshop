@@ -213,7 +213,7 @@
                     <div class="main-area">
                         
                         <div class="shop-date-wrap">
-                            <h3 class="step-tit">방문 매장 및 일시 선택<sup>*</sup><span>상담을 원하시는 매장과 희망 일자를 선택하세요.</span></h3>
+                            <h3 class="step-tit">상담 지역 및 일시 선택<sup>*</sup><span>상담을 원하시는 지역과 희망 일자를 선택하세요.</span></h3>
                             <div class="bottom-area">
                                 <div class="local-wrap">
                                     <div class="box">
