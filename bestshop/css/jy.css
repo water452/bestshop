@@ -212,6 +212,13 @@ ul.input-cate-type .cate-tit > .icon.apple-watch { background: url("../images/ic
 .img-slide .li-wrap .txt { display: block; margin-top: 12px; color: #fff; line-height: 26px; font-size: 18px; }
 .img-slide .li-wrap .btn-area { margin-top: 50px; }
 .img-slide .li-wrap .btn-area .btn { font-size: 16px; }
+.img-slide .li-wrap.black .tit { color: #000; }
+.img-slide .li-wrap.black .date { color: #000; }
+.img-slide .li-wrap.black .txt { color: #000; }
+.img-slide .li-wrap.black .btn-area .btn-link { color: #000!important; }
+.img-slide .li-wrap.black .btn-area .btn-link::after { background: url("../images/icons/btn-arr-16-black.svg") center no-repeat; }
+.img-slide .li-wrap.black .btn-area .btn { border-color: #000!important; color: #000!important; }
+.img-slide .li-wrap.black .btn-area .btn:hover, .img-slide .li-wrap.black .btn-area .btn:focus, .img-slide .li-wrap.black .btn-area .btn:active { border-color: #da0f47!important; background: #da0f47!important; color: #fff!important; }
 .time-deal-countdown.ty-small { display: inline-block; width: auto; vertical-align: top; }
 .time-deal-countdown.ty-small > * { padding: 4px 20px; font-size: 16px; }
 .time-deal-countdown.ty-small > dd { margin-left: -40px; padding-left: 50px; }
