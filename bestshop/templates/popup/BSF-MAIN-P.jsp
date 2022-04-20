@@ -120,6 +120,7 @@
             },
             pagination: {
                 el: ".pager-pagination",
+                clickable: true
             },
             loop : true,
         });

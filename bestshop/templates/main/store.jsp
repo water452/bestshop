@@ -161,7 +161,8 @@
             centeredSlides: true,
             paginationClickable: true,
             pagination: {
-                el: ".slide-store .slide-navi .pager-pagination"
+                el: ".slide-store .slide-navi .pager-pagination",
+                clickable: true
             },
             breakpoints: {
                 768: {
