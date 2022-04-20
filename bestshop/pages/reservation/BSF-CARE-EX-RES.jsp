@@ -1032,8 +1032,19 @@
         }
     });
 
+    var _winW = $(window).width();
+    
+    // video control
+    $('.btn-video-view').on('click', function(){
+        if(_winW < 1025){
+            $('#popup-video').css('display', 'block').find('video.mobileOnly').get(0).play();
+        } else {
+            $('#popup-video').css('display', 'block').find('video.pcOnly').get(0).play();
+        }
+    });
+
     /* sticky 처리 */
-    $(function(){
+    function _stickyBarTop(){
         var _stickyBar = $('.tab-wrap').offset().top;
 
         $(window).scroll(function(){
@@ -1045,20 +1056,9 @@
                 $('.tab-wrap').removeClass('fixed');
             }
         });
+    }
 
-        $(window).resize(function(){
-            var _stickyBar = $('.tab-wrap').offset().top;
-        });
-    });
-
-    var _winW = $(window).width();
-    
-    // video control
-    $('.btn-video-view').on('click', function(){
-        if(_winW < 1025){
-            $('#popup-video').css('display', 'block').find('video.mobileOnly').get(0).play();
-        } else {
-            $('#popup-video').css('display', 'block').find('video.pcOnly').get(0).play();
-        }
+    $(window).on('load', function(){
+        _stickyBarTop();
     });
 </script>
