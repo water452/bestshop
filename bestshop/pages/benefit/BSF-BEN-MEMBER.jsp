@@ -35,7 +35,7 @@
                                 <div class="li-wrap">
                                     <dfn class="tit">현금처럼 사용하는 포인트</dfn>
                                     <span class="dsc">LGE.COM, 베스트샵, LG전자 서비스센터<br /> 수리, 렌탈 구매 (1포인트=1원)</span>
-                                    <span class="subs">※ 포인트는 이전설치, 세척서비스<br /> 이용시 사용 불가</span>
+                                    <span class="subs">※ 포인트는 이전설치, 세척서비스 이용시, <br>천정형 에어컨 수리시 사용 불가</span>
                                 </div>
                             </li>
                             <li>
