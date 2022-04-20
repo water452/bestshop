@@ -233,6 +233,10 @@
                                 <strong>TV, 냉장고, 식기세척기, 세탁기, 스타일러, 공기청정기, 에어컨</strong>
                             </li>
                             <li>
+                                <span>구매 희망 시기</span>
+                                <strong>1주내</strong>
+                            </li>
+                            <li>
                                 <span>상담매장</span>
                                 <strong>강남본점, 12. 15(수), 17시</strong>
                             </li>
