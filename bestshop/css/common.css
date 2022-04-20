@@ -668,6 +668,7 @@ ul.shop-list li [class^="btn-"] > span {margin-left:0!important;}/* 추후 삭�
 	.map-wrap > .input-select-type {margin-bottom:19px!important}
 	.map-wrap .api-area {width:calc(100% + 22px)!important; margin:-11px!important; border:none!important; border-radius:0!important}/* important 추후 삭제 예정 */
 	.map-wrap .api-area .map-list-wrap .btn-view.mToggle:after {background:#f4f4f4 url('../images/icons/icon_open.svg') 0 0 / contain no-repeat !important;} /* 추후 삭제 예정 */
+	.res-main .bottom-fixed-wrap .bar-wrap .body-area .my-result > ul > li span {min-width:84px !important} /* 추후 삭제 예정 */
 }
 /* //임시  */
 
