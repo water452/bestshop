@@ -714,7 +714,7 @@ li[class*="blt"], li > [class*="blt"] { display: block; }
     .cont-wrap .tabs-wrap {margin: 0 -16px;}
 
     /* page-header */
-    .page-header { padding: 26px 16px 32px; }
+    .page-header { padding: 4px 16px 32px; }
     .page-header.h100 { height: auto; } 
     .page-header .desc { margin-top: 12px; } 
     .page-header .title { line-height: 30px; } 
