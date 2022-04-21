@@ -839,6 +839,18 @@
                     imgSwiper.autoplay.stop();
                 };
             });
+
+            // 영상보기 버튼 클릭 시 배너슬라이드 Stop
+            $('.btn-video-view').on('click', function(){
+                
+                if ($('#popup-video').css('display', 'block')){
+                   
+                    $('.img-slide .swiper-auto > button.btn-stop').removeClass('active');
+                    $('.img-slide .swiper-auto > button.btn-play').addClass('active');
+                   
+                    imgSwiper.autoplay.stop();
+                }
+            });
         } else {
 
             $('.img-slide .slide-navi').css('display', 'none');

@@ -374,36 +374,63 @@
             },
         });
 
-        // 화상상담 배너 슬라이드
-        var imgSwiper = new Swiper(".img-slide", {
-            speed : 800,
-            slidesPerView: 1,
-            autoplay: {
-                delay:5000
-            },
-            pagination: {
-                el: ".img-slide .slide-navi .pager-fraction",
-                type: "fraction"
-            },
-            navigation: {
-                nextEl: ".img-slide .slide-navi .slideBtn.btn-next",
-                prevEl: ".img-slide .slide-navi .slideBtn.btn-prev"
-            },
-            loop : true,
-            loopAdditionalSlides: 1,
-        });
+        // 배너 슬라이드
+        if($('.img-slide .swiper-slide').length > 1){
 
-        // 화상상담 배너 슬라이드 (autoplay control)
-        $('.img-slide .swiper-auto > button').on('click', function(){
-            $('.img-slide .swiper-auto > button').toggleClass('active');
+            var imgSwiper = new Swiper(".img-slide", {
+                speed : 800,
+                slidesPerView: 1,
+                autoplay: {
+                    delay:5000
+                },
+                pagination: {
+                    el: ".img-slide .slide-navi .pager-fraction",
+                    type: "fraction"
+                },
+                navigation: {
+                    nextEl: ".img-slide .slide-navi .slideBtn.btn-next",
+                    prevEl: ".img-slide .slide-navi .slideBtn.btn-prev"
+                },
 
-            if ($(this).hasClass('btn-play')){
-                imgSwiper.autoplay.start();
-            } 
-            else {
-                imgSwiper.autoplay.stop();
-            };
-        });
+                loop : true,
+                loopAdditionalSlides: 1,
+            });
+
+            // 배너 슬라이드 (autoplay control)
+            $('.img-slide .swiper-auto > button').on('click', function(){
+                $('.img-slide .swiper-auto > button').toggleClass('active');
+
+                if ($(this).hasClass('btn-play')){
+                    imgSwiper.autoplay.start();
+                } 
+                else {
+                    imgSwiper.autoplay.stop();
+                };
+            });
+
+            // 영상보기 버튼 클릭 시 배너슬라이드 Stop
+            $('.btn-video-view').on('click', function(){
+                
+                if ($('#popup-video').css('display', 'block')){
+                
+                    $('.img-slide .swiper-auto > button.btn-stop').removeClass('active');
+                    $('.img-slide .swiper-auto > button.btn-play').addClass('active');
+                
+                    imgSwiper.autoplay.stop();
+                }
+            });
+        } else {
+
+            $('.img-slide .slide-navi').css('display', 'none');
+        }
+
+        if($('.swiper-slide .video-wrap').children().hasClass('iframe-wrap')){
+
+            $('.swiper-slide .video-wrap').removeClass('video');
+        } else {
+
+            $('.swiper-slide .video-wrap').addClass('video');
+        }
 
         // step 2 지도/리스트 보기 버튼
         for (i = 1; i < 5; i++) {

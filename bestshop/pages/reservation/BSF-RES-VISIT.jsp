@@ -28,12 +28,7 @@
                     <div class="img-slide-wrap">
                         <div class="swiper img-slide">
                             <ul class="swiper-wrapper">
-                                <li class="swiper-slide">
-                                    <div class="img-wrap">
-                                        <img class="m-hidden" src="../../images/img-res-visit-banner-01.jpg" alt="&nbsp;" /><!-- pc용 -->
-                                        <img class="pc-hidden" src="../../images/img-res-visit-banner-01_mo.jpg" alt="&nbsp;" /><!-- mobile용 -->
-                                    </div>
-                                </li>
+                                
                                 <li class="swiper-slide">
                                     <div class="img-wrap">
                                         <button type="button" class="btn-video-view">영상보기</button>
@@ -427,10 +422,22 @@
 
                 if ($(this).hasClass('btn-play')){
                     imgSwiper.autoplay.start();
-                } 
+                }
                 else {
                     imgSwiper.autoplay.stop();
                 };
+            });
+
+            // 영상보기 버튼 클릭 시 배너슬라이드 Stop
+            $('.btn-video-view').on('click', function(){
+                
+                if ($('#popup-video').css('display', 'block')){
+                   
+                    $('.img-slide .swiper-auto > button.btn-stop').removeClass('active');
+                    $('.img-slide .swiper-auto > button.btn-play').addClass('active');
+                   
+                    imgSwiper.autoplay.stop();
+                }
             });
         } else {
 
