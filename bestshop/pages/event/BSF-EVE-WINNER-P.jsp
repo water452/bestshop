@@ -63,6 +63,10 @@
             <h3 class="search-result-title-default">당첨자 검색 결과</h3>
             <!-- // 당첨 내역 있을시 -->
 
+            <!-- 당첨자 목록 -->
+            <h3 class="title-default">당첨자 목록</h3>
+            <!-- // 당첨자 목록 -->
+
             <div class="table-cont">
                 <h4 class="tb-tit">1등 당첨자 (1명)</h4>
                 <div class="list-table-type">

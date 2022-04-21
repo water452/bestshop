@@ -36,6 +36,7 @@
 .win-popup-wrap.event-popup .form-wrap .forms .conts .input-wrap { display: inline-block; max-width: 440px; width: calc(100% - 78px); vertical-align: top; }
 .win-popup-wrap.event-popup .form-wrap .forms .btn { margin-left: 10px; }
 .search-result-title-default { margin-bottom: 40px; color: #da0f47; font-size: 30px; }
+.title-default { margin-bottom: 40px; font-size: 30px }
 
 .list-table-type > ul {display:flex; flex-wrap:wrap}
 .list-table-type > ul > li {display:flex; width:50%; border-bottom:1px solid #ddd; font-size:16px; line-height:24px; text-align:center}
@@ -112,6 +113,7 @@
     .win-popup-wrap.event-popup .inner-contents .table-cont .tb-tit { margin-bottom: 14px; line-height: 20px; font-size: 14px; }
     .win-popup-wrap.event-popup .inner-contents .table-cont ~ .table-cont {margin-top: 35px; } 
     .search-result-title-default { margin-bottom: 30px; line-height: 36px; font-size: 24px; }
+    .title-default { margin-bottom: 30px; line-height: 36px; font-size: 24px; }
 
     .list-table-type > ul > li {font-size:13px; line-height:19px}
     .list-table-type .title-area li > * {padding:12px 6px}
