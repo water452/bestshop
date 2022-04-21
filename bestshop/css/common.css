@@ -700,7 +700,7 @@ ul.shop-list li [class^="btn-"] > span {margin-left:0!important;}/* 추후 삭�
     .m-hidden{display:none !important;}
 
 	/* 높이값 */
-	.h-320 {min-height:0 !important; height:200px !important;}
+	.h-320 {min-height:0 !important}
 	.h-480 {min-height:auto !important;}
 
 	/* search */
@@ -998,7 +998,7 @@ ul.shop-list li [class^="btn-"] > span {margin-left:0!important;}/* 추후 삭�
 	.popup.toast .btn-pop-close{width:24px;height:24px;top:18px;right:16px;}
 
 	/* popup - video */
-	.guide-area + .popup.video .pop-wrap {height:auto}
+	.guide-area + .popup.video {height:calc(100% - 157px); bottom:auto}
 	.popup.video .pop-wrap .btn-pop-close{right:10px}
 	.popup.full .pop-wrap .pop-cont{height:390px}
 	.popup.v-large .pop-wrap .btn-pop-close{right:30px}
