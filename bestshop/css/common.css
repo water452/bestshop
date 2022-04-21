@@ -80,7 +80,7 @@ footer .foot-cont .pc-dropdown-wrap .btns .btn.border:hover{border-color:#000 !i
 
 /* 높이값 */
 .h-320 {height:320px !important;}
-.h-480 {height:480px !important;}
+.h-480 {min-height:480px !important;}
 
 /* 색상 */
 .fc-primary{color:#da0f47 !important}
@@ -601,12 +601,13 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 .popup.toast .btn-pop-close{top:14px;right:21px;background:url("../images/icons/btn-close-24-white.svg") no-repeat center / contain;}
 
 /* popup - video */
-.popup.video{position:absolute;bottom:auto;z-index:5 !important}
-.popup.video .pop-wrap .pop-cont{overflow:hidden;max-height:100%;min-height:auto;height:640px}
+.popup.video{position:absolute;z-index:5 !important}
+.popup.video .pop-wrap{height:100%}
+.popup.video .pop-wrap .pop-cont{overflow:hidden;max-height:100%;min-height:auto;height:100%}
 .popup.video .pop-wrap .video-wrap{height:100%}
 .popup.video .pop-wrap .btn-pop-close{right:30px;}
 .popup.video .pop-wrap.white .btn-pop-close{background:url("../images/icons/btn-close-24-white.svg") no-repeat center}
-.popup.v-large .pop-wrap .pop-cont{height:200px}
+/* .popup.v-large .pop-wrap .pop-cont{height:200px} */
 .popup.v-large .pop-wrap .btn-pop-close{right:70px}
 
 /* popup - button */
@@ -699,6 +700,7 @@ ul.shop-list li [class^="btn-"] > span {margin-left:0!important;}/* 추후 삭�
 
 	/* 높이값 */
 	.h-320 {height:200px !important;}
+	.h-480 {min-height:auto !important;}
 
 	/* search */
     .search-box{margin:0 auto}
