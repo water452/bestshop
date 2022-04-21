@@ -115,7 +115,7 @@
                             <h3 class="step-tit">추가 전달사항</span></h3>
                             <div class="text-area">
                                 <textarea title="추가 전달사항 입력" maxlength="100" placeholder="원하시는 제품의 기능이나 가격대, 입주 예정일 등 기타 문의사항을 남겨주시면 원활한 상담이 가능합니다."></textarea>
-                                <p class="info-msg">* 텍스트는 100자까지 입력가능합니다.</p>
+                                <p class="info-msg">* 텍스트는 100자까지 입력 가능합니다.</p>
                                 <p class="txt-count"><span>0</span>/100</p>
                             </div>
                         </form>

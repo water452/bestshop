@@ -1,5 +1,5 @@
 <%@ page contentType="text/html; charset=utf-8" %>
-<h3 class="step-tit">제품선택<sup>*</sup></h3>
+<h3 class="step-tit">제품 선택<sup>*</sup></h3>
 <div class="my-select">
     <ul>
         <li>

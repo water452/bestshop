@@ -128,7 +128,7 @@
 
                     <div class="main-area">
                         <form action="">
-                            <h3 class="step-tit">상담목적<sup>*</sup><span>상담 목적을 선택하세요. (단일선택)</span></h3>
+                            <h3 class="step-tit">상담 목적<sup>*</sup><span>상담 목적을 선택하세요. (단일선택)</span></h3>
                             <div class="btm-more err-block" style="display: block;"> <!-- step 유효성 체크 -->
                                 <p class="err-msg">목적을 선택해주세요.</p>
                             </div>
@@ -171,7 +171,7 @@
                             <div class="text-area">
                                 <textarea title="추가 전달사항 입력" maxlength="100"
                                     placeholder="제안서 요청 시 E-mail 작성 부탁드립니다."></textarea>
-                                <p class="info-msg">* 텍스트는 100자까지 입력가능합니다.</p>
+                                <p class="info-msg">* 텍스트는 100자까지 입력 가능합니다.</p>
                                 <p class="txt-count"><span>0</span>/100</p>
                             </div>
                         </form>

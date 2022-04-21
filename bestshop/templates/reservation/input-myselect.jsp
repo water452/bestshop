@@ -1,7 +1,7 @@
 <%@ page contentType="text/html; charset=utf-8" %>
 <div class="step-tit-area">
     <p class="page-num">STEP01</p>
-    <h3 class="step-tit">제품선택<sup>*</sup><span>상담을 원하시는 제품 최대 3개 선택하세요. (다중선택)</span></h3>
+    <h3 class="step-tit">제품 선택<sup>*</sup><span>상담을 원하시는 제품 최대 3개 선택하세요. (다중선택)</span></h3>
     <div class="btm-more err-block" style="display: block;"> <!-- step 유효성 체크 -->
         <p class="err-msg">제품을 선택해주세요.</p>
     </div>
