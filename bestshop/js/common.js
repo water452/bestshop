@@ -570,7 +570,7 @@ $(document).ready(function() {
     // page custom > if inner layer
     $('.bottom-fixed-wrap').parents('.wrap').addClass('innerLayer');
     // page custom > if not main breadcrumb show
-    $('#content').not('.besthop_main').parents('body').find('.breadcrumb-wrap').addClass('active');
+    $('#content').not('.bestshop_main').parents('body').find('.breadcrumb-wrap').addClass('active');
 
     // mobile > menu : sub del
     // if(_thsW < 1025){
