@@ -1,7 +1,7 @@
 <%@ page contentType="text/html; charset=utf-8" %>
 <jsp:include page="./templates/common/header.jsp" />
 
-<div id="content" class="main">
+<div id="content" class="bestshop_main">
 
     <!-- s: hero content -->
     <jsp:include page="./templates/main/hero.jsp" />
