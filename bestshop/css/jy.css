@@ -352,7 +352,7 @@ ul.input-cate-type .cate-tit > .icon.apple-watch { background: url("../images/ic
 .sorting-cp > * { display: inline-block; position: relative; vertical-align: middle; }
 .sorting-cp > .cp-list { margin-left: 160px; }
 .sorting-cp > .cp-list:before { content: ""; position: absolute; top: 50%; left: -123px; margin-top: -35px; width: 50px; height: 70px; border: 1px solid #ddd; background: #fff url("../images/icons/icon-sorting-cp.svg") no-repeat center; background-size: 36px auto; }
-.cp-map { position: relative; width: 492px; height: 580px; background: url("../images/cp-map.png") no-repeat center 0; }
+.cp-map { position: relative; width: 492px; height: 589px; background: url("../images/cp-map_new.png") no-repeat center 0; }
 /*
 .cp-map[data-number="1"] { background-position: center -580px; }
 .cp-map[data-number="2"] { background-position: center -1160px; }
@@ -378,23 +378,23 @@ ul.input-cate-type .cate-tit > .icon.apple-watch { background: url("../images/ic
 .list-cp-map > li a:hover { color: #000; }
 .list-cp-map > .on a { color: #fff; background: linear-gradient(80deg, #fa263e 2%, #fb5a72 99%); }
 .list-cp-map > .on a:hover { color: #fff; }
-.list-cp-map > .li01 { top: 22%; left: 21%; } /* 서울 */
-.list-cp-map > .li02 { top: 28.5%; left: 26%; } /* 경기 */
-.list-cp-map > .li03 { top: 23%; left: 13%; } /* 인천 */
-.list-cp-map > .li04 { top: 19%; right: 43%; } /* 강원 */
-.list-cp-map > .li05 { top: 36%; left: 33%; } /* 충북 */
-.list-cp-map > .li06 { top: 39%; left: 18.5%; } /* 충남 */
-.list-cp-map > .li07 { top: 41.5%; left: 29%; } /* 세종 */
-.list-cp-map > .li08 { top: 45%; left: 32%; } /* 대전 */
-.list-cp-map > .li09 { top: 44%; right: 35%; } /* 경북 */
-.list-cp-map > .li10 { bottom: 33.5%; right: 43%; } /* 경남 */
-.list-cp-map > .li11 { top: 52.5%; right: 39%; } /* 대구 */
-.list-cp-map > .li12 { top: 59.3%; right: 28.5%; } /* 울산 */
-.list-cp-map > .li13 { top: 64%; right: 32%; } /* 부산 */
-.list-cp-map > .li14 { top: 56%; left: 24%; } /* 전북 */
-.list-cp-map > .li15 { top: 70%; left: 21%; } /* 전남 */
-.list-cp-map > .li16 { top: 65%; left: 22%; } /* 광주 */
-.list-cp-map > .li17 { bottom: 5.5%; left: 14.5%; } /* 제주 */
+.list-cp-map > .li01 { top: 22%; left: 30%; } /* 서울 */
+.list-cp-map > .li02 { top: 28.5%; left: 35%; } /* 경기 */
+.list-cp-map > .li03 { top: 23%; left: 22%; } /* 인천 */
+.list-cp-map > .li04 { top: 19%; right: 33%; } /* 강원 */
+.list-cp-map > .li05 { top: 36%; left: 41%; } /* 충북 */
+.list-cp-map > .li06 { top: 39%; left: 27.5%; } /* 충남 */
+.list-cp-map > .li07 { top: 41.5%; left: 39%; } /* 세종 */
+.list-cp-map > .li08 { top: 45%; left: 38%; } /* 대전 */
+.list-cp-map > .li09 { top: 44%; right: 27%; } /* 경북 */
+.list-cp-map > .li10 { bottom: 33.5%; right: 33%; } /* 경남 */
+.list-cp-map > .li11 { top: 52.5%; right: 30%; } /* 대구 */
+.list-cp-map > .li12 { top: 58.3%; right: 18%; } /* 울산 */
+.list-cp-map > .li13 { top: 64%; right: 21%; } /* 부산 */
+.list-cp-map > .li14 { top: 56%; left: 32%; } /* 전북 */
+.list-cp-map > .li15 { top: 70%; left: 29%; } /* 전남 */
+.list-cp-map > .li16 { top: 65.6%; left: 29%; } /* 광주 */
+.list-cp-map > .li17 { bottom: 7%; left: 21.5%; } /* 제주 */
 .list-chkrdo-btn { max-width: 514px; min-width: 514px; width: 100%; line-height: 0; font-size: 0; text-align: center; }
 .list-chkrdo-btn > li { display: inline-block; padding: 5px; vertical-align: top; }
 .chkrdo-btn { display: inline-block; position: relative; vertical-align: middle; }
