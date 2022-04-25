@@ -100,16 +100,20 @@
 .onepage .step-area.step01 .step-tit-area {padding-top:14px}
 .onepage .step-area .main-area {padding:0;}
 .onepage .step-area .btn-area.bg {min-height:180px;}
+.onepage .step-area .info-text {position:absolute; right:0}
 .onepage .step-tit-area {padding-top:70px}
 .onepage .step-tit-area .page-num {display:block; margin-bottom:20px; padding-bottom:8px; font-size:16px; font-weight:700; line-height:24px; border-bottom:1px solid #da0f47; color:#da0f47}
 .onepage .step-tit:first-of-type{margin-top:0}
 .onepage .result-info-area {position:relative; min-height:180px; margin-top:40.5px; padding:16px 40px 40px; text-align:center; background-image:linear-gradient(98deg,#9a7fed 1%,#ff6489 100%,#ff6489 100%); border-radius:8px}
 .onepage .result-info-area + .btn-area {margin-top:50px}
 .onepage .result-info-txt {font-size:14px; font-weight:500; line-height:20px; color:#fff}
-.onepage .result-info-txt::after {content:''; display:block; height:1px; margin-top:12px; padding-top:30px; border-top:1px solid #fff; opacity:0.1;}
-.onepage .result-info-list {display:flex; justify-content:space-around;}
+.onepage .result-info-txt::after {content:''; display:block; height:1px; margin-top:12px; padding-top:30px; border-top:1px solid #fff; opacity:0.1}
+.onepage .result-info-list {display:flex; padding:0 100px; justify-content:space-around}
+.onepage .result-info-list li {width:50%}
+.onepage .result-info-list li + li {margin-left:80px}
 .onepage .result-info-list dl {display:flex; font-size:20px; font-weight:500; line-height:28px; color:#fff}
-.onepage .result-info-list dl dt {margin-right:5px;}
+.onepage .result-info-list dl dt {min-width:90px; margin-right:5px}
+.onepage .result-info-list dl dd {text-align:left}
 
 .care.onepage .step-tit-area {padding-top:0}
 .care.onepage .step-tit-area .page-num {display:none}
