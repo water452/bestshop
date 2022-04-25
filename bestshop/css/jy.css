@@ -352,7 +352,7 @@ ul.input-cate-type .cate-tit > .icon.apple-watch { background: url("../images/ic
 .sorting-cp > * { display: inline-block; position: relative; vertical-align: middle; }
 .sorting-cp > .cp-list { margin-left: 160px; }
 .sorting-cp > .cp-list:before { content: ""; position: absolute; top: 50%; left: -123px; margin-top: -35px; width: 50px; height: 70px; border: 1px solid #ddd; background: #fff url("../images/icons/icon-sorting-cp.svg") no-repeat center; background-size: 36px auto; }
-.cp-map { position: relative; width: 492px; height: 589px; background: url("../images/cp-map_new.png") no-repeat center 0; }
+.cp-map { position: relative; width: 492px; height: 589px; background: url("../images/cp-map-new.png") no-repeat center 0; }
 /*
 .cp-map[data-number="1"] { background-position: center -580px; }
 .cp-map[data-number="2"] { background-position: center -1160px; }
