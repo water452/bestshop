@@ -441,17 +441,17 @@ ul.input-cate-type .cate-tit > .icon.apple-watch { background: url("../images/ic
 .schedule-map-list { table-layout: fixed; display: table; margin-top: 80px; width: 100%; }
 .schedule-map-list > * { display: table-cell; vertical-align: top; }
 .sd-map { padding: 16px 0 0 17px; width: calc(512px + 17px); }
-.list-sd-map { position: relative; height: 612px; background: url("../images/sd-map.png") no-repeat center 0; }
+.list-sd-map { position: relative; height: 589px; background: url("../images/cp-map-new.png") no-repeat center 0; }
 .list-sd-map > li { position: absolute; }
 .list-sd-map > [data-area="all"] { top: 7%; left: 5%; }
-.list-sd-map > [data-area="seoul"] { top: 22.5%; left: 24%; }
-.list-sd-map > [data-area="gyeonggi"] { top: 29%; left: 26%; }
-.list-sd-map > [data-area="incheon"] { top: 26%; left: 12%; }
-.list-sd-map > [data-area="gangwon"] { top: 21%; left: 45%; }
-.list-sd-map > [data-area="chungcheong"] { top: 42%; left: 26%; }
-.list-sd-map > [data-area="jeolla"] { top: 62.7%; left: 21%; }
-.list-sd-map > [data-area="gyeongsang"] { top: 52.5%; left: 49%; }
-.list-sd-map > [data-area="jeju"] { bottom: 6.5%; left: 14%; }
+.list-sd-map > [data-area="seoul"] { top: 22.5%; left: 33%; }
+.list-sd-map > [data-area="gyeonggi"] { top: 29%; left: 36%; }
+.list-sd-map > [data-area="incheon"] { top: 26%; left: 19%; }
+.list-sd-map > [data-area="gangwon"] { top: 21%; left: 55%; }
+.list-sd-map > [data-area="chungcheong"] { top: 42%; left: 36%; }
+.list-sd-map > [data-area="jeolla"] { top: 62.7%; left: 31%; }
+.list-sd-map > [data-area="gyeongsang"] { top: 52.5%; left: 60%; }
+.list-sd-map > [data-area="jeju"] { bottom: 6.5%; left: 22%; }
 .list-sd-map > li a.zero { background: #fff; cursor: default;}
 .list-sd-map > .on a { color: #fff; border: 0; background: linear-gradient(80deg, #fa263e 2%, #fb5a72 99%); }
 .list-sd-map > .on span { color: #fa263e; }
