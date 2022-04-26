@@ -131,6 +131,7 @@
                 </div>
             </section>
 
+            <!-- 20220446 삭제
             <section>
                 <div class="sec05">
                     <div class="tit-wrap">
@@ -147,7 +148,8 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> 
+            -->
         </div>
 
     </div>
