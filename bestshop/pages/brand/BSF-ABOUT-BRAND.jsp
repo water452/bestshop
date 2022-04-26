@@ -15,7 +15,7 @@
             <section>
                 <div class="sec01">
                     <div class="tit-wrap big">
-                        <strong class="desc">삶에 행복을 더하고 생활 공간에 가치를 더하는</strong>
+                        <strong class="desc">삶에 행복을 더하고<br class="pc-hidden"> 생활 공간에 가치를 더하는</strong>
                         <h3 class="tit">LG전자 베스트샵</h3>
                         <span class="desc">LG전자 베스트샵은 2007년 런칭한 <br class="pc-hidden">LG전자 전문 유통회사 브랜드로 <br class="m-hidden">전국 각지에 매장을 운영하고 있는 LG전자의 프리미엄 <br class="pc-hidden">가전 백화점입니다.</span>
                     </div>
