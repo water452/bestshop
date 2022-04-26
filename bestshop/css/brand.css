@@ -9,6 +9,8 @@
 .brand .tit-wrap.big::before {content:''; display:block; position:absolute; width:32px; height:26px; top:0; left:calc(50% - 16px); background:url(../images/icons/ico-double-quotes-s.svg) no-repeat center / contain}
 .brand .tit-wrap.big::after {content:''; display:block; position:absolute; width:32px; height:26px; bottom:0; left:calc(50% - 16px); background:url(../images/icons/ico-double-quotes-e.svg) no-repeat center / contain}
 .brand .tit-wrap.big .desc {font-size:24px; line-height:32px}
+.brand .tit-wrap strong.desc{margin-top:0; font-weight:bold;}
+.brand .tit-wrap strong.desc + .tit {margin-top:6px}
 
 .brand .img-wrap {position:relative; width:100%; max-width:1380px; height:auto; margin:0 auto; overflow:hidden}
 .brand .img-wrap.wide {max-width:100%; height:580px; padding:0}
