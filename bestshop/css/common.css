@@ -153,7 +153,6 @@ table{border-collapse:collapse}
 .slt.width-auto ul{width:auto;left:50%;transform:translateX(-50%)}
 
 /* step title */
-.step-tit-area ~ .step-tit{margin-top:50px}
 .step-tit ~ .step-tit{margin-top:50px}
 .step-tit{display:flex;align-items:center;margin-bottom:22px;font-size:20px;font-weight:bold;line-height:28px;word-break:keep-all;}
 .step-tit > span{display:block;margin-left:10px;color:#666;font-size:14px;font-weight:500}
@@ -201,7 +200,7 @@ table{border-collapse:collapse}
 .btn-area [class*="btn"] + [class*="btn"]{margin-left:16px}
 
 /* bullet list */
-ul.bull > li{position:relative;padding-left:10px;font-size:14px;font-weight:500;line-height:20px}
+ul.bull > li{position:relative;padding-left:10px;font-size:14px;font-weight:500;line-height:20px;word-break:keep-all}
 ul.bull > li + li{margin-top:2px}
 ul.bull > li::before{content:'';display:block;position:absolute;width:2px;height:2px;top:9px;left:0;border-radius:50%;background-color:#000}
 ul.bull > li.red{color:#da0f47}
@@ -741,7 +740,6 @@ ul.shop-list li [class^="btn-"] > span {margin-left:0!important;}/* 추후 삭�
 		[class*="tab"].is_depth > ul > li [class*="tab"]:not(.tabDepth2){top:40px;}
 
 	/* step title */
-	.step-tit-area ~ .step-tit{margin-top:40px}
 	.step-tit ~ .step-tit{margin-top:40px}
 	.step-tit{display:block; margin-bottom:16px;font-size:20px;line-height:26px}
 	.step-tit > span{margin-left:0;font-size:11px}

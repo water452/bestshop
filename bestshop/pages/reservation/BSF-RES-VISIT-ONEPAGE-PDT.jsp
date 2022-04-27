@@ -65,16 +65,16 @@
                 <div class="guide-area step-3">
                     <div class="guide-process">
                         <div class="inner">
-                            <div class="swiper guide-banner-visit">
+                            <div class="swiper guide-banner-video">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
                                         <div class="box">
                                             <div class="tit-wrap">
                                                 <span class="tit">STEP 01</span>
-                                                <strong>상담 목적 및 <br class="pc-hidden">제품 선택</strong>
+                                                <strong>정보 예약 및 <br class="pc-hidden">상담 예약</strong>
                                             </div>
                                             <span class="icon-wrap">
-                                                <i class="icon01"></i>
+                                                <i class="icon06"></i>
                                             </span>
                                         </div>
                                     </div>
@@ -82,10 +82,10 @@
                                         <div class="box">
                                             <div class="tit-wrap">
                                                 <span class="tit">STEP 02</span>
-                                                <strong>방문 매장 및 <br class="pc-hidden">일시 선택</strong>
+                                                <strong>담당 매니저 <br class="pc-hidden">사전 연락</strong>
                                             </div>
                                             <span class="icon-wrap">
-                                                <i class="icon02"></i>
+                                                <i class="icon07"></i>
                                             </span>
                                         </div>
                                     </div>
@@ -93,10 +93,10 @@
                                         <div class="box">
                                             <div class="tit-wrap">
                                                 <span class="tit">STEP 03</span>
-                                                <strong>정보 입력 및 <br class="pc-hidden">예약 신청</strong>
+                                                <strong>화상 상담 진행</strong>
                                             </div>
                                             <span class="icon-wrap">
-                                                <i class="icon03"></i>
+                                                <i class="icon08"></i>
                                             </span>
                                         </div>
                                     </div>
@@ -104,6 +104,13 @@
                                 <!-- <div class="swiper-scrollbar"></div> -->
                             </div>
                         </div>
+                    </div>
+                    <div class="guide-info">
+                        <ul class="bull">
+                            <li>별도 앱 설치는 없으며, 고객님의 얼굴은 노출되지 않습니다.</li>
+                            <li>예약 내용 확인을 위하여 상담 예약하신 매장에서 사전 연락을 드립니다.</li>
+                            <li>매장 상황에 따라 연락 시간이 다소 지연될 수 있으며, 3회 이상 미연결 시 예약이 취소 될 수 있습니다.</li>
+                        </ul>
                     </div>
                 </div>
 

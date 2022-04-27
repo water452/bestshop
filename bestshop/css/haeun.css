@@ -34,7 +34,6 @@
 .res-main .guide-area .guide-process {padding:50px 0 0}
 .res-main .guide-area .guide-process .inner {max-width:1460px; margin:0 auto}
 .res-main .guide-area .guide-process .desc {margin:10px 0 30px; padding:0 40px; font-size:24px; font-weight:bold; line-height:32px}
-.res-main .guide-area [class*="guide-banner"] {padding:0 40px 30px}
 .res-main .guide-area [class*="guide-banner"] .swiper-wrapper {justify-content:space-between}
 .res-main .guide-area [class*="guide-banner"] .swiper-slide {width:calc((100% - 48px) / 4); min-width:320px; height:auto}
 .res-main .guide-area [class*="guide-banner"] .swiper-slide + .swiper-slide {margin-left:16px}
@@ -48,10 +47,10 @@
 .res-main .guide-area [class*="guide-banner"] .box .txt {display:block; margin-top:19px; font-size:16px; line-height:24px; text-align:center}
 .res-main .guide-area [class*="guide-banner"] .swiper-scrollbar {width:100%; left:0; bottom:11px; height:8px; background-color:#ddd}
 .res-main .guide-area [class*="guide-banner"] .swiper-scrollbar .swiper-scrollbar-drag {background-color:#ccc}
+.res-main .guide-area .guide-info {padding:14px 0 0; background-color:#fff}
 
 /* 탭 있는 경우 */
-.res-main [class*="tab"] + .top-wrap .guide-area .guide-process {padding:24px 0 0}
-.res-main [class*="tab"] + .top-wrap .guide-area [class*="guide-banner"] {padding:0 0 34px}
+.res-main [class*="tab"] + .top-wrap .guide-area .guide-process {padding:20px 0 0}
 .res-main [class*="tab"] + .top-wrap .add-area {margin-top:32px}
 
 /* bg 있는 경우 */
@@ -449,9 +448,9 @@ ul.input-acco-type .check-box .agr-txt-wrap .inner > ul > li > p {padding-left:1
 .res-main .guide-area .guide-banner-visit .box .icon-wrap .icon03 {background-image:url(../images/icons/icon-res-guide-visit-03.svg); background-repeat:no-repeat; background-position:center; background-size:contain}
 
 /* 화상상담예약페이지 */
-.res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon01 {background-image:url(../images/icons/icon-res-guide-visit-01.svg); background-repeat:no-repeat; background-position:center; background-size:contain}
-.res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon02 {background-image:url(../images/icons/icon-res-guide-visit-02.svg); background-repeat:no-repeat; background-position:center; background-size:contain}
-.res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon03 {background-image:url(../images/icons/icon-res-guide-visit-03.svg); background-repeat:no-repeat; background-position:center; background-size:contain}
+.res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon06 {background-image:url(../images/icons/icon-res-guide-visit-06.svg); background-repeat:no-repeat; background-position:center; background-size:contain}
+.res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon07 {background-image:url(../images/icons/icon-res-guide-visit-07.svg); background-repeat:no-repeat; background-position:center; background-size:contain}
+.res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon08 {background-image:url(../images/icons/icon-res-guide-visit-08.svg); background-repeat:no-repeat; background-position:center; background-size:contain}
 .res-main .top-wrap .guide-area .guide-info-list {max-width:1460px; margin:0 auto}
 .res-main .top-wrap .guide-area .guide-info-list .inner {padding:0 40px 30px}
 .res-main .top-wrap .guide-area .guide-info-list .bull > li {font-weight:normal}
@@ -903,6 +902,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-main .guide-area [class*="guide-banner"] .box .tit-wrap strong {font-size:13px; line-height:19px}
     .res-main .guide-area [class*="guide-banner"] .box .txt {margin-top:10px; font-size:11px; line-height:16px; white-space:initial; word-break:keep-all}
     .res-main .guide-area [class*="guide-banner"] .swiper-scrollbar {width:100%; left:0; bottom:26px; height:2px}
+    .res-main .guide-area .guide-info {padding:15px 16px; background-color:#fff}
     .res-main .top-wrap .add-area {margin:20px auto}
     .res-main .add-area .banner-indi-wrap {bottom:16px; margin:0 16px; padding:0 6px}
     .res-main .add-area .banner-indi-wrap .btn-play {width:29px; height:29px; right:16px; bottom:12px}
@@ -1217,9 +1217,9 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-main .guide-area .guide-banner-visit .box .icon-wrap .icon03 {background-image:url(../images/icons/icon-res-guide-visit-03_mo.svg)}
 
     /* 화상상담예약페이지 */
-    .res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon01 {background-image:url(../images/icons/icon-res-guide-visit-01_mo.svg)}
-    .res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon02 {background-image:url(../images/icons/icon-res-guide-visit-02_mo.svg)}
-    .res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon03 {background-image:url(../images/icons/icon-res-guide-visit-03_mo.svg)}
+    .res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon06 {background-image:url(../images/icons/icon-res-guide-visit-06_mo.svg)}
+    .res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon07 {background-image:url(../images/icons/icon-res-guide-visit-07_mo.svg)}
+    .res-main .guide-area .guide-process .guide-banner-video .box .icon-wrap .icon08 {background-image:url(../images/icons/icon-res-guide-visit-08_mo.svg)}
     .res-main .top-wrap .guide-area .guide-info-list .inner {padding:0 16px 28px}
     .res-main .top-wrap .guide-area .guide-info-list .bull > li {font-size:12px; line-height:17px}
     .res-main .top-wrap .guide-area .guide-info-list .bull > li:before {top:7.5px}

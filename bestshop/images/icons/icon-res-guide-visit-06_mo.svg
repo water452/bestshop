@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="120" viewBox="0 0 120 120">
+    <defs>
+        <clipPath id="utt7m6ooue">
+            <use xlink:href="#5kpwps7oka"/>
+        </clipPath>
+        <clipPath id="8q9kjw6fsf">
+            <use xlink:href="#2c89odsklb"/>
+        </clipPath>
+        <clipPath id="dx35rdeieg">
+            <use xlink:href="#1ojp5fwbdc"/>
+        </clipPath>
+        <clipPath id="e646htng9h">
+            <use xlink:href="#1uhnep4pbd"/>
+        </clipPath>
+    </defs>
+    <path data-name="사각형 829" style="fill:none" d="M0 0h120v120H0z"/>
+    <g data-name="그룹 910">
+        <g data-name="사각형 1176" transform="rotate(90 29 59)" style="stroke-width:3px;fill:#fff;stroke:#000">
+            <rect width="61" height="51" rx="4" style="stroke:none"/>
+            <rect x="1.5" y="1.5" width="58" height="48" rx="2.5" style="fill:none"/>
+        </g>
+        <g data-name="그룹 2086">
+            <g data-name="사각형 279" transform="translate(61.618 46.104)" style="stroke-width:3px;fill:#fff;stroke:#000">
+                <rect id="5kpwps7oka" width="16.847" height="2.407" rx="1.203" style="stroke:none"/>
+                <path d="M0 .907h16.847M15.347 0v2.407m1.5-.907H0m1.5.907V0" style="clip-path:url(#utt7m6ooue);fill:none"/>
+            </g>
+            <g data-name="사각형 282" transform="translate(61.618 67.764)" style="stroke-width:3px;fill:#fff;stroke:#000">
+                <rect id="2c89odsklb" width="16.847" height="2.407" rx="1.203" style="stroke:none"/>
+                <path d="M0 .907h16.847M15.347 0v2.407m1.5-.907H0m1.5.907V0" style="clip-path:url(#8q9kjw6fsf);fill:none"/>
+            </g>
+            <g data-name="사각형 280" transform="translate(61.618 54.527)" style="stroke-width:3px;fill:#fff;stroke:#000">
+                <rect id="1ojp5fwbdc" width="16.847" height="2.407" rx="1.203" style="stroke:none"/>
+                <path d="M0 .907h16.847M15.347 0v2.407m1.5-.907H0m1.5.907V0" style="clip-path:url(#dx35rdeieg);fill:none"/>
+            </g>
+            <g data-name="사각형 281" transform="translate(61.618 76.187)" style="stroke-width:3px;fill:#fff;stroke:#000">
+                <rect id="1uhnep4pbd" width="16.847" height="2.407" rx="1.203" style="stroke:none"/>
+                <path d="M0 .907h16.847M15.347 0v2.407m1.5-.907H0m1.5.907V0" style="clip-path:url(#e646htng9h);fill:none"/>
+            </g>
+            <path data-name="패스 143" d="m431.667 370.474 3.209 3.209 5.616-6.017" transform="translate(-384.89 -318.354)" style="stroke:#da0f47;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;fill:none"/>
+            <path data-name="패스 144" d="m431.667 370.474 3.209 3.209 5.616-6.017" transform="translate(-384.89 -296.694)" style="stroke:#da0f47;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;fill:none"/>
+        </g>
+        <g data-name="사각형 1177" transform="translate(48 26)" style="stroke-width:3px;fill:#fff;stroke:#000">
+            <rect width="29" height="12" rx="2" style="stroke:none"/>
+            <rect x="1.5" y="1.5" width="26" height="9" rx=".5" style="fill:none"/>
+        </g>
+    </g>
+</svg>
