@@ -40,7 +40,7 @@
         <div class="top-bar-wrap">
             <div class="top-bar">
                 <p class="txt">사용하고 있는 인터넷 익스플로러 브라우저는 서비스 지원이 종료되며, 베스트샵 사이트 서비스를 정상적으로 이용하실 수 없기 때문에 대체 브라우저를 이용하시기 바랍니다.</p>
-                <a href="javascript:void(0);" class="btn btn-down s03">대체 브라우저 다운로드</a>
+                <a href="/support/notice/detail-276?page=1&keyword=" class="btn btn-down s03">대체 브라우저 다운로드</a>
             </div>
             
             <button type="button" class="btn-close"><span class="blind">닫기</span></button>

@@ -439,9 +439,19 @@ function popup(){
 		$(this).parents(".popup").find(".btnPopClose").trigger("click");
 		$(closePopId).find(".btnPopClose").trigger("click");
 	};
+
+    
 	$(document).on("click", ".btnPopConnectClose", popAllOff);
 };
 popup();
+
+// ie 호환성 배너 닫기
+function ieBarClose(){
+
+    $('.top-bar-wrap .btn-close').on('click', function(){
+        $(this).parents('.top-bar-wrap').css('display', 'none')
+    });
+};
 
 // 토스트팝업 3초 후 자동으로 닫힘
 function toastNone(){
@@ -457,6 +467,7 @@ $(document).ready(function() {
     footMenu();
     tabCommon();
     toastNone();
+    ieBarClose();
 
     if(_thsW > 767){
         megaGnb();
