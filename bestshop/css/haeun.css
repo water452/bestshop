@@ -955,8 +955,11 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .onepage .result-info-area + .btn-area .btn.btn-res {width:100%}
     .onepage .result-info-txt {font-size:13px; line-height:17px}
     .onepage .result-info-txt::after {margin-top:12px; padding-top:16px}
-    .onepage .result-info-list {display:block;}
+    .onepage .result-info-list {display:block; padding:0}
+    .onepage .result-info-list li {width:100%}
+    .onepage .result-info-list li + li {margin-left:0}
     .onepage .result-info-list dl {font-size:14px; line-height:22px}
+    .onepage .result-info-list dl dt {min-width:65px}
 
     .res-main.care .onepage .user-info-area {padding-top:50px}
     
