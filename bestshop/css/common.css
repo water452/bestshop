@@ -253,10 +253,10 @@ ul.input-list-type .input-wrap:first-of-type{margin-top:0}
 .top-bar-wrap + header .header-wrap.pc .dimmde {top:165px; height:calc(100% - 165px)}
 .top-bar-wrap {position:relative; width:100%; height:60px; line-height:60px; background-color:#6634e9}
 .top-bar-wrap .top-bar {margin:0 auto; max-width:1640px; font-size:0; text-align:center}
-.top-bar-wrap .top-bar .txt {display:inline-block; font-size:16px; line-height:24px; color:#fff; vertical-align:middle;}
+.top-bar-wrap .top-bar .txt {display:inline-block; margin-left:28px; font-size:16px; line-height:24px; color:#fff; vertical-align:middle; text-align:left; text-indent:-26px}
 .top-bar-wrap .top-bar .txt::before {content:''; display:inline-block; width:18px; height:18px; margin:3px 8px 3px 0; background:url('../images/icons/icon_safety.svg') no-repeat center / contain; vertical-align:top;}
 .top-bar-wrap .top-bar .btn-down {display:inline-block; margin-left:29px; font-size:14px; color:#fff; vertical-align:middle;}
-.top-bar-wrap .btn-close{position:absolute; width:24px; height:24px; top:50%; right:132px; transform:translateY(-50%); background:url('../images/icons/btn-close-24-white.svg') no-repeat center / contain}
+.top-bar-wrap .btn-close{width:24px; height:24px; margin-left:30px; background:url('../images/icons/btn-close-24-white.svg') no-repeat center / contain}
 
 /* 헤더 */
 .header{position:relative;z-index:10;background-color:#fff}
@@ -802,7 +802,7 @@ ul.shop-list li [class^="btn-"] > span {margin-left:0!important;}/* 추후 삭�
 	.header-wrap.pc{display:none;}
 	.header-wrap.mobile{display:block;}
 	.header-wrap .logo{width:auto; height:27px; margin:10px 0 11px}
-	.header-wrap .logo a {height:100%}
+	.header-wrap .logo a {height:100%} 
 	.header-wrap .logo a > img {height:100%}
 
 	.header-bottom{padding:0;margin-bottom:0;}

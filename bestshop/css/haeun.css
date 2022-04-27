@@ -946,6 +946,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     /* 매장상담예약 컨텐츠 영역 - 단일페이지 */
     .onepage .step-area.step01 .step-tit-area {padding-top:10px}
     .onepage .step-area.step03 .rt > .step-tit-area {padding-top:40px}
+    .onepage .step-area.step03 .step-tit-area {padding-top:100px}
     .onepage .step-area .user-info-area .rt {margin-top:0}
     .onepage .step-area .user-info-area .box-gray {padding:0}
     .onepage .step-tit-area {padding-top:50px}
