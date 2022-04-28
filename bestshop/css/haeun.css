@@ -50,7 +50,7 @@
 .res-main .guide-area .guide-info {padding:14px 0 0; background-color:#fff}
 
 /* 탭 있는 경우 */
-.res-main [class*="tab"] + .top-wrap .add-area {margin-top:32px}
+.res-main [class*="tab"] + .top-wrap .add-area {margin-top:20px}
 
 /* bg 있는 경우 */
 .res-main .guide-area.bg {background-image:linear-gradient(104deg,#ddd5f9,#ffccd8 100%)}
