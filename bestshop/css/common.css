@@ -143,7 +143,7 @@ table{border-collapse:collapse}
 
 /* select */
 .slt.border-type.disabled > a{background-color:#f4f4f4;color:#aaa;cursor:default;}
-.slt.border-type{position:relative;width:200px}
+.slt.border-type{position:relative;width:200px;z-index:1000;}
 .slt.border-type > a{display:block;width:100%;padding:10px 40px 10px 15px;border:1px solid #ddd;border-radius:8px;background-color:#fff;font-size:16px;line-height:26px;text-overflow:ellipsis;overflow:hidden}
 .slt.border-type.on > a{border-radius:8px 8px 0 0;border-color:#222;border-bottom-color:transparent}
 .slt.border-type > a::before{right:15px}
@@ -678,7 +678,6 @@ ul.shop-list li [class^="btn-"] > span {margin-left:0!important;}/* 추후 삭�
 @media screen and (max-width:767px){
 	.map-wrap > .input-select-type {margin-bottom:19px!important}
 	.map-wrap .api-area {width:calc(100% + 22px)!important; margin:-11px!important; border:none!important; border-radius:0!important}/* important 추후 삭제 예정 */
-	.map-wrap .api-area .map-list-wrap .btn-view.mToggle:after {background:#f4f4f4 url('../images/icons/icon_open.svg') 0 0 / contain no-repeat !important;} /* 추후 삭제 예정 */
 	.res-main .bottom-fixed-wrap {z-index:9 !important} /* 추후 삭제 예정 */
 	.res-main .bottom-fixed-wrap .bar-wrap .body-area .my-result > ul > li span {min-width:84px !important} /* 추후 삭제 예정 */
 }

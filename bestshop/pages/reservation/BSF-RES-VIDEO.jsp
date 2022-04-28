@@ -68,7 +68,7 @@
                                         <div class="box">
                                             <div class="tit-wrap">
                                                 <span class="tit">STEP 01</span>
-                                                <strong>정보 예약 및 <br class="pc-hidden">상담 예약</strong>
+                                                <strong>정보 입력 및 <br class="pc-hidden">상담 예약</strong>
                                             </div>
                                             <span class="icon-wrap">
                                                 <i class="icon06"></i>
