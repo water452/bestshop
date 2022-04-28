@@ -403,7 +403,7 @@ ul.input-acco-type .check-box .agr-txt-wrap .inner > ul > li > p {padding-left:1
 .step-area .btn-area.no-btn .result-txt {text-align:center}
 
 /* 유의사항 */
-.caution-box {margin-top:40px; padding:42px 40px; border-radius:8px; background-color:#f4f4f4}
+.caution-box {margin-top:90px; padding:42px 40px; border-radius:8px; background-color:#f4f4f4}
 .caution-box .tit {margin-bottom:10px; font-size:14px; font-weight:500; line-height:20px}
 .step-area + .btn-area + .caution-box {display:none}
 .step-area + .btn-area.active + .caution-box {display:block; margin-top:60px}
@@ -694,6 +694,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 .inq-area .inq-box-area .inq-box .btn-area {margin-top:60px}
 .inq-area .inq-box-area .inq-box.nonmember .btn-area {position:absolute; bottom:70px; left:0; right:0}
 .inq-area .inq-box-area .inq-box .btn-area .btn {display:inline-block}
+.res-main .inq-area .caution-box {margin-top:64px}
 
 .inq-area .inq-box-area .inq-box .phone-check-wrap ul.input-list-type {margin-top:30px}
 
@@ -1165,7 +1166,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .step-area .btn-area .btn.s01 {font-size:13px}
     
     /* 유의사항 */
-    .caution-box {margin-top:24px; padding:20px}
+    .caution-box {margin-top:75px; padding:20px}
     .step-area + .btn-area.active + .caution-box {margin-top:50px}
 
     /* 하단바 */
@@ -1380,7 +1381,8 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .res-main .inq-area .top-area .tit {font-size:16px; line-height:22px}
     .res-main .inq-area .inq-box-area .inq-box .body-area ul.info > li {font-size:14px; line-height:20px}
     .res-main .inq-area .inq-box-area .inq-box .btn-area {position:static; margin-top:55px}
-    .res-main .inq-area .inq-box-area .inq-box .btn-area .btn {font-size:13px}
+    .res-main .inq-areaK .inq-box-area .inq-box .btn-area .btn {font-size:13px}
+    .res-main .inq-area .caution-box {margin-top:24px}
     
     .res-main .inq-area .inq-box-area .inq-box .phone-check-wrap .input-list-type {margin-top:40px}
     
