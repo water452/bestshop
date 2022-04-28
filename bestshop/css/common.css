@@ -143,7 +143,7 @@ table{border-collapse:collapse}
 
 /* select */
 .slt.border-type.disabled > a{background-color:#f4f4f4;color:#aaa;cursor:default;}
-.slt.border-type{position:relative;width:200px;z-index:1000;}
+.slt.border-type{position:relative;width:200px;z-index:101;}
 .slt.border-type > a{display:block;width:100%;padding:10px 40px 10px 15px;border:1px solid #ddd;border-radius:8px;background-color:#fff;font-size:16px;line-height:26px;text-overflow:ellipsis;overflow:hidden}
 .slt.border-type.on > a{border-radius:8px 8px 0 0;border-color:#222;border-bottom-color:transparent}
 .slt.border-type > a::before{right:15px}
@@ -151,6 +151,8 @@ table{border-collapse:collapse}
 .slt.border-type ul li > a{padding:10px 15px;background-color:#fff;font-size:16px;line-height:26px;text-align:left}
 .slt.border-type ul li + li {margin-top:0}
 .slt.width-auto ul{width:auto;left:50%;transform:translateX(-50%)}
+
+.input-list-type li + li .slt.border-type {z-index:100;}
 
 /* step title */
 .step-tit ~ .step-tit{margin-top:50px}
