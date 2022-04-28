@@ -234,7 +234,7 @@ ul.input-base-type .chkrdo-btn input:checked + label {border-width:2px; line-hei
 .step-area .shop-date-wrap .sort-area button.view-list {background-image:url(../images/icons/icon-view-list.svg); background-repeat:no-repeat; background-position:0 center}
 .step-area .shop-date-wrap .sort-area button.view-list.active {background-image:url(../images/icons/icon-view-list_on.svg); background-repeat:no-repeat; background-position:0 center}
 
-.shop-date-wrap .map-wrap {display:none; position:relative; padding:67px 19px 19px; border:1px solid #000; border-radius:8px; overflow:hidden}
+.shop-date-wrap .map-wrap {display:none; position:relative; padding:67px 19px 19px; border:1px solid #000; border-radius:8px; overflow:hidden; isolation:isolate}
 .shop-date-wrap .map-wrap.active {display:block}
 .sort-block + .popup.toast {position:absolute; top:auto; bottom:39px; width:auto}
 .sort-block + .popup.toast .pop-wrap {margin:0 auto}
@@ -474,6 +474,7 @@ ul.input-acco-type .check-box .agr-txt-wrap .inner > ul > li > p {padding-left:1
 /* 케어십상담예약페이지 */
 .res-main.care .top-wrap {width:100%; max-width:1460px; margin:0 auto 50px; padding:0 40px}
 .res-main.care .popup.v-large .pop-wrap {width:calc(100% - 80px); max-width:1380px}
+.res-main.care .sticky-info-wrap.fixed {position:-webkit-sticky; position:sticky}
 
 .res-main .sticky-info-wrap {margin-bottom:70px; background-image:linear-gradient(to right,#a58bee,#f86791)}
 .res-main .sticky-info-wrap.fixed {position:-webkit-sticky; position:sticky; top:0; left:0; right:0; width:100%; z-index:102}
@@ -1066,7 +1067,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .map-wrap .api-area .map-list-wrap .info-txt > span {font-size:14px; line-height:20px}
     .map-wrap .api-area .map-list-wrap .btn-view {width:100%; height:18px; background:none; left:0; right:0; top:0; box-shadow:none}
     .map-wrap .api-area .map-list-wrap .btn-view::after {content:''; display:block; position:absolute; width:40px; height:5px; border-radius:5px; background-color:#ccc; background-image:none; top:9px; left:calc(50% - 20px)}
-    .map-wrap .api-area .map-list-wrap .btn-view.mToggle {display:block; height:32px; font-size:12px; color:#666; background: #f4f4f4}
+    .map-wrap .api-area .map-list-wrap .btn-view.mToggle {display:block; height:32px; font-size:12px; color:#666; background:#f4f4f4 url('../images/icons/icon_open.svg') 0 0 / contain no-repeat}
     .map-wrap .api-area .map-list-wrap .btn-view.mToggle:after {content:''; display:inline-block; position:static; width:12px; height:12px; margin-left:5px; background:#f4f4f4 url('../images/icons/icon_open.svg') 0 0 / contain no-repeat; vertical-align:middle; transition:all 0.1s linear; transform:rotate(180deg)}
     .map-wrap .api-area .map-list-wrap.active .btn-view.mToggle:after {transform:rotate(0)}
     .map-wrap .api-area .map-list-wrap .btn-view.mToggle span.pc-hidden {display:inline-block !important}
@@ -1350,6 +1351,8 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
 
     .bottom-cart-wrap {bottom:69px}
     .bottom-cart-wrap .bar-wrap.care-ex {position:relative; padding:0 16px}
+    .bottom-cart-wrap .bar-wrap.care-ex .head-area {padding-right:50px}
+    .bottom-cart-wrap.active .bar-wrap.care-ex .head-area {padding-right:0;}
     .bottom-cart-wrap .bar-wrap.care-ex .head-area .head-txt-area {padding:26px 0 25px}
     .bottom-cart-wrap .bar-wrap.care-ex .head-area .head-txt {font-size:13px; line-height:19px}
     .bottom-cart-wrap .bar-wrap.care-ex .head-area .btn-area {margin-right:0}

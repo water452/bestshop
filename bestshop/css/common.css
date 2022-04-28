@@ -671,7 +671,7 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 /* 임시 */
 .res-main.care .sticky-info-wrap.fixed {position:-webkit-sticky !important; position:sticky !important} /* 추후 삭제 예정 */
 .res-main .sticky-info-wrap.fixed {z-index:102!important}/* important 추후 삭제 예정 */
-.shop-date-wrap .map-wrap {overflow:hidden; isolation:isolate}
+.shop-date-wrap .map-wrap {overflow:hidden; isolation:isolate}/* 추후 삭제 예정 */
 .sort-block + .popup.toast {width:auto!important}/* important 추후 삭제 예정 */
 ul.shop-list li [class^="btn-"] > span {margin-left:0!important;}/* 추후 삭제 예정 */
 .onepage .step-tit:first-of-type{margin-top:0}
