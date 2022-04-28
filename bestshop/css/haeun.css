@@ -31,7 +31,7 @@
 
 /* 매장상담예약 상단 공통 영역 */
 .top-wrap {position:relative}
-.res-main .guide-area .guide-process {padding:50px 0 0}
+.res-main .guide-area .guide-process {padding:20px 0 0}
 .res-main .guide-area .guide-process .inner {max-width:1460px; margin:0 auto}
 .res-main .guide-area .guide-process .desc {margin:10px 0 30px; padding:0 40px; font-size:24px; font-weight:bold; line-height:32px}
 .res-main .guide-area [class*="guide-banner"] .swiper-wrapper {justify-content:space-between}
@@ -50,7 +50,6 @@
 .res-main .guide-area .guide-info {padding:14px 0 0; background-color:#fff}
 
 /* 탭 있는 경우 */
-.res-main [class*="tab"] + .top-wrap .guide-area .guide-process {padding:20px 0 0}
 .res-main [class*="tab"] + .top-wrap .add-area {margin-top:32px}
 
 /* bg 있는 경우 */
