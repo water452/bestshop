@@ -668,23 +668,6 @@ html .calendar .ui-button.ui-state-disabled:active{width:32px;height:32px;font-s
 .autoBtn.btn-play{background-image:url('../images/icons/btn_mega_bnr_play.svg');}
 .autoBtn.btn-pause{background-image:url('../images/icons/btn_mega_bnr_pause.svg');}
 
-/* 임시 */
-.res-main.care .sticky-info-wrap.fixed {position:-webkit-sticky !important; position:sticky !important} /* 추후 삭제 예정 */
-.res-main .sticky-info-wrap.fixed {z-index:102!important}/* important 추후 삭제 예정 */
-.shop-date-wrap .map-wrap {overflow:hidden; isolation:isolate}/* 추후 삭제 예정 */
-.sort-block + .popup.toast {width:auto!important}/* important 추후 삭제 예정 */
-ul.shop-list li [class^="btn-"] > span {margin-left:0!important;}/* 추후 삭제 예정 */
-.onepage .step-tit:first-of-type{margin-top:0}
-@media screen and (max-width:767px){
-	.map-wrap > .input-select-type {margin-bottom:19px!important}
-	.map-wrap .api-area {width:calc(100% + 22px)!important; margin:-11px!important; border:none!important; border-radius:0!important}/* important 추후 삭제 예정 */
-	.res-main .bottom-fixed-wrap {z-index:9 !important} /* 추후 삭제 예정 */
-	.res-main .bottom-fixed-wrap .bar-wrap .body-area .my-result > ul > li span {min-width:84px !important} /* 추후 삭제 예정 */
-	.bottom-cart-wrap .bar-wrap.care-ex .head-area {padding-right:50px !important}
-	.bottom-cart-wrap.active .bar-wrap.care-ex .head-area {padding-right:0 !important;}
-}
-/* //임시  */
-
 @media screen and (min-width:768px){
 	.header{border-bottom:1px solid #ddd;}
 	footer .foot-cont .pc-dropdown-wrap .link-wrap .link-section .depth2{display:block !important;}
