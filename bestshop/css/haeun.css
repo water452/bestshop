@@ -111,7 +111,7 @@
 .onepage .result-info-list li + li {margin-left:80px}
 .onepage .result-info-list dl {display:flex; font-size:20px; font-weight:500; line-height:28px; color:#fff}
 .onepage .result-info-list dl dt {min-width:90px; margin-right:5px}
-.onepage .result-info-list dl dd {text-align:left}
+.onepage .result-info-list dl dd {text-align:left; word-break:keep-all}
 
 .care.onepage .step-tit-area {padding-top:0}
 .care.onepage .step-tit-area .page-num {display:none}
