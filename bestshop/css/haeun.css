@@ -996,7 +996,7 @@ ul.prd-list > li .box .price-wrap dl dd {font-size:20px; font-weight:bold; line-
     .icon-btn input:checked + label .icon.etc {background-image:url(../images/icons/icon-etc_mo_on.svg)}    
 
     /* 제품선택 - 카테고리형 */
-    ul.input-cate-type {margin-top:-16px}
+    ul.input-cate-type {margin-top:-9px}
     ul.input-cate-type > li {flex-direction:column; width:100%; margin-top:25px; padding:0; background:none}
     ul.input-cate-type .cate-tit {padding:0; font-size:14px; font-weight:bold; line-height:20px}
     ul.input-cate-type .cate-tit > .icon {width:24px; height:24px; margin-right:4px}
